@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       163,          7]
-NotebookDataLength[    167110,       3052]
-NotebookOptionsPosition[    157816,       2869]
-NotebookOutlinePosition[    159870,       2919]
-CellTagsIndexPosition[    159534,       2907]
+NotebookDataLength[    166823,       3049]
+NotebookOptionsPosition[    157533,       2866]
+NotebookOutlinePosition[    159586,       2916]
+CellTagsIndexPosition[    159250,       2904]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1557,7 +1557,7 @@ Cell[BoxData[
    3.73488656419788*^9, 3.734886564813448*^9}, {3.734886671147263*^9, 
    3.734886680873809*^9}, 3.735053150345738*^9, {3.7364379345295205`*^9, 
    3.736437939000469*^9}},
- CellLabel->"In[32]:=",
+ CellLabel->"In[29]:=",
  CellID->1321558671,ExpressionUUID->"e34ccf02-36ff-4cd2-86bd-07f01107299a"],
 
 Cell[BoxData[
@@ -1726,17 +1726,192 @@ Cell[BoxData[
    3.7348669523319817`*^9}, {3.734866982604892*^9, 3.7348670003966894`*^9}, {
    3.734867971680154*^9, 3.734867977326089*^9}, 3.7348719724667544`*^9, {
    3.7348720051743813`*^9, 3.7348720145232754`*^9}, 3.7348848116525707`*^9},
- CellLabel->"In[33]:=",
+ CellLabel->"In[31]:=",
  CellID->366817356,ExpressionUUID->"262c179c-9877-4a21-afa9-c62a60da9cde"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`m$$ = 
-    PageRankCentrality, $CellContext`v$$ = $CellContext`measuresPlot, 
+    VertexDegree, $CellContext`v$$ = $CellContext`measuresPlot, 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`v$$], $CellContext`measuresPlot, 
+       "show"}, {$CellContext`hGraph -> 
+       "highlighted network", $CellContext`measuresPlot -> 
+       "scatter plot", $CellContext`measuresTable -> "table"}}, {{
+       Hold[$CellContext`m$$], VertexDegree, "measures"}, {
+      VertexDegree -> "valences", MeanNeighborDegree -> 
+       "mean neighbor degrees", DegreeCentrality -> "degree centralities", 
+       BetweennessCentrality -> "betweenness centralities", 
+       ClosenessCentrality -> "closeness centralities", EigenvectorCentrality -> 
+       "eigenvector centralities", PageRankCentrality -> "page ranks"}}, {
+      Hold[
+       Row[{
+         Manipulate`Place[1], 
+         Spacer[15], 
+         Manipulate`Place[2]}]], Manipulate`Dump`ThisIsNotAControl}}, 
+    Typeset`size$$ = {600., {197., 203.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    False, $CellContext`v$6587$$ = False, $CellContext`m$6588$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     2, StandardForm, 
+      "Variables" :> {$CellContext`m$$ = 
+        VertexDegree, $CellContext`v$$ = $CellContext`measuresPlot}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`v$$, $CellContext`v$6587$$, False], 
+        Hold[$CellContext`m$$, $CellContext`m$6588$$, False]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> $CellContext`v$$[
+        $CellContext`m$$[$CellContext`wGraph]], 
+      "Specifications" :> {{{$CellContext`v$$, $CellContext`measuresPlot, 
+          "show"}, {$CellContext`hGraph -> 
+          "highlighted network", $CellContext`measuresPlot -> 
+          "scatter plot", $CellContext`measuresTable -> "table"}, 
+         ControlPlacement -> 
+         1}, {{$CellContext`m$$, VertexDegree, "measures"}, {
+         VertexDegree -> "valences", MeanNeighborDegree -> 
+          "mean neighbor degrees", DegreeCentrality -> "degree centralities", 
+          BetweennessCentrality -> "betweenness centralities", 
+          ClosenessCentrality -> "closeness centralities", 
+          EigenvectorCentrality -> "eigenvector centralities", 
+          PageRankCentrality -> "page ranks"}, ControlPlacement -> 2}, 
+        Row[{
+          Manipulate`Place[1], 
+          Spacer[15], 
+          Manipulate`Place[2]}]}, "Options" :> {ControlPlacement -> Top}, 
+      "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{649., {244., 250.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`wGraph = 
+       Graph[{"guitar", "harpsichord", "baglamas", "toumperleki", 
+          "spoon drums", "bendir", "kompoloi-glass", "zither", "oud", "glass",
+           "saz", "zil", "accordion", "lute", "davul", "castanets", 
+          "triangle", "tambourine", "maracas", "contrabass", "synthesizer", 
+          "drums", "electric guitar", "ney", "crotalums", "tabla", 
+          "bendir\[Hyphen]zil", "voice"}, {
+         Null, SparseArray[
+          Automatic, {28, 28}, 0, {
+           1, {{0, 17, 18, 25, 38, 50, 55, 55, 56, 58, 63, 63, 64, 66, 68, 70,
+              70, 70, 75, 77, 80, 80, 81, 81, 82, 82, 82, 82, 83}, {{1}, {
+             2}, {3}, {4}, {5}, {6}, {7}, {8}, {10}, {12}, {13}, {16}, {17}, {
+             18}, {19}, {20}, {21}, {2}, {4}, {6}, {11}, {18}, {19}, {20}, {
+             21}, {4}, {5}, {6}, {9}, {10}, {12}, {14}, {15}, {18}, {20}, {
+             22}, {26}, {27}, {5}, {6}, {8}, {9}, {10}, {12}, {13}, {14}, {
+             15}, {18}, {19}, {20}, {6}, {9}, {11}, {20}, {28}, {14}, {9}, {
+             27}, {10}, {15}, {16}, {18}, {19}, {20}, {14}, {15}, {14}, {
+             15}, {18}, {26}, {19}, {20}, {22}, {23}, {26}, {24}, {25}, {
+             21}, {22}, {23}, {23}, {25}, {28}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1}}]}, {VertexLabels -> {
+            Placed["Name", Center]}, VertexLabelStyle -> {
+            Directive[Italic, 12]}, 
+          EdgeWeight -> {56, 3, 10, 8, 6, 4, 2, 1, 4, 3, 1, 2, 1, 3, 2, 7, 1, 
+           8, 2, 2, 1, 1, 1, 3, 1, 22, 1, 2, 4, 1, 4, 1, 1, 2, 4, 1, 1, 1, 14,
+            1, 1, 3, 1, 1, 2, 1, 1, 1, 1, 1, 13, 1, 3, 3, 1, 1, 8, 1, 7, 1, 1,
+            1, 1, 2, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 
+           2}}], $CellContext`measuresPlot[
+         Pattern[$CellContext`l, 
+          Blank[]]] := ListPlot[
+         Map[Labeled[
+           Part[#, 2], 
+           Rotate[
+            Part[#, 1], 90 Degree], Top]& , 
+          $CellContext`measuresList[$CellContext`l]], PlotStyle -> 
+         PointSize[Medium], PlotRange -> All, 
+         ImageSize -> {600, 400}], $CellContext`measuresList[
+         Pattern[$CellContext`l, 
+          Blank[]]] := Sort[
+         MapThread[List, {$CellContext`sfdata, $CellContext`l}], Part[#, 2] > 
+         Part[#2, 2]& ], $CellContext`sfdata = {
+        "guitar", "harpsichord", "baglamas", "toumperleki", "spoon drums", 
+         "bendir", "kompoloi-glass", "zither", "oud", "glass", "saz", "zil", 
+         "accordion", "lute", "davul", "castanets", "triangle", "tambourine", 
+         "maracas", "contrabass", "synthesizer", "drums", "electric guitar", 
+         "ney", "crotalums", "tabla", "bendir\[Hyphen]zil", 
+         "voice"}, $CellContext`hGraph[
+         Pattern[$CellContext`l, 
+          Blank[]]] := HighlightGraph[$CellContext`wGraph, 
+         VertexList[$CellContext`wGraph], VertexSize -> 
+         Thread[VertexList[$CellContext`wGraph] -> Rescale[$CellContext`l]], 
+         ImageSize -> {600, 400}], $CellContext`measuresTable[
+         Pattern[$CellContext`l, 
+          Blank[]]] := Pane[
+         Text[
+          Grid[
+           Sort[
+            MapThread[List, {$CellContext`sfdata, 
+              If[
+               Apply[And, 
+                Map[
+                FractionalPart[#] == 0& , $CellContext`l]], $CellContext`l, 
+               Map[NumberForm[#, {3, 4}]& , 
+                N[$CellContext`l]]]}], Part[#, 2] > Part[#2, 2]& ], 
+           Alignment -> {{Left, "."}}, Spacings -> {5, 0}]], 
+         ImageSize -> {600, 400}]}; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellID->6471457,ExpressionUUID->"4ff2bc71-2ebd-4c15-a3a4-aad4528dd530"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "ManipulateCaptionSection",ExpressionUUID->"ae8ba3b9-f9fa-458c-839b-e4f135276fd9"],
+
+Cell["\<\
+This Demonstration plots a network encoding musical instruments used for \
+rhythm accompaniment. The data consists of 100 recordings of 21 popular songs \
+of Smyrna in nine-beat rhythms. You can choose various measures. The results \
+are also presented in tables and scatter plots.\
+\>", "ManipulateCaption",
+ CellChangeTimes->{{3.7328854265794415`*^9, 3.7328854314831963`*^9}, {
+   3.7328854833325434`*^9, 3.7328855202990847`*^9}, {3.7328855802681885`*^9, 
+   3.7328856224431953`*^9}, {3.7328856543960133`*^9, 
+   3.7328856616376867`*^9}, {3.732885726972503*^9, 3.732885751571287*^9}, {
+   3.7328857870120015`*^9, 3.7328858267316046`*^9}, {3.732885884204194*^9, 
+   3.7328858942199583`*^9}, {3.7328859557165036`*^9, 3.732886101796096*^9}, {
+   3.732886132141062*^9, 3.732886157612029*^9}, {3.732886200531926*^9, 
+   3.7328862130120015`*^9}, {3.7328892191847553`*^9, 3.732889221783145*^9}, {
+   3.732889285279405*^9, 3.732889287534746*^9}, {3.732933455893656*^9, 
+   3.7329334593002863`*^9}, {3.732933506132036*^9, 3.732933550980855*^9}, {
+   3.73295495242604*^9, 3.732954970505034*^9}, {3.732956525491246*^9, 
+   3.7329565391544857`*^9}, 3.732968886174552*^9, {3.7330743174434834`*^9, 
+   3.7330743194667854`*^9}, {3.733074957148369*^9, 3.733074964956183*^9}, {
+   3.7344078378569384`*^9, 3.734407837881938*^9}, {3.7347117855836*^9, 
+   3.734711819447418*^9}, {3.734713372244569*^9, 3.73471339019949*^9}, 
+   3.7348172603228893`*^9, {3.734817309384203*^9, 3.734817317935606*^9}, {
+   3.734817400669264*^9, 3.7348174213000097`*^9}, {3.734817511824912*^9, 
+   3.734817539528215*^9}, {3.734886081061355*^9, 3.734886105989093*^9}, 
+   3.734886224937602*^9, {3.734886873667719*^9, 3.734886889224544*^9}},
+ CellID->47336901,ExpressionUUID->"a816c435-f69e-41bf-984a-5565578f9a4c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "ThumbnailSection",ExpressionUUID->"cfe8a83d-5904-4fc0-a3d6-d2cfecdc7078"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`m$$ = 
+    VertexDegree, $CellContext`v$$ = $CellContext`hGraph, Typeset`show$$ = 
+    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`v$$], $CellContext`hGraph, 
        "show"}, {$CellContext`hGraph -> 
        "highlighted network", $CellContext`measuresPlot -> 
@@ -1754,14 +1929,14 @@ Cell[BoxData[
          Manipulate`Place[2]}]], Manipulate`Dump`ThisIsNotAControl}}, 
     Typeset`size$$ = {600., {197., 203.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`v$26039$$ = False, $CellContext`m$26040$$ = False}, 
+    False, $CellContext`v$6643$$ = False, $CellContext`m$6644$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      2, StandardForm, 
       "Variables" :> {$CellContext`m$$ = 
         VertexDegree, $CellContext`v$$ = $CellContext`hGraph}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`v$$, $CellContext`v$26039$$, False], 
-        Hold[$CellContext`m$$, $CellContext`m$26040$$, False]}, 
+        Hold[$CellContext`v$$, $CellContext`v$6643$$, False], 
+        Hold[$CellContext`m$$, $CellContext`m$6644$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -1864,184 +2039,7 @@ Cell[BoxData[
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.7364330683048105`*^9, 3.736437949470355*^9},
- CellLabel->"Out[33]=",
- CellID->35789312,ExpressionUUID->"b9aaadf6-cb03-46ab-9891-91da6fe647ca"]
-}, Open  ]]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["", "ManipulateCaptionSection",ExpressionUUID->"ae8ba3b9-f9fa-458c-839b-e4f135276fd9"],
-
-Cell["\<\
-This Demonstration plots a network encoding musical instruments used for \
-rhythm accompaniment. The data consists of 100 recordings of 21 popular songs \
-of Smyrna in nine-beat rhythms. You can choose various measures. The results \
-are also presented in tables and scatter plots.\
-\>", "ManipulateCaption",
- CellChangeTimes->{{3.7328854265794415`*^9, 3.7328854314831963`*^9}, {
-   3.7328854833325434`*^9, 3.7328855202990847`*^9}, {3.7328855802681885`*^9, 
-   3.7328856224431953`*^9}, {3.7328856543960133`*^9, 
-   3.7328856616376867`*^9}, {3.732885726972503*^9, 3.732885751571287*^9}, {
-   3.7328857870120015`*^9, 3.7328858267316046`*^9}, {3.732885884204194*^9, 
-   3.7328858942199583`*^9}, {3.7328859557165036`*^9, 3.732886101796096*^9}, {
-   3.732886132141062*^9, 3.732886157612029*^9}, {3.732886200531926*^9, 
-   3.7328862130120015`*^9}, {3.7328892191847553`*^9, 3.732889221783145*^9}, {
-   3.732889285279405*^9, 3.732889287534746*^9}, {3.732933455893656*^9, 
-   3.7329334593002863`*^9}, {3.732933506132036*^9, 3.732933550980855*^9}, {
-   3.73295495242604*^9, 3.732954970505034*^9}, {3.732956525491246*^9, 
-   3.7329565391544857`*^9}, 3.732968886174552*^9, {3.7330743174434834`*^9, 
-   3.7330743194667854`*^9}, {3.733074957148369*^9, 3.733074964956183*^9}, {
-   3.7344078378569384`*^9, 3.734407837881938*^9}, {3.7347117855836*^9, 
-   3.734711819447418*^9}, {3.734713372244569*^9, 3.73471339019949*^9}, 
-   3.7348172603228893`*^9, {3.734817309384203*^9, 3.734817317935606*^9}, {
-   3.734817400669264*^9, 3.7348174213000097`*^9}, {3.734817511824912*^9, 
-   3.734817539528215*^9}, {3.734886081061355*^9, 3.734886105989093*^9}, 
-   3.734886224937602*^9, {3.734886873667719*^9, 3.734886889224544*^9}},
- CellID->47336901,ExpressionUUID->"a816c435-f69e-41bf-984a-5565578f9a4c"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["", "ThumbnailSection",ExpressionUUID->"cfe8a83d-5904-4fc0-a3d6-d2cfecdc7078"],
-
-Cell[BoxData[
- TagBox[
-  StyleBox[
-   DynamicModuleBox[{$CellContext`m$$ = 
-    VertexDegree, $CellContext`v$$ = $CellContext`hGraph, Typeset`show$$ = 
-    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-    "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`v$$], $CellContext`hGraph, 
-       "show"}, {$CellContext`hGraph -> 
-       "highlighted network", $CellContext`measuresPlot -> 
-       "scatter plot", $CellContext`measuresTable -> "table"}}, {{
-       Hold[$CellContext`m$$], VertexDegree, "measures"}, {
-      VertexDegree -> "valences", MeanNeighborDegree -> 
-       "mean neighbor degrees", DegreeCentrality -> "degree centralities", 
-       BetweennessCentrality -> "betweenness centralities", 
-       ClosenessCentrality -> "closeness centralities", EigenvectorCentrality -> 
-       "eigenvector centralities", PageRankCentrality -> "page ranks"}}, {
-      Hold[
-       Row[{
-         Manipulate`Place[1], 
-         Spacer[15], 
-         Manipulate`Place[2]}]], Manipulate`Dump`ThisIsNotAControl}}, 
-    Typeset`size$$ = {600., {197., 203.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`v$10439$$ = False, $CellContext`m$10440$$ = False}, 
-    DynamicBox[Manipulate`ManipulateBoxes[
-     2, StandardForm, 
-      "Variables" :> {$CellContext`m$$ = 
-        VertexDegree, $CellContext`v$$ = $CellContext`hGraph}, 
-      "ControllerVariables" :> {
-        Hold[$CellContext`v$$, $CellContext`v$10439$$, False], 
-        Hold[$CellContext`m$$, $CellContext`m$10440$$, False]}, 
-      "OtherVariables" :> {
-       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
-        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
-        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$}, "Body" :> $CellContext`v$$[
-        $CellContext`m$$[$CellContext`wGraph]], 
-      "Specifications" :> {{{$CellContext`v$$, $CellContext`hGraph, 
-          "show"}, {$CellContext`hGraph -> 
-          "highlighted network", $CellContext`measuresPlot -> 
-          "scatter plot", $CellContext`measuresTable -> "table"}, 
-         ControlPlacement -> 
-         1}, {{$CellContext`m$$, VertexDegree, "measures"}, {
-         VertexDegree -> "valences", MeanNeighborDegree -> 
-          "mean neighbor degrees", DegreeCentrality -> "degree centralities", 
-          BetweennessCentrality -> "betweenness centralities", 
-          ClosenessCentrality -> "closeness centralities", 
-          EigenvectorCentrality -> "eigenvector centralities", 
-          PageRankCentrality -> "page ranks"}, ControlPlacement -> 2}, 
-        Row[{
-          Manipulate`Place[1], 
-          Spacer[15], 
-          Manipulate`Place[2]}]}, "Options" :> {ControlPlacement -> Top}, 
-      "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{649., {244., 250.}},
-     SingleEvaluation->True],
-    Deinitialization:>None,
-    DynamicModuleValues:>{},
-    Initialization:>({$CellContext`wGraph = 
-       Graph[{"guitar", "harpsichord", "baglamas", "toumperleki", 
-          "spoon drums", "bendir", "kompoloi-glass", "zither", "oud", "glass",
-           "saz", "zil", "accordion", "lute", "davul", "castanets", 
-          "triangle", "tambourine", "maracas", "contrabass", "synthesizer", 
-          "drums", "electric guitar", "ney", "crotalums", "tabla", 
-          "bendir\[Hyphen]zil", "voice"}, {
-         Null, SparseArray[
-          Automatic, {28, 28}, 0, {
-           1, {{0, 17, 18, 25, 38, 50, 55, 55, 56, 58, 63, 63, 64, 66, 68, 70,
-              70, 70, 75, 77, 80, 80, 81, 81, 82, 82, 82, 82, 83}, {{1}, {
-             2}, {3}, {4}, {5}, {6}, {7}, {8}, {10}, {12}, {13}, {16}, {17}, {
-             18}, {19}, {20}, {21}, {2}, {4}, {6}, {11}, {18}, {19}, {20}, {
-             21}, {4}, {5}, {6}, {9}, {10}, {12}, {14}, {15}, {18}, {20}, {
-             22}, {26}, {27}, {5}, {6}, {8}, {9}, {10}, {12}, {13}, {14}, {
-             15}, {18}, {19}, {20}, {6}, {9}, {11}, {20}, {28}, {14}, {9}, {
-             27}, {10}, {15}, {16}, {18}, {19}, {20}, {14}, {15}, {14}, {
-             15}, {18}, {26}, {19}, {20}, {22}, {23}, {26}, {24}, {25}, {
-             21}, {22}, {23}, {23}, {25}, {28}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 
-            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
-            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
-            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
-            1, 1, 1, 1, 1, 1, 1, 1}}]}, {VertexLabels -> {
-            Placed["Name", Center]}, VertexLabelStyle -> {
-            Directive[Italic, 12]}, 
-          EdgeWeight -> {56, 3, 10, 8, 6, 4, 2, 1, 4, 3, 1, 2, 1, 3, 2, 7, 1, 
-           8, 2, 2, 1, 1, 1, 3, 1, 22, 1, 2, 4, 1, 4, 1, 1, 2, 4, 1, 1, 1, 14,
-            1, 1, 3, 1, 1, 2, 1, 1, 1, 1, 1, 13, 1, 3, 3, 1, 1, 8, 1, 7, 1, 1,
-            1, 1, 2, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 
-           2}}], $CellContext`hGraph[
-         Pattern[$CellContext`l, 
-          Blank[]]] := HighlightGraph[$CellContext`wGraph, 
-         VertexList[$CellContext`wGraph], VertexSize -> 
-         Thread[VertexList[$CellContext`wGraph] -> Rescale[$CellContext`l]], 
-         ImageSize -> {600, 400}], $CellContext`measuresPlot[
-         Pattern[$CellContext`l, 
-          Blank[]]] := ListPlot[
-         Map[Labeled[
-           Part[#, 2], 
-           Rotate[
-            Part[#, 1], 90 Degree], Top]& , 
-          $CellContext`measuresList[$CellContext`l]], PlotStyle -> 
-         PointSize[Medium], PlotRange -> {0, 20}, 
-         ImageSize -> {600, 400}], $CellContext`measuresList[
-         Pattern[$CellContext`l, 
-          Blank[]]] := Sort[
-         MapThread[List, {$CellContext`sfdata, $CellContext`l}], Part[#, 2] > 
-         Part[#2, 2]& ], $CellContext`sfdata = {
-        "guitar", "harpsichord", "baglamas", "toumperleki", "spoon drums", 
-         "bendir", "kompoloi-glass", "zither", "oud", "glass", "saz", "zil", 
-         "accordion", "lute", "davul", "castanets", "triangle", "tambourine", 
-         "maracas", "contrabass", "synthesizer", "drums", "electric guitar", 
-         "ney", "crotalums", "tabla", "bendir\[Hyphen]zil", "voice"}, 
-       Attributes[PlotRange] = {ReadProtected}, $CellContext`measuresTable[
-         Pattern[$CellContext`l, 
-          Blank[]]] := Pane[
-         Text[
-          Grid[
-           Sort[
-            MapThread[List, {$CellContext`sfdata, 
-              If[
-               Apply[And, 
-                Map[
-                FractionalPart[#] == 0& , $CellContext`l]], $CellContext`l, 
-               Map[NumberForm[#, {3, 4}]& , 
-                N[$CellContext`l]]]}], Part[#, 2] > Part[#2, 2]& ], 
-           Alignment -> {{Left, "."}}, Spacings -> {5, 0}]], 
-         ImageSize -> {600, 400}]}; Typeset`initDone$$ = True),
-    SynchronousInitialization->True,
-    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
-    UnsavedVariables:>{Typeset`initDone$$},
-    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
-   Deployed->True,
-   StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- CellID->253286320,ExpressionUUID->"3368b8e4-58ed-4722-b76e-98803f214a12"]
+ CellID->23314478,ExpressionUUID->"f44ee7af-4a19-45c5-a308-854672d34ffe"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2073,14 +2071,14 @@ Cell[BoxData[
          Manipulate`Place[2]}]], Manipulate`Dump`ThisIsNotAControl}}, 
     Typeset`size$$ = {600., {197., 203.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`v$10495$$ = False, $CellContext`m$10496$$ = False}, 
+    False, $CellContext`v$6699$$ = False, $CellContext`m$6700$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      2, StandardForm, 
       "Variables" :> {$CellContext`m$$ = 
         MeanNeighborDegree, $CellContext`v$$ = $CellContext`hGraph}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`v$$, $CellContext`v$10495$$, False], 
-        Hold[$CellContext`m$$, $CellContext`m$10496$$, False]}, 
+        Hold[$CellContext`v$$, $CellContext`v$6699$$, False], 
+        Hold[$CellContext`m$$, $CellContext`m$6700$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -2150,7 +2148,7 @@ Cell[BoxData[
            Rotate[
             Part[#, 1], 90 Degree], Top]& , 
           $CellContext`measuresList[$CellContext`l]], PlotStyle -> 
-         PointSize[Medium], PlotRange -> {0, 20}, 
+         PointSize[Medium], PlotRange -> All, 
          ImageSize -> {600, 400}], $CellContext`measuresList[
          Pattern[$CellContext`l, 
           Blank[]]] := Sort[
@@ -2160,8 +2158,8 @@ Cell[BoxData[
          "bendir", "kompoloi-glass", "zither", "oud", "glass", "saz", "zil", 
          "accordion", "lute", "davul", "castanets", "triangle", "tambourine", 
          "maracas", "contrabass", "synthesizer", "drums", "electric guitar", 
-         "ney", "crotalums", "tabla", "bendir\[Hyphen]zil", "voice"}, 
-       Attributes[PlotRange] = {ReadProtected}, $CellContext`measuresTable[
+         "ney", "crotalums", "tabla", "bendir\[Hyphen]zil", 
+         "voice"}, $CellContext`measuresTable[
          Pattern[$CellContext`l, 
           Blank[]]] := Pane[
          Text[
@@ -2183,7 +2181,7 @@ Cell[BoxData[
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->670591886,ExpressionUUID->"8f5a923d-3200-4a22-b437-1afa3651cc4f"],
+ CellID->6337205,ExpressionUUID->"3fc7bc1b-a9fd-4b4c-bb8c-344709ef87f6"],
 
 Cell[BoxData[
  TagBox[
@@ -2210,14 +2208,14 @@ Cell[BoxData[
          Manipulate`Place[2]}]], Manipulate`Dump`ThisIsNotAControl}}, 
     Typeset`size$$ = {600., {197., 203.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`v$10551$$ = False, $CellContext`m$10552$$ = False}, 
+    False, $CellContext`v$6755$$ = False, $CellContext`m$6756$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      2, StandardForm, 
       "Variables" :> {$CellContext`m$$ = 
         DegreeCentrality, $CellContext`v$$ = $CellContext`measuresPlot}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`v$$, $CellContext`v$10551$$, False], 
-        Hold[$CellContext`m$$, $CellContext`m$10552$$, False]}, 
+        Hold[$CellContext`v$$, $CellContext`v$6755$$, False], 
+        Hold[$CellContext`m$$, $CellContext`m$6756$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -2282,7 +2280,7 @@ Cell[BoxData[
            Rotate[
             Part[#, 1], 90 Degree], Top]& , 
           $CellContext`measuresList[$CellContext`l]], PlotStyle -> 
-         PointSize[Medium], PlotRange -> {0, 20}, 
+         PointSize[Medium], PlotRange -> All, 
          ImageSize -> {600, 400}], $CellContext`measuresList[
          Pattern[$CellContext`l, 
           Blank[]]] := Sort[
@@ -2292,8 +2290,8 @@ Cell[BoxData[
          "bendir", "kompoloi-glass", "zither", "oud", "glass", "saz", "zil", 
          "accordion", "lute", "davul", "castanets", "triangle", "tambourine", 
          "maracas", "contrabass", "synthesizer", "drums", "electric guitar", 
-         "ney", "crotalums", "tabla", "bendir\[Hyphen]zil", "voice"}, 
-       Attributes[PlotRange] = {ReadProtected}, $CellContext`hGraph[
+         "ney", "crotalums", "tabla", "bendir\[Hyphen]zil", 
+         "voice"}, $CellContext`hGraph[
          Pattern[$CellContext`l, 
           Blank[]]] := HighlightGraph[$CellContext`wGraph, 
          VertexList[$CellContext`wGraph], VertexSize -> 
@@ -2320,7 +2318,7 @@ Cell[BoxData[
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->643648546,ExpressionUUID->"054d1601-1ed7-4d41-b91d-ab7235226f57"],
+ CellID->484814936,ExpressionUUID->"b5a6d5c7-ba07-4a91-ac0b-302055ecb067"],
 
 Cell[BoxData[
  TagBox[
@@ -2347,14 +2345,14 @@ Cell[BoxData[
          Manipulate`Place[2]}]], Manipulate`Dump`ThisIsNotAControl}}, 
     Typeset`size$$ = {600., {197., 203.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`v$10607$$ = False, $CellContext`m$10608$$ = False}, 
+    False, $CellContext`v$6811$$ = False, $CellContext`m$6812$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      2, StandardForm, 
       "Variables" :> {$CellContext`m$$ = 
         EigenvectorCentrality, $CellContext`v$$ = $CellContext`measuresTable},
        "ControllerVariables" :> {
-        Hold[$CellContext`v$$, $CellContext`v$10607$$, False], 
-        Hold[$CellContext`m$$, $CellContext`m$10608$$, False]}, 
+        Hold[$CellContext`v$$, $CellContext`v$6811$$, False], 
+        Hold[$CellContext`m$$, $CellContext`m$6812$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -2444,13 +2442,12 @@ Cell[BoxData[
            Rotate[
             Part[#, 1], 90 Degree], Top]& , 
           $CellContext`measuresList[$CellContext`l]], PlotStyle -> 
-         PointSize[Medium], PlotRange -> {0, 20}, 
+         PointSize[Medium], PlotRange -> All, 
          ImageSize -> {600, 400}], $CellContext`measuresList[
          Pattern[$CellContext`l, 
           Blank[]]] := Sort[
          MapThread[List, {$CellContext`sfdata, $CellContext`l}], Part[#, 2] > 
-         Part[#2, 2]& ], Attributes[PlotRange] = {ReadProtected}}; 
-     Typeset`initDone$$ = True),
+         Part[#2, 2]& ]}; Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -2458,7 +2455,7 @@ Cell[BoxData[
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->925982683,ExpressionUUID->"2bd0bc0e-15c0-459e-ba17-f2020ebc75cb"]
+ CellID->31230373,ExpressionUUID->"10631538-6545-4ee7-b014-52a730bebc01"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2867,8 +2864,8 @@ Cell["(Hellenic Complex Systems Laboratory)", "Author",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1280, 941},
-WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+WindowSize->{1264, 941},
+WindowMargins->{{-8, Automatic}, {Automatic, 0}},
 FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Demonstration.nb", 
   CharacterEncoding -> "UTF-8"]
@@ -2879,41 +2876,41 @@ StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Demonstration.nb",
 (*CellTagsOutline
 CellTagsIndex->{
  "ResizeImages"->{
-  Cell[147892, 2616, 496, 11, 29, "ControlSuggestions",ExpressionUUID->"1d002c43-37f6-4d94-bcae-190eed863aca",
+  Cell[147609, 2613, 496, 11, 22, "ControlSuggestions",ExpressionUUID->"1d002c43-37f6-4d94-bcae-190eed863aca",
    CellTags->"ResizeImages"]},
  "RotateAndZoomIn3D"->{
-  Cell[148391, 2629, 800, 19, 29, "ControlSuggestions",ExpressionUUID->"24a3d796-2283-416c-89f3-1d3ec641924d",
+  Cell[148108, 2626, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"24a3d796-2283-416c-89f3-1d3ec641924d",
    CellTags->"RotateAndZoomIn3D"]},
  "DragLocators"->{
-  Cell[149194, 2650, 457, 13, 29, "ControlSuggestions",ExpressionUUID->"dce970be-0786-49d4-ba49-90e79107f53b",
+  Cell[148911, 2647, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"dce970be-0786-49d4-ba49-90e79107f53b",
    CellTags->"DragLocators"]},
  "CreateAndDeleteLocators"->{
-  Cell[149654, 2665, 761, 19, 29, "ControlSuggestions",ExpressionUUID->"7fed9c95-e9ce-46f8-b7da-af2a9b280504",
+  Cell[149371, 2662, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"7fed9c95-e9ce-46f8-b7da-af2a9b280504",
    CellTags->"CreateAndDeleteLocators"]},
  "SliderZoom"->{
-  Cell[150418, 2686, 961, 23, 29, "ControlSuggestions",ExpressionUUID->"7c467a4b-cdd3-47f4-b87c-6a23c183d8ad",
+  Cell[150135, 2683, 961, 23, 22, "ControlSuggestions",ExpressionUUID->"7c467a4b-cdd3-47f4-b87c-6a23c183d8ad",
    CellTags->"SliderZoom"]},
  "GamepadControls"->{
-  Cell[151382, 2711, 491, 12, 29, "ControlSuggestions",ExpressionUUID->"ebb5129b-70d3-4bd8-b5dc-ba31ae03c9bd",
+  Cell[151099, 2708, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"ebb5129b-70d3-4bd8-b5dc-ba31ae03c9bd",
    CellTags->"GamepadControls"]},
  "AutomaticAnimation"->{
-  Cell[151876, 2725, 1586, 34, 29, "ControlSuggestions",ExpressionUUID->"7966f2dc-8772-4398-943d-e31ae86b4867",
+  Cell[151593, 2722, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"7966f2dc-8772-4398-943d-e31ae86b4867",
    CellTags->"AutomaticAnimation"]},
  "BookmarkAnimation"->{
-  Cell[153465, 2761, 1030, 24, 29, "ControlSuggestions",ExpressionUUID->"b2112022-9af2-4a17-a0de-4353160d1e6c",
+  Cell[153182, 2758, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"b2112022-9af2-4a17-a0de-4353160d1e6c",
    CellTags->"BookmarkAnimation"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ResizeImages", 158184, 2880},
- {"RotateAndZoomIn3D", 158350, 2883},
- {"DragLocators", 158516, 2886},
- {"CreateAndDeleteLocators", 158688, 2889},
- {"SliderZoom", 158858, 2892},
- {"GamepadControls", 159020, 2895},
- {"AutomaticAnimation", 159190, 2898},
- {"BookmarkAnimation", 159363, 2901}
+ {"ResizeImages", 157900, 2877},
+ {"RotateAndZoomIn3D", 158066, 2880},
+ {"DragLocators", 158232, 2883},
+ {"CreateAndDeleteLocators", 158404, 2886},
+ {"SliderZoom", 158574, 2889},
+ {"GamepadControls", 158736, 2892},
+ {"AutomaticAnimation", 158906, 2895},
+ {"BookmarkAnimation", 159079, 2898}
  }
 *)
 (*NotebookFileOutline
@@ -2973,84 +2970,84 @@ Cell[95431, 1651, 84, 0, 231, "ManipulateSection",ExpressionUUID->"6febbda9-0229
 Cell[CellGroupData[{
 Cell[95540, 1655, 3964, 74, 278, "Input",ExpressionUUID->"262c179c-9877-4a21-afa9-c62a60da9cde",
  CellID->366817356],
-Cell[99507, 1731, 7354, 137, 506, "Output",ExpressionUUID->"b9aaadf6-cb03-46ab-9891-91da6fe647ca",
- CellID->35789312]
+Cell[99507, 1731, 7271, 135, 506, "Output",ExpressionUUID->"4ff2bc71-2ebd-4c15-a3a4-aad4528dd530",
+ CellID->6471457]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[106910, 1874, 91, 0, 169, "ManipulateCaptionSection",ExpressionUUID->"ae8ba3b9-f9fa-458c-839b-e4f135276fd9"],
-Cell[107004, 1876, 1784, 25, 37, "ManipulateCaption",ExpressionUUID->"a816c435-f69e-41bf-984a-5565578f9a4c",
+Cell[106827, 1872, 91, 0, 169, "ManipulateCaptionSection",ExpressionUUID->"ae8ba3b9-f9fa-458c-839b-e4f135276fd9"],
+Cell[106921, 1874, 1784, 25, 37, "ManipulateCaption",ExpressionUUID->"a816c435-f69e-41bf-984a-5565578f9a4c",
  CellID->47336901]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[108825, 1906, 83, 0, 172, "ThumbnailSection",ExpressionUUID->"cfe8a83d-5904-4fc0-a3d6-d2cfecdc7078"],
-Cell[108911, 1908, 7296, 135, 506, "Output",ExpressionUUID->"3368b8e4-58ed-4722-b76e-98803f214a12",
- CellID->253286320]
+Cell[108742, 1904, 83, 0, 172, "ThumbnailSection",ExpressionUUID->"cfe8a83d-5904-4fc0-a3d6-d2cfecdc7078"],
+Cell[108828, 1906, 7248, 135, 506, "Output",ExpressionUUID->"f44ee7af-4a19-45c5-a308-854672d34ffe",
+ CellID->23314478]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[116244, 2048, 83, 0, 149, "SnapshotsSection",ExpressionUUID->"b95e0eee-6710-4213-9c67-0a3a2d6ab127"],
-Cell[116330, 2050, 7320, 135, 35, "Output",ExpressionUUID->"8f5a923d-3200-4a22-b437-1afa3651cc4f",
- CellID->670591886],
-Cell[123653, 2187, 7336, 135, 35, "Output",ExpressionUUID->"054d1601-1ed7-4d41-b91d-ab7235226f57",
- CellID->643648546],
-Cell[130992, 2324, 7368, 136, 35, "Output",ExpressionUUID->"2bd0bc0e-15c0-459e-ba17-f2020ebc75cb",
- CellID->925982683]
+Cell[116113, 2046, 83, 0, 142, "SnapshotsSection",ExpressionUUID->"b95e0eee-6710-4213-9c67-0a3a2d6ab127"],
+Cell[116199, 2048, 7271, 135, 506, "Output",ExpressionUUID->"3fc7bc1b-a9fd-4b4c-bb8c-344709ef87f6",
+ CellID->6337205],
+Cell[123473, 2185, 7289, 135, 506, "Output",ExpressionUUID->"b5a6d5c7-ba07-4a91-ac0b-302055ecb067",
+ CellID->484814936],
+Cell[130765, 2322, 7312, 135, 506, "Output",ExpressionUUID->"10631538-6545-4ee7-b014-52a730bebc01",
+ CellID->31230373]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[138397, 2465, 81, 0, 357, "DetailsSection",ExpressionUUID->"ce6b2a5b-9477-4343-ac0c-27c6207b6706"],
-Cell[138481, 2467, 2711, 38, 55, "DetailNotes",ExpressionUUID->"2b67f296-f3af-445a-b153-9c439ccb17ca",
+Cell[138114, 2462, 81, 0, 339, "DetailsSection",ExpressionUUID->"ce6b2a5b-9477-4343-ac0c-27c6207b6706"],
+Cell[138198, 2464, 2711, 38, 52, "DetailNotes",ExpressionUUID->"2b67f296-f3af-445a-b153-9c439ccb17ca",
  CellID->100213345],
-Cell[141195, 2507, 3006, 42, 103, "DetailNotes",ExpressionUUID->"2b67f296-f3af-445a-b153-9c439ccb17ca",
+Cell[140912, 2504, 3006, 42, 82, "DetailNotes",ExpressionUUID->"2b67f296-f3af-445a-b153-9c439ccb17ca",
  CellID->2106864106],
-Cell[144204, 2551, 1685, 24, 23, "DetailNotes",ExpressionUUID->"398aeb9a-2d5e-42ea-9883-959cafa5dc5b",
+Cell[143921, 2548, 1685, 24, 22, "DetailNotes",ExpressionUUID->"398aeb9a-2d5e-42ea-9883-959cafa5dc5b",
  CellID->254659462],
-Cell[145892, 2577, 176, 2, 23, "DetailNotes",ExpressionUUID->"88e084cb-d876-4a19-84bf-6fda26091f48",
+Cell[145609, 2574, 176, 2, 22, "DetailNotes",ExpressionUUID->"88e084cb-d876-4a19-84bf-6fda26091f48",
  CellID->1789472357],
-Cell[146071, 2581, 1689, 28, 39, "DetailNotes",ExpressionUUID->"6fe99a6e-7797-400e-a8be-49ec0782a896",
+Cell[145788, 2578, 1689, 28, 37, "DetailNotes",ExpressionUUID->"6fe99a6e-7797-400e-a8be-49ec0782a896",
  CellID->391870466]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[147797, 2614, 92, 0, 131, "ControlSuggestionsSection",ExpressionUUID->"0a4abaab-dcad-4de0-808b-1da025b677d6"],
-Cell[147892, 2616, 496, 11, 29, "ControlSuggestions",ExpressionUUID->"1d002c43-37f6-4d94-bcae-190eed863aca",
+Cell[147514, 2611, 92, 0, 126, "ControlSuggestionsSection",ExpressionUUID->"0a4abaab-dcad-4de0-808b-1da025b677d6"],
+Cell[147609, 2613, 496, 11, 22, "ControlSuggestions",ExpressionUUID->"1d002c43-37f6-4d94-bcae-190eed863aca",
  CellTags->"ResizeImages"],
-Cell[148391, 2629, 800, 19, 29, "ControlSuggestions",ExpressionUUID->"24a3d796-2283-416c-89f3-1d3ec641924d",
+Cell[148108, 2626, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"24a3d796-2283-416c-89f3-1d3ec641924d",
  CellTags->"RotateAndZoomIn3D"],
-Cell[149194, 2650, 457, 13, 29, "ControlSuggestions",ExpressionUUID->"dce970be-0786-49d4-ba49-90e79107f53b",
+Cell[148911, 2647, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"dce970be-0786-49d4-ba49-90e79107f53b",
  CellTags->"DragLocators"],
-Cell[149654, 2665, 761, 19, 29, "ControlSuggestions",ExpressionUUID->"7fed9c95-e9ce-46f8-b7da-af2a9b280504",
+Cell[149371, 2662, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"7fed9c95-e9ce-46f8-b7da-af2a9b280504",
  CellTags->"CreateAndDeleteLocators"],
-Cell[150418, 2686, 961, 23, 29, "ControlSuggestions",ExpressionUUID->"7c467a4b-cdd3-47f4-b87c-6a23c183d8ad",
+Cell[150135, 2683, 961, 23, 22, "ControlSuggestions",ExpressionUUID->"7c467a4b-cdd3-47f4-b87c-6a23c183d8ad",
  CellTags->"SliderZoom"],
-Cell[151382, 2711, 491, 12, 29, "ControlSuggestions",ExpressionUUID->"ebb5129b-70d3-4bd8-b5dc-ba31ae03c9bd",
+Cell[151099, 2708, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"ebb5129b-70d3-4bd8-b5dc-ba31ae03c9bd",
  CellTags->"GamepadControls"],
-Cell[151876, 2725, 1586, 34, 29, "ControlSuggestions",ExpressionUUID->"7966f2dc-8772-4398-943d-e31ae86b4867",
+Cell[151593, 2722, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"7966f2dc-8772-4398-943d-e31ae86b4867",
  CellTags->"AutomaticAnimation"],
-Cell[153465, 2761, 1030, 24, 29, "ControlSuggestions",ExpressionUUID->"b2112022-9af2-4a17-a0de-4353160d1e6c",
+Cell[153182, 2758, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"b2112022-9af2-4a17-a0de-4353160d1e6c",
  CellTags->"BookmarkAnimation"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[154532, 2790, 85, 0, 165, "SearchTermsSection",ExpressionUUID->"56fef68f-a842-45b4-bb43-9a49d6e50871"],
-Cell[154620, 2792, 272, 4, 23, "SearchTerms",ExpressionUUID->"573180ff-b60a-430d-9f77-61e5e3cd42b5",
+Cell[154249, 2787, 85, 0, 158, "SearchTermsSection",ExpressionUUID->"56fef68f-a842-45b4-bb43-9a49d6e50871"],
+Cell[154337, 2789, 272, 4, 22, "SearchTerms",ExpressionUUID->"573180ff-b60a-430d-9f77-61e5e3cd42b5",
  CellID->45926517],
-Cell[154895, 2798, 269, 4, 23, "SearchTerms",ExpressionUUID->"00a27502-66da-48a0-b0be-5268fd012a21",
+Cell[154612, 2795, 269, 4, 22, "SearchTerms",ExpressionUUID->"00a27502-66da-48a0-b0be-5268fd012a21",
  CellID->117909503],
-Cell[155167, 2804, 222, 3, 23, "SearchTerms",ExpressionUUID->"0a849189-6749-4427-b436-2424c8e4af24",
+Cell[154884, 2801, 222, 3, 22, "SearchTerms",ExpressionUUID->"0a849189-6749-4427-b436-2424c8e4af24",
  CellID->501085428],
-Cell[155392, 2809, 291, 4, 23, "SearchTerms",ExpressionUUID->"b6625a4c-df7f-448c-bea6-ba425a96a917",
+Cell[155109, 2806, 291, 4, 22, "SearchTerms",ExpressionUUID->"b6625a4c-df7f-448c-bea6-ba425a96a917",
  CellID->137411328],
-Cell[155686, 2815, 285, 4, 23, "SearchTerms",ExpressionUUID->"9e5cfe24-b618-4c1f-b8c2-a2c6f81094fc",
+Cell[155403, 2812, 285, 4, 22, "SearchTerms",ExpressionUUID->"9e5cfe24-b618-4c1f-b8c2-a2c6f81094fc",
  CellID->401688706],
-Cell[155974, 2821, 130, 1, 23, "SearchTerms",ExpressionUUID->"4b3d1c7e-67ec-4b1d-87e3-0838bcac48ce",
+Cell[155691, 2818, 130, 1, 22, "SearchTerms",ExpressionUUID->"4b3d1c7e-67ec-4b1d-87e3-0838bcac48ce",
  CellID->114171954],
-Cell[156107, 2824, 223, 3, 23, "SearchTerms",ExpressionUUID->"06bf1bdf-ed57-42f0-8fc7-916696043596",
+Cell[155824, 2821, 223, 3, 22, "SearchTerms",ExpressionUUID->"06bf1bdf-ed57-42f0-8fc7-916696043596",
  CellID->339820584]
 }, Open  ]],
-Cell[156345, 2830, 86, 0, 149, "RelatedLinksSection",ExpressionUUID->"2a301471-6be7-42bb-93e9-c88c932fcbbb"],
+Cell[156062, 2827, 86, 0, 143, "RelatedLinksSection",ExpressionUUID->"2a301471-6be7-42bb-93e9-c88c932fcbbb"],
 Cell[CellGroupData[{
-Cell[156456, 2834, 80, 0, 137, "AuthorSection",ExpressionUUID->"77d9784e-dd83-4b2c-a04a-88a147921841"],
-Cell[156539, 2836, 998, 24, 23, "Author",ExpressionUUID->"ae5fa1d9-ffb4-4264-8950-ff2a10644275",
+Cell[156173, 2831, 80, 0, 129, "AuthorSection",ExpressionUUID->"77d9784e-dd83-4b2c-a04a-88a147921841"],
+Cell[156256, 2833, 998, 24, 22, "Author",ExpressionUUID->"ae5fa1d9-ffb4-4264-8950-ff2a10644275",
  CellID->259720494],
-Cell[157540, 2862, 248, 3, 23, "Author",ExpressionUUID->"cd52bae4-1859-4597-aab4-c6c8f8d84c48",
+Cell[157257, 2859, 248, 3, 22, "Author",ExpressionUUID->"cd52bae4-1859-4597-aab4-c6c8f8d84c48",
  CellID->13853351]
 }, Open  ]]
 }, Open  ]]

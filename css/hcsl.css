@@ -87,8 +87,14 @@
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: small;
 	font-style: italic;
-	
 	background-color: #FFFFFF;
+}
+.c14 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	color: #000080;
+	background-color: #F7F7F7;
 }
 h1 {
 	font-family: Verdana, Geneva, sans-serif;
@@ -154,22 +160,22 @@ a:active {
 a.hidden {
 	color: #000080;
 	text-decoration: none;
-	background-color:#FFFFFF;
+	background-color:#F7F7F7;
 }
 
 a.hidden:visited {
   color: #000080;
-  background-color:#FFFFFF;
+  background-color:#F7F7F7;
 }
 
 a.hidden:hover {
 	color: #0000CC;
-	background-color:#FFFFFF;
+	background-color:#F7F7F7;
 }
 
 a.hidden:active {
 	color: #000080;
-	background-color:#FFFFFF;
+	background-color:#F7F7F7;
 	font-weight: bold;
 }
 

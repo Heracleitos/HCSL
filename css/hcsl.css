@@ -31,11 +31,11 @@
 	background-color: #FFFFFF;
 }
 .c6 {
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: helvetica, arial, sans-serif;;
 	font-size: small;
-	font-weight: normal;
-	color: #A80000;
-	background-color: #FFFFFF;
+	font-weight: bold;
+	color: #000080;
+	background-color: #F7F7F7;
 }
 .c7 {
 	font-family: Verdana, Geneva, sans-serif;
@@ -86,15 +86,9 @@
 .c13 {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: small;
+	color: #000000;
 	font-style: italic;
 	background-color: #FFFFFF;
-}
-.c14 {
-	font-family: helvetica, arial, sans-serif;;
-	font-size: small;
-	font-weight: bold;
-	color: #000080;
-	background-color: #F7F7F7;
 }
 h1 {
 	font-family: Verdana, Geneva, sans-serif;
@@ -144,63 +138,50 @@ a:link {
 	background-color: #FFFFFF;
 }
 a:visited {
-  color: #3366FF;
-  background-color:#FFFFFF;
+ 	 color: #3366FF;
+  	background-color:#FFFFFF;
 }
-
 a:hover {
 	text-decoration: none;
 }
-
 a:active {
 	color: #FF0000;
 	background-color:#FFFFFF;
 }
-
 a.hidden {
 	color: #000080;
 	text-decoration: none;
 	background-color:#F7F7F7;
 }
-
 a.hidden:visited {
   color: #000080;
   background-color:#F7F7F7;
 }
-
 a.hidden:hover {
 	color: #0000CC;
 	background-color:#F7F7F7;
 }
-
 a.hidden:active {
 	color: #000080;
 	background-color:#F7F7F7;
 	font-weight: bold;
 }
-
-
 a.nav:visited {
 	color: #cccccc;
 	background-color:#FFFFFF;
 	padding: 2px;
 }
-
 a.nav:hover {
 	color: #FFFFFF;
 	background-color: #666666;
 	padding: 2px;
 }
-
-
 a.menu:hover {
 	font-family: Verdana, Geneva, sans-serif;
 	font-weight: bold;
 	text-decoration: underline;
 	letter-spacing: 1px;
-	}
-
-
+}
 a.box:hover {
  color:#000000;
 	padding: 3px;

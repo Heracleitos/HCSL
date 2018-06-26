@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <link rel=”canonical” href=”https://www.hcsl.com/Notes/RRQC.html” />
+      <meta name="generator" content=
+         "HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+      <title>An Note on the Reliability and Risk Based Quality Control Optimization
+      </h1>
+      </title>
+      <link href="../Images/favicon.ico" rel="shortcut icon" title="HCSL shortcut" />
+      <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content=
+          "quality control, risk, residual risk, cost, reliability, failure, critical failure mode, sampling time interval, optimization"/>
+      <meta name="description" content=
+         "A note on the method of optimization of statistical quality control procedures to minimize the residual risk. The method has been developed by the Hellenic Complex Systems Laboratory." />
+      <meta name="author" content="ath@hcsl.com" />
+      <link href="../css/hcsl.css" rel="stylesheet" type="text/css" />
+   </head>
+   <body>
+      <table summary="HCSL website" width="97%" border="0" cellpadding="0" cellspacing="5">
+         <tr>
+            <td align="center" valign="top" bgcolor="#F7F7F7">
+               <table summary="HCSL website contents" width="195" border="0" cellpadding="5"
+                  cellspacing="5">				  
+                  <tr>
+                     <td>
+                        <div align="center">
+							<a href="../index.html" class="hidden">
+								<img src="../Images/HCSLlogo.png" alt="HCSL Logo" width="105" height="105" />
+							</a>
+                        </div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td align="center" valign="middle">
+						<a href="../index.html" class="hidden">
+							<span class="c6">Hellenic Complex&nbsp;Systems Laboratory</span>
+						</a>
+                       <p></p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td align="center" valign="middle">
+						<a href="../Intro/index.html" class="hidden"
+						style="margin-top: 2px; margin-bottom: 2px">
+						An Introduction to the GAs Based QC</a>
+                     </td>
+                  </tr>
+				  <tr>
+                     <td align="center" valign="middle">
+						<a href="../Notes/RRQC.html" class="hidden"
+						style="margin-top: 2px; margin-bottom: 2px">
+						An Note on the Reliability&nbsp;and&nbsp;Risk Based&nbsp;QC</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td align="center" valign="middle" >
+                        <p align="center" class="hidden" style=
+                           "margin-top: 2px; margin-bottom: 5px">
+                           <a href="../Publications/index.html" class=
+                              "hidden">HCSL Publications</a>
+                        </p>
+                        <p align="center"  style=
+                           "margin-top: 2px; margin-bottom: 2px">
+                           <a href="../Publications/GAsQC.html" class="hidden">GAs
+                           Based QC</a>
+                        </p>
+                        <p align="center"  style=
+                           "margin-top: 2px; margin-bottom: 2px">
+                           <a href="../Publications/QC.html" class="hidden">QC
+                           Design</a>
+                        </p>
+                        <p align="center"  style=
+                           "margin-top: 2px; margin-bottom: 2px">
+                           <a href="../Publications/Risk.html" class=
+                              "hidden">QC, Reliability, and Risk</a>
+                        </p>
+                        <p align="center"  style=
+                           "margin-top: 2px; margin-bottom: 2px">
+                           <a href="../Publications/Diagnostic.html" class="hidden">Diagnostic
+                           Accuracy</a>
+                        </p>
+                        <p align="center"  style=
+                           "margin-top: 2px; margin-bottom: 2px">
+                           <a href="../Publications/Clinical.html" class="hidden">Clinical Tools</a>
+                        </p>
+                        <p align="center"  style=
+                           "margin-top: 2px; margin-bottom: 2px">
+                           <a href="../Publications/Networks.html" class="hidden">Networks</a>
+                        </p>
+                        <p align="center"  style=
+                           "margin-top: 2px; margin-bottom: 2px">
+                           <a href="../Publications/Statistics.html" class=
+                              "hidden">Statistics of Complexity</a>
+                        </p>
+                        <p align="center"  style="margin-top: 2px; margin-bottom: 2px">
+                           <a href="../Publications/Entropy.html" class=
+                              "hidden">Entropy and GAs</a>
+                        </p>
+                     </td>
+                  </tr>
+                  <tr>
+					<td align="center" valign="middle"><span  style=
+                        "margin-top: 2px; margin-bottom: 2px"><a href=
+                        "../Publications/Fellows.html" class="hidden">Other Publications</a></span>
+                    </td>
+                  </tr>
+                  <tr>
+                     <td align="center" valign="middle"><span class="hidden" style=
+                        "margin-top: 2px; margin-bottom: 2px"><a href="../CLSI/index.html" class="hidden">CLSI
+                        Documents</a></span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td align="center" valign="middle">
+                        <p align="center"  style="margin-top: 2px; margin-bottom: 2px">
+                           <a href="../Links/index.html" class="hidden">Links</a>
+                        </p>
+                        <p align="center"  style="margin-top: 2px; margin-bottom: 2px">
+                           <a href="../Glossary/index.html" class="hidden">Glossary</a>
+                        </p>
+                        <p align="center"  style="margin-top: 2px; margin-bottom: 2px">
+                           <a href="../Contact/index.html" class="hidden">Contact Information</a>
+                        </p>
+                     </td>
+                  </tr>				  
+               </table>
+            </td>
+            <td width="100%" valign="top">
+               <blockquote>
+                 <h1>An Note on the Reliability and Risk Based Quality Control Optimization
+                 </h1>
+                 <p>
+                    <span class="c1">The explosive growth of the complexity of the clinical laboratories and of their analytical systems increases exponentially the difficulty of their management. New quantitative tools are needed to assist the sound judgment of their directors so that they can take optimal or near optimal decisions. We are actually experiencing a paradigm shift in the management of the clinical laboratories, as new techniques are introduced from other fields. Particularly promising are the risk management techniques that have recently been applied in some clinical laboratories, although they have already been extensively and successfully used in engineering.</span>
+				</p>
+				<p>
+					<span class="c1">As </span><span class="c7">risk management</span><span class="c1"> is defined the systematic application of management policies, procedures, and practices to the tasks of analyzing, evaluating, controlling, and monitoring risk. </span><span class="c7">Risk</span><span class="c1"> is the combination of the probability of occurrence of harm and the severity of that harm while </span><span class="c7">hazard</span><span class="c1"> is the potential source of harm. </span><span class="c7">Residual risk</span><span class="c1"> is the risk remaining after the control measures have been taken. To be applied to the analytical systems risk management needs to be supplemented by reliability analysis. </span><span class="c7">Reliability</span><span class="c1"> is the probability that an item will perform a required function, under stated conditions, for a stated period of time. Reliability is therefore the extension of quality into the time domain and may be paraphrased as the probability of non-failure in a given period. </span><span class="c7">Failure</span><span class="c1"> is the termination of the ability of an item to perform a required function, while </span><span class="c7">critical failure</span><span class="c1"> is a failure that can initiate hazard.</span>
+				</p>
+					<span class="c1">Actually, the QC planning problem of the analytical process can be translated into a probabilistic risk assessment problem. The reliability analysis of an analytical system should include a quantitative fault tree analysis to define the critical-failure modes and estimate the critical-failure time and measurement error probability density functions and their dependencies. A critical failure of an analytical system in a clinical laboratory setting can initiate hazard when the total measurement error of a result of a patient exceeds the medically acceptable measurement error. This incorrect result can cause harmful medical decisions. The risk of a critical failure is associated with the probability that it will occur and with the time that it will persist. The applied QC procedure detects a critical failure with a certain probability. As residual risk can be considered the risk of the measurement process, assuming the application of the QC procedure. We can define risk measures based on the partial moments of the measurement error with reference to the medically acceptable measurement error. Then we can estimate the risk before the application of the QC and the residual risk assuming QC is applied.</span>
+				</p>
+				<p>
+					<span class="c1">There is a certain financial cost associated with the QC, including the cost of the control materials and their measurements and the cost of the repetitions because of the rejections. Therefore, an operational approach to the optimal QC sampling planning could be based on the minimization of the QC related cost while the residual risk is acceptable.</span>
+				</p>
+				<p>
+					<span class="c1">To explore the estimation of the QC sampling time intervals using a residual risk measure we developed an algorithm that estimates the residual risk of any sampling time interval of QC procedures applied to analytical systems with an arbitrary number of critical-failure modes, assuming any probability density function of critical-failure time and measurement error for each mode. Furthermore, it can estimate the optimal QC sampling time intervals that minimize a QC related cost measure.</span>
+				</p>
+				<p>
+					<span class="c1">The algorithm we developed offers an insight in the relationship among a QC procedure, the reliability of an analytical system, the risk of the measurement error and the QC related cost. Furthermore, it demonstrates a method for the rational estimation of the QC sampling time intervals of analytical systems with an arbitrary number of failure modes. Therefore, given the reliability analysis of an analytical system, the risk analysis of the measurement error and a QC procedure, there is an optimal QC sampling time interval approach that can sustain an acceptable residual risk, while minimizes the QC related cost.</span>
+				</p>
+					<p>
+					<span class="c1">The needed quantitative fault tree analysis and the estimation of the critical-failure time probability density functions of the modern analytical systems may be very complex. It is possible though to derive at least upper bounds of them using techniques handling uncertainty. A more complex issue is the estimation of the dependencies between the critical-failure time probability density functions as well as of the respective measurement error probability density functions. Although the failure time probability density functions of some critical-failure modes of an analytical system may be independent, as for example the failure of an optical component of a photometric module and the purely mechanical failure of a sampling module, others will be dependent. There are techniques that can be used to estimate dependencies.</span>
+				</p> 
+				<p>
+					<span class="c1">If the measurement error probability density functions are dependent then multivariate distributions could be used and the respective covariance matrices could be estimated.</span>
+				</p>
+					<p>
+					<span class="c1">This is a large scale procedure that can be accomplished by the industry. Then a database could be established with the reliability analysis data that could be continuously updated with the failure data from the analytical systems in the field, operated by different operators, in different environments. Possibly a substantial commitment is required for such an effort to succeed, giving priority to the safety of the patient.</span>
+				</p>
+					<p>
+					<span class="c1">For the rigorous QC design and estimation of the optimal QC sampling time intervals it is necessary a risk analysis to be performed to correlate the size of the measurement error with the risk that can cause. Then the medically acceptable analytical error, the risk function that can be even a simple step function or a fuzzy function, and the acceptable risk and residual risk measures can be defined. The risk analysis is a very complex task too. It can be subjective or objective, quantitative or semi-quantitative and should be accomplished by the medical profession. In the future, as the potential of the data analysis will increase exponentially, appropriate risk functions should be estimated using evidence based methods.</span>
+				</p>
+				<p>
+					<span class="c1">In conclusion, to optimize the QC planning process a reliability analysis of the analytical system and a risk analysis of the measurement error are needed. Then it is possible to rationally estimate the optimal QC sampling time intervals to sustain an acceptable residual risk with the minimum QC related cost.</span>
+				</p>
+				<p>
+					<span class="c1">The algorithm for the optimization of the quality control of an analytical process, based on the reliability of the analytical system and the risk of the measurement uncertainty, is described in detail in the HCSL publication: Hatjimihail AT. Estimation of the optimal statistical quality control sampling time intervals using a residual risk measure. PLoS ONE 2009 4(6): e5770. doi:10.1371/journal.pone.0005770 (see
+					<a href="../Publications/Risk.html">HCSL publications on the statistical quality control, reliability, and risk</a>).</span>
+                  </p>
+                  <p class="c1">
+                     <a href="../Contact/index.html#Greek_Names" title=
+                        "on the standardisation of the Greek names">Aristeidis T. Chatzimichail,
+                     M.D., Ph.D.</a>,
+                  </p>
+                  <p class="c1">
+                     <a href="mailto:ath@hcsl.com">ath@hcsl.com</a>
+                  </p>
+               </blockquote>
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>

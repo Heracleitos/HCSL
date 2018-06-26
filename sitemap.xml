@@ -2,39 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://www.hcsl.com/</loc>
-      <lastmod>2018-06-23</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/index.html</loc>
-      <lastmod>2018-06-21</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/index.html</loc>
-      <lastmod>2018-06-23</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Intro/index.html</loc>
-      <lastmod>2018-06-21</lastmod>
+      <lastmod>2018-06-26</lastmod>
+   </url>
+   <url>
+      <loc>https://www.hcsl.com/Notes/RRQC.html</loc>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/GAsQC.html</loc>
-      <lastmod>2018-06-21</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/QC.html</loc>
-      <lastmod>2018-06-21</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Risk.html</loc>
-      <lastmod>2018-06-21</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Diagnostic.html</loc>
-      <lastmod>2018-06-23</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Clinical.html</loc>
-      <lastmod>2018-06-21</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Networks.html</loc>
@@ -42,19 +46,19 @@
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Statistics.html</loc>
-      <lastmod>2018-06-21</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Entropy.html</loc>
-      <lastmod>2018-06-21</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Fellows.html</loc>
-      <lastmod>2018-06-21</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/CLSI/index.html</loc>
-      <lastmod>2018-06-07</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Links/index.html</loc>
@@ -62,10 +66,10 @@
    </url>
    <url>
       <loc>https://www.hcsl.com/Glossary/index.html</loc>
-      <lastmod>2018-06-21</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Contact/index.html</loc>
-      <lastmod>2018-06-23</lastmod>
+      <lastmod>2018-06-26</lastmod>
    </url>
 </urlset>

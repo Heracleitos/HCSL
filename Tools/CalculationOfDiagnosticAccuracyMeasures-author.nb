@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       163,          7]
-NotebookDataLength[    344898,       6723]
-NotebookOptionsPosition[    337847,       6502]
-NotebookOutlinePosition[    339473,       6553]
-CellTagsIndexPosition[    339137,       6541]
+NotebookDataLength[    349447,       6688]
+NotebookOptionsPosition[    338129,       6468]
+NotebookOutlinePosition[    340180,       6518]
+CellTagsIndexPosition[    339844,       6506]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -27,13 +27,13 @@ Cell["Calculation of Diagnostic Accuracy Measures", "DemoTitle",
   3.71307867780015*^9, 3.7130786798804655`*^9}, {3.713094778075349*^9, 
   3.7130947929396114`*^9}, {3.7311354744924736`*^9, 3.731135488203733*^9}, {
   3.7375599528376303`*^9, 3.7375599626455154`*^9}, {3.737999789116386*^9, 
-  3.737999800156522*^9}, {3.737999878650625*^9, 3.737999882943913*^9}},
- ExpressionUUID -> "635f5b54-543f-4218-be84-ef0a97cc4687"],
+  3.737999800156522*^9}, {3.737999878650625*^9, 
+  3.737999882943913*^9}},ExpressionUUID->"635f5b54-543f-4218-be84-\
+ef0a97cc4687"],
 
 Cell[CellGroupData[{
 
-Cell["", "InitializationSection",
- ExpressionUUID -> "bb72117e-4678-4d41-9d10-e72cf6652c27"],
+Cell["", "InitializationSection",ExpressionUUID->"bb72117e-4678-4d41-9d10-e72cf6652c27"],
 
 Cell[BoxData[
  RowBox[{"Get", "[", "\"\<HypothesisTesting`\>\"", "]"}]], "Input",
@@ -131,8 +131,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, 
    3.737995703424161*^9},
- CellID->428424795,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[24]:=",
+ CellID->428424795,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[{
  RowBox[{
@@ -293,8 +293,8 @@ Cell[BoxData[{
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.7379957128052387`*^9}},
- CellID->522942954,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[25]:=",
+ CellID->522942954,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -399,8 +399,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.737995716315043*^9}},
- CellID->1990157036,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[27]:=",
+ CellID->1990157036,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -502,8 +502,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.737995719724333*^9}},
- CellID->870788172,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[28]:=",
+ CellID->870788172,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -608,8 +608,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.73799572626045*^9}},
- CellID->574847037,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[29]:=",
+ CellID->574847037,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -712,8 +712,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.7379957304342813`*^9}},
- CellID->1299754141,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[30]:=",
+ CellID->1299754141,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -815,8 +815,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.737995734675187*^9}},
- CellID->1040742831,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[31]:=",
+ CellID->1040742831,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -921,8 +921,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.7379957389389143`*^9}},
- CellID->300488829,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[32]:=",
+ CellID->300488829,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -1024,8 +1024,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.737995742314185*^9}},
- CellID->971850691,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[33]:=",
+ CellID->971850691,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -1130,8 +1130,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.7379957472867117`*^9}},
- CellID->1070565005,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[34]:=",
+ CellID->1070565005,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -1244,8 +1244,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.737995753766951*^9}},
- CellID->1146224460,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[35]:=",
+ CellID->1146224460,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -1351,8 +1351,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.737995757760662*^9}},
- CellID->872153186,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[36]:=",
+ CellID->872153186,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -1464,8 +1464,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.737995767930941*^9}},
- CellID->238273495,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[37]:=",
+ CellID->238273495,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -1571,8 +1571,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.73799577900144*^9}},
- CellID->1459628133,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[38]:=",
+ CellID->1459628133,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -1680,8 +1680,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.737995789880281*^9}},
- CellID->144938634,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[39]:=",
+ CellID->144938634,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -1793,8 +1793,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.737995798261759*^9}},
- CellID->883006342,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[40]:=",
+ CellID->883006342,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -1900,8 +1900,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.737995805405369*^9}},
- CellID->1175033689,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[41]:=",
+ CellID->1175033689,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -2009,8 +2009,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.737995814698079*^9}},
- CellID->761841326,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[42]:=",
+ CellID->761841326,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -2122,8 +2122,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.737995819130424*^9}},
- CellID->1713703140,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[43]:=",
+ CellID->1713703140,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -2267,8 +2267,8 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.7379958316296873`*^9}},
- CellID->529011409,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"],
+ CellLabel->"In[44]:=",
+ CellID->529011409,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"],
 
 Cell[BoxData[
  RowBox[{
@@ -2688,14 +2688,13 @@ Cell[BoxData[
    3.7377754588421855`*^9, 3.7377754669680877`*^9}, {3.7377759192744603`*^9, 
    3.737775920271449*^9}, {3.737808153134388*^9, 3.7378082276302133`*^9}, {
    3.737995703424161*^9, 3.737995841305407*^9}},
- CellID->2002419308,
- ExpressionUUID -> "83dd4752-d832-4209-abed-bb7e2b26ff4f"]
+ CellLabel->"In[45]:=",
+ CellID->2002419308,ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f"]
 }, Closed]],
 
 Cell[CellGroupData[{
 
-Cell["", "ManipulateSection",
- ExpressionUUID -> "b7b63016-e075-4346-9352-a1565d2446c8"],
+Cell["", "ManipulateSection",ExpressionUUID->"b7b63016-e075-4346-9352-a1565d2446c8"],
 
 Cell[CellGroupData[{
 
@@ -2777,7 +2776,7 @@ Cell[BoxData[
     RowBox[{
      RowBox[{"{", 
       RowBox[{"cl", ",", "0.95", ",", "\"\<\>\""}], "}"}], ",", "0.001", ",", 
-     "0.999", ",", "1", ",", 
+     "0.999", ",", "0.001", ",", 
      RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}], ",", 
      RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "}"}], ",", "\"\<\>\"", ",", 
    "\[IndentingNewLine]", 
@@ -2922,8 +2921,8 @@ Cell[BoxData[
    3.737996459856402*^9}, {3.737996762838603*^9, 3.737996775415724*^9}, {
    3.737996826639391*^9, 3.7379969098341923`*^9}, 3.7379970740264482`*^9, {
    3.737997864351246*^9, 3.7379978926441813`*^9}, {3.7381683858473473`*^9, 
-   3.738168386557926*^9}},
- ExpressionUUID -> "d45929c1-0360-4b21-a3ce-a5a8ff7f737e"],
+   3.738168386557926*^9}, {3.740987392925596*^9, 3.7409874007764983`*^9}},
+ CellLabel->"In[46]:=",ExpressionUUID->"d45929c1-0360-4b21-a3ce-a5a8ff7f737e"],
 
 Cell[BoxData[
  TagBox[
@@ -2956,7 +2955,7 @@ Cell[BoxData[
         Row[{
           Style["p", Italic], "-value"}], Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`cl$$], 0.95, ""}, 0.001, 0.999, 1}, {
+       Hold[$CellContext`cl$$], 0.95, ""}, 0.001, 0.999, 0.001}, {
       Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["measure", Bold]], Manipulate`Dump`ThisIsNotAControl}, {{
@@ -2967,23 +2966,23 @@ Cell[BoxData[
        "odds ratio", $CellContext`lrp -> 
        "likelihood ratio for \na positive result", $CellContext`lrn -> 
        "likelihood ratio for \na negative result"}}}, Typeset`size$$ = {
-    420., {199.8544921875, 205.1455078125}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`tn$41646$$ = 0, $CellContext`fp$41647$$ = 
-    0, $CellContext`tp$41648$$ = 0, $CellContext`fn$41649$$ = 
-    0, $CellContext`cl$41650$$ = 0, $CellContext`meas$41651$$ = False}, 
+    420., {199.5, 205.5}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = False, $CellContext`tn$5336$$ = 
+    0, $CellContext`fp$5337$$ = 0, $CellContext`tp$5338$$ = 
+    0, $CellContext`fn$5339$$ = 0, $CellContext`cl$5340$$ = 
+    0, $CellContext`meas$5341$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`cl$$ = 0.95, $CellContext`fn$$ = 
         50, $CellContext`fp$$ = 
         950, $CellContext`meas$$ = $CellContext`se, $CellContext`tn$$ = 
         8550, $CellContext`tp$$ = 450}, "ControllerVariables" :> {
-        Hold[$CellContext`tn$$, $CellContext`tn$41646$$, 0], 
-        Hold[$CellContext`fp$$, $CellContext`fp$41647$$, 0], 
-        Hold[$CellContext`tp$$, $CellContext`tp$41648$$, 0], 
-        Hold[$CellContext`fn$$, $CellContext`fn$41649$$, 0], 
-        Hold[$CellContext`cl$$, $CellContext`cl$41650$$, 0], 
-        Hold[$CellContext`meas$$, $CellContext`meas$41651$$, False]}, 
+        Hold[$CellContext`tn$$, $CellContext`tn$5336$$, 0], 
+        Hold[$CellContext`fp$$, $CellContext`fp$5337$$, 0], 
+        Hold[$CellContext`tp$$, $CellContext`tp$5338$$, 0], 
+        Hold[$CellContext`fn$$, $CellContext`fn$5339$$, 0], 
+        Hold[$CellContext`cl$$, $CellContext`cl$5340$$, 0], 
+        Hold[$CellContext`meas$$, $CellContext`meas$5341$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -3009,8 +3008,8 @@ $CellContext`fp$$, $CellContext`fn$$, $CellContext`tp$$, $CellContext`cl$$], {
         Style[
          Row[{
            Style["p", Italic], "-value"}], 
-         Bold], {{$CellContext`cl$$, 0.95, ""}, 0.001, 0.999, 1, Appearance -> 
-         "Labeled", ImageSize -> Tiny}, "", 
+         Bold], {{$CellContext`cl$$, 0.95, ""}, 0.001, 0.999, 0.001, 
+         Appearance -> "Labeled", ImageSize -> Tiny}, "", 
         Style[
         "measure", 
          Bold], {{$CellContext`meas$$, $CellContext`se, ""}, {$CellContext`se -> 
@@ -3022,7 +3021,7 @@ $CellContext`fp$$, $CellContext`fn$$, $CellContext`tp$$, $CellContext`cl$$], {
           "likelihood ratio for \na negative result"}}}, 
       "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{662., {227., 233.}},
+     ImageSizeCache->{645., {230., 236.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -3283,18 +3282,16 @@ $CellContext`ci[
             2], $CellContext`q = 1 - $CellContext`p}, {
           
           If[$CellContext`p > 
-           0, ((2 $CellContext`n) $CellContext`p + $CellContext`z^2 - 
+           0, (2 $CellContext`n $CellContext`p + $CellContext`z^2 - 
             1 - $CellContext`z 
-            Sqrt[$CellContext`z^2 - 2 - 
-              1/$CellContext`n + (
-                4 $CellContext`p) ($CellContext`n $CellContext`q + 1)])/(
+            Sqrt[$CellContext`z^2 - 2 - 1/$CellContext`n + 
+              4 $CellContext`p ($CellContext`n $CellContext`q + 1)])/(
            2 ($CellContext`n + $CellContext`z^2)), 0], 
           If[$CellContext`p < 
-           1, ((2 $CellContext`n) $CellContext`p + $CellContext`z^2 + 
+           1, (2 $CellContext`n $CellContext`p + $CellContext`z^2 + 
             1 + $CellContext`z 
-             Sqrt[$CellContext`z^2 + 2 - 
-               1/$CellContext`n + (
-                 4 $CellContext`p) ($CellContext`n $CellContext`q - 1)])/(
+             Sqrt[$CellContext`z^2 + 2 - 1/$CellContext`n + 
+               4 $CellContext`p ($CellContext`n $CellContext`q - 1)])/(
            2 ($CellContext`n + $CellContext`z^2)), 1]}], $CellContext`sp[
          Pattern[$CellContext`tn, 
           Blank[]], 
@@ -3487,14 +3484,13 @@ $CellContext`fp, $CellContext`fn, $CellContext`tp]
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->1088298122]
+ CellID->282445446,ExpressionUUID->"d86e4c79-a21a-4d67-b1bb-e198b0aab28b"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "ManipulateCaptionSection",
- ExpressionUUID -> "e2d76fa6-8162-4e9f-af39-4ad9b58d11b8"],
+Cell["", "ManipulateCaptionSection",ExpressionUUID->"e2d76fa6-8162-4e9f-af39-4ad9b58d11b8"],
 
 Cell[TextData[{
  "This Demonstration shows calculations of point estimations and confidence \
@@ -3502,7 +3498,8 @@ intervals for various accuracy measures of a diagnostic test for a disease. \
 This is done for differing negative and positive test results of nondiseased \
 and diseased populations and differing ",
  Cell[BoxData[
-  FormBox["p", TraditionalForm]], "InlineMath"],
+  FormBox["p", TraditionalForm]], "InlineMath",ExpressionUUID->
+  "65fe7456-4e23-4976-a401-7ce014f050f7"],
  "-values for the estimations of the lower and upper bounds of the confidence \
 intervals. The calculated measures are the sensitivity, the specificity, the \
 positive predictive value (PPV), the negative predictive value (NPV), the \
@@ -3511,7 +3508,8 @@ positive predictive value (PPV), the negative predictive value (NPV), the \
 measures can be selected using the menu. The negative and positive test \
 results of the nondiseased and diseased populations, along with the ",
  Cell[BoxData[
-  FormBox["p", TraditionalForm]], "InlineMath"],
+  FormBox["p", TraditionalForm]], "InlineMath",ExpressionUUID->
+  "867184c9-cf92-4b1c-98cb-8a82393931c6"],
  "-value, are chosen using the sliders."
 }], "ManipulateCaption",
  CellChangeTimes->{{3.7130198724966*^9, 3.713019894625255*^9}, {
@@ -3542,14 +3540,12 @@ results of the nondiseased and diseased populations, along with the ",
    3.737997202363121*^9}, {3.7379995451303473`*^9, 3.737999586551497*^9}, {
    3.7379996197668324`*^9, 3.7379996526728354`*^9}, {3.737999684293264*^9, 
    3.737999686265109*^9}, {3.7383287924276237`*^9, 3.738328873433267*^9}},
- CellID->6348795,
- ExpressionUUID -> "66f99fff-6d71-43e1-8bd2-b52447c905fb"]
+ CellID->6348795,ExpressionUUID->"66f99fff-6d71-43e1-8bd2-b52447c905fb"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "ThumbnailSection",
- ExpressionUUID -> "4fdd7526-f8bb-44d6-a606-59f5c8e296a5"],
+Cell["", "ThumbnailSection",ExpressionUUID->"4fdd7526-f8bb-44d6-a606-59f5c8e296a5"],
 
 Cell[BoxData[
  TagBox[
@@ -3582,7 +3578,7 @@ Cell[BoxData[
         Row[{
           Style["p", Italic], "-value"}], Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`cl$$], 0.95, ""}, 0.001, 0.999, 1}, {
+       Hold[$CellContext`cl$$], 0.95, ""}, 0.001, 0.999, 0.001}, {
       Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["measure", Bold]], Manipulate`Dump`ThisIsNotAControl}, {{
@@ -3592,24 +3588,24 @@ Cell[BoxData[
        "negative predictive value", $CellContext`or -> 
        "odds ratio", $CellContext`lrp -> 
        "likelihood ratio for \na positive result", $CellContext`lrn -> 
-       "likelihood ratio for \na negative result"}}}, Typeset`size$$ = {
-    420., {199.8544921875, 205.1455078125}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`tn$41730$$ = 0, $CellContext`fp$41731$$ = 
-    0, $CellContext`tp$41732$$ = 0, $CellContext`fn$41733$$ = 
-    0, $CellContext`cl$41734$$ = 0, $CellContext`meas$41735$$ = False}, 
+       "likelihood ratio for \na negative result"}}}, Typeset`size$$ = 
+    Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = False, $CellContext`tn$5420$$ = 
+    0, $CellContext`fp$5421$$ = 0, $CellContext`tp$5422$$ = 
+    0, $CellContext`fn$5423$$ = 0, $CellContext`cl$5424$$ = 
+    0, $CellContext`meas$5425$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`cl$$ = 0.95, $CellContext`fn$$ = 
         5, $CellContext`fp$$ = 
         235, $CellContext`meas$$ = $CellContext`se, $CellContext`tn$$ = 
         1054, $CellContext`tp$$ = 45}, "ControllerVariables" :> {
-        Hold[$CellContext`tn$$, $CellContext`tn$41730$$, 0], 
-        Hold[$CellContext`fp$$, $CellContext`fp$41731$$, 0], 
-        Hold[$CellContext`tp$$, $CellContext`tp$41732$$, 0], 
-        Hold[$CellContext`fn$$, $CellContext`fn$41733$$, 0], 
-        Hold[$CellContext`cl$$, $CellContext`cl$41734$$, 0], 
-        Hold[$CellContext`meas$$, $CellContext`meas$41735$$, False]}, 
+        Hold[$CellContext`tn$$, $CellContext`tn$5420$$, 0], 
+        Hold[$CellContext`fp$$, $CellContext`fp$5421$$, 0], 
+        Hold[$CellContext`tp$$, $CellContext`tp$5422$$, 0], 
+        Hold[$CellContext`fn$$, $CellContext`fn$5423$$, 0], 
+        Hold[$CellContext`cl$$, $CellContext`cl$5424$$, 0], 
+        Hold[$CellContext`meas$$, $CellContext`meas$5425$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -3635,8 +3631,8 @@ $CellContext`fp$$, $CellContext`fn$$, $CellContext`tp$$, $CellContext`cl$$], {
         Style[
          Row[{
            Style["p", Italic], "-value"}], 
-         Bold], {{$CellContext`cl$$, 0.95, ""}, 0.001, 0.999, 1, Appearance -> 
-         "Labeled", ImageSize -> Tiny}, "", 
+         Bold], {{$CellContext`cl$$, 0.95, ""}, 0.001, 0.999, 0.001, 
+         Appearance -> "Labeled", ImageSize -> Tiny}, "", 
         Style[
         "measure", 
          Bold], {{$CellContext`meas$$, $CellContext`se, ""}, {$CellContext`se -> 
@@ -3648,7 +3644,6 @@ $CellContext`fp$$, $CellContext`fn$$, $CellContext`tp$$, $CellContext`cl$$], {
           "likelihood ratio for \na negative result"}}}, 
       "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{662., {227., 233.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -3909,18 +3904,17 @@ $CellContext`ci[
             2], $CellContext`q = 1 - $CellContext`p}, {
           
           If[$CellContext`p > 
-           0, ((2 $CellContext`n) $CellContext`p + $CellContext`z^2 - 
+           0, (2 $CellContext`n $CellContext`p + $CellContext`z^2 - 
             1 - $CellContext`z 
-            Sqrt[$CellContext`z^2 - 2 - 
-              1/$CellContext`n + (
-                4 $CellContext`p) ($CellContext`n $CellContext`q + 1)])/(
+            Sqrt[$CellContext`z^2 - 2 - 1/$CellContext`n + 
+              4 $CellContext`p ($CellContext`n $CellContext`q + 1)])/(
            2 ($CellContext`n + $CellContext`z^2)), 0], 
+          
           If[$CellContext`p < 
-           1, ((2 $CellContext`n) $CellContext`p + $CellContext`z^2 + 
+           1, (2 $CellContext`n $CellContext`p + $CellContext`z^2 + 
             1 + $CellContext`z 
-             Sqrt[$CellContext`z^2 + 2 - 
-               1/$CellContext`n + (
-                 4 $CellContext`p) ($CellContext`n $CellContext`q - 1)])/(
+             Sqrt[$CellContext`z^2 + 2 - 1/$CellContext`n + 
+               4 $CellContext`p ($CellContext`n $CellContext`q - 1)])/(
            2 ($CellContext`n + $CellContext`z^2)), 1]}], $CellContext`sp[
          Pattern[$CellContext`tn, 
           Blank[]], 
@@ -4113,13 +4107,12 @@ $CellContext`fp, $CellContext`fn, $CellContext`tp]
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->908314955]
+ CellID->329199744,ExpressionUUID->"d12bd532-1644-4a3c-8a90-3c40e2d68e50"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "SnapshotsSection",
- ExpressionUUID -> "a0f6586f-ed00-43da-971f-a2cbd5ac9ff6"],
+Cell["", "SnapshotsSection",ExpressionUUID->"a0f6586f-ed00-43da-971f-a2cbd5ac9ff6"],
 
 Cell[BoxData[
  TagBox[
@@ -4152,7 +4145,7 @@ Cell[BoxData[
         Row[{
           Style["p", Italic], "-value"}], Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`cl$$], 0.95, ""}, 0.001, 0.999, 1}, {
+       Hold[$CellContext`cl$$], 0.95, ""}, 0.001, 0.999, 0.001}, {
       Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["measure", Bold]], Manipulate`Dump`ThisIsNotAControl}, {{
@@ -4162,24 +4155,24 @@ Cell[BoxData[
        "negative predictive value", $CellContext`or -> 
        "odds ratio", $CellContext`lrp -> 
        "likelihood ratio for \na positive result", $CellContext`lrn -> 
-       "likelihood ratio for \na negative result"}}}, Typeset`size$$ = {
-    420., {199.8544921875, 205.1455078125}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`tn$41814$$ = 0, $CellContext`fp$41815$$ = 
-    0, $CellContext`tp$41816$$ = 0, $CellContext`fn$41817$$ = 
-    0, $CellContext`cl$41818$$ = 0, $CellContext`meas$41819$$ = False}, 
+       "likelihood ratio for \na negative result"}}}, Typeset`size$$ = 
+    Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = False, $CellContext`tn$5504$$ = 
+    0, $CellContext`fp$5505$$ = 0, $CellContext`tp$5506$$ = 
+    0, $CellContext`fn$5507$$ = 0, $CellContext`cl$5508$$ = 
+    0, $CellContext`meas$5509$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`cl$$ = 0.95, $CellContext`fn$$ = 
         103, $CellContext`fp$$ = 
         1004, $CellContext`meas$$ = $CellContext`ppv, $CellContext`tn$$ = 
         8305, $CellContext`tp$$ = 793}, "ControllerVariables" :> {
-        Hold[$CellContext`tn$$, $CellContext`tn$41814$$, 0], 
-        Hold[$CellContext`fp$$, $CellContext`fp$41815$$, 0], 
-        Hold[$CellContext`tp$$, $CellContext`tp$41816$$, 0], 
-        Hold[$CellContext`fn$$, $CellContext`fn$41817$$, 0], 
-        Hold[$CellContext`cl$$, $CellContext`cl$41818$$, 0], 
-        Hold[$CellContext`meas$$, $CellContext`meas$41819$$, False]}, 
+        Hold[$CellContext`tn$$, $CellContext`tn$5504$$, 0], 
+        Hold[$CellContext`fp$$, $CellContext`fp$5505$$, 0], 
+        Hold[$CellContext`tp$$, $CellContext`tp$5506$$, 0], 
+        Hold[$CellContext`fn$$, $CellContext`fn$5507$$, 0], 
+        Hold[$CellContext`cl$$, $CellContext`cl$5508$$, 0], 
+        Hold[$CellContext`meas$$, $CellContext`meas$5509$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -4205,8 +4198,8 @@ $CellContext`fp$$, $CellContext`fn$$, $CellContext`tp$$, $CellContext`cl$$], {
         Style[
          Row[{
            Style["p", Italic], "-value"}], 
-         Bold], {{$CellContext`cl$$, 0.95, ""}, 0.001, 0.999, 1, Appearance -> 
-         "Labeled", ImageSize -> Tiny}, "", 
+         Bold], {{$CellContext`cl$$, 0.95, ""}, 0.001, 0.999, 0.001, 
+         Appearance -> "Labeled", ImageSize -> Tiny}, "", 
         Style[
         "measure", 
          Bold], {{$CellContext`meas$$, $CellContext`ppv, 
@@ -4219,7 +4212,6 @@ $CellContext`fp$$, $CellContext`fn$$, $CellContext`tp$$, $CellContext`cl$$], {
           "likelihood ratio for \na negative result"}}}, 
       "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{662., {227., 233.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -4480,18 +4472,17 @@ $CellContext`ci[
             2], $CellContext`q = 1 - $CellContext`p}, {
           
           If[$CellContext`p > 
-           0, ((2 $CellContext`n) $CellContext`p + $CellContext`z^2 - 
+           0, (2 $CellContext`n $CellContext`p + $CellContext`z^2 - 
             1 - $CellContext`z 
-            Sqrt[$CellContext`z^2 - 2 - 
-              1/$CellContext`n + (
-                4 $CellContext`p) ($CellContext`n $CellContext`q + 1)])/(
+            Sqrt[$CellContext`z^2 - 2 - 1/$CellContext`n + 
+              4 $CellContext`p ($CellContext`n $CellContext`q + 1)])/(
            2 ($CellContext`n + $CellContext`z^2)), 0], 
+          
           If[$CellContext`p < 
-           1, ((2 $CellContext`n) $CellContext`p + $CellContext`z^2 + 
+           1, (2 $CellContext`n $CellContext`p + $CellContext`z^2 + 
             1 + $CellContext`z 
-             Sqrt[$CellContext`z^2 + 2 - 
-               1/$CellContext`n + (
-                 4 $CellContext`p) ($CellContext`n $CellContext`q - 1)])/(
+             Sqrt[$CellContext`z^2 + 2 - 1/$CellContext`n + 
+               4 $CellContext`p ($CellContext`n $CellContext`q - 1)])/(
            2 ($CellContext`n + $CellContext`z^2)), 1]}], $CellContext`sp[
          Pattern[$CellContext`tn, 
           Blank[]], 
@@ -4684,7 +4675,7 @@ $CellContext`fp, $CellContext`fn, $CellContext`tp]
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->1735685809],
+ CellID->50134810,ExpressionUUID->"843390fd-dfe7-46ae-aa09-c1931338d457"],
 
 Cell[BoxData[
  TagBox[
@@ -4717,7 +4708,7 @@ Cell[BoxData[
         Row[{
           Style["p", Italic], "-value"}], Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`cl$$], 0.95, ""}, 0.001, 0.999, 1}, {
+       Hold[$CellContext`cl$$], 0.95, ""}, 0.001, 0.999, 0.001}, {
       Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["measure", Bold]], Manipulate`Dump`ThisIsNotAControl}, {{
@@ -4727,24 +4718,24 @@ Cell[BoxData[
        "negative predictive value", $CellContext`or -> 
        "odds ratio", $CellContext`lrp -> 
        "likelihood ratio for \na positive result", $CellContext`lrn -> 
-       "likelihood ratio for \na negative result"}}}, Typeset`size$$ = {
-    420., {199.8544921875, 205.1455078125}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`tn$41898$$ = 0, $CellContext`fp$41899$$ = 
-    0, $CellContext`tp$41900$$ = 0, $CellContext`fn$41901$$ = 
-    0, $CellContext`cl$41902$$ = 0, $CellContext`meas$41903$$ = False}, 
+       "likelihood ratio for \na negative result"}}}, Typeset`size$$ = 
+    Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = False, $CellContext`tn$5588$$ = 
+    0, $CellContext`fp$5589$$ = 0, $CellContext`tp$5590$$ = 
+    0, $CellContext`fn$5591$$ = 0, $CellContext`cl$5592$$ = 
+    0, $CellContext`meas$5593$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`cl$$ = 0.95, $CellContext`fn$$ = 
         6, $CellContext`fp$$ = 
         420, $CellContext`meas$$ = $CellContext`or, $CellContext`tn$$ = 
         2374, $CellContext`tp$$ = 37}, "ControllerVariables" :> {
-        Hold[$CellContext`tn$$, $CellContext`tn$41898$$, 0], 
-        Hold[$CellContext`fp$$, $CellContext`fp$41899$$, 0], 
-        Hold[$CellContext`tp$$, $CellContext`tp$41900$$, 0], 
-        Hold[$CellContext`fn$$, $CellContext`fn$41901$$, 0], 
-        Hold[$CellContext`cl$$, $CellContext`cl$41902$$, 0], 
-        Hold[$CellContext`meas$$, $CellContext`meas$41903$$, False]}, 
+        Hold[$CellContext`tn$$, $CellContext`tn$5588$$, 0], 
+        Hold[$CellContext`fp$$, $CellContext`fp$5589$$, 0], 
+        Hold[$CellContext`tp$$, $CellContext`tp$5590$$, 0], 
+        Hold[$CellContext`fn$$, $CellContext`fn$5591$$, 0], 
+        Hold[$CellContext`cl$$, $CellContext`cl$5592$$, 0], 
+        Hold[$CellContext`meas$$, $CellContext`meas$5593$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -4770,8 +4761,8 @@ $CellContext`fp$$, $CellContext`fn$$, $CellContext`tp$$, $CellContext`cl$$], {
         Style[
          Row[{
            Style["p", Italic], "-value"}], 
-         Bold], {{$CellContext`cl$$, 0.95, ""}, 0.001, 0.999, 1, Appearance -> 
-         "Labeled", ImageSize -> Tiny}, "", 
+         Bold], {{$CellContext`cl$$, 0.95, ""}, 0.001, 0.999, 0.001, 
+         Appearance -> "Labeled", ImageSize -> Tiny}, "", 
         Style[
         "measure", 
          Bold], {{$CellContext`meas$$, $CellContext`or, ""}, {$CellContext`se -> 
@@ -4783,7 +4774,6 @@ $CellContext`fp$$, $CellContext`fn$$, $CellContext`tp$$, $CellContext`cl$$], {
           "likelihood ratio for \na negative result"}}}, 
       "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{662., {227., 233.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -5044,18 +5034,17 @@ $CellContext`ci[
             2], $CellContext`q = 1 - $CellContext`p}, {
           
           If[$CellContext`p > 
-           0, ((2 $CellContext`n) $CellContext`p + $CellContext`z^2 - 
+           0, (2 $CellContext`n $CellContext`p + $CellContext`z^2 - 
             1 - $CellContext`z 
-            Sqrt[$CellContext`z^2 - 2 - 
-              1/$CellContext`n + (
-                4 $CellContext`p) ($CellContext`n $CellContext`q + 1)])/(
+            Sqrt[$CellContext`z^2 - 2 - 1/$CellContext`n + 
+              4 $CellContext`p ($CellContext`n $CellContext`q + 1)])/(
            2 ($CellContext`n + $CellContext`z^2)), 0], 
+          
           If[$CellContext`p < 
-           1, ((2 $CellContext`n) $CellContext`p + $CellContext`z^2 + 
+           1, (2 $CellContext`n $CellContext`p + $CellContext`z^2 + 
             1 + $CellContext`z 
-             Sqrt[$CellContext`z^2 + 2 - 
-               1/$CellContext`n + (
-                 4 $CellContext`p) ($CellContext`n $CellContext`q - 1)])/(
+             Sqrt[$CellContext`z^2 + 2 - 1/$CellContext`n + 
+               4 $CellContext`p ($CellContext`n $CellContext`q - 1)])/(
            2 ($CellContext`n + $CellContext`z^2)), 1]}], $CellContext`sp[
          Pattern[$CellContext`tn, 
           Blank[]], 
@@ -5248,7 +5237,7 @@ $CellContext`fp, $CellContext`fn, $CellContext`tp]
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->253531015],
+ CellID->243530831,ExpressionUUID->"cfa47d10-e945-4da2-86cd-235840f153ef"],
 
 Cell[BoxData[
  TagBox[
@@ -5281,7 +5270,7 @@ Cell[BoxData[
         Row[{
           Style["p", Italic], "-value"}], Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`cl$$], 0.95, ""}, 0.001, 0.999, 1}, {
+       Hold[$CellContext`cl$$], 0.95, ""}, 0.001, 0.999, 0.001}, {
       Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["measure", Bold]], Manipulate`Dump`ThisIsNotAControl}, {{
@@ -5291,24 +5280,24 @@ Cell[BoxData[
        "negative predictive value", $CellContext`or -> 
        "odds ratio", $CellContext`lrp -> 
        "likelihood ratio for \na positive result", $CellContext`lrn -> 
-       "likelihood ratio for \na negative result"}}}, Typeset`size$$ = {
-    420., {199.8544921875, 205.1455078125}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`tn$41982$$ = 0, $CellContext`fp$41983$$ = 
-    0, $CellContext`tp$41984$$ = 0, $CellContext`fn$41985$$ = 
-    0, $CellContext`cl$41986$$ = 0, $CellContext`meas$41987$$ = False}, 
+       "likelihood ratio for \na negative result"}}}, Typeset`size$$ = 
+    Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = False, $CellContext`tn$5672$$ = 
+    0, $CellContext`fp$5673$$ = 0, $CellContext`tp$5674$$ = 
+    0, $CellContext`fn$5675$$ = 0, $CellContext`cl$5676$$ = 
+    0, $CellContext`meas$5677$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`cl$$ = 0.95, $CellContext`fn$$ = 
         5, $CellContext`fp$$ = 
         1650, $CellContext`meas$$ = $CellContext`lrp, $CellContext`tn$$ = 
         17685, $CellContext`tp$$ = 28}, "ControllerVariables" :> {
-        Hold[$CellContext`tn$$, $CellContext`tn$41982$$, 0], 
-        Hold[$CellContext`fp$$, $CellContext`fp$41983$$, 0], 
-        Hold[$CellContext`tp$$, $CellContext`tp$41984$$, 0], 
-        Hold[$CellContext`fn$$, $CellContext`fn$41985$$, 0], 
-        Hold[$CellContext`cl$$, $CellContext`cl$41986$$, 0], 
-        Hold[$CellContext`meas$$, $CellContext`meas$41987$$, False]}, 
+        Hold[$CellContext`tn$$, $CellContext`tn$5672$$, 0], 
+        Hold[$CellContext`fp$$, $CellContext`fp$5673$$, 0], 
+        Hold[$CellContext`tp$$, $CellContext`tp$5674$$, 0], 
+        Hold[$CellContext`fn$$, $CellContext`fn$5675$$, 0], 
+        Hold[$CellContext`cl$$, $CellContext`cl$5676$$, 0], 
+        Hold[$CellContext`meas$$, $CellContext`meas$5677$$, False]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -5334,8 +5323,8 @@ $CellContext`fp$$, $CellContext`fn$$, $CellContext`tp$$, $CellContext`cl$$], {
         Style[
          Row[{
            Style["p", Italic], "-value"}], 
-         Bold], {{$CellContext`cl$$, 0.95, ""}, 0.001, 0.999, 1, Appearance -> 
-         "Labeled", ImageSize -> Tiny}, "", 
+         Bold], {{$CellContext`cl$$, 0.95, ""}, 0.001, 0.999, 0.001, 
+         Appearance -> "Labeled", ImageSize -> Tiny}, "", 
         Style[
         "measure", 
          Bold], {{$CellContext`meas$$, $CellContext`lrp, 
@@ -5348,7 +5337,6 @@ $CellContext`fp$$, $CellContext`fn$$, $CellContext`tp$$, $CellContext`cl$$], {
           "likelihood ratio for \na negative result"}}}, 
       "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{662., {227., 233.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -5609,18 +5597,17 @@ $CellContext`ci[
             2], $CellContext`q = 1 - $CellContext`p}, {
           
           If[$CellContext`p > 
-           0, ((2 $CellContext`n) $CellContext`p + $CellContext`z^2 - 
+           0, (2 $CellContext`n $CellContext`p + $CellContext`z^2 - 
             1 - $CellContext`z 
-            Sqrt[$CellContext`z^2 - 2 - 
-              1/$CellContext`n + (
-                4 $CellContext`p) ($CellContext`n $CellContext`q + 1)])/(
+            Sqrt[$CellContext`z^2 - 2 - 1/$CellContext`n + 
+              4 $CellContext`p ($CellContext`n $CellContext`q + 1)])/(
            2 ($CellContext`n + $CellContext`z^2)), 0], 
+          
           If[$CellContext`p < 
-           1, ((2 $CellContext`n) $CellContext`p + $CellContext`z^2 + 
+           1, (2 $CellContext`n $CellContext`p + $CellContext`z^2 + 
             1 + $CellContext`z 
-             Sqrt[$CellContext`z^2 + 2 - 
-               1/$CellContext`n + (
-                 4 $CellContext`p) ($CellContext`n $CellContext`q - 1)])/(
+             Sqrt[$CellContext`z^2 + 2 - 1/$CellContext`n + 
+               4 $CellContext`p ($CellContext`n $CellContext`q - 1)])/(
            2 ($CellContext`n + $CellContext`z^2)), 1]}], $CellContext`sp[
          Pattern[$CellContext`tn, 
           Blank[]], 
@@ -5813,13 +5800,12 @@ $CellContext`fp, $CellContext`fn, $CellContext`tp]
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->488213457]
+ CellID->374304152,ExpressionUUID->"59d53fbe-0941-4663-a2a3-eefac604fc2b"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "DetailsSection",
- ExpressionUUID -> "d29a24a2-6f07-4b67-94e7-2a98a86f5864"],
+Cell["", "DetailsSection",ExpressionUUID->"d29a24a2-6f07-4b67-94e7-2a98a86f5864"],
 
 Cell[TextData[{
  "Sensitivity refers to the fraction of the diseased population with a \
@@ -5831,19 +5817,19 @@ negative test result that is not diseased. Prevalence of the disease is the \
 ratio of the diseased population to the total (nondiseased and diseased) \
 population. If we denote by ",
  Cell[BoxData[
-  FormBox["sens", TraditionalForm]], "InlineMath",
-  ExpressionUUID -> "2f856993-6f2b-411a-8edf-7e46da246b70"],
+  FormBox["sens", TraditionalForm]], "InlineMath",ExpressionUUID->
+  "2f856993-6f2b-411a-8edf-7e46da246b70"],
  " the sensitivity",
  StyleBox[",",
   FontSize->11],
  " ",
  Cell[BoxData[
-  FormBox["spec", TraditionalForm]], "InlineMath",
-  ExpressionUUID -> "b5b1b2c2-9638-4dda-a7b3-5c2a6cc064e5"],
+  FormBox["spec", TraditionalForm]], "InlineMath",ExpressionUUID->
+  "b5b1b2c2-9638-4dda-a7b3-5c2a6cc064e5"],
  " the specificity and ",
  Cell[BoxData[
-  FormBox["pr", TraditionalForm]], "InlineMath",
-  ExpressionUUID -> "179ff4f0-4c64-4214-9c57-b21e5dd7fbbf"],
+  FormBox["pr", TraditionalForm]], "InlineMath",ExpressionUUID->
+  "179ff4f0-4c64-4214-9c57-b21e5dd7fbbf"],
  " the prevalence, we have: "
 }], "DetailNotes",
  CellChangeTimes->{
@@ -5866,8 +5852,7 @@ population. If we denote by ",
    3.737763579763549*^9}, 3.7377752509905453`*^9, {3.737997293535818*^9, 
    3.737997294704711*^9}, {3.737997333374378*^9, 3.7379973346655617`*^9}, {
    3.7379997114652567`*^9, 3.737999713983384*^9}},
- CellID->2279429,
- ExpressionUUID -> "7e9cbeec-c611-443f-b80f-6368a41d8430"],
+ CellID->2279429,ExpressionUUID->"7e9cbeec-c611-443f-b80f-6368a41d8430"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -5877,8 +5862,8 @@ Cell[TextData[{
      FractionBox["sens", 
       RowBox[{"1", "-", "sens"}]], "/", 
      FractionBox[
-      RowBox[{"1", "-", "spec"}], "spec"]}]}], TraditionalForm]], "InlineMath",
-  ExpressionUUID -> "b67040f2-8c3e-463b-b399-5d88f55f3879"],
+      RowBox[{"1", "-", "spec"}], "spec"]}]}], TraditionalForm]], 
+  "InlineMath",ExpressionUUID->"b67040f2-8c3e-463b-b399-5d88f55f3879"],
  ","
 }], "DetailNotes",
  CellChangeTimes->{
@@ -5900,8 +5885,7 @@ Cell[TextData[{
    3.737730783485168*^9, 3.737730783701161*^9}, {3.7377635797615495`*^9, 
    3.737763579763549*^9}, 3.7377752916800814`*^9, {3.737775387583991*^9, 
    3.737775388487981*^9}},
- CellID->73622859,
- ExpressionUUID -> "2cafa5b1-a680-415f-a416-906a48350f4f"],
+ CellID->73622859,ExpressionUUID->"2cafa5b1-a680-415f-a416-906a48350f4f"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -5913,7 +5897,7 @@ Cell[TextData[{
        FontFamily->"Times New Roman",
        FontSize->9], 
       RowBox[{"1", "-", "spec"}]]}]}], TraditionalForm]], "InlineMath",
-  ExpressionUUID -> "0f85322f-26b9-4b2a-8c90-59f3ac9981ca"],
+  ExpressionUUID->"0f85322f-26b9-4b2a-8c90-59f3ac9981ca"],
  ", "
 }], "DetailNotes",
  CellChangeTimes->{
@@ -5934,8 +5918,7 @@ Cell[TextData[{
    3.7377305158642073`*^9, {3.73773073715069*^9, 3.737730737838682*^9}, {
    3.737730783485168*^9, 3.737730783701161*^9}, {3.73776358319051*^9, 
    3.73776359021943*^9}},
- CellID->137835176,
- ExpressionUUID -> "6ea442d7-4416-4147-9ad2-7fd019d45a63"],
+ CellID->137835176,ExpressionUUID->"6ea442d7-4416-4147-9ad2-7fd019d45a63"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -5947,7 +5930,7 @@ Cell[TextData[{
        RowBox[{"1", "-", "sens"}],
        FontFamily->"Times New Roman",
        FontSize->9], "spec"]}]}], TraditionalForm]], "InlineMath",
-  ExpressionUUID -> "bdfcaead-7eb4-4223-add5-f35ae31afb20"],
+  ExpressionUUID->"bdfcaead-7eb4-4223-add5-f35ae31afb20"],
  "."
 }], "DetailNotes",
  CellChangeTimes->{
@@ -5969,8 +5952,7 @@ Cell[TextData[{
    3.737730783485168*^9, 3.737730783701161*^9}, 3.73776358319051*^9, {
    3.737775237135708*^9, 3.7377752709523177`*^9}, {3.7377753255377026`*^9, 
    3.737775333382613*^9}},
- CellID->215815519,
- ExpressionUUID -> "23fe2083-97c6-4b05-965d-0bc7957f6bfe"],
+ CellID->215815519,ExpressionUUID->"23fe2083-97c6-4b05-965d-0bc7957f6bfe"],
 
 Cell["\<\
 The Wilson score method with continuity correction is used [1] for \
@@ -5998,8 +5980,7 @@ positive predictive value and the negative predictive value.\
    3.737775377896101*^9, {3.73777707396032*^9, 3.7377770885391593`*^9}, {
    3.7378084792209883`*^9, 3.7378084858759704`*^9}, {3.73799737162283*^9, 
    3.737997413755487*^9}, 3.7383289175755653`*^9},
- CellID->161698357,
- ExpressionUUID -> "ff7a90a6-119f-4620-b718-a58aa222c01d"],
+ CellID->161698357,ExpressionUUID->"ff7a90a6-119f-4620-b718-a58aa222c01d"],
 
 Cell["\<\
 For the calculation of the confidence intervals of the (diagnostic) odds \
@@ -6028,8 +6009,7 @@ have asymptotically normal distributions [1].\
    3.737775377896101*^9, {3.73777707396032*^9, 3.7377770885391593`*^9}, {
    3.7378084792209883`*^9, 3.7378084858759704`*^9}, {3.73799737162283*^9, 
    3.737997425758759*^9}, 3.738328928335327*^9},
- CellID->209326755,
- ExpressionUUID -> "ff7a90a6-119f-4620-b718-a58aa222c01d"],
+ CellID->209326755,ExpressionUUID->"ff7a90a6-119f-4620-b718-a58aa222c01d"],
 
 Cell["\<\
 This Demonstration is an extension of another Demonstration [2] and is \
@@ -6056,12 +6036,11 @@ appropriate as an educational and research tool.\
    3.737775377896101*^9, {3.73777707396032*^9, 3.7377770885391593`*^9}, {
    3.7378084792209883`*^9, 3.7378084870974402`*^9}, {3.737997453153037*^9, 
    3.73799745670828*^9}, 3.738329194838112*^9},
- CellID->43220373,
- ExpressionUUID -> "ff7a90a6-119f-4620-b718-a58aa222c01d"],
+ CellID->43220373,ExpressionUUID->"ff7a90a6-119f-4620-b718-a58aa222c01d"],
 
 Cell["References", "DetailNotes",
  CellChangeTimes->{{3.737808466330365*^9, 3.737808468049344*^9}},
- CellID->47402540],
+ CellID->47402540,ExpressionUUID->"1a4d1d13-9b8c-47cc-9050-61609fd273e8"],
 
 Cell[TextData[{
  "[1] J. L. Fleiss, B. Levin and M. C. Paik, ",
@@ -6089,8 +6068,7 @@ Cell[TextData[{
    3.7377753586643248`*^9, 3.7377753719761734`*^9}, {3.7378084541825695`*^9, 
    3.737808459230031*^9}, {3.7379975306697273`*^9, 3.737997575859235*^9}, {
    3.737997619117426*^9, 3.737997624347641*^9}},
- CellID->107077714,
- ExpressionUUID -> "8ae5e949-9fbe-444a-b6c6-87ca05eae405"],
+ CellID->107077714,ExpressionUUID->"8ae5e949-9fbe-444a-b6c6-87ca05eae405"],
 
 Cell[TextData[{
  "[2] T. Chatzimichaill, \"Calculator for Diagnostic Accuracy Measures\" from \
@@ -6125,20 +6103,18 @@ CalculatorForDiagnosticAccuracyMeasures/"], None},
    3.737730783485168*^9, 3.737730783701161*^9}, 3.73776358319051*^9, {
    3.7377753586643248`*^9, 3.7377753719761734`*^9}, {3.7378084541825695`*^9, 
    3.7378084620341606`*^9}, {3.7379977269862223`*^9, 3.737997760971072*^9}},
- CellID->219484456,
- ExpressionUUID -> "8ae5e949-9fbe-444a-b6c6-87ca05eae405"]
+ CellID->219484456,ExpressionUUID->"8ae5e949-9fbe-444a-b6c6-87ca05eae405"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "ControlSuggestionsSection",
- ExpressionUUID -> "410b9302-3143-4989-9f88-3502795a89f0"],
+Cell["", "ControlSuggestionsSection",ExpressionUUID->"410b9302-3143-4989-9f88-3502795a89f0"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
-   CheckboxBox[False], Cell[" Resize Images",
-    ExpressionUUID -> "9741297e-a156-4cf9-9710-1974b8147ca4"]}],
+   CheckboxBox[False], Cell[
+   " Resize Images",ExpressionUUID->"9741297e-a156-4cf9-9710-1974b8147ca4"]}],
   "\"Click inside an image to reveal its orange resize frame.\\nDrag any of \
 the orange resize handles to resize the image.\"",
   TooltipDelay->0.35]], "ControlSuggestions",
@@ -6147,14 +6123,15 @@ the orange resize handles to resize the image.\"",
    3.7378084918929653`*^9, 3.737808495734027*^9}, 3.737995664483132*^9, 
    3.737997771401932*^9},
  FontFamily->"Verdana",
- CellTags->"ResizeImages",
- ExpressionUUID -> "8a6b1c0e-d1d8-4a6c-9551-4809ace4413b"],
+ CellTags->
+  "ResizeImages",ExpressionUUID->"8a6b1c0e-d1d8-4a6c-9551-4809ace4413b"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
-   CheckboxBox[False], Cell[" Rotate and Zoom in 3D",
-    ExpressionUUID -> "2548428a-ec86-4ffb-a054-800e3f72a4e8"]}],
+   CheckboxBox[False], Cell[
+   " Rotate and Zoom in 3D",ExpressionUUID->
+    "2548428a-ec86-4ffb-a054-800e3f72a4e8"]}],
   RowBox[{
    "\"Drag a 3D graphic to rotate it. Starting the drag near the center \
 tumbles\\nthe graphic; starting near a corner turns it parallel to the plane \
@@ -6167,14 +6144,14 @@ of the screen.\\nHold down \"",
      GrayLevel[0.9]], "\" on Mac) and drag up and down to zoom.\""}],
   TooltipDelay->0.35]], "ControlSuggestions",
  FontFamily->"Verdana",
- CellTags->"RotateAndZoomIn3D",
- ExpressionUUID -> "b26a9cd8-cacd-400e-8a38-9f2d8ec2c530"],
+ CellTags->
+  "RotateAndZoomIn3D",ExpressionUUID->"b26a9cd8-cacd-400e-8a38-9f2d8ec2c530"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
-   CheckboxBox[False], Cell[" Drag Locators",
-    ExpressionUUID -> "6c05f6d0-cbd9-47de-843c-d299e0c5cb11"]}],
+   CheckboxBox[False], Cell[
+   " Drag Locators",ExpressionUUID->"6c05f6d0-cbd9-47de-843c-d299e0c5cb11"]}],
   RowBox[{"\"Drag any locator (\"", 
     GraphicsBox[
      LocatorBox[
@@ -6182,14 +6159,15 @@ Cell[BoxData[
     "\", etc.) to move it around.\""}],
   TooltipDelay->0.35]], "ControlSuggestions",
  FontFamily->"Verdana",
- CellTags->"DragLocators",
- ExpressionUUID -> "0639746e-adbb-43b9-8d30-850a60a9580f"],
+ CellTags->
+  "DragLocators",ExpressionUUID->"0639746e-adbb-43b9-8d30-850a60a9580f"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
-   CheckboxBox[False], Cell[" Create and Delete Locators",
-    ExpressionUUID -> "2376cdb7-941f-4262-b9a3-0575cae5b90f"]}],
+   CheckboxBox[False], Cell[
+   " Create and Delete Locators",ExpressionUUID->
+    "2376cdb7-941f-4262-b9a3-0575cae5b90f"]}],
   RowBox[{"\"Insert a new locator in the graphic by holding down the \"", 
     FrameBox[
     "Alt", Background -> GrayLevel[0.9], FrameMargins -> 2, FrameStyle -> 
@@ -6201,14 +6179,15 @@ clicking it\\nwhile holding down the \"",
      GrayLevel[0.9]], "\" key.\""}],
   TooltipDelay->0.35]], "ControlSuggestions",
  FontFamily->"Verdana",
- CellTags->"CreateAndDeleteLocators",
- ExpressionUUID -> "6bad4586-adfb-4aca-ba88-41d162ab3a32"],
+ CellTags->
+  "CreateAndDeleteLocators",ExpressionUUID->"6bad4586-adfb-4aca-ba88-\
+41d162ab3a32"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
-   CheckboxBox[True], Cell[" Slider Zoom",
-    ExpressionUUID -> "135ab7d8-cc8f-4013-8f39-c0a88cb7c54e"]}],
+   CheckboxBox[True], Cell[
+   " Slider Zoom",ExpressionUUID->"135ab7d8-cc8f-4013-8f39-c0a88cb7c54e"]}],
   RowBox[{"\"Hold down the \"", 
     FrameBox[
     "Alt", Background -> GrayLevel[0.9], FrameMargins -> 2, FrameStyle -> 
@@ -6227,14 +6206,15 @@ value.\\nHold \"",
   TooltipDelay->0.35]], "ControlSuggestions",
  CellChangeTimes->{3.7130778477711267`*^9},
  FontFamily->"Verdana",
- CellTags->"SliderZoom",
- ExpressionUUID -> "8bccb1f4-c348-48a9-bc90-4f0114136a81"],
+ CellTags->
+  "SliderZoom",ExpressionUUID->"8bccb1f4-c348-48a9-bc90-4f0114136a81"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
-   CheckboxBox[True], Cell[" Gamepad Controls",
-    ExpressionUUID -> "514c957c-8f7c-4f10-b372-f2c1548953cd"]}],
+   CheckboxBox[True], Cell[
+   " Gamepad Controls",ExpressionUUID->
+    "514c957c-8f7c-4f10-b372-f2c1548953cd"]}],
   "\"Control this Demonstration with a gamepad or other\\nhuman interface \
 device connected to your computer.\"",
   TooltipDelay->0.35]], "ControlSuggestions",
@@ -6242,14 +6222,15 @@ device connected to your computer.\"",
   3.35696210375764*^9, 3.3895522232313623`*^9, {3.7377753982708693`*^9, 
    3.7377753983968697`*^9}},
  FontFamily->"Verdana",
- CellTags->"GamepadControls",
- ExpressionUUID -> "5ffa4d73-d8b9-48d4-a0cc-4666016dcfc7"],
+ CellTags->
+  "GamepadControls",ExpressionUUID->"5ffa4d73-d8b9-48d4-a0cc-4666016dcfc7"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
-   CheckboxBox[True], Cell[" Automatic Animation",
-    ExpressionUUID -> "ebb0f556-ac5e-478f-8496-85e1e7a290dd"]}],
+   CheckboxBox[True], Cell[
+   " Automatic Animation",ExpressionUUID->
+    "ebb0f556-ac5e-478f-8496-85e1e7a290dd"]}],
   RowBox[{"\"Animate a slider in this Demonstration by clicking the\"", 
     AdjustmentBox[
      Cell[
@@ -6279,14 +6260,15 @@ UqiK6pPe4XdEdAz6563tx/gejuORGMxJaz8mdpJn7hc="], "Graphics",
  CellChangeTimes->{{3.7312241344184003`*^9, 3.731224134493414*^9}, {
    3.7312242162342825`*^9, 3.7312242163592987`*^9}, 3.73816841922644*^9},
  FontFamily->"Verdana",
- CellTags->"AutomaticAnimation",
- ExpressionUUID -> "eb853a80-8216-468a-be8c-8e1e0c70aea5"],
+ CellTags->
+  "AutomaticAnimation",ExpressionUUID->"eb853a80-8216-468a-be8c-8e1e0c70aea5"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
-   CheckboxBox[False], Cell[" Bookmark Animation",
-    ExpressionUUID -> "fb5f6973-924e-46b5-a481-8a2bab614b04"]}],
+   CheckboxBox[False], Cell[
+   " Bookmark Animation",ExpressionUUID->
+    "fb5f6973-924e-46b5-a481-8a2bab614b04"]}],
   RowBox[{
    "\"See a prepared animation of this Demonstration by selecting\\n\"", 
     StyleBox["Animate Bookmarks", FontWeight -> "Bold"], "\" from the\"", 
@@ -6304,14 +6286,13 @@ UqiK6pPe4XdEdAz6563tx/gejuORGMxJaz8mdpJn7hc="], "Graphics",
     "\"menu.\""}],
   TooltipDelay->0.35]], "ControlSuggestions",
  FontFamily->"Verdana",
- CellTags->"BookmarkAnimation",
- ExpressionUUID -> "0403d085-5076-43b4-9888-e633e397d0cb"]
+ CellTags->
+  "BookmarkAnimation",ExpressionUUID->"0403d085-5076-43b4-9888-e633e397d0cb"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "SearchTermsSection",
- ExpressionUUID -> "22e511ff-729b-42a6-a712-8c0fc2510fcf"],
+Cell["", "SearchTermsSection",ExpressionUUID->"22e511ff-729b-42a6-a712-8c0fc2510fcf"],
 
 Cell["sensitivity", "SearchTerms",
  CellChangeTimes->{{3.7130212561999907`*^9, 3.713021278387187*^9}, {
@@ -6323,8 +6304,7 @@ Cell["sensitivity", "SearchTerms",
   3.713186310343882*^9}, {3.7311456580315485`*^9, 3.731145672334344*^9}, {
   3.737560030065725*^9, 3.737560093245989*^9}, {3.7378085748156157`*^9, 
   3.7378085842226477`*^9}},
- CellID->320223495,
- ExpressionUUID -> "68930ee2-a823-497f-8d67-87d4899e2a84"],
+ CellID->320223495,ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84"],
 
 Cell["specificity", "SearchTerms",
  CellChangeTimes->{{3.7130212561999907`*^9, 3.713021278387187*^9}, {
@@ -6336,8 +6316,7 @@ Cell["specificity", "SearchTerms",
   3.713186310343882*^9}, {3.7311456580315485`*^9, 3.731145672334344*^9}, {
   3.737560030065725*^9, 3.737560093245989*^9}, {3.7378085748156157`*^9, 
   3.7378085842226477`*^9}},
- CellID->900668834,
- ExpressionUUID -> "68930ee2-a823-497f-8d67-87d4899e2a84"],
+ CellID->900668834,ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84"],
 
 Cell["diagnostic test", "SearchTerms",
  CellChangeTimes->{{3.7130212561999907`*^9, 3.713021278387187*^9}, {
@@ -6349,8 +6328,7 @@ Cell["diagnostic test", "SearchTerms",
   3.713186310343882*^9}, {3.7311456580315485`*^9, 3.731145672334344*^9}, {
   3.737560030065725*^9, 3.737560093245989*^9}, {3.7378085748156157`*^9, 
   3.737808583613208*^9}},
- CellID->302506016,
- ExpressionUUID -> "68930ee2-a823-497f-8d67-87d4899e2a84"],
+ CellID->302506016,ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84"],
 
 Cell["clinical accuracy", "SearchTerms",
  CellChangeTimes->{{3.7130212561999907`*^9, 3.713021278387187*^9}, {
@@ -6362,8 +6340,7 @@ Cell["clinical accuracy", "SearchTerms",
   3.713186310343882*^9}, {3.7311456580315485`*^9, 3.731145672334344*^9}, {
   3.737560030065725*^9, 3.737560093245989*^9}, {3.7378085748156157`*^9, 
   3.7378085828928576`*^9}},
- CellID->42577409,
- ExpressionUUID -> "68930ee2-a823-497f-8d67-87d4899e2a84"],
+ CellID->42577409,ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84"],
 
 Cell["diagnostic accuracy", "SearchTerms",
  CellChangeTimes->{{3.7130212561999907`*^9, 3.713021278387187*^9}, {
@@ -6375,8 +6352,7 @@ Cell["diagnostic accuracy", "SearchTerms",
   3.713186310343882*^9}, {3.7311456580315485`*^9, 3.731145672334344*^9}, {
   3.737560030065725*^9, 3.737560093245989*^9}, {3.7378085748156157`*^9, 
   3.7378085823462715`*^9}},
- CellID->802566931,
- ExpressionUUID -> "68930ee2-a823-497f-8d67-87d4899e2a84"],
+ CellID->802566931,ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84"],
 
 Cell["positive predictive value", "SearchTerms",
  CellChangeTimes->{{3.7130212561999907`*^9, 3.713021278387187*^9}, {
@@ -6388,8 +6364,7 @@ Cell["positive predictive value", "SearchTerms",
   3.713186310343882*^9}, {3.7311456580315485`*^9, 3.731145672334344*^9}, {
   3.737560030065725*^9, 3.737560093245989*^9}, {3.7378085748156157`*^9, 
   3.737808581596322*^9}},
- CellID->92581986,
- ExpressionUUID -> "68930ee2-a823-497f-8d67-87d4899e2a84"],
+ CellID->92581986,ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84"],
 
 Cell["negative predictive value", "SearchTerms",
  CellChangeTimes->{{3.7130212561999907`*^9, 3.713021278387187*^9}, {
@@ -6401,8 +6376,7 @@ Cell["negative predictive value", "SearchTerms",
   3.713186310343882*^9}, {3.7311456580315485`*^9, 3.731145672334344*^9}, {
   3.737560030065725*^9, 3.737560093245989*^9}, {3.7378085748156157`*^9, 
   3.737808580909737*^9}},
- CellID->155244709,
- ExpressionUUID -> "68930ee2-a823-497f-8d67-87d4899e2a84"],
+ CellID->155244709,ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84"],
 
 Cell["likelihood ratio", "SearchTerms",
  CellChangeTimes->{{3.7130212561999907`*^9, 3.713021278387187*^9}, {
@@ -6414,8 +6388,7 @@ Cell["likelihood ratio", "SearchTerms",
   3.713186310343882*^9}, {3.7311456580315485`*^9, 3.731145672334344*^9}, {
   3.737560030065725*^9, 3.737560093245989*^9}, {3.7378085748156157`*^9, 
   3.7378085801435127`*^9}},
- CellID->251310033,
- ExpressionUUID -> "68930ee2-a823-497f-8d67-87d4899e2a84"],
+ CellID->251310033,ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84"],
 
 Cell["odds ratio", "SearchTerms",
  CellChangeTimes->{{3.7130212561999907`*^9, 3.713021278387187*^9}, {
@@ -6427,8 +6400,7 @@ Cell["odds ratio", "SearchTerms",
   3.713186310343882*^9}, {3.7311456580315485`*^9, 3.731145672334344*^9}, {
   3.737560030065725*^9, 3.737560093245989*^9}, {3.7378085748156157`*^9, 
   3.7378085792804437`*^9}},
- CellID->232488796,
- ExpressionUUID -> "68930ee2-a823-497f-8d67-87d4899e2a84"],
+ CellID->232488796,ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84"],
 
 Cell["confidence intervals", "SearchTerms",
  CellChangeTimes->{{3.7130212561999907`*^9, 3.713021278387187*^9}, {
@@ -6440,14 +6412,12 @@ Cell["confidence intervals", "SearchTerms",
   3.713186310343882*^9}, {3.7311456580315485`*^9, 3.731145672334344*^9}, {
   3.737560030065725*^9, 3.737560093245989*^9}, {3.7378085748156157`*^9, 
   3.73780857850618*^9}},
- CellID->412080702,
- ExpressionUUID -> "68930ee2-a823-497f-8d67-87d4899e2a84"]
+ CellID->412080702,ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "RelatedLinksSection",
- ExpressionUUID -> "88d9005a-d171-4f49-af07-199070556de2"],
+Cell["", "RelatedLinksSection",ExpressionUUID->"88d9005a-d171-4f49-af07-199070556de2"],
 
 Cell[TextData[ButtonBox["Analysis of Diagnostic Accuracy Measures",
  BaseStyle->"Hyperlink",
@@ -6459,14 +6429,12 @@ AnalysisOfDiagnosticAccuracyMeasures/"], None},
  "RelatedLinks",
  CellChangeTimes->{{3.731215443580144*^9, 3.7312154435811443`*^9}, {
   3.7312156636128597`*^9, 3.7312156856646137`*^9}},
- CellID->190406898,
- ExpressionUUID -> "16e5ae7b-99e5-4718-bd19-c09cfe7439d9"]
+ CellID->190406898,ExpressionUUID->"16e5ae7b-99e5-4718-bd19-c09cfe7439d9"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "AuthorSection",
- ExpressionUUID -> "8361dbe4-867c-4a6c-91ec-1d3c4a305416"],
+Cell["", "AuthorSection",ExpressionUUID->"8361dbe4-867c-4a6c-91ec-1d3c4a305416"],
 
 Cell[TextData[{
  "Contributed by: ",
@@ -6489,21 +6457,18 @@ Hatjimihail"], None},
 Hatjimihail"]
 }], "Author",
  CellChangeTimes->{{3.730557186236167*^9, 3.730557234748273*^9}},
- CellID->756003302,
- ExpressionUUID -> "940a4651-0e10-43e1-93ea-aaecb8d7fd22"],
+ CellID->756003302,ExpressionUUID->"940a4651-0e10-43e1-93ea-aaecb8d7fd22"],
 
 Cell["(Hellenic Complex Systems Laboratory)", "Author",
  CellChangeTimes->{{3.728734407610484*^9, 3.728734436420018*^9}, {
   3.7305571794951887`*^9, 3.7305571820053587`*^9}},
- CellID->165194391,
- ExpressionUUID -> "382140fe-79de-4f1d-9414-b5912527349e"]
+ CellID->165194391,ExpressionUUID->"382140fe-79de-4f1d-9414-b5912527349e"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1018, 907},
-WindowMargins->{{76, Automatic}, {Automatic, 4}},
-FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 29, \
-2015)",
+WindowSize->{700, Automatic},
+WindowMargins->{{10, Automatic}, {0, 0}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Demonstration.nb", 
   CharacterEncoding -> "UTF-8"]
 ]
@@ -6512,216 +6477,216 @@ StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Demonstration.nb",
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "ResizeImages"->{
-  Cell[321518, 6136, 628, 14, 29, "ControlSuggestions",
-   CellTags->"ResizeImages"]},
- "RotateAndZoomIn3D"->{
-  Cell[322149, 6152, 799, 18, 29, "ControlSuggestions",
-   CellTags->"RotateAndZoomIn3D"]},
- "DragLocators"->{
-  Cell[322951, 6172, 461, 13, 29, "ControlSuggestions",
-   CellTags->"DragLocators"]},
- "CreateAndDeleteLocators"->{
-  Cell[323415, 6187, 758, 17, 29, "ControlSuggestions",
-   CellTags->"CreateAndDeleteLocators"]},
- "SliderZoom"->{
-  Cell[324176, 6206, 1008, 24, 29, "ControlSuggestions",
-   CellTags->"SliderZoom"]},
- "GamepadControls"->{
-  Cell[325187, 6232, 546, 13, 29, "ControlSuggestions",
-   CellTags->"GamepadControls"]},
  "AutomaticAnimation"->{
-  Cell[325736, 6247, 1727, 35, 29, "ControlSuggestions",
+  Cell[326080, 6227, 1728, 36, 22, "ControlSuggestions",ExpressionUUID->"eb853a80-8216-468a-be8c-8e1e0c70aea5",
    CellTags->"AutomaticAnimation"]},
  "BookmarkAnimation"->{
-  Cell[327466, 6284, 1029, 23, 29, "ControlSuggestions",
-   CellTags->"BookmarkAnimation"]}
+  Cell[327811, 6265, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"0403d085-5076-43b4-9888-e633e397d0cb",
+   CellTags->"BookmarkAnimation"]},
+ "CreateAndDeleteLocators"->{
+  Cell[323759, 6164, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"6bad4586-adfb-4aca-ba88-41d162ab3a32",
+   CellTags->"CreateAndDeleteLocators"]},
+ "DragLocators"->{
+  Cell[323299, 6149, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"0639746e-adbb-43b9-8d30-850a60a9580f",
+   CellTags->"DragLocators"]},
+ "GamepadControls"->{
+  Cell[325530, 6211, 547, 14, 22, "ControlSuggestions",ExpressionUUID->"5ffa4d73-d8b9-48d4-a0cc-4666016dcfc7",
+   CellTags->"GamepadControls"]},
+ "ResizeImages"->{
+  Cell[321869, 6112, 624, 14, 22, "ControlSuggestions",ExpressionUUID->"8a6b1c0e-d1d8-4a6c-9551-4809ace4413b",
+   CellTags->"ResizeImages"]},
+ "RotateAndZoomIn3D"->{
+  Cell[322496, 6128, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"b26a9cd8-cacd-400e-8a38-9f2d8ec2c530",
+   CellTags->"RotateAndZoomIn3D"]},
+ "SliderZoom"->{
+  Cell[324523, 6185, 1004, 24, 22, "ControlSuggestions",ExpressionUUID->"8bccb1f4-c348-48a9-bc90-4f0114136a81",
+   CellTags->"SliderZoom"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ResizeImages", 338226, 6514},
- {"RotateAndZoomIn3D", 338337, 6517},
- {"DragLocators", 338448, 6520},
- {"CreateAndDeleteLocators", 338565, 6523},
- {"SliderZoom", 338680, 6526},
- {"GamepadControls", 338788, 6529},
- {"AutomaticAnimation", 338903, 6532},
- {"BookmarkAnimation", 339021, 6535}
+ {"AutomaticAnimation", 338499, 6479},
+ {"BookmarkAnimation", 338672, 6482},
+ {"CreateAndDeleteLocators", 338850, 6485},
+ {"DragLocators", 339022, 6488},
+ {"GamepadControls", 339186, 6491},
+ {"ResizeImages", 339350, 6494},
+ {"RotateAndZoomIn3D", 339516, 6497},
+ {"SliderZoom", 339680, 6500}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[585, 22, 638, 8, 76, "DemoTitle"],
+Cell[585, 22, 639, 9, 74, "DemoTitle",ExpressionUUID->"635f5b54-543f-4218-be84-ef0a97cc4687"],
 Cell[CellGroupData[{
-Cell[1248, 34, 92, 1, 275, "InitializationSection"],
-Cell[1343, 37, 7048, 97, 25, "Input",
+Cell[1249, 35, 88, 0, 275, "InitializationSection",ExpressionUUID->"bb72117e-4678-4d41-9d10-e72cf6652c27"],
+Cell[1340, 37, 7068, 97, 25, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->428424795],
-Cell[8394, 136, 9104, 160, 155, "Input",
+Cell[8411, 136, 9124, 160, 155, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->522942954],
-Cell[17501, 298, 7309, 104, 25, "Input",
+Cell[17538, 298, 7329, 104, 25, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->1990157036],
-Cell[24813, 404, 7170, 101, 45, "Input",
+Cell[24870, 404, 7190, 101, 45, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->870788172],
-Cell[31986, 507, 7307, 104, 25, "Input",
+Cell[32063, 507, 7327, 104, 25, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->574847037],
-Cell[39296, 613, 7220, 102, 45, "Input",
+Cell[39393, 613, 7240, 102, 45, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->1299754141],
-Cell[46519, 717, 7172, 101, 45, "Input",
+Cell[46636, 717, 7192, 101, 45, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->1040742831],
-Cell[53694, 820, 7312, 104, 25, "Input",
+Cell[53831, 820, 7332, 104, 25, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->300488829],
-Cell[61009, 926, 7171, 101, 42, "Input",
+Cell[61166, 926, 7191, 101, 42, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->971850691],
-Cell[68183, 1029, 7313, 104, 25, "Input",
+Cell[68360, 1029, 7333, 104, 25, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->1070565005],
-Cell[75499, 1135, 7566, 112, 65, "Input",
+Cell[75696, 1135, 7586, 112, 65, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->1146224460],
-Cell[83068, 1249, 7279, 105, 62, "Input",
+Cell[83285, 1249, 7299, 105, 62, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->872153186],
-Cell[90350, 1356, 7541, 111, 41, "Input",
+Cell[90587, 1356, 7561, 111, 41, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->238273495],
-Cell[97894, 1469, 7328, 105, 45, "Input",
+Cell[98151, 1469, 7348, 105, 45, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->1459628133],
-Cell[105225, 1576, 7334, 107, 62, "Input",
+Cell[105502, 1576, 7354, 107, 62, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->144938634],
-Cell[112562, 1685, 7544, 111, 41, "Input",
+Cell[112859, 1685, 7564, 111, 41, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->883006342],
-Cell[120109, 1798, 7329, 105, 45, "Input",
+Cell[120426, 1798, 7349, 105, 45, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->1175033689],
-Cell[127441, 1905, 7334, 107, 62, "Input",
+Cell[127778, 1905, 7354, 107, 62, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->761841326],
-Cell[134778, 2014, 7545, 111, 41, "Input",
+Cell[135135, 2014, 7565, 111, 41, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->1713703140],
-Cell[142326, 2127, 8784, 143, 120, "Input",
+Cell[142703, 2127, 8804, 143, 120, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->529011409],
-Cell[151113, 2272, 20100, 419, 472, "Input",
+Cell[151510, 2272, 20120, 419, 472, "Input",ExpressionUUID->"83dd4752-d832-4209-abed-bb7e2b26ff4f",
  InitializationCell->True,
  CellID->2002419308]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[171250, 2696, 88, 1, 201, "ManipulateSection"],
+Cell[171667, 2696, 84, 0, 189, "ManipulateSection",ExpressionUUID->"b7b63016-e075-4346-9352-a1565d2446c8"],
 Cell[CellGroupData[{
-Cell[171363, 2701, 13035, 224, 313, "Input"],
-Cell[184401, 2927, 23275, 562, 472, "Output",
- CellID->1088298122]
+Cell[171776, 2700, 13107, 224, 386, "Input",ExpressionUUID->"d45929c1-0360-4b21-a3ce-a5a8ff7f737e"],
+Cell[184886, 2926, 23264, 560, 478, "Output",ExpressionUUID->"d86e4c79-a21a-4d67-b1bb-e198b0aab28b",
+ CellID->282445446]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[207725, 3495, 95, 1, 181, "ManipulateCaptionSection"],
-Cell[207823, 3498, 3155, 47, 103, "ManipulateCaption",
+Cell[208199, 3492, 91, 0, 169, "ManipulateCaptionSection",ExpressionUUID->"e2d76fa6-8162-4e9f-af39-4ad9b58d11b8"],
+Cell[208293, 3494, 3267, 48, 99, "ManipulateCaption",ExpressionUUID->"66f99fff-6d71-43e1-8bd2-b52447c905fb",
  CellID->6348795]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[211015, 3550, 87, 1, 179, "ThumbnailSection"],
-Cell[211105, 3553, 23266, 562, 472, "Output",
- CellID->908314955]
+Cell[211597, 3547, 83, 0, 172, "ThumbnailSection",ExpressionUUID->"4fdd7526-f8bb-44d6-a606-59f5c8e296a5"],
+Cell[211683, 3549, 23211, 560, 38, "Output",ExpressionUUID->"d12bd532-1644-4a3c-8a90-3c40e2d68e50",
+ CellID->329199744]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[234408, 4120, 87, 1, 149, "SnapshotsSection"],
-Cell[234498, 4123, 23298, 563, 472, "Output",
- CellID->1735685809],
-Cell[257799, 4688, 23266, 562, 472, "Output",
- CellID->253531015],
-Cell[281068, 5252, 23289, 563, 472, "Output",
- CellID->488213457]
+Cell[234931, 4114, 83, 0, 142, "SnapshotsSection",ExpressionUUID->"a0f6586f-ed00-43da-971f-a2cbd5ac9ff6"],
+Cell[235017, 4116, 23241, 561, 38, "Output",ExpressionUUID->"843390fd-dfe7-46ae-aa09-c1931338d457",
+ CellID->50134810],
+Cell[258261, 4679, 23211, 560, 38, "Output",ExpressionUUID->"cfa47d10-e945-4da2-86cd-235840f153ef",
+ CellID->243530831],
+Cell[281475, 5241, 23234, 561, 38, "Output",ExpressionUUID->"59d53fbe-0941-4663-a2a3-eefac604fc2b",
+ CellID->374304152]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[304394, 5820, 85, 1, 357, "DetailsSection"],
-Cell[304482, 5823, 2580, 46, 71, "DetailNotes",
+Cell[304746, 5807, 81, 0, 339, "DetailsSection",ExpressionUUID->"d29a24a2-6f07-4b67-94e7-2a98a86f5864"],
+Cell[304830, 5809, 2570, 45, 84, "DetailNotes",ExpressionUUID->"7e9cbeec-c611-443f-b80f-6368a41d8430",
  CellID->2279429],
-Cell[307065, 5871, 1721, 32, 34, "DetailNotes",
+Cell[307403, 5856, 1715, 31, 38, "DetailNotes",ExpressionUUID->"2cafa5b1-a680-415f-a416-906a48350f4f",
  CellID->73622859],
-Cell[308789, 5905, 1663, 32, 30, "DetailNotes",
+Cell[309121, 5889, 1657, 31, 36, "DetailNotes",ExpressionUUID->"6ea442d7-4416-4147-9ad2-7fd019d45a63",
  CellID->137835176],
-Cell[310455, 5939, 1740, 33, 32, "DetailNotes",
+Cell[310781, 5922, 1734, 32, 38, "DetailNotes",ExpressionUUID->"23fe2083-97c6-4b05-965d-0bc7957f6bfe",
  CellID->215815519],
-Cell[312198, 5974, 1806, 27, 39, "DetailNotes",
+Cell[312518, 5956, 1802, 26, 37, "DetailNotes",ExpressionUUID->"ff7a90a6-119f-4620-b718-a58aa222c01d",
  CellID->161698357],
-Cell[314007, 6003, 1871, 28, 39, "DetailNotes",
+Cell[314323, 5984, 1867, 27, 37, "DetailNotes",ExpressionUUID->"ff7a90a6-119f-4620-b718-a58aa222c01d",
  CellID->209326755],
-Cell[315881, 6033, 1715, 26, 23, "DetailNotes",
+Cell[316193, 6013, 1711, 25, 22, "DetailNotes",ExpressionUUID->"ff7a90a6-119f-4620-b718-a58aa222c01d",
  CellID->43220373],
-Cell[317599, 6061, 118, 2, 23, "DetailNotes",
+Cell[317907, 6040, 173, 2, 22, "DetailNotes",ExpressionUUID->"1a4d1d13-9b8c-47cc-9050-61609fd273e8",
  CellID->47402540],
-Cell[317720, 6065, 1702, 27, 23, "DetailNotes",
+Cell[318083, 6044, 1698, 26, 22, "DetailNotes",ExpressionUUID->"8ae5e949-9fbe-444a-b6c6-87ca05eae405",
  CellID->107077714],
-Cell[319425, 6094, 1957, 34, 39, "DetailNotes",
+Cell[319784, 6072, 1953, 33, 37, "DetailNotes",ExpressionUUID->"8ae5e949-9fbe-444a-b6c6-87ca05eae405",
  CellID->219484456]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[321419, 6133, 96, 1, 131, "ControlSuggestionsSection"],
-Cell[321518, 6136, 628, 14, 29, "ControlSuggestions",
+Cell[321774, 6110, 92, 0, 126, "ControlSuggestionsSection",ExpressionUUID->"410b9302-3143-4989-9f88-3502795a89f0"],
+Cell[321869, 6112, 624, 14, 22, "ControlSuggestions",ExpressionUUID->"8a6b1c0e-d1d8-4a6c-9551-4809ace4413b",
  CellTags->"ResizeImages"],
-Cell[322149, 6152, 799, 18, 29, "ControlSuggestions",
+Cell[322496, 6128, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"b26a9cd8-cacd-400e-8a38-9f2d8ec2c530",
  CellTags->"RotateAndZoomIn3D"],
-Cell[322951, 6172, 461, 13, 29, "ControlSuggestions",
+Cell[323299, 6149, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"0639746e-adbb-43b9-8d30-850a60a9580f",
  CellTags->"DragLocators"],
-Cell[323415, 6187, 758, 17, 29, "ControlSuggestions",
+Cell[323759, 6164, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"6bad4586-adfb-4aca-ba88-41d162ab3a32",
  CellTags->"CreateAndDeleteLocators"],
-Cell[324176, 6206, 1008, 24, 29, "ControlSuggestions",
+Cell[324523, 6185, 1004, 24, 22, "ControlSuggestions",ExpressionUUID->"8bccb1f4-c348-48a9-bc90-4f0114136a81",
  CellTags->"SliderZoom"],
-Cell[325187, 6232, 546, 13, 29, "ControlSuggestions",
+Cell[325530, 6211, 547, 14, 22, "ControlSuggestions",ExpressionUUID->"5ffa4d73-d8b9-48d4-a0cc-4666016dcfc7",
  CellTags->"GamepadControls"],
-Cell[325736, 6247, 1727, 35, 29, "ControlSuggestions",
+Cell[326080, 6227, 1728, 36, 22, "ControlSuggestions",ExpressionUUID->"eb853a80-8216-468a-be8c-8e1e0c70aea5",
  CellTags->"AutomaticAnimation"],
-Cell[327466, 6284, 1029, 23, 29, "ControlSuggestions",
+Cell[327811, 6265, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"0403d085-5076-43b4-9888-e633e397d0cb",
  CellTags->"BookmarkAnimation"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[328532, 6312, 89, 1, 165, "SearchTermsSection"],
-Cell[328624, 6315, 734, 11, 23, "SearchTerms",
+Cell[328878, 6294, 85, 0, 158, "SearchTermsSection",ExpressionUUID->"22e511ff-729b-42a6-a712-8c0fc2510fcf"],
+Cell[328966, 6296, 730, 10, 22, "SearchTerms",ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84",
  CellID->320223495],
-Cell[329361, 6328, 734, 11, 23, "SearchTerms",
+Cell[329699, 6308, 730, 10, 22, "SearchTerms",ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84",
  CellID->900668834],
-Cell[330098, 6341, 736, 11, 23, "SearchTerms",
+Cell[330432, 6320, 732, 10, 22, "SearchTerms",ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84",
  CellID->302506016],
-Cell[330837, 6354, 739, 11, 23, "SearchTerms",
+Cell[331167, 6332, 735, 10, 22, "SearchTerms",ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84",
  CellID->42577409],
-Cell[331579, 6367, 742, 11, 23, "SearchTerms",
+Cell[331905, 6344, 738, 10, 22, "SearchTerms",ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84",
  CellID->802566931],
-Cell[332324, 6380, 745, 11, 23, "SearchTerms",
+Cell[332646, 6356, 741, 10, 22, "SearchTerms",ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84",
  CellID->92581986],
-Cell[333072, 6393, 746, 11, 23, "SearchTerms",
+Cell[333390, 6368, 742, 10, 22, "SearchTerms",ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84",
  CellID->155244709],
-Cell[333821, 6406, 739, 11, 23, "SearchTerms",
+Cell[334135, 6380, 735, 10, 22, "SearchTerms",ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84",
  CellID->251310033],
-Cell[334563, 6419, 733, 11, 23, "SearchTerms",
+Cell[334873, 6392, 729, 10, 22, "SearchTerms",ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84",
  CellID->232488796],
-Cell[335299, 6432, 740, 11, 23, "SearchTerms",
+Cell[335605, 6404, 736, 10, 22, "SearchTerms",ExpressionUUID->"68930ee2-a823-497f-8d67-87d4899e2a84",
  CellID->412080702]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[336076, 6448, 90, 1, 143, "RelatedLinksSection"],
-Cell[336169, 6451, 510, 11, 23, "RelatedLinks",
+Cell[336378, 6419, 86, 0, 143, "RelatedLinksSection",ExpressionUUID->"88d9005a-d171-4f49-af07-199070556de2"],
+Cell[336467, 6421, 506, 10, 22, "RelatedLinks",ExpressionUUID->"16e5ae7b-99e5-4718-bd19-c09cfe7439d9",
  CellID->190406898]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[336716, 6467, 84, 1, 143, "AuthorSection"],
-Cell[336803, 6470, 760, 22, 23, "Author",
+Cell[337010, 6436, 80, 0, 141, "AuthorSection",ExpressionUUID->"8361dbe4-867c-4a6c-91ec-1d3c4a305416"],
+Cell[337093, 6438, 756, 21, 22, "Author",ExpressionUUID->"940a4651-0e10-43e1-93ea-aaecb8d7fd22",
  CellID->756003302],
-Cell[337566, 6494, 253, 4, 23, "Author",
+Cell[337852, 6461, 249, 3, 22, "Author",ExpressionUUID->"382140fe-79de-4f1d-9414-b5912527349e",
  CellID->165194391]
 }, Open  ]]
 }, Open  ]]

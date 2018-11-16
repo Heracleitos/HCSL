@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    164985,       3560]
-NotebookOptionsPosition[    156307,       3394]
-NotebookOutlinePosition[    158357,       3444]
-CellTagsIndexPosition[    158021,       3432]
+NotebookDataLength[    213913,       4825]
+NotebookOptionsPosition[    204995,       4653]
+NotebookOutlinePosition[    207286,       4709]
+CellTagsIndexPosition[    206950,       4697]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -23,13 +23,13 @@ Cell[CellGroupData[{
 Cell["Analysis of Diagnostic Accuracy Measures", "DemoTitle",
  CellChangeTimes->{
   3.5512670162987385`*^9, 3.6462991369310184`*^9, {3.646417818389666*^9, 
-   3.6464178237337427`*^9}},ExpressionUUID->"e3c02068-4020-43b2-99e8-\
-9e202abcca62"],
+   3.6464178237337427`*^9}},ExpressionUUID->"facfecf3-1c12-4071-a853-\
+4c761dbd221b"],
 
 Cell[CellGroupData[{
 
 Cell["", "InitializationSection",
- Editable->True,ExpressionUUID->"5117073b-c811-4e35-a5c5-bcc3f99354cc"],
+ Editable->True,ExpressionUUID->"c0392b4d-8103-4925-8fe8-531f4a58e1b8"],
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", 
@@ -112,8 +112,8 @@ Cell[BoxData[
    3.449487671995909*^9}, {3.449543057542234*^9, 3.4495430793824177`*^9}, 
    3.4495431746709456`*^9, {3.6462942034894185`*^9, 3.6462942225838184`*^9}, {
    3.6462946651870184`*^9, 3.646294711519018*^9}},
- CellLabel->"In[1]:=",
- CellID->517742995,ExpressionUUID->"26d58609-456b-408c-a11d-15e3c424805a"],
+ CellLabel->"In[13]:=",
+ CellID->517742995,ExpressionUUID->"ca0ee445-8661-45d7-9cb5-f49cebdaf68e"],
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", 
@@ -142,25 +142,6 @@ Cell[BoxData[
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{
-     RowBox[{"dor", "[", 
-      RowBox[{
-      "x_", ",", "\[Mu]D_", ",", "\[Mu]H_", ",", "\[Sigma]D_", ",", 
-       "\[Sigma]H_"}], "]"}], ":=", 
-     FractionBox[
-      FractionBox["x", 
-       RowBox[{"1", "-", "x"}]], 
-      FractionBox[
-       RowBox[{"1", "-", 
-        RowBox[{"spec", "[", 
-         RowBox[{
-         "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
-          "\[Sigma]H"}], "]"}]}], 
-       RowBox[{"spec", "[", 
-        RowBox[{
-        "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
-         "\[Sigma]H"}], "]"}]]]}], ";"}], "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{
      RowBox[{"dnpv", "[", 
       RowBox[{
       "x_", ",", "\[Mu]D_", ",", "\[Mu]H_", ",", "\[Sigma]D_", ",", 
@@ -186,7 +167,33 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"(", 
           RowBox[{"1", "-", "x"}], ")"}], "pd"}]}], ")"}]}]}], ";"}], 
-   "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   FormBox[
+    RowBox[{
+     RowBox[{
+      RowBox[{"dor", "(", 
+       RowBox[{
+       "x_", ",", "\[Mu]D_", ",", "\[Mu]H_", ",", "\[Sigma]D_", ",", 
+        "\[Sigma]H_"}], ")"}], ":=", 
+      RowBox[{"x", "/", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"1", " ", "-", " ", "x"}], ")"}], "*", 
+           RowBox[{"(", 
+            RowBox[{"1", " ", "-", " ", 
+             RowBox[{"spec", "[", 
+              RowBox[{
+              "x", ",", " ", "\[Mu]D", ",", " ", "\[Mu]H", ",", " ", 
+               "\[Sigma]D", ",", " ", "\[Sigma]H"}], "]"}]}], ")"}]}], ")"}], 
+         "/", "\n", "   ", 
+         RowBox[{"spec", "[", 
+          RowBox[{
+          "x", ",", " ", "\[Mu]D", ",", " ", "\[Mu]H", ",", " ", "\[Sigma]D", 
+           ",", " ", "\[Sigma]H"}], "]"}]}], ")"}]}]}], ";"}],
+    TraditionalForm], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{
      RowBox[{"dplr", "[", 
@@ -263,12 +270,9 @@ Cell[BoxData[
    3.5512719517167015`*^9, 3.5512719536617017`*^9}, {3.5512719942937016`*^9, 
    3.5512720397497015`*^9}, {3.646294719085018*^9, 3.6462947769142184`*^9}, {
    3.6463805446257153`*^9, 3.6463805559207153`*^9}, {3.646381209938715*^9, 
-   3.6463812099407153`*^9}, {3.6463814928027153`*^9, 3.646381500843715*^9}, {
-   3.7300133907561398`*^9, 3.7300134236745033`*^9}, {3.7300134663528023`*^9, 
-   3.7300134855878544`*^9}, {3.730013536937889*^9, 3.7300137997095604`*^9}, {
-   3.7300138297964725`*^9, 3.730013840769821*^9}},
- CellLabel->"In[3]:=",
- CellID->227297142,ExpressionUUID->"0a8c725c-8da3-4c35-b930-2ddc0a0072de"],
+   3.6463812099407153`*^9}, {3.6463814928027153`*^9, 3.646381500843715*^9}},
+ CellLabel->"In[15]:=",
+ CellID->227297142,ExpressionUUID->"d613a506-4c2f-494d-9adb-1a2a6a90eae5"],
 
 Cell[BoxData[{
  RowBox[{
@@ -328,19 +332,23 @@ Cell[BoxData[{
     RowBox[{
     "x_", ",", "\[Mu]D_", ",", "\[Mu]H_", ",", "\[Sigma]D_", ",", 
      "\[Sigma]H_"}], "]"}], ":=", 
-   FractionBox[
-    FractionBox[
+   RowBox[{"x", " ", 
+    RowBox[{
      RowBox[{"sens", "[", 
       RowBox[{
-      "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H"}],
-       "]"}], 
-     RowBox[{"1", "-", 
-      RowBox[{"sens", "[", 
-       RowBox[{
-       "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
-        "\[Sigma]H"}], "]"}]}]], 
-    FractionBox[
-     RowBox[{"1", "-", "x"}], "x"]]}], ";"}], "\[IndentingNewLine]", 
+      "x", ",", " ", "\[Mu]D", ",", " ", "\[Mu]H", ",", " ", "\[Sigma]D", ",",
+        " ", "\[Sigma]H"}], "]"}], "/", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", " ", "-", " ", "x"}], ")"}], 
+       RowBox[{"(", 
+        RowBox[{"1", " ", "-", " ", 
+         RowBox[{"sens", "[", 
+          RowBox[{
+          "x", ",", " ", "\[Mu]D", ",", " ", "\[Mu]H", ",", " ", "\[Sigma]D", 
+           ",", " ", "\[Sigma]H"}], "]"}]}], ")"}]}], ")"}]}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"hplr", "[", 
@@ -384,15 +392,14 @@ Cell[BoxData[{
    3.6463815095297155`*^9}, 3.6463817402537155`*^9, {3.6463818172417154`*^9, 
    3.646381824113715*^9}, {3.646382020780715*^9, 3.646382049827715*^9}, {
    3.6463821216307154`*^9, 3.646382136860715*^9}, {3.646382193481715*^9, 
-   3.646382195369715*^9}, 3.7300135088852663`*^9, {3.7300138467174473`*^9, 
-   3.7300138513153667`*^9}},
- CellLabel->"In[8]:=",
- CellID->49098865,ExpressionUUID->"158e2f71-7ea5-4eaf-a445-1fca5239fa7e"]
+   3.646382195369715*^9}},
+ CellLabel->"In[20]:=",
+ CellID->49098865,ExpressionUUID->"1c13f782-d036-4801-9ad8-987cac6c87d0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "ManipulateSection",ExpressionUUID->"e9984973-cdf1-430f-a9cf-d7a3a5ee087b"],
+Cell["", "ManipulateSection",ExpressionUUID->"11d372f2-2c98-42e6-9160-3aeb69803cef"],
 
 Cell[CellGroupData[{
 
@@ -409,15 +416,13 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"Tooltip", "[", 
           RowBox[{
-           RowBox[{"Quiet", "@", 
-            RowBox[{"dppv", "[", 
-             RowBox[{
-             "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
-              "\[Sigma]H", ",", "pd"}], "]"}]}], ",", "\"\<PPV curve\>\""}], 
+           RowBox[{"dppv", "[", 
+            RowBox[{
+            "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
+             "\[Sigma]H", ",", "pd"}], "]"}], ",", "\"\<PPV curve\>\""}], 
           "]"}], ",", 
          RowBox[{"{", 
           RowBox[{"x", ",", "0.001", ",", "0.999"}], "}"}], ",", 
-         RowBox[{"Exclusions", "\[Rule]", "\"\<Singularities\>\""}], ",", " ", 
          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
          RowBox[{"AxesLabel", "\[Rule]", 
           RowBox[{"{", 
@@ -439,15 +444,13 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"Tooltip", "[", 
           RowBox[{
-           RowBox[{"Quiet", "@", 
-            RowBox[{"dnpv", "[", 
-             RowBox[{
-             "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
-              "\[Sigma]H", ",", "pd"}], "]"}]}], ",", "\"\<NPV curve\>\""}], 
+           RowBox[{"dnpv", "[", 
+            RowBox[{
+            "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
+             "\[Sigma]H", ",", "pd"}], "]"}], ",", "\"\<NPV curve\>\""}], 
           "]"}], ",", 
          RowBox[{"{", 
           RowBox[{"x", ",", "0.001", ",", "0.999"}], "}"}], ",", 
-         RowBox[{"Exclusions", "\[Rule]", "\"\<Singularities\>\""}], ",", " ", 
          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
          RowBox[{"AxesLabel", "\[Rule]", 
           RowBox[{"{", 
@@ -469,14 +472,13 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"Tooltip", "[", 
           RowBox[{
-           RowBox[{"Quiet", "@", 
-            RowBox[{"dor", "[", 
-             RowBox[{
-             "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
-              "\[Sigma]H"}], "]"}]}], ",", "\"\<OR curve\>\""}], "]"}], ",", 
+           RowBox[{"dor", "[", 
+            RowBox[{
+            "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
+             "\[Sigma]H"}], "]"}], ",", "\"\<odds ratio curve\>\""}], "]"}], 
+         ",", 
          RowBox[{"{", 
           RowBox[{"x", ",", "0.001", ",", "0.999"}], "}"}], ",", 
-         RowBox[{"Exclusions", "\[Rule]", "\"\<Singularities\>\""}], ",", " ", 
          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
          RowBox[{"AxesLabel", "\[Rule]", 
           RowBox[{"{", 
@@ -498,14 +500,12 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"Tooltip", "[", 
           RowBox[{
-           RowBox[{"Quiet", "@", 
-            RowBox[{"dplr", "[", 
-             RowBox[{
-             "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
-              "\[Sigma]H"}], "]"}]}], ",", "\"\<LR+ curve\>\""}], "]"}], ",", 
+           RowBox[{"dplr", "[", 
+            RowBox[{
+            "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
+             "\[Sigma]H"}], "]"}], ",", "\"\<LR+ curve\>\""}], "]"}], ",", 
          RowBox[{"{", 
           RowBox[{"x", ",", "0.001", ",", "0.999"}], "}"}], ",", 
-         RowBox[{"Exclusions", "\[Rule]", "\"\<Singularities\>\""}], ",", " ", 
          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
          RowBox[{"AxesLabel", "\[Rule]", 
           RowBox[{"{", 
@@ -527,14 +527,12 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"Tooltip", "[", 
           RowBox[{
-           RowBox[{"Quiet", "@", 
-            RowBox[{"dnlr", "[", 
-             RowBox[{
-             "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
-              "\[Sigma]H"}], "]"}]}], ",", "\"\<LR- curve\>\""}], "]"}], ",", 
+           RowBox[{"dnlr", "[", 
+            RowBox[{
+            "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
+             "\[Sigma]H"}], "]"}], ",", "\"\<LR- curve\>\""}], "]"}], ",", 
          RowBox[{"{", 
           RowBox[{"x", ",", "0.001", ",", "0.999"}], "}"}], ",", 
-         RowBox[{"Exclusions", "\[Rule]", "\"\<Singularities\>\""}], ",", " ", 
          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
          RowBox[{"AxesLabel", "\[Rule]", 
           RowBox[{"{", 
@@ -559,15 +557,13 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"Tooltip", "[", 
           RowBox[{
-           RowBox[{"Quiet", "@", 
-            RowBox[{"hppv", "[", 
-             RowBox[{
-             "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
-              "\[Sigma]H", ",", "pd"}], "]"}]}], ",", "\"\<PPV curve\>\""}], 
+           RowBox[{"hppv", "[", 
+            RowBox[{
+            "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
+             "\[Sigma]H", ",", "pd"}], "]"}], ",", "\"\<PPV curve\>\""}], 
           "]"}], ",", 
          RowBox[{"{", 
           RowBox[{"x", ",", "0.001", ",", "0.999"}], "}"}], ",", 
-         RowBox[{"Exclusions", "\[Rule]", "\"\<Singularities\>\""}], ",", " ", 
          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
          RowBox[{"AxesLabel", "\[Rule]", 
           RowBox[{"{", 
@@ -589,15 +585,13 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"Tooltip", "[", 
           RowBox[{
-           RowBox[{"Quiet", "@", 
-            RowBox[{"hnpv", "[", 
-             RowBox[{
-             "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
-              "\[Sigma]H", ",", "pd"}], "]"}]}], ",", "\"\<NPV curve\>\""}], 
+           RowBox[{"hnpv", "[", 
+            RowBox[{
+            "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
+             "\[Sigma]H", ",", "pd"}], "]"}], ",", "\"\<NPV curve\>\""}], 
           "]"}], ",", 
          RowBox[{"{", 
           RowBox[{"x", ",", "0.001", ",", "0.999"}], "}"}], ",", 
-         RowBox[{"Exclusions", "\[Rule]", "\"\<Singularities\>\""}], ",", " ", 
          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
          RowBox[{"AxesLabel", "\[Rule]", 
           RowBox[{"{", 
@@ -619,14 +613,12 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"Tooltip", "[", 
           RowBox[{
-           RowBox[{"Quiet", "@", 
-            RowBox[{"hor", "[", 
-             RowBox[{
-             "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
-              "\[Sigma]H"}], "]"}]}], ",", "\"\<OR curve\>\""}], "]"}], ",", 
+           RowBox[{"hor", "[", 
+            RowBox[{
+            "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
+             "\[Sigma]H"}], "]"}], ",", "\"\<OR curve\>\""}], "]"}], ",", 
          RowBox[{"{", 
           RowBox[{"x", ",", "0.001", ",", "0.999"}], "}"}], ",", 
-         RowBox[{"Exclusions", "\[Rule]", "\"\<Singularities\>\""}], ",", " ", 
          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
          RowBox[{"AxesLabel", "\[Rule]", 
           RowBox[{"{", 
@@ -648,14 +640,12 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"Tooltip", "[", 
           RowBox[{
-           RowBox[{"Quiet", "@", 
-            RowBox[{"hplr", "[", 
-             RowBox[{
-             "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
-              "\[Sigma]H"}], "]"}]}], ",", "\"\<LR+ curve\>\""}], "]"}], ",", 
+           RowBox[{"hplr", "[", 
+            RowBox[{
+            "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
+             "\[Sigma]H"}], "]"}], ",", "\"\<LR+ curve\>\""}], "]"}], ",", 
          RowBox[{"{", 
           RowBox[{"x", ",", "0.001", ",", "0.999"}], "}"}], ",", 
-         RowBox[{"Exclusions", "\[Rule]", "\"\<Singularities\>\""}], ",", " ", 
          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
          RowBox[{"AxesLabel", "\[Rule]", 
           RowBox[{"{", 
@@ -677,14 +667,12 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"Tooltip", "[", 
           RowBox[{
-           RowBox[{"Quiet", "@", 
-            RowBox[{"hnlr", "[", 
-             RowBox[{
-             "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
-              "\[Sigma]H"}], "]"}]}], ",", "\"\<LR- curve\>\""}], "]"}], ",", 
+           RowBox[{"hnlr", "[", 
+            RowBox[{
+            "x", ",", "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", 
+             "\[Sigma]H"}], "]"}], ",", "\"\<LR- curve\>\""}], "]"}], ",", 
          RowBox[{"{", 
           RowBox[{"x", ",", "0.001", ",", "0.999"}], "}"}], ",", 
-         RowBox[{"Exclusions", "\[Rule]", "\"\<Singularities\>\""}], ",", " ", 
          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
          RowBox[{"AxesLabel", "\[Rule]", 
           RowBox[{"{", 
@@ -724,7 +712,7 @@ Cell[BoxData[
        RowBox[{"0", "\[Rule]", "\"\<sensitivity\>\""}], ",", 
        RowBox[{"1", "\[Rule]", "\"\<specificity\>\""}]}], "}"}], ",", 
      RowBox[{"ControlPlacement", "\[Rule]", "Top"}]}], "}"}], ",", 
-   "\[IndentingNewLine]", "\"\<\>\"", ",", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
    RowBox[{"Style", "[", 
     RowBox[{"\"\<prevalence of disease\>\"", ",", "Bold"}], "]"}], ",", 
    "\[IndentingNewLine]", 
@@ -735,7 +723,7 @@ Cell[BoxData[
      "0.00000001", ",", ".99", ",", 
      RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
      RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
-   "\[IndentingNewLine]", "\"\<\>\"", ",", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
    RowBox[{"Style", "[", 
     RowBox[{"\"\<nondiseased population\>\"", ",", "Bold"}], "]"}], ",", 
    "\[IndentingNewLine]", 
@@ -754,7 +742,7 @@ Cell[BoxData[
       "}"}], ",", "0.01", ",", "6", ",", ".01", ",", 
      RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
      RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
-   "\[IndentingNewLine]", "\"\<\>\"", ",", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
    RowBox[{"Style", "[", 
     RowBox[{"\"\<diseased population\>\"", ",", "Bold"}], "]"}], ",", 
    "\[IndentingNewLine]", 
@@ -993,11 +981,9 @@ Cell[BoxData[
    3.6462986852540183`*^9}, 3.646300157658209*^9, {3.646300195021167*^9, 
    3.6463002147400723`*^9}, 3.6463002730543675`*^9, {3.6463003409895916`*^9, 
    3.6463003522842813`*^9}, {3.6463003969950275`*^9, 3.646300444950657*^9}, 
-   3.646382398075715*^9, {3.7299706896240797`*^9, 3.7299706932683477`*^9}, {
-   3.731329792704138*^9, 3.731329820570253*^9}, {3.731346574005166*^9, 
-   3.7313465741561995`*^9}, {3.731346775208578*^9, 3.731346822311862*^9}},
- CellLabel->"In[14]:=",
- CellID->4362360,ExpressionUUID->"fa873616-15ce-4e01-8c8b-5de9fb43c5d0"],
+   3.646382398075715*^9, {3.75135789253548*^9, 3.751357910982481*^9}},
+ CellLabel->"In[25]:=",
+ CellID->4362360,ExpressionUUID->"19a4fc91-7d26-43d8-8a1f-a3ac66f99b94"],
 
 Cell[BoxData[
  TagBox[
@@ -1013,19 +999,16 @@ Cell[BoxData[
       0 -> "PPV", 1 -> "NPV", 2 -> "OR", 3 -> "LR+", 4 -> "LR-"}}, {{
        Hold[$CellContext`vs$$], 0, "versus"}, {
       0 -> "sensitivity", 1 -> "specificity"}}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["prevalence of disease", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`pd$$], 0.05, "prevalence"}, 1.*^-8, 0.99}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["nondiseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`\[Mu]H$$], 0, "mean"}, 0, 6, 0.01}, {{
        Hold[$CellContext`\[Sigma]H$$], 1, "standard deviation"}, 0.01, 6, 
       0.01}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["diseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
@@ -1033,447 +1016,23 @@ Cell[BoxData[
        Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
       0.01}}, Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`plot$28858$$ = False, $CellContext`vs$28859$$ = 
-    False, $CellContext`pd$28860$$ = 0, $CellContext`\[Mu]H$28861$$ = 
-    0, $CellContext`\[Sigma]H$28862$$ = 0, $CellContext`\[Mu]D$28863$$ = 
-    0, $CellContext`\[Sigma]D$28864$$ = 0}, 
+    False, $CellContext`plot$12227$$ = False, $CellContext`vs$12228$$ = 
+    False, $CellContext`pd$12229$$ = 0, $CellContext`\[Mu]H$12230$$ = 
+    0, $CellContext`\[Sigma]H$12231$$ = 0, $CellContext`\[Mu]D$12232$$ = 
+    0, $CellContext`\[Sigma]D$12233$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
         0, $CellContext`vs$$ = 0, $CellContext`\[Mu]D$$ = 
         3.67, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
         1, $CellContext`\[Sigma]H$$ = 1}, "ControllerVariables" :> {
-        Hold[$CellContext`plot$$, $CellContext`plot$28858$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$28859$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$28860$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$28861$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$28862$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$28863$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$28864$$, 0]}, 
-      "OtherVariables" :> {
-       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
-        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
-        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$}, "Body" :> Which[$CellContext`vs$$ == 0, 
-        Which[$CellContext`plot$$ == 0, 
-         Plot[
-          Tooltip[
-           Quiet[
-            $CellContext`dppv[$CellContext`x, $CellContext`\[Mu]D$$, \
-$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
-$CellContext`pd$$]], "PPV curve"], {$CellContext`x, 0.001, 0.999}, Exclusions -> 
-          "Singularities", AspectRatio -> 1, 
-          AxesLabel -> {"sensitivity", "PPV"}, PlotLabel -> 
-          Row[{"PPV curve"}], PlotStyle -> {
-            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
-          ImageSize -> {350, 375}], $CellContext`plot$$ == 1, 
-         Plot[
-          Tooltip[
-           Quiet[
-            $CellContext`dnpv[$CellContext`x, $CellContext`\[Mu]D$$, \
-$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
-$CellContext`pd$$]], "NPV curve"], {$CellContext`x, 0.001, 0.999}, Exclusions -> 
-          "Singularities", AspectRatio -> 1, 
-          AxesLabel -> {"sensitivity", "NPV"}, PlotLabel -> 
-          Row[{"NPV curve"}], PlotStyle -> {
-            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
-          ImageSize -> {350, 375}], $CellContext`plot$$ == 2, 
-         Plot[
-          Tooltip[
-           Quiet[
-            $CellContext`dor[$CellContext`x, $CellContext`\[Mu]D$$, \
-$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$]], 
-           "OR curve"], {$CellContext`x, 0.001, 0.999}, Exclusions -> 
-          "Singularities", AspectRatio -> 1, 
-          AxesLabel -> {"sensitivity", "OR"}, PlotLabel -> Row[{"OR curve"}], 
-          PlotStyle -> {
-            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
-          ImageSize -> {350, 375}], $CellContext`plot$$ == 3, 
-         Plot[
-          Tooltip[
-           Quiet[
-            $CellContext`dplr[$CellContext`x, $CellContext`\[Mu]D$$, \
-$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$]], 
-           "LR+ curve"], {$CellContext`x, 0.001, 0.999}, Exclusions -> 
-          "Singularities", AspectRatio -> 1, 
-          AxesLabel -> {"sensitivity", "LR+"}, PlotLabel -> 
-          Row[{"LR+ curve"}], PlotStyle -> {
-            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
-          ImageSize -> {350, 375}], $CellContext`plot$$ == 4, 
-         Plot[
-          Tooltip[
-           Quiet[
-            $CellContext`dnlr[$CellContext`x, $CellContext`\[Mu]D$$, \
-$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$]], 
-           "LR- curve"], {$CellContext`x, 0.001, 0.999}, Exclusions -> 
-          "Singularities", AspectRatio -> 1, 
-          AxesLabel -> {"sensitivity", "LR-"}, PlotLabel -> 
-          Row[{"LR- curve"}], PlotStyle -> {
-            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
-          ImageSize -> {350, 375}]], $CellContext`vs$$ == 1, 
-        Which[$CellContext`plot$$ == 0, 
-         Plot[
-          Tooltip[
-           Quiet[
-            $CellContext`hppv[$CellContext`x, $CellContext`\[Mu]D$$, \
-$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
-$CellContext`pd$$]], "PPV curve"], {$CellContext`x, 0.001, 0.999}, Exclusions -> 
-          "Singularities", AspectRatio -> 1, 
-          AxesLabel -> {"specificity", "PPV"}, PlotLabel -> 
-          Row[{"PPV curve"}], PlotStyle -> {
-            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
-          ImageSize -> {350, 375}], $CellContext`plot$$ == 1, 
-         Plot[
-          Tooltip[
-           Quiet[
-            $CellContext`hnpv[$CellContext`x, $CellContext`\[Mu]D$$, \
-$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
-$CellContext`pd$$]], "NPV curve"], {$CellContext`x, 0.001, 0.999}, Exclusions -> 
-          "Singularities", AspectRatio -> 1, 
-          AxesLabel -> {"specificity", "NPV"}, PlotLabel -> 
-          Row[{"NPV curve"}], PlotStyle -> {
-            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
-          ImageSize -> {350, 375}], $CellContext`plot$$ == 2, 
-         Plot[
-          Tooltip[
-           Quiet[
-            $CellContext`hor[$CellContext`x, $CellContext`\[Mu]D$$, \
-$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$]], 
-           "OR curve"], {$CellContext`x, 0.001, 0.999}, Exclusions -> 
-          "Singularities", AspectRatio -> 1, 
-          AxesLabel -> {"specificity", "OR"}, PlotLabel -> Row[{"OR curve"}], 
-          PlotStyle -> {
-            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
-          ImageSize -> {350, 375}], $CellContext`plot$$ == 3, 
-         Plot[
-          Tooltip[
-           Quiet[
-            $CellContext`hplr[$CellContext`x, $CellContext`\[Mu]D$$, \
-$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$]], 
-           "LR+ curve"], {$CellContext`x, 0.001, 0.999}, Exclusions -> 
-          "Singularities", AspectRatio -> 1, 
-          AxesLabel -> {"specificity", "LR+"}, PlotLabel -> 
-          Row[{"LR+ curve"}], PlotStyle -> {
-            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
-          ImageSize -> {350, 375}], $CellContext`plot$$ == 4, 
-         Plot[
-          Tooltip[
-           Quiet[
-            $CellContext`hnlr[$CellContext`x, $CellContext`\[Mu]D$$, \
-$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$]], 
-           "LR- curve"], {$CellContext`x, 0.001, 0.999}, Exclusions -> 
-          "Singularities", AspectRatio -> 1, 
-          AxesLabel -> {"specificity", "LR-"}, PlotLabel -> 
-          Row[{"LR- curve"}], PlotStyle -> {
-            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
-          ImageSize -> {350, 375}]]], 
-      "Specifications" :> {{{$CellContext`plot$$, 0, "plot"}, {
-         0 -> "PPV", 1 -> "NPV", 2 -> "OR", 3 -> "LR+", 4 -> "LR-"}, 
-         ControlPlacement -> Top}, {{$CellContext`vs$$, 0, "versus"}, {
-         0 -> "sensitivity", 1 -> "specificity"}, ControlPlacement -> Top}, 
-        "", 
-        Style[
-        "prevalence of disease", 
-         Bold], {{$CellContext`pd$$, 0.05, "prevalence"}, 1.*^-8, 0.99, 
-         ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
-        Style[
-        "nondiseased population", Bold], {{$CellContext`\[Mu]H$$, 0, "mean"}, 
-         0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
-         "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
-         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
-        Style[
-        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 
-         0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
-         "Labeled"}, {{$CellContext`\[Sigma]D$$, 1, "standard deviation"}, 
-         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}}, 
-      "Options" :> {
-       AutorunSequencing -> {1, 2, 6}, TrackedSymbols -> True, 
-        ControlPlacement -> Left}, 
-      "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{636., {239., 245.}},
-     SingleEvaluation->True],
-    Deinitialization:>None,
-    DynamicModuleValues:>{},
-    Initialization:>({$CellContext`dppv[
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]H, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]H, 
-          Blank[]], 
-         Pattern[$CellContext`pd, 
-          
-          Blank[]]] := ($CellContext`x $CellContext`pd)/($CellContext`x \
-$CellContext`pd + (
-          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
-          1 - $CellContext`pd)), $CellContext`spec[
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]H, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]H, 
-          Blank[]]] := CDF[
-         NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], 
-         InverseCDF[
-          NormalDistribution[$CellContext`\[Mu]D, $CellContext`\[Sigma]D], 
-          1 - $CellContext`x]], $CellContext`dnpv[
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]H, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]H, 
-          Blank[]], 
-         Pattern[$CellContext`pd, 
-          
-          Blank[]]] := ($CellContext`spec[$CellContext`x, \
-$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H] (
-          1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
-$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
-          1 - $CellContext`x) $CellContext`pd), $CellContext`dor[
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]H, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]H, 
-          Blank[]]] := $CellContext`x/((
-         1 - $CellContext`x) ((
-          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H])/$CellContext`spec[$CellContext`x, \
-$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H])), $CellContext`dplr[
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]H, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]H, 
-          Blank[]]] := $CellContext`x/(
-        1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]), \
-$CellContext`dnlr[
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]H, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]H, 
-          Blank[]]] := (
-         1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
-\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H], \
-$CellContext`hppv[
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]H, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]H, 
-          Blank[]], 
-         Pattern[$CellContext`pd, 
-          
-          Blank[]]] := ($CellContext`sens[$CellContext`x, \
-$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H] $CellContext`pd)/($CellContext`sens[$CellContext`x, \
-$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H] $CellContext`pd + (1 - $CellContext`pd) (
-          1 - $CellContext`x)), $CellContext`sens[
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]H, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]H, 
-          Blank[]]] := 1 - CDF[
-         NormalDistribution[$CellContext`\[Mu]D, $CellContext`\[Sigma]D], 
-         InverseCDF[
-          
-          NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], \
-$CellContext`x]], $CellContext`hnpv[
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]H, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]H, 
-          Blank[]], 
-         Pattern[$CellContext`pd, 
-          Blank[]]] := $CellContext`x ((
-          1 - $CellContext`pd)/($CellContext`x (
-           1 - $CellContext`pd) + $CellContext`pd (
-           1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]))), \
-$CellContext`hor[
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]H, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]H, 
-          
-          Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]/((
-         1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) ((
-          1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]H, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]H, 
-          Blank[]]] := (1/(
-         1 - $CellContext`x)) $CellContext`sens[$CellContext`x, $CellContext`\
-\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H], \
-$CellContext`hnlr[
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Mu]H, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]D, 
-          Blank[]], 
-         Pattern[$CellContext`\[Sigma]H, 
-          Blank[]]] := (1/$CellContext`x) (
-         1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H])}; 
-     Typeset`initDone$$ = True),
-    SynchronousInitialization->True,
-    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
-    UnsavedVariables:>{Typeset`initDone$$},
-    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
-   Deployed->True,
-   StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.7313468481746063`*^9, 3.7313469094652243`*^9},
- CellLabel->"Out[14]=",
- CellID->93501384,ExpressionUUID->"301bdc88-be2a-4270-99df-70f6b94741eb"]
-}, Open  ]]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["", "ManipulateCaptionSection",ExpressionUUID->"d56e982c-3af1-4e56-94a7-dd55fa89c76a"],
-
-Cell["\<\
-This Demonstration shows plots of various accuracy measures for diagnostic \
-tests on normally distributed nondiseased and diseased populations. This is \
-done for differing prevalence of the disease, taking into account mean and \
-standard deviations of the populations. The mean and standard deviations are \
-expressed in arbitrary units. The measures considered are the positive \
-predictive value (\"PPV\"), the negative predictive value (\"NPV\"), the \
-(diagnostic) odds ratio (\"OR\"), the likelihood ratio for a positive result \
-(\"LR+\"), and the likelihood ratio for a negative result (\"LR-\"). The \
-measures are plotted against the sensitivity or the specificity of the test, \
-which can be selected by clicking the respective button.\
-\>", "ManipulateCaption",
- CellChangeTimes->{{3.6462980432610188`*^9, 3.6462981901850185`*^9}, 
-   3.6462991089650183`*^9, {3.6463088013578854`*^9, 3.6463088128778853`*^9}, {
-   3.646308955149885*^9, 3.646308977979885*^9}, {3.646416754530154*^9, 
-   3.6464168698129997`*^9}, {3.646416903678876*^9, 3.6464169108714647`*^9}, {
-   3.646416962386169*^9, 3.646417040588969*^9}, {3.6464170771909657`*^9, 
-   3.646417111503913*^9}, {3.646417150417289*^9, 3.646417185955288*^9}, {
-   3.646417750043706*^9, 3.6464177552271957`*^9}, {3.6465030960163813`*^9, 
-   3.646503117770595*^9}, 3.646503398548953*^9, 3.6465034354135*^9, {
-   3.729970721958434*^9, 3.7299707223985167`*^9}, 3.731329822309506*^9},
- CellID->198574962,ExpressionUUID->"aecbe008-b933-4b46-88d6-a4a6c7c08c07"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["", "ThumbnailSection",ExpressionUUID->"621d6590-4e35-402d-b4dc-98a6963ea1b0"],
-
-Cell[BoxData[
- TagBox[
-  StyleBox[
-   DynamicModuleBox[{$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
-    0, $CellContext`vs$$ = 0, $CellContext`\[Mu]D$$ = 
-    3.67, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
-    1, $CellContext`\[Sigma]H$$ = 1, Typeset`show$$ = True, 
-    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-    "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`plot$$], 0, "plot"}, {
-      0 -> "PPV", 1 -> "NPV", 2 -> "OR", 3 -> "LR+", 4 -> "LR-"}}, {{
-       Hold[$CellContext`vs$$], 0, "versus"}, {
-      0 -> "sensitivity", 1 -> "specificity"}}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
-      Hold[
-       Style["prevalence of disease", Bold]], 
-      Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`pd$$], 0.05, "prevalence"}, 1.*^-8, 0.99}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
-      Hold[
-       Style["nondiseased population", Bold]], 
-      Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`\[Mu]H$$], 0, "mean"}, 0, 6, 0.01}, {{
-       Hold[$CellContext`\[Sigma]H$$], 1, "standard deviation"}, 0.01, 6, 
-      0.01}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
-      Hold[
-       Style["diseased population", Bold]], 
-      Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`\[Mu]D$$], 3.67, "mean"}, 0, 6, 0.01}, {{
-       Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
-      0.01}}, Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`plot$173553$$ = False, $CellContext`vs$173554$$ = 
-    False, $CellContext`pd$173555$$ = 0, $CellContext`\[Mu]H$173556$$ = 
-    0, $CellContext`\[Sigma]H$173557$$ = 0, $CellContext`\[Mu]D$173558$$ = 
-    0, $CellContext`\[Sigma]D$173559$$ = 0}, 
-    DynamicBox[Manipulate`ManipulateBoxes[
-     1, StandardForm, 
-      "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
-        0, $CellContext`vs$$ = 0, $CellContext`\[Mu]D$$ = 
-        3.67, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
-        1, $CellContext`\[Sigma]H$$ = 1}, "ControllerVariables" :> {
-        Hold[$CellContext`plot$$, $CellContext`plot$173553$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$173554$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$173555$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$173556$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$173557$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$173558$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$173559$$, 0]}, 
+        Hold[$CellContext`plot$$, $CellContext`plot$12227$$, False], 
+        Hold[$CellContext`vs$$, $CellContext`vs$12228$$, False], 
+        Hold[$CellContext`pd$$, $CellContext`pd$12229$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$12230$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$12231$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$12232$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$12233$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -1502,9 +1061,9 @@ $CellContext`pd$$], "NPV curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio ->
           Tooltip[
            $CellContext`dor[$CellContext`x, $CellContext`\[Mu]D$$, \
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$], 
-           "OR curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1, 
-          AxesLabel -> {"sensitivity", "OR"}, PlotLabel -> Row[{"OR curve"}], 
-          PlotStyle -> {
+           "odds ratio curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 
+          1, AxesLabel -> {"sensitivity", "OR"}, PlotLabel -> 
+          Row[{"OR curve"}], PlotStyle -> {
             RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
           ImageSize -> {350, 375}], $CellContext`plot$$ == 3, 
          Plot[
@@ -1575,16 +1134,15 @@ $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$],
          0 -> "PPV", 1 -> "NPV", 2 -> "OR", 3 -> "LR+", 4 -> "LR-"}, 
          ControlPlacement -> Top}, {{$CellContext`vs$$, 0, "versus"}, {
          0 -> "sensitivity", 1 -> "specificity"}, ControlPlacement -> Top}, 
-        "", 
         Style[
         "prevalence of disease", 
          Bold], {{$CellContext`pd$$, 0.05, "prevalence"}, 1.*^-8, 0.99, 
-         ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
+         ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
         "nondiseased population", Bold], {{$CellContext`\[Mu]H$$, 0, "mean"}, 
          0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
          "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
-         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
         "diseased population", Bold], {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 
          0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
@@ -1615,7 +1173,26 @@ $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$],
 $CellContext`pd + (
           1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
-          1 - $CellContext`pd)), $CellContext`spec[
+          1 - $CellContext`pd)), $CellContext`dppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`x $CellContext`pd)/($CellContext`x \
+$CellContext`pd + (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]) (1 - $CellContext`pd)), $CellContext`spec[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -1629,6 +1206,24 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
          NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], 
          InverseCDF[
           NormalDistribution[$CellContext`\[Mu]D, $CellContext`\[Sigma]D], 
+          1 - $CellContext`x]], $CellContext`spec[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := CDF[
+         NormalDistribution[$CellContext`\[Mu]H, 
+          Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]D, 
+           Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
           1 - $CellContext`x]], $CellContext`dnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -1648,6 +1243,27 @@ $CellContext`\[Sigma]H] (
           1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
+          1 - $CellContext`x) $CellContext`pd), $CellContext`dnpv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] (
+          1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
           1 - $CellContext`x) $CellContext`pd), $CellContext`dor[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -1658,13 +1274,55 @@ $CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
          Pattern[$CellContext`\[Sigma]D, 
           Blank[]], 
          Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := $CellContext`x/(((1 - $CellContext`x) (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]))/$CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]), $CellContext`dor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
           Blank[]]] := $CellContext`x/((
          1 - $CellContext`x) ((
           1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H])/$CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])/$CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])), $CellContext`dor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`dppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]/((
+         1 - $CellContext`dppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]) ((
+          1 - $CellContext`dnpv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u])/$CellContext`dnpv[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H])), $CellContext`dplr[
+$CellContext`\[Sigma]H, $CellContext`pd, $CellContext`u])), $CellContext`dplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -1677,7 +1335,22 @@ $CellContext`\[Sigma]H])), $CellContext`dplr[
           Blank[]]] := $CellContext`x/(
         1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]), \
-$CellContext`dnlr[
+$CellContext`dplr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := $CellContext`x/(
+        1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]), $CellContext`dnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -1690,7 +1363,22 @@ $CellContext`dnlr[
           Blank[]]] := (
          1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
 \[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H], \
-$CellContext`hppv[
+$CellContext`dnlr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := (
+         1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
+\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u], $CellContext`hppv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -1708,6 +1396,27 @@ $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H] $CellContext`pd)/($CellContext`sens[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H] $CellContext`pd + (1 - $CellContext`pd) (
+          1 - $CellContext`x)), $CellContext`hppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`sens[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] \
+$CellContext`pd)/($CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
           1 - $CellContext`x)), $CellContext`sens[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -1723,6 +1432,25 @@ $CellContext`\[Sigma]H] $CellContext`pd + (1 - $CellContext`pd) (
          InverseCDF[
           
           NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], \
+$CellContext`x]], $CellContext`sens[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := 1 - CDF[
+         NormalDistribution[$CellContext`\[Mu]D, 
+          Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]H, 
+           
+           Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], \
 $CellContext`x]], $CellContext`hnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -1740,7 +1468,26 @@ $CellContext`x]], $CellContext`hnpv[
            1 - $CellContext`pd) + $CellContext`pd (
            1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]))), \
-$CellContext`hor[
+$CellContext`hnpv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := ((1 - $CellContext`x) (
+          1 - $CellContext`pd))/($CellContext`x (
+          1 - $CellContext`pd) + $CellContext`pd (
+          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])), $CellContext`hor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -1751,11 +1498,55 @@ $CellContext`hor[
           Blank[]], 
          Pattern[$CellContext`\[Sigma]H, 
           
+          Blank[]]] := $CellContext`x ($CellContext`sens[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]/((1 - $CellContext`x) (
+          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]))), \
+$CellContext`hor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
           Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]/((
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]/((
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) ((
-          1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`hppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]/((
+         1 - $CellContext`hppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]) ((
+          1 - $CellContext`hnpv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u])/$CellContext`hnpv[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`pd, $CellContext`u])), $CellContext`hplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -1768,7 +1559,22 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) ((
           Blank[]]] := (1/(
          1 - $CellContext`x)) $CellContext`sens[$CellContext`x, $CellContext`\
 \[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H], \
-$CellContext`hnlr[
+$CellContext`hplr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -1780,8 +1586,23 @@ $CellContext`hnlr[
          Pattern[$CellContext`\[Sigma]H, 
           Blank[]]] := (1/$CellContext`x) (
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H])}; 
-     Typeset`initDone$$ = True),
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]), \
+$CellContext`hnlr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := (
+         1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -1789,40 +1610,66 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H])};
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->2132086127,ExpressionUUID->"98fb7c9b-0efe-4a5d-8e32-f5151b0604cf"]
+ CellID->142044577,ExpressionUUID->"e8f5250c-c5fa-4d27-900f-be36365b2972"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "SnapshotsSection",ExpressionUUID->"9c09f980-808f-4d0d-9fbd-4a43f35318df"],
+Cell["", "ManipulateCaptionSection",ExpressionUUID->"ad019fae-43d5-4b54-9bf6-5e5a06a47c89"],
+
+Cell["\<\
+This Demonstration shows plots of various accuracy measures for diagnostic \
+tests on normally distributed nondiseased and diseased populations. This is \
+done for differing prevalence of the disease, taking into account mean and \
+standard deviations of the populations. The mean and standard deviations are \
+expressed in arbitrary units. The measures considered are the positive \
+prognostic value (\"PPV\"), the negative prognostic value (\"NPV\"), the \
+(diagnostic) odds ratio (\"OR\"), the likelihood ratio for a positive result \
+(\"LR+\"), and the likelihood ratio for a negative result (\"LR-\"). The \
+measures are plotted against the sensitivity or the specificity of the test, \
+which can be selected by clicking the respective button.\
+\>", "ManipulateCaption",
+ CellChangeTimes->{{3.6462980432610188`*^9, 3.6462981901850185`*^9}, 
+   3.6462991089650183`*^9, {3.6463088013578854`*^9, 3.6463088128778853`*^9}, {
+   3.646308955149885*^9, 3.646308977979885*^9}, {3.646416754530154*^9, 
+   3.6464168698129997`*^9}, {3.646416903678876*^9, 3.6464169108714647`*^9}, {
+   3.646416962386169*^9, 3.646417040588969*^9}, {3.6464170771909657`*^9, 
+   3.646417111503913*^9}, {3.646417150417289*^9, 3.646417185955288*^9}, {
+   3.646417750043706*^9, 3.6464177552271957`*^9}, {3.6465030960163813`*^9, 
+   3.646503117770595*^9}, 3.646503398548953*^9, 3.6465034354135*^9, {
+   3.7513578275334806`*^9, 3.7513578316114807`*^9}},
+ CellID->198574962,ExpressionUUID->"480e707b-0708-4b65-afb0-0a8ed594b302"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "ThumbnailSection",ExpressionUUID->"879aa870-025a-4948-a885-cc2ffd8131aa"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
-    2, $CellContext`vs$$ = 1, $CellContext`\[Mu]D$$ = 
+    0, $CellContext`vs$$ = 0, $CellContext`\[Mu]D$$ = 
     3.67, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
     1, $CellContext`\[Sigma]H$$ = 1, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`plot$$], 2, "plot"}, {
+       Hold[$CellContext`plot$$], 0, "plot"}, {
       0 -> "PPV", 1 -> "NPV", 2 -> "OR", 3 -> "LR+", 4 -> "LR-"}}, {{
-       Hold[$CellContext`vs$$], 1, "versus"}, {
+       Hold[$CellContext`vs$$], 0, "versus"}, {
       0 -> "sensitivity", 1 -> "specificity"}}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["prevalence of disease", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`pd$$], 0.05, "prevalence"}, 1.*^-8, 0.99}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["nondiseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`\[Mu]H$$], 0, "mean"}, 0, 6, 0.01}, {{
        Hold[$CellContext`\[Sigma]H$$], 1, "standard deviation"}, 0.01, 6, 
       0.01}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["diseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
@@ -1830,23 +1677,23 @@ Cell[BoxData[
        Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
       0.01}}, Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`plot$173644$$ = False, $CellContext`vs$173645$$ = 
-    False, $CellContext`pd$173646$$ = 0, $CellContext`\[Mu]H$173647$$ = 
-    0, $CellContext`\[Sigma]H$173648$$ = 0, $CellContext`\[Mu]D$173649$$ = 
-    0, $CellContext`\[Sigma]D$173650$$ = 0}, 
+    False, $CellContext`plot$12320$$ = False, $CellContext`vs$12321$$ = 
+    False, $CellContext`pd$12322$$ = 0, $CellContext`\[Mu]H$12323$$ = 
+    0, $CellContext`\[Sigma]H$12324$$ = 0, $CellContext`\[Mu]D$12325$$ = 
+    0, $CellContext`\[Sigma]D$12326$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
-        2, $CellContext`vs$$ = 1, $CellContext`\[Mu]D$$ = 
+        0, $CellContext`vs$$ = 0, $CellContext`\[Mu]D$$ = 
         3.67, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
         1, $CellContext`\[Sigma]H$$ = 1}, "ControllerVariables" :> {
-        Hold[$CellContext`plot$$, $CellContext`plot$173644$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$173645$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$173646$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$173647$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$173648$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$173649$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$173650$$, 0]}, 
+        Hold[$CellContext`plot$$, $CellContext`plot$12320$$, False], 
+        Hold[$CellContext`vs$$, $CellContext`vs$12321$$, False], 
+        Hold[$CellContext`pd$$, $CellContext`pd$12322$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$12323$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$12324$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$12325$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$12326$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -1875,9 +1722,641 @@ $CellContext`pd$$], "NPV curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio ->
           Tooltip[
            $CellContext`dor[$CellContext`x, $CellContext`\[Mu]D$$, \
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$], 
+           "odds ratio curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 
+          1, AxesLabel -> {"sensitivity", "OR"}, PlotLabel -> 
+          Row[{"OR curve"}], PlotStyle -> {
+            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
+          ImageSize -> {350, 375}], $CellContext`plot$$ == 3, 
+         Plot[
+          Tooltip[
+           $CellContext`dplr[$CellContext`x, $CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$], 
+           "LR+ curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1, 
+          AxesLabel -> {"sensitivity", "LR+"}, PlotLabel -> 
+          Row[{"LR+ curve"}], PlotStyle -> {
+            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
+          ImageSize -> {350, 375}], $CellContext`plot$$ == 4, 
+         Plot[
+          Tooltip[
+           $CellContext`dnlr[$CellContext`x, $CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$], 
+           "LR- curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1, 
+          AxesLabel -> {"sensitivity", "LR-"}, PlotLabel -> 
+          Row[{"LR- curve"}], PlotStyle -> {
+            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
+          ImageSize -> {350, 375}]], $CellContext`vs$$ == 1, 
+        Which[$CellContext`plot$$ == 0, 
+         Plot[
+          Tooltip[
+           $CellContext`hppv[$CellContext`x, $CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`pd$$], "PPV curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 
+          1, AxesLabel -> {"specificity", "PPV"}, PlotLabel -> 
+          Row[{"PPV curve"}], PlotStyle -> {
+            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
+          ImageSize -> {350, 375}], $CellContext`plot$$ == 1, 
+         Plot[
+          Tooltip[
+           $CellContext`hnpv[$CellContext`x, $CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`pd$$], "NPV curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 
+          1, AxesLabel -> {"specificity", "NPV"}, PlotLabel -> 
+          Row[{"NPV curve"}], PlotStyle -> {
+            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
+          ImageSize -> {350, 375}], $CellContext`plot$$ == 2, 
+         Plot[
+          Tooltip[
+           $CellContext`hor[$CellContext`x, $CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$], 
            "OR curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1, 
-          AxesLabel -> {"sensitivity", "OR"}, PlotLabel -> Row[{"OR curve"}], 
+          AxesLabel -> {"specificity", "OR"}, PlotLabel -> Row[{"OR curve"}], 
           PlotStyle -> {
+            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
+          ImageSize -> {350, 375}], $CellContext`plot$$ == 3, 
+         Plot[
+          Tooltip[
+           $CellContext`hplr[$CellContext`x, $CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$], 
+           "LR+ curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1, 
+          AxesLabel -> {"specificity", "LR+"}, PlotLabel -> 
+          Row[{"LR+ curve"}], PlotStyle -> {
+            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
+          ImageSize -> {350, 375}], $CellContext`plot$$ == 4, 
+         Plot[
+          Tooltip[
+           $CellContext`hnlr[$CellContext`x, $CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$], 
+           "LR- curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1, 
+          AxesLabel -> {"specificity", "LR-"}, PlotLabel -> 
+          Row[{"LR- curve"}], PlotStyle -> {
+            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
+          ImageSize -> {350, 375}]]], 
+      "Specifications" :> {{{$CellContext`plot$$, 0, "plot"}, {
+         0 -> "PPV", 1 -> "NPV", 2 -> "OR", 3 -> "LR+", 4 -> "LR-"}, 
+         ControlPlacement -> Top}, {{$CellContext`vs$$, 0, "versus"}, {
+         0 -> "sensitivity", 1 -> "specificity"}, ControlPlacement -> Top}, 
+        Style[
+        "prevalence of disease", 
+         Bold], {{$CellContext`pd$$, 0.05, "prevalence"}, 1.*^-8, 0.99, 
+         ImageSize -> Tiny, Appearance -> "Labeled"}, 
+        Style[
+        "nondiseased population", Bold], {{$CellContext`\[Mu]H$$, 0, "mean"}, 
+         0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
+        Style[
+        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 
+         0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]D$$, 1, "standard deviation"}, 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}}, 
+      "Options" :> {
+       AutorunSequencing -> {1, 2, 6}, TrackedSymbols -> True, 
+        ControlPlacement -> Left}, 
+      "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{636., {239., 245.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`dppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          
+          Blank[]]] := ($CellContext`x $CellContext`pd)/($CellContext`x \
+$CellContext`pd + (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
+          1 - $CellContext`pd)), $CellContext`dppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`x $CellContext`pd)/($CellContext`x \
+$CellContext`pd + (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]) (1 - $CellContext`pd)), $CellContext`spec[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := CDF[
+         NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]D, $CellContext`\[Sigma]D], 
+          1 - $CellContext`x]], $CellContext`spec[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := CDF[
+         NormalDistribution[$CellContext`\[Mu]H, 
+          Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]D, 
+           Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
+          1 - $CellContext`x]], $CellContext`dnpv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          
+          Blank[]]] := ($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] (
+          1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
+          1 - $CellContext`x) $CellContext`pd), $CellContext`dnpv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] (
+          1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
+          1 - $CellContext`x) $CellContext`pd), $CellContext`dor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := $CellContext`x/(((1 - $CellContext`x) (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]))/$CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]), $CellContext`dor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := $CellContext`x/((
+         1 - $CellContext`x) ((
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])/$CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])), $CellContext`dor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`dppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]/((
+         1 - $CellContext`dppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]) ((
+          1 - $CellContext`dnpv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u])/$CellContext`dnpv[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`pd, $CellContext`u])), $CellContext`dplr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := $CellContext`x/(
+        1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]), \
+$CellContext`dplr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := $CellContext`x/(
+        1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]), $CellContext`dnlr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := (
+         1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
+\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H], \
+$CellContext`dnlr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := (
+         1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
+\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u], $CellContext`hppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          
+          Blank[]]] := ($CellContext`sens[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] $CellContext`pd)/($CellContext`sens[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] $CellContext`pd + (1 - $CellContext`pd) (
+          1 - $CellContext`x)), $CellContext`hppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`sens[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] \
+$CellContext`pd)/($CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
+          1 - $CellContext`x)), $CellContext`sens[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := 1 - CDF[
+         NormalDistribution[$CellContext`\[Mu]D, $CellContext`\[Sigma]D], 
+         InverseCDF[
+          
+          NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], \
+$CellContext`x]], $CellContext`sens[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := 1 - CDF[
+         NormalDistribution[$CellContext`\[Mu]D, 
+          Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]H, 
+           
+           Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], \
+$CellContext`x]], $CellContext`hnpv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]]] := $CellContext`x ((
+          1 - $CellContext`pd)/($CellContext`x (
+           1 - $CellContext`pd) + $CellContext`pd (
+           1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]))), \
+$CellContext`hnpv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := ((1 - $CellContext`x) (
+          1 - $CellContext`pd))/($CellContext`x (
+          1 - $CellContext`pd) + $CellContext`pd (
+          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])), $CellContext`hor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          
+          Blank[]]] := $CellContext`x ($CellContext`sens[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]/((1 - $CellContext`x) (
+          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]))), \
+$CellContext`hor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]/((
+         1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`hppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]/((
+         1 - $CellContext`hppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]) ((
+          1 - $CellContext`hnpv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u])/$CellContext`hnpv[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`pd, $CellContext`u])), $CellContext`hplr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := (1/(
+         1 - $CellContext`x)) $CellContext`sens[$CellContext`x, $CellContext`\
+\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H], \
+$CellContext`hplr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := (1/$CellContext`x) (
+         1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]), \
+$CellContext`hnlr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := (
+         1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellID->449373180,ExpressionUUID->"3d3b547b-a0cd-489e-a17c-12dc47c83300"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SnapshotsSection",ExpressionUUID->"c71a9286-6815-4ce5-9f00-fbc0e6b82153"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
+    2, $CellContext`vs$$ = 1, $CellContext`\[Mu]D$$ = 
+    3.67, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
+    1, $CellContext`\[Sigma]H$$ = 1, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`plot$$], 2, "plot"}, {
+      0 -> "PPV", 1 -> "NPV", 2 -> "OR", 3 -> "LR+", 4 -> "LR-"}}, {{
+       Hold[$CellContext`vs$$], 1, "versus"}, {
+      0 -> "sensitivity", 1 -> "specificity"}}, {
+      Hold[
+       Style["prevalence of disease", Bold]], 
+      Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`pd$$], 0.05, "prevalence"}, 1.*^-8, 0.99}, {
+      Hold[
+       Style["nondiseased population", Bold]], 
+      Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`\[Mu]H$$], 0, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]H$$], 1, "standard deviation"}, 0.01, 6, 
+      0.01}, {
+      Hold[
+       Style["diseased population", Bold]], 
+      Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`\[Mu]D$$], 3.67, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
+      0.01}}, Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    False, $CellContext`plot$12411$$ = False, $CellContext`vs$12412$$ = 
+    False, $CellContext`pd$12413$$ = 0, $CellContext`\[Mu]H$12414$$ = 
+    0, $CellContext`\[Sigma]H$12415$$ = 0, $CellContext`\[Mu]D$12416$$ = 
+    0, $CellContext`\[Sigma]D$12417$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
+        2, $CellContext`vs$$ = 1, $CellContext`\[Mu]D$$ = 
+        3.67, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
+        1, $CellContext`\[Sigma]H$$ = 1}, "ControllerVariables" :> {
+        Hold[$CellContext`plot$$, $CellContext`plot$12411$$, False], 
+        Hold[$CellContext`vs$$, $CellContext`vs$12412$$, False], 
+        Hold[$CellContext`pd$$, $CellContext`pd$12413$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$12414$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$12415$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$12416$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$12417$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Which[$CellContext`vs$$ == 0, 
+        Which[$CellContext`plot$$ == 0, 
+         Plot[
+          Tooltip[
+           $CellContext`dppv[$CellContext`x, $CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`pd$$], "PPV curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 
+          1, AxesLabel -> {"sensitivity", "PPV"}, PlotLabel -> 
+          Row[{"PPV curve"}], PlotStyle -> {
+            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
+          ImageSize -> {350, 375}], $CellContext`plot$$ == 1, 
+         Plot[
+          Tooltip[
+           $CellContext`dnpv[$CellContext`x, $CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`pd$$], "NPV curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 
+          1, AxesLabel -> {"sensitivity", "NPV"}, PlotLabel -> 
+          Row[{"NPV curve"}], PlotStyle -> {
+            RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
+          ImageSize -> {350, 375}], $CellContext`plot$$ == 2, 
+         Plot[
+          Tooltip[
+           $CellContext`dor[$CellContext`x, $CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$], 
+           "odds ratio curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 
+          1, AxesLabel -> {"sensitivity", "OR"}, PlotLabel -> 
+          Row[{"OR curve"}], PlotStyle -> {
             RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
           ImageSize -> {350, 375}], $CellContext`plot$$ == 3, 
          Plot[
@@ -1948,16 +2427,15 @@ $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$],
          0 -> "PPV", 1 -> "NPV", 2 -> "OR", 3 -> "LR+", 4 -> "LR-"}, 
          ControlPlacement -> Top}, {{$CellContext`vs$$, 1, "versus"}, {
          0 -> "sensitivity", 1 -> "specificity"}, ControlPlacement -> Top}, 
-        "", 
         Style[
         "prevalence of disease", 
          Bold], {{$CellContext`pd$$, 0.05, "prevalence"}, 1.*^-8, 0.99, 
-         ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
+         ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
         "nondiseased population", Bold], {{$CellContext`\[Mu]H$$, 0, "mean"}, 
          0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
          "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
-         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
         "diseased population", Bold], {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 
          0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
@@ -1988,7 +2466,26 @@ $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$],
 $CellContext`pd + (
           1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
-          1 - $CellContext`pd)), $CellContext`spec[
+          1 - $CellContext`pd)), $CellContext`dppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`x $CellContext`pd)/($CellContext`x \
+$CellContext`pd + (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]) (1 - $CellContext`pd)), $CellContext`spec[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2002,6 +2499,24 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
          NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], 
          InverseCDF[
           NormalDistribution[$CellContext`\[Mu]D, $CellContext`\[Sigma]D], 
+          1 - $CellContext`x]], $CellContext`spec[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := CDF[
+         NormalDistribution[$CellContext`\[Mu]H, 
+          Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]D, 
+           Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
           1 - $CellContext`x]], $CellContext`dnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -2021,6 +2536,27 @@ $CellContext`\[Sigma]H] (
           1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
+          1 - $CellContext`x) $CellContext`pd), $CellContext`dnpv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] (
+          1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
           1 - $CellContext`x) $CellContext`pd), $CellContext`dor[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -2031,13 +2567,55 @@ $CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
          Pattern[$CellContext`\[Sigma]D, 
           Blank[]], 
          Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := $CellContext`x/(((1 - $CellContext`x) (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]))/$CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]), $CellContext`dor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
           Blank[]]] := $CellContext`x/((
          1 - $CellContext`x) ((
           1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H])/$CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])/$CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])), $CellContext`dor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`dppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]/((
+         1 - $CellContext`dppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]) ((
+          1 - $CellContext`dnpv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u])/$CellContext`dnpv[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H])), $CellContext`dplr[
+$CellContext`\[Sigma]H, $CellContext`pd, $CellContext`u])), $CellContext`dplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2050,7 +2628,22 @@ $CellContext`\[Sigma]H])), $CellContext`dplr[
           Blank[]]] := $CellContext`x/(
         1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]), \
-$CellContext`dnlr[
+$CellContext`dplr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := $CellContext`x/(
+        1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]), $CellContext`dnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2063,7 +2656,22 @@ $CellContext`dnlr[
           Blank[]]] := (
          1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
 \[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H], \
-$CellContext`hppv[
+$CellContext`dnlr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := (
+         1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
+\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u], $CellContext`hppv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2081,6 +2689,27 @@ $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H] $CellContext`pd)/($CellContext`sens[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H] $CellContext`pd + (1 - $CellContext`pd) (
+          1 - $CellContext`x)), $CellContext`hppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`sens[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] \
+$CellContext`pd)/($CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
           1 - $CellContext`x)), $CellContext`sens[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -2096,6 +2725,25 @@ $CellContext`\[Sigma]H] $CellContext`pd + (1 - $CellContext`pd) (
          InverseCDF[
           
           NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], \
+$CellContext`x]], $CellContext`sens[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := 1 - CDF[
+         NormalDistribution[$CellContext`\[Mu]D, 
+          Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]H, 
+           
+           Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], \
 $CellContext`x]], $CellContext`hnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -2113,7 +2761,26 @@ $CellContext`x]], $CellContext`hnpv[
            1 - $CellContext`pd) + $CellContext`pd (
            1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]))), \
-$CellContext`hor[
+$CellContext`hnpv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := ((1 - $CellContext`x) (
+          1 - $CellContext`pd))/($CellContext`x (
+          1 - $CellContext`pd) + $CellContext`pd (
+          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])), $CellContext`hor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2124,11 +2791,55 @@ $CellContext`hor[
           Blank[]], 
          Pattern[$CellContext`\[Sigma]H, 
           
+          Blank[]]] := $CellContext`x ($CellContext`sens[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]/((1 - $CellContext`x) (
+          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]))), \
+$CellContext`hor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
           Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]/((
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]/((
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) ((
-          1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`hppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]/((
+         1 - $CellContext`hppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]) ((
+          1 - $CellContext`hnpv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u])/$CellContext`hnpv[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`pd, $CellContext`u])), $CellContext`hplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2141,7 +2852,22 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) ((
           Blank[]]] := (1/(
          1 - $CellContext`x)) $CellContext`sens[$CellContext`x, $CellContext`\
 \[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H], \
-$CellContext`hnlr[
+$CellContext`hplr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2153,8 +2879,23 @@ $CellContext`hnlr[
          Pattern[$CellContext`\[Sigma]H, 
           Blank[]]] := (1/$CellContext`x) (
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H])}; 
-     Typeset`initDone$$ = True),
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]), \
+$CellContext`hnlr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := (
+         1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -2162,7 +2903,7 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H])};
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->1059402647,ExpressionUUID->"242b7a4a-80a7-4e8f-aa99-72abe2aefb2f"],
+ CellID->108192094,ExpressionUUID->"2d32d384-8d87-4a28-82ea-758c6458df62"],
 
 Cell[BoxData[
  TagBox[
@@ -2178,19 +2919,16 @@ Cell[BoxData[
       0 -> "PPV", 1 -> "NPV", 2 -> "OR", 3 -> "LR+", 4 -> "LR-"}}, {{
        Hold[$CellContext`vs$$], 0, "versus"}, {
       0 -> "sensitivity", 1 -> "specificity"}}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["prevalence of disease", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`pd$$], 0.05, "prevalence"}, 1.*^-8, 0.99}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["nondiseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`\[Mu]H$$], 0, "mean"}, 0, 6, 0.01}, {{
        Hold[$CellContext`\[Sigma]H$$], 1, "standard deviation"}, 0.01, 6, 
       0.01}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["diseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
@@ -2198,23 +2936,23 @@ Cell[BoxData[
        Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
       0.01}}, Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`plot$173735$$ = False, $CellContext`vs$173736$$ = 
-    False, $CellContext`pd$173737$$ = 0, $CellContext`\[Mu]H$173738$$ = 
-    0, $CellContext`\[Sigma]H$173739$$ = 0, $CellContext`\[Mu]D$173740$$ = 
-    0, $CellContext`\[Sigma]D$173741$$ = 0}, 
+    False, $CellContext`plot$12502$$ = False, $CellContext`vs$12503$$ = 
+    False, $CellContext`pd$12504$$ = 0, $CellContext`\[Mu]H$12505$$ = 
+    0, $CellContext`\[Sigma]H$12506$$ = 0, $CellContext`\[Mu]D$12507$$ = 
+    0, $CellContext`\[Sigma]D$12508$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
         1, $CellContext`vs$$ = 0, $CellContext`\[Mu]D$$ = 
         3.67, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
         1, $CellContext`\[Sigma]H$$ = 1}, "ControllerVariables" :> {
-        Hold[$CellContext`plot$$, $CellContext`plot$173735$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$173736$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$173737$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$173738$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$173739$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$173740$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$173741$$, 0]}, 
+        Hold[$CellContext`plot$$, $CellContext`plot$12502$$, False], 
+        Hold[$CellContext`vs$$, $CellContext`vs$12503$$, False], 
+        Hold[$CellContext`pd$$, $CellContext`pd$12504$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$12505$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$12506$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$12507$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$12508$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -2243,9 +2981,9 @@ $CellContext`pd$$], "NPV curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio ->
           Tooltip[
            $CellContext`dor[$CellContext`x, $CellContext`\[Mu]D$$, \
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$], 
-           "OR curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1, 
-          AxesLabel -> {"sensitivity", "OR"}, PlotLabel -> Row[{"OR curve"}], 
-          PlotStyle -> {
+           "odds ratio curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 
+          1, AxesLabel -> {"sensitivity", "OR"}, PlotLabel -> 
+          Row[{"OR curve"}], PlotStyle -> {
             RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
           ImageSize -> {350, 375}], $CellContext`plot$$ == 3, 
          Plot[
@@ -2316,16 +3054,15 @@ $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$],
          0 -> "PPV", 1 -> "NPV", 2 -> "OR", 3 -> "LR+", 4 -> "LR-"}, 
          ControlPlacement -> Top}, {{$CellContext`vs$$, 0, "versus"}, {
          0 -> "sensitivity", 1 -> "specificity"}, ControlPlacement -> Top}, 
-        "", 
         Style[
         "prevalence of disease", 
          Bold], {{$CellContext`pd$$, 0.05, "prevalence"}, 1.*^-8, 0.99, 
-         ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
+         ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
         "nondiseased population", Bold], {{$CellContext`\[Mu]H$$, 0, "mean"}, 
          0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
          "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
-         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
         "diseased population", Bold], {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 
          0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
@@ -2356,7 +3093,26 @@ $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$],
 $CellContext`pd + (
           1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
-          1 - $CellContext`pd)), $CellContext`spec[
+          1 - $CellContext`pd)), $CellContext`dppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`x $CellContext`pd)/($CellContext`x \
+$CellContext`pd + (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]) (1 - $CellContext`pd)), $CellContext`spec[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2370,6 +3126,24 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
          NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], 
          InverseCDF[
           NormalDistribution[$CellContext`\[Mu]D, $CellContext`\[Sigma]D], 
+          1 - $CellContext`x]], $CellContext`spec[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := CDF[
+         NormalDistribution[$CellContext`\[Mu]H, 
+          Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]D, 
+           Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
           1 - $CellContext`x]], $CellContext`dnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -2389,6 +3163,27 @@ $CellContext`\[Sigma]H] (
           1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
+          1 - $CellContext`x) $CellContext`pd), $CellContext`dnpv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] (
+          1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
           1 - $CellContext`x) $CellContext`pd), $CellContext`dor[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -2399,13 +3194,55 @@ $CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
          Pattern[$CellContext`\[Sigma]D, 
           Blank[]], 
          Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := $CellContext`x/(((1 - $CellContext`x) (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]))/$CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]), $CellContext`dor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
           Blank[]]] := $CellContext`x/((
          1 - $CellContext`x) ((
           1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H])/$CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])/$CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])), $CellContext`dor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`dppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]/((
+         1 - $CellContext`dppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]) ((
+          1 - $CellContext`dnpv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u])/$CellContext`dnpv[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H])), $CellContext`dplr[
+$CellContext`\[Sigma]H, $CellContext`pd, $CellContext`u])), $CellContext`dplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2418,7 +3255,22 @@ $CellContext`\[Sigma]H])), $CellContext`dplr[
           Blank[]]] := $CellContext`x/(
         1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]), \
-$CellContext`dnlr[
+$CellContext`dplr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := $CellContext`x/(
+        1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]), $CellContext`dnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2431,7 +3283,22 @@ $CellContext`dnlr[
           Blank[]]] := (
          1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
 \[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H], \
-$CellContext`hppv[
+$CellContext`dnlr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := (
+         1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
+\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u], $CellContext`hppv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2449,6 +3316,27 @@ $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H] $CellContext`pd)/($CellContext`sens[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H] $CellContext`pd + (1 - $CellContext`pd) (
+          1 - $CellContext`x)), $CellContext`hppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`sens[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] \
+$CellContext`pd)/($CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
           1 - $CellContext`x)), $CellContext`sens[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -2464,6 +3352,25 @@ $CellContext`\[Sigma]H] $CellContext`pd + (1 - $CellContext`pd) (
          InverseCDF[
           
           NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], \
+$CellContext`x]], $CellContext`sens[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := 1 - CDF[
+         NormalDistribution[$CellContext`\[Mu]D, 
+          Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]H, 
+           
+           Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], \
 $CellContext`x]], $CellContext`hnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -2481,7 +3388,26 @@ $CellContext`x]], $CellContext`hnpv[
            1 - $CellContext`pd) + $CellContext`pd (
            1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]))), \
-$CellContext`hor[
+$CellContext`hnpv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := ((1 - $CellContext`x) (
+          1 - $CellContext`pd))/($CellContext`x (
+          1 - $CellContext`pd) + $CellContext`pd (
+          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])), $CellContext`hor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2492,11 +3418,55 @@ $CellContext`hor[
           Blank[]], 
          Pattern[$CellContext`\[Sigma]H, 
           
+          Blank[]]] := $CellContext`x ($CellContext`sens[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]/((1 - $CellContext`x) (
+          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]))), \
+$CellContext`hor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
           Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]/((
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]/((
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) ((
-          1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`hppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]/((
+         1 - $CellContext`hppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]) ((
+          1 - $CellContext`hnpv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u])/$CellContext`hnpv[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`pd, $CellContext`u])), $CellContext`hplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2509,7 +3479,22 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) ((
           Blank[]]] := (1/(
          1 - $CellContext`x)) $CellContext`sens[$CellContext`x, $CellContext`\
 \[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H], \
-$CellContext`hnlr[
+$CellContext`hplr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2521,8 +3506,23 @@ $CellContext`hnlr[
          Pattern[$CellContext`\[Sigma]H, 
           Blank[]]] := (1/$CellContext`x) (
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H])}; 
-     Typeset`initDone$$ = True),
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]), \
+$CellContext`hnlr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := (
+         1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -2530,7 +3530,7 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H])};
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->593370852,ExpressionUUID->"68c64a48-bf5a-434e-9638-2d7a80757d50"],
+ CellID->459490633,ExpressionUUID->"af6a61be-35d8-4ec5-9ed7-a9b602def753"],
 
 Cell[BoxData[
  TagBox[
@@ -2546,19 +3546,16 @@ Cell[BoxData[
       0 -> "PPV", 1 -> "NPV", 2 -> "OR", 3 -> "LR+", 4 -> "LR-"}}, {{
        Hold[$CellContext`vs$$], 1, "versus"}, {
       0 -> "sensitivity", 1 -> "specificity"}}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["prevalence of disease", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`pd$$], 0.05, "prevalence"}, 1.*^-8, 0.99}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["nondiseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`\[Mu]H$$], 0, "mean"}, 0, 6, 0.01}, {{
        Hold[$CellContext`\[Sigma]H$$], 1, "standard deviation"}, 0.01, 6, 
       0.01}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
       Hold[
        Style["diseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
@@ -2566,23 +3563,23 @@ Cell[BoxData[
        Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
       0.01}}, Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`plot$173826$$ = False, $CellContext`vs$173827$$ = 
-    False, $CellContext`pd$173828$$ = 0, $CellContext`\[Mu]H$173829$$ = 
-    0, $CellContext`\[Sigma]H$173830$$ = 0, $CellContext`\[Mu]D$173831$$ = 
-    0, $CellContext`\[Sigma]D$173832$$ = 0}, 
+    False, $CellContext`plot$12593$$ = False, $CellContext`vs$12594$$ = 
+    False, $CellContext`pd$12595$$ = 0, $CellContext`\[Mu]H$12596$$ = 
+    0, $CellContext`\[Sigma]H$12597$$ = 0, $CellContext`\[Mu]D$12598$$ = 
+    0, $CellContext`\[Sigma]D$12599$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
         3, $CellContext`vs$$ = 1, $CellContext`\[Mu]D$$ = 
         3.67, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
         1, $CellContext`\[Sigma]H$$ = 1}, "ControllerVariables" :> {
-        Hold[$CellContext`plot$$, $CellContext`plot$173826$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$173827$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$173828$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$173829$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$173830$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$173831$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$173832$$, 0]}, 
+        Hold[$CellContext`plot$$, $CellContext`plot$12593$$, False], 
+        Hold[$CellContext`vs$$, $CellContext`vs$12594$$, False], 
+        Hold[$CellContext`pd$$, $CellContext`pd$12595$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$12596$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$12597$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$12598$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$12599$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -2611,9 +3608,9 @@ $CellContext`pd$$], "NPV curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio ->
           Tooltip[
            $CellContext`dor[$CellContext`x, $CellContext`\[Mu]D$$, \
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$], 
-           "OR curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1, 
-          AxesLabel -> {"sensitivity", "OR"}, PlotLabel -> Row[{"OR curve"}], 
-          PlotStyle -> {
+           "odds ratio curve"], {$CellContext`x, 0.001, 0.999}, AspectRatio -> 
+          1, AxesLabel -> {"sensitivity", "OR"}, PlotLabel -> 
+          Row[{"OR curve"}], PlotStyle -> {
             RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
           ImageSize -> {350, 375}], $CellContext`plot$$ == 3, 
          Plot[
@@ -2684,16 +3681,15 @@ $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$],
          0 -> "PPV", 1 -> "NPV", 2 -> "OR", 3 -> "LR+", 4 -> "LR-"}, 
          ControlPlacement -> Top}, {{$CellContext`vs$$, 1, "versus"}, {
          0 -> "sensitivity", 1 -> "specificity"}, ControlPlacement -> Top}, 
-        "", 
         Style[
         "prevalence of disease", 
          Bold], {{$CellContext`pd$$, 0.05, "prevalence"}, 1.*^-8, 0.99, 
-         ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
+         ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
         "nondiseased population", Bold], {{$CellContext`\[Mu]H$$, 0, "mean"}, 
          0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
          "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
-         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
         "diseased population", Bold], {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 
          0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
@@ -2724,7 +3720,26 @@ $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$],
 $CellContext`pd + (
           1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
-          1 - $CellContext`pd)), $CellContext`spec[
+          1 - $CellContext`pd)), $CellContext`dppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`x $CellContext`pd)/($CellContext`x \
+$CellContext`pd + (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]) (1 - $CellContext`pd)), $CellContext`spec[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2738,6 +3753,24 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
          NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], 
          InverseCDF[
           NormalDistribution[$CellContext`\[Mu]D, $CellContext`\[Sigma]D], 
+          1 - $CellContext`x]], $CellContext`spec[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := CDF[
+         NormalDistribution[$CellContext`\[Mu]H, 
+          Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]D, 
+           Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
           1 - $CellContext`x]], $CellContext`dnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -2757,6 +3790,27 @@ $CellContext`\[Sigma]H] (
           1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
+          1 - $CellContext`x) $CellContext`pd), $CellContext`dnpv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] (
+          1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
           1 - $CellContext`x) $CellContext`pd), $CellContext`dor[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -2767,13 +3821,55 @@ $CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
          Pattern[$CellContext`\[Sigma]D, 
           Blank[]], 
          Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := $CellContext`x/(((1 - $CellContext`x) (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]))/$CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]), $CellContext`dor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
           Blank[]]] := $CellContext`x/((
          1 - $CellContext`x) ((
           1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H])/$CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])/$CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])), $CellContext`dor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`dppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]/((
+         1 - $CellContext`dppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]) ((
+          1 - $CellContext`dnpv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u])/$CellContext`dnpv[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
-$CellContext`\[Sigma]H])), $CellContext`dplr[
+$CellContext`\[Sigma]H, $CellContext`pd, $CellContext`u])), $CellContext`dplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2786,7 +3882,22 @@ $CellContext`\[Sigma]H])), $CellContext`dplr[
           Blank[]]] := $CellContext`x/(
         1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]), \
-$CellContext`dnlr[
+$CellContext`dplr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := $CellContext`x/(
+        1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]), $CellContext`dnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2799,7 +3910,22 @@ $CellContext`dnlr[
           Blank[]]] := (
          1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
 \[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H], \
-$CellContext`hppv[
+$CellContext`dnlr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := (
+         1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
+\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u], $CellContext`hppv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2817,6 +3943,27 @@ $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H] $CellContext`pd)/($CellContext`sens[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H] $CellContext`pd + (1 - $CellContext`pd) (
+          1 - $CellContext`x)), $CellContext`hppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := ($CellContext`sens[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`u] \
+$CellContext`pd)/($CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
           1 - $CellContext`x)), $CellContext`sens[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -2832,6 +3979,25 @@ $CellContext`\[Sigma]H] $CellContext`pd + (1 - $CellContext`pd) (
          InverseCDF[
           
           NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], \
+$CellContext`x]], $CellContext`sens[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := 1 - CDF[
+         NormalDistribution[$CellContext`\[Mu]D, 
+          Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]H, 
+           
+           Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], \
 $CellContext`x]], $CellContext`hnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
@@ -2849,7 +4015,26 @@ $CellContext`x]], $CellContext`hnpv[
            1 - $CellContext`pd) + $CellContext`pd (
            1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]))), \
-$CellContext`hor[
+$CellContext`hnpv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := ((1 - $CellContext`x) (
+          1 - $CellContext`pd))/($CellContext`x (
+          1 - $CellContext`pd) + $CellContext`pd (
+          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])), $CellContext`hor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2860,11 +4045,55 @@ $CellContext`hor[
           Blank[]], 
          Pattern[$CellContext`\[Sigma]H, 
           
+          Blank[]]] := $CellContext`x ($CellContext`sens[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H]/((1 - $CellContext`x) (
+          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]))), \
+$CellContext`hor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
           Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]/((
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]/((
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) ((
-          1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hor[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`hppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]/((
+         1 - $CellContext`hppv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u]) ((
+          1 - $CellContext`hnpv[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`pd, $CellContext`u])/$CellContext`hnpv[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H, $CellContext`pd, $CellContext`u])), $CellContext`hplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2877,7 +4106,22 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) ((
           Blank[]]] := (1/(
          1 - $CellContext`x)) $CellContext`sens[$CellContext`x, $CellContext`\
 \[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H], \
-$CellContext`hnlr[
+$CellContext`hplr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -2889,8 +4133,23 @@ $CellContext`hnlr[
          Pattern[$CellContext`\[Sigma]H, 
           Blank[]]] := (1/$CellContext`x) (
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
-$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H])}; 
-     Typeset`initDone$$ = True),
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]), \
+$CellContext`hnlr[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := (
+         1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
+$CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -2898,12 +4157,12 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H])};
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->2017336543,ExpressionUUID->"3033beb7-0f9d-420c-b329-92623e630e31"]
+ CellID->853998772,ExpressionUUID->"9e1b1b6f-33e1-49be-a78f-67c5958c67d2"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "DetailsSection",ExpressionUUID->"3aad6ae7-b602-4761-8b5e-ce4986b362d7"],
+Cell["", "DetailsSection",ExpressionUUID->"d1291f5c-aaae-446c-a5c4-6a906efa22b3"],
 
 Cell[TextData[{
  "The measures that are used in the evaluation of the clinical accuracy of a \
@@ -2914,18 +4173,18 @@ result, while specificity is the fraction of the nondiseased population with \
 a negative test result. If we denote by ",
  Cell[BoxData[
   FormBox["sens", TraditionalForm]], "InlineMath",ExpressionUUID->
-  "ceffc767-3dba-446c-83bd-c1b8914afe57"],
+  "630fc1bb-2077-4d47-a68b-e037c5874fb4"],
  " the sensitivity",
  StyleBox[",",
   FontSize->11],
  " ",
  Cell[BoxData[
   FormBox["spec", TraditionalForm]], "InlineMath",ExpressionUUID->
-  "e628a6e2-d51f-4b60-9a53-b30132053523"],
+  "9ef157e4-042a-4e08-b9f3-dc575bc5bd96"],
  " the specificity, and ",
  Cell[BoxData[
   FormBox["pr", TraditionalForm]], "InlineMath",ExpressionUUID->
-  "2e4d8de0-5a6c-496d-985f-32d0501940c2"],
+  "215d5773-d1c1-4c79-89db-9187eeb075fc"],
  " the prevalence, we have: "
 }], "DetailNotes",
  CellChangeTimes->{
@@ -2933,7 +4192,7 @@ a negative test result. If we denote by ",
    3.6464175360817204`*^9, 3.646417617296505*^9}, {3.646503135886409*^9, 
    3.646503162726223*^9}, {3.646503204507545*^9, 3.6465032210780993`*^9}, 
    3.646503453674555*^9, {3.646590274420603*^9, 3.646590286439289*^9}},
- CellID->2279429,ExpressionUUID->"e7422236-0468-406c-8597-93032b5c865a"],
+ CellID->2279429,ExpressionUUID->"d6481391-fd9f-4b7d-90b7-68b4de4bc325"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -2948,7 +4207,7 @@ Cell[TextData[{
         RowBox[{"1", "-", "spec"}], ")"}], 
        RowBox[{"(", 
         RowBox[{"1", "-", "pr"}], ")"}]}]}]]}], TraditionalForm]], 
-  "InlineMath",ExpressionUUID->"4c9ba7bf-173d-4d7a-8ab6-d4cd065f1a09"],
+  "InlineMath",ExpressionUUID->"6d681b9d-af80-472a-8033-e9f786e97370"],
  ", ",
  Cell[BoxData[
   FormBox[
@@ -2962,7 +4221,7 @@ Cell[TextData[{
       RowBox[{
        RowBox[{"(", 
         RowBox[{"1", "-", "sens"}], ")"}], "pr"}]}]]}], TraditionalForm]], 
-  "InlineMath",ExpressionUUID->"95215691-5d5c-4a3d-9cb0-7637ddcbbc1e"],
+  "InlineMath",ExpressionUUID->"1de1b7fb-de4d-49e7-9c32-573ee211b789"],
  ", ",
  Cell[BoxData[
   FormBox[
@@ -2972,7 +4231,7 @@ Cell[TextData[{
       RowBox[{"1", "-", "sens"}]], "/", 
      FractionBox[
       RowBox[{"1", "-", "spec"}], "spec"]}]}], TraditionalForm]], 
-  "InlineMath",ExpressionUUID->"20e8b22c-7722-4850-854e-d6399394cdd0"],
+  "InlineMath",ExpressionUUID->"021d3165-816b-4fc7-8bed-b729740d3466"],
  ", ",
  Cell[BoxData[
   FormBox[
@@ -2983,7 +4242,7 @@ Cell[TextData[{
        FontFamily->"Times New Roman",
        FontSize->9], 
       RowBox[{"1", "-", "spec"}]]}]}], TraditionalForm]], "InlineMath",
-  ExpressionUUID->"ef0d2977-33d3-4098-b127-61fc23ea9f4e"],
+  ExpressionUUID->"cd892e1a-9c85-4a40-ae15-007daef9ac8c"],
  ",",
  " ",
  Cell[BoxData[
@@ -2995,13 +4254,13 @@ Cell[TextData[{
        RowBox[{"1", "-", "sens"}],
        FontFamily->"Times New Roman",
        FontSize->9], "spec"]}]}], TraditionalForm]], "InlineMath",
-  ExpressionUUID->"65c54efc-8f0c-4200-81af-0314914d0b60"],
+  ExpressionUUID->"34dcdb7d-7f18-428d-a721-8fab3d49b6d2"],
  "."
 }], "DetailNotes",
  CellChangeTimes->{{3.551267277579608*^9, 3.5512673381175537`*^9}, {
   3.5512721171837015`*^9, 3.5512721434967017`*^9}, {3.646417296749917*^9, 
   3.6464173528737297`*^9}, {3.646502711378643*^9, 3.646502719298333*^9}},
- CellID->150840481,ExpressionUUID->"aaaf0a82-4744-4091-b059-1eb8cb03c84f"],
+ CellID->150840481,ExpressionUUID->"77f9f284-0776-440a-9203-cf32f00a5b8f"],
 
 Cell["\<\
 In the thumbnail and the snapshots, the population data describes a bimodal \
@@ -3016,7 +4275,7 @@ populations [2].\
    3.6463007683187127`*^9, 3.64630078185986*^9}, {3.6464173703468523`*^9, 
    3.646417510000455*^9}, {3.6465032315397997`*^9, 3.646503276665616*^9}, {
    3.646503487483631*^9, 3.646503489749584*^9}},
- CellID->31608360,ExpressionUUID->"6a320839-49a5-439c-8fb5-24e6a2d46097"],
+ CellID->31608360,ExpressionUUID->"ebdcb3a7-d829-46b2-abad-be2bd4534e65"],
 
 Cell["\<\
 This Demonstration is a simplified version of another Demonstration [1], and \
@@ -3030,14 +4289,14 @@ is appropriate as an educational tool for medical students.\
    3.6463007683187127`*^9, 3.64630078185986*^9}, {3.6464173703468523`*^9, 
    3.646417510000455*^9}, {3.6465032315397997`*^9, 3.646503276665616*^9}, {
    3.646503487483631*^9, 3.646503489746833*^9}},
- CellID->881659103,ExpressionUUID->"344df4c4-fc9e-4c5c-9565-a3a3648a7c73"],
+ CellID->881659103,ExpressionUUID->"81911002-0684-460a-9936-5de450f86ed0"],
 
 Cell["References", "DetailNotes",
  CellChangeTimes->{
   3.6462968592596183`*^9, {3.6462970584900184`*^9, 3.6462971962020187`*^9}, {
    3.6462996600035653`*^9, 3.646299666883342*^9}, {3.646502829162624*^9, 
    3.646502844827031*^9}},
- CellID->12559395,ExpressionUUID->"259daec7-550f-4c51-98cf-3c1c4e594c41"],
+ CellID->12559395,ExpressionUUID->"81c2c355-fa07-4d3e-836a-a670fb1f910e"],
 
 Cell[TextData[{
  "[1] A. T. Hatjimihail, \"Uncertainty of Measurement and Diagnostic Accuracy \
@@ -3057,7 +4316,7 @@ UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures/"],
   3.6462968592596183`*^9, {3.6462970584900184`*^9, 3.6462971962020187`*^9}, {
    3.6462996600035653`*^9, 3.646299666883342*^9}, {3.646502829162624*^9, 
    3.646502871100648*^9}},
- CellID->482764973,ExpressionUUID->"c2fa2462-d9d0-43fa-bf63-5436c7b9cacf"],
+ CellID->482764973,ExpressionUUID->"30fb5397-339d-4cad-91ff-be06be473118"],
 
 Cell[TextData[{
  "[2] T. O. Lim, R. Bakri, Z. Morad, and M. A. Hamid, \"Bimodality in Blood \
@@ -3073,32 +4332,32 @@ Glucose Distribution: Is It Universal?\", ",
   3.6462968592596183`*^9, {3.6462970584900184`*^9, 3.6462971962020187`*^9}, {
    3.6462996600035653`*^9, 3.646299666883342*^9}, {3.646502829162624*^9, 
    3.646502845685361*^9}, 3.6465036885439796`*^9},
- CellID->1190716188,ExpressionUUID->"c01bd1ba-59b4-4f35-9db6-2d4cb477c298"]
+ CellID->1190716188,ExpressionUUID->"21af18d5-43d7-4615-ae4f-54e321882a90"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "ControlSuggestionsSection",ExpressionUUID->"9f266bcc-cd61-4ff1-986a-30230760b276"],
+Cell["", "ControlSuggestionsSection",ExpressionUUID->"254e46dc-7244-4cd0-ae7d-995a9a9f9f4c"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[True], Cell[
-   " Resize Images",ExpressionUUID->"5de79078-37cc-4c43-bcac-45ed16231cbb"]}],
+   " Resize Images",ExpressionUUID->"bc09597c-eb2a-4cdb-ac73-8b23cbef80e9"]}],
   "\"Click inside an image to reveal its orange resize frame.\\nDrag any of \
 the orange resize handles to resize the image.\"",
   TooltipDelay->0.35]], "ControlSuggestions",
  CellChangeTimes->{3.551268419311702*^9},
  FontFamily->"Verdana",
  CellTags->
-  "ResizeImages",ExpressionUUID->"478c59d7-f73d-4e7d-b388-ca8c193d1727"],
+  "ResizeImages",ExpressionUUID->"c38d4def-ecc2-4b3f-a77d-8780bfc1c94e"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[False], Cell[
    " Rotate and Zoom in 3D",ExpressionUUID->
-    "2883e415-bf56-4801-a526-b6bc57d56794"]}],
+    "fa52bc1c-77d9-41cf-9b44-782f2743da33"]}],
   RowBox[{
    "\"Drag a 3D graphic to rotate it. Starting the drag near the center \
 tumbles\\nthe graphic; starting near a corner turns it parallel to the plane \
@@ -3112,13 +4371,13 @@ of the screen.\\nHold down \"",
   TooltipDelay->0.35]], "ControlSuggestions",
  FontFamily->"Verdana",
  CellTags->
-  "RotateAndZoomIn3D",ExpressionUUID->"160d4ecd-403d-4633-9b4e-06096b019de4"],
+  "RotateAndZoomIn3D",ExpressionUUID->"f3cb83f2-6d8e-4b54-9412-b986527bed37"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[False], Cell[
-   " Drag Locators",ExpressionUUID->"3c1fadaf-8bf8-4c75-9faf-54e95d22120f"]}],
+   " Drag Locators",ExpressionUUID->"bc0fa862-474d-4559-ae83-20c26e43c27d"]}],
   RowBox[{"\"Drag any locator (\"", 
     GraphicsBox[
      LocatorBox[
@@ -3127,14 +4386,14 @@ Cell[BoxData[
   TooltipDelay->0.35]], "ControlSuggestions",
  FontFamily->"Verdana",
  CellTags->
-  "DragLocators",ExpressionUUID->"9cbed8e1-6a3a-4357-9067-2291d7e76251"],
+  "DragLocators",ExpressionUUID->"8279aeec-460a-4d50-a7d4-411b96270879"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[False], Cell[
    " Create and Delete Locators",ExpressionUUID->
-    "1f913ea5-092f-456a-87ff-072220f31319"]}],
+    "27a847a9-7729-4830-a646-966c75a41f0c"]}],
   RowBox[{"\"Insert a new locator in the graphic by holding down the \"", 
     FrameBox[
     "Alt", Background -> GrayLevel[0.9], FrameMargins -> 2, FrameStyle -> 
@@ -3147,14 +4406,14 @@ clicking it\\nwhile holding down the \"",
   TooltipDelay->0.35]], "ControlSuggestions",
  FontFamily->"Verdana",
  CellTags->
-  "CreateAndDeleteLocators",ExpressionUUID->"99068be2-04e6-4d61-9942-\
-56975d69f61e"],
+  "CreateAndDeleteLocators",ExpressionUUID->"8fda0f34-628a-441d-acf5-\
+7c9c2bc610b3"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[False], Cell[
-   " Slider Zoom",ExpressionUUID->"82cfe05a-9ec5-45e7-bf16-3d25042766c0"]}],
+   " Slider Zoom",ExpressionUUID->"97543281-bb8e-40a8-b594-296ae729f12c"]}],
   RowBox[{"\"Hold down the \"", 
     FrameBox[
     "Alt", Background -> GrayLevel[0.9], FrameMargins -> 2, FrameStyle -> 
@@ -3173,28 +4432,28 @@ value.\\nHold \"",
   TooltipDelay->0.35]], "ControlSuggestions",
  FontFamily->"Verdana",
  CellTags->
-  "SliderZoom",ExpressionUUID->"92f93906-afbb-4082-a865-42164e7b672a"],
+  "SliderZoom",ExpressionUUID->"b8770b42-c8bf-4e69-b26a-f44b588b7615"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[False], Cell[
    " Gamepad Controls",ExpressionUUID->
-    "56bdd00b-09f0-42ce-a007-f59ca8b05ece"]}],
+    "b74e1385-754e-4a0d-8de5-cb263751fea1"]}],
   "\"Control this Demonstration with a gamepad or other\\nhuman interface \
 device connected to your computer.\"",
   TooltipDelay->0.35]], "ControlSuggestions",
  CellChangeTimes->{3.35696210375764*^9, 3.3895522232313623`*^9},
  FontFamily->"Verdana",
  CellTags->
-  "GamepadControls",ExpressionUUID->"47463633-2cc1-4555-a6b2-523344ede252"],
+  "GamepadControls",ExpressionUUID->"468eb381-4052-430d-8ae9-a5bce926bacd"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[False], Cell[
    " Automatic Animation",ExpressionUUID->
-    "2f23ddc0-747a-4468-b3f3-eeb99a6fbbf0"]}],
+    "2b244d55-62e3-4a24-b4e1-13ac4b850cdd"]}],
   RowBox[{"\"Animate a slider in this Demonstration by clicking the\"", 
     AdjustmentBox[
      Cell[
@@ -3223,14 +4482,14 @@ UqiK6pPe4XdEdAz6563tx/gejuORGMxJaz8mdpJn7hc="], "Graphics",
   TooltipDelay->0.35]], "ControlSuggestions",
  FontFamily->"Verdana",
  CellTags->
-  "AutomaticAnimation",ExpressionUUID->"aa8932ac-5c66-42e1-9588-6fc31bf3ff8d"],
+  "AutomaticAnimation",ExpressionUUID->"cab54c6e-fb05-4de6-8fce-e15a233acab6"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[False], Cell[
    " Bookmark Animation",ExpressionUUID->
-    "2fbc7f24-e18f-413d-a75f-6513fd69ac2a"]}],
+    "514f48b3-00de-45bb-abe5-bd15fd192428"]}],
   RowBox[{
    "\"See a prepared animation of this Demonstration by selecting\\n\"", 
     StyleBox["Animate Bookmarks", FontWeight -> "Bold"], "\" from the\"", 
@@ -3249,79 +4508,79 @@ UqiK6pPe4XdEdAz6563tx/gejuORGMxJaz8mdpJn7hc="], "Graphics",
   TooltipDelay->0.35]], "ControlSuggestions",
  FontFamily->"Verdana",
  CellTags->
-  "BookmarkAnimation",ExpressionUUID->"1e44b031-2be8-4afc-836e-330381d9fc75"]
+  "BookmarkAnimation",ExpressionUUID->"3d7352c2-f17c-453c-8402-f3a002d917a1"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "SearchTermsSection",ExpressionUUID->"d7c06c72-9b72-4e99-b6f4-10fc907893b2"],
+Cell["", "SearchTermsSection",ExpressionUUID->"5fbfa884-628d-4d61-b3b8-faa3da05e876"],
 
 Cell["", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408180771871*^9}, 
    3.646296889908018*^9},
- CellID->957468028,ExpressionUUID->"90ede876-31da-4c3c-a772-33e2aa843bc2"],
+ CellID->957468028,ExpressionUUID->"f4d99374-11ec-440e-9803-2bebeebbc77d"],
 
 Cell["sensitivity", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408180771871*^9}},
- CellID->569163635,ExpressionUUID->"e1c548ee-ddb9-4977-931e-ce13af3f3080"],
+ CellID->569163635,ExpressionUUID->"2cefd7d4-f4f9-4d70-be5e-95c94150a552"],
 
 Cell["specificity", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408179320838*^9}},
- CellID->400091656,ExpressionUUID->"86b1e4e4-2d27-48e9-aa34-57b3fafe2f0d"],
+ CellID->400091656,ExpressionUUID->"bd9ac604-a3a7-4334-b234-eed573014175"],
 
 Cell["diagnostic test", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.5594081777351503`*^9}},
- CellID->571680962,ExpressionUUID->"83f249ca-1405-4933-bb4f-0710c9c604b8"],
+ CellID->571680962,ExpressionUUID->"6be82996-85c1-47a1-9917-6ef290d9338a"],
 
 Cell["clinical accuracy", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408176339293*^9}},
- CellID->1626203133,ExpressionUUID->"fc65cf69-1cd4-458b-8436-6249c3faf5cb"],
+ CellID->1626203133,ExpressionUUID->"533e89af-a1d6-40ba-bdd5-3481124e9f59"],
 
 Cell["diagnostic accuracy", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.5594081739879*^9}, {
    3.6462968926270185`*^9, 3.6462968930040183`*^9}},
- CellID->296995018,ExpressionUUID->"764e9098-6fea-44be-aa98-d00a1274ca7c"],
+ CellID->296995018,ExpressionUUID->"2e3c64a5-791b-4e53-9113-dd75b34d87ab"],
 
 Cell["normal distribution", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408172796143*^9}},
- CellID->1104872261,ExpressionUUID->"d6971c08-e6d2-46ff-a9c8-a0baced7ae11"],
+ CellID->1104872261,ExpressionUUID->"7fa1b3ec-bb97-4786-a932-f38497bc0985"],
 
 Cell["binormal distribution", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408171333458*^9}},
- CellID->175881619,ExpressionUUID->"e38d19b4-b352-4d51-8873-c89094a58402"],
+ CellID->175881619,ExpressionUUID->"1a5c1487-997f-473a-9330-bcfe9dbdc431"],
 
 Cell["positive predictive value", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408170152647*^9}},
- CellID->1287452913,ExpressionUUID->"af43b3ff-5c5a-4e26-b42e-8b89140b2413"],
+ CellID->1287452913,ExpressionUUID->"92af069d-7891-4ffd-bd94-4fef136d46fc"],
 
 Cell["negative predictive value", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408168846698*^9}},
- CellID->851812545,ExpressionUUID->"d4f2fbc2-bba1-475e-ab83-ba868c1ec9d6"],
+ CellID->851812545,ExpressionUUID->"8456c9cd-3351-40a7-aa57-327fa098b2be"],
 
 Cell["likelihood ratio", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408166821538*^9}},
- CellID->194649218,ExpressionUUID->"f5e766a5-103f-4fc6-a1a3-62802aba132a"],
+ CellID->194649218,ExpressionUUID->"c6c4ec80-fbf1-40f4-9ebb-fb294bd59161"],
 
 Cell["odds ratio", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, 3.55940816323387*^9},
- CellID->1257427335,ExpressionUUID->"438e6f16-cc7f-4f1c-9a43-32dc05dcc0c8"]
+ CellID->1257427335,ExpressionUUID->"15ca6bac-08cd-44aa-9eb3-2e8e933e8c39"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "RelatedLinksSection",ExpressionUUID->"264db356-fcbf-469b-9624-c26389868f0c"],
+Cell["", "RelatedLinksSection",ExpressionUUID->"15416a80-c5d2-4d8b-9969-01ce87ada2fe"],
 
 Cell[TextData[ButtonBox["Uncertainty of Measurement and Diagnostic Accuracy \
 Measures",
@@ -3333,12 +4592,12 @@ UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures/"], None},
   "http://demonstrations.wolfram.com/\
 UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures/"]], "RelatedLinks",
  CellChangeTimes->{{3.6462970120500183`*^9, 3.6462970120500183`*^9}},
- CellID->121825918,ExpressionUUID->"4f812412-581b-4bba-9558-85855607aae5"]
+ CellID->121825918,ExpressionUUID->"791f4714-3f41-4897-b930-c02244e7c8a6"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "AuthorSection",ExpressionUUID->"e92cbb1e-5062-4a2c-accb-c01e31ff173c"],
+Cell["", "AuthorSection",ExpressionUUID->"a3142e41-3b98-431e-a45b-f3651335cfbb"],
 
 Cell[TextData[{
  "Contributed by: ",
@@ -3353,14 +4612,14 @@ Chatzimichail"]
 }], "Author",
  CellChangeTimes->{{3.645449341444416*^9, 3.645449345491221*^9}, {
   3.645557669428812*^9, 
-  3.645557671890539*^9}},ExpressionUUID->"9b56d016-115f-4e41-a356-\
-f07e0f0346ef"],
+  3.645557671890539*^9}},ExpressionUUID->"1ccc02bd-e15c-43f3-9c37-\
+195b9d2de4fb"],
 
 Cell["(Hellenic Complex Systems Laboratory)", "Author",
  CellChangeTimes->{
   3.5512681851127014`*^9, 3.559408192392984*^9, {3.6462992476220517`*^9, 
    3.6462992476240516`*^9}},
- CellID->1041049707,ExpressionUUID->"62416dd2-8e20-413a-aefb-ae5cd7dcffab"],
+ CellID->1041049707,ExpressionUUID->"2bf71494-f0e9-49b7-8206-562ec44a8f1f"],
 
 Cell[TextData[{
  "Based on the Demonstration ",
@@ -3388,12 +4647,18 @@ UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures/"],
    3.646299406196907*^9, 3.646299762264187*^9, {3.6463066908544855`*^9, 
    3.6463067144204855`*^9}, {3.64650259662991*^9, 3.646502596631428*^9}, {
    3.6465039011614656`*^9, 3.6465039070282507`*^9}},
- CellID->6386561,ExpressionUUID->"180b983e-b848-4bfb-ac07-a379b3b7ae43"]
+ CellID->6386561,ExpressionUUID->"fd75c3ed-f170-4b43-89da-09a2fe65b070"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{700, Automatic},
-WindowMargins->{{10, Automatic}, {0, 0}},
+WindowSize->{1280, 941},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+PrintingCopies->1,
+PrintingPageRange->{32000, 32000},
+PrintingOptions->{"Magnification"->1.,
+"PaperOrientation"->"Portrait",
+"PaperSize"->{841.92, 1190.52},
+"PrintingMargins"->{{53.971654128, 53.971654128}, {72.00000078, 72.00000078}}},
 FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Demonstration.nb", 
   CharacterEncoding -> "UTF-8"]
@@ -3404,161 +4669,161 @@ StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Demonstration.nb",
 (*CellTagsOutline
 CellTagsIndex->{
  "ResizeImages"->{
-  Cell[143771, 3082, 470, 11, 22, "ControlSuggestions",ExpressionUUID->"478c59d7-f73d-4e7d-b388-ca8c193d1727",
+  Cell[192459, 4341, 470, 11, 22, "ControlSuggestions",ExpressionUUID->"c38d4def-ecc2-4b3f-a77d-8780bfc1c94e",
    CellTags->"ResizeImages"]},
  "RotateAndZoomIn3D"->{
-  Cell[144244, 3095, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"160d4ecd-403d-4633-9b4e-06096b019de4",
+  Cell[192932, 4354, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"f3cb83f2-6d8e-4b54-9412-b986527bed37",
    CellTags->"RotateAndZoomIn3D"]},
  "DragLocators"->{
-  Cell[145047, 3116, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"9cbed8e1-6a3a-4357-9067-2291d7e76251",
+  Cell[193735, 4375, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"8279aeec-460a-4d50-a7d4-411b96270879",
    CellTags->"DragLocators"]},
  "CreateAndDeleteLocators"->{
-  Cell[145507, 3131, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"99068be2-04e6-4d61-9942-56975d69f61e",
+  Cell[194195, 4390, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"8fda0f34-628a-441d-acf5-7c9c2bc610b3",
    CellTags->"CreateAndDeleteLocators"]},
  "SliderZoom"->{
-  Cell[146271, 3152, 961, 23, 22, "ControlSuggestions",ExpressionUUID->"92f93906-afbb-4082-a865-42164e7b672a",
+  Cell[194959, 4411, 961, 23, 22, "ControlSuggestions",ExpressionUUID->"b8770b42-c8bf-4e69-b26a-f44b588b7615",
    CellTags->"SliderZoom"]},
  "GamepadControls"->{
-  Cell[147235, 3177, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"47463633-2cc1-4555-a6b2-523344ede252",
+  Cell[195923, 4436, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"468eb381-4052-430d-8ae9-a5bce926bacd",
    CellTags->"GamepadControls"]},
  "AutomaticAnimation"->{
-  Cell[147729, 3191, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"aa8932ac-5c66-42e1-9588-6fc31bf3ff8d",
+  Cell[196417, 4450, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"cab54c6e-fb05-4de6-8fce-e15a233acab6",
    CellTags->"AutomaticAnimation"]},
  "BookmarkAnimation"->{
-  Cell[149318, 3227, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"1e44b031-2be8-4afc-836e-330381d9fc75",
+  Cell[198006, 4486, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"3d7352c2-f17c-453c-8402-f3a002d917a1",
    CellTags->"BookmarkAnimation"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ResizeImages", 156671, 3405},
- {"RotateAndZoomIn3D", 156837, 3408},
- {"DragLocators", 157003, 3411},
- {"CreateAndDeleteLocators", 157175, 3414},
- {"SliderZoom", 157345, 3417},
- {"GamepadControls", 157507, 3420},
- {"AutomaticAnimation", 157677, 3423},
- {"BookmarkAnimation", 157850, 3426}
+ {"ResizeImages", 205600, 4670},
+ {"RotateAndZoomIn3D", 205766, 4673},
+ {"DragLocators", 205932, 4676},
+ {"CreateAndDeleteLocators", 206104, 4679},
+ {"SliderZoom", 206274, 4682},
+ {"GamepadControls", 206436, 4685},
+ {"AutomaticAnimation", 206606, 4688},
+ {"BookmarkAnimation", 206779, 4691}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 241, 4, 74, "DemoTitle",ExpressionUUID->"e3c02068-4020-43b2-99e8-9e202abcca62"],
+Cell[580, 22, 241, 4, 74, "DemoTitle",ExpressionUUID->"facfecf3-1c12-4071-a853-4c761dbd221b"],
 Cell[CellGroupData[{
-Cell[846, 30, 105, 1, 275, "InitializationSection",ExpressionUUID->"5117073b-c811-4e35-a5c5-bcc3f99354cc"],
-Cell[954, 33, 4731, 82, 114, "Input",ExpressionUUID->"26d58609-456b-408c-a11d-15e3c424805a",
+Cell[846, 30, 105, 1, 275, "InitializationSection",ExpressionUUID->"c0392b4d-8103-4925-8fe8-531f4a58e1b8"],
+Cell[954, 33, 4732, 82, 114, "Input",ExpressionUUID->"ca0ee445-8661-45d7-9cb5-f49cebdaf68e",
  InitializationCell->True,
  CellID->517742995],
-Cell[5688, 117, 7159, 153, 191, "Input",ExpressionUUID->"0a8c725c-8da3-4c35-b930-2ddc0a0072de",
+Cell[5689, 117, 7271, 157, 168, "Input",ExpressionUUID->"d613a506-4c2f-494d-9adb-1a2a6a90eae5",
  InitializationCell->True,
  CellID->227297142],
-Cell[12850, 272, 4111, 117, 193, "Input",ExpressionUUID->"158e2f71-7ea5-4eaf-a445-1fca5239fa7e",
+Cell[12963, 276, 4201, 120, 132, "Input",ExpressionUUID->"1c13f782-d036-4801-9ad8-987cac6c87d0",
  InitializationCell->True,
  CellID->49098865]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[16998, 394, 84, 0, 231, "ManipulateSection",ExpressionUUID->"e9984973-cdf1-430f-a9cf-d7a3a5ee087b"],
+Cell[17201, 401, 84, 0, 231, "ManipulateSection",ExpressionUUID->"11d372f2-2c98-42e6-9160-3aeb69803cef"],
 Cell[CellGroupData[{
-Cell[17107, 398, 32955, 601, 962, "Input",ExpressionUUID->"fa873616-15ce-4e01-8c8b-5de9fb43c5d0",
+Cell[17310, 405, 31500, 580, 908, "Input",ExpressionUUID->"19a4fc91-7d26-43d8-8a1f-a3ac66f99b94",
  CellID->4362360],
-Cell[50065, 1001, 17529, 388, 553, "Output",ExpressionUUID->"301bdc88-be2a-4270-99df-70f6b94741eb",
- CellID->93501384]
+Cell[48813, 987, 26964, 625, 496, "Output",ExpressionUUID->"e8f5250c-c5fa-4d27-900f-be36365b2972",
+ CellID->142044577]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[67643, 1395, 91, 0, 169, "ManipulateCaptionSection",ExpressionUUID->"d56e982c-3af1-4e56-94a7-dd55fa89c76a"],
-Cell[67737, 1397, 1526, 21, 67, "ManipulateCaption",ExpressionUUID->"aecbe008-b933-4b46-88d6-a4a6c7c08c07",
+Cell[75826, 1618, 91, 0, 169, "ManipulateCaptionSection",ExpressionUUID->"ad019fae-43d5-4b54-9bf6-5e5a06a47c89"],
+Cell[75920, 1620, 1506, 21, 82, "ManipulateCaption",ExpressionUUID->"480e707b-0708-4b65-afb0-0a8ed594b302",
  CellID->198574962]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[69300, 1423, 83, 0, 172, "ThumbnailSection",ExpressionUUID->"621d6590-4e35-402d-b4dc-98a6963ea1b0"],
-Cell[69386, 1425, 16833, 366, 496, "Output",ExpressionUUID->"98fb7c9b-0efe-4a5d-8e32-f5151b0604cf",
- CellID->2132086127]
+Cell[77463, 1646, 83, 0, 172, "ThumbnailSection",ExpressionUUID->"879aa870-025a-4948-a885-cc2ffd8131aa"],
+Cell[77549, 1648, 26964, 625, 496, "Output",ExpressionUUID->"3d3b547b-a0cd-489e-a17c-12dc47c83300",
+ CellID->449373180]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[86256, 1796, 83, 0, 142, "SnapshotsSection",ExpressionUUID->"9c09f980-808f-4d0d-9fbd-4a43f35318df"],
-Cell[86342, 1798, 16833, 366, 496, "Output",ExpressionUUID->"242b7a4a-80a7-4e8f-aa99-72abe2aefb2f",
- CellID->1059402647],
-Cell[103178, 2166, 16832, 366, 496, "Output",ExpressionUUID->"68c64a48-bf5a-434e-9638-2d7a80757d50",
- CellID->593370852],
-Cell[120013, 2534, 16833, 366, 496, "Output",ExpressionUUID->"3033beb7-0f9d-420c-b329-92623e630e31",
- CellID->2017336543]
+Cell[104550, 2278, 83, 0, 142, "SnapshotsSection",ExpressionUUID->"c71a9286-6815-4ce5-9f00-fbc0e6b82153"],
+Cell[104636, 2280, 26964, 625, 496, "Output",ExpressionUUID->"2d32d384-8d87-4a28-82ea-758c6458df62",
+ CellID->108192094],
+Cell[131603, 2907, 26964, 625, 496, "Output",ExpressionUUID->"af6a61be-35d8-4ec5-9ed7-a9b602def753",
+ CellID->459490633],
+Cell[158570, 3534, 26964, 625, 496, "Output",ExpressionUUID->"9e1b1b6f-33e1-49be-a78f-67c5958c67d2",
+ CellID->853998772]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[136883, 2905, 81, 0, 339, "DetailsSection",ExpressionUUID->"3aad6ae7-b602-4761-8b5e-ce4986b362d7"],
-Cell[136967, 2907, 1342, 28, 53, "DetailNotes",ExpressionUUID->"e7422236-0468-406c-8597-93032b5c865a",
+Cell[185571, 4164, 81, 0, 339, "DetailsSection",ExpressionUUID->"d1291f5c-aaae-446c-a5c4-6a906efa22b3"],
+Cell[185655, 4166, 1342, 28, 53, "DetailNotes",ExpressionUUID->"d6481391-fd9f-4b7d-90b7-68b4de4bc325",
  CellID->2279429],
-Cell[138312, 2937, 2078, 66, 38, "DetailNotes",ExpressionUUID->"aaaf0a82-4744-4091-b059-1eb8cb03c84f",
+Cell[187000, 4196, 2078, 66, 38, "DetailNotes",ExpressionUUID->"77f9f284-0776-440a-9203-cf32f00a5b8f",
  CellID->150840481],
-Cell[140393, 3005, 780, 13, 22, "DetailNotes",ExpressionUUID->"6a320839-49a5-439c-8fb5-24e6a2d46097",
+Cell[189081, 4264, 780, 13, 22, "DetailNotes",ExpressionUUID->"ebdcb3a7-d829-46b2-abad-be2bd4534e65",
  CellID->31608360],
-Cell[141176, 3020, 752, 12, 22, "DetailNotes",ExpressionUUID->"344df4c4-fc9e-4c5c-9565-a3a3648a7c73",
+Cell[189864, 4279, 752, 12, 22, "DetailNotes",ExpressionUUID->"81911002-0684-460a-9936-5de450f86ed0",
  CellID->881659103],
-Cell[141931, 3034, 306, 5, 22, "DetailNotes",ExpressionUUID->"259daec7-550f-4c51-98cf-3c1c4e594c41",
+Cell[190619, 4293, 306, 5, 22, "DetailNotes",ExpressionUUID->"81c2c355-fa07-4d3e-836a-a670fb1f910e",
  CellID->12559395],
-Cell[142240, 3041, 808, 18, 37, "DetailNotes",ExpressionUUID->"c2fa2462-d9d0-43fa-bf63-5436c7b9cacf",
+Cell[190928, 4300, 808, 18, 37, "DetailNotes",ExpressionUUID->"30fb5397-339d-4cad-91ff-be06be473118",
  CellID->482764973],
-Cell[143051, 3061, 588, 14, 22, "DetailNotes",ExpressionUUID->"c01bd1ba-59b4-4f35-9db6-2d4cb477c298",
+Cell[191739, 4320, 588, 14, 22, "DetailNotes",ExpressionUUID->"21af18d5-43d7-4615-ae4f-54e321882a90",
  CellID->1190716188]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[143676, 3080, 92, 0, 126, "ControlSuggestionsSection",ExpressionUUID->"9f266bcc-cd61-4ff1-986a-30230760b276"],
-Cell[143771, 3082, 470, 11, 22, "ControlSuggestions",ExpressionUUID->"478c59d7-f73d-4e7d-b388-ca8c193d1727",
+Cell[192364, 4339, 92, 0, 126, "ControlSuggestionsSection",ExpressionUUID->"254e46dc-7244-4cd0-ae7d-995a9a9f9f4c"],
+Cell[192459, 4341, 470, 11, 22, "ControlSuggestions",ExpressionUUID->"c38d4def-ecc2-4b3f-a77d-8780bfc1c94e",
  CellTags->"ResizeImages"],
-Cell[144244, 3095, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"160d4ecd-403d-4633-9b4e-06096b019de4",
+Cell[192932, 4354, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"f3cb83f2-6d8e-4b54-9412-b986527bed37",
  CellTags->"RotateAndZoomIn3D"],
-Cell[145047, 3116, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"9cbed8e1-6a3a-4357-9067-2291d7e76251",
+Cell[193735, 4375, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"8279aeec-460a-4d50-a7d4-411b96270879",
  CellTags->"DragLocators"],
-Cell[145507, 3131, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"99068be2-04e6-4d61-9942-56975d69f61e",
+Cell[194195, 4390, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"8fda0f34-628a-441d-acf5-7c9c2bc610b3",
  CellTags->"CreateAndDeleteLocators"],
-Cell[146271, 3152, 961, 23, 22, "ControlSuggestions",ExpressionUUID->"92f93906-afbb-4082-a865-42164e7b672a",
+Cell[194959, 4411, 961, 23, 22, "ControlSuggestions",ExpressionUUID->"b8770b42-c8bf-4e69-b26a-f44b588b7615",
  CellTags->"SliderZoom"],
-Cell[147235, 3177, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"47463633-2cc1-4555-a6b2-523344ede252",
+Cell[195923, 4436, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"468eb381-4052-430d-8ae9-a5bce926bacd",
  CellTags->"GamepadControls"],
-Cell[147729, 3191, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"aa8932ac-5c66-42e1-9588-6fc31bf3ff8d",
+Cell[196417, 4450, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"cab54c6e-fb05-4de6-8fce-e15a233acab6",
  CellTags->"AutomaticAnimation"],
-Cell[149318, 3227, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"1e44b031-2be8-4afc-836e-330381d9fc75",
+Cell[198006, 4486, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"3d7352c2-f17c-453c-8402-f3a002d917a1",
  CellTags->"BookmarkAnimation"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[150385, 3256, 85, 0, 158, "SearchTermsSection",ExpressionUUID->"d7c06c72-9b72-4e99-b6f4-10fc907893b2"],
-Cell[150473, 3258, 265, 4, 22, "SearchTerms",ExpressionUUID->"90ede876-31da-4c3c-a772-33e2aa843bc2",
+Cell[199073, 4515, 85, 0, 158, "SearchTermsSection",ExpressionUUID->"5fbfa884-628d-4d61-b3b8-faa3da05e876"],
+Cell[199161, 4517, 265, 4, 22, "SearchTerms",ExpressionUUID->"f4d99374-11ec-440e-9803-2bebeebbc77d",
  CellID->957468028],
-Cell[150741, 3264, 250, 3, 22, "SearchTerms",ExpressionUUID->"e1c548ee-ddb9-4977-931e-ce13af3f3080",
+Cell[199429, 4523, 250, 3, 22, "SearchTerms",ExpressionUUID->"2cefd7d4-f4f9-4d70-be5e-95c94150a552",
  CellID->569163635],
-Cell[150994, 3269, 250, 3, 22, "SearchTerms",ExpressionUUID->"86b1e4e4-2d27-48e9-aa34-57b3fafe2f0d",
+Cell[199682, 4528, 250, 3, 22, "SearchTerms",ExpressionUUID->"bd9ac604-a3a7-4334-b234-eed573014175",
  CellID->400091656],
-Cell[151247, 3274, 256, 3, 22, "SearchTerms",ExpressionUUID->"83f249ca-1405-4933-bb4f-0710c9c604b8",
+Cell[199935, 4533, 256, 3, 22, "SearchTerms",ExpressionUUID->"6be82996-85c1-47a1-9917-6ef290d9338a",
  CellID->571680962],
-Cell[151506, 3279, 257, 3, 22, "SearchTerms",ExpressionUUID->"fc65cf69-1cd4-458b-8436-6249c3faf5cb",
+Cell[200194, 4538, 257, 3, 22, "SearchTerms",ExpressionUUID->"533e89af-a1d6-40ba-bdd5-3481124e9f59",
  CellID->1626203133],
-Cell[151766, 3284, 310, 4, 22, "SearchTerms",ExpressionUUID->"764e9098-6fea-44be-aa98-d00a1274ca7c",
+Cell[200454, 4543, 310, 4, 22, "SearchTerms",ExpressionUUID->"2e3c64a5-791b-4e53-9113-dd75b34d87ab",
  CellID->296995018],
-Cell[152079, 3290, 259, 3, 22, "SearchTerms",ExpressionUUID->"d6971c08-e6d2-46ff-a9c8-a0baced7ae11",
+Cell[200767, 4549, 259, 3, 22, "SearchTerms",ExpressionUUID->"7fa1b3ec-bb97-4786-a932-f38497bc0985",
  CellID->1104872261],
-Cell[152341, 3295, 260, 3, 22, "SearchTerms",ExpressionUUID->"e38d19b4-b352-4d51-8873-c89094a58402",
+Cell[201029, 4554, 260, 3, 22, "SearchTerms",ExpressionUUID->"1a5c1487-997f-473a-9330-bcfe9dbdc431",
  CellID->175881619],
-Cell[152604, 3300, 265, 3, 22, "SearchTerms",ExpressionUUID->"af43b3ff-5c5a-4e26-b42e-8b89140b2413",
+Cell[201292, 4559, 265, 3, 22, "SearchTerms",ExpressionUUID->"92af069d-7891-4ffd-bd94-4fef136d46fc",
  CellID->1287452913],
-Cell[152872, 3305, 264, 3, 22, "SearchTerms",ExpressionUUID->"d4f2fbc2-bba1-475e-ab83-ba868c1ec9d6",
+Cell[201560, 4564, 264, 3, 22, "SearchTerms",ExpressionUUID->"8456c9cd-3351-40a7-aa57-327fa098b2be",
  CellID->851812545],
-Cell[153139, 3310, 255, 3, 22, "SearchTerms",ExpressionUUID->"f5e766a5-103f-4fc6-a1a3-62802aba132a",
+Cell[201827, 4569, 255, 3, 22, "SearchTerms",ExpressionUUID->"c6c4ec80-fbf1-40f4-9ebb-fb294bd59161",
  CellID->194649218],
-Cell[153397, 3315, 226, 3, 22, "SearchTerms",ExpressionUUID->"438e6f16-cc7f-4f1c-9a43-32dc05dcc0c8",
+Cell[202085, 4574, 226, 3, 22, "SearchTerms",ExpressionUUID->"15ca6bac-08cd-44aa-9eb3-2e8e933e8c39",
  CellID->1257427335]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[153660, 3323, 86, 0, 143, "RelatedLinksSection",ExpressionUUID->"264db356-fcbf-469b-9624-c26389868f0c"],
-Cell[153749, 3325, 510, 10, 22, "RelatedLinks",ExpressionUUID->"4f812412-581b-4bba-9558-85855607aae5",
+Cell[202348, 4582, 86, 0, 143, "RelatedLinksSection",ExpressionUUID->"15416a80-c5d2-4d8b-9969-01ce87ada2fe"],
+Cell[202437, 4584, 510, 10, 22, "RelatedLinks",ExpressionUUID->"791f4714-3f41-4897-b930-c02244e7c8a6",
  CellID->121825918]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[154296, 3340, 80, 0, 141, "AuthorSection",ExpressionUUID->"e92cbb1e-5062-4a2c-accb-c01e31ff173c"],
-Cell[154379, 3342, 500, 14, 22, "Author",ExpressionUUID->"9b56d016-115f-4e41-a356-f07e0f0346ef"],
-Cell[154882, 3358, 254, 4, 22, "Author",ExpressionUUID->"62416dd2-8e20-413a-aefb-ae5cd7dcffab",
+Cell[202984, 4599, 80, 0, 141, "AuthorSection",ExpressionUUID->"a3142e41-3b98-431e-a45b-f3651335cfbb"],
+Cell[203067, 4601, 500, 14, 22, "Author",ExpressionUUID->"1ccc02bd-e15c-43f3-9c37-195b9d2de4fb"],
+Cell[203570, 4617, 254, 4, 22, "Author",ExpressionUUID->"2bf71494-f0e9-49b7-8206-562ec44a8f1f",
  CellID->1041049707],
-Cell[155139, 3364, 1140, 26, 22, "Author",ExpressionUUID->"180b983e-b848-4bfb-ac07-a379b3b7ae43",
+Cell[203827, 4623, 1140, 26, 22, "Author",ExpressionUUID->"fd75c3ed-f170-4b43-89da-09a2fe65b070",
  CellID->6386561]
 }, Open  ]]
 }, Open  ]]

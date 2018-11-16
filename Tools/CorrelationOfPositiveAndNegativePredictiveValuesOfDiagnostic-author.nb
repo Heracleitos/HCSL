@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       163,          7]
-NotebookDataLength[     89372,       1731]
-NotebookOptionsPosition[     81004,       1569]
-NotebookOutlinePosition[     83041,       1619]
-CellTagsIndexPosition[     82713,       1607]
+NotebookDataLength[    107197,       2130]
+NotebookOptionsPosition[     98662,       1963]
+NotebookOutlinePosition[    100862,       2018]
+CellTagsIndexPosition[    100531,       2006]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -100,7 +100,6 @@ Cell[BoxData[
    3.4495431746709456`*^9, {3.6462942034894185`*^9, 3.6462942225838184`*^9}, {
    3.6462946651870184`*^9, 3.646294711519018*^9}, {3.646402111522854*^9, 
    3.6464021122269244`*^9}, 3.6464805296936216`*^9, 3.730553548572391*^9},
- CellLabel->"In[4]:=",
  CellID->517742995,ExpressionUUID->"84f67e95-c437-49fa-a760-706be7397b26"],
 
 Cell[BoxData[
@@ -178,7 +177,6 @@ Cell[BoxData[
    3.646400042565666*^9, {3.6464020454342456`*^9, 3.6464020478494873`*^9}, {
    3.6464805200806518`*^9, 3.6464805372775135`*^9}, {3.730553553435429*^9, 
    3.730553554295375*^9}},
- CellLabel->"In[5]:=",
  CellID->227297142,ExpressionUUID->"8852e640-be0c-4e31-a44d-d9b33b0d2bf6"],
 
 Cell[BoxData[
@@ -262,7 +260,6 @@ Cell[BoxData[
    3.646400042565666*^9, {3.6464020454342456`*^9, 3.6464020478494873`*^9}, {
    3.6464805200806518`*^9, 3.6464805372775135`*^9}, {3.730553553435429*^9, 
    3.730553559503137*^9}},
- CellLabel->"In[6]:=",
  CellID->722867911,ExpressionUUID->"8852e640-be0c-4e31-a44d-d9b33b0d2bf6"]
 }, Open  ]],
 
@@ -591,14 +588,13 @@ Cell[BoxData[
    3.6470098951664963`*^9, {3.730553865247547*^9, 3.730553889246739*^9}, {
    3.7305545825478487`*^9, 3.730554583282349*^9}, 3.730724225252693*^9, 
    3.731330491813551*^9},
- CellLabel->"In[7]:=",
  CellID->4362360,ExpressionUUID->"7db9b39e-8317-42c7-94e9-f99f691964f9"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`pd$$ = 0.05, $CellContext`\[Mu]D$$ = 
-    0.11, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
+    3.67, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
     1, $CellContext`\[Sigma]H$$ = 1, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
@@ -618,23 +614,23 @@ Cell[BoxData[
       Hold[
        Style["diseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`\[Mu]D$$], 0.11, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Mu]D$$], 3.67, "mean"}, 0, 6, 0.01}, {{
        Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
       0.01}}, Typeset`size$$ = {394., {208., 234.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`pd$2273$$ = 0, $CellContext`\[Mu]H$2278$$ = 
-    0, $CellContext`\[Sigma]H$2279$$ = 0, $CellContext`\[Mu]D$2280$$ = 
-    0, $CellContext`\[Sigma]D$2281$$ = 0}, 
+    False, $CellContext`pd$19217$$ = 0, $CellContext`\[Mu]H$19218$$ = 
+    0, $CellContext`\[Sigma]H$19219$$ = 0, $CellContext`\[Mu]D$19220$$ = 
+    0, $CellContext`\[Sigma]D$19221$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`\[Mu]D$$ = 
-        0.11, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
+        3.67, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
         1, $CellContext`\[Sigma]H$$ = 1}, "ControllerVariables" :> {
-        Hold[$CellContext`pd$$, $CellContext`pd$2273$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$2278$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$2279$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$2280$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$2281$$, 0]}, 
+        Hold[$CellContext`pd$$, $CellContext`pd$19217$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$19218$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$19219$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$19220$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$19221$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -661,7 +657,7 @@ $CellContext`pd$$]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
          "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
         Style[
-        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 0.11, "mean"}, 
+        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 
          0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
          "Labeled"}, {{$CellContext`\[Sigma]D$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}}, 
@@ -671,10 +667,89 @@ $CellContext`pd$$]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
 $CellContext`\[Sigma]H$$, $CellContext`\[Mu]D$$, $CellContext`\[Sigma]D$$}, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{680., {258., 264.}},
+     ImageSizeCache->{680., {248., 254.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
+    Initialization:>({$CellContext`ppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          
+          Blank[]]] := ($CellContext`x $CellContext`pd)/($CellContext`x \
+$CellContext`pd + (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
+          1 - $CellContext`pd)), 
+       TagSet[$CellContext`x, 
+        MessageName[$CellContext`x, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Mu]D$$, 
+        MessageName[$CellContext`\[Mu]D$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Mu]H$$, 
+        MessageName[$CellContext`\[Mu]H$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Sigma]D$$, 
+        MessageName[$CellContext`\[Sigma]D$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Sigma]H$$, 
+        MessageName[$CellContext`\[Sigma]H$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`pd$$, 
+        MessageName[$CellContext`pd$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`spec[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := CDF[
+         NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]D, $CellContext`\[Sigma]D], 
+          1 - $CellContext`x]], 
+       TagSet[$CellContext`spec, 
+        MessageName[$CellContext`spec, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`npv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          
+          Blank[]]] := ($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] (
+          1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
+          1 - $CellContext`x) $CellContext`pd)}; Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -682,7 +757,7 @@ $CellContext`\[Sigma]H$$, $CellContext`\[Mu]D$$, $CellContext`\[Sigma]D$$},
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->192250463,ExpressionUUID->"80ff6393-5737-4e4f-9e2f-de926cfe7440"]
+ CellID->939500829,ExpressionUUID->"e79bc990-9464-4327-b210-8c8bb2b3e213"]
 }, Open  ]]
 }, Open  ]],
 
@@ -718,11 +793,12 @@ Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`pd$$ = 
-    0.47500000000000003`, $CellContext`\[Mu]D$$ = 0., $CellContext`\[Mu]H$$ = 
-    2.71, $CellContext`\[Sigma]D$$ = 1, $CellContext`\[Sigma]H$$ = 1, 
-    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
-    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
-    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+    0.47500000000000003`, $CellContext`\[Mu]D$$ = 
+    3.67, $CellContext`\[Mu]H$$ = 2.71, $CellContext`\[Sigma]D$$ = 
+    1, $CellContext`\[Sigma]H$$ = 1, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
       Hold[
        Style["prevalence of disease", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
@@ -738,24 +814,24 @@ Cell[BoxData[
       Hold[
        Style["diseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`\[Mu]D$$], 0.25, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Mu]D$$], 3.67, "mean"}, 0, 6, 0.01}, {{
        Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
       0.01}}, Typeset`size$$ = {394., {208., 234.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`pd$2359$$ = 0, $CellContext`\[Mu]H$2360$$ = 
-    0, $CellContext`\[Sigma]H$2361$$ = 0, $CellContext`\[Mu]D$2362$$ = 
-    0.2679556034985665, $CellContext`\[Sigma]D$2363$$ = 0}, 
+    False, $CellContext`pd$19320$$ = 0, $CellContext`\[Mu]H$19321$$ = 
+    0, $CellContext`\[Sigma]H$19322$$ = 0, $CellContext`\[Mu]D$19323$$ = 
+    0, $CellContext`\[Sigma]D$19324$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 
         0.47500000000000003`, $CellContext`\[Mu]D$$ = 
-        0.25, $CellContext`\[Mu]H$$ = 2.71, $CellContext`\[Sigma]D$$ = 
+        3.67, $CellContext`\[Mu]H$$ = 2.71, $CellContext`\[Sigma]D$$ = 
         1, $CellContext`\[Sigma]H$$ = 1}, "ControllerVariables" :> {
-        Hold[$CellContext`pd$$, $CellContext`pd$2359$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$2360$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$2361$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$2362$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$2363$$, 0]}, 
+        Hold[$CellContext`pd$$, $CellContext`pd$19320$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$19321$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$19322$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$19323$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$19324$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -784,7 +860,7 @@ $CellContext`pd$$]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
          "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
         Style[
-        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 0.25, "mean"}, 
+        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 
          0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
          "Labeled"}, {{$CellContext`\[Sigma]D$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}}, 
@@ -794,10 +870,89 @@ $CellContext`pd$$]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
 $CellContext`\[Sigma]H$$, $CellContext`\[Mu]D$$, $CellContext`\[Sigma]D$$}, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{680., {258., 264.}},
+     ImageSizeCache->{680., {248., 254.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
+    Initialization:>({$CellContext`ppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          
+          Blank[]]] := ($CellContext`x $CellContext`pd)/($CellContext`x \
+$CellContext`pd + (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
+          1 - $CellContext`pd)), 
+       TagSet[$CellContext`x, 
+        MessageName[$CellContext`x, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Mu]D$$, 
+        MessageName[$CellContext`\[Mu]D$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Mu]H$$, 
+        MessageName[$CellContext`\[Mu]H$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Sigma]D$$, 
+        MessageName[$CellContext`\[Sigma]D$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Sigma]H$$, 
+        MessageName[$CellContext`\[Sigma]H$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`pd$$, 
+        MessageName[$CellContext`pd$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`spec[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := CDF[
+         NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]D, $CellContext`\[Sigma]D], 
+          1 - $CellContext`x]], 
+       TagSet[$CellContext`spec, 
+        MessageName[$CellContext`spec, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`npv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          
+          Blank[]]] := ($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] (
+          1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
+          1 - $CellContext`x) $CellContext`pd)}; Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -805,7 +960,7 @@ $CellContext`\[Sigma]H$$, $CellContext`\[Mu]D$$, $CellContext`\[Sigma]D$$},
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->424388101,ExpressionUUID->"24282940-a46b-4faf-83b0-0b6f5e8bfc37"]
+ CellID->491791549,ExpressionUUID->"0e6e8310-9a82-42a9-be5d-3dcf91668db8"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -816,7 +971,7 @@ Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`pd$$ = 0.001, $CellContext`\[Mu]D$$ = 
-    0., $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
+    2.5, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
     1, $CellContext`\[Sigma]H$$ = 1, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
@@ -836,23 +991,23 @@ Cell[BoxData[
       Hold[
        Style["diseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`\[Mu]D$$], 0.14, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Mu]D$$], 0.02, "mean"}, 0, 6, 0.01}, {{
        Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
       0.01}}, Typeset`size$$ = {394., {208., 234.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`pd$2436$$ = 0, $CellContext`\[Mu]H$2437$$ = 
-    0, $CellContext`\[Sigma]H$2438$$ = 0, $CellContext`\[Mu]D$2439$$ = 
-    0.24859129046518663`, $CellContext`\[Sigma]D$2440$$ = 0}, 
+    False, $CellContext`pd$19397$$ = 0, $CellContext`\[Mu]H$19398$$ = 
+    0, $CellContext`\[Sigma]H$19399$$ = 0, $CellContext`\[Mu]D$19400$$ = 
+    0, $CellContext`\[Sigma]D$19401$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.001, $CellContext`\[Mu]D$$ = 
-        0.14, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
+        0.02, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
         1, $CellContext`\[Sigma]H$$ = 1}, "ControllerVariables" :> {
-        Hold[$CellContext`pd$$, $CellContext`pd$2436$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$2437$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$2438$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$2439$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$2440$$, 0]}, 
+        Hold[$CellContext`pd$$, $CellContext`pd$19397$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$19398$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$19399$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$19400$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$19401$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -879,7 +1034,7 @@ $CellContext`pd$$]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
          "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
         Style[
-        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 0.14, "mean"}, 
+        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 0.02, "mean"}, 
          0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
          "Labeled"}, {{$CellContext`\[Sigma]D$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}}, 
@@ -889,10 +1044,89 @@ $CellContext`pd$$]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
 $CellContext`\[Sigma]H$$, $CellContext`\[Mu]D$$, $CellContext`\[Sigma]D$$}, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{680., {258., 264.}},
+     ImageSizeCache->{680., {248., 254.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
+    Initialization:>({$CellContext`ppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          
+          Blank[]]] := ($CellContext`x $CellContext`pd)/($CellContext`x \
+$CellContext`pd + (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
+          1 - $CellContext`pd)), 
+       TagSet[$CellContext`x, 
+        MessageName[$CellContext`x, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Mu]D$$, 
+        MessageName[$CellContext`\[Mu]D$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Mu]H$$, 
+        MessageName[$CellContext`\[Mu]H$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Sigma]D$$, 
+        MessageName[$CellContext`\[Sigma]D$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Sigma]H$$, 
+        MessageName[$CellContext`\[Sigma]H$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`pd$$, 
+        MessageName[$CellContext`pd$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`spec[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := CDF[
+         NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]D, $CellContext`\[Sigma]D], 
+          1 - $CellContext`x]], 
+       TagSet[$CellContext`spec, 
+        MessageName[$CellContext`spec, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`npv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          
+          Blank[]]] := ($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] (
+          1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
+          1 - $CellContext`x) $CellContext`pd)}; Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -900,13 +1134,14 @@ $CellContext`\[Sigma]H$$, $CellContext`\[Mu]D$$, $CellContext`\[Sigma]D$$},
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->196155099,ExpressionUUID->"a98c794f-24c0-4f3e-b81c-646b4e3be9df"],
+ CellID->34624823,ExpressionUUID->"104f9afe-c1f4-4571-b307-4d2cf4ce59f0"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`pd$$ = 
-    0.35000000000000003`, $CellContext`\[Mu]D$$ = 0., $CellContext`\[Mu]H$$ = 
+    0.35000000000000003`, $CellContext`\[Mu]D$$ = 
+    0.01, $CellContext`\[Mu]H$$ = 
     1.3800000000000001`, $CellContext`\[Sigma]D$$ = 
     1, $CellContext`\[Sigma]H$$ = 1, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
@@ -928,25 +1163,25 @@ Cell[BoxData[
       Hold[
        Style["diseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`\[Mu]D$$], 0., "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Mu]D$$], 0.01, "mean"}, 0, 6, 0.01}, {{
        Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
       0.01}}, Typeset`size$$ = {394., {208., 234.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`pd$2513$$ = 0, $CellContext`\[Mu]H$2514$$ = 
-    0, $CellContext`\[Sigma]H$2515$$ = 0, $CellContext`\[Mu]D$2516$$ = 
-    0.2881717101570037, $CellContext`\[Sigma]D$2517$$ = 0}, 
+    False, $CellContext`pd$19474$$ = 0, $CellContext`\[Mu]H$19475$$ = 
+    0, $CellContext`\[Sigma]H$19476$$ = 0, $CellContext`\[Mu]D$19477$$ = 
+    0, $CellContext`\[Sigma]D$19478$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 
         0.35000000000000003`, $CellContext`\[Mu]D$$ = 
-        0., $CellContext`\[Mu]H$$ = 
+        0.01, $CellContext`\[Mu]H$$ = 
         1.3800000000000001`, $CellContext`\[Sigma]D$$ = 
         1, $CellContext`\[Sigma]H$$ = 1}, "ControllerVariables" :> {
-        Hold[$CellContext`pd$$, $CellContext`pd$2513$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$2514$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$2515$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$2516$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$2517$$, 0]}, 
+        Hold[$CellContext`pd$$, $CellContext`pd$19474$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$19475$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$19476$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$19477$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$19478$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -975,8 +1210,8 @@ $CellContext`pd$$]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
          "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
         Style[
-        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 0., "mean"}, 0,
-          6, 0.01, ImageSize -> Tiny, Appearance -> 
+        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 0.01, "mean"}, 
+         0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
          "Labeled"}, {{$CellContext`\[Sigma]D$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}}, 
       "Options" :> {
@@ -985,10 +1220,89 @@ $CellContext`pd$$]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
 $CellContext`\[Sigma]H$$, $CellContext`\[Mu]D$$, $CellContext`\[Sigma]D$$}, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{680., {258., 264.}},
+     ImageSizeCache->{680., {248., 254.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
+    Initialization:>({$CellContext`ppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          
+          Blank[]]] := ($CellContext`x $CellContext`pd)/($CellContext`x \
+$CellContext`pd + (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
+          1 - $CellContext`pd)), 
+       TagSet[$CellContext`x, 
+        MessageName[$CellContext`x, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Mu]D$$, 
+        MessageName[$CellContext`\[Mu]D$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Mu]H$$, 
+        MessageName[$CellContext`\[Mu]H$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Sigma]D$$, 
+        MessageName[$CellContext`\[Sigma]D$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Sigma]H$$, 
+        MessageName[$CellContext`\[Sigma]H$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`pd$$, 
+        MessageName[$CellContext`pd$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`spec[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := CDF[
+         NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]D, $CellContext`\[Sigma]D], 
+          1 - $CellContext`x]], 
+       TagSet[$CellContext`spec, 
+        MessageName[$CellContext`spec, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`npv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          
+          Blank[]]] := ($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] (
+          1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
+          1 - $CellContext`x) $CellContext`pd)}; Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -996,13 +1310,13 @@ $CellContext`\[Sigma]H$$, $CellContext`\[Mu]D$$, $CellContext`\[Sigma]D$$},
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->10950981,ExpressionUUID->"283c24df-8eaf-48af-8176-3f19c46d6bff"],
+ CellID->358638096,ExpressionUUID->"67c79a92-fa3d-4c9a-9f55-d2ed9039d7e9"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`pd$$ = 0.0001, $CellContext`\[Mu]D$$ = 
-    1.92, $CellContext`\[Mu]H$$ = 3.95, $CellContext`\[Sigma]D$$ = 
+    1.57, $CellContext`\[Mu]H$$ = 3.95, $CellContext`\[Sigma]D$$ = 
     1, $CellContext`\[Sigma]H$$ = 1, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
@@ -1022,23 +1336,23 @@ Cell[BoxData[
       Hold[
        Style["diseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`\[Mu]D$$], 1.92, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Mu]D$$], 1.57, "mean"}, 0, 6, 0.01}, {{
        Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
-      0.01}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
+      0.01}}, Typeset`size$$ = {394., {208., 234.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`pd$2590$$ = 0, $CellContext`\[Mu]H$2591$$ = 
-    0, $CellContext`\[Sigma]H$2592$$ = 0, $CellContext`\[Mu]D$2593$$ = 
-    0, $CellContext`\[Sigma]D$2594$$ = 0}, 
+    False, $CellContext`pd$19551$$ = 0, $CellContext`\[Mu]H$19552$$ = 
+    0, $CellContext`\[Sigma]H$19553$$ = 0, $CellContext`\[Mu]D$19554$$ = 
+    0, $CellContext`\[Sigma]D$19555$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.0001, $CellContext`\[Mu]D$$ = 
-        1.92, $CellContext`\[Mu]H$$ = 3.95, $CellContext`\[Sigma]D$$ = 
+        1.57, $CellContext`\[Mu]H$$ = 3.95, $CellContext`\[Sigma]D$$ = 
         1, $CellContext`\[Sigma]H$$ = 1}, "ControllerVariables" :> {
-        Hold[$CellContext`pd$$, $CellContext`pd$2590$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$2591$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$2592$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$2593$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$2594$$, 0]}, 
+        Hold[$CellContext`pd$$, $CellContext`pd$19551$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$19552$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$19553$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$19554$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$19555$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -1066,7 +1380,7 @@ $CellContext`pd$$]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
          "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, "", 
         Style[
-        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 1.92, "mean"}, 
+        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 1.57, "mean"}, 
          0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
          "Labeled"}, {{$CellContext`\[Sigma]D$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}}, 
@@ -1076,9 +1390,89 @@ $CellContext`pd$$]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
 $CellContext`\[Sigma]H$$, $CellContext`\[Mu]D$$, $CellContext`\[Sigma]D$$}, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{680., {248., 254.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
+    Initialization:>({$CellContext`ppv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          
+          Blank[]]] := ($CellContext`x $CellContext`pd)/($CellContext`x \
+$CellContext`pd + (
+          1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
+$CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H]) (
+          1 - $CellContext`pd)), 
+       TagSet[$CellContext`x, 
+        MessageName[$CellContext`x, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Mu]D$$, 
+        MessageName[$CellContext`\[Mu]D$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Mu]H$$, 
+        MessageName[$CellContext`\[Mu]H$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Sigma]D$$, 
+        MessageName[$CellContext`\[Sigma]D$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`\[Sigma]H$$, 
+        MessageName[$CellContext`\[Sigma]H$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`pd$$, 
+        MessageName[$CellContext`pd$$, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`spec[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]]] := CDF[
+         NormalDistribution[$CellContext`\[Mu]H, $CellContext`\[Sigma]H], 
+         InverseCDF[
+          NormalDistribution[$CellContext`\[Mu]D, $CellContext`\[Sigma]D], 
+          1 - $CellContext`x]], 
+       TagSet[$CellContext`spec, 
+        MessageName[$CellContext`spec, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`npv[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`pd, 
+          
+          Blank[]]] := ($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] (
+          1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
+$CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
+$CellContext`\[Sigma]H] (1 - $CellContext`pd) + (
+          1 - $CellContext`x) $CellContext`pd)}; Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -1086,7 +1480,7 @@ $CellContext`\[Sigma]H$$, $CellContext`\[Mu]D$$, $CellContext`\[Sigma]D$$},
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->327895326,ExpressionUUID->"8fdc2106-e4bb-40f6-be47-d572e5df4025"]
+ CellID->4095474,ExpressionUUID->"314defb0-f9bb-418f-a173-51edfb5a0c6a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1567,8 +1961,13 @@ Cell["(Hellenic Complex Systems Laboratory)", "Author",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{700, 925},
-WindowMargins->{{10, Automatic}, {Automatic, 0}},
+WindowSize->{1280, 941},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+PrintingCopies->1,
+PrintingPageRange->{32000, 32000},
+PrintingOptions->{"Magnification"->1.,
+"PaperOrientation"->"Portrait",
+"PaperSize"->{841.92, 1190.52}},
 FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Demonstration.nb", 
   CharacterEncoding -> "UTF-8"]
@@ -1579,157 +1978,157 @@ StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Demonstration.nb",
 (*CellTagsOutline
 CellTagsIndex->{
  "ResizeImages"->{
-  Cell[70195, 1296, 470, 11, 22, "ControlSuggestions",ExpressionUUID->"ca5553cb-7ef6-4052-9955-28cc2ccd7d80",
+  Cell[87853, 1690, 470, 11, 22, "ControlSuggestions",ExpressionUUID->"ca5553cb-7ef6-4052-9955-28cc2ccd7d80",
    CellTags->"ResizeImages"]},
  "RotateAndZoomIn3D"->{
-  Cell[70668, 1309, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"11f6a8f0-cb12-4032-96ba-c736c39588cf",
+  Cell[88326, 1703, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"11f6a8f0-cb12-4032-96ba-c736c39588cf",
    CellTags->"RotateAndZoomIn3D"]},
  "DragLocators"->{
-  Cell[71471, 1330, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"16f2b836-b5aa-4fbc-af21-b363481afa08",
+  Cell[89129, 1724, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"16f2b836-b5aa-4fbc-af21-b363481afa08",
    CellTags->"DragLocators"]},
  "CreateAndDeleteLocators"->{
-  Cell[71931, 1345, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"d46c7bb6-5fc7-420f-8c0d-a35c038c0d5c",
+  Cell[89589, 1739, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"d46c7bb6-5fc7-420f-8c0d-a35c038c0d5c",
    CellTags->"CreateAndDeleteLocators"]},
  "SliderZoom"->{
-  Cell[72695, 1366, 1004, 24, 22, "ControlSuggestions",ExpressionUUID->"44430362-6ee0-45b3-bb4b-d9a2b7dec6f4",
+  Cell[90353, 1760, 1004, 24, 22, "ControlSuggestions",ExpressionUUID->"44430362-6ee0-45b3-bb4b-d9a2b7dec6f4",
    CellTags->"SliderZoom"]},
  "GamepadControls"->{
-  Cell[73702, 1392, 514, 13, 22, "ControlSuggestions",ExpressionUUID->"9701862b-0f7e-4703-948c-0202a0d045cf",
+  Cell[91360, 1786, 514, 13, 22, "ControlSuggestions",ExpressionUUID->"9701862b-0f7e-4703-948c-0202a0d045cf",
    CellTags->"GamepadControls"]},
  "AutomaticAnimation"->{
-  Cell[74219, 1407, 1627, 35, 22, "ControlSuggestions",ExpressionUUID->"fe901948-3a02-40d0-b0ef-51483540deb2",
+  Cell[91877, 1801, 1627, 35, 22, "ControlSuggestions",ExpressionUUID->"fe901948-3a02-40d0-b0ef-51483540deb2",
    CellTags->"AutomaticAnimation"]},
  "BookmarkAnimation"->{
-  Cell[75849, 1444, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"b3a4cca1-9dd6-48b7-a280-af1229c4dafd",
+  Cell[93507, 1838, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"b3a4cca1-9dd6-48b7-a280-af1229c4dafd",
    CellTags->"BookmarkAnimation"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ResizeImages", 81370, 1580},
- {"RotateAndZoomIn3D", 81535, 1583},
- {"DragLocators", 81700, 1586},
- {"CreateAndDeleteLocators", 81871, 1589},
- {"SliderZoom", 82040, 1592},
- {"GamepadControls", 82202, 1595},
- {"AutomaticAnimation", 82371, 1598},
- {"BookmarkAnimation", 82543, 1601}
+ {"ResizeImages", 99188, 1979},
+ {"RotateAndZoomIn3D", 99353, 1982},
+ {"DragLocators", 99518, 1985},
+ {"CreateAndDeleteLocators", 99689, 1988},
+ {"SliderZoom", 99858, 1991},
+ {"GamepadControls", 100020, 1994},
+ {"AutomaticAnimation", 100189, 1997},
+ {"BookmarkAnimation", 100361, 2000}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[585, 22, 579, 10, 104, "DemoTitle",ExpressionUUID->"1571d492-b785-4a13-a358-8d2c8fe2b49f"],
+Cell[585, 22, 579, 10, 74, "DemoTitle",ExpressionUUID->"1571d492-b785-4a13-a358-8d2c8fe2b49f"],
 Cell[CellGroupData[{
 Cell[1189, 36, 105, 1, 275, "InitializationSection",ExpressionUUID->"09b40667-74d5-45db-8c3b-e759608757a4"],
-Cell[1297, 39, 4126, 64, 60, "Input",ExpressionUUID->"84f67e95-c437-49fa-a760-706be7397b26",
+Cell[1297, 39, 4103, 63, 60, "Input",ExpressionUUID->"84f67e95-c437-49fa-a760-706be7397b26",
  InitializationCell->True,
  CellID->517742995],
-Cell[5426, 105, 4633, 76, 41, "Input",ExpressionUUID->"8852e640-be0c-4e31-a44d-d9b33b0d2bf6",
+Cell[5403, 104, 4610, 75, 41, "Input",ExpressionUUID->"8852e640-be0c-4e31-a44d-d9b33b0d2bf6",
  InitializationCell->True,
  CellID->227297142],
-Cell[10062, 183, 4799, 82, 60, "Input",ExpressionUUID->"8852e640-be0c-4e31-a44d-d9b33b0d2bf6",
+Cell[10016, 181, 4776, 81, 41, "Input",ExpressionUUID->"8852e640-be0c-4e31-a44d-d9b33b0d2bf6",
  InitializationCell->True,
  CellID->722867911]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14898, 270, 84, 0, 231, "ManipulateSection",ExpressionUUID->"9b67b68d-9237-40be-a07b-50b8f0e4053c"],
+Cell[14829, 267, 84, 0, 231, "ManipulateSection",ExpressionUUID->"9b67b68d-9237-40be-a07b-50b8f0e4053c"],
 Cell[CellGroupData[{
-Cell[15007, 274, 20329, 320, 368, "Input",ExpressionUUID->"7db9b39e-8317-42c7-94e9-f99f691964f9",
+Cell[14938, 271, 20306, 319, 278, "Input",ExpressionUUID->"7db9b39e-8317-42c7-94e9-f99f691964f9",
  CellID->4362360],
-Cell[35339, 596, 4630, 88, 534, "Output",ExpressionUUID->"80ff6393-5737-4e4f-9e2f-de926cfe7440",
- CellID->192250463]
+Cell[35247, 592, 8176, 167, 514, "Output",ExpressionUUID->"e79bc990-9464-4327-b210-8c8bb2b3e213",
+ CellID->939500829]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[40018, 690, 91, 0, 169, "ManipulateCaptionSection",ExpressionUUID->"43d8e156-b473-47dc-8ca0-dcbe2c06b3e0"],
-Cell[40112, 692, 1219, 17, 82, "ManipulateCaption",ExpressionUUID->"f44eb7ff-1bb6-41f8-9e1a-b20dc68d8424",
+Cell[43472, 765, 91, 0, 169, "ManipulateCaptionSection",ExpressionUUID->"43d8e156-b473-47dc-8ca0-dcbe2c06b3e0"],
+Cell[43566, 767, 1219, 17, 37, "ManipulateCaption",ExpressionUUID->"f44eb7ff-1bb6-41f8-9e1a-b20dc68d8424",
  CellID->198574962]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[41368, 714, 83, 0, 172, "ThumbnailSection",ExpressionUUID->"64e830ee-8ca2-48f3-9725-7b66f961b876"],
-Cell[41454, 716, 4750, 91, 534, "Output",ExpressionUUID->"24282940-a46b-4faf-83b0-0b6f5e8bfc37",
- CellID->424388101]
+Cell[44822, 789, 83, 0, 172, "ThumbnailSection",ExpressionUUID->"64e830ee-8ca2-48f3-9725-7b66f961b876"],
+Cell[44908, 791, 8286, 171, 514, "Output",ExpressionUUID->"0e6e8310-9a82-42a9-be5d-3dcf91668db8",
+ CellID->491791549]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[46241, 812, 83, 0, 142, "SnapshotsSection",ExpressionUUID->"b785872e-70aa-4169-9a0d-5cc5677fb9c2"],
-Cell[46327, 814, 4651, 88, 534, "Output",ExpressionUUID->"a98c794f-24c0-4f3e-b81c-646b4e3be9df",
- CellID->196155099],
-Cell[50981, 904, 4824, 94, 534, "Output",ExpressionUUID->"283c24df-8eaf-48af-8176-3f19c46d6bff",
- CellID->10950981],
-Cell[55808, 1000, 4606, 88, 38, "Output",ExpressionUUID->"8fdc2106-e4bb-40f6-be47-d572e5df4025",
- CellID->327895326]
+Cell[53231, 967, 83, 0, 142, "SnapshotsSection",ExpressionUUID->"b785872e-70aa-4169-9a0d-5cc5677fb9c2"],
+Cell[53317, 969, 8178, 167, 514, "Output",ExpressionUUID->"104f9afe-c1f4-4571-b307-4d2cf4ce59f0",
+ CellID->34624823],
+Cell[61498, 1138, 8367, 174, 514, "Output",ExpressionUUID->"67c79a92-fa3d-4c9a-9f55-d2ed9039d7e9",
+ CellID->358638096],
+Cell[69868, 1314, 8204, 168, 514, "Output",ExpressionUUID->"314defb0-f9bb-418f-a173-51edfb5a0c6a",
+ CellID->4095474]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[60451, 1093, 81, 0, 339, "DetailsSection",ExpressionUUID->"b33c28e1-4068-4e5b-8feb-d59d8a457ad0"],
-Cell[60535, 1095, 1463, 30, 98, "DetailNotes",ExpressionUUID->"e73ab761-12dd-4734-b3ff-1bce8c434139",
+Cell[78109, 1487, 81, 0, 339, "DetailsSection",ExpressionUUID->"b33c28e1-4068-4e5b-8feb-d59d8a457ad0"],
+Cell[78193, 1489, 1463, 30, 53, "DetailNotes",ExpressionUUID->"e73ab761-12dd-4734-b3ff-1bce8c434139",
  CellID->2279429],
-Cell[62001, 1127, 1265, 26, 36, "DetailNotes",ExpressionUUID->"b4cf0a14-1cf6-417c-8946-2aaf3aea24ce",
+Cell[79659, 1521, 1265, 26, 36, "DetailNotes",ExpressionUUID->"b4cf0a14-1cf6-417c-8946-2aaf3aea24ce",
  CellID->150840481],
-Cell[63269, 1155, 1240, 26, 38, "DetailNotes",ExpressionUUID->"b4cf0a14-1cf6-417c-8946-2aaf3aea24ce",
+Cell[80927, 1549, 1240, 26, 38, "DetailNotes",ExpressionUUID->"b4cf0a14-1cf6-417c-8946-2aaf3aea24ce",
  CellID->1222789460],
-Cell[64512, 1183, 979, 15, 37, "DetailNotes",ExpressionUUID->"9d1481f9-68d4-4be6-8a96-fedfbdfe31cf",
+Cell[82170, 1577, 979, 15, 22, "DetailNotes",ExpressionUUID->"9d1481f9-68d4-4be6-8a96-fedfbdfe31cf",
  CellID->72528789],
-Cell[65494, 1200, 1127, 17, 37, "DetailNotes",ExpressionUUID->"231be511-b5bd-4b4e-b3f5-57d7d7bf9af3",
+Cell[83152, 1594, 1127, 17, 22, "DetailNotes",ExpressionUUID->"231be511-b5bd-4b4e-b3f5-57d7d7bf9af3",
  CellID->31608360],
-Cell[66624, 1219, 915, 13, 22, "DetailNotes",ExpressionUUID->"2a061f1c-2d7e-403e-b25a-ba83ca0e5f84",
+Cell[84282, 1613, 915, 13, 22, "DetailNotes",ExpressionUUID->"2a061f1c-2d7e-403e-b25a-ba83ca0e5f84",
  CellID->594192462],
-Cell[67542, 1234, 384, 6, 22, "DetailNotes",ExpressionUUID->"f02b5da3-5513-4bc0-b0e8-3ffb88a8382e",
+Cell[85200, 1628, 384, 6, 22, "DetailNotes",ExpressionUUID->"f02b5da3-5513-4bc0-b0e8-3ffb88a8382e",
  CellID->12559395],
-Cell[67929, 1242, 1032, 23, 52, "DetailNotes",ExpressionUUID->"cd616c47-4f4e-4c58-ae0c-3cb8357e0cfb",
+Cell[85587, 1636, 1032, 23, 37, "DetailNotes",ExpressionUUID->"cd616c47-4f4e-4c58-ae0c-3cb8357e0cfb",
  CellID->32510543],
-Cell[68964, 1267, 1099, 22, 52, "DetailNotes",ExpressionUUID->"9b592214-d7b6-4cb5-8afc-6cf449fa348b",
+Cell[86622, 1661, 1099, 22, 37, "DetailNotes",ExpressionUUID->"9b592214-d7b6-4cb5-8afc-6cf449fa348b",
  CellID->278232958]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[70100, 1294, 92, 0, 126, "ControlSuggestionsSection",ExpressionUUID->"239695db-a0ba-4cbf-9634-1ad3bfb69719"],
-Cell[70195, 1296, 470, 11, 22, "ControlSuggestions",ExpressionUUID->"ca5553cb-7ef6-4052-9955-28cc2ccd7d80",
+Cell[87758, 1688, 92, 0, 126, "ControlSuggestionsSection",ExpressionUUID->"239695db-a0ba-4cbf-9634-1ad3bfb69719"],
+Cell[87853, 1690, 470, 11, 22, "ControlSuggestions",ExpressionUUID->"ca5553cb-7ef6-4052-9955-28cc2ccd7d80",
  CellTags->"ResizeImages"],
-Cell[70668, 1309, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"11f6a8f0-cb12-4032-96ba-c736c39588cf",
+Cell[88326, 1703, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"11f6a8f0-cb12-4032-96ba-c736c39588cf",
  CellTags->"RotateAndZoomIn3D"],
-Cell[71471, 1330, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"16f2b836-b5aa-4fbc-af21-b363481afa08",
+Cell[89129, 1724, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"16f2b836-b5aa-4fbc-af21-b363481afa08",
  CellTags->"DragLocators"],
-Cell[71931, 1345, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"d46c7bb6-5fc7-420f-8c0d-a35c038c0d5c",
+Cell[89589, 1739, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"d46c7bb6-5fc7-420f-8c0d-a35c038c0d5c",
  CellTags->"CreateAndDeleteLocators"],
-Cell[72695, 1366, 1004, 24, 22, "ControlSuggestions",ExpressionUUID->"44430362-6ee0-45b3-bb4b-d9a2b7dec6f4",
+Cell[90353, 1760, 1004, 24, 22, "ControlSuggestions",ExpressionUUID->"44430362-6ee0-45b3-bb4b-d9a2b7dec6f4",
  CellTags->"SliderZoom"],
-Cell[73702, 1392, 514, 13, 22, "ControlSuggestions",ExpressionUUID->"9701862b-0f7e-4703-948c-0202a0d045cf",
+Cell[91360, 1786, 514, 13, 22, "ControlSuggestions",ExpressionUUID->"9701862b-0f7e-4703-948c-0202a0d045cf",
  CellTags->"GamepadControls"],
-Cell[74219, 1407, 1627, 35, 22, "ControlSuggestions",ExpressionUUID->"fe901948-3a02-40d0-b0ef-51483540deb2",
+Cell[91877, 1801, 1627, 35, 22, "ControlSuggestions",ExpressionUUID->"fe901948-3a02-40d0-b0ef-51483540deb2",
  CellTags->"AutomaticAnimation"],
-Cell[75849, 1444, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"b3a4cca1-9dd6-48b7-a280-af1229c4dafd",
+Cell[93507, 1838, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"b3a4cca1-9dd6-48b7-a280-af1229c4dafd",
  CellTags->"BookmarkAnimation"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[76916, 1473, 85, 0, 158, "SearchTermsSection",ExpressionUUID->"a1e042c4-0091-4456-8052-7a84d6528af3"],
-Cell[77004, 1475, 250, 3, 22, "SearchTerms",ExpressionUUID->"aabfe7af-bb0a-4efc-b3a4-8d126b6a3f08",
+Cell[94574, 1867, 85, 0, 158, "SearchTermsSection",ExpressionUUID->"a1e042c4-0091-4456-8052-7a84d6528af3"],
+Cell[94662, 1869, 250, 3, 22, "SearchTerms",ExpressionUUID->"aabfe7af-bb0a-4efc-b3a4-8d126b6a3f08",
  CellID->569163635],
-Cell[77257, 1480, 250, 3, 22, "SearchTerms",ExpressionUUID->"2ca4bbe1-37e4-45b5-81cc-87156edafd70",
+Cell[94915, 1874, 250, 3, 22, "SearchTerms",ExpressionUUID->"2ca4bbe1-37e4-45b5-81cc-87156edafd70",
  CellID->400091656],
-Cell[77510, 1485, 256, 3, 22, "SearchTerms",ExpressionUUID->"06a3a736-f6d5-47d7-a629-1c9f10835aa7",
+Cell[95168, 1879, 256, 3, 22, "SearchTerms",ExpressionUUID->"06a3a736-f6d5-47d7-a629-1c9f10835aa7",
  CellID->571680962],
-Cell[77769, 1490, 257, 3, 22, "SearchTerms",ExpressionUUID->"2b01a81f-4a2e-44b6-a772-63b2a69d8eb8",
+Cell[95427, 1884, 257, 3, 22, "SearchTerms",ExpressionUUID->"2b01a81f-4a2e-44b6-a772-63b2a69d8eb8",
  CellID->1626203133],
-Cell[78029, 1495, 310, 4, 22, "SearchTerms",ExpressionUUID->"da70c44d-54f5-4d40-9226-b051d6c11a6f",
+Cell[95687, 1889, 310, 4, 22, "SearchTerms",ExpressionUUID->"da70c44d-54f5-4d40-9226-b051d6c11a6f",
  CellID->296995018],
-Cell[78342, 1501, 259, 3, 22, "SearchTerms",ExpressionUUID->"e41eb322-5825-4204-9f66-c81a1acf1e13",
+Cell[96000, 1895, 259, 3, 22, "SearchTerms",ExpressionUUID->"e41eb322-5825-4204-9f66-c81a1acf1e13",
  CellID->1104872261],
-Cell[78604, 1506, 260, 3, 22, "SearchTerms",ExpressionUUID->"42c9685b-35ac-40dd-81c8-098be61e9e8d",
+Cell[96262, 1900, 260, 3, 22, "SearchTerms",ExpressionUUID->"42c9685b-35ac-40dd-81c8-098be61e9e8d",
  CellID->175881619],
-Cell[78867, 1511, 265, 3, 22, "SearchTerms",ExpressionUUID->"e953b6a4-cb5e-44f6-93bf-0224c1c28730",
+Cell[96525, 1905, 265, 3, 22, "SearchTerms",ExpressionUUID->"e953b6a4-cb5e-44f6-93bf-0224c1c28730",
  CellID->1287452913],
-Cell[79135, 1516, 295, 4, 22, "SearchTerms",ExpressionUUID->"848ef0c9-4273-4d10-812c-701563ba5e06",
+Cell[96793, 1910, 295, 4, 22, "SearchTerms",ExpressionUUID->"848ef0c9-4273-4d10-812c-701563ba5e06",
  CellID->1257427335]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[79467, 1525, 86, 0, 143, "RelatedLinksSection",ExpressionUUID->"0707d898-e23c-4bbc-8ab9-1d703ce56c55"],
-Cell[79556, 1527, 510, 10, 22, "RelatedLinks",ExpressionUUID->"7d700294-80f3-45ee-a701-ff0c15a4f79a",
+Cell[97125, 1919, 86, 0, 143, "RelatedLinksSection",ExpressionUUID->"0707d898-e23c-4bbc-8ab9-1d703ce56c55"],
+Cell[97214, 1921, 510, 10, 22, "RelatedLinks",ExpressionUUID->"7d700294-80f3-45ee-a701-ff0c15a4f79a",
  CellID->121825918]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[80103, 1542, 80, 0, 141, "AuthorSection",ExpressionUUID->"0adf5ba9-16b3-4dca-971d-2e5bcb4ea424"],
-Cell[80186, 1544, 533, 15, 22, "Author",ExpressionUUID->"02ccb357-efde-4cfd-96f1-763be044eb10"],
-Cell[80722, 1561, 254, 4, 22, "Author",ExpressionUUID->"a73f2d4c-eef7-4813-b733-f568ef7b1d38",
+Cell[97761, 1936, 80, 0, 141, "AuthorSection",ExpressionUUID->"0adf5ba9-16b3-4dca-971d-2e5bcb4ea424"],
+Cell[97844, 1938, 533, 15, 22, "Author",ExpressionUUID->"02ccb357-efde-4cfd-96f1-763be044eb10"],
+Cell[98380, 1955, 254, 4, 22, "Author",ExpressionUUID->"a73f2d4c-eef7-4813-b733-f568ef7b1d38",
  CellID->1041049707]
 }, Open  ]]
 }, Open  ]]

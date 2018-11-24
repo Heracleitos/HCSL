@@ -23,10 +23,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[      1088,         20]
-NotebookDataLength[    170659,       3375]
-NotebookOptionsPosition[    162006,       3205]
-NotebookOutlinePosition[    164062,       3255]
-CellTagsIndexPosition[    163726,       3243]
+NotebookDataLength[    171407,       3389]
+NotebookOptionsPosition[    162755,       3219]
+NotebookOutlinePosition[    164810,       3269]
+CellTagsIndexPosition[    164474,       3257]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2358,15 +2358,15 @@ Cell["", "DetailsSection",ExpressionUUID->"d544337c-aef7-4596-a09b-67a1eae7bbda"
 
 Cell["\<\
 The ROC curves are used in the evaluation of the clinical accuracy of a \
-diagnostic test applied to a diseased and a non-diseased population, which \
-display the sensitivity of the test against 1-specificity. The term \
+diagnostic test applied to a diseased and a nondiseased population. The ROC \
+curves display the sensitivity of the test against 1-specificity. The term \
 sensitivity is used to describe the fraction of the diseased population with \
-a positive test, while specificity describes the fraction of the non-diseased \
+a positive test, while specificity describes the fraction of the nondiseased \
 population with a negative test. Therefore, the ROC curves display the true \
 positive fraction against the false positive fraction. The area under a ROC \
 curve is used as an index of the diagnostic accuracy of the respective test. \
-The uncertainty of measurement of the diagnostic test decreases the area \
-under the curve [1].  \
+The area under the curve decreases as the uncertainty of measurement of the \
+diagnostic test increases [1].  \
 \>", "DetailNotes",
  CellChangeTimes->{
   3.35696210375764*^9, {3.3899219850842*^9, 3.3899219857082*^9}, {
@@ -2419,7 +2419,10 @@ under the curve [1].  \
    3.751903596504545*^9}, 3.7519037260135393`*^9, {3.75190380054088*^9, 
    3.7519038659898806`*^9}, {3.7519422435074043`*^9, 
    3.7519422535234036`*^9}, {3.751949033693924*^9, 3.751949033719924*^9}, {
-   3.751984528881998*^9, 3.751984532001004*^9}},
+   3.751984528881998*^9, 3.751984532001004*^9}, 3.7520191638438854`*^9, {
+   3.7520192102268915`*^9, 3.752019261207885*^9}, {3.752019512535886*^9, 
+   3.752019544415891*^9}, 3.752021043490887*^9, {3.752022348570407*^9, 
+   3.7520223772104115`*^9}},
  CellID->107142632,ExpressionUUID->"9d549e41-c58d-4311-833b-08a3e70d4350"],
 
 Cell[TextData[{
@@ -2428,17 +2431,22 @@ Cell[TextData[{
  StyleBox[" AUC(u) ",
   FontSize->12,
   FontSlant->"Italic"],
+ StyleBox["is",
+  FontSize->12],
+ StyleBox[" ",
+  FontSize->12,
+  FontSlant->"Italic"],
  StyleBox["the area under a ROC curve and ",
   FontSize->12],
  StyleBox["AOC(u) ",
   FontSize->12,
   FontSlant->"Italic"],
- StyleBox["the area over the ROC curve for an uncertainty of measurement",
+ StyleBox["is the area over the ROC curve for an uncertainty of measurement",
   FontSize->12],
- StyleBox[" u. ",
+ StyleBox[" u, ",
   FontSize->12,
   FontSlant->"Italic"],
- "We define the changes ",
+ "the changes ",
  StyleBox["\[CapitalDelta](AUC(u)) ",
   FontSize->12,
   FontSlant->"Italic"],
@@ -2447,7 +2455,7 @@ Cell[TextData[{
  StyleBox["\[CapitalDelta](AOC(u))",
   FontSize->12,
   FontSlant->"Italic"],
- StyleBox[" as ",
+ StyleBox[" are defined as ",
   FontSize->12],
  StyleBox["AUC(u) ",
   FontSize->12,
@@ -2608,12 +2616,13 @@ Cell[TextData[{
    3.7519425742594037`*^9, 3.7519426426944084`*^9}, {3.751942683837409*^9, 
    3.7519427440974035`*^9}, 3.751949053761924*^9, {3.7519845615579977`*^9, 
    3.751984570107003*^9}, {3.7519846006389985`*^9, 3.7519846297389984`*^9}, {
-   3.751984852658998*^9, 3.751984889355999*^9}},
+   3.751984852658998*^9, 3.751984889355999*^9}, {3.7520210636548853`*^9, 
+   3.752021064466886*^9}, {3.7520211123628855`*^9, 3.75202115436989*^9}, {
+   3.752021963156412*^9, 3.752021966450407*^9}},
  CellID->335972811,ExpressionUUID->"ad75bc69-85b0-4fc6-a182-e00c74593df2"],
 
 Cell[TextData[{
- StyleBox["The area under a ROC curve is used as an index of the diagnostic \
-accuracy of the respective test. As",
+ StyleBox["As",
   FontSize->12],
  StyleBox[" AOC(u)",
   FontSize->12,
@@ -2622,12 +2631,12 @@ accuracy of the respective test. As",
  StyleBox["UC(u),",
   FontSize->12,
   FontSlant->"Italic"],
- " we can consider the area over the ROC curve as an index of its diagnostic \
-inaccuracy. In fact, as the plots show, the relative change, the rate of \
-change, and the relative rate of change of t",
+ " it can be considered that the area over the ROC curve is an index of its \
+diagnostic inaccuracy. In fact, as the plots show, the relative change, the \
+rate of change, and the relative rate of change of t",
  StyleBox["he area over a ROC curve",
   FontSize->12],
- " versus the uncertainty of measurement are greater than the respective \
+ " against the uncertainty of measurement are greater than the respective \
 measures of the area under the ROC curve, for the same populations. "
 }], "DetailNotes",
  CellChangeTimes->{
@@ -2689,12 +2698,13 @@ measures of the area under the ROC curve, for the same populations. "
    3.7519457844779243`*^9}, {3.751948917111924*^9, 3.7519489293599243`*^9}, {
    3.7519491937919235`*^9, 3.751949202335924*^9}, {3.7519552840078835`*^9, 
    3.751955284052884*^9}, 3.751955965701884*^9, {3.7519846684820037`*^9, 
-   3.7519846919620037`*^9}},
+   3.7519846919620037`*^9}, 3.7520193891198854`*^9, {3.7520211953608913`*^9, 
+   3.752021214528886*^9}, {3.7520220032654123`*^9, 3.7520220080574064`*^9}},
  CellID->305937259,ExpressionUUID->"b60da9ca-20f0-4ada-bf40-919169360d37"],
 
 Cell["\<\
 To the best of the author's knowledge, this is the first publication \
-presenting measures of the area over the ROC curve versus the uncertainty of \
+presenting measures of the area over the ROC curve against the uncertainty of \
 measurement.\
 \>", "DetailNotes",
  CellChangeTimes->{
@@ -2757,15 +2767,16 @@ measurement.\
    3.7519491937919235`*^9, 3.751949202335924*^9}, {3.751955285860884*^9, 
    3.751955301748884*^9}, {3.751955464276884*^9, 3.7519555184288845`*^9}, {
    3.7519555499428835`*^9, 3.7519556463408833`*^9}, {3.7519558199728837`*^9, 
-   3.751955822292884*^9}, {3.751984705137004*^9, 3.7519847108250036`*^9}},
+   3.751955822292884*^9}, {3.751984705137004*^9, 3.7519847108250036`*^9}, {
+   3.7520212815848904`*^9, 3.7520212836888905`*^9}},
  CellID->593204738,ExpressionUUID->"8c753dba-c6fb-4a10-8d3c-511e7b100515"],
 
 Cell["\<\
-It could be useful for the evaluation of the maximum medically permissible \
-uncertainty of measurement of a diagnostic test, using the area over the ROC \
-curve as an uncertainty index. For example, in the thumbnail and the \
-snapshots,  the population data describe a bimodal distribution of serum \
-glucose measurements on a non-diabetic and a diabetic population [1].\
+It could be useful to evaluate the maximum medically permissible uncertainty \
+of measurement of a diagnostic test, using the area over the ROC curve as an \
+uncertainty index. For example, in the thumbnail and the snapshots,  the \
+population data describe a bimodal distribution of serum glucose measurements \
+on a non-diabetic and a diabetic population [1].\
 \>", "DetailNotes",
  CellChangeTimes->{
   3.35696210375764*^9, {3.3899219850842*^9, 3.3899219857082*^9}, {
@@ -2817,7 +2828,9 @@ glucose measurements on a non-diabetic and a diabetic population [1].\
    3.7519061307909937`*^9}, {3.7519431301159325`*^9, 3.751943179763933*^9}, {
    3.7519457201759233`*^9, 3.751945724357924*^9}, {3.7519556590608835`*^9, 
    3.7519556818838916`*^9}, {3.751955720444884*^9, 3.751955802332884*^9}, 
-   3.751955837773884*^9, {3.7519847551860037`*^9, 3.7519848032650037`*^9}},
+   3.751955837773884*^9, {3.7519847551860037`*^9, 3.7519848032650037`*^9}, {
+   3.7520213114248915`*^9, 3.7520213206648855`*^9}, {3.752023364905965*^9, 
+   3.752023365673966*^9}},
  CellID->4072355,ExpressionUUID->"1943531d-21ae-4819-897f-66cffcaad5d5"],
 
 Cell["References:", "DetailNotes",
@@ -2829,7 +2842,7 @@ Cell[TextData[{
  "1. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty \
 of Measurement. Wolfram Demonstrations Project, Champaign: Wolfram Research, \
 Inc., 2009. \n2. T. O. Lim, R. Bakri, Z. Morad, and M. A. Hamid, \"Bimodality \
-in Blood Glucose Distribution\[LongDash]Is It Universal?,\" ",
+in Blood Glucose Distribution\[LongDash]Is It Universal?\" ",
  StyleBox["Diabetes Care,",
   FontSlant->"Italic"],
  " ",
@@ -2837,7 +2850,8 @@ in Blood Glucose Distribution\[LongDash]Is It Universal?,\" ",
   FontWeight->"Bold"],
  "(12), 2002 pp. 2212-2217."
 }], "DetailNotes",
- CellChangeTimes->{{3.7519039487298803`*^9, 3.7519039605898857`*^9}},
+ CellChangeTimes->{{3.7519039487298803`*^9, 3.7519039605898857`*^9}, 
+   3.752021515433407*^9},
  CellID->405299277,ExpressionUUID->"6d88ba8a-9ba1-4439-bd27-fd244cea0f0f"]
 }, Open  ]],
 
@@ -3185,7 +3199,7 @@ Cell["", "AuthorSection",ExpressionUUID->"f8713fd6-1a4f-47a8-814e-7ac42c13d22d"]
 
 Cell[TextData[{
  "Contributed by: ",
- ButtonBox["Aristides T. Hatjimihail",
+ ButtonBox["Aristides T. Hatjimihail (Aristeidis T. Chatzimichail)",
   BaseStyle->"Hyperlink",
   ButtonData->{
     URL["http://demonstrations.wolfram.com/author.html?author=Aristides+T.+\
@@ -3198,13 +3212,13 @@ Hatjimihail"],
  CellChangeTimes->{
   3.35696210375764*^9, {3.3899238206893997`*^9, 3.3899238401582003`*^9}, {
    3.390005612544487*^9, 3.390005627926087*^9}, {3.3901440603791676`*^9, 
-   3.3901440648479176`*^9}},
+   3.3901440648479176`*^9}, {3.752019766719886*^9, 3.752019783671891*^9}},
  CellID->362114989,ExpressionUUID->"76c94789-2222-4c09-9beb-ea1cf7fdd45a"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1280, 941},
-WindowMargins->{{1272, Automatic}, {Automatic, -8}},
+WindowSize->{1264, 941},
+WindowMargins->{{1322, Automatic}, {Automatic, 7}},
 FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Demonstration.nb", 
   CharacterEncoding -> "UTF-8"]
@@ -3214,42 +3228,42 @@ StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Demonstration.nb",
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "ResizeImages"->{
-  Cell[146670, 2847, 490, 11, 22, "ControlSuggestions",ExpressionUUID->"caeb87a6-d640-4dd4-a995-47f9b4555e3b",
-   CellTags->"ResizeImages"]},
- "RotateAndZoomIn3D"->{
-  Cell[147163, 2860, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"768d82f5-b35b-42c0-818f-7aec2362a799",
-   CellTags->"RotateAndZoomIn3D"]},
- "DragLocators"->{
-  Cell[147966, 2881, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"e1d96c07-8565-4918-be67-9fd5fb87dff4",
-   CellTags->"DragLocators"]},
- "CreateAndDeleteLocators"->{
-  Cell[148426, 2896, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"ccf49abb-14b3-46ef-ad80-a8693b09b9fb",
-   CellTags->"CreateAndDeleteLocators"]},
- "SliderZoom"->{
-  Cell[149190, 2917, 961, 23, 22, "ControlSuggestions",ExpressionUUID->"1cc694b3-24a6-4912-9b2f-44f49bed4172",
-   CellTags->"SliderZoom"]},
- "GamepadControls"->{
-  Cell[150154, 2942, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"8c0b4fd0-2c4d-4b31-bd94-0981276079a1",
-   CellTags->"GamepadControls"]},
  "AutomaticAnimation"->{
-  Cell[150648, 2956, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"0e5bb8fb-dd58-4acc-83ad-482f42093a03",
+  Cell[151321, 2970, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"0e5bb8fb-dd58-4acc-83ad-482f42093a03",
    CellTags->"AutomaticAnimation"]},
  "BookmarkAnimation"->{
-  Cell[152237, 2992, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"81af9ec6-cee9-41ed-aa0d-ae4aba6bfad0",
-   CellTags->"BookmarkAnimation"]}
+  Cell[152910, 3006, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"81af9ec6-cee9-41ed-aa0d-ae4aba6bfad0",
+   CellTags->"BookmarkAnimation"]},
+ "CreateAndDeleteLocators"->{
+  Cell[149099, 2910, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"ccf49abb-14b3-46ef-ad80-a8693b09b9fb",
+   CellTags->"CreateAndDeleteLocators"]},
+ "DragLocators"->{
+  Cell[148639, 2895, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"e1d96c07-8565-4918-be67-9fd5fb87dff4",
+   CellTags->"DragLocators"]},
+ "GamepadControls"->{
+  Cell[150827, 2956, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"8c0b4fd0-2c4d-4b31-bd94-0981276079a1",
+   CellTags->"GamepadControls"]},
+ "ResizeImages"->{
+  Cell[147343, 2861, 490, 11, 22, "ControlSuggestions",ExpressionUUID->"caeb87a6-d640-4dd4-a995-47f9b4555e3b",
+   CellTags->"ResizeImages"]},
+ "RotateAndZoomIn3D"->{
+  Cell[147836, 2874, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"768d82f5-b35b-42c0-818f-7aec2362a799",
+   CellTags->"RotateAndZoomIn3D"]},
+ "SliderZoom"->{
+  Cell[149863, 2931, 961, 23, 22, "ControlSuggestions",ExpressionUUID->"1cc694b3-24a6-4912-9b2f-44f49bed4172",
+   CellTags->"SliderZoom"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ResizeImages", 162376, 3216},
- {"RotateAndZoomIn3D", 162542, 3219},
- {"DragLocators", 162708, 3222},
- {"CreateAndDeleteLocators", 162880, 3225},
- {"SliderZoom", 163050, 3228},
- {"GamepadControls", 163212, 3231},
- {"AutomaticAnimation", 163382, 3234},
- {"BookmarkAnimation", 163555, 3237}
+ {"AutomaticAnimation", 163130, 3230},
+ {"BookmarkAnimation", 163303, 3233},
+ {"CreateAndDeleteLocators", 163481, 3236},
+ {"DragLocators", 163653, 3239},
+ {"GamepadControls", 163817, 3242},
+ {"ResizeImages", 163981, 3245},
+ {"RotateAndZoomIn3D", 164147, 3248},
+ {"SliderZoom", 164311, 3251}
  }
 *)
 (*NotebookFileOutline
@@ -3304,89 +3318,89 @@ Cell[103650, 2053, 15816, 298, 442, "Output",ExpressionUUID->"2b402b79-560f-4713
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[119503, 2356, 81, 0, 339, "DetailsSection",ExpressionUUID->"d544337c-aef7-4596-a09b-67a1eae7bbda"],
-Cell[119587, 2358, 4593, 64, 67, "DetailNotes",ExpressionUUID->"9d549e41-c58d-4311-833b-08a3e70d4350",
+Cell[119587, 2358, 4813, 67, 67, "DetailNotes",ExpressionUUID->"9d549e41-c58d-4311-833b-08a3e70d4350",
  CellID->107142632],
-Cell[124183, 2424, 7365, 187, 54, "DetailNotes",ExpressionUUID->"ad75bc69-85b0-4fc6-a182-e00c74593df2",
+Cell[124403, 2427, 7607, 194, 54, "DetailNotes",ExpressionUUID->"ad75bc69-85b0-4fc6-a182-e00c74593df2",
  CellID->335972811],
-Cell[131551, 2613, 5171, 79, 52, "DetailNotes",ExpressionUUID->"b60da9ca-20f0-4ada-bf40-919169360d37",
+Cell[132013, 2623, 5208, 79, 52, "DetailNotes",ExpressionUUID->"b60da9ca-20f0-4ada-bf40-919169360d37",
  CellID->305937259],
-Cell[136725, 2694, 4786, 66, 22, "DetailNotes",ExpressionUUID->"8c753dba-c6fb-4a10-8d3c-511e7b100515",
+Cell[137224, 2704, 4841, 67, 22, "DetailNotes",ExpressionUUID->"8c753dba-c6fb-4a10-8d3c-511e7b100515",
  CellID->593204738],
-Cell[141514, 2762, 4205, 58, 52, "DetailNotes",ExpressionUUID->"1943531d-21ae-4819-897f-66cffcaad5d5",
+Cell[142068, 2773, 4299, 60, 37, "DetailNotes",ExpressionUUID->"1943531d-21ae-4819-897f-66cffcaad5d5",
  CellID->4072355],
-Cell[145722, 2822, 206, 3, 22, "DetailNotes",ExpressionUUID->"610f0872-2edc-45a7-bad4-8216aef6a3c5",
+Cell[146370, 2835, 206, 3, 22, "DetailNotes",ExpressionUUID->"610f0872-2edc-45a7-bad4-8216aef6a3c5",
  CellID->24383986],
-Cell[145931, 2827, 607, 13, 37, "DetailNotes",ExpressionUUID->"6d88ba8a-9ba1-4439-bd27-fd244cea0f0f",
+Cell[146579, 2840, 632, 14, 37, "DetailNotes",ExpressionUUID->"6d88ba8a-9ba1-4439-bd27-fd244cea0f0f",
  CellID->405299277]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[146575, 2845, 92, 0, 126, "ControlSuggestionsSection",ExpressionUUID->"ad521f70-3346-47cf-b5c9-e69cd6bc4758"],
-Cell[146670, 2847, 490, 11, 22, "ControlSuggestions",ExpressionUUID->"caeb87a6-d640-4dd4-a995-47f9b4555e3b",
+Cell[147248, 2859, 92, 0, 126, "ControlSuggestionsSection",ExpressionUUID->"ad521f70-3346-47cf-b5c9-e69cd6bc4758"],
+Cell[147343, 2861, 490, 11, 22, "ControlSuggestions",ExpressionUUID->"caeb87a6-d640-4dd4-a995-47f9b4555e3b",
  CellTags->"ResizeImages"],
-Cell[147163, 2860, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"768d82f5-b35b-42c0-818f-7aec2362a799",
+Cell[147836, 2874, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"768d82f5-b35b-42c0-818f-7aec2362a799",
  CellTags->"RotateAndZoomIn3D"],
-Cell[147966, 2881, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"e1d96c07-8565-4918-be67-9fd5fb87dff4",
+Cell[148639, 2895, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"e1d96c07-8565-4918-be67-9fd5fb87dff4",
  CellTags->"DragLocators"],
-Cell[148426, 2896, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"ccf49abb-14b3-46ef-ad80-a8693b09b9fb",
+Cell[149099, 2910, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"ccf49abb-14b3-46ef-ad80-a8693b09b9fb",
  CellTags->"CreateAndDeleteLocators"],
-Cell[149190, 2917, 961, 23, 22, "ControlSuggestions",ExpressionUUID->"1cc694b3-24a6-4912-9b2f-44f49bed4172",
+Cell[149863, 2931, 961, 23, 22, "ControlSuggestions",ExpressionUUID->"1cc694b3-24a6-4912-9b2f-44f49bed4172",
  CellTags->"SliderZoom"],
-Cell[150154, 2942, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"8c0b4fd0-2c4d-4b31-bd94-0981276079a1",
+Cell[150827, 2956, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"8c0b4fd0-2c4d-4b31-bd94-0981276079a1",
  CellTags->"GamepadControls"],
-Cell[150648, 2956, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"0e5bb8fb-dd58-4acc-83ad-482f42093a03",
+Cell[151321, 2970, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"0e5bb8fb-dd58-4acc-83ad-482f42093a03",
  CellTags->"AutomaticAnimation"],
-Cell[152237, 2992, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"81af9ec6-cee9-41ed-aa0d-ae4aba6bfad0",
+Cell[152910, 3006, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"81af9ec6-cee9-41ed-aa0d-ae4aba6bfad0",
  CellTags->"BookmarkAnimation"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[153304, 3021, 85, 0, 158, "SearchTermsSection",ExpressionUUID->"ade46176-317d-498c-8cfa-21aee96bc323"],
-Cell[153392, 3023, 383, 5, 22, "SearchTerms",ExpressionUUID->"0fd5a4e3-45fc-42f3-8aa4-79b05fde6c77",
+Cell[153977, 3035, 85, 0, 158, "SearchTermsSection",ExpressionUUID->"ade46176-317d-498c-8cfa-21aee96bc323"],
+Cell[154065, 3037, 383, 5, 22, "SearchTerms",ExpressionUUID->"0fd5a4e3-45fc-42f3-8aa4-79b05fde6c77",
  CellID->439892608],
-Cell[153778, 3030, 351, 5, 22, "SearchTerms",ExpressionUUID->"2d9a7d28-223c-49dc-b529-cd0a6777dad1",
+Cell[154451, 3044, 351, 5, 22, "SearchTerms",ExpressionUUID->"2d9a7d28-223c-49dc-b529-cd0a6777dad1",
  CellID->671502766],
-Cell[154132, 3037, 369, 5, 22, "SearchTerms",ExpressionUUID->"35691bfc-d217-48fb-bd50-eb74b7f08f4c",
+Cell[154805, 3051, 369, 5, 22, "SearchTerms",ExpressionUUID->"35691bfc-d217-48fb-bd50-eb74b7f08f4c",
  CellID->153550987],
-Cell[154504, 3044, 351, 5, 22, "SearchTerms",ExpressionUUID->"b3aee565-2834-44f8-a2c4-de7563402c8e",
+Cell[155177, 3058, 351, 5, 22, "SearchTerms",ExpressionUUID->"b3aee565-2834-44f8-a2c4-de7563402c8e",
  CellID->28868275],
-Cell[154858, 3051, 351, 5, 22, "SearchTerms",ExpressionUUID->"33bcf28b-5963-449c-9b24-3fdacf58ee5f",
+Cell[155531, 3065, 351, 5, 22, "SearchTerms",ExpressionUUID->"33bcf28b-5963-449c-9b24-3fdacf58ee5f",
  CellID->22196757],
-Cell[155212, 3058, 358, 5, 22, "SearchTerms",ExpressionUUID->"b263364a-b7e2-43a0-be30-ec34d7ff219d",
+Cell[155885, 3072, 358, 5, 22, "SearchTerms",ExpressionUUID->"b263364a-b7e2-43a0-be30-ec34d7ff219d",
  CellID->273062211],
-Cell[155573, 3065, 359, 5, 22, "SearchTerms",ExpressionUUID->"739d43e9-ea4a-483c-b290-0679e5fde5ea",
+Cell[156246, 3079, 359, 5, 22, "SearchTerms",ExpressionUUID->"739d43e9-ea4a-483c-b290-0679e5fde5ea",
  CellID->41797777],
-Cell[155935, 3072, 362, 5, 22, "SearchTerms",ExpressionUUID->"160690c5-ca96-4abd-a441-9df994776d44",
+Cell[156608, 3086, 362, 5, 22, "SearchTerms",ExpressionUUID->"160690c5-ca96-4abd-a441-9df994776d44",
  CellID->325639438],
-Cell[156300, 3079, 362, 5, 22, "SearchTerms",ExpressionUUID->"c1f0d793-dfb9-4962-a641-4a4dea71b0a1",
+Cell[156973, 3093, 362, 5, 22, "SearchTerms",ExpressionUUID->"c1f0d793-dfb9-4962-a641-4a4dea71b0a1",
  CellID->708056799],
-Cell[156665, 3086, 366, 5, 22, "SearchTerms",ExpressionUUID->"874d1c59-43dd-4d4d-9424-191ad384341c",
+Cell[157338, 3100, 366, 5, 22, "SearchTerms",ExpressionUUID->"874d1c59-43dd-4d4d-9424-191ad384341c",
  CellID->143421553],
-Cell[157034, 3093, 357, 5, 22, "SearchTerms",ExpressionUUID->"c8081ce8-8a0b-47dd-8e77-75691ba794ec",
+Cell[157707, 3107, 357, 5, 22, "SearchTerms",ExpressionUUID->"c8081ce8-8a0b-47dd-8e77-75691ba794ec",
  CellID->361485],
-Cell[157394, 3100, 362, 5, 22, "SearchTerms",ExpressionUUID->"593d8a32-4d6f-4e2e-9750-bef44cc1bf70",
+Cell[158067, 3114, 362, 5, 22, "SearchTerms",ExpressionUUID->"593d8a32-4d6f-4e2e-9750-bef44cc1bf70",
  CellID->324809393],
-Cell[157759, 3107, 361, 5, 22, "SearchTerms",ExpressionUUID->"0d500284-2a51-4ba8-8a77-5a2a85b00b41",
+Cell[158432, 3121, 361, 5, 22, "SearchTerms",ExpressionUUID->"0d500284-2a51-4ba8-8a77-5a2a85b00b41",
  CellID->17675114],
-Cell[158123, 3114, 363, 5, 22, "SearchTerms",ExpressionUUID->"0701b1b8-1c0c-4ecb-92f9-a18041c0abe5",
+Cell[158796, 3128, 363, 5, 22, "SearchTerms",ExpressionUUID->"0701b1b8-1c0c-4ecb-92f9-a18041c0abe5",
  CellID->508336205],
-Cell[158489, 3121, 346, 5, 22, "SearchTerms",ExpressionUUID->"2d7cd809-c1fd-48b4-8691-add3d8d2dd12",
+Cell[159162, 3135, 346, 5, 22, "SearchTerms",ExpressionUUID->"2d7cd809-c1fd-48b4-8691-add3d8d2dd12",
  CellID->280099045],
-Cell[158838, 3128, 393, 6, 22, "SearchTerms",ExpressionUUID->"b13219fc-51e9-4d5f-a39c-fd4a16155c7f",
+Cell[159511, 3142, 393, 6, 22, "SearchTerms",ExpressionUUID->"b13219fc-51e9-4d5f-a39c-fd4a16155c7f",
  CellID->37464611],
-Cell[159234, 3136, 410, 6, 22, "SearchTerms",ExpressionUUID->"f5544c03-c59b-4a53-a1c7-7d855c86983c",
+Cell[159907, 3150, 410, 6, 22, "SearchTerms",ExpressionUUID->"f5544c03-c59b-4a53-a1c7-7d855c86983c",
  CellID->655084445],
-Cell[159647, 3144, 408, 6, 22, "SearchTerms",ExpressionUUID->"04c975e9-fd59-4862-b4eb-4163aaabf054",
+Cell[160320, 3158, 408, 6, 22, "SearchTerms",ExpressionUUID->"04c975e9-fd59-4862-b4eb-4163aaabf054",
  CellID->31810516],
-Cell[160058, 3152, 415, 6, 22, "SearchTerms",ExpressionUUID->"25ea10e4-ec87-4fc3-b3b4-b95fda7ebaa2",
+Cell[160731, 3166, 415, 6, 22, "SearchTerms",ExpressionUUID->"25ea10e4-ec87-4fc3-b3b4-b95fda7ebaa2",
  CellID->88626456]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[160510, 3163, 86, 0, 143, "RelatedLinksSection",ExpressionUUID->"9546b21c-113b-4724-bc77-d2a8ecaef876"],
-Cell[160599, 3165, 612, 13, 22, "RelatedLinks",ExpressionUUID->"e9404e83-2a6b-4dda-ab57-a120f14c3807",
+Cell[161183, 3177, 86, 0, 143, "RelatedLinksSection",ExpressionUUID->"9546b21c-113b-4724-bc77-d2a8ecaef876"],
+Cell[161272, 3179, 612, 13, 22, "RelatedLinks",ExpressionUUID->"e9404e83-2a6b-4dda-ab57-a120f14c3807",
  CellID->213482007]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[161248, 3183, 80, 0, 141, "AuthorSection",ExpressionUUID->"f8713fd6-1a4f-47a8-814e-7ac42c13d22d"],
-Cell[161331, 3185, 647, 16, 22, "Author",ExpressionUUID->"76c94789-2222-4c09-9beb-ea1cf7fdd45a",
+Cell[161921, 3197, 80, 0, 141, "AuthorSection",ExpressionUUID->"f8713fd6-1a4f-47a8-814e-7ac42c13d22d"],
+Cell[162004, 3199, 723, 16, 22, "Author",ExpressionUUID->"76c94789-2222-4c09-9beb-ea1cf7fdd45a",
  CellID->362114989]
 }, Open  ]]
 }, Open  ]]

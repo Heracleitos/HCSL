@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    399773,       8186]
-NotebookOptionsPosition[    391001,       8019]
-NotebookOutlinePosition[    393058,       8069]
-CellTagsIndexPosition[    392722,       8057]
+NotebookDataLength[    406131,       8291]
+NotebookOptionsPosition[    398307,       8140]
+NotebookOutlinePosition[    400364,       8190]
+CellTagsIndexPosition[    400028,       8178]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1050,7 +1050,7 @@ curve of 2nd test\>\""}], "]"}]}], "}"}], ",",
             RowBox[{"Row", "[", 
              RowBox[{
              "{", "\"\<\!\(\*FractionBox[\(\[PartialD]\), \
-\(\[PartialD]u\)]\)LR+ result\>\"", "}"}], "]"}]}], ",", 
+\(\[PartialD]u\)]\)LR+ curve\>\"", "}"}], "]"}]}], ",", 
            RowBox[{"PlotStyle", "\[Rule]", 
             RowBox[{"{", 
              RowBox[{
@@ -2516,129 +2516,10 @@ curve of 2nd test\>\""}], "]"}]}], "}"}], ",",
    3.5512722993467016`*^9}, {3.551272366073702*^9, 3.551272399059702*^9}, {
    3.551272583936702*^9, 3.5512725966127014`*^9}, {3.5512726394427013`*^9, 
    3.5512726918487015`*^9}, {3.646383343647715*^9, 3.646383345389715*^9}, 
-   3.730866076291391*^9, 3.731164627622836*^9},
+   3.730866076291391*^9, 3.731164627622836*^9, {3.757574292320365*^9, 
+   3.7575742994193687`*^9}},
  CellLabel->"In[25]:=",
  CellID->4362360,ExpressionUUID->"762bbc7d-4288-4d2e-8377-37d7dbcc4bb4"],
-
-Cell[BoxData[
- TemplateBox[{
-  "u1","shdw",
-   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"u1\\\\\\\"\\\"}]\\) appears in \
-multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"Notebook$$15$535333`\\\\\\\"\\\"}], \\\"}\\\"}]\\); definitions \
-in context \\!\\(\\*RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\"}]\\) \
-may shadow or be shadowed by other definitions.\"",2,25,21,
-   18907767126887093795,"Local","Notebook$$20$537143`u1"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.7515373154666004`*^9},
- CellLabel->"During evaluation of In[25]:=",
- CellID->416984569,ExpressionUUID->"f6f033b0-f82d-4984-9ff3-c5735e805a94"],
-
-Cell[BoxData[
- TemplateBox[{
-  "u2","shdw",
-   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"u2\\\\\\\"\\\"}]\\) appears in \
-multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"Notebook$$15$535333`\\\\\\\"\\\"}], \\\"}\\\"}]\\); definitions \
-in context \\!\\(\\*RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\"}]\\) \
-may shadow or be shadowed by other definitions.\"",2,25,22,
-   18907767126887093795,"Local","Notebook$$20$537143`u2"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.751537315572601*^9},
- CellLabel->"During evaluation of In[25]:=",
- CellID->728615312,ExpressionUUID->"d28075f6-cde3-43f5-b471-c1400ab8d232"],
-
-Cell[BoxData[
- TemplateBox[{
-  "\[Mu]H$","shdw",
-   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"\[Mu]H$\\\\\\\"\\\"}]\\) appears in \
-multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"Notebook$$15$535333`\\\\\\\"\\\"}], \\\"}\\\"}]\\); definitions \
-in context \\!\\(\\*RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\"}]\\) \
-may shadow or be shadowed by other definitions.\"",2,25,23,
-   18907767126887093795,"Local","Notebook$$20$537143`\[Mu]H$"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.7515373158696003`*^9},
- CellLabel->"During evaluation of In[25]:=",
- CellID->203147314,ExpressionUUID->"911855f5-93e6-4d47-b0cb-518741ddffc3"],
-
-Cell[BoxData[
- TemplateBox[{
-  "\[Sigma]H$","shdw",
-   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"\[Sigma]H$\\\\\\\"\\\"}]\\) appears \
-in multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"Notebook$$15$535333`\\\\\\\"\\\"}], \\\"}\\\"}]\\); definitions \
-in context \\!\\(\\*RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\"}]\\) \
-may shadow or be shadowed by other definitions.\"",2,25,24,
-   18907767126887093795,"Local","Notebook$$20$537143`\[Sigma]H$"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.751537316066601*^9},
- CellLabel->"During evaluation of In[25]:=",
- CellID->517295892,ExpressionUUID->"16cd8678-4c28-4a89-8d36-5713e1c7f017"],
-
-Cell[BoxData[
- TemplateBox[{
-  "x$","shdw",
-   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"x$\\\\\\\"\\\"}]\\) appears in \
-multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"Notebook$$15$535333`\\\\\\\"\\\"}], \\\"}\\\"}]\\); definitions \
-in context \\!\\(\\*RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\"}]\\) \
-may shadow or be shadowed by other definitions.\"",2,25,25,
-   18907767126887093795,"Local","Notebook$$20$537143`x$"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.7515373162786007`*^9},
- CellLabel->"During evaluation of In[25]:=",
- CellID->223680821,ExpressionUUID->"9b441f32-b2a9-4a58-a15c-fc7bdbf973a8"],
-
-Cell[BoxData[
- TemplateBox[{
-  "u$","shdw",
-   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"u$\\\\\\\"\\\"}]\\) appears in \
-multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"Notebook$$15$535333`\\\\\\\"\\\"}], \\\"}\\\"}]\\); definitions \
-in context \\!\\(\\*RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\"}]\\) \
-may shadow or be shadowed by other definitions.\"",2,25,26,
-   18907767126887093795,"Local","Notebook$$20$537143`u$"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.7515373164736004`*^9},
- CellLabel->"During evaluation of In[25]:=",
- CellID->31294959,ExpressionUUID->"909ee47d-fd29-41da-a97f-5638c2d8ed52"],
-
-Cell[BoxData[
- TemplateBox[{
-  "\[Sigma]D$","shdw",
-   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"\[Sigma]D$\\\\\\\"\\\"}]\\) appears \
-in multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"Notebook$$15$535333`\\\\\\\"\\\"}], \\\"}\\\"}]\\); definitions \
-in context \\!\\(\\*RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\"}]\\) \
-may shadow or be shadowed by other definitions.\"",2,25,27,
-   18907767126887093795,"Local","Notebook$$20$537143`\[Sigma]D$"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.7515373167006273`*^9},
- CellLabel->"During evaluation of In[25]:=",
- CellID->479707775,ExpressionUUID->"c73e797d-d279-4e7c-8af5-69648e9304b1"],
-
-Cell[BoxData[
- TemplateBox[{
-  "\[Mu]D$","shdw",
-   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"\[Mu]D$\\\\\\\"\\\"}]\\) appears in \
-multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"Notebook$$15$535333`\\\\\\\"\\\"}], \\\"}\\\"}]\\); definitions \
-in context \\!\\(\\*RowBox[{\\\"\\\\\\\"Notebook$$20$537143`\\\\\\\"\\\"}]\\) \
-may shadow or be shadowed by other definitions.\"",2,25,28,
-   18907767126887093795,"Local","Notebook$$20$537143`\[Mu]D$"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.7515373168886013`*^9},
- CellLabel->"During evaluation of In[25]:=",
- CellID->145158291,ExpressionUUID->"d6f94542-3e18-4cd8-8ee1-2cb7b365b1ff"],
 
 Cell[BoxData[
  TagBox[
@@ -2681,11 +2562,11 @@ Cell[BoxData[
        Hold[$CellContext`u2$$], 0.45, "second test"}, 0, 6, 0.01}}, 
     Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`type$68878$$ = False, $CellContext`plot$68879$$ = 
-    False, $CellContext`vs$68880$$ = False, $CellContext`pd$68881$$ = 
-    0, $CellContext`\[Mu]H$68882$$ = 0, $CellContext`\[Sigma]H$68883$$ = 
-    0, $CellContext`\[Mu]D$68884$$ = 0, $CellContext`\[Sigma]D$68885$$ = 
-    0, $CellContext`u1$68886$$ = 0, $CellContext`u2$68887$$ = 0}, 
+    False, $CellContext`type$11687$$ = False, $CellContext`plot$11688$$ = 
+    False, $CellContext`vs$11689$$ = False, $CellContext`pd$11690$$ = 
+    0, $CellContext`\[Mu]H$11691$$ = 0, $CellContext`\[Sigma]H$11692$$ = 
+    0, $CellContext`\[Mu]D$11693$$ = 0, $CellContext`\[Sigma]D$11694$$ = 
+    0, $CellContext`u1$11695$$ = 0, $CellContext`u2$11696$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
@@ -2694,16 +2575,16 @@ Cell[BoxData[
         0, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
         0, $CellContext`\[Sigma]D$$ = 1, $CellContext`\[Sigma]H$$ = 1}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$68878$$, False], 
-        Hold[$CellContext`plot$$, $CellContext`plot$68879$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$68880$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$68881$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$68882$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$68883$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$68884$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$68885$$, 0], 
-        Hold[$CellContext`u1$$, $CellContext`u1$68886$$, 0], 
-        Hold[$CellContext`u2$$, $CellContext`u2$68887$$, 0]}, 
+        Hold[$CellContext`type$$, $CellContext`type$11687$$, False], 
+        Hold[$CellContext`plot$$, $CellContext`plot$11688$$, False], 
+        Hold[$CellContext`vs$$, $CellContext`vs$11689$$, False], 
+        Hold[$CellContext`pd$$, $CellContext`pd$11690$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$11691$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$11692$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$11693$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$11694$$, 0], 
+        Hold[$CellContext`u1$$, $CellContext`u1$11695$$, 0], 
+        Hold[$CellContext`u2$$, $CellContext`u2$11696$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -2959,7 +2840,7 @@ of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+"}, 
            PlotLabel -> 
            Row[{"\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+ \
-result"}], PlotStyle -> {
+curve"}], PlotStyle -> {
              ColorData["HTML", "SlateBlue"], 
              RGBColor[1, 0.47, 0]}, Filling -> Axis, 
            ImageSize -> {350, 375}], $CellContext`plot$$ == 4, 
@@ -3396,7 +3277,7 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
        AutorunSequencing -> {1, 2, 6}, TrackedSymbols -> True, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{684., {251., 257.}},
+     ImageSizeCache->{636., {251., 257.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -3420,24 +3301,12 @@ $CellContext`pd + (
           1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
 $CellContext`u]) (1 - $CellContext`pd)), 
+       TagSet[$CellContext`dppv, 
+        MessageName[$CellContext`dppv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
        TagSet[$CellContext`x, 
         MessageName[$CellContext`x, "shdw"], 
-        "Symbol `1` appears in multiple contexts `2`; definitions in context \
-`3` may shadow or be shadowed by other definitions."], 
-       TagSet[$CellContext`\[Mu]D$$, 
-        MessageName[$CellContext`\[Mu]D$$, "shdw"], 
-        "Symbol `1` appears in multiple contexts `2`; definitions in context \
-`3` may shadow or be shadowed by other definitions."], 
-       TagSet[$CellContext`\[Mu]H$$, 
-        MessageName[$CellContext`\[Mu]H$$, "shdw"], 
-        "Symbol `1` appears in multiple contexts `2`; definitions in context \
-`3` may shadow or be shadowed by other definitions."], 
-       TagSet[$CellContext`\[Sigma]D$$, 
-        MessageName[$CellContext`\[Sigma]D$$, "shdw"], 
-        "Symbol `1` appears in multiple contexts `2`; definitions in context \
-`3` may shadow or be shadowed by other definitions."], 
-       TagSet[$CellContext`\[Sigma]H$$, 
-        MessageName[$CellContext`\[Sigma]H$$, "shdw"], 
         "Symbol `1` appears in multiple contexts `2`; definitions in context \
 `3` may shadow or be shadowed by other definitions."], 
        TagSet[$CellContext`u, 
@@ -3462,12 +3331,8 @@ $CellContext`u]) (1 - $CellContext`pd)),
           NormalDistribution[$CellContext`\[Mu]D, 
            Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
           1 - $CellContext`x]], 
-       TagSet[$CellContext`u1$$, 
-        MessageName[$CellContext`u1$$, "shdw"], 
-        "Symbol `1` appears in multiple contexts `2`; definitions in context \
-`3` may shadow or be shadowed by other definitions."], 
-       TagSet[$CellContext`u2$$, 
-        MessageName[$CellContext`u2$$, "shdw"], 
+       TagSet[$CellContext`spec, 
+        MessageName[$CellContext`spec, "shdw"], 
         "Symbol `1` appears in multiple contexts `2`; definitions in context \
 `3` may shadow or be shadowed by other definitions."], $CellContext`dnpv[
          Pattern[$CellContext`x, 
@@ -3490,7 +3355,11 @@ $CellContext`\[Sigma]H, $CellContext`u] (
           1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
-          1 - $CellContext`x) $CellContext`pd), $CellContext`dor[
+          1 - $CellContext`x) $CellContext`pd), 
+       TagSet[$CellContext`dnpv, 
+        MessageName[$CellContext`dnpv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -3508,7 +3377,11 @@ $CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
 $CellContext`u])/$CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])), $CellContext`dplr[
+$CellContext`u])), 
+       TagSet[$CellContext`dor, 
+        MessageName[$CellContext`dor, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -3523,7 +3396,11 @@ $CellContext`u])), $CellContext`dplr[
           Blank[]]] := $CellContext`x/(
         1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]), $CellContext`dnlr[
+$CellContext`u]), 
+       TagSet[$CellContext`dplr, 
+        MessageName[$CellContext`dplr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -3538,7 +3415,11 @@ $CellContext`u]), $CellContext`dnlr[
           Blank[]]] := (
          1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
 \[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u], $CellContext`hppv[
+$CellContext`u], 
+       TagSet[$CellContext`dnlr, 
+        MessageName[$CellContext`dnlr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hppv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -3558,8 +3439,11 @@ $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H, $CellContext`u] \
 $CellContext`pd)/($CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
-          1 - $CellContext`x)), $CellContext`sens[
+$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (1 - $CellContext`x)), 
+       TagSet[$CellContext`hppv, 
+        MessageName[$CellContext`hppv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`sens[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -3578,7 +3462,11 @@ $CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
           NormalDistribution[$CellContext`\[Mu]H, 
            
            Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], \
-$CellContext`x]], $CellContext`hnpv[
+$CellContext`x]], 
+       TagSet[$CellContext`sens, 
+        MessageName[$CellContext`sens, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -3597,7 +3485,11 @@ $CellContext`x]], $CellContext`hnpv[
           1 - $CellContext`pd) + $CellContext`pd (
           1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])), $CellContext`hor[
+$CellContext`u])), 
+       TagSet[$CellContext`hnpv, 
+        MessageName[$CellContext`hnpv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -3615,7 +3507,11 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
 $CellContext`u]/((
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
+$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), 
+       TagSet[$CellContext`hor, 
+        MessageName[$CellContext`hor, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -3630,7 +3526,11 @@ $CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
           
           Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
+$CellContext`u]/(1 - $CellContext`x), 
+       TagSet[$CellContext`hplr, 
+        MessageName[$CellContext`hplr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -3645,7 +3545,12 @@ $CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
           Blank[]]] := (
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
+$CellContext`u])/$CellContext`x, 
+       TagSet[$CellContext`hnlr, 
+        MessageName[$CellContext`hnlr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."]}; 
+     Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -3653,9 +3558,7 @@ $CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.7515373176876*^9},
- CellLabel->"Out[25]=",
- CellID->385425219,ExpressionUUID->"e4cf8a85-d668-478a-be39-819e934ea5bc"]
+ CellID->426288600,ExpressionUUID->"7bb5b9b6-3999-496f-88f6-506ed1e6e43f"]
 }, Open  ]]
 }, Open  ]],
 
@@ -3722,9 +3625,9 @@ Cell[BoxData[
       Hold[
        Style["diseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`\[Mu]D$$], 0., "mean"}, 0, 6, 0.01}, {{
-       Hold[$CellContext`\[Sigma]D$$], 3.670000000000002, 
-       "standard deviation"}, 0.01, 6, 0.01}, {
+       Hold[$CellContext`\[Mu]D$$], 3.67, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]D$$], 1., "standard deviation"}, 0.01, 6, 
+      0.01}, {
       Hold[
        Style["uncertainty of measurement", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
@@ -3732,30 +3635,29 @@ Cell[BoxData[
        Hold[$CellContext`u2$$], 0.45, "second test"}, 0, 6, 0.01}}, 
     Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`type$9190$$ = False, $CellContext`plot$9191$$ = 
-    False, $CellContext`vs$9192$$ = False, $CellContext`pd$9193$$ = 
-    0, $CellContext`\[Mu]H$9194$$ = 0, $CellContext`\[Sigma]H$9195$$ = 
-    0, $CellContext`\[Mu]D$9196$$ = 0, $CellContext`\[Sigma]D$9197$$ = 
-    0, $CellContext`u1$9198$$ = 0, $CellContext`u2$9199$$ = 0}, 
+    False, $CellContext`type$11799$$ = False, $CellContext`plot$11800$$ = 
+    False, $CellContext`vs$11801$$ = False, $CellContext`pd$11802$$ = 
+    0, $CellContext`\[Mu]H$11803$$ = 0, $CellContext`\[Sigma]H$11804$$ = 
+    0, $CellContext`\[Mu]D$11805$$ = 0, $CellContext`\[Sigma]D$11806$$ = 
+    0, $CellContext`u1$11807$$ = 0, $CellContext`u2$11808$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
         0, $CellContext`type$$ = 0, $CellContext`u1$$ = 
         0.15, $CellContext`u2$$ = 0.45, $CellContext`vs$$ = 
-        0, $CellContext`\[Mu]D$$ = 0., $CellContext`\[Mu]H$$ = 
-        0, $CellContext`\[Sigma]D$$ = 
-        3.670000000000002, $CellContext`\[Sigma]H$$ = 1}, 
+        0, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
+        0, $CellContext`\[Sigma]D$$ = 1., $CellContext`\[Sigma]H$$ = 1}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$9190$$, False], 
-        Hold[$CellContext`plot$$, $CellContext`plot$9191$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$9192$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$9193$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$9194$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$9195$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$9196$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$9197$$, 0], 
-        Hold[$CellContext`u1$$, $CellContext`u1$9198$$, 0], 
-        Hold[$CellContext`u2$$, $CellContext`u2$9199$$, 0]}, 
+        Hold[$CellContext`type$$, $CellContext`type$11799$$, False], 
+        Hold[$CellContext`plot$$, $CellContext`plot$11800$$, False], 
+        Hold[$CellContext`vs$$, $CellContext`vs$11801$$, False], 
+        Hold[$CellContext`pd$$, $CellContext`pd$11802$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$11803$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$11804$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$11805$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$11806$$, 0], 
+        Hold[$CellContext`u1$$, $CellContext`u1$11807$$, 0], 
+        Hold[$CellContext`u2$$, $CellContext`u2$11808$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -4011,7 +3913,7 @@ of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+"}, 
            PlotLabel -> 
            Row[{"\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+ \
-result"}], PlotStyle -> {
+curve"}], PlotStyle -> {
              ColorData["HTML", "SlateBlue"], 
              RGBColor[1, 0.47, 0]}, Filling -> Axis, 
            ImageSize -> {350, 375}], $CellContext`plot$$ == 4, 
@@ -4434,11 +4336,10 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
          "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
-        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 0., "mean"}, 0,
-          6, 0.01, ImageSize -> Tiny, Appearance -> 
-         "Labeled"}, {{$CellContext`\[Sigma]D$$, 3.670000000000002, 
-          "standard deviation"}, 0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> 
-         "Labeled"}, 
+        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 
+         0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]D$$, 1., "standard deviation"}, 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
         "uncertainty of measurement", 
          Bold], {{$CellContext`u1$$, 0.15, "first test"}, 0, 6, 0.01, 
@@ -4472,7 +4373,19 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
 $CellContext`pd + (
           1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]) (1 - $CellContext`pd)), $CellContext`spec[
+$CellContext`u]) (1 - $CellContext`pd)), 
+       TagSet[$CellContext`dppv, 
+        MessageName[$CellContext`dppv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`x, 
+        MessageName[$CellContext`x, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`u, 
+        MessageName[$CellContext`u, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`spec[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -4490,7 +4403,11 @@ $CellContext`u]) (1 - $CellContext`pd)), $CellContext`spec[
          InverseCDF[
           NormalDistribution[$CellContext`\[Mu]D, 
            Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
-          1 - $CellContext`x]], $CellContext`dnpv[
+          1 - $CellContext`x]], 
+       TagSet[$CellContext`spec, 
+        MessageName[$CellContext`spec, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -4511,7 +4428,11 @@ $CellContext`\[Sigma]H, $CellContext`u] (
           1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
-          1 - $CellContext`x) $CellContext`pd), $CellContext`dor[
+          1 - $CellContext`x) $CellContext`pd), 
+       TagSet[$CellContext`dnpv, 
+        MessageName[$CellContext`dnpv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -4529,7 +4450,11 @@ $CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
 $CellContext`u])/$CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])), $CellContext`dplr[
+$CellContext`u])), 
+       TagSet[$CellContext`dor, 
+        MessageName[$CellContext`dor, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -4544,7 +4469,11 @@ $CellContext`u])), $CellContext`dplr[
           Blank[]]] := $CellContext`x/(
         1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]), $CellContext`dnlr[
+$CellContext`u]), 
+       TagSet[$CellContext`dplr, 
+        MessageName[$CellContext`dplr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -4559,7 +4488,11 @@ $CellContext`u]), $CellContext`dnlr[
           Blank[]]] := (
          1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
 \[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u], $CellContext`hppv[
+$CellContext`u], 
+       TagSet[$CellContext`dnlr, 
+        MessageName[$CellContext`dnlr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hppv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -4579,8 +4512,11 @@ $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H, $CellContext`u] \
 $CellContext`pd)/($CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
-          1 - $CellContext`x)), $CellContext`sens[
+$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (1 - $CellContext`x)), 
+       TagSet[$CellContext`hppv, 
+        MessageName[$CellContext`hppv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`sens[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -4599,7 +4535,11 @@ $CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
           NormalDistribution[$CellContext`\[Mu]H, 
            
            Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], \
-$CellContext`x]], $CellContext`hnpv[
+$CellContext`x]], 
+       TagSet[$CellContext`sens, 
+        MessageName[$CellContext`sens, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -4618,7 +4558,11 @@ $CellContext`x]], $CellContext`hnpv[
           1 - $CellContext`pd) + $CellContext`pd (
           1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])), $CellContext`hor[
+$CellContext`u])), 
+       TagSet[$CellContext`hnpv, 
+        MessageName[$CellContext`hnpv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -4636,7 +4580,11 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
 $CellContext`u]/((
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
+$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), 
+       TagSet[$CellContext`hor, 
+        MessageName[$CellContext`hor, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -4651,7 +4599,11 @@ $CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
           
           Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
+$CellContext`u]/(1 - $CellContext`x), 
+       TagSet[$CellContext`hplr, 
+        MessageName[$CellContext`hplr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -4666,7 +4618,12 @@ $CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
           Blank[]]] := (
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
+$CellContext`u])/$CellContext`x, 
+       TagSet[$CellContext`hnlr, 
+        MessageName[$CellContext`hnlr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."]}; 
+     Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -4674,7 +4631,7 @@ $CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->57126025,ExpressionUUID->"6749a8c3-2c7b-4954-9152-c2c1f94f6d33"]
+ CellID->196318377,ExpressionUUID->"547e9e60-6a42-40d8-be89-5f5c7dc4b344"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -4712,40 +4669,39 @@ Cell[BoxData[
       Hold[
        Style["diseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`\[Mu]D$$], 0., "mean"}, 0, 6, 0.01}, {{
-       Hold[$CellContext`\[Sigma]D$$], 3.6700000000000017`, 
-       "standard deviation"}, 0.01, 6, 0.01}, {
+       Hold[$CellContext`\[Mu]D$$], 3.67, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]D$$], 1., "standard deviation"}, 0.01, 6, 
+      0.01}, {
       Hold[
        Style["uncertainty of measurement", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`u1$$], 0.15, "first test"}, 0, 6, 0.01}, {{
        Hold[$CellContext`u2$$], 0.45, "second test"}, 0, 6, 0.01}}, 
-    Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`type$9302$$ = False, $CellContext`plot$9303$$ = 
-    False, $CellContext`vs$9304$$ = False, $CellContext`pd$9305$$ = 
-    0, $CellContext`\[Mu]H$9306$$ = 0, $CellContext`\[Sigma]H$9307$$ = 
-    0, $CellContext`\[Mu]D$9308$$ = 0, $CellContext`\[Sigma]D$9309$$ = 
-    0, $CellContext`u1$9310$$ = 0, $CellContext`u2$9311$$ = 0}, 
+    Typeset`size$$ = Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = False, $CellContext`type$11911$$ = 
+    False, $CellContext`plot$11912$$ = False, $CellContext`vs$11913$$ = 
+    False, $CellContext`pd$11914$$ = 0, $CellContext`\[Mu]H$11915$$ = 
+    0, $CellContext`\[Sigma]H$11916$$ = 0, $CellContext`\[Mu]D$11917$$ = 
+    0, $CellContext`\[Sigma]D$11918$$ = 0, $CellContext`u1$11919$$ = 
+    0, $CellContext`u2$11920$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
         0, $CellContext`type$$ = 2, $CellContext`u1$$ = 
         0.15, $CellContext`u2$$ = 0.45, $CellContext`vs$$ = 
-        0, $CellContext`\[Mu]D$$ = 0., $CellContext`\[Mu]H$$ = 
-        0, $CellContext`\[Sigma]D$$ = 
-        3.6700000000000017`, $CellContext`\[Sigma]H$$ = 1}, 
+        0, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
+        0, $CellContext`\[Sigma]D$$ = 1., $CellContext`\[Sigma]H$$ = 1}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$9302$$, False], 
-        Hold[$CellContext`plot$$, $CellContext`plot$9303$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$9304$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$9305$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$9306$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$9307$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$9308$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$9309$$, 0], 
-        Hold[$CellContext`u1$$, $CellContext`u1$9310$$, 0], 
-        Hold[$CellContext`u2$$, $CellContext`u2$9311$$, 0]}, 
+        Hold[$CellContext`type$$, $CellContext`type$11911$$, False], 
+        Hold[$CellContext`plot$$, $CellContext`plot$11912$$, False], 
+        Hold[$CellContext`vs$$, $CellContext`vs$11913$$, False], 
+        Hold[$CellContext`pd$$, $CellContext`pd$11914$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$11915$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$11916$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$11917$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$11918$$, 0], 
+        Hold[$CellContext`u1$$, $CellContext`u1$11919$$, 0], 
+        Hold[$CellContext`u2$$, $CellContext`u2$11920$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -5001,7 +4957,7 @@ of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+"}, 
            PlotLabel -> 
            Row[{"\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+ \
-result"}], PlotStyle -> {
+curve"}], PlotStyle -> {
              ColorData["HTML", "SlateBlue"], 
              RGBColor[1, 0.47, 0]}, Filling -> Axis, 
            ImageSize -> {350, 375}], $CellContext`plot$$ == 4, 
@@ -5117,6 +5073,7 @@ of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
                $CellContext`hplr[$CellContext`x, $CellContext`\[Mu]D$$, \
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
 $CellContext`u], $CellContext`u], {$CellContext`u -> $CellContext`u1$$}], 
+             
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+ curve \
 of 1st test"], 
             Tooltip[
@@ -5424,11 +5381,10 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
          "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
-        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 0., "mean"}, 0,
-          6, 0.01, ImageSize -> Tiny, Appearance -> 
-         "Labeled"}, {{$CellContext`\[Sigma]D$$, 3.6700000000000017`, 
-          "standard deviation"}, 0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> 
-         "Labeled"}, 
+        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 
+         0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]D$$, 1., "standard deviation"}, 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
         "uncertainty of measurement", 
          Bold], {{$CellContext`u1$$, 0.15, "first test"}, 0, 6, 0.01, 
@@ -5439,7 +5395,6 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
        AutorunSequencing -> {1, 2, 6}, TrackedSymbols -> True, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{636., {251., 257.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -5462,7 +5417,19 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
 $CellContext`pd + (
           1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]) (1 - $CellContext`pd)), $CellContext`spec[
+$CellContext`u]) (1 - $CellContext`pd)), 
+       TagSet[$CellContext`dppv, 
+        MessageName[$CellContext`dppv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`x, 
+        MessageName[$CellContext`x, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`u, 
+        MessageName[$CellContext`u, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`spec[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -5480,7 +5447,11 @@ $CellContext`u]) (1 - $CellContext`pd)), $CellContext`spec[
          InverseCDF[
           NormalDistribution[$CellContext`\[Mu]D, 
            Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
-          1 - $CellContext`x]], $CellContext`dnpv[
+          1 - $CellContext`x]], 
+       TagSet[$CellContext`spec, 
+        MessageName[$CellContext`spec, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -5501,7 +5472,11 @@ $CellContext`\[Sigma]H, $CellContext`u] (
           1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
-          1 - $CellContext`x) $CellContext`pd), $CellContext`dor[
+          1 - $CellContext`x) $CellContext`pd), 
+       TagSet[$CellContext`dnpv, 
+        MessageName[$CellContext`dnpv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -5519,7 +5494,11 @@ $CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
 $CellContext`u])/$CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])), $CellContext`dplr[
+$CellContext`u])), 
+       TagSet[$CellContext`dor, 
+        MessageName[$CellContext`dor, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -5534,7 +5513,11 @@ $CellContext`u])), $CellContext`dplr[
           Blank[]]] := $CellContext`x/(
         1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]), $CellContext`dnlr[
+$CellContext`u]), 
+       TagSet[$CellContext`dplr, 
+        MessageName[$CellContext`dplr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -5549,7 +5532,11 @@ $CellContext`u]), $CellContext`dnlr[
           Blank[]]] := (
          1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
 \[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u], $CellContext`hppv[
+$CellContext`u], 
+       TagSet[$CellContext`dnlr, 
+        MessageName[$CellContext`dnlr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hppv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -5569,8 +5556,11 @@ $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H, $CellContext`u] \
 $CellContext`pd)/($CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
-          1 - $CellContext`x)), $CellContext`sens[
+$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (1 - $CellContext`x)), 
+       TagSet[$CellContext`hppv, 
+        MessageName[$CellContext`hppv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`sens[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -5589,7 +5579,11 @@ $CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
           NormalDistribution[$CellContext`\[Mu]H, 
            
            Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], \
-$CellContext`x]], $CellContext`hnpv[
+$CellContext`x]], 
+       TagSet[$CellContext`sens, 
+        MessageName[$CellContext`sens, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -5608,7 +5602,11 @@ $CellContext`x]], $CellContext`hnpv[
           1 - $CellContext`pd) + $CellContext`pd (
           1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])), $CellContext`hor[
+$CellContext`u])), 
+       TagSet[$CellContext`hnpv, 
+        MessageName[$CellContext`hnpv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -5626,7 +5624,11 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
 $CellContext`u]/((
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
+$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), 
+       TagSet[$CellContext`hor, 
+        MessageName[$CellContext`hor, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -5641,7 +5643,11 @@ $CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
           
           Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
+$CellContext`u]/(1 - $CellContext`x), 
+       TagSet[$CellContext`hplr, 
+        MessageName[$CellContext`hplr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -5656,7 +5662,12 @@ $CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
           Blank[]]] := (
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
+$CellContext`u])/$CellContext`x, 
+       TagSet[$CellContext`hnlr, 
+        MessageName[$CellContext`hnlr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."]}; 
+     Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -5664,7 +5675,7 @@ $CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->164725845,ExpressionUUID->"364acc94-8f0c-45aa-8d13-26cf4803c665"],
+ CellID->543011859,ExpressionUUID->"312c290c-0b17-46b5-a190-f07c75755974"],
 
 Cell[BoxData[
  TagBox[
@@ -5697,40 +5708,39 @@ Cell[BoxData[
       Hold[
        Style["diseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`\[Mu]D$$], 0., "mean"}, 0, 6, 0.01}, {{
-       Hold[$CellContext`\[Sigma]D$$], 3.6700000000000017`, 
-       "standard deviation"}, 0.01, 6, 0.01}, {
+       Hold[$CellContext`\[Mu]D$$], 3.67, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]D$$], 1., "standard deviation"}, 0.01, 6, 
+      0.01}, {
       Hold[
        Style["uncertainty of measurement", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`u1$$], 0.15, "first test"}, 0, 6, 0.01}, {{
        Hold[$CellContext`u2$$], 0.45, "second test"}, 0, 6, 0.01}}, 
-    Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`type$9414$$ = False, $CellContext`plot$9415$$ = 
-    False, $CellContext`vs$9416$$ = False, $CellContext`pd$9417$$ = 
-    0, $CellContext`\[Mu]H$9418$$ = 0, $CellContext`\[Sigma]H$9419$$ = 
-    0, $CellContext`\[Mu]D$9420$$ = 0, $CellContext`\[Sigma]D$9421$$ = 
-    0, $CellContext`u1$9422$$ = 0, $CellContext`u2$9423$$ = 0}, 
+    Typeset`size$$ = Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = False, $CellContext`type$12023$$ = 
+    False, $CellContext`plot$12024$$ = False, $CellContext`vs$12025$$ = 
+    False, $CellContext`pd$12026$$ = 0, $CellContext`\[Mu]H$12027$$ = 
+    0, $CellContext`\[Sigma]H$12028$$ = 0, $CellContext`\[Mu]D$12029$$ = 
+    0, $CellContext`\[Sigma]D$12030$$ = 0, $CellContext`u1$12031$$ = 
+    0, $CellContext`u2$12032$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
         2, $CellContext`type$$ = 3, $CellContext`u1$$ = 
         0.15, $CellContext`u2$$ = 0.45, $CellContext`vs$$ = 
-        1, $CellContext`\[Mu]D$$ = 0., $CellContext`\[Mu]H$$ = 
-        0, $CellContext`\[Sigma]D$$ = 
-        3.6700000000000017`, $CellContext`\[Sigma]H$$ = 1}, 
+        1, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
+        0, $CellContext`\[Sigma]D$$ = 1., $CellContext`\[Sigma]H$$ = 1}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$9414$$, False], 
-        Hold[$CellContext`plot$$, $CellContext`plot$9415$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$9416$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$9417$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$9418$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$9419$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$9420$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$9421$$, 0], 
-        Hold[$CellContext`u1$$, $CellContext`u1$9422$$, 0], 
-        Hold[$CellContext`u2$$, $CellContext`u2$9423$$, 0]}, 
+        Hold[$CellContext`type$$, $CellContext`type$12023$$, False], 
+        Hold[$CellContext`plot$$, $CellContext`plot$12024$$, False], 
+        Hold[$CellContext`vs$$, $CellContext`vs$12025$$, False], 
+        Hold[$CellContext`pd$$, $CellContext`pd$12026$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$12027$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$12028$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$12029$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$12030$$, 0], 
+        Hold[$CellContext`u1$$, $CellContext`u1$12031$$, 0], 
+        Hold[$CellContext`u2$$, $CellContext`u2$12032$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -5986,7 +5996,7 @@ of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+"}, 
            PlotLabel -> 
            Row[{"\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+ \
-result"}], PlotStyle -> {
+curve"}], PlotStyle -> {
              ColorData["HTML", "SlateBlue"], 
              RGBColor[1, 0.47, 0]}, Filling -> Axis, 
            ImageSize -> {350, 375}], $CellContext`plot$$ == 4, 
@@ -6102,6 +6112,7 @@ of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
                $CellContext`hplr[$CellContext`x, $CellContext`\[Mu]D$$, \
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
 $CellContext`u], $CellContext`u], {$CellContext`u -> $CellContext`u1$$}], 
+             
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+ curve \
 of 1st test"], 
             Tooltip[
@@ -6409,11 +6420,10 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
          "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
-        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 0., "mean"}, 0,
-          6, 0.01, ImageSize -> Tiny, Appearance -> 
-         "Labeled"}, {{$CellContext`\[Sigma]D$$, 3.6700000000000017`, 
-          "standard deviation"}, 0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> 
-         "Labeled"}, 
+        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 
+         0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]D$$, 1., "standard deviation"}, 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
         "uncertainty of measurement", 
          Bold], {{$CellContext`u1$$, 0.15, "first test"}, 0, 6, 0.01, 
@@ -6424,7 +6434,6 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
        AutorunSequencing -> {1, 2, 6}, TrackedSymbols -> True, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{636., {251., 257.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -6447,7 +6456,19 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
 $CellContext`pd + (
           1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]) (1 - $CellContext`pd)), $CellContext`spec[
+$CellContext`u]) (1 - $CellContext`pd)), 
+       TagSet[$CellContext`dppv, 
+        MessageName[$CellContext`dppv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`x, 
+        MessageName[$CellContext`x, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`u, 
+        MessageName[$CellContext`u, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`spec[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -6465,7 +6486,11 @@ $CellContext`u]) (1 - $CellContext`pd)), $CellContext`spec[
          InverseCDF[
           NormalDistribution[$CellContext`\[Mu]D, 
            Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
-          1 - $CellContext`x]], $CellContext`dnpv[
+          1 - $CellContext`x]], 
+       TagSet[$CellContext`spec, 
+        MessageName[$CellContext`spec, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -6486,7 +6511,11 @@ $CellContext`\[Sigma]H, $CellContext`u] (
           1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
-          1 - $CellContext`x) $CellContext`pd), $CellContext`dor[
+          1 - $CellContext`x) $CellContext`pd), 
+       TagSet[$CellContext`dnpv, 
+        MessageName[$CellContext`dnpv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -6504,7 +6533,11 @@ $CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
 $CellContext`u])/$CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])), $CellContext`dplr[
+$CellContext`u])), 
+       TagSet[$CellContext`dor, 
+        MessageName[$CellContext`dor, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -6519,7 +6552,11 @@ $CellContext`u])), $CellContext`dplr[
           Blank[]]] := $CellContext`x/(
         1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]), $CellContext`dnlr[
+$CellContext`u]), 
+       TagSet[$CellContext`dplr, 
+        MessageName[$CellContext`dplr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -6534,7 +6571,11 @@ $CellContext`u]), $CellContext`dnlr[
           Blank[]]] := (
          1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
 \[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u], $CellContext`hppv[
+$CellContext`u], 
+       TagSet[$CellContext`dnlr, 
+        MessageName[$CellContext`dnlr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hppv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -6554,8 +6595,11 @@ $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H, $CellContext`u] \
 $CellContext`pd)/($CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
-          1 - $CellContext`x)), $CellContext`sens[
+$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (1 - $CellContext`x)), 
+       TagSet[$CellContext`hppv, 
+        MessageName[$CellContext`hppv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`sens[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -6574,7 +6618,11 @@ $CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
           NormalDistribution[$CellContext`\[Mu]H, 
            
            Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], \
-$CellContext`x]], $CellContext`hnpv[
+$CellContext`x]], 
+       TagSet[$CellContext`sens, 
+        MessageName[$CellContext`sens, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -6593,7 +6641,11 @@ $CellContext`x]], $CellContext`hnpv[
           1 - $CellContext`pd) + $CellContext`pd (
           1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])), $CellContext`hor[
+$CellContext`u])), 
+       TagSet[$CellContext`hnpv, 
+        MessageName[$CellContext`hnpv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -6611,7 +6663,11 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
 $CellContext`u]/((
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
+$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), 
+       TagSet[$CellContext`hor, 
+        MessageName[$CellContext`hor, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -6626,7 +6682,11 @@ $CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
           
           Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
+$CellContext`u]/(1 - $CellContext`x), 
+       TagSet[$CellContext`hplr, 
+        MessageName[$CellContext`hplr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -6641,7 +6701,12 @@ $CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
           Blank[]]] := (
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
+$CellContext`u])/$CellContext`x, 
+       TagSet[$CellContext`hnlr, 
+        MessageName[$CellContext`hnlr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."]}; 
+     Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -6649,7 +6714,7 @@ $CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->54384771,ExpressionUUID->"d58b3f77-28ca-45fe-a384-ee5fa8f0b246"],
+ CellID->363903950,ExpressionUUID->"51091fc7-8333-4c40-91dc-d6a4739f3931"],
 
 Cell[BoxData[
  TagBox[
@@ -6682,39 +6747,39 @@ Cell[BoxData[
       Hold[
        Style["diseased population", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`\[Mu]D$$], 0., "mean"}, 0, 6, 0.01}, {{
-       Hold[$CellContext`\[Sigma]D$$], 3.67, "standard deviation"}, 0.01, 6, 
+       Hold[$CellContext`\[Mu]D$$], 3.67, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]D$$], 1., "standard deviation"}, 0.01, 6, 
       0.01}, {
       Hold[
        Style["uncertainty of measurement", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`u1$$], 0.15, "first test"}, 0, 6, 0.01}, {{
        Hold[$CellContext`u2$$], 0.45, "second test"}, 0, 6, 0.01}}, 
-    Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`type$9526$$ = False, $CellContext`plot$9527$$ = 
-    False, $CellContext`vs$9528$$ = False, $CellContext`pd$9529$$ = 
-    0, $CellContext`\[Mu]H$9530$$ = 0, $CellContext`\[Sigma]H$9531$$ = 
-    0, $CellContext`\[Mu]D$9532$$ = 0, $CellContext`\[Sigma]D$9533$$ = 
-    0, $CellContext`u1$9534$$ = 0, $CellContext`u2$9535$$ = 0}, 
+    Typeset`size$$ = Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = False, $CellContext`type$12135$$ = 
+    False, $CellContext`plot$12136$$ = False, $CellContext`vs$12137$$ = 
+    False, $CellContext`pd$12138$$ = 0, $CellContext`\[Mu]H$12139$$ = 
+    0, $CellContext`\[Sigma]H$12140$$ = 0, $CellContext`\[Mu]D$12141$$ = 
+    0, $CellContext`\[Sigma]D$12142$$ = 0, $CellContext`u1$12143$$ = 
+    0, $CellContext`u2$12144$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
         0, $CellContext`type$$ = 1, $CellContext`u1$$ = 
         0.15, $CellContext`u2$$ = 0.45, $CellContext`vs$$ = 
-        0, $CellContext`\[Mu]D$$ = 0., $CellContext`\[Mu]H$$ = 
-        0, $CellContext`\[Sigma]D$$ = 3.67, $CellContext`\[Sigma]H$$ = 1}, 
+        0, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
+        0, $CellContext`\[Sigma]D$$ = 1., $CellContext`\[Sigma]H$$ = 1}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$9526$$, False], 
-        Hold[$CellContext`plot$$, $CellContext`plot$9527$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$9528$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$9529$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$9530$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$9531$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$9532$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$9533$$, 0], 
-        Hold[$CellContext`u1$$, $CellContext`u1$9534$$, 0], 
-        Hold[$CellContext`u2$$, $CellContext`u2$9535$$, 0]}, 
+        Hold[$CellContext`type$$, $CellContext`type$12135$$, False], 
+        Hold[$CellContext`plot$$, $CellContext`plot$12136$$, False], 
+        Hold[$CellContext`vs$$, $CellContext`vs$12137$$, False], 
+        Hold[$CellContext`pd$$, $CellContext`pd$12138$$, 0], 
+        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$12139$$, 0], 
+        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$12140$$, 0], 
+        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$12141$$, 0], 
+        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$12142$$, 0], 
+        Hold[$CellContext`u1$$, $CellContext`u1$12143$$, 0], 
+        Hold[$CellContext`u2$$, $CellContext`u2$12144$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -6970,7 +7035,7 @@ of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+"}, 
            PlotLabel -> 
            Row[{"\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+ \
-result"}], PlotStyle -> {
+curve"}], PlotStyle -> {
              ColorData["HTML", "SlateBlue"], 
              RGBColor[1, 0.47, 0]}, Filling -> Axis, 
            ImageSize -> {350, 375}], $CellContext`plot$$ == 4, 
@@ -7086,6 +7151,7 @@ of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
                $CellContext`hplr[$CellContext`x, $CellContext`\[Mu]D$$, \
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
 $CellContext`u], $CellContext`u], {$CellContext`u -> $CellContext`u1$$}], 
+             
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+ curve \
 of 1st test"], 
             Tooltip[
@@ -7393,9 +7459,9 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
          "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
-        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 0., "mean"}, 0,
-          6, 0.01, ImageSize -> Tiny, Appearance -> 
-         "Labeled"}, {{$CellContext`\[Sigma]D$$, 3.67, "standard deviation"}, 
+        "diseased population", Bold], {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 
+         0, 6, 0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]D$$, 1., "standard deviation"}, 
          0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
         Style[
         "uncertainty of measurement", 
@@ -7407,7 +7473,6 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
        AutorunSequencing -> {1, 2, 6}, TrackedSymbols -> True, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{636., {251., 257.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -7430,7 +7495,19 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
 $CellContext`pd + (
           1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]) (1 - $CellContext`pd)), $CellContext`spec[
+$CellContext`u]) (1 - $CellContext`pd)), 
+       TagSet[$CellContext`dppv, 
+        MessageName[$CellContext`dppv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`x, 
+        MessageName[$CellContext`x, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], 
+       TagSet[$CellContext`u, 
+        MessageName[$CellContext`u, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`spec[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -7448,7 +7525,11 @@ $CellContext`u]) (1 - $CellContext`pd)), $CellContext`spec[
          InverseCDF[
           NormalDistribution[$CellContext`\[Mu]D, 
            Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`u^2]], 
-          1 - $CellContext`x]], $CellContext`dnpv[
+          1 - $CellContext`x]], 
+       TagSet[$CellContext`spec, 
+        MessageName[$CellContext`spec, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -7469,7 +7550,11 @@ $CellContext`\[Sigma]H, $CellContext`u] (
           1 - $CellContext`pd))/($CellContext`spec[$CellContext`x, \
 $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
-          1 - $CellContext`x) $CellContext`pd), $CellContext`dor[
+          1 - $CellContext`x) $CellContext`pd), 
+       TagSet[$CellContext`dnpv, 
+        MessageName[$CellContext`dnpv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -7487,7 +7572,11 @@ $CellContext`\[Sigma]H, $CellContext`u] (1 - $CellContext`pd) + (
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
 $CellContext`u])/$CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])), $CellContext`dplr[
+$CellContext`u])), 
+       TagSet[$CellContext`dor, 
+        MessageName[$CellContext`dor, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -7502,7 +7591,11 @@ $CellContext`u])), $CellContext`dplr[
           Blank[]]] := $CellContext`x/(
         1 - $CellContext`spec[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]), $CellContext`dnlr[
+$CellContext`u]), 
+       TagSet[$CellContext`dplr, 
+        MessageName[$CellContext`dplr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`dnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -7517,7 +7610,11 @@ $CellContext`u]), $CellContext`dnlr[
           Blank[]]] := (
          1 - $CellContext`x)/$CellContext`spec[$CellContext`x, $CellContext`\
 \[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u], $CellContext`hppv[
+$CellContext`u], 
+       TagSet[$CellContext`dnlr, 
+        MessageName[$CellContext`dnlr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hppv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -7537,8 +7634,11 @@ $CellContext`\[Mu]D, $CellContext`\[Mu]H, $CellContext`\[Sigma]D, \
 $CellContext`\[Sigma]H, $CellContext`u] \
 $CellContext`pd)/($CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
-          1 - $CellContext`x)), $CellContext`sens[
+$CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (1 - $CellContext`x)), 
+       TagSet[$CellContext`hppv, 
+        MessageName[$CellContext`hppv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`sens[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -7557,7 +7657,11 @@ $CellContext`u] $CellContext`pd + (1 - $CellContext`pd) (
           NormalDistribution[$CellContext`\[Mu]H, 
            
            Sqrt[$CellContext`\[Sigma]H^2 + $CellContext`u^2]], \
-$CellContext`x]], $CellContext`hnpv[
+$CellContext`x]], 
+       TagSet[$CellContext`sens, 
+        MessageName[$CellContext`sens, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hnpv[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -7576,7 +7680,11 @@ $CellContext`x]], $CellContext`hnpv[
           1 - $CellContext`pd) + $CellContext`pd (
           1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])), $CellContext`hor[
+$CellContext`u])), 
+       TagSet[$CellContext`hnpv, 
+        MessageName[$CellContext`hnpv, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hor[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -7594,7 +7702,11 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
 $CellContext`u]/((
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
+$CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), 
+       TagSet[$CellContext`hor, 
+        MessageName[$CellContext`hor, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hplr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -7609,7 +7721,11 @@ $CellContext`u]) ((1 - $CellContext`x)/$CellContext`x)), $CellContext`hplr[
           
           Blank[]]] := $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
+$CellContext`u]/(1 - $CellContext`x), 
+       TagSet[$CellContext`hplr, 
+        MessageName[$CellContext`hplr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`hnlr[
          Pattern[$CellContext`x, 
           Blank[]], 
          Pattern[$CellContext`\[Mu]D, 
@@ -7624,7 +7740,12 @@ $CellContext`u]/(1 - $CellContext`x), $CellContext`hnlr[
           Blank[]]] := (
          1 - $CellContext`sens[$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
-$CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
+$CellContext`u])/$CellContext`x, 
+       TagSet[$CellContext`hnlr, 
+        MessageName[$CellContext`hnlr, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."]}; 
+     Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -7632,7 +7753,7 @@ $CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->440074009,ExpressionUUID->"d8438d39-0175-4204-9e1a-9d7cb2a5a62a"]
+ CellID->315975736,ExpressionUUID->"88f86e0f-ea2a-4adf-9dc8-9f7c6f5cacf9"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -8029,41 +8150,41 @@ StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Demonstration.nb",
 (*CellTagsOutline
 CellTagsIndex->{
  "ResizeImages"->{
-  Cell[379880, 7748, 498, 11, 22, "ControlSuggestions",ExpressionUUID->"9d2877bb-f349-4016-9160-85df7282b8d6",
+  Cell[387186, 7869, 498, 11, 22, "ControlSuggestions",ExpressionUUID->"9d2877bb-f349-4016-9160-85df7282b8d6",
    CellTags->"ResizeImages"]},
  "RotateAndZoomIn3D"->{
-  Cell[380381, 7761, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"71379f17-d599-444e-a285-067d84a8b263",
+  Cell[387687, 7882, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"71379f17-d599-444e-a285-067d84a8b263",
    CellTags->"RotateAndZoomIn3D"]},
  "DragLocators"->{
-  Cell[381184, 7782, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"364837e5-56c0-4603-8e49-4c4e8d2e6112",
+  Cell[388490, 7903, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"364837e5-56c0-4603-8e49-4c4e8d2e6112",
    CellTags->"DragLocators"]},
  "CreateAndDeleteLocators"->{
-  Cell[381644, 7797, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"05952c11-938f-4966-a37f-694577ffa7b4",
+  Cell[388950, 7918, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"05952c11-938f-4966-a37f-694577ffa7b4",
    CellTags->"CreateAndDeleteLocators"]},
  "SliderZoom"->{
-  Cell[382408, 7818, 1028, 24, 22, "ControlSuggestions",ExpressionUUID->"1cfb33c9-d7a5-4b98-ad16-962eaca8b0a5",
+  Cell[389714, 7939, 1028, 24, 22, "ControlSuggestions",ExpressionUUID->"1cfb33c9-d7a5-4b98-ad16-962eaca8b0a5",
    CellTags->"SliderZoom"]},
  "GamepadControls"->{
-  Cell[383439, 7844, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"ecba449e-9b6b-4649-92a7-1c7c870d529a",
+  Cell[390745, 7965, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"ecba449e-9b6b-4649-92a7-1c7c870d529a",
    CellTags->"GamepadControls"]},
  "AutomaticAnimation"->{
-  Cell[383933, 7858, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"180dc38e-49b2-47da-87e3-5330ccd6071a",
+  Cell[391239, 7979, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"180dc38e-49b2-47da-87e3-5330ccd6071a",
    CellTags->"AutomaticAnimation"]},
  "BookmarkAnimation"->{
-  Cell[385522, 7894, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"448e348a-59eb-48ed-ac08-79a8e3ab0a7e",
+  Cell[392828, 8015, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"448e348a-59eb-48ed-ac08-79a8e3ab0a7e",
    CellTags->"BookmarkAnimation"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ResizeImages", 391371, 8030},
- {"RotateAndZoomIn3D", 391537, 8033},
- {"DragLocators", 391703, 8036},
- {"CreateAndDeleteLocators", 391875, 8039},
- {"SliderZoom", 392045, 8042},
- {"GamepadControls", 392208, 8045},
- {"AutomaticAnimation", 392378, 8048},
- {"BookmarkAnimation", 392551, 8051}
+ {"ResizeImages", 398677, 8151},
+ {"RotateAndZoomIn3D", 398843, 8154},
+ {"DragLocators", 399009, 8157},
+ {"CreateAndDeleteLocators", 399181, 8160},
+ {"SliderZoom", 399351, 8163},
+ {"GamepadControls", 399514, 8166},
+ {"AutomaticAnimation", 399684, 8169},
+ {"BookmarkAnimation", 399857, 8172}
  }
 *)
 (*NotebookFileOutline
@@ -8085,106 +8206,90 @@ Cell[12716, 274, 3321, 98, 308, "Input",ExpressionUUID->"08292171-70a3-496b-8b0a
 Cell[CellGroupData[{
 Cell[16074, 377, 84, 0, 231, "ManipulateSection",ExpressionUUID->"7371d764-fbb0-4f70-9977-3741a4a02a53"],
 Cell[CellGroupData[{
-Cell[16183, 381, 99889, 2139, 4630, "Input",ExpressionUUID->"762bbc7d-4288-4d2e-8377-37d7dbcc4bb4",
+Cell[16183, 381, 99940, 2140, 4818, "Input",ExpressionUUID->"762bbc7d-4288-4d2e-8377-37d7dbcc4bb4",
  CellID->4362360],
-Cell[116075, 2522, 716, 13, 21, "Message",ExpressionUUID->"f6f033b0-f82d-4984-9ff3-c5735e805a94",
- CellID->416984569],
-Cell[116794, 2537, 714, 13, 21, "Message",ExpressionUUID->"d28075f6-cde3-43f5-b471-c1400ab8d232",
- CellID->728615312],
-Cell[117511, 2552, 731, 13, 21, "Message",ExpressionUUID->"911855f5-93e6-4d47-b0cb-518741ddffc3",
- CellID->203147314],
-Cell[118245, 2567, 738, 13, 21, "Message",ExpressionUUID->"16cd8678-4c28-4a89-8d36-5713e1c7f017",
- CellID->517295892],
-Cell[118986, 2582, 716, 13, 21, "Message",ExpressionUUID->"9b441f32-b2a9-4a58-a15c-fc7bdbf973a8",
- CellID->223680821],
-Cell[119705, 2597, 715, 13, 21, "Message",ExpressionUUID->"909ee47d-fd29-41da-a97f-5638c2d8ed52",
- CellID->31294959],
-Cell[120423, 2612, 740, 13, 21, "Message",ExpressionUUID->"c73e797d-d279-4e7c-8af5-69648e9304b1",
- CellID->479707775],
-Cell[121166, 2627, 731, 13, 21, "Message",ExpressionUUID->"d6f94542-3e18-4cd8-8ee1-2cb7b365b1ff",
- CellID->145158291],
-Cell[121900, 2642, 51879, 1015, 520, "Output",ExpressionUUID->"e4cf8a85-d668-478a-be39-819e934ea5bc",
- CellID->385425219]
+Cell[116126, 2523, 53069, 1037, 520, "Output",ExpressionUUID->"7bb5b9b6-3999-496f-88f6-506ed1e6e43f",
+ CellID->426288600]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[173828, 3663, 91, 0, 169, "ManipulateCaptionSection",ExpressionUUID->"13a991df-fb30-4f6d-8ee0-189ba9c3619d"],
-Cell[173922, 3665, 1486, 21, 116, "SnapshotCaption",ExpressionUUID->"87c35a4a-5b83-40e2-97d3-f5f35b68fe27",
+Cell[169244, 3566, 91, 0, 169, "ManipulateCaptionSection",ExpressionUUID->"13a991df-fb30-4f6d-8ee0-189ba9c3619d"],
+Cell[169338, 3568, 1486, 21, 116, "SnapshotCaption",ExpressionUUID->"87c35a4a-5b83-40e2-97d3-f5f35b68fe27",
  CellID->28774143]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[175445, 3691, 83, 0, 172, "ThumbnailSection",ExpressionUUID->"7ee985da-31bb-43e5-9a32-ff547945e4ce"],
-Cell[175531, 3693, 50082, 983, 520, "Output",ExpressionUUID->"6749a8c3-2c7b-4954-9152-c2c1f94f6d33",
- CellID->57126025]
+Cell[170861, 3594, 83, 0, 172, "ThumbnailSection",ExpressionUUID->"7ee985da-31bb-43e5-9a32-ff547945e4ce"],
+Cell[170947, 3596, 53073, 1037, 520, "Output",ExpressionUUID->"547e9e60-6a42-40d8-be89-5f5c7dc4b344",
+ CellID->196318377]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[225650, 4681, 83, 0, 142, "SnapshotsSection",ExpressionUUID->"9c68b9a7-e670-4516-a960-013a9534866e"],
-Cell[225736, 4683, 50089, 983, 520, "Output",ExpressionUUID->"364acc94-8f0c-45aa-8d13-26cf4803c665",
- CellID->164725845],
-Cell[275828, 5668, 50088, 983, 520, "Output",ExpressionUUID->"d58b3f77-28ca-45fe-a384-ee5fa8f0b246",
- CellID->54384771],
-Cell[325919, 6653, 50023, 981, 520, "Output",ExpressionUUID->"d8438d39-0175-4204-9e1a-9d7cb2a5a62a",
- CellID->440074009]
+Cell[224057, 4638, 83, 0, 142, "SnapshotsSection",ExpressionUUID->"9c68b9a7-e670-4516-a960-013a9534866e"],
+Cell[224143, 4640, 53033, 1037, 38, "Output",ExpressionUUID->"312c290c-0b17-46b5-a190-f07c75755974",
+ CellID->543011859],
+Cell[277179, 5679, 53033, 1037, 38, "Output",ExpressionUUID->"51091fc7-8333-4c40-91dc-d6a4739f3931",
+ CellID->363903950],
+Cell[330215, 6718, 53033, 1037, 38, "Output",ExpressionUUID->"88f86e0f-ea2a-4adf-9dc8-9f7c6f5cacf9",
+ CellID->315975736]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[375979, 7639, 81, 0, 339, "DetailsSection",ExpressionUUID->"f50deb5c-a9dc-4e57-a71c-5ce260f4892b"],
-Cell[376063, 7641, 3685, 100, 177, "DetailNotes",ExpressionUUID->"08db6d9f-02bb-4791-b5f0-800e73e57efc",
+Cell[383285, 7760, 81, 0, 339, "DetailsSection",ExpressionUUID->"f50deb5c-a9dc-4e57-a71c-5ce260f4892b"],
+Cell[383369, 7762, 3685, 100, 177, "DetailNotes",ExpressionUUID->"08db6d9f-02bb-4791-b5f0-800e73e57efc",
  CellID->2279429]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[379785, 7746, 92, 0, 126, "ControlSuggestionsSection",ExpressionUUID->"bf1e9ab5-5853-418f-8cd9-fe53910f5931"],
-Cell[379880, 7748, 498, 11, 22, "ControlSuggestions",ExpressionUUID->"9d2877bb-f349-4016-9160-85df7282b8d6",
+Cell[387091, 7867, 92, 0, 126, "ControlSuggestionsSection",ExpressionUUID->"bf1e9ab5-5853-418f-8cd9-fe53910f5931"],
+Cell[387186, 7869, 498, 11, 22, "ControlSuggestions",ExpressionUUID->"9d2877bb-f349-4016-9160-85df7282b8d6",
  CellTags->"ResizeImages"],
-Cell[380381, 7761, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"71379f17-d599-444e-a285-067d84a8b263",
+Cell[387687, 7882, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"71379f17-d599-444e-a285-067d84a8b263",
  CellTags->"RotateAndZoomIn3D"],
-Cell[381184, 7782, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"364837e5-56c0-4603-8e49-4c4e8d2e6112",
+Cell[388490, 7903, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"364837e5-56c0-4603-8e49-4c4e8d2e6112",
  CellTags->"DragLocators"],
-Cell[381644, 7797, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"05952c11-938f-4966-a37f-694577ffa7b4",
+Cell[388950, 7918, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"05952c11-938f-4966-a37f-694577ffa7b4",
  CellTags->"CreateAndDeleteLocators"],
-Cell[382408, 7818, 1028, 24, 22, "ControlSuggestions",ExpressionUUID->"1cfb33c9-d7a5-4b98-ad16-962eaca8b0a5",
+Cell[389714, 7939, 1028, 24, 22, "ControlSuggestions",ExpressionUUID->"1cfb33c9-d7a5-4b98-ad16-962eaca8b0a5",
  CellTags->"SliderZoom"],
-Cell[383439, 7844, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"ecba449e-9b6b-4649-92a7-1c7c870d529a",
+Cell[390745, 7965, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"ecba449e-9b6b-4649-92a7-1c7c870d529a",
  CellTags->"GamepadControls"],
-Cell[383933, 7858, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"180dc38e-49b2-47da-87e3-5330ccd6071a",
+Cell[391239, 7979, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"180dc38e-49b2-47da-87e3-5330ccd6071a",
  CellTags->"AutomaticAnimation"],
-Cell[385522, 7894, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"448e348a-59eb-48ed-ac08-79a8e3ab0a7e",
+Cell[392828, 8015, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"448e348a-59eb-48ed-ac08-79a8e3ab0a7e",
  CellTags->"BookmarkAnimation"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[386589, 7923, 85, 0, 158, "SearchTermsSection",ExpressionUUID->"7dd6f3d1-a7d3-482d-9bb2-51803c9daac9"],
-Cell[386677, 7925, 265, 3, 22, "SearchTerms",ExpressionUUID->"3f264cad-a967-46d3-a058-801e20af7b76",
+Cell[393895, 8044, 85, 0, 158, "SearchTermsSection",ExpressionUUID->"7dd6f3d1-a7d3-482d-9bb2-51803c9daac9"],
+Cell[393983, 8046, 265, 3, 22, "SearchTerms",ExpressionUUID->"3f264cad-a967-46d3-a058-801e20af7b76",
  CellID->957468028],
-Cell[386945, 7930, 250, 3, 22, "SearchTerms",ExpressionUUID->"ff1bd6b9-8bf0-4a3f-9bd4-e7f64cedcb70",
+Cell[394251, 8051, 250, 3, 22, "SearchTerms",ExpressionUUID->"ff1bd6b9-8bf0-4a3f-9bd4-e7f64cedcb70",
  CellID->569163635],
-Cell[387198, 7935, 250, 3, 22, "SearchTerms",ExpressionUUID->"5503c2fd-9906-45e8-8007-f1bf5a0fd9c9",
+Cell[394504, 8056, 250, 3, 22, "SearchTerms",ExpressionUUID->"5503c2fd-9906-45e8-8007-f1bf5a0fd9c9",
  CellID->400091656],
-Cell[387451, 7940, 256, 3, 22, "SearchTerms",ExpressionUUID->"1c4d66de-4067-4a9f-a4ea-581f0adbacb3",
+Cell[394757, 8061, 256, 3, 22, "SearchTerms",ExpressionUUID->"1c4d66de-4067-4a9f-a4ea-581f0adbacb3",
  CellID->571680962],
-Cell[387710, 7945, 257, 3, 22, "SearchTerms",ExpressionUUID->"bb4c4738-189b-4eb9-8fea-73f75985a441",
+Cell[395016, 8066, 257, 3, 22, "SearchTerms",ExpressionUUID->"bb4c4738-189b-4eb9-8fea-73f75985a441",
  CellID->1626203133],
-Cell[387970, 7950, 257, 3, 22, "SearchTerms",ExpressionUUID->"a6aacee2-5d14-433c-9857-159d42573aaf",
+Cell[395276, 8071, 257, 3, 22, "SearchTerms",ExpressionUUID->"a6aacee2-5d14-433c-9857-159d42573aaf",
  CellID->843271898],
-Cell[388230, 7955, 260, 3, 22, "SearchTerms",ExpressionUUID->"c8015d1c-1f10-4307-8357-2dbf5ccb887a",
+Cell[395536, 8076, 260, 3, 22, "SearchTerms",ExpressionUUID->"c8015d1c-1f10-4307-8357-2dbf5ccb887a",
  CellID->296995018],
-Cell[388493, 7960, 259, 3, 22, "SearchTerms",ExpressionUUID->"af212187-19b1-408c-9500-5b3bf2bbc7ee",
+Cell[395799, 8081, 259, 3, 22, "SearchTerms",ExpressionUUID->"af212187-19b1-408c-9500-5b3bf2bbc7ee",
  CellID->1104872261],
-Cell[388755, 7965, 260, 3, 22, "SearchTerms",ExpressionUUID->"7a2eaca7-78a4-4a60-bd3a-de0285a2a085",
+Cell[396061, 8086, 260, 3, 22, "SearchTerms",ExpressionUUID->"7a2eaca7-78a4-4a60-bd3a-de0285a2a085",
  CellID->175881619],
-Cell[389018, 7970, 265, 3, 22, "SearchTerms",ExpressionUUID->"7e0cb025-3372-490c-a9a1-313463505c5d",
+Cell[396324, 8091, 265, 3, 22, "SearchTerms",ExpressionUUID->"7e0cb025-3372-490c-a9a1-313463505c5d",
  CellID->1287452913],
-Cell[389286, 7975, 264, 3, 22, "SearchTerms",ExpressionUUID->"8aea3149-6613-418b-a230-53a81df6014f",
+Cell[396592, 8096, 264, 3, 22, "SearchTerms",ExpressionUUID->"8aea3149-6613-418b-a230-53a81df6014f",
  CellID->851812545],
-Cell[389553, 7980, 255, 3, 22, "SearchTerms",ExpressionUUID->"1d942243-7fd7-4771-8450-c0ed6e47d391",
+Cell[396859, 8101, 255, 3, 22, "SearchTerms",ExpressionUUID->"1d942243-7fd7-4771-8450-c0ed6e47d391",
  CellID->194649218],
-Cell[389811, 7985, 226, 3, 22, "SearchTerms",ExpressionUUID->"c7c5e208-b232-4a94-ae5e-f7114082d49c",
+Cell[397117, 8106, 226, 3, 22, "SearchTerms",ExpressionUUID->"c7c5e208-b232-4a94-ae5e-f7114082d49c",
  CellID->1257427335]
 }, Open  ]],
-Cell[390052, 7991, 86, 0, 143, "RelatedLinksSection",ExpressionUUID->"6cff92d8-e71d-4679-b34c-72b199722830"],
+Cell[397358, 8112, 86, 0, 143, "RelatedLinksSection",ExpressionUUID->"6cff92d8-e71d-4679-b34c-72b199722830"],
 Cell[CellGroupData[{
-Cell[390163, 7995, 80, 0, 129, "AuthorSection",ExpressionUUID->"364d83ea-c103-4fc9-879e-7867523d5cf6"],
-Cell[390246, 7997, 527, 14, 22, "Author",ExpressionUUID->"2df55470-884e-48fe-9e16-6012b9a2261c",
+Cell[397469, 8116, 80, 0, 129, "AuthorSection",ExpressionUUID->"364d83ea-c103-4fc9-879e-7867523d5cf6"],
+Cell[397552, 8118, 527, 14, 22, "Author",ExpressionUUID->"2df55470-884e-48fe-9e16-6012b9a2261c",
  CellID->771419087],
-Cell[390776, 8013, 197, 2, 22, "Author",ExpressionUUID->"89bd9192-1001-4a0f-bc24-7f9e2ee26492",
+Cell[398082, 8134, 197, 2, 22, "Author",ExpressionUUID->"89bd9192-1001-4a0f-bc24-7f9e2ee26492",
  CellID->1041049707]
 }, Open  ]]
 }, Open  ]]

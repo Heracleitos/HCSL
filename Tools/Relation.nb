@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    651064,      15071]
-NotebookOptionsPosition[    649693,      15038]
-NotebookOutlinePosition[    650095,      15054]
-CellTagsIndexPosition[    650052,      15051]
+NotebookDataLength[    651383,      15075]
+NotebookOptionsPosition[    650029,      15044]
+NotebookOutlinePosition[    650431,      15060]
+CellTagsIndexPosition[    650388,      15057]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -4120,8 +4120,7 @@ Cell[BoxData[{
    3.786334174448306*^9}, {3.786334228668041*^9, 3.7863342502819824`*^9}, 
    3.7863343499319515`*^9, 3.7864932094005303`*^9, {3.7864935021364145`*^9, 
    3.786493516548094*^9}},
- CellLabel->
-  "In[150]:=",ExpressionUUID->"47190465-b063-4f9a-8c53-10879fe2a4e2"],
+ CellLabel->"In[75]:=",ExpressionUUID->"47190465-b063-4f9a-8c53-10879fe2a4e2"],
 
 Cell[CellGroupData[{
 
@@ -6391,7 +6390,7 @@ Cell[BoxData[
    3.799851807908222*^9, 3.7998518260781546`*^9}, 3.7998525047677884`*^9, 
    3.7998526951870227`*^9},
  CellLabel->
-  "In[224]:=",ExpressionUUID->"101cd957-340d-431e-91ec-e5cb76a39831"],
+  "In[149]:=",ExpressionUUID->"101cd957-340d-431e-91ec-e5cb76a39831"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"ROC curves\"\>"->
@@ -15004,19 +15003,17 @@ $CellContext`tnlr[
  CellChangeTimes->{3.7998042740958166`*^9, 3.799841424202299*^9, 
   3.799850793068594*^9, 3.7998523956831303`*^9, 3.7998526971559634`*^9, 
   3.799852734480923*^9, 3.8022998642690167`*^9, 3.8043388349863997`*^9, 
-  3.8066378642194424`*^9, 3.8066381681292014`*^9},
+  3.8066378642194424`*^9, 3.8066381681292014`*^9, 3.80666674349555*^9},
  CellLabel->
-  "Out[224]=",ExpressionUUID->"0eaec8aa-1e78-4d8f-8a68-451c9ceaab87"]
+  "Out[149]=",ExpressionUUID->"d3ae8ad4-3d08-4f7f-ace9-4b5ef8fa500a"]
 }, Open  ]],
-
-Cell[CellGroupData[{
 
 Cell[TextData[{
  StyleBox["Abbreviations\n",
-  FontSize->12],
+  FontSize->10],
  StyleBox["ROC: Receiver Operating Characteristic \nDAM: Diagnostic Accuracy \
 Measure", "SubsubitemParagraph",
-  FontSize->12]
+  FontSize->10]
 }], "Subsubsubsubsection",
  Editable->False,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
@@ -15025,15 +15022,24 @@ Measure", "SubsubitemParagraph",
   3.8066348105295067`*^9}},ExpressionUUID->"fbda40a9-40bf-4947-92cc-\
 ff8cde674aa6"],
 
-Cell[TextData[StyleBox["This software is distributed under  an Attribution - \
+Cell[TextData[{
+ StyleBox["About",
+  FontSize->10],
+ StyleBox["\n",
+  FontSize->12],
+ StyleBox["Relation \nVersion Number 1.0.0 \nHellenicComplex Systems \
+Laboratory 2020\nThis software is distributed under  an Attribution - \
 NonCommercial - ShareAlike 4.0 International Creative Commons License.",
- FontSize->10]], "Text",
+  FontSize->10,
+  FontColor->RGBColor[0., 0., 0.]]
+}], "Subsubsubsubsection",
  Editable->False,
- CellChangeTimes->{{3.779940759467285*^9, 3.779940828530776*^9}, {
-  3.7799408844586754`*^9, 
-  3.779940885138858*^9}},ExpressionUUID->"ae9285ab-4f82-4abb-8be8-\
-6bf7688b500e"]
-}, Open  ]]
+ CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
+  3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
+  3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+  3.8066664862909436`*^9, 
+  3.806666502895442*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
+f5d0251a90b2"]
 }, Open  ]]
 },
 WindowSize->{1428., 738.75},
@@ -15053,25 +15059,23 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 155836, 4103, 19, "Input",ExpressionUUID->"47190465-b063-4f9a-8c53-10879fe2a4e2",
+Cell[558, 20, 155832, 4102, 19, "Input",ExpressionUUID->"47190465-b063-4f9a-8c53-10879fe2a4e2",
  CellOpen->False,
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[156419, 4127, 582, 11, 86, "Title",ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-6b83082cf940",
+Cell[156415, 4126, 582, 11, 86, "Title",ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-6b83082cf940",
  Evaluatable->False],
-Cell[157004, 4140, 686, 12, 71, "Title",ExpressionUUID->"771d281b-3709-4a85-8858-f4a7c81c5ee6",
+Cell[157000, 4139, 686, 12, 71, "Title",ExpressionUUID->"771d281b-3709-4a85-8858-f4a7c81c5ee6",
  Evaluatable->False],
-Cell[157693, 4154, 442, 11, 129, "Author",ExpressionUUID->"48efdfee-c390-4c7d-aeb4-cdbc08fe34f9"],
-Cell[158138, 4167, 349, 7, 31, "Affiliation",ExpressionUUID->"a7902d72-4370-4f53-90c8-0f08bcc41750"],
+Cell[157689, 4153, 442, 11, 129, "Author",ExpressionUUID->"48efdfee-c390-4c7d-aeb4-cdbc08fe34f9"],
+Cell[158134, 4166, 349, 7, 31, "Affiliation",ExpressionUUID->"a7902d72-4370-4f53-90c8-0f08bcc41750"],
 Cell[CellGroupData[{
-Cell[158512, 4178, 107375, 2215, 19, "Input",ExpressionUUID->"101cd957-340d-431e-91ec-e5cb76a39831",
+Cell[158508, 4177, 107375, 2215, 19, "Input",ExpressionUUID->"101cd957-340d-431e-91ec-e5cb76a39831",
  CellOpen->False],
-Cell[265890, 6395, 382853, 8613, 655, "Output",ExpressionUUID->"0eaec8aa-1e78-4d8f-8a68-451c9ceaab87"]
+Cell[265886, 6394, 382874, 8613, 655, "Output",ExpressionUUID->"d3ae8ad4-3d08-4f7f-ace9-4b5ef8fa500a"]
 }, Open  ]],
-Cell[CellGroupData[{
-Cell[648780, 15013, 511, 12, 62, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
-Cell[649294, 15027, 371, 7, 29, "Text",ExpressionUUID->"ae9285ab-4f82-4abb-8be8-6bf7688b500e"]
-}, Open  ]]
+Cell[648775, 15010, 511, 12, 56, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
+Cell[649289, 15024, 724, 17, 80, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
 }, Open  ]]
 }
 ]

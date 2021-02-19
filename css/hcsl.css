@@ -137,6 +137,15 @@ h5 {
 	font-style: normal;
 	text-decoration: none;
 }
+h6 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	color: #000080;
+	background-color: #FFFFFF;
+	font-style: normal;
+	text-decoration: none;
+}
 a {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: small;

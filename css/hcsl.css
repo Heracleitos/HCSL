@@ -1,82 +1,82 @@
 ﻿.c1 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: small;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
 	color: #000000;
 	background-color: #FFFFFF;
 }
 .c2 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: small;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
 	color: #A80000;
 	background-color: #FFFFFF;
 }
 .c3 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: small;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
 	color: #000080;
 	background-color: #FFFFFF;
 }
 .c4 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: small;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
 	font-weight: bold;
 	color: #000080;
 	background-color: #FFFFFF;
 }
 .c5 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: medium;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: large;
 	font-weight: normal;
 	color: #000080;
 	background-color: #FFFFFF;
 }
 .c6 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: large;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: x-large;
 	font-weight: normal;
 	color: #000080;
 	background-color: #F7F7F7;
 }
 .c7 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: small;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
 	color: #000000;
 	font-style: italic;
 	background-color: #FFFFFF;
 }
 .c8 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: xx-small;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: x-small;
 	color: #000000;
 	font-style: italic;
 	background-color: #FFFFFF;
 	vertical-align: sub;
 }
 .c9 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: medium;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: large;
 	font-weight: normal;
 	color: #A80000;
 	background-color: #FFFFFF;
 }
 .c10 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: xx-small;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: x-small;
 	color: #000000;
 	background-color: #FFFFFF;
 	vertical-align: super;
 }
 .c11 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: small;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
 	color: #000000;
 	font-style: italic;
 	font-weight: bold;
 	background-color: #FFFFFF;
 }
 .c12 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: xx-small;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: x-small;
 	color: #000000;
 	font-style: italic;
 	font-weight: bold;
@@ -84,15 +84,15 @@
 	vertical-align: sub;
 }
 .c13 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: small;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
 	color: #000000;
 	font-style: italic;
 	background-color: #FFFFFF;
 }
 h1 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: large;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: x-large;
 	font-weight: normal;
 	color: #A80000;
 	background-color: #FFFFFF;
@@ -101,8 +101,8 @@ h1 {
 	text-transform: none;
 }
 h2 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: medium;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: large;
 	font-weight: normal;
 	color: #A80000;
 	background-color: #FFFFFF;
@@ -111,8 +111,8 @@ h2 {
 	text-transform: none;
 }
 h3 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: small;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
 	font-weight: bold;
 	color: #494949;
 	background-color: #FFFFFF;
@@ -120,8 +120,8 @@ h3 {
 	text-decoration: none;
 }
 h4 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: small;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
 	font-weight: normal;
 	color: #A80000;
 	background-color: #FFFFFF;
@@ -129,8 +129,8 @@ h4 {
 	text-decoration: none;
 }
 h5 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: normal;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
 	font-weight: normal;
 	color: #494949;
 	background-color: #FFFFFF;
@@ -138,8 +138,8 @@ h5 {
 	text-decoration: none;
 }
 h6 {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: medium;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: large;
 	font-weight: normal;
 	color: #000080;
 	background-color: #FFFFFF;
@@ -147,8 +147,8 @@ h6 {
 	text-decoration: none;
 }
 a {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: small;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
 }
 
 a:link {
@@ -195,7 +195,7 @@ a.nav:hover {
 	padding: 2px;
 }
 a.menu:hover {
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
 	font-weight: bold;
 	text-decoration: underline;
 	letter-spacing: 1px;
@@ -206,5 +206,5 @@ a.box:hover {
 	text-decoration: none;
 	background-color:#FFFFFF;
 	border: medium solid #3366FF;
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
 }

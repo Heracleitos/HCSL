@@ -208,3 +208,7 @@ a.box:hover {
 	border: medium solid #3366FF;
 	font-family: 'Source Sans Pro', Verdana, sans-serif;
 }
+img 
+{ 	max-width: 100%; 
+	height: auto; 
+}

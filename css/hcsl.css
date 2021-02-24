@@ -246,7 +246,7 @@ img
   display: block;
   color: #000080;
   background-color: #F7F7F7;
-  padding: 8px;
+  padding: 4px;
   text-align: center;
   text-decoration: none;
 }
@@ -273,7 +273,7 @@ div.content {
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content_f {
   margin-left: 200px;
-  padding: 60px 8px;
+  padding: 120px 8px;
   height: auto;
 }
 

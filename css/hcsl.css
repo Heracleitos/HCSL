@@ -289,7 +289,8 @@ div.content_f {
     float: none;
   }
   div.content {margin-left: 0;}
-  div.content_f {margin-left: 0;}
+  div.content_f {margin-left: 0;
+  padding: 8px 8px;}
 }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */

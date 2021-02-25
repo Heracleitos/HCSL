@@ -277,8 +277,8 @@ div.content_f {
   height: auto;
 }
 
-/* On screens that are less than 500px wide, make the sidebar into a topbar */
-@media screen and (max-width: 500px) {
+/* On screens that are less than 600px wide, make the sidebar into a topbar */
+@media screen and (max-width: 600px) {
   .sidebar {
     width: 100%;
     height: auto;
@@ -287,11 +287,12 @@ div.content_f {
   .sidebar a {
     text-align: center;
     float: none;
-	padding: 4px;
+	padding: 2px;
   }
-  div.content {margin-left: 0;}
+  div.content {margin-left: 0;
+  padding: 2px 2px;}}
   div.content_f {margin-left: 0;
-  padding: 4px 4px;}
+  padding: 2px 2px;}
 }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */

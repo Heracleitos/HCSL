@@ -265,7 +265,7 @@ img
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #E0FFFF;
+  background-color: #EEFFFF;
   color: #0000CC;
 }
 
@@ -283,7 +283,7 @@ div.content_f {
   height: auto;
 }
 
-/* On screens that are less than 600px wide, make the sidebar into a topbar */
+/* On screens that are less than 600px wide */
 @media screen and (max-width: 600px) {
   .sidebar {
     width: 100%;
@@ -303,4 +303,3 @@ div.content_f {
   padding: 3px 3px;}
 }
 
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */

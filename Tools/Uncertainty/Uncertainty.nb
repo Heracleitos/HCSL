@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1270191,      28344]
-NotebookOptionsPosition[   1268796,      28311]
-NotebookOutlinePosition[   1269222,      28328]
-CellTagsIndexPosition[   1269179,      28325]
+NotebookDataLength[   1270388,      28342]
+NotebookOptionsPosition[   1268993,      28309]
+NotebookOutlinePosition[   1269419,      28326]
+CellTagsIndexPosition[   1269376,      28323]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -5891,7 +5891,7 @@ Cell[BoxData[{
       RowBox[{"(", 
        RowBox[{
         RowBox[{"\[Sqrt]", "2"}], " ", "sH"}], ")"}]}], "]"}]}]}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{"cmccz", "[", 
    RowBox[{
@@ -8037,7 +8037,7 @@ Cell[BoxData[{
           RowBox[{"0", ",", "0"}], "}"}]}], ",", " ", 
         RowBox[{"AxesLabel", "\[Rule]", 
          RowBox[{"{", 
-          RowBox[{"\"\<u\>\"", ",", 
+          RowBox[{"\"\<\!\(\*SubscriptBox[\(u\), \(m\)]\)\>\"", ",", 
            RowBox[{"\"\<u(\>\"", "<>", 
             RowBox[{"txt", "[", "mf", "]"}], "<>", "\"\<)/\>\"", "<>", 
             RowBox[{"txt", "[", "mf", "]"}]}]}], "}"}]}], ",", 
@@ -10323,8 +10323,9 @@ uncertainties\>\"", ",", "Bold"}], "]"}], ",",
    3.802133299655473*^9, 3.8021333375243034`*^9, 3.802133406345046*^9, 
    3.802133442182989*^9, 3.802133523268051*^9, 3.802133573158058*^9, 
    3.802133668130677*^9, {3.802133701571233*^9, 3.8021337239358544`*^9}, {
-   3.8021337597012935`*^9, 3.802133785697006*^9}},
- CellLabel->"In[65]:=",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca"],
+   3.8021337597012935`*^9, 3.802133785697006*^9}, 3.8233253862075396`*^9},
+ CellLabel->
+  "In[264]:=",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca"],
 
 Cell[CellGroupData[{
 
@@ -10417,7 +10418,7 @@ Cell[BoxData[
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
                   RowBox[{
-                  "\"\<nondiseased population sample\>\"", ",", "Bold"}], 
+                  "\"\<non-diseased population sample\>\"", ",", "Bold"}], 
                   "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
@@ -10567,7 +10568,7 @@ Cell[BoxData[
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
                   RowBox[{
-                  "\"\<nondiseased population sample\>\"", ",", "Bold"}], 
+                  "\"\<non-diseased population sample\>\"", ",", "Bold"}], 
                   "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
@@ -10744,7 +10745,7 @@ Cell[BoxData[
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
                   RowBox[{
-                  "\"\<nondiseased population sample\>\"", ",", "Bold"}], 
+                  "\"\<non-diseased population sample\>\"", ",", "Bold"}], 
                   "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
@@ -10927,7 +10928,7 @@ Cell[BoxData[
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
                   RowBox[{
-                  "\"\<nondiseased population sample\>\"", ",", "Bold"}], 
+                  "\"\<non-diseased population sample\>\"", ",", "Bold"}], 
                   "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
@@ -11082,7 +11083,7 @@ Cell[BoxData[
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
                   RowBox[{
-                  "\"\<nondiseased population sample\>\"", ",", "Bold"}], 
+                  "\"\<non-diseased population sample\>\"", ",", "Bold"}], 
                   "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
@@ -11248,7 +11249,7 @@ Cell[BoxData[
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
                   RowBox[{
-                  "\"\<nondiseased population sample\>\"", ",", "Bold"}], 
+                  "\"\<non-diseased population sample\>\"", ",", "Bold"}], 
                   "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
@@ -11435,7 +11436,7 @@ Cell[BoxData[
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
                   RowBox[{
-                  "\"\<nondiseased population sample\>\"", ",", "Bold"}], 
+                  "\"\<non-diseased population sample\>\"", ",", "Bold"}], 
                   "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
@@ -11602,7 +11603,7 @@ Cell[BoxData[
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
                   RowBox[{
-                  "\"\<nondiseased population sample\>\"", ",", "Bold"}], 
+                  "\"\<non-diseased population sample\>\"", ",", "Bold"}], 
                   "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
@@ -11780,7 +11781,7 @@ Cell[BoxData[
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
                   RowBox[{
-                  "\"\<nondiseased population sample\>\"", ",", "Bold"}], 
+                  "\"\<non-diseased population sample\>\"", ",", "Bold"}], 
                   "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
@@ -11888,8 +11889,8 @@ Cell[BoxData[
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<nondiseased population sample\>\"", ",", "Bold"}], 
-              "]"}], ",", "\[IndentingNewLine]", 
+              RowBox[{"\"\<non-diseased population sample\>\"", ",", "Bold"}],
+               "]"}], ",", "\[IndentingNewLine]", 
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
@@ -11998,8 +11999,8 @@ Cell[BoxData[
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<nondiseased population sample\>\"", ",", "Bold"}], 
-              "]"}], ",", "\[IndentingNewLine]", 
+              RowBox[{"\"\<non-diseased population sample\>\"", ",", "Bold"}],
+               "]"}], ",", "\[IndentingNewLine]", 
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
@@ -12117,8 +12118,8 @@ Cell[BoxData[
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<nondiseased population sample\>\"", ",", "Bold"}], 
-              "]"}], ",", "\[IndentingNewLine]", 
+              RowBox[{"\"\<non-diseased population sample\>\"", ",", "Bold"}],
+               "]"}], ",", "\[IndentingNewLine]", 
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
@@ -12210,9 +12211,10 @@ Cell[BoxData[
    3.8170988326565228`*^9}, 3.817099071890277*^9, {3.817099194947034*^9, 
    3.817099196659784*^9}, {3.81709925158495*^9, 3.817099251731923*^9}, {
    3.8170993026661043`*^9, 3.8170993038997545`*^9}, {3.8170993380225716`*^9, 
-   3.817099340607771*^9}, {3.822185133344711*^9, 3.8221851333676844`*^9}},
+   3.817099340607771*^9}, {3.822185133344711*^9, 3.8221851333676844`*^9}, {
+   3.8233302767073803`*^9, 3.8233302768433776`*^9}},
  CellLabel->
-  "In[127]:=",ExpressionUUID->"8dabbb7a-939a-4ff1-b3b8-9482fb462120"],
+  "In[326]:=",ExpressionUUID->"8dabbb7a-939a-4ff1-b3b8-9482fb462120"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"Plots\"\>"->
@@ -12248,7 +12250,7 @@ Cell[BoxData[
           Hold[$CellContext`pr$$], True, "plot range"}, {
          True -> "full", False -> "partial"}}, {
          Hold[
-          Style["nondiseased population sample", Bold]], 
+          Style["non-diseased population sample", Bold]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`mH$$], 0, "mean"}, 0, 6, 0.01}, {{
           Hold[$CellContext`sH$$], 1., "standard deviation"}, 1., 6., 0.01}, {{
@@ -12305,7 +12307,7 @@ $CellContext`nH$$, $CellContext`pr$$]), "Specifications" :> {
             True -> "full", False -> "partial"}, ControlPlacement -> Left}, 
            Delimiter, 
            Style[
-           "nondiseased population sample", 
+           "non-diseased population sample", 
             Bold], {{$CellContext`mH$$, 0, "mean"}, 0, 6, 0.01, ImageSize -> 
             Tiny, Appearance -> 
             "Labeled"}, {{$CellContext`sH$$, 1., "standard deviation"}, 1., 
@@ -12960,7 +12962,7 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2], $CellContext`lb[
           Hold[$CellContext`pr$$], True, "plot range"}, {
          True -> "full", False -> "partial"}}, {
          Hold[
-          Style["nondiseased population sample", Bold]], 
+          Style["non-diseased population sample", Bold]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`mH$$], 0, "mean"}, 0, 6, 0.01}, {{
           Hold[$CellContext`sH$$], 1., "standard deviation"}, 1., 6., 0.01}, {{
@@ -13017,7 +13019,7 @@ $CellContext`nH$$, $CellContext`pr$$]), "Specifications" :> {
             True -> "full", False -> "partial"}, ControlPlacement -> Left}, 
            Delimiter, 
            Style[
-           "nondiseased population sample", 
+           "non-diseased population sample", 
             Bold], {{$CellContext`mH$$, 0, "mean"}, 0, 6, 0.01, ImageSize -> 
             Tiny, Appearance -> 
             "Labeled"}, {{$CellContext`sH$$, 1., "standard deviation"}, 1., 
@@ -13893,7 +13895,7 @@ $CellContext`nD
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`p$$], 0.95, "p"}, 0.9, 0.999, 0.001}, {
          Hold[
-          Style["nondiseased population sample", Bold]], 
+          Style["non-diseased population sample", Bold]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`mH$$], 0, "mean"}, 0, 6, 0.01}, {{
           Hold[$CellContext`sH$$], 1., "standard deviation"}, 1., 6., 0.01}, {{
@@ -13968,7 +13970,7 @@ $CellContext`pr$$]]), "Specifications" :> {
             0.999, 0.001, Appearance -> "Labeled", ImageSize -> Tiny}, 
            Delimiter, 
            Style[
-           "nondiseased population sample", 
+           "non-diseased population sample", 
             Bold], {{$CellContext`mH$$, 0, "mean"}, 0, 6, 0.01, ImageSize -> 
             Tiny, Appearance -> 
             "Labeled"}, {{$CellContext`sH$$, 1., "standard deviation"}, 1., 
@@ -16288,7 +16290,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]],
           $CellContext`ub[$CellContext`pr$$, $CellContext`mD$$, \
 $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01}, {
          Hold[
-          Style["nondiseased population sample", Bold]], 
+          Style["non-diseased population sample", Bold]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`mH$$], 0, "mean"}, 0, 6, 0.01}, {{
           Hold[$CellContext`sH$$], 1., "standard deviation"}, 1., 6., 0.01}, {{
@@ -16348,7 +16350,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]],
 $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01, ImageSize -> 
             Tiny, Appearance -> "Labeled"}, Delimiter, 
            Style[
-           "nondiseased population sample", 
+           "non-diseased population sample", 
             Bold], {{$CellContext`mH$$, 0, "mean"}, 0, 6, 0.01, ImageSize -> 
             Tiny, Appearance -> 
             "Labeled"}, {{$CellContext`sH$$, 1., "standard deviation"}, 1., 
@@ -17004,7 +17006,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]],
           $CellContext`ub[$CellContext`pr$$, $CellContext`mD$$, \
 $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01}, {
          Hold[
-          Style["nondiseased population sample", Bold]], 
+          Style["non-diseased population sample", Bold]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`mH$$], 0, "mean"}, 0, 6, 0.01}, {{
           Hold[$CellContext`sH$$], 1., "standard deviation"}, 1., 6., 0.01}, {{
@@ -17016,7 +17018,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01}, {
           Hold[$CellContext`sD$$], 0.75, "standard deviation"}, 0.1, 6, 
          0.01}, {{
           Hold[$CellContext`nD$$], 179, "sample size"}, 2, 10000, 1}}, 
-       Typeset`size$$ = {360., {205., 215.2}}, Typeset`update$$ = 0, 
+       Typeset`size$$ = {360., {201., 211.2}}, Typeset`update$$ = 0, 
        Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
@@ -17064,7 +17066,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]],
 $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01, ImageSize -> 
             Tiny, Appearance -> "Labeled"}, Delimiter, 
            Style[
-           "nondiseased population sample", 
+           "non-diseased population sample", 
             Bold], {{$CellContext`mH$$, 0, "mean"}, 0, 6, 0.01, ImageSize -> 
             Tiny, Appearance -> 
             "Labeled"}, {{$CellContext`sH$$, 1., "standard deviation"}, 1., 
@@ -17082,7 +17084,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01, ImageSize ->
          "Options" :> {
           ContinuousAction -> False, TrackedSymbols -> True, ControlPlacement -> 
            Left, Alignment -> Top}, "DefaultOptions" :> {}],
-        ImageSizeCache->{707., {237., 243.}},
+        ImageSizeCache->{707., {233., 239.}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -17140,7 +17142,8 @@ $CellContext`nD, $CellContext`nH}]}, {$CellContext`u, 0,
                 
                 Switch[$CellContext`pr, True, 0.5 $CellContext`sH, False, 
                  0.15 $CellContext`sH]}, Exclusions -> "Singularities", 
-               AspectRatio -> 1, AxesOrigin -> {0, 0}, AxesLabel -> {"u", 
+               AspectRatio -> 1, AxesOrigin -> {0, 0}, 
+               AxesLabel -> {"\!\(\*SubscriptBox[\(u\), \(m\)]\)", 
                  StringJoin["u(", 
                   $CellContext`txt[$CellContext`mf], ")/", 
                   $CellContext`txt[$CellContext`mf]]}, PlotStyle -> {
@@ -17941,7 +17944,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]],
           $CellContext`ub[$CellContext`pr$$, $CellContext`mD$$, \
 $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01}, {
          Hold[
-          Style["nondiseased population sample", Bold]], 
+          Style["non-diseased population sample", Bold]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`mH$$], 0, "mean"}, 0, 6, 0.01}, {{
           Hold[$CellContext`sH$$], 1., "standard deviation"}, 1., 6., 0.01}, {{
@@ -18011,7 +18014,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]],
 $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01, ImageSize -> 
             Tiny, Appearance -> "Labeled"}, Delimiter, 
            Style[
-           "nondiseased population sample", 
+           "non-diseased population sample", 
             Bold], {{$CellContext`mH$$, 0, "mean"}, 0, 6, 0.01, ImageSize -> 
             Tiny, Appearance -> 
             "Labeled"}, {{$CellContext`sH$$, 1., "standard deviation"}, 1., 
@@ -20120,7 +20123,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01}, {
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`r$$], 0.067, "r"}, 0.001, 0.999, 0.001}, {
          Hold[
-          Style["nondiseased population sample", Bold]], 
+          Style["non-diseased population sample", Bold]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`mH$$], 0, "mean"}, 0, 6, 0.01}, {{
           Hold[$CellContext`sH$$], 1., "standard deviation"}, 1., 6., 0.01}, {
@@ -20188,7 +20191,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01, ImageSize ->
             Bold], {{$CellContext`r$$, 0.067, "r"}, 0.001, 0.999, 0.001, 
             ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
            Style[
-           "nondiseased population sample", 
+           "non-diseased population sample", 
             Bold], {{$CellContext`mH$$, 0, "mean"}, 0, 6, 0.01, ImageSize -> 
             Tiny, Appearance -> 
             "Labeled"}, {{$CellContext`sH$$, 1., "standard deviation"}, 1., 
@@ -20420,7 +20423,6 @@ $CellContext`sH^2 ($CellContext`sH^2 + $CellContext`nH $CellContext`u^2) (-2 +
                   Erfc[($CellContext`mH - $CellContext`t)/(
                     Sqrt[2] $CellContext`sH)])^2)/
                E^(($CellContext`mD - $CellContext`t)^2/$CellContext`sD^2) + (
-                
                 2 (-1 + $CellContext`nD) $CellContext`nD (-1 + \
 $CellContext`nH) $CellContext`nH^2 (
                   4 + $CellContext`nD + $CellContext`nH)^2 $CellContext`sD^2 \
@@ -20511,6 +20513,7 @@ $CellContext`nD $CellContext`u^2)
              Blank[]], 
             Pattern[$CellContext`nH, 
              Blank[]]] := (1/Sqrt[Pi]) 2 
+           
            Sqrt[(((-1 + $CellContext`nD) $CellContext`nD $CellContext`nH \
 $CellContext`sD^4 ($CellContext`mH - $CellContext`t)^2 ($CellContext`sH^2 + 
                  2 (-1 + $CellContext`nH) $CellContext`u^2) (-2 + 
@@ -20653,7 +20656,6 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2)], $CellContext`cmcyi[
                E^(($CellContext`mD - \
 $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^4 + \
 (($CellContext`sD^2/$CellContext`nD + $CellContext`u^2)/
-               
                E^(($CellContext`mD - \
 $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2 + ((($CellContext`mH - \
 $CellContext`t)^2 ($CellContext`sH^2/(
@@ -20793,6 +20795,7 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2], $CellContext`txt[
             
             Min[$CellContext`mD$$ + 4 $CellContext`sD$$, $CellContext`mH$$ + 
              4 $CellContext`sH$$], False, 
+            
             Min[$CellContext`mD$$ + 2 $CellContext`sD$$, $CellContext`mH$$ + 
              2 $CellContext`sH$$]], $CellContext`ub[
             Pattern[$CellContext`pr, 
@@ -20862,7 +20865,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01}, {
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`r$$], 0.067, "r"}, 0.001, 0.999, 0.001}, {
          Hold[
-          Style["nondiseased population sample", Bold]], 
+          Style["non-diseased population sample", Bold]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`mH$$], 0, "mean"}, 0, 6, 0.01}, {{
           Hold[$CellContext`sH$$], 1., "standard deviation"}, 1., 6., 0.01}, {
@@ -20930,7 +20933,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01, ImageSize ->
             Bold], {{$CellContext`r$$, 0.067, "r"}, 0.001, 0.999, 0.001, 
             ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
            Style[
-           "nondiseased population sample", 
+           "non-diseased population sample", 
             Bold], {{$CellContext`mH$$, 0, "mean"}, 0, 6, 0.01, ImageSize -> 
             Tiny, Appearance -> 
             "Labeled"}, {{$CellContext`sH$$, 1., "standard deviation"}, 1., 
@@ -21407,7 +21410,6 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^4 + \
 $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2 + ((($CellContext`mH - \
 $CellContext`t)^2 ($CellContext`sH^2/(
                   2 (-1 + $CellContext`nH)) + $CellContext`u^2))/
-               
                E^(($CellContext`mH - \
 $CellContext`t)^2/$CellContext`sH^2))/$CellContext`sH^4 + \
 (($CellContext`sH^2/$CellContext`nH + $CellContext`u^2)/
@@ -21828,7 +21830,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01}, {
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`r$$], 0.067, "r"}, 0.001, 0.999, 0.001}, {
          Hold[
-          Style["nondiseased population sample", Bold]], 
+          Style["non-diseased population sample", Bold]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`mH$$], 0, "mean"}, 0, 6, 0.01}, {{
           Hold[$CellContext`sH$$], 1., "standard deviation"}, 1., 6., 0.01}, {
@@ -21903,7 +21905,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01, ImageSize ->
             Bold], {{$CellContext`r$$, 0.067, "r"}, 0.001, 0.999, 0.001, 
             ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
            Style[
-           "nondiseased population sample", 
+           "non-diseased population sample", 
             Bold], {{$CellContext`mH$$, 0, "mean"}, 0, 6, 0.01, ImageSize -> 
             Tiny, Appearance -> 
             "Labeled"}, {{$CellContext`sH$$, 1., "standard deviation"}, 1., 
@@ -22608,7 +22610,6 @@ $CellContext`nH $CellContext`u^2) (-2 +
                     Sqrt[2] $CellContext`sD)])^2 
                 Erfc[($CellContext`mD - $CellContext`t)/(
                    Sqrt[2] $CellContext`sD)]^2)/
-               
                E^(($CellContext`mH - $CellContext`t)^2/$CellContext`sH^2) + \
 ($CellContext`nD (-1 + $CellContext`nH) $CellContext`nH $CellContext`sH^4 \
 ($CellContext`mD - $CellContext`t)^2 ($CellContext`sD^2 + 
@@ -22656,7 +22657,6 @@ $CellContext`t)^2 ($CellContext`sH^2/(
                    2 (-1 + $CellContext`nH)) + $CellContext`u^2) (1 + 
                    Erf[($CellContext`mD - $CellContext`t)/(
                     Sqrt[2] $CellContext`sD)])^2)/
-                
                 E^(($CellContext`mH - \
 $CellContext`t)^2/$CellContext`sH^2))/$CellContext`sH^4 + \
 ((($CellContext`sH^2/$CellContext`nH + $CellContext`u^2) (1 + 
@@ -22892,9 +22892,8 @@ $CellContext`u^4),
              Blank[]], 
             Pattern[$CellContext`nU, 
              Blank[]]] := Max[
-            
-            Min[(4 (($CellContext`mH - $CellContext`t)^2 ($CellContext`sH^2/(
-                   
+            Min[(
+              4 (($CellContext`mH - $CellContext`t)^2 ($CellContext`sH^2/(
                    2 (-1 + $CellContext`nH)) + $CellContext`u^2) + \
 $CellContext`sH^2 ($CellContext`sH^2/$CellContext`nH + \
 $CellContext`u^2))^2)/(($CellContext`sH^4 ($CellContext`mH^2 $CellContext`nH + 
@@ -23071,7 +23070,6 @@ $CellContext`u^2) (-2 +
                     Sqrt[2] $CellContext`sD)])^2)/
                  E^(($CellContext`mH - $CellContext`t)^2/$CellContext`sH^2) + \
 ($CellContext`nD^2 (-1 + $CellContext`nH) $CellContext`nH^2 (
-                    
                     4 + $CellContext`nD + $CellContext`nH)^2 \
 $CellContext`sH^4 ($CellContext`mD - $CellContext`t)^2 ($CellContext`sD^2 + 
                    2 (-1 + $CellContext`nD) $CellContext`u^2) (-2 + 
@@ -23208,7 +23206,6 @@ $CellContext`nH + $CellContext`nD $CellContext`nH)
                    Sqrt[2] $CellContext`sH)])^8) + (4 
                 E^(-((2 ($CellContext`mD - \
 $CellContext`t)^2)/$CellContext`sD^2) - (
-                   
                    2 ($CellContext`mH - $CellContext`t)^2)/$CellContext`sH^2) \
 $CellContext`nD^4 $CellContext`nH^4 $CellContext`u^4 (
                   E^(($CellContext`mD - $CellContext`t)^2/$CellContext`sD^2) \
@@ -24012,7 +24009,7 @@ $CellContext`sH^4 ($CellContext`mD^2 + $CellContext`sD^2 -
          Min[$CellContext`mD$$ + 4 $CellContext`sD$$, $CellContext`mH$$ + 
           4 $CellContext`sH$$]], 0.01}, {
         Hold[
-         Style["nondiseased population sample", Bold]], 
+         Style["non-diseased population sample", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`mH$$], 0, "mean"}, 0, 6, 0.01}, {{
          Hold[$CellContext`sH$$], 1., "standard deviation"}, 1., 6., 0.01}, {{
@@ -24057,7 +24054,7 @@ $CellContext`nD$$, $CellContext`nH$$], "Specifications" :> {"", Delimiter,
              4 $CellContext`sH$$]], 0.01, ImageSize -> Tiny, Appearance -> 
            "Labeled"}, Delimiter, 
           Style[
-          "nondiseased population sample", 
+          "non-diseased population sample", 
            Bold], {{$CellContext`mH$$, 0, "mean"}, 0, 6, 0.01, ImageSize -> 
            Tiny, Appearance -> 
            "Labeled"}, {{$CellContext`sH$$, 1., "standard deviation"}, 1., 6.,
@@ -24449,7 +24446,6 @@ $CellContext`t)^2/$CellContext`sH^2))/$CellContext`sH^4]/Sqrt[
 ($CellContext`sD^2/(2 (-1 + $CellContext`nD)) + $CellContext`u^2))/
                E^(($CellContext`mD - $CellContext`t)^2/$CellContext`sD^2))/(
               Pi $CellContext`sD^4) + ((
-                
                 2 $CellContext`nH^2 ($CellContext`mH - $CellContext`t)^2 \
 ($CellContext`sH^2/(2 (-1 + $CellContext`nH)) + $CellContext`u^2))/
                E^(($CellContext`mH - $CellContext`t)^2/$CellContext`sH^2))/(
@@ -24856,7 +24852,7 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2]};
          Min[$CellContext`mD$$ + 4 $CellContext`sD$$, $CellContext`mH$$ + 
           4 $CellContext`sH$$]], 0.01}, {
         Hold[
-         Style["nondiseased population sample", Bold]], 
+         Style["non-diseased population sample", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`mH$$], 0, "mean"}, 0, 6, 0.01}, {{
          Hold[$CellContext`sH$$], 1., "standard deviation"}, 1., 6., 0.01}, {{
@@ -24901,7 +24897,7 @@ $CellContext`nD$$, $CellContext`nH$$], "Specifications" :> {"", Delimiter,
              4 $CellContext`sH$$]], 0.01, ImageSize -> Tiny, Appearance -> 
            "Labeled"}, Delimiter, 
           Style[
-          "nondiseased population sample", 
+          "non-diseased population sample", 
            Bold], {{$CellContext`mH$$, 0, "mean"}, 0, 6, 0.01, ImageSize -> 
            Tiny, Appearance -> 
            "Labeled"}, {{$CellContext`sH$$, 1., "standard deviation"}, 1., 6.,
@@ -25928,7 +25924,7 @@ $CellContext`nD
          Min[$CellContext`mD$$ + 4 $CellContext`sD$$, $CellContext`mH$$ + 
           4 $CellContext`sH$$]], 0.01}, {
         Hold[
-         Style["nondiseased population sample", Bold]], 
+         Style["non-diseased population sample", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`mH$$], 0, "mean"}, 0, 6, 0.01}, {{
          Hold[$CellContext`sH$$], 1., "standard deviation"}, 1., 6., 0.01}, {{
@@ -25981,7 +25977,7 @@ $CellContext`u$$, $CellContext`nD$$, $CellContext`nH$$, $CellContext`nU$$],
              4 $CellContext`sH$$]], 0.01, ImageSize -> Tiny, Appearance -> 
            "Labeled"}, Delimiter, 
           Style[
-          "nondiseased population sample", 
+          "non-diseased population sample", 
            Bold], {{$CellContext`mH$$, 0, "mean"}, 0, 6, 0.01, ImageSize -> 
            Tiny, Appearance -> 
            "Labeled"}, {{$CellContext`sH$$, 1., "standard deviation"}, 1., 6.,
@@ -28267,9 +28263,10 @@ $CellContext`sH^4 ($CellContext`mD^2 + $CellContext`sD^2 -
    3.8005494585949373`*^9, 3.8021339015992193`*^9, 3.8021339929694767`*^9, 
    3.805073406539098*^9, 3.817098855224211*^9, 3.817099084770664*^9, 
    3.817099395270835*^9, 3.819948102718277*^9, {3.822185189414711*^9, 
-   3.822185192113635*^9}, 3.8221853916393557`*^9},
+   3.822185192113635*^9}, 3.8221853916393557`*^9, {3.8233255288056817`*^9, 
+   3.8233255315868745`*^9}, 3.823330291973242*^9},
  CellLabel->
-  "Out[127]=",ExpressionUUID->"c7c91de1-7054-4cd0-82b2-068af67fc6d9"]
+  "Out[326]=",ExpressionUUID->"27bd585e-eb70-43ee-88ee-e6a609fe1eb7"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -28291,7 +28288,7 @@ Cell[TextData[{
   FontSize->10],
  StyleBox["\n",
   FontSize->12],
- StyleBox["Diagnostic Uncertainty\nVersion Number 1.0.1\nHellenic Complex \
+ StyleBox["Diagnostic Uncertainty\nVersion Number 1.0.2\nHellenic Complex \
 Systems Laboratory 2021\nThis software is distributed under  an Attribution - \
 NonCommercial - ShareAlike 4.0 International Creative Commons License.",
   FontSize->10,
@@ -28305,7 +28302,8 @@ NonCommercial - ShareAlike 4.0 International Creative Commons License.",
    3.8070767128593364`*^9, 3.8070767130363336`*^9}, {3.816740359114893*^9, 
    3.8167403775532656`*^9}, {3.8170995526369734`*^9, 3.817099553175012*^9}, {
    3.8199480451950355`*^9, 3.819948065902923*^9}, {3.8221852591351533`*^9, 
-   3.822185259412125*^9}},ExpressionUUID->"fb4fc060-c052-422d-a842-\
+   3.822185259412125*^9}, {3.8233254695842333`*^9, 
+   3.8233254702972383`*^9}},ExpressionUUID->"fb4fc060-c052-422d-a842-\
 5a583aa7bc50"]
 }, Open  ]]
 },
@@ -28314,7 +28312,7 @@ WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 Magnification->1.,
 FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"aad7571c-6837-49f5-8e10-e21601a8c3f5"
+ExpressionUUID->"fd2be405-5806-4dfd-8cbb-09b1e3f6ca69"
 ]
 (* End of Notebook Content *)
 
@@ -28334,17 +28332,17 @@ Cell[1225, 35, 714, 12, 71, "Title",ExpressionUUID->"82ae1769-2870-4f89-845c-451
  Evaluatable->False],
 Cell[1942, 49, 442, 11, 129, "Author",ExpressionUUID->"1cc76b04-6cbc-4aef-a873-b937edcba28a"],
 Cell[2387, 62, 349, 7, 31, "Affiliation",ExpressionUUID->"e486d917-8f69-429f-a367-b2ac69fd62eb"],
-Cell[2739, 71, 396664, 10255, 19, "Input",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca",
+Cell[2739, 71, 396725, 10256, 19, "Input",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca",
  CellOpen->False,
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[399428, 10330, 94559, 1884, 19, "Input",ExpressionUUID->"8dabbb7a-939a-4ff1-b3b8-9482fb462120",
+Cell[399489, 10331, 94625, 1885, 19, "Input",ExpressionUUID->"8dabbb7a-939a-4ff1-b3b8-9482fb462120",
  CellOpen->False,
  InitializationCell->True],
-Cell[493990, 12216, 773232, 16055, 619, "Output",ExpressionUUID->"c7c91de1-7054-4cd0-82b2-068af67fc6d9"]
+Cell[494117, 12218, 773248, 16050, 619, "Output",ExpressionUUID->"27bd585e-eb70-43ee-88ee-e6a609fe1eb7"]
 }, Open  ]],
-Cell[1267237, 28274, 521, 12, 56, "Subsubsubsubsection",ExpressionUUID->"77e7e27b-af69-4ef8-9133-e3a4e015335b"],
-Cell[1267761, 28288, 1019, 20, 80, "Subsubsubsubsection",ExpressionUUID->"fb4fc060-c052-422d-a842-5a583aa7bc50"]
+Cell[1267380, 28271, 521, 12, 56, "Subsubsubsubsection",ExpressionUUID->"77e7e27b-af69-4ef8-9133-e3a4e015335b"],
+Cell[1267904, 28285, 1073, 21, 80, "Subsubsubsubsection",ExpressionUUID->"fb4fc060-c052-422d-a842-5a583aa7bc50"]
 }, Open  ]]
 }
 ]

@@ -265,7 +265,7 @@ img
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #EEFFFF;
+  background-color: #daecff;
   color: #0000CC;
 }
 

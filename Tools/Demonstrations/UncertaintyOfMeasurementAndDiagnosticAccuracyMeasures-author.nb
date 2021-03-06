@@ -3,32 +3,70 @@
 (*** Wolfram Notebook File ***)
 (* http://www.wolfram.com/nb *)
 
-(* CreatedBy='Mathematica 11.3' *)
+(* CreatedBy='Mathematica 12.2' *)
 
 (*CacheID: 234*)
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    392953,       8049]
-NotebookOptionsPosition[    385138,       7898]
-NotebookOutlinePosition[    387195,       7948]
-CellTagsIndexPosition[    386859,       7936]
+NotebookDataLength[    405400,       8356]
+NotebookOptionsPosition[    393332,       8121]
+NotebookOutlinePosition[    399336,       8245]
+CellTagsIndexPosition[    398664,       8223]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["Uncertainty of Measurement and Diagnostic Accuracy Measures", \
-"DemoTitle",
+Cell["Uncertainty of Measurement and Diagnostic Accuracy Measures", "Title",
  CellChangeTimes->{
-  3.7300003446728163`*^9},ExpressionUUID->"46cebb3b-2d7f-4773-b6c4-\
-c596a188fe95"],
+  3.8240255029867535`*^9},ExpressionUUID->"b9e6fe14-67c5-4f7d-9ec0-\
+13c361826e91"],
 
 Cell[CellGroupData[{
 
-Cell["", "InitializationSection",ExpressionUUID->"f6ba02ac-21ff-4ce8-bb5d-c191854c4264"],
+Cell[TextData[{
+ "Initialization Code",
+ StyleBox[" (optional) ", "SectionGloss"],
+ Cell[BoxData[
+  TemplateBox[{"Initialization Code", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+        TextData[{"Provide any code that must be evaluated before the ", 
+          StyleBox["Manipulate", "MRbig"], 
+          ". This will automatically be built into the ", 
+          StyleBox["Manipulate", "MRbig"], 
+          " in the final notebook version. Never use a package that is not \
+included in the default distribution of ", 
+          StyleBox["Mathematica", FontSlant -> "Italic"], 
+          ". To use a package, use the ", 
+          StyleBox["Initialization", "MRbig"], " option (with ", 
+          StyleBox["Get", "MRbig"], ", not ", 
+          StyleBox["Needs", "MRbig"], ") in the ", 
+          StyleBox["Manipulate", "MRbig"], 
+          " itself, and use the full name of the function from the package. \
+For example:\n", 
+          StyleBox[
+          "  Manipulate[\n  ...\n  ComputationalGeometry`ConvexHull[...]...\n \
+ ...\n  Initialization :> Get[\"ComputationalGeometry`\"],\n  ...\n  ]", 
+           "MR"], "\nIf you provide initialization code, include a ", 
+          StyleBox["SaveDefinitions->True", "MRbig"], " option in the ", 
+          StyleBox["Manipulate", "MRbig"], ".", 
+          StyleBox["\n", FontSize -> 4]}], "MoreInfoText"], Background -> 
+       GrayLevel[0.95], FrameMargins -> 20, FrameStyle -> GrayLevel[0.9], 
+       RoundingRadius -> 5]], "MoreInfoText", Deletable -> True, 
+     CellTags -> {"SectionMoreInfoDefinition"}, 
+     CellMargins -> {{66, 66}, {15, 15}}]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "81fde376-e763-44cf-83ed-5c52ec315067"]
+}], "InitializationSection",
+ CellTags->
+  "Initialization \
+Code",ExpressionUUID->"1d34a731-8c48-4189-8b6f-89ef5777db9f"],
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", 
@@ -126,8 +164,8 @@ Cell[BoxData[
    3.449487520913802*^9, 3.4494876026949797`*^9}, {3.4494876402557354`*^9, 
    3.449487671995909*^9}, {3.449543057542234*^9, 3.4495430793824177`*^9}, 
    3.4495431746709456`*^9},
- CellLabel->"In[13]:=",
- CellID->517742995,ExpressionUUID->"52eeb104-8a8f-497a-a326-6a999813b4a2"],
+ CellLabel->"In[1]:=",
+ CellID->517742995,ExpressionUUID->"06019e67-29bb-4dc6-bbd8-a1af5c292c46"],
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", 
@@ -269,8 +307,8 @@ Cell[BoxData[
    3.551266753698002*^9, {3.5512669144659233`*^9, 3.5512669412512445`*^9}, {
    3.5512719517167015`*^9, 3.5512719536617017`*^9}, {3.5512719942937016`*^9, 
    3.5512720397497015`*^9}},
- CellLabel->"In[15]:=",
- CellID->227297142,ExpressionUUID->"acd3bb54-c787-483c-b249-bf304e48cb44"],
+ CellLabel->"In[3]:=",
+ CellID->227297142,ExpressionUUID->"029346d8-1fa0-41e9-b196-d34c370382ad"],
 
 Cell[BoxData[{
  RowBox[{
@@ -369,13 +407,43 @@ Cell[BoxData[{
    3.449575664374771*^9}, {3.551266962842085*^9, 3.55126697758961*^9}, {
    3.5512720471117015`*^9, 3.5512720998057013`*^9}, {3.6463816790107155`*^9, 
    3.646381681961715*^9}},
- CellLabel->"In[20]:=",
- CellID->49098865,ExpressionUUID->"08292171-70a3-496b-8b0a-859fb888fb05"]
+ CellLabel->"In[8]:=",
+ CellID->49098865,ExpressionUUID->"197f2189-de33-4c5e-9bc8-65441bdbcd42"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "ManipulateSection",ExpressionUUID->"7371d764-fbb0-4f70-9977-3741a4a02a53"],
+Cell[TextData[{
+ "Manipulate",
+ Cell[BoxData[
+  TemplateBox[{"Manipulate", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+        TextData[{"This section contains the ", 
+          StyleBox["Manipulate", "MRbig"], 
+          " input cell and its evaluated output cell. Make all control labels \
+or labels in the output as descriptive as possible, with only proper nouns \
+and proper adjectives capitalized. More description of the controls can be \
+provided in the Details section below, if necessary. If you change this ", 
+          StyleBox["Manipulate", "MRbig"], 
+          " after creating screenshots and/or thumbnails, use ", 
+          StyleBox["Update Thumbnail & Snapshots", FontWeight -> "Bold"], 
+          " in the toolbar to update any copies in later sections. You can \
+control the Flash preview for the Demonstration with the ", 
+          StyleBox["AutorunSequencing", "MRbig"], " option. Use ", 
+          StyleBox["SaveDefinitions->True", "MRbig"], 
+          " if you provided initialization code in the previous section."}], 
+        "MoreInfoText"], Background -> GrayLevel[0.95], FrameMargins -> 20, 
+       FrameStyle -> GrayLevel[0.9], RoundingRadius -> 5]], "MoreInfoText", 
+     Deletable -> True, CellTags -> {"SectionMoreInfoDefinition"}, 
+     CellMargins -> {{66, 66}, {15, 15}}]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "d12d57a6-93e6-4518-8a9c-9df2eb688354"]
+}], "ManipulateSection",
+ CellTags->
+  "Manipulate",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587"],
 
 Cell[CellGroupData[{
 
@@ -2517,7 +2585,8 @@ curve of 2nd test\>\""}], "]"}]}], "}"}], ",",
    3.551272583936702*^9, 3.5512725966127014`*^9}, {3.5512726394427013`*^9, 
    3.5512726918487015`*^9}, {3.646383343647715*^9, 3.646383345389715*^9}, 
    3.730866076291391*^9, 3.731164627622836*^9, 3.7575732037633457`*^9},
- CellID->4362360,ExpressionUUID->"762bbc7d-4288-4d2e-8377-37d7dbcc4bb4"],
+ CellLabel->"In[13]:=",
+ CellID->4362360,ExpressionUUID->"08860bec-ad83-44a1-8ad8-476b7ffea812"],
 
 Cell[BoxData[
  TagBox[
@@ -2558,13 +2627,8 @@ Cell[BoxData[
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`u1$$], 0.15, "first test"}, 0, 6, 0.01}, {{
        Hold[$CellContext`u2$$], 0.45, "second test"}, 0, 6, 0.01}}, 
-    Typeset`size$$ = Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = False, $CellContext`type$70298$$ = 
-    False, $CellContext`plot$70299$$ = False, $CellContext`vs$70300$$ = 
-    False, $CellContext`pd$70301$$ = 0, $CellContext`\[Mu]H$70302$$ = 
-    0, $CellContext`\[Sigma]H$70303$$ = 0, $CellContext`\[Mu]D$70304$$ = 
-    0, $CellContext`\[Sigma]D$70305$$ = 0, $CellContext`u1$70306$$ = 
-    0, $CellContext`u2$70307$$ = 0}, 
+    Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
@@ -2572,17 +2636,7 @@ Cell[BoxData[
         0.15, $CellContext`u2$$ = 0.45, $CellContext`vs$$ = 
         0, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
         0, $CellContext`\[Sigma]D$$ = 1, $CellContext`\[Sigma]H$$ = 1}, 
-      "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$70298$$, False], 
-        Hold[$CellContext`plot$$, $CellContext`plot$70299$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$70300$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$70301$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$70302$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$70303$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$70304$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$70305$$, 0], 
-        Hold[$CellContext`u1$$, $CellContext`u1$70306$$, 0], 
-        Hold[$CellContext`u2$$, $CellContext`u2$70307$$, 0]}, 
+      "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -2886,6 +2940,7 @@ of 1st test"],
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
 $CellContext`pd$$, $CellContext`u], $CellContext`u], {$CellContext`u -> \
 $CellContext`u2$$}], 
+             
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)PPV curve \
 of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1, 
            AxesLabel -> {
@@ -2954,7 +3009,6 @@ of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
                $CellContext`hplr[$CellContext`x, $CellContext`\[Mu]D$$, \
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
 $CellContext`u], $CellContext`u], {$CellContext`u -> $CellContext`u1$$}], 
-             
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+ curve \
 of 1st test"], 
             Tooltip[
@@ -3276,6 +3330,7 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
        AutorunSequencing -> {1, 2, 6}, TrackedSymbols -> True, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{583., {246.875, 252.125}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -3508,13 +3563,37 @@ $CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->653457212,ExpressionUUID->"3c95a8f7-26da-4d5d-b0b4-063468071c47"]
+ CellID->62683277,ExpressionUUID->"47210e06-d3f2-434e-ac74-a9562cba61c3"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "ManipulateCaptionSection",ExpressionUUID->"13a991df-fb30-4f6d-8ee0-189ba9c3619d"],
+Cell[TextData[{
+ "Caption",
+ Cell[BoxData[
+  TemplateBox[{"Caption", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+        TextData[{
+         "The caption provides all the information needed to understand the \
+Demonstration. It should be between three and five sentences long, but \
+clarity is more important than length. Include only text in this section \
+\[LongDash] no code, graphics, etc. Do not change the cell style or copy \
+cells from other sections. Do not copy text from books or the web. Write your \
+ideas in your own words. If you want to refer to something on the web, link \
+to it in the Details.", 
+          StyleBox["\n", FontSize -> 4]}], "MoreInfoText"], Background -> 
+       GrayLevel[0.95], FrameMargins -> 20, FrameStyle -> GrayLevel[0.9], 
+       RoundingRadius -> 5]], "MoreInfoText", Deletable -> True, 
+     CellTags -> {"SectionMoreInfoDefinition"}, 
+     CellMargins -> {{66, 66}, {15, 15}}]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "a97b5d36-1c59-4018-b3f0-6bfc71662d3d"]
+}], "ManipulateCaptionSection",
+ CellTags->"Caption",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4"],
 
 Cell["\<\
 This Demonstration compares various diagnostic accuracy measures of two \
@@ -3537,12 +3616,34 @@ difference, and ratio of the two measures. \
  CellChangeTimes->{{3.7299711654699283`*^9, 3.7299711661335125`*^9}, 
    3.730000084968755*^9, {3.7300013534260283`*^9, 3.73000137191673*^9}, 
    3.730866076331402*^9, 3.7311646280959387`*^9},
- CellID->28774143,ExpressionUUID->"87c35a4a-5b83-40e2-97d3-f5f35b68fe27"]
+ CellID->28774143,ExpressionUUID->"d56fc4b0-3849-413a-815f-d52d25958947"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "ThumbnailSection",ExpressionUUID->"7ee985da-31bb-43e5-9a32-ff547945e4ce"],
+Cell[TextData[{
+ "Thumbnail",
+ Cell[BoxData[
+  TemplateBox[{"Thumbnail", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+        TextData[{
+         "To create the thumbnail, copy and paste the output cell from the ", 
+          StyleBox["Manipulate", "MRbig"], 
+          " section and adjust the controls to the most visually appealing \
+setting. Do not convert it to a bitmap. The thumbnail is what visitors see \
+when browsing the Demonstrations site and while the Flash preview loads.", 
+          StyleBox["\n", FontSize -> 4]}], "MoreInfoText"], Background -> 
+       GrayLevel[0.95], FrameMargins -> 20, FrameStyle -> GrayLevel[0.9], 
+       RoundingRadius -> 5]], "MoreInfoText", Deletable -> True, 
+     CellTags -> {"SectionMoreInfoDefinition"}, 
+     CellMargins -> {{66, 66}, {15, 15}}]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "5363174b-397a-4e31-b8e5-95e1af887bc9"]
+}], "ThumbnailSection",
+ CellTags->"Thumbnail",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42"],
 
 Cell[BoxData[
  TagBox[
@@ -3583,13 +3684,13 @@ Cell[BoxData[
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`u1$$], 0.15, "first test"}, 0, 6, 0.01}, {{
        Hold[$CellContext`u2$$], 0.45, "second test"}, 0, 6, 0.01}}, 
-    Typeset`size$$ = Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = False, $CellContext`type$70412$$ = 
-    False, $CellContext`plot$70413$$ = False, $CellContext`vs$70414$$ = 
-    False, $CellContext`pd$70415$$ = 0, $CellContext`\[Mu]H$70416$$ = 
-    0, $CellContext`\[Sigma]H$70417$$ = 0, $CellContext`\[Mu]D$70418$$ = 
-    0, $CellContext`\[Sigma]D$70419$$ = 0, $CellContext`u1$70420$$ = 
-    0, $CellContext`u2$70421$$ = 0}, 
+    Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    False, $CellContext`type$70412$$ = False, $CellContext`plot$70413$$ = 
+    False, $CellContext`vs$70414$$ = False, $CellContext`pd$70415$$ = 
+    0, $CellContext`\[Mu]H$70416$$ = 0, $CellContext`\[Sigma]H$70417$$ = 
+    0, $CellContext`\[Mu]D$70418$$ = 0, $CellContext`\[Sigma]D$70419$$ = 
+    0, $CellContext`u1$70420$$ = 0, $CellContext`u2$70421$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
@@ -3979,7 +4080,6 @@ of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
                $CellContext`hplr[$CellContext`x, $CellContext`\[Mu]D$$, \
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
 $CellContext`u], $CellContext`u], {$CellContext`u -> $CellContext`u1$$}], 
-             
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+ curve \
 of 1st test"], 
             Tooltip[
@@ -4301,6 +4401,7 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
        AutorunSequencing -> {1, 2, 6}, TrackedSymbols -> True, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{583., {246.875, 252.125}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -4532,13 +4633,36 @@ $CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
     UntrackedVariables:>{Typeset`size$$}], "Manipulate",
    Deployed->True,
    StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- CellID->110978514,ExpressionUUID->"48a33b2d-159c-4ad9-ba45-d236fb9a3517"]
+  Manipulate`InterpretManipulate[1]]], "Input",
+ CellChangeTimes->{{3.824025567404813*^9, 3.8240255701178956`*^9}},
+ CellID->574808109,ExpressionUUID->"f9ab3f1f-54e7-4035-ad38-988013e41bb8"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "SnapshotsSection",ExpressionUUID->"9c68b9a7-e670-4516-a960-013a9534866e"],
+Cell[TextData[{
+ "Snapshots",
+ Cell[BoxData[
+  TemplateBox[{"Snapshots", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+        TextData[{"To create snapshots, paste the output cell from the ", 
+          StyleBox["Manipulate", "MRbig"], 
+          " section in this section at least three times, and adjust the \
+controls of each copy to show a range of interesting settings. Do not convert \
+the screenshots to bitmaps. Optional captions for the screenshots may be \
+included in the Details section.", 
+          StyleBox["\n", FontSize -> 4]}], "MoreInfoText"], Background -> 
+       GrayLevel[0.95], FrameMargins -> 20, FrameStyle -> GrayLevel[0.9], 
+       RoundingRadius -> 5]], "MoreInfoText", Deletable -> True, 
+     CellTags -> {"SectionMoreInfoDefinition"}, 
+     CellMargins -> {{66, 66}, {15, 15}}]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "d854de0f-efbb-449a-8b04-a7b3ca5773d5"]
+}], "SnapshotsSection",
+ CellTags->"Snapshots",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2"],
 
 Cell[BoxData[
  TagBox[
@@ -4579,13 +4703,8 @@ Cell[BoxData[
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`u1$$], 0.15, "first test"}, 0, 6, 0.01}, {{
        Hold[$CellContext`u2$$], 0.45, "second test"}, 0, 6, 0.01}}, 
-    Typeset`size$$ = Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = False, $CellContext`type$70524$$ = 
-    False, $CellContext`plot$70525$$ = False, $CellContext`vs$70526$$ = 
-    False, $CellContext`pd$70527$$ = 0, $CellContext`\[Mu]H$70528$$ = 
-    0, $CellContext`\[Sigma]H$70529$$ = 0, $CellContext`\[Mu]D$70530$$ = 
-    0, $CellContext`\[Sigma]D$70531$$ = 0, $CellContext`u1$70532$$ = 
-    0, $CellContext`u2$70533$$ = 0}, 
+    Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
@@ -4593,17 +4712,7 @@ Cell[BoxData[
         0.15, $CellContext`u2$$ = 0.45, $CellContext`vs$$ = 
         0, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
         0, $CellContext`\[Sigma]D$$ = 1., $CellContext`\[Sigma]H$$ = 1}, 
-      "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$70524$$, False], 
-        Hold[$CellContext`plot$$, $CellContext`plot$70525$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$70526$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$70527$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$70528$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$70529$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$70530$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$70531$$, 0], 
-        Hold[$CellContext`u1$$, $CellContext`u1$70532$$, 0], 
-        Hold[$CellContext`u2$$, $CellContext`u2$70533$$, 0]}, 
+      "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -4907,6 +5016,7 @@ of 1st test"],
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
 $CellContext`pd$$, $CellContext`u], $CellContext`u], {$CellContext`u -> \
 $CellContext`u2$$}], 
+             
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)PPV curve \
 of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1, 
            AxesLabel -> {
@@ -4975,7 +5085,6 @@ of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
                $CellContext`hplr[$CellContext`x, $CellContext`\[Mu]D$$, \
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
 $CellContext`u], $CellContext`u], {$CellContext`u -> $CellContext`u1$$}], 
-             
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+ curve \
 of 1st test"], 
             Tooltip[
@@ -5297,6 +5406,7 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
        AutorunSequencing -> {1, 2, 6}, TrackedSymbols -> True, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{583., {246.875, 252.125}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -5529,7 +5639,7 @@ $CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->20269636,ExpressionUUID->"0f9a2c0b-ffae-4fb7-9edb-9d359b67bd47"],
+ CellID->505593734,ExpressionUUID->"e518ec17-9bf7-4dd6-97ba-59934fad2d5a"],
 
 Cell[BoxData[
  TagBox[
@@ -5570,13 +5680,8 @@ Cell[BoxData[
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`u1$$], 0.15, "first test"}, 0, 6, 0.01}, {{
        Hold[$CellContext`u2$$], 0.45, "second test"}, 0, 6, 0.01}}, 
-    Typeset`size$$ = Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = False, $CellContext`type$70636$$ = 
-    False, $CellContext`plot$70637$$ = False, $CellContext`vs$70638$$ = 
-    False, $CellContext`pd$70639$$ = 0, $CellContext`\[Mu]H$70640$$ = 
-    0, $CellContext`\[Sigma]H$70641$$ = 0, $CellContext`\[Mu]D$70642$$ = 
-    0, $CellContext`\[Sigma]D$70643$$ = 0, $CellContext`u1$70644$$ = 
-    0, $CellContext`u2$70645$$ = 0}, 
+    Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
@@ -5584,17 +5689,7 @@ Cell[BoxData[
         0.15, $CellContext`u2$$ = 0.45, $CellContext`vs$$ = 
         1, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
         0, $CellContext`\[Sigma]D$$ = 1., $CellContext`\[Sigma]H$$ = 1}, 
-      "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$70636$$, False], 
-        Hold[$CellContext`plot$$, $CellContext`plot$70637$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$70638$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$70639$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$70640$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$70641$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$70642$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$70643$$, 0], 
-        Hold[$CellContext`u1$$, $CellContext`u1$70644$$, 0], 
-        Hold[$CellContext`u2$$, $CellContext`u2$70645$$, 0]}, 
+      "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -5898,6 +5993,7 @@ of 1st test"],
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
 $CellContext`pd$$, $CellContext`u], $CellContext`u], {$CellContext`u -> \
 $CellContext`u2$$}], 
+             
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)PPV curve \
 of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1, 
            AxesLabel -> {
@@ -5966,7 +6062,6 @@ of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
                $CellContext`hplr[$CellContext`x, $CellContext`\[Mu]D$$, \
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
 $CellContext`u], $CellContext`u], {$CellContext`u -> $CellContext`u1$$}], 
-             
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+ curve \
 of 1st test"], 
             Tooltip[
@@ -6288,6 +6383,7 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
        AutorunSequencing -> {1, 2, 6}, TrackedSymbols -> True, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{583., {246.875, 252.125}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -6520,7 +6616,7 @@ $CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->26093593,ExpressionUUID->"4a31ad7a-74da-45b6-a94e-07ffcd6cdbff"],
+ CellID->1384841,ExpressionUUID->"690e6379-e8ec-4770-8c8f-e97016903800"],
 
 Cell[BoxData[
  TagBox[
@@ -6561,13 +6657,8 @@ Cell[BoxData[
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`u1$$], 0.15, "first test"}, 0, 6, 0.01}, {{
        Hold[$CellContext`u2$$], 0.45, "second test"}, 0, 6, 0.01}}, 
-    Typeset`size$$ = Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = False, $CellContext`type$70748$$ = 
-    False, $CellContext`plot$70749$$ = False, $CellContext`vs$70750$$ = 
-    False, $CellContext`pd$70751$$ = 0, $CellContext`\[Mu]H$70752$$ = 
-    0, $CellContext`\[Sigma]H$70753$$ = 0, $CellContext`\[Mu]D$70754$$ = 
-    0, $CellContext`\[Sigma]D$70755$$ = 0, $CellContext`u1$70756$$ = 
-    0, $CellContext`u2$70757$$ = 0}, 
+    Typeset`size$$ = {350., {185., 190.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`pd$$ = 0.05, $CellContext`plot$$ = 
@@ -6575,17 +6666,7 @@ Cell[BoxData[
         0.15, $CellContext`u2$$ = 0.45, $CellContext`vs$$ = 
         0, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
         0, $CellContext`\[Sigma]D$$ = 1., $CellContext`\[Sigma]H$$ = 1}, 
-      "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$70748$$, False], 
-        Hold[$CellContext`plot$$, $CellContext`plot$70749$$, False], 
-        Hold[$CellContext`vs$$, $CellContext`vs$70750$$, False], 
-        Hold[$CellContext`pd$$, $CellContext`pd$70751$$, 0], 
-        Hold[$CellContext`\[Mu]H$$, $CellContext`\[Mu]H$70752$$, 0], 
-        Hold[$CellContext`\[Sigma]H$$, $CellContext`\[Sigma]H$70753$$, 0], 
-        Hold[$CellContext`\[Mu]D$$, $CellContext`\[Mu]D$70754$$, 0], 
-        Hold[$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]D$70755$$, 0], 
-        Hold[$CellContext`u1$$, $CellContext`u1$70756$$, 0], 
-        Hold[$CellContext`u2$$, $CellContext`u2$70757$$, 0]}, 
+      "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -6889,6 +6970,7 @@ of 1st test"],
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
 $CellContext`pd$$, $CellContext`u], $CellContext`u], {$CellContext`u -> \
 $CellContext`u2$$}], 
+             
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)PPV curve \
 of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1, 
            AxesLabel -> {
@@ -6957,7 +7039,6 @@ of 2nd test"]}, {$CellContext`x, 0.001, 0.999}, AspectRatio -> 1,
                $CellContext`hplr[$CellContext`x, $CellContext`\[Mu]D$$, \
 $CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
 $CellContext`u], $CellContext`u], {$CellContext`u -> $CellContext`u1$$}], 
-             
              "\!\(\*FractionBox[\(\[PartialD]\), \(\[PartialD]u\)]\)LR+ curve \
 of 1st test"], 
             Tooltip[
@@ -7279,6 +7360,7 @@ $CellContext`u2$$], "LR- ratio curve"]}, {$CellContext`x, 0.001, 0.999},
        AutorunSequencing -> {1, 2, 6}, TrackedSymbols -> True, 
         ControlPlacement -> Left}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{583., {246.875, 252.125}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -7511,12 +7593,48 @@ $CellContext`u])/$CellContext`x}; Typeset`initDone$$ = True),
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->387541884,ExpressionUUID->"a1ebc484-04c7-4932-b9df-4c9794c44acc"]
+ CellID->75207861,ExpressionUUID->"0423c890-e76f-4b1b-89a6-fc9129583863"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "DetailsSection",ExpressionUUID->"f50deb5c-a9dc-4e57-a71c-5ce260f4892b"],
+Cell[TextData[{
+ "Details",
+ StyleBox[" (optional) ", "SectionGloss"],
+ Cell[BoxData[
+  TemplateBox[{"Details", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+        TextData[{
+         "This optional section is for a more detailed description of the \
+Demonstration than the caption, but it should still be as concise as \
+possible. This section may also include numbered snapshot captions (e.g., \
+Snapshot 1: phrase or sentence without an initial capital and without a \
+period, unless more than one sentence is used) and explanations of the ", 
+          StyleBox["Manipulate", "MRbig"], 
+          " control labels. Define any symbols undefined so far. Include only \
+text in this section \[LongDash] no code, graphics, etc. Do not change the \
+cell style or copy cells from other sections. \n\nA book reference uses this \
+format: \n    L. D. Schmidt, ", 
+          StyleBox[
+          "The Engineering of Chemical Reactions", FontSlant -> "Italic"], 
+          ", New York: Oxford University Press, 1998. \n\nAn article \
+reference uses this format: \n    D. Pearson, \"A Polynomial-Time Algorithm \
+for the Change-Making Problem,\" ", 
+          StyleBox["Operations Research Letters", FontSlant -> "Italic"], 
+          ", ", 
+          StyleBox["33", FontWeight -> "Bold"], 
+          "(3), 2005 pp. 231\[Dash]234."}], "MoreInfoText"], Background -> 
+       GrayLevel[0.95], FrameMargins -> 20, FrameStyle -> GrayLevel[0.9], 
+       RoundingRadius -> 5]], "MoreInfoText", Deletable -> True, 
+     CellTags -> {"SectionMoreInfoDefinition"}, 
+     CellMargins -> {{66, 66}, {15, 15}}]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "b42cafa3-93cc-45b2-9bce-00512b05ae14"]
+}], "DetailsSection",
+ CellTags->"Details",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa"],
 
 Cell[TextData[{
  "In addition to the receiver operating characteristic (ROC) curves, various \
@@ -7528,18 +7646,18 @@ specificity is the fraction of the nondiseased population with a negative \
 test. In addition, if we denote by ",
  Cell[BoxData[
   FormBox["sens", TraditionalForm]], "InlineMath",ExpressionUUID->
-  "823fb180-0494-4861-9c49-0d5648f75320"],
+  "43e85289-7cfc-4fab-9595-ec0ff705d8ea"],
  " the sensitivity",
  StyleBox[",",
   FontSize->11],
  " ",
  Cell[BoxData[
   FormBox["spec", TraditionalForm]], "InlineMath",ExpressionUUID->
-  "73509c5e-7dac-452c-a1ae-46b126c7b7b8"],
+  "9b7692e6-eb8c-4d3e-9047-d6d1b3652a6a"],
  " the specificity, and ",
  Cell[BoxData[
   FormBox["pr", TraditionalForm]], "InlineMath",ExpressionUUID->
-  "f81f0d22-bbe7-4b43-a0f4-96af1c201688"],
+  "aa8e45b7-2b50-4751-a101-48834185b63d"],
  " the prevalence, we have: \n",
  Cell[BoxData[
   FormBox[
@@ -7553,7 +7671,7 @@ test. In addition, if we denote by ",
         RowBox[{"1", "-", "spec"}], ")"}], 
        RowBox[{"(", 
         RowBox[{"1", "-", "pr"}], ")"}]}]}]]}], TraditionalForm]], 
-  "InlineMath",ExpressionUUID->"672ea11b-f982-4b62-8b77-c7b8b1bee6b4"],
+  "InlineMath",ExpressionUUID->"2fe11b3b-98cb-4c1d-900b-1ace2669c766"],
  ", ",
  Cell[BoxData[
   FormBox[
@@ -7567,7 +7685,7 @@ test. In addition, if we denote by ",
       RowBox[{
        RowBox[{"(", 
         RowBox[{"1", "-", "sens"}], ")"}], "pr"}]}]]}], TraditionalForm]], 
-  "InlineMath",ExpressionUUID->"3715b0c9-83cd-4c08-9e87-25d75de1b490"],
+  "InlineMath",ExpressionUUID->"f29045ae-7c4f-4725-850e-7814968b96c9"],
  ", ",
  Cell[BoxData[
   FormBox[
@@ -7577,7 +7695,7 @@ test. In addition, if we denote by ",
       RowBox[{"1", "-", "sens"}]], 
      FractionBox[
       RowBox[{"1", "-", "spec"}], "spec"]]}], TraditionalForm]], "InlineMath",
-  ExpressionUUID->"11fc0675-bc04-4672-8a6a-2209e7857080"],
+  ExpressionUUID->"384e663d-792e-48eb-bad9-f94c90843ba4"],
  ", ",
  Cell[BoxData[
   FormBox[
@@ -7588,7 +7706,7 @@ test. In addition, if we denote by ",
        FontFamily->"Times New Roman",
        FontSize->9], 
       RowBox[{"1", "-", "spec"}]]}]}], TraditionalForm]], "InlineMath",
-  ExpressionUUID->"754b5dd1-f588-41ac-a09e-3ecf87735969"],
+  ExpressionUUID->"9be100c7-f40d-4e35-91fc-7e1af5c5a854"],
  ", ",
  Cell[BoxData[
   FormBox[
@@ -7599,7 +7717,7 @@ test. In addition, if we denote by ",
        RowBox[{"1", "-", "sens"}],
        FontFamily->"Times New Roman",
        FontSize->9], "spec"]}]}], TraditionalForm]], "InlineMath",
-  ExpressionUUID->"91632b07-9692-436e-a53d-e10571785962"],
+  ExpressionUUID->"043709b0-9c6a-4d2a-8132-65b5dd92795c"],
  ".\nThis Demonstration could be useful in evaluating the maximum medically \
 permissible uncertainty of measurement of a diagnostic test. For example, in \
 the thumbnail and the snapshots the populations data describes a bimodal \
@@ -7618,32 +7736,59 @@ Distribution: Is It Universal?,\" ",
  CellChangeTimes->{
   3.7299997604229765`*^9, {3.7308669372741976`*^9, 3.730866937306204*^9}, {
    3.731164630218442*^9, 3.731164630272465*^9}},
- CellID->2279429,ExpressionUUID->"08db6d9f-02bb-4791-b5f0-800e73e57efc"]
+ CellID->2279429,ExpressionUUID->"7ac3b1e6-395d-4c2d-8d5e-00f0047e101f"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "ControlSuggestionsSection",ExpressionUUID->"bf1e9ab5-5853-418f-8cd9-fe53910f5931"],
+Cell[TextData[{
+ "Control Suggestions",
+ StyleBox[" (optional) ", "SectionGloss"],
+ Cell[BoxData[
+  TemplateBox[{"Control Suggestions", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+        TextData[{
+         "Check the boxes beside items that are appropriate control \
+suggestions for this Demonstration. For more information, see the ", 
+          ButtonBox[
+          "guidelines", 
+           BaseStyle -> {"Hyperlink", FontColor -> RGBColor[0.4, 0.45, 0.5]}, 
+           ButtonData -> {
+             URL["http://demonstrations.wolfram.com/guidelines.php"], None}], 
+          " page.", 
+          StyleBox["\n", FontSize -> 4]}], "MoreInfoText"], Background -> 
+       GrayLevel[0.95], FrameMargins -> 20, FrameStyle -> GrayLevel[0.9], 
+       RoundingRadius -> 5]], "MoreInfoText", Deletable -> True, 
+     CellTags -> {"SectionMoreInfoDefinition"}, 
+     CellMargins -> {{66, 66}, {15, 15}}]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "f1fe398c-f37e-4aca-9161-633bae63965a"]
+}], "ControlSuggestionsSection",
+ CellTags->
+  "Control Suggestions",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-\
+9fec786547ab"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[True], Cell[
-   " Resize Images",ExpressionUUID->"bad413b1-6ad2-4623-8c84-9f3aa05b9c00"]}],
+   " Resize Images",ExpressionUUID->"fcee1195-e255-4dbd-8863-4af840debdbd"]}],
   "\"Click inside an image to reveal its orange resize frame.\\nDrag any of \
-the orange resize handles to resize the image.\"",
-  TooltipDelay->0.35]], "ControlSuggestions",
- CellChangeTimes->{{3.7319783806274567`*^9, 3.7319783807604733`*^9}},
+the orange resize handles to resize the image.\""]], "ControlSuggestions",
+ CellChangeTimes->{{3.824025603351269*^9, 3.8240256035782614`*^9}},
  FontFamily->"Verdana",
  CellTags->
-  "ResizeImages",ExpressionUUID->"9d2877bb-f349-4016-9160-85df7282b8d6"],
+  "ResizeImages",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[False], Cell[
    " Rotate and Zoom in 3D",ExpressionUUID->
-    "6eafb392-e953-459f-9a54-c6e5f3031694"]}],
+    "df0b52c8-7325-4803-bb1e-958545cedfd1"]}],
   RowBox[{
    "\"Drag a 3D graphic to rotate it. Starting the drag near the center \
 tumbles\\nthe graphic; starting near a corner turns it parallel to the plane \
@@ -7653,33 +7798,32 @@ of the screen.\\nHold down \"",
      GrayLevel[0.9]], "\" (or \"", 
     FrameBox[
     "Cmd", Background -> GrayLevel[0.9], FrameMargins -> 2, FrameStyle -> 
-     GrayLevel[0.9]], "\" on Mac) and drag up and down to zoom.\""}],
-  TooltipDelay->0.35]], "ControlSuggestions",
+     GrayLevel[0.9]], 
+    "\" on Mac) and drag up and down to zoom.\""}]]], "ControlSuggestions",
  FontFamily->"Verdana",
  CellTags->
-  "RotateAndZoomIn3D",ExpressionUUID->"71379f17-d599-444e-a285-067d84a8b263"],
+  "RotateAndZoomIn3D",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[False], Cell[
-   " Drag Locators",ExpressionUUID->"cfc6af82-5fae-45ca-b292-ee56832b99b1"]}],
+   " Drag Locators",ExpressionUUID->"61b2b2a8-69c4-4012-b6da-8923112012e2"]}],
   RowBox[{"\"Drag any locator (\"", 
     GraphicsBox[
      LocatorBox[
       Scaled[{0.5, 0.5}]], ImageSize -> 20], 
-    "\", etc.) to move it around.\""}],
-  TooltipDelay->0.35]], "ControlSuggestions",
+    "\", etc.) to move it around.\""}]]], "ControlSuggestions",
  FontFamily->"Verdana",
  CellTags->
-  "DragLocators",ExpressionUUID->"364837e5-56c0-4603-8e49-4c4e8d2e6112"],
+  "DragLocators",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[False], Cell[
    " Create and Delete Locators",ExpressionUUID->
-    "cab4b924-8467-401d-8452-6a4333c1a195"]}],
+    "8e06b60e-3149-4a23-ab31-0a8ab2f5ceaf"]}],
   RowBox[{"\"Insert a new locator in the graphic by holding down the \"", 
     FrameBox[
     "Alt", Background -> GrayLevel[0.9], FrameMargins -> 2, FrameStyle -> 
@@ -7688,18 +7832,17 @@ Cell[BoxData[
 clicking it\\nwhile holding down the \"", 
     FrameBox[
     "Alt", Background -> GrayLevel[0.9], FrameMargins -> 2, FrameStyle -> 
-     GrayLevel[0.9]], "\" key.\""}],
-  TooltipDelay->0.35]], "ControlSuggestions",
+     GrayLevel[0.9]], "\" key.\""}]]], "ControlSuggestions",
  FontFamily->"Verdana",
  CellTags->
-  "CreateAndDeleteLocators",ExpressionUUID->"05952c11-938f-4966-a37f-\
-694577ffa7b4"],
+  "CreateAndDeleteLocators",ExpressionUUID->"98a81657-e34e-4dab-ac86-\
+717d7eff050a"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[True], Cell[
-   " Slider Zoom",ExpressionUUID->"2cf72249-9766-4645-af7b-6cb50aab8d9f"]}],
+   " Slider Zoom",ExpressionUUID->"c8d377e3-56fc-4adc-88e3-cf7642fb3181"]}],
   RowBox[{"\"Hold down the \"", 
     FrameBox[
     "Alt", Background -> GrayLevel[0.9], FrameMargins -> 2, FrameStyle -> 
@@ -7714,33 +7857,34 @@ value.\\nHold \"",
      GrayLevel[0.9]], "\" at the same time as \"", 
     FrameBox[
     "Alt", Background -> GrayLevel[0.9], FrameMargins -> 2, FrameStyle -> 
-     GrayLevel[0.9]], "\" to make ever finer adjustments.\""}],
-  TooltipDelay->0.35]], "ControlSuggestions",
- CellChangeTimes->{{3.731978387560685*^9, 3.7319783877027082`*^9}},
+     GrayLevel[0.9]], 
+    "\" to make ever finer adjustments.\""}]]], "ControlSuggestions",
+ CellChangeTimes->{{3.8240256069034615`*^9, 3.82402560706658*^9}},
  FontFamily->"Verdana",
  CellTags->
-  "SliderZoom",ExpressionUUID->"1cfb33c9-d7a5-4b98-ad16-962eaca8b0a5"],
+  "SliderZoom",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
-   CheckboxBox[False], Cell[
+   CheckboxBox[True], Cell[
    " Gamepad Controls",ExpressionUUID->
-    "012ae934-15df-43da-aa2b-2ec968a07025"]}],
+    "1fbb5ded-9a1c-4ba0-a087-0d1c0be219ce"]}],
   "\"Control this Demonstration with a gamepad or other\\nhuman interface \
-device connected to your computer.\"",
-  TooltipDelay->0.35]], "ControlSuggestions",
- CellChangeTimes->{3.35696210375764*^9, 3.3895522232313623`*^9},
+device connected to your computer.\""]], "ControlSuggestions",
+ CellChangeTimes->{
+  3.35696210375764*^9, 3.3895522232313623`*^9, {3.824025607861477*^9, 
+   3.8240256081065407`*^9}},
  FontFamily->"Verdana",
  CellTags->
-  "GamepadControls",ExpressionUUID->"ecba449e-9b6b-4649-92a7-1c7c870d529a"],
+  "GamepadControls",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
-   CheckboxBox[False], Cell[
+   CheckboxBox[True], Cell[
    " Automatic Animation",ExpressionUUID->
-    "5a811f91-e444-4b3e-b64f-896368e3f353"]}],
+    "ec8a5240-77b9-42a0-8b9e-365efb47dfeb"]}],
   RowBox[{"\"Animate a slider in this Demonstration by clicking the\"", 
     AdjustmentBox[
      Cell[
@@ -7765,18 +7909,18 @@ UqiK6pPe4XdEdAz6563tx/gejuORGMxJaz8mdpJn7hc="], "Graphics",
       ImageSize -> {10, 10}, ImageMargins -> 0, CellBaseline -> Baseline], 
      BoxBaselineShift -> 0.1839080459770115, 
      BoxMargins -> {{0., 0.}, {-0.1839080459770115, 0.1839080459770115}}], 
-    "\"menu.\""}],
-  TooltipDelay->0.35]], "ControlSuggestions",
+    "\"menu.\""}]]], "ControlSuggestions",
+ CellChangeTimes->{{3.8240256091605067`*^9, 3.8240256092845287`*^9}},
  FontFamily->"Verdana",
  CellTags->
-  "AutomaticAnimation",ExpressionUUID->"180dc38e-49b2-47da-87e3-5330ccd6071a"],
+  "AutomaticAnimation",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f"],
 
 Cell[BoxData[
  TooltipBox[
   RowBox[{
    CheckboxBox[False], Cell[
    " Bookmark Animation",ExpressionUUID->
-    "2ace7552-9794-489b-a442-71da944b6ea1"]}],
+    "5bdb2812-7da3-4bb1-a7fc-436054c40542"]}],
   RowBox[{
    "\"See a prepared animation of this Demonstration by selecting\\n\"", 
     StyleBox["Animate Bookmarks", FontWeight -> "Bold"], "\" from the\"", 
@@ -7791,88 +7935,167 @@ UqiK6pPe4XdEdAz6563tx/gejuORGMxJaz8mdpJn7hc="], "Graphics",
       ImageSize -> {10, 10}, ImageMargins -> 0, CellBaseline -> Baseline], 
      BoxBaselineShift -> 0.1839080459770115, 
      BoxMargins -> {{0., 0.}, {-0.1839080459770115, 0.1839080459770115}}], 
-    "\"menu.\""}],
-  TooltipDelay->0.35]], "ControlSuggestions",
+    "\"menu.\""}]]], "ControlSuggestions",
  FontFamily->"Verdana",
  CellTags->
-  "BookmarkAnimation",ExpressionUUID->"448e348a-59eb-48ed-ac08-79a8e3ab0a7e"]
+  "BookmarkAnimation",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["", "SearchTermsSection",ExpressionUUID->"7dd6f3d1-a7d3-482d-9bb2-51803c9daac9"],
+Cell[TextData[{
+ "Search Terms",
+ StyleBox[" (optional) ", "SectionGloss"],
+ Cell[BoxData[
+  TemplateBox[{"Search Terms", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+        TextData[{
+         "Provide words and phrases that people might search for, with each \
+one in a separate cell. Categories are added after the Demonstration is \
+submitted, so the best things to enter here are terms (including any \
+synonyms) that refer to specific parts of the Demonstration. Do not \
+capitalize words unless they are proper names or proper adjectives.", 
+          StyleBox["\n", FontSize -> 4]}], "MoreInfoText"], Background -> 
+       GrayLevel[0.95], FrameMargins -> 20, FrameStyle -> GrayLevel[0.9], 
+       RoundingRadius -> 5]], "MoreInfoText", Deletable -> True, 
+     CellTags -> {"SectionMoreInfoDefinition"}, 
+     CellMargins -> {{66, 66}, {15, 15}}]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "b8b4550c-a7c1-4c5e-acf4-64f68ac8ea51"]
+}], "SearchTermsSection",
+ CellTags->
+  "Search Terms",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b"],
 
 Cell["uncertainty of measurement", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408180771871*^9}},
- CellID->957468028,ExpressionUUID->"3f264cad-a967-46d3-a058-801e20af7b76"],
+ CellID->957468028,ExpressionUUID->"70b005e9-e897-4e6b-b2c5-38acc5132993"],
 
 Cell["sensitivity", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408180771871*^9}},
- CellID->569163635,ExpressionUUID->"ff1bd6b9-8bf0-4a3f-9bd4-e7f64cedcb70"],
+ CellID->569163635,ExpressionUUID->"5a71e6e8-5156-4f36-a9c1-ca67dabdf1e1"],
 
 Cell["specificity", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408179320838*^9}},
- CellID->400091656,ExpressionUUID->"5503c2fd-9906-45e8-8007-f1bf5a0fd9c9"],
+ CellID->400091656,ExpressionUUID->"65206570-764f-4420-858f-1bca2b8dc072"],
 
 Cell["diagnostic test", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.5594081777351503`*^9}},
- CellID->571680962,ExpressionUUID->"1c4d66de-4067-4a9f-a4ea-581f0adbacb3"],
+ CellID->571680962,ExpressionUUID->"953aba0a-dee9-4522-812d-2116c16f5a61"],
 
 Cell["clinical accuracy", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408176339293*^9}},
- CellID->1626203133,ExpressionUUID->"bb4c4738-189b-4eb9-8fea-73f75985a441"],
+ CellID->1626203133,ExpressionUUID->"24a34816-6296-4532-abd0-afca99b85aa6"],
 
 Cell["diagnostic accuracy", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.55940817512402*^9}},
- CellID->843271898,ExpressionUUID->"a6aacee2-5d14-433c-9857-159d42573aaf"],
+ CellID->843271898,ExpressionUUID->"4f945d4d-6bf2-40bd-b00a-f0f2f58a0f5e"],
 
 Cell["permissible uncertainty", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.5594081739879*^9}},
- CellID->296995018,ExpressionUUID->"c8015d1c-1f10-4307-8357-2dbf5ccb887a"],
+ CellID->296995018,ExpressionUUID->"94a1ecf2-9eb3-4d87-832a-e1fc0b9984bc"],
 
 Cell["normal distribution", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408172796143*^9}},
- CellID->1104872261,ExpressionUUID->"af212187-19b1-408c-9500-5b3bf2bbc7ee"],
+ CellID->1104872261,ExpressionUUID->"43be815a-0787-40eb-8467-87e91ec92fe9"],
 
 Cell["binormal distribution", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408171333458*^9}},
- CellID->175881619,ExpressionUUID->"7a2eaca7-78a4-4a60-bd3a-de0285a2a085"],
+ CellID->175881619,ExpressionUUID->"15bbcaf7-bc09-4489-9804-144b39da8469"],
 
 Cell["positive predictive value", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408170152647*^9}},
- CellID->1287452913,ExpressionUUID->"7e0cb025-3372-490c-a9a1-313463505c5d"],
+ CellID->1287452913,ExpressionUUID->"051931fd-f623-452e-93f2-e0a45594854c"],
 
 Cell["negative predictive value", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408168846698*^9}},
- CellID->851812545,ExpressionUUID->"8aea3149-6613-418b-a230-53a81df6014f"],
+ CellID->851812545,ExpressionUUID->"35e32d16-f170-484f-ad23-f687c0570317"],
 
 Cell["likelihood ratio", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, {3.55940816323387*^9, 3.559408166821538*^9}},
- CellID->194649218,ExpressionUUID->"1d942243-7fd7-4771-8450-c0ed6e47d391"],
+ CellID->194649218,ExpressionUUID->"5d9ab809-d429-40af-a88f-af04b5b5d6e0"],
 
 Cell["odds ratio", "SearchTerms",
  CellChangeTimes->{{3.5512683126107016`*^9, 3.551268314021702*^9}, 
    3.5512684091757016`*^9, 3.55940816323387*^9},
- CellID->1257427335,ExpressionUUID->"c7c5e208-b232-4a94-ae5e-f7114082d49c"]
+ CellID->1257427335,ExpressionUUID->"361f3f57-0143-4ebe-88ef-6d8a9b2c98ed"]
 }, Open  ]],
 
-Cell["", "RelatedLinksSection",ExpressionUUID->"6cff92d8-e71d-4679-b34c-72b199722830"],
+Cell[TextData[{
+ "Related Links",
+ StyleBox[" (optional) ", "SectionGloss"],
+ Cell[BoxData[
+  TemplateBox[{"Related Links", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+        TextData[{
+         "Provide hyperlinks (not just bare URLs) to any relevant wolfram.com \
+pages, with the page title as the linked text. Links to ", 
+          ButtonBox[
+          "NKS | Online", 
+           BaseStyle -> {"Hyperlink", FontColor -> RGBColor[0.4, 0.45, 0.5]}, 
+           ButtonData -> {
+             URL["http://www.wolframscience.com/nks"], None}], 
+          " should use the section title, not a page number. Links to \
+non-Wolfram sites go in the Details section.", 
+          StyleBox["\n", FontSize -> 4]}], "MoreInfoText"], Background -> 
+       GrayLevel[0.95], FrameMargins -> 20, FrameStyle -> GrayLevel[0.9], 
+       RoundingRadius -> 5]], "MoreInfoText", Deletable -> True, 
+     CellTags -> {"SectionMoreInfoDefinition"}, 
+     CellMargins -> {{66, 66}, {15, 15}}]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "d5b26c0d-c135-41cd-9d97-dc9003b05c57"]
+}], "RelatedLinksSection",
+ CellTags->
+  "Related Links",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe"],
 
 Cell[CellGroupData[{
 
-Cell["", "AuthorSection",ExpressionUUID->"364d83ea-c103-4fc9-879e-7867523d5cf6"],
+Cell[TextData[{
+ "Authoring Information",
+ Cell[BoxData[
+  TemplateBox[{"Authoring Information", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+        TextData[{
+         "'Contributed by: John Smith' for single authors; 'Contributed by: \
+John Smith, Robert Ford, and Jane Doe' for multiple authors. To credit people \
+other than Demonstrations authors, please see the detailed ", 
+          ButtonBox[
+          "guidelines", 
+           BaseStyle -> {"Hyperlink", FontColor -> RGBColor[0.4, 0.45, 0.5]}, 
+           ButtonData -> {
+             URL["http://demonstrations.wolfram.com/guidelines.php"], None}], 
+          ".", 
+          StyleBox["\n", FontSize -> 4]}], "MoreInfoText"], Background -> 
+       GrayLevel[0.95], FrameMargins -> 20, FrameStyle -> GrayLevel[0.9], 
+       RoundingRadius -> 5]], "MoreInfoText", Deletable -> True, 
+     CellTags -> {"SectionMoreInfoDefinition"}, 
+     CellMargins -> {{66, 66}, {15, 15}}]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "990970f3-a922-4bea-919a-d6fa2da1f6d5"]
+}], "AuthorSection",
+ CellTags->
+  "Authoring \
+Information",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a"],
 
 Cell[TextData[{
  "Contributed by: ",
@@ -7888,170 +8111,256 @@ Hatjimihail"]
  CellChangeTimes->{
   3.5512681851127014`*^9, {3.559408192392984*^9, 3.559408220033448*^9}, 
    3.6463964410582733`*^9},
- CellID->771419087,ExpressionUUID->"2df55470-884e-48fe-9e16-6012b9a2261c"],
+ CellID->771419087,ExpressionUUID->"aa4bb79c-3c2f-44b7-b8a7-430ba95b8900"],
 
 Cell["(Hellenic Complex Systems Laboratory)", "Author",
  CellChangeTimes->{3.5512681851127014`*^9, 3.559408192392984*^9},
- CellID->1041049707,ExpressionUUID->"89bd9192-1001-4a0f-bc24-7f9e2ee26492"]
+ CellID->1041049707,ExpressionUUID->"9abb6666-3458-426b-aa0c-fdedb093c0dd"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1280, 941},
-WindowMargins->{{1272, Automatic}, {Automatic, -8}},
-FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+ScreenStyleEnvironment->"DemonstrationSource",
+WindowSize->{718.5, 742.875},
+WindowMargins->{{Automatic, -4.125}, {Automatic, 0}},
+TaggingRules->{
+ "DocuToolsSettingsInternal" -> {
+   "$PacletVersion" -> "0.10.2121", "$MVersion" -> "12", "$FlaggedVersion" -> 
+    11.3, "$ApplicationName" -> "Pubs", "$LinkBase" -> "Pubs", 
+    "$ApplicationDirectory" -> "C:\\Users\\jayw\\Desktop\\CVSTree\\Pubs\\", 
+    "$DocumentationDirectory" -> 
+    "C:\\Users\\jayw\\Desktop\\CVSTree\\Pubs\\Documentation\\English\\", 
+    "$UseNewPageDialog" -> "False", "$CondensedBlogMenus" -> "True"}, 
+  "PresenterSettings" -> {
+   "OutlineThumbnails" -> {"1" -> "Thumbnail"}, 
+    "OutlinePalette" -> {"Thumbnails" -> {}, "ThumbnailMagnification" -> 0.8},
+     "SideNotesPalette" -> {"PaletteNumber" -> 0}}, "BlogsDirectory" -> 
+  "\\\\wrisync02.wri.wolfram.com\\backup$\\jayw\\My \
+Documents\\jaywstasks\\BlogTools\\Blogs\\", "ChatNotebookID" -> 
+  "fef9786d-4748-42a0-a328-5496e837f205", "Originator" -> 
+  "chatframework@wolfram.com", "ScreenName" -> "", "ChatCreationDate" -> 
+  "DateObject[{2018, 6, 18, 13, 5, 54.5673134}, Instant, Gregorian, -5.]", 
+  "CustomWindowTitle" -> "None", "ChatNotebookDate" -> "18 Jun 2018 13:05:54",
+   "ChatNotebookWindowTitle" -> "chatframework's Chat - (18 Jun 2018 13:05)", 
+  "Participants" -> {"chatframework@wolfram.com", "wan4ren2jie2@gmail.com"}, 
+  "AllParticipants" -> {
+   "chatframework@wolfram.com", "wan4ren2jie2@gmail.com"}, 
+  "Contacts" -> {
+   "andre@wolfram.com", "bradym@wolfram.com", "brianv@wolfram.com", 
+    "jayw@wolfram.com", "wan4ren2jie2@gmail.com"}, 
+  "EmailListData" -> {0, 0, 0, 0, 1}, "ScrollLock" -> False, "Terminated" -> 
+  True, "QuestionState" -> "Timeup", 
+  "AttachedCells" -> {
+   "Initialization Code" -> None, "Manipulate" -> None, "Caption" -> None, 
+    "Snapshots" -> None, "Details" -> None, "Related Links" -> None, 
+    "Search Terms" -> None, "Control Suggestions" -> None, "Thumbnail" -> 
+    None, "Authoring Information" -> None}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Demonstration.nb", 
-  CharacterEncoding -> "UTF-8"]
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"95a77eea-b645-4994-a2ef-0e000eb41860"
 ]
 (* End of Notebook Content *)
 
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
+ "Initialization Code"->{
+  Cell[785, 29, 1833, 39, 67, "InitializationSection",ExpressionUUID->"1d34a731-8c48-4189-8b6f-89ef5777db9f",
+   CellTags->"Initialization Code"]},
+ "Manipulate"->{
+  Cell[17810, 415, 1524, 30, 67, "ManipulateSection",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587",
+   CellTags->"Manipulate"]},
+ "Caption"->{
+  Cell[168769, 3571, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
+   CellTags->"Caption"]},
+ "Thumbnail"->{
+  Cell[171433, 3623, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
+   CellTags->"Thumbnail"]},
+ "Snapshots"->{
+  Cell[223017, 4642, 1018, 22, 67, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
+   CellTags->"Snapshots"]},
+ "Details"->{
+  Cell[372431, 7600, 1796, 36, 67, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
+   CellTags->"Details"]},
+ "Control Suggestions"->{
+  Cell[377952, 7743, 1131, 28, 67, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
+   CellTags->"Control Suggestions"]},
  "ResizeImages"->{
-  Cell[374017, 7627, 498, 11, 22, "ControlSuggestions",ExpressionUUID->"9d2877bb-f349-4016-9160-85df7282b8d6",
+  Cell[379086, 7773, 474, 10, 24, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
    CellTags->"ResizeImages"]},
  "RotateAndZoomIn3D"->{
-  Cell[374518, 7640, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"71379f17-d599-444e-a285-067d84a8b263",
+  Cell[379563, 7785, 783, 19, 24, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
    CellTags->"RotateAndZoomIn3D"]},
  "DragLocators"->{
-  Cell[375321, 7661, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"364837e5-56c0-4603-8e49-4c4e8d2e6112",
+  Cell[380349, 7806, 435, 12, 24, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
    CellTags->"DragLocators"]},
  "CreateAndDeleteLocators"->{
-  Cell[375781, 7676, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"05952c11-938f-4966-a37f-694577ffa7b4",
+  Cell[380787, 7820, 739, 18, 24, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
    CellTags->"CreateAndDeleteLocators"]},
  "SliderZoom"->{
-  Cell[376545, 7697, 1028, 24, 22, "ControlSuggestions",ExpressionUUID->"1cfb33c9-d7a5-4b98-ad16-962eaca8b0a5",
+  Cell[381529, 7840, 1010, 24, 24, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
    CellTags->"SliderZoom"]},
  "GamepadControls"->{
-  Cell[377576, 7723, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"ecba449e-9b6b-4649-92a7-1c7c870d529a",
+  Cell[382542, 7866, 523, 13, 24, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
    CellTags->"GamepadControls"]},
  "AutomaticAnimation"->{
-  Cell[378070, 7737, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"180dc38e-49b2-47da-87e3-5330ccd6071a",
+  Cell[383068, 7881, 1633, 34, 24, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
    CellTags->"AutomaticAnimation"]},
  "BookmarkAnimation"->{
-  Cell[379659, 7773, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"448e348a-59eb-48ed-ac08-79a8e3ab0a7e",
-   CellTags->"BookmarkAnimation"]}
+  Cell[384704, 7917, 1008, 23, 24, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
+   CellTags->"BookmarkAnimation"]},
+ "Search Terms"->{
+  Cell[385749, 7945, 1073, 24, 67, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
+   CellTags->"Search Terms"]},
+ "Related Links"->{
+  Cell[390200, 8037, 1191, 28, 67, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
+   CellTags->"Related Links"]},
+ "Authoring Information"->{
+  Cell[391416, 8069, 1158, 28, 67, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
+   CellTags->"Authoring Information"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ResizeImages", 385508, 7909},
- {"RotateAndZoomIn3D", 385674, 7912},
- {"DragLocators", 385840, 7915},
- {"CreateAndDeleteLocators", 386012, 7918},
- {"SliderZoom", 386182, 7921},
- {"GamepadControls", 386345, 7924},
- {"AutomaticAnimation", 386515, 7927},
- {"BookmarkAnimation", 386688, 7930}
+ {"Initialization Code", 395692, 8166},
+ {"Manipulate", 395857, 8169},
+ {"Caption", 396009, 8172},
+ {"Thumbnail", 396169, 8175},
+ {"Snapshots", 396323, 8178},
+ {"Details", 396475, 8181},
+ {"Control Suggestions", 396635, 8184},
+ {"ResizeImages", 396811, 8187},
+ {"RotateAndZoomIn3D", 396977, 8190},
+ {"DragLocators", 397143, 8193},
+ {"CreateAndDeleteLocators", 397315, 8196},
+ {"SliderZoom", 397485, 8199},
+ {"GamepadControls", 397648, 8202},
+ {"AutomaticAnimation", 397818, 8205},
+ {"BookmarkAnimation", 397991, 8208},
+ {"Search Terms", 398158, 8211},
+ {"Related Links", 398321, 8214},
+ {"Authoring Information", 398494, 8217}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 186, 4, 74, "DemoTitle",ExpressionUUID->"46cebb3b-2d7f-4773-b6c4-c596a188fe95"],
+Cell[580, 22, 180, 3, 160, "Title",ExpressionUUID->"b9e6fe14-67c5-4f7d-9ec0-13c361826e91"],
 Cell[CellGroupData[{
-Cell[791, 30, 88, 0, 275, "InitializationSection",ExpressionUUID->"f6ba02ac-21ff-4ce8-bb5d-c191854c4264"],
-Cell[882, 32, 5140, 97, 154, "Input",ExpressionUUID->"52eeb104-8a8f-497a-a326-6a999813b4a2",
+Cell[785, 29, 1833, 39, 67, "InitializationSection",ExpressionUUID->"1d34a731-8c48-4189-8b6f-89ef5777db9f",
+ CellTags->"Initialization Code"],
+Cell[2621, 70, 5139, 97, 189, "Input",ExpressionUUID->"06019e67-29bb-4dc6-bbd8-a1af5c292c46",
  InitializationCell->True,
  CellID->517742995],
-Cell[6025, 131, 6688, 141, 326, "Input",ExpressionUUID->"acd3bb54-c787-483c-b249-bf304e48cb44",
+Cell[7763, 169, 6687, 141, 276, "Input",ExpressionUUID->"029346d8-1fa0-41e9-b196-d34c370382ad",
  InitializationCell->True,
  CellID->227297142],
-Cell[12716, 274, 3321, 98, 308, "Input",ExpressionUUID->"08292171-70a3-496b-8b0a-859fb888fb05",
+Cell[14453, 312, 3320, 98, 254, "Input",ExpressionUUID->"197f2189-de33-4c5e-9bc8-65441bdbcd42",
  InitializationCell->True,
  CellID->49098865]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[16074, 377, 84, 0, 231, "ManipulateSection",ExpressionUUID->"7371d764-fbb0-4f70-9977-3741a4a02a53"],
+Cell[17810, 415, 1524, 30, 67, "ManipulateSection",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587",
+ CellTags->"Manipulate"],
 Cell[CellGroupData[{
-Cell[16183, 381, 99888, 2138, 4818, "Input",ExpressionUUID->"762bbc7d-4288-4d2e-8377-37d7dbcc4bb4",
+Cell[19359, 449, 99912, 2139, 5978, "Input",ExpressionUUID->"08860bec-ad83-44a1-8ad8-476b7ffea812",
  CellID->4362360],
-Cell[116074, 2521, 50422, 989, 38, "Output",ExpressionUUID->"3c95a8f7-26da-4d5d-b0b4-063468071c47",
- CellID->653457212]
+Cell[119274, 2590, 49446, 975, 511, "Output",ExpressionUUID->"47210e06-d3f2-434e-ac74-a9562cba61c3",
+ CellID->62683277]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[166545, 3516, 91, 0, 169, "ManipulateCaptionSection",ExpressionUUID->"13a991df-fb30-4f6d-8ee0-189ba9c3619d"],
-Cell[166639, 3518, 1486, 21, 116, "SnapshotCaption",ExpressionUUID->"87c35a4a-5b83-40e2-97d3-f5f35b68fe27",
+Cell[168769, 3571, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
+ CellTags->"Caption"],
+Cell[169910, 3597, 1486, 21, 203, "SnapshotCaption",ExpressionUUID->"d56fc4b0-3849-413a-815f-d52d25958947",
  CellID->28774143]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[168162, 3544, 83, 0, 172, "ThumbnailSection",ExpressionUUID->"7ee985da-31bb-43e5-9a32-ff547945e4ce"],
-Cell[168248, 3546, 50426, 989, 38, "Output",ExpressionUUID->"48a33b2d-159c-4ad9-ba45-d236fb9a3517",
- CellID->110978514]
+Cell[171433, 3623, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
+ CellTags->"Thumbnail"],
+Cell[172441, 3647, 50539, 990, 512, InheritFromParent,ExpressionUUID->"f9ab3f1f-54e7-4035-ad38-988013e41bb8",
+ CellID->574808109]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[218711, 4540, 83, 0, 142, "SnapshotsSection",ExpressionUUID->"9c68b9a7-e670-4516-a960-013a9534866e"],
-Cell[218797, 4542, 50425, 989, 38, "Output",ExpressionUUID->"0f9a2c0b-ffae-4fb7-9edb-9d359b67bd47",
- CellID->20269636],
-Cell[269225, 5533, 50425, 989, 38, "Output",ExpressionUUID->"4a31ad7a-74da-45b6-a94e-07ffcd6cdbff",
- CellID->26093593],
-Cell[319653, 6524, 50426, 989, 38, "Output",ExpressionUUID->"a1ebc484-04c7-4932-b9df-4c9794c44acc",
- CellID->387541884]
+Cell[223017, 4642, 1018, 22, 67, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
+ CellTags->"Snapshots"],
+Cell[224038, 4666, 49451, 975, 511, "Output",ExpressionUUID->"e518ec17-9bf7-4dd6-97ba-59934fad2d5a",
+ CellID->505593734],
+Cell[273492, 5643, 49449, 975, 511, "Output",ExpressionUUID->"690e6379-e8ec-4770-8c8f-e97016903800",
+ CellID->1384841],
+Cell[322944, 6620, 49450, 975, 511, "Output",ExpressionUUID->"0423c890-e76f-4b1b-89a6-fc9129583863",
+ CellID->75207861]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[370116, 7518, 81, 0, 339, "DetailsSection",ExpressionUUID->"f50deb5c-a9dc-4e57-a71c-5ce260f4892b"],
-Cell[370200, 7520, 3685, 100, 177, "DetailNotes",ExpressionUUID->"08db6d9f-02bb-4791-b5f0-800e73e57efc",
+Cell[372431, 7600, 1796, 36, 67, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
+ CellTags->"Details"],
+Cell[374230, 7638, 3685, 100, 271, "DetailNotes",ExpressionUUID->"7ac3b1e6-395d-4c2d-8d5e-00f0047e101f",
  CellID->2279429]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[373922, 7625, 92, 0, 126, "ControlSuggestionsSection",ExpressionUUID->"bf1e9ab5-5853-418f-8cd9-fe53910f5931"],
-Cell[374017, 7627, 498, 11, 22, "ControlSuggestions",ExpressionUUID->"9d2877bb-f349-4016-9160-85df7282b8d6",
+Cell[377952, 7743, 1131, 28, 67, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
+ CellTags->"Control Suggestions"],
+Cell[379086, 7773, 474, 10, 24, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
  CellTags->"ResizeImages"],
-Cell[374518, 7640, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"71379f17-d599-444e-a285-067d84a8b263",
+Cell[379563, 7785, 783, 19, 24, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
  CellTags->"RotateAndZoomIn3D"],
-Cell[375321, 7661, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"364837e5-56c0-4603-8e49-4c4e8d2e6112",
+Cell[380349, 7806, 435, 12, 24, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
  CellTags->"DragLocators"],
-Cell[375781, 7676, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"05952c11-938f-4966-a37f-694577ffa7b4",
+Cell[380787, 7820, 739, 18, 24, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
  CellTags->"CreateAndDeleteLocators"],
-Cell[376545, 7697, 1028, 24, 22, "ControlSuggestions",ExpressionUUID->"1cfb33c9-d7a5-4b98-ad16-962eaca8b0a5",
+Cell[381529, 7840, 1010, 24, 24, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
  CellTags->"SliderZoom"],
-Cell[377576, 7723, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"ecba449e-9b6b-4649-92a7-1c7c870d529a",
+Cell[382542, 7866, 523, 13, 24, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
  CellTags->"GamepadControls"],
-Cell[378070, 7737, 1586, 34, 22, "ControlSuggestions",ExpressionUUID->"180dc38e-49b2-47da-87e3-5330ccd6071a",
+Cell[383068, 7881, 1633, 34, 24, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
  CellTags->"AutomaticAnimation"],
-Cell[379659, 7773, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"448e348a-59eb-48ed-ac08-79a8e3ab0a7e",
+Cell[384704, 7917, 1008, 23, 24, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
  CellTags->"BookmarkAnimation"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[380726, 7802, 85, 0, 158, "SearchTermsSection",ExpressionUUID->"7dd6f3d1-a7d3-482d-9bb2-51803c9daac9"],
-Cell[380814, 7804, 265, 3, 22, "SearchTerms",ExpressionUUID->"3f264cad-a967-46d3-a058-801e20af7b76",
+Cell[385749, 7945, 1073, 24, 67, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
+ CellTags->"Search Terms"],
+Cell[386825, 7971, 265, 3, 23, "SearchTerms",ExpressionUUID->"70b005e9-e897-4e6b-b2c5-38acc5132993",
  CellID->957468028],
-Cell[381082, 7809, 250, 3, 22, "SearchTerms",ExpressionUUID->"ff1bd6b9-8bf0-4a3f-9bd4-e7f64cedcb70",
+Cell[387093, 7976, 250, 3, 23, "SearchTerms",ExpressionUUID->"5a71e6e8-5156-4f36-a9c1-ca67dabdf1e1",
  CellID->569163635],
-Cell[381335, 7814, 250, 3, 22, "SearchTerms",ExpressionUUID->"5503c2fd-9906-45e8-8007-f1bf5a0fd9c9",
+Cell[387346, 7981, 250, 3, 23, "SearchTerms",ExpressionUUID->"65206570-764f-4420-858f-1bca2b8dc072",
  CellID->400091656],
-Cell[381588, 7819, 256, 3, 22, "SearchTerms",ExpressionUUID->"1c4d66de-4067-4a9f-a4ea-581f0adbacb3",
+Cell[387599, 7986, 256, 3, 23, "SearchTerms",ExpressionUUID->"953aba0a-dee9-4522-812d-2116c16f5a61",
  CellID->571680962],
-Cell[381847, 7824, 257, 3, 22, "SearchTerms",ExpressionUUID->"bb4c4738-189b-4eb9-8fea-73f75985a441",
+Cell[387858, 7991, 257, 3, 23, "SearchTerms",ExpressionUUID->"24a34816-6296-4532-abd0-afca99b85aa6",
  CellID->1626203133],
-Cell[382107, 7829, 257, 3, 22, "SearchTerms",ExpressionUUID->"a6aacee2-5d14-433c-9857-159d42573aaf",
+Cell[388118, 7996, 257, 3, 23, "SearchTerms",ExpressionUUID->"4f945d4d-6bf2-40bd-b00a-f0f2f58a0f5e",
  CellID->843271898],
-Cell[382367, 7834, 260, 3, 22, "SearchTerms",ExpressionUUID->"c8015d1c-1f10-4307-8357-2dbf5ccb887a",
+Cell[388378, 8001, 260, 3, 23, "SearchTerms",ExpressionUUID->"94a1ecf2-9eb3-4d87-832a-e1fc0b9984bc",
  CellID->296995018],
-Cell[382630, 7839, 259, 3, 22, "SearchTerms",ExpressionUUID->"af212187-19b1-408c-9500-5b3bf2bbc7ee",
+Cell[388641, 8006, 259, 3, 23, "SearchTerms",ExpressionUUID->"43be815a-0787-40eb-8467-87e91ec92fe9",
  CellID->1104872261],
-Cell[382892, 7844, 260, 3, 22, "SearchTerms",ExpressionUUID->"7a2eaca7-78a4-4a60-bd3a-de0285a2a085",
+Cell[388903, 8011, 260, 3, 23, "SearchTerms",ExpressionUUID->"15bbcaf7-bc09-4489-9804-144b39da8469",
  CellID->175881619],
-Cell[383155, 7849, 265, 3, 22, "SearchTerms",ExpressionUUID->"7e0cb025-3372-490c-a9a1-313463505c5d",
+Cell[389166, 8016, 265, 3, 23, "SearchTerms",ExpressionUUID->"051931fd-f623-452e-93f2-e0a45594854c",
  CellID->1287452913],
-Cell[383423, 7854, 264, 3, 22, "SearchTerms",ExpressionUUID->"8aea3149-6613-418b-a230-53a81df6014f",
+Cell[389434, 8021, 264, 3, 23, "SearchTerms",ExpressionUUID->"35e32d16-f170-484f-ad23-f687c0570317",
  CellID->851812545],
-Cell[383690, 7859, 255, 3, 22, "SearchTerms",ExpressionUUID->"1d942243-7fd7-4771-8450-c0ed6e47d391",
+Cell[389701, 8026, 255, 3, 23, "SearchTerms",ExpressionUUID->"5d9ab809-d429-40af-a88f-af04b5b5d6e0",
  CellID->194649218],
-Cell[383948, 7864, 226, 3, 22, "SearchTerms",ExpressionUUID->"c7c5e208-b232-4a94-ae5e-f7114082d49c",
+Cell[389959, 8031, 226, 3, 23, "SearchTerms",ExpressionUUID->"361f3f57-0143-4ebe-88ef-6d8a9b2c98ed",
  CellID->1257427335]
 }, Open  ]],
-Cell[384189, 7870, 86, 0, 143, "RelatedLinksSection",ExpressionUUID->"6cff92d8-e71d-4679-b34c-72b199722830"],
+Cell[390200, 8037, 1191, 28, 67, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
+ CellTags->"Related Links"],
 Cell[CellGroupData[{
-Cell[384300, 7874, 80, 0, 129, "AuthorSection",ExpressionUUID->"364d83ea-c103-4fc9-879e-7867523d5cf6"],
-Cell[384383, 7876, 527, 14, 22, "Author",ExpressionUUID->"2df55470-884e-48fe-9e16-6012b9a2261c",
+Cell[391416, 8069, 1158, 28, 67, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
+ CellTags->"Authoring Information"],
+Cell[392577, 8099, 527, 14, 23, "Author",ExpressionUUID->"aa4bb79c-3c2f-44b7-b8a7-430ba95b8900",
  CellID->771419087],
-Cell[384913, 7892, 197, 2, 22, "Author",ExpressionUUID->"89bd9192-1001-4a0f-bc24-7f9e2ee26492",
+Cell[393107, 8115, 197, 2, 23, "Author",ExpressionUUID->"9abb6666-3458-426b-aa0c-fdedb093c0dd",
  CellID->1041049707]
 }, Open  ]]
 }, Open  ]]
 }
 ]
 *)
+
+(* End of internal cache information *)
 

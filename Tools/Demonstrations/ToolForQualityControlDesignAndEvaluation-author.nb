@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       145,          7]
-NotebookDataLength[    244592,       5091]
-NotebookOptionsPosition[    235517,       4919]
-NotebookOutlinePosition[    237574,       4969]
-CellTagsIndexPosition[    237238,       4957]
+NotebookDataLength[    243064,       5083]
+NotebookOptionsPosition[    233923,       4910]
+NotebookOutlinePosition[    236048,       4961]
+CellTagsIndexPosition[    235712,       4949]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1070,8 +1070,8 @@ detection\>\"", ",",
               RowBox[{"{", 
                RowBox[{
                 RowBox[{"{", 
-                 RowBox[{"\"\<fraction nonconforming\>\"", ",", "fn"}], "}"}],
-                 ",", 
+                 RowBox[{"\"\<fraction nonconforming = \>\"", "<>", 
+                  RowBox[{"ToString", "[", "fn", "]"}]}], "}"}], ",", 
                 RowBox[{"{", 
                  RowBox[{"Style", "[", 
                   RowBox[{
@@ -1084,29 +1084,53 @@ detection\>\"", ",",
            RowBox[{"ImageSize", "\[Rule]", 
             RowBox[{"{", 
              RowBox[{"500", ",", "250"}], "}"}]}]}], "]"}], ",", 
-         RowBox[{"Pane", "[", 
+         RowBox[{"If", " ", "[", 
           RowBox[{
-           RowBox[{"Text", "@", 
-            RowBox[{"Grid", "[", 
-             RowBox[{
-              RowBox[{"{", 
+           RowBox[{"fn", ">", "0"}], ",", " ", 
+           RowBox[{"Pane", "[", 
+            RowBox[{
+             RowBox[{"Text", "@", 
+              RowBox[{"Grid", "[", 
                RowBox[{
-                RowBox[{
-                "{", "\"\<fraction nonconforming < \
-\!\(\*SuperscriptBox[\(10\), \(-100\)]\)\>\"", "}"}], ",", 
                 RowBox[{"{", 
-                 RowBox[{"Style", "[", 
+                 RowBox[{
                   RowBox[{
-                  "\"\<The fraction nonconforming is too small for this \
+                  "{", "\"\<fraction nonconforming < \
+\!\(\*SuperscriptBox[\(10\), \(-100\)]\)\>\"", "}"}], ",", 
+                  RowBox[{"{", 
+                   RowBox[{"Style", "[", 
+                    RowBox[{
+                    "\"\<the fraction nonconforming is too small for this \
 Demonstration.\>\"", ",", "Bold", ",", "Red", ",", " ", "Larger"}], "]"}], 
-                 "}"}]}], "}"}], ",", 
-              RowBox[{"Alignment", "\[Rule]", 
-               RowBox[{"{", 
-                RowBox[{"Left", ",", "Left"}], "}"}]}]}], "]"}]}], ",", 
-           RowBox[{"ImageSize", "\[Rule]", 
-            RowBox[{"{", 
-             RowBox[{"500", ",", "250"}], "}"}]}]}], "]"}]}], "]"}]}], 
-      "]"}]}], "]"}], ",", "\[IndentingNewLine]", 
+                   "}"}]}], "}"}], ",", 
+                RowBox[{"Alignment", "\[Rule]", 
+                 RowBox[{"{", 
+                  RowBox[{"Left", ",", "Left"}], "}"}]}]}], "]"}]}], ",", 
+             RowBox[{"ImageSize", "\[Rule]", 
+              RowBox[{"{", 
+               RowBox[{"500", ",", "250"}], "}"}]}]}], "]"}], ",", " ", 
+           RowBox[{"Pane", "[", 
+            RowBox[{
+             RowBox[{"Text", "@", 
+              RowBox[{"Grid", "[", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{
+                  RowBox[{"{", "\"\<fraction nonconforming = 1.\>\"", "}"}], 
+                  ",", 
+                  RowBox[{"{", 
+                   RowBox[{"Style", "[", 
+                    RowBox[{
+                    "\"\<the fraction nonconforming is not acceptable.\>\"", 
+                    ",", "Bold", ",", "Red", ",", " ", "Larger"}], "]"}], 
+                   "}"}]}], "}"}], ",", 
+                RowBox[{"Alignment", "\[Rule]", 
+                 RowBox[{"{", 
+                  RowBox[{"Left", ",", "Left"}], "}"}]}]}], "]"}]}], ",", 
+             RowBox[{"ImageSize", "\[Rule]", 
+              RowBox[{"{", 
+               RowBox[{"500", ",", "250"}], "}"}]}]}], "]"}]}], "]"}]}], 
+        "]"}]}], "]"}]}], "]"}], ",", "\[IndentingNewLine]", 
    RowBox[{"{", 
     RowBox[{
      RowBox[{"{", 
@@ -1585,8 +1609,8 @@ Demonstration.\>\"", ",", "Bold", ",", "Red", ",", " ", "Larger"}], "]"}],
    3.489972995256605*^9, 3.4899740862526045`*^9, {3.489974299714605*^9, 
    3.489974300506605*^9}, {3.4903705909377747`*^9, 3.4903706207829995`*^9}, {
    3.4907143259111447`*^9, 3.490714336598921*^9}, {3.4907151635160646`*^9, 
-   3.4907152447977004`*^9}},
- CellLabel->"In[9]:=",
+   3.4907152447977004`*^9}, {3.824016921132079*^9, 3.8240169694050107`*^9}},
+ CellLabel->"In[10]:=",
  CellID->4362360,ExpressionUUID->"52c05445-7435-40c2-b24b-c1cb01714234"],
 
 Cell[BoxData[
@@ -1631,29 +1655,15 @@ Cell[BoxData[
        Style["number of control measurements", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`c$$], 1, "control measurements"}, {1, 2, 3, 4, 5, 
-      6}}}, Typeset`size$$ = {500., {122., 128.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`type$31481$$ = False, $CellContext`em$31482$$ = 
-    0, $CellContext`m$31483$$ = 0, $CellContext`s$31484$$ = 
-    0, $CellContext`ptaae$31485$$ = 0, $CellContext`a$31486$$ = 
-    0, $CellContext`minpred$31487$$ = 0, $CellContext`minpsed$31488$$ = 
-    0, $CellContext`c$31489$$ = 0}, 
+      6}}}, Typeset`size$$ = {500., {122.375, 127.625}}, Typeset`update$$ = 0,
+     Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`a$$ = 0.1, $CellContext`c$$ = 
         1, $CellContext`em$$ = 100, $CellContext`m$$ = 
         99, $CellContext`minpred$$ = 0.5, $CellContext`minpsed$$ = 
         0.9, $CellContext`ptaae$$ = 10, $CellContext`s$$ = 
-        1.5, $CellContext`type$$ = 0}, "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$31481$$, False], 
-        Hold[$CellContext`em$$, $CellContext`em$31482$$, 0], 
-        Hold[$CellContext`m$$, $CellContext`m$31483$$, 0], 
-        Hold[$CellContext`s$$, $CellContext`s$31484$$, 0], 
-        Hold[$CellContext`ptaae$$, $CellContext`ptaae$31485$$, 0], 
-        Hold[$CellContext`a$$, $CellContext`a$31486$$, 0], 
-        Hold[$CellContext`minpred$$, $CellContext`minpred$31487$$, 0], 
-        Hold[$CellContext`minpsed$$, $CellContext`minpsed$31488$$, 0], 
-        Hold[$CellContext`c$$, $CellContext`c$31489$$, 0]}, 
+        1.5, $CellContext`type$$ = 0}, "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -1810,20 +1820,30 @@ $CellContext`c$$], "pfg for the random error"], {$CellContext`x, 0,
           If[$CellContext`fn > $CellContext`a$$, 
            Pane[
             Text[
-             Grid[{{"fraction nonconforming", $CellContext`fn}, {
+             Grid[{{
+                StringJoin["fraction nonconforming = ", 
+                 ToString[$CellContext`fn]]}, {
                 Style[
                 "the fraction nonconforming is not acceptable", Bold, Red, 
                  Larger]}}, Alignment -> {Left, Left}]], 
             ImageSize -> {500, 250}], 
-           Pane[
-            Text[
-             
-             Grid[{{"fraction nonconforming < \!\(\*SuperscriptBox[\(10\), \
+           If[$CellContext`fn > 0, 
+            Pane[
+             Text[
+              
+              Grid[{{"fraction nonconforming < \!\(\*SuperscriptBox[\(10\), \
 \(-100\)]\)"}, {
-                Style[
-                "The fraction nonconforming is too small for this \
+                 Style[
+                 "the fraction nonconforming is too small for this \
 Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]], 
-            ImageSize -> {500, 250}]]]], 
+             ImageSize -> {500, 250}], 
+            Pane[
+             Text[
+              Grid[{{"fraction nonconforming = 1."}, {
+                 Style[
+                 "the fraction nonconforming is not acceptable.", Bold, Red, 
+                  Larger]}}, Alignment -> {Left, Left}]], 
+             ImageSize -> {500, 250}]]]]], 
       "Specifications" :> {{{$CellContext`type$$, 0, "output"}, {
          0 -> "qc parameters", 1 -> "pdf", 2 -> "cdf", 3 -> "pfg re", 4 -> 
           "pfg se"}}, 
@@ -1861,7 +1881,7 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
        ControlPlacement -> Top, SynchronousUpdating -> False, TrackedSymbols -> 
         True, AutorunSequencing -> {1}}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{560., {276., 282.}},
+     ImageSizeCache->{545., {252.875, 258.125}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -1880,8 +1900,7 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
            Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, -
            Infinity, $CellContext`em (1 - $CellContext`taae)}] + 
         NIntegrate[
-         1/(
-          E^((-$CellContext`m + $CellContext`x)^2/(2 $CellContext`s^2)) (
+         1/(E^((-$CellContext`m + $CellContext`x)^2/(2 $CellContext`s^2)) (
            Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, $CellContext`em (
             1 + $CellContext`taae), Infinity}], $CellContext`minfn = 
        1/100000000000000000000000000000000000000000000000000000000000000000000\
@@ -1975,9 +1994,8 @@ $CellContext`em (1 + $CellContext`taae),
                 NIntegrate[
                 1/(E^((-$CellContext`m + $CellContext`sa + $CellContext`x)^2/(
                    2 $CellContext`s^2)) (
-                  Sqrt[
-                   2 Pi] $CellContext`s)), {$CellContext`x, $CellContext`m + \
-$CellContext`dd $CellContext`s, Infinity}])^$CellContext`c == 
+                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`m + $CellContext`dd $CellContext`s, Infinity}])^$CellContext`c == 
               1 - $CellContext`minpsed, {$CellContext`dd, 1, 20, 0, 30}], 
              
              FindRoot[(1 - NIntegrate[
@@ -2038,7 +2056,7 @@ $CellContext`d $CellContext`s, Infinity}])^$CellContext`c], $CellContext`pred =
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->267046894,ExpressionUUID->"9b858130-4108-4eb0-816c-2f77b289be71"]
+ CellID->138648862,ExpressionUUID->"a54d3e57-a3e4-4d53-ac1b-5cd01dd6b030"]
 }, Open  ]]
 }, Open  ]],
 
@@ -2286,29 +2304,15 @@ Cell[BoxData[
        Style["number of control measurements", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`c$$], 2, "control measurements"}, {1, 2, 3, 4, 5, 
-      6}}}, Typeset`size$$ = {500., {122., 128.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`type$31586$$ = False, $CellContext`em$31587$$ = 
-    0, $CellContext`m$31588$$ = 0, $CellContext`s$31589$$ = 
-    0, $CellContext`ptaae$31590$$ = 0, $CellContext`a$31591$$ = 
-    0, $CellContext`minpred$31592$$ = 0, $CellContext`minpsed$31593$$ = 
-    0, $CellContext`c$31594$$ = 0}, 
+      6}}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`a$$ = 0.1, $CellContext`c$$ = 
         2, $CellContext`em$$ = 100, $CellContext`m$$ = 
         99, $CellContext`minpred$$ = 0.5, $CellContext`minpsed$$ = 
         0.9, $CellContext`ptaae$$ = 10, $CellContext`s$$ = 
-        2, $CellContext`type$$ = 0}, "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$31586$$, False], 
-        Hold[$CellContext`em$$, $CellContext`em$31587$$, 0], 
-        Hold[$CellContext`m$$, $CellContext`m$31588$$, 0], 
-        Hold[$CellContext`s$$, $CellContext`s$31589$$, 0], 
-        Hold[$CellContext`ptaae$$, $CellContext`ptaae$31590$$, 0], 
-        Hold[$CellContext`a$$, $CellContext`a$31591$$, 0], 
-        Hold[$CellContext`minpred$$, $CellContext`minpred$31592$$, 0], 
-        Hold[$CellContext`minpsed$$, $CellContext`minpsed$31593$$, 0], 
-        Hold[$CellContext`c$$, $CellContext`c$31594$$, 0]}, 
+        2, $CellContext`type$$ = 0}, "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -2465,20 +2469,30 @@ $CellContext`c$$], "pfg for the random error"], {$CellContext`x, 0,
           If[$CellContext`fn > $CellContext`a$$, 
            Pane[
             Text[
-             Grid[{{"fraction nonconforming", $CellContext`fn}, {
+             Grid[{{
+                StringJoin["fraction nonconforming = ", 
+                 ToString[$CellContext`fn]]}, {
                 Style[
                 "the fraction nonconforming is not acceptable", Bold, Red, 
                  Larger]}}, Alignment -> {Left, Left}]], 
             ImageSize -> {500, 250}], 
-           Pane[
-            Text[
-             
-             Grid[{{"fraction nonconforming < \!\(\*SuperscriptBox[\(10\), \
+           If[$CellContext`fn > 0, 
+            Pane[
+             Text[
+              
+              Grid[{{"fraction nonconforming < \!\(\*SuperscriptBox[\(10\), \
 \(-100\)]\)"}, {
-                Style[
-                "The fraction nonconforming is too small for this \
+                 Style[
+                 "the fraction nonconforming is too small for this \
 Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]], 
-            ImageSize -> {500, 250}]]]], 
+             ImageSize -> {500, 250}], 
+            Pane[
+             Text[
+              Grid[{{"fraction nonconforming = 1."}, {
+                 Style[
+                 "the fraction nonconforming is not acceptable.", Bold, Red, 
+                  Larger]}}, Alignment -> {Left, Left}]], 
+             ImageSize -> {500, 250}]]]]], 
       "Specifications" :> {{{$CellContext`type$$, 0, "output"}, {
          0 -> "qc parameters", 1 -> "pdf", 2 -> "cdf", 3 -> "pfg re", 4 -> 
           "pfg se"}}, 
@@ -2516,7 +2530,7 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
        ControlPlacement -> Top, SynchronousUpdating -> False, TrackedSymbols -> 
         True, AutorunSequencing -> {1}}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{560., {276., 282.}},
+     ImageSizeCache->{403., {139.875, 145.125}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -2535,8 +2549,7 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
            Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, -
            Infinity, $CellContext`em (1 - $CellContext`taae)}] + 
         NIntegrate[
-         1/(
-          E^((-$CellContext`m + $CellContext`x)^2/(2 $CellContext`s^2)) (
+         1/(E^((-$CellContext`m + $CellContext`x)^2/(2 $CellContext`s^2)) (
            Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, $CellContext`em (
             1 + $CellContext`taae), Infinity}], $CellContext`minfn = 
        1/100000000000000000000000000000000000000000000000000000000000000000000\
@@ -2630,9 +2643,8 @@ $CellContext`em (1 + $CellContext`taae),
                 NIntegrate[
                 1/(E^((-$CellContext`m + $CellContext`sa + $CellContext`x)^2/(
                    2 $CellContext`s^2)) (
-                  Sqrt[
-                   2 Pi] $CellContext`s)), {$CellContext`x, $CellContext`m + \
-$CellContext`dd $CellContext`s, Infinity}])^$CellContext`c == 
+                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`m + $CellContext`dd $CellContext`s, Infinity}])^$CellContext`c == 
               1 - $CellContext`minpsed, {$CellContext`dd, 1, 20, 0, 30}], 
              
              FindRoot[(1 - NIntegrate[
@@ -2693,7 +2705,7 @@ $CellContext`d $CellContext`s, Infinity}])^$CellContext`c], $CellContext`pred =
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->37517754,ExpressionUUID->"daadd042-daa7-468b-ab01-80fb71bae4cb"]
+ CellID->213010605,ExpressionUUID->"0dec85ef-dbde-443a-8843-b6bfb8041aa4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2742,29 +2754,15 @@ Cell[BoxData[
        Style["number of control measurements", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`c$$], 1, "control measurements"}, {1, 2, 3, 4, 5, 
-      6}}}, Typeset`size$$ = {500., {122., 128.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`type$31691$$ = False, $CellContext`em$31692$$ = 
-    0, $CellContext`m$31693$$ = 0, $CellContext`s$31694$$ = 
-    0, $CellContext`ptaae$31695$$ = 0, $CellContext`a$31696$$ = 
-    0, $CellContext`minpred$31697$$ = 0, $CellContext`minpsed$31698$$ = 
-    0, $CellContext`c$31699$$ = 0}, 
+      6}}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`a$$ = 0.1, $CellContext`c$$ = 
         1, $CellContext`em$$ = 100, $CellContext`m$$ = 
         99, $CellContext`minpred$$ = 0.5, $CellContext`minpsed$$ = 
         0.9, $CellContext`ptaae$$ = 10, $CellContext`s$$ = 
-        3, $CellContext`type$$ = 2}, "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$31691$$, False], 
-        Hold[$CellContext`em$$, $CellContext`em$31692$$, 0], 
-        Hold[$CellContext`m$$, $CellContext`m$31693$$, 0], 
-        Hold[$CellContext`s$$, $CellContext`s$31694$$, 0], 
-        Hold[$CellContext`ptaae$$, $CellContext`ptaae$31695$$, 0], 
-        Hold[$CellContext`a$$, $CellContext`a$31696$$, 0], 
-        Hold[$CellContext`minpred$$, $CellContext`minpred$31697$$, 0], 
-        Hold[$CellContext`minpsed$$, $CellContext`minpsed$31698$$, 0], 
-        Hold[$CellContext`c$$, $CellContext`c$31699$$, 0]}, 
+        3, $CellContext`type$$ = 2}, "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -2921,20 +2919,30 @@ $CellContext`c$$], "pfg for the random error"], {$CellContext`x, 0,
           If[$CellContext`fn > $CellContext`a$$, 
            Pane[
             Text[
-             Grid[{{"fraction nonconforming", $CellContext`fn}, {
+             Grid[{{
+                StringJoin["fraction nonconforming = ", 
+                 ToString[$CellContext`fn]]}, {
                 Style[
                 "the fraction nonconforming is not acceptable", Bold, Red, 
                  Larger]}}, Alignment -> {Left, Left}]], 
             ImageSize -> {500, 250}], 
-           Pane[
-            Text[
-             
-             Grid[{{"fraction nonconforming < \!\(\*SuperscriptBox[\(10\), \
+           If[$CellContext`fn > 0, 
+            Pane[
+             Text[
+              
+              Grid[{{"fraction nonconforming < \!\(\*SuperscriptBox[\(10\), \
 \(-100\)]\)"}, {
-                Style[
-                "The fraction nonconforming is too small for this \
+                 Style[
+                 "the fraction nonconforming is too small for this \
 Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]], 
-            ImageSize -> {500, 250}]]]], 
+             ImageSize -> {500, 250}], 
+            Pane[
+             Text[
+              Grid[{{"fraction nonconforming = 1."}, {
+                 Style[
+                 "the fraction nonconforming is not acceptable.", Bold, Red, 
+                  Larger]}}, Alignment -> {Left, Left}]], 
+             ImageSize -> {500, 250}]]]]], 
       "Specifications" :> {{{$CellContext`type$$, 2, "output"}, {
          0 -> "qc parameters", 1 -> "pdf", 2 -> "cdf", 3 -> "pfg re", 4 -> 
           "pfg se"}}, 
@@ -2972,7 +2980,6 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
        ControlPlacement -> Top, SynchronousUpdating -> False, TrackedSymbols -> 
         True, AutorunSequencing -> {1}}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{560., {276., 282.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -2991,8 +2998,7 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
            Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, -
            Infinity, $CellContext`em (1 - $CellContext`taae)}] + 
         NIntegrate[
-         1/(
-          E^((-$CellContext`m + $CellContext`x)^2/(2 $CellContext`s^2)) (
+         1/(E^((-$CellContext`m + $CellContext`x)^2/(2 $CellContext`s^2)) (
            Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, $CellContext`em (
             1 + $CellContext`taae), Infinity}], $CellContext`minfn = 
        1/100000000000000000000000000000000000000000000000000000000000000000000\
@@ -3086,9 +3092,8 @@ $CellContext`em (1 + $CellContext`taae),
                 NIntegrate[
                 1/(E^((-$CellContext`m + $CellContext`sa + $CellContext`x)^2/(
                    2 $CellContext`s^2)) (
-                  Sqrt[
-                   2 Pi] $CellContext`s)), {$CellContext`x, $CellContext`m + \
-$CellContext`dd $CellContext`s, Infinity}])^$CellContext`c == 
+                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`m + $CellContext`dd $CellContext`s, Infinity}])^$CellContext`c == 
               1 - $CellContext`minpsed, {$CellContext`dd, 1, 20, 0, 30}], 
              
              FindRoot[(1 - NIntegrate[
@@ -3149,7 +3154,7 @@ $CellContext`d $CellContext`s, Infinity}])^$CellContext`c], $CellContext`pred =
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->217918645,ExpressionUUID->"40b15d77-3785-454f-8cfa-c8aa6f9f57a6"],
+ CellID->238866645,ExpressionUUID->"70bc69c3-79db-4bf6-897b-4b921d88e7e3"],
 
 Cell[BoxData[
  TagBox[
@@ -3162,7 +3167,7 @@ Cell[BoxData[
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`type$$], 0, "output"}, {
+       Hold[$CellContext`type$$], 4, "output"}, {
       0 -> "qc parameters", 1 -> "pdf", 2 -> "cdf", 3 -> "pfg re", 4 -> 
        "pfg se"}}, {
       Hold[
@@ -3193,29 +3198,15 @@ Cell[BoxData[
        Style["number of control measurements", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`c$$], 2, "control measurements"}, {1, 2, 3, 4, 5, 
-      6}}}, Typeset`size$$ = {500., {122., 128.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`type$31796$$ = False, $CellContext`em$31797$$ = 
-    0, $CellContext`m$31798$$ = 0, $CellContext`s$31799$$ = 
-    0, $CellContext`ptaae$31800$$ = 0, $CellContext`a$31801$$ = 
-    0, $CellContext`minpred$31802$$ = 0, $CellContext`minpsed$31803$$ = 
-    0, $CellContext`c$31804$$ = 0}, 
+      6}}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`a$$ = 0.1, $CellContext`c$$ = 
         2, $CellContext`em$$ = 100, $CellContext`m$$ = 
         99, $CellContext`minpred$$ = 0.5, $CellContext`minpsed$$ = 
         0.9, $CellContext`ptaae$$ = 10, $CellContext`s$$ = 
-        2, $CellContext`type$$ = 0}, "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$31796$$, False], 
-        Hold[$CellContext`em$$, $CellContext`em$31797$$, 0], 
-        Hold[$CellContext`m$$, $CellContext`m$31798$$, 0], 
-        Hold[$CellContext`s$$, $CellContext`s$31799$$, 0], 
-        Hold[$CellContext`ptaae$$, $CellContext`ptaae$31800$$, 0], 
-        Hold[$CellContext`a$$, $CellContext`a$31801$$, 0], 
-        Hold[$CellContext`minpred$$, $CellContext`minpred$31802$$, 0], 
-        Hold[$CellContext`minpsed$$, $CellContext`minpsed$31803$$, 0], 
-        Hold[$CellContext`c$$, $CellContext`c$31804$$, 0]}, 
+        2, $CellContext`type$$ = 4}, "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -3372,21 +3363,31 @@ $CellContext`c$$], "pfg for the random error"], {$CellContext`x, 0,
           If[$CellContext`fn > $CellContext`a$$, 
            Pane[
             Text[
-             Grid[{{"fraction nonconforming", $CellContext`fn}, {
+             Grid[{{
+                StringJoin["fraction nonconforming = ", 
+                 ToString[$CellContext`fn]]}, {
                 Style[
                 "the fraction nonconforming is not acceptable", Bold, Red, 
                  Larger]}}, Alignment -> {Left, Left}]], 
             ImageSize -> {500, 250}], 
-           Pane[
-            Text[
-             
-             Grid[{{"fraction nonconforming < \!\(\*SuperscriptBox[\(10\), \
+           If[$CellContext`fn > 0, 
+            Pane[
+             Text[
+              
+              Grid[{{"fraction nonconforming < \!\(\*SuperscriptBox[\(10\), \
 \(-100\)]\)"}, {
-                Style[
-                "The fraction nonconforming is too small for this \
+                 Style[
+                 "the fraction nonconforming is too small for this \
 Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]], 
-            ImageSize -> {500, 250}]]]], 
-      "Specifications" :> {{{$CellContext`type$$, 0, "output"}, {
+             ImageSize -> {500, 250}], 
+            Pane[
+             Text[
+              Grid[{{"fraction nonconforming = 1."}, {
+                 Style[
+                 "the fraction nonconforming is not acceptable.", Bold, Red, 
+                  Larger]}}, Alignment -> {Left, Left}]], 
+             ImageSize -> {500, 250}]]]]], 
+      "Specifications" :> {{{$CellContext`type$$, 4, "output"}, {
          0 -> "qc parameters", 1 -> "pdf", 2 -> "cdf", 3 -> "pfg re", 4 -> 
           "pfg se"}}, 
         Style[
@@ -3423,7 +3424,6 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
        ControlPlacement -> Top, SynchronousUpdating -> False, TrackedSymbols -> 
         True, AutorunSequencing -> {1}}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{560., {276., 282.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -3442,8 +3442,7 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
            Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, -
            Infinity, $CellContext`em (1 - $CellContext`taae)}] + 
         NIntegrate[
-         1/(
-          E^((-$CellContext`m + $CellContext`x)^2/(2 $CellContext`s^2)) (
+         1/(E^((-$CellContext`m + $CellContext`x)^2/(2 $CellContext`s^2)) (
            Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, $CellContext`em (
             1 + $CellContext`taae), Infinity}], $CellContext`minfn = 
        1/100000000000000000000000000000000000000000000000000000000000000000000\
@@ -3537,9 +3536,8 @@ $CellContext`em (1 + $CellContext`taae),
                 NIntegrate[
                 1/(E^((-$CellContext`m + $CellContext`sa + $CellContext`x)^2/(
                    2 $CellContext`s^2)) (
-                  Sqrt[
-                   2 Pi] $CellContext`s)), {$CellContext`x, $CellContext`m + \
-$CellContext`dd $CellContext`s, Infinity}])^$CellContext`c == 
+                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`m + $CellContext`dd $CellContext`s, Infinity}])^$CellContext`c == 
               1 - $CellContext`minpsed, {$CellContext`dd, 1, 20, 0, 30}], 
              
              FindRoot[(1 - NIntegrate[
@@ -3600,7 +3598,7 @@ $CellContext`d $CellContext`s, Infinity}])^$CellContext`c], $CellContext`pred =
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->350317682,ExpressionUUID->"18f1910e-668d-48f1-a067-14cc3883504c"],
+ CellID->774587578,ExpressionUUID->"7b63c1f2-decf-4f1f-853f-e9c4b001ddb9"],
 
 Cell[BoxData[
  TagBox[
@@ -3613,7 +3611,7 @@ Cell[BoxData[
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`type$$], 0, "output"}, {
+       Hold[$CellContext`type$$], 3, "output"}, {
       0 -> "qc parameters", 1 -> "pdf", 2 -> "cdf", 3 -> "pfg re", 4 -> 
        "pfg se"}}, {
       Hold[
@@ -3644,29 +3642,15 @@ Cell[BoxData[
        Style["number of control measurements", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`c$$], 2, "control measurements"}, {1, 2, 3, 4, 5, 
-      6}}}, Typeset`size$$ = {500., {122., 128.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`type$31796$$ = False, $CellContext`em$31797$$ = 
-    0, $CellContext`m$31798$$ = 0, $CellContext`s$31799$$ = 
-    0, $CellContext`ptaae$31800$$ = 0, $CellContext`a$31801$$ = 
-    0, $CellContext`minpred$31802$$ = 0, $CellContext`minpsed$31803$$ = 
-    0, $CellContext`c$31804$$ = 0}, 
+      6}}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`a$$ = 0.1, $CellContext`c$$ = 
         2, $CellContext`em$$ = 100, $CellContext`m$$ = 
         99, $CellContext`minpred$$ = 0.5, $CellContext`minpsed$$ = 
         0.9, $CellContext`ptaae$$ = 10, $CellContext`s$$ = 
-        2, $CellContext`type$$ = 0}, "ControllerVariables" :> {
-        Hold[$CellContext`type$$, $CellContext`type$31796$$, False], 
-        Hold[$CellContext`em$$, $CellContext`em$31797$$, 0], 
-        Hold[$CellContext`m$$, $CellContext`m$31798$$, 0], 
-        Hold[$CellContext`s$$, $CellContext`s$31799$$, 0], 
-        Hold[$CellContext`ptaae$$, $CellContext`ptaae$31800$$, 0], 
-        Hold[$CellContext`a$$, $CellContext`a$31801$$, 0], 
-        Hold[$CellContext`minpred$$, $CellContext`minpred$31802$$, 0], 
-        Hold[$CellContext`minpsed$$, $CellContext`minpsed$31803$$, 0], 
-        Hold[$CellContext`c$$, $CellContext`c$31804$$, 0]}, 
+        2, $CellContext`type$$ = 3}, "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -3823,21 +3807,31 @@ $CellContext`c$$], "pfg for the random error"], {$CellContext`x, 0,
           If[$CellContext`fn > $CellContext`a$$, 
            Pane[
             Text[
-             Grid[{{"fraction nonconforming", $CellContext`fn}, {
+             Grid[{{
+                StringJoin["fraction nonconforming = ", 
+                 ToString[$CellContext`fn]]}, {
                 Style[
                 "the fraction nonconforming is not acceptable", Bold, Red, 
                  Larger]}}, Alignment -> {Left, Left}]], 
             ImageSize -> {500, 250}], 
-           Pane[
-            Text[
-             
-             Grid[{{"fraction nonconforming < \!\(\*SuperscriptBox[\(10\), \
+           If[$CellContext`fn > 0, 
+            Pane[
+             Text[
+              
+              Grid[{{"fraction nonconforming < \!\(\*SuperscriptBox[\(10\), \
 \(-100\)]\)"}, {
-                Style[
-                "The fraction nonconforming is too small for this \
+                 Style[
+                 "the fraction nonconforming is too small for this \
 Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]], 
-            ImageSize -> {500, 250}]]]], 
-      "Specifications" :> {{{$CellContext`type$$, 0, "output"}, {
+             ImageSize -> {500, 250}], 
+            Pane[
+             Text[
+              Grid[{{"fraction nonconforming = 1."}, {
+                 Style[
+                 "the fraction nonconforming is not acceptable.", Bold, Red, 
+                  Larger]}}, Alignment -> {Left, Left}]], 
+             ImageSize -> {500, 250}]]]]], 
+      "Specifications" :> {{{$CellContext`type$$, 3, "output"}, {
          0 -> "qc parameters", 1 -> "pdf", 2 -> "cdf", 3 -> "pfg re", 4 -> 
           "pfg se"}}, 
         Style[
@@ -3874,7 +3868,6 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
        ControlPlacement -> Top, SynchronousUpdating -> False, TrackedSymbols -> 
         True, AutorunSequencing -> {1}}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{560., {276., 282.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -3893,8 +3886,7 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
            Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, -
            Infinity, $CellContext`em (1 - $CellContext`taae)}] + 
         NIntegrate[
-         1/(
-          E^((-$CellContext`m + $CellContext`x)^2/(2 $CellContext`s^2)) (
+         1/(E^((-$CellContext`m + $CellContext`x)^2/(2 $CellContext`s^2)) (
            Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, $CellContext`em (
             1 + $CellContext`taae), Infinity}], $CellContext`minfn = 
        1/100000000000000000000000000000000000000000000000000000000000000000000\
@@ -3988,9 +3980,8 @@ $CellContext`em (1 + $CellContext`taae),
                 NIntegrate[
                 1/(E^((-$CellContext`m + $CellContext`sa + $CellContext`x)^2/(
                    2 $CellContext`s^2)) (
-                  Sqrt[
-                   2 Pi] $CellContext`s)), {$CellContext`x, $CellContext`m + \
-$CellContext`dd $CellContext`s, Infinity}])^$CellContext`c == 
+                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`m + $CellContext`dd $CellContext`s, Infinity}])^$CellContext`c == 
               1 - $CellContext`minpsed, {$CellContext`dd, 1, 20, 0, 30}], 
              
              FindRoot[(1 - NIntegrate[
@@ -4051,7 +4042,7 @@ $CellContext`d $CellContext`s, Infinity}])^$CellContext`c], $CellContext`pred =
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellID->63313918,ExpressionUUID->"41ab6eb3-34de-4e32-adca-80b06001979f"]
+ CellID->40072489,ExpressionUUID->"47523019-02ec-496d-9040-aef87a2c9c25"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -4329,8 +4320,8 @@ variable ",
      StyleBox["min",
       FontFamily->"Times New Roman",
       FontSize->9,
-      FontSlant->"Italic"]]}], TraditionalForm]], "InlineMath",
-  ExpressionUUID->"e9af0f9d-1471-4082-b217-32b4871c08d2"],
+      FontSlant->"Italic"]]}], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "e9af0f9d-1471-4082-b217-32b4871c08d2"],
  ",\n\t(2) ",
  Cell[BoxData[
   FormBox[
@@ -4917,179 +4908,180 @@ Cell["(Hellenic Complex Systems Laboratory, Drama, Greece)", "Author",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1280, 941},
-WindowMargins->{{1272, Automatic}, {Automatic, -8}},
-FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+WindowSize->{1279.875, 746.625},
+WindowMargins->{{Automatic, 0.375}, {Automatic, 0}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Demonstration.nb", 
-  CharacterEncoding -> "UTF-8"]
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"fe68aaa9-21ad-4639-b862-a16fa1eb8017"
 ]
 (* End of Notebook Content *)
 
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "AutomaticAnimation"->{
-  Cell[228177, 4739, 1650, 35, 22, "ControlSuggestions",ExpressionUUID->"1e31e425-cf8b-4e0a-90a7-a32d37de92d3",
-   CellTags->"AutomaticAnimation"]},
- "BookmarkAnimation"->{
-  Cell[229830, 4776, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"6c5c6497-0568-4d06-b4df-7eee6ea9cc93",
-   CellTags->"BookmarkAnimation"]},
- "CreateAndDeleteLocators"->{
-  Cell[225893, 4678, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"bf4db054-e848-4543-819a-f669dc485899",
-   CellTags->"CreateAndDeleteLocators"]},
- "DragLocators"->{
-  Cell[225433, 4663, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"553824dc-3133-4f20-a9b0-30c88e989023",
-   CellTags->"DragLocators"]},
- "GamepadControls"->{
-  Cell[227683, 4725, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"803ab642-d51d-4537-94d1-ba100ea8cc73",
-   CellTags->"GamepadControls"]},
  "ResizeImages"->{
-  Cell[224136, 4629, 491, 11, 22, "ControlSuggestions",ExpressionUUID->"6a2a2f58-3742-499b-9083-7b6ae937c196",
+  Cell[222542, 4620, 491, 11, 24, "ControlSuggestions",ExpressionUUID->"6a2a2f58-3742-499b-9083-7b6ae937c196",
    CellTags->"ResizeImages"]},
  "RotateAndZoomIn3D"->{
-  Cell[224630, 4642, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"44546183-eb18-4269-b578-0c768646a451",
+  Cell[223036, 4633, 800, 19, 24, "ControlSuggestions",ExpressionUUID->"44546183-eb18-4269-b578-0c768646a451",
    CellTags->"RotateAndZoomIn3D"]},
+ "DragLocators"->{
+  Cell[223839, 4654, 457, 13, 24, "ControlSuggestions",ExpressionUUID->"553824dc-3133-4f20-a9b0-30c88e989023",
+   CellTags->"DragLocators"]},
+ "CreateAndDeleteLocators"->{
+  Cell[224299, 4669, 761, 19, 24, "ControlSuggestions",ExpressionUUID->"bf4db054-e848-4543-819a-f669dc485899",
+   CellTags->"CreateAndDeleteLocators"]},
  "SliderZoom"->{
-  Cell[226657, 4699, 1023, 24, 22, "ControlSuggestions",ExpressionUUID->"a9c92061-710a-4e0d-a888-824f288ef048",
-   CellTags->"SliderZoom"]}
+  Cell[225063, 4690, 1023, 24, 24, "ControlSuggestions",ExpressionUUID->"a9c92061-710a-4e0d-a888-824f288ef048",
+   CellTags->"SliderZoom"]},
+ "GamepadControls"->{
+  Cell[226089, 4716, 491, 12, 24, "ControlSuggestions",ExpressionUUID->"803ab642-d51d-4537-94d1-ba100ea8cc73",
+   CellTags->"GamepadControls"]},
+ "AutomaticAnimation"->{
+  Cell[226583, 4730, 1650, 35, 24, "ControlSuggestions",ExpressionUUID->"1e31e425-cf8b-4e0a-90a7-a32d37de92d3",
+   CellTags->"AutomaticAnimation"]},
+ "BookmarkAnimation"->{
+  Cell[228236, 4767, 1030, 24, 24, "ControlSuggestions",ExpressionUUID->"6c5c6497-0568-4d06-b4df-7eee6ea9cc93",
+   CellTags->"BookmarkAnimation"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"AutomaticAnimation", 235893, 4930},
- {"BookmarkAnimation", 236066, 4933},
- {"CreateAndDeleteLocators", 236244, 4936},
- {"DragLocators", 236416, 4939},
- {"GamepadControls", 236580, 4942},
- {"ResizeImages", 236744, 4945},
- {"RotateAndZoomIn3D", 236910, 4948},
- {"SliderZoom", 237074, 4951}
+ {"ResizeImages", 234361, 4922},
+ {"RotateAndZoomIn3D", 234527, 4925},
+ {"DragLocators", 234693, 4928},
+ {"CreateAndDeleteLocators", 234865, 4931},
+ {"SliderZoom", 235035, 4934},
+ {"GamepadControls", 235198, 4937},
+ {"AutomaticAnimation", 235368, 4940},
+ {"BookmarkAnimation", 235541, 4943}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[567, 22, 192, 3, 74, "DemoTitle",ExpressionUUID->"19f309f9-69a3-4e8a-a9bf-bb45223f0fe5"],
+Cell[567, 22, 192, 3, 75, "DemoTitle",ExpressionUUID->"19f309f9-69a3-4e8a-a9bf-bb45223f0fe5"],
 Cell[CellGroupData[{
-Cell[784, 29, 88, 0, 275, "InitializationSection",ExpressionUUID->"42d8de49-7d86-4d64-9959-0be2593b1cf6"],
-Cell[875, 31, 1168, 21, 61, "Input",ExpressionUUID->"10c03de9-478f-4d6b-91d6-57e8143641df",
+Cell[784, 29, 88, 0, 283, "InitializationSection",ExpressionUUID->"42d8de49-7d86-4d64-9959-0be2593b1cf6"],
+Cell[875, 31, 1168, 21, 59, "Input",ExpressionUUID->"10c03de9-478f-4d6b-91d6-57e8143641df",
  InitializationCell->True,
  CellID->6681815],
-Cell[2046, 54, 2435, 63, 96, "Input",ExpressionUUID->"ca10f424-ad44-4c64-a471-7e61094bf1b9",
+Cell[2046, 54, 2435, 63, 82, "Input",ExpressionUUID->"ca10f424-ad44-4c64-a471-7e61094bf1b9",
  InitializationCell->True,
  CellID->3266729],
-Cell[4484, 119, 4267, 111, 212, "Input",ExpressionUUID->"93f8d126-8c9a-49b0-b337-15dbad28f2cb",
+Cell[4484, 119, 4267, 111, 176, "Input",ExpressionUUID->"93f8d126-8c9a-49b0-b337-15dbad28f2cb",
  InitializationCell->True,
  CellID->25007224],
-Cell[8754, 232, 14433, 353, 749, "Input",ExpressionUUID->"5cc716f6-b68c-459e-a111-f2df594957cd",
+Cell[8754, 232, 14433, 353, 628, "Input",ExpressionUUID->"5cc716f6-b68c-459e-a111-f2df594957cd",
  InitializationCell->True,
  CellID->273564016]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[23224, 590, 84, 0, 231, "ManipulateSection",ExpressionUUID->"a5ac71df-7594-43d8-aa97-d4fbfdf99523"],
+Cell[23224, 590, 84, 0, 236, "ManipulateSection",ExpressionUUID->"a5ac71df-7594-43d8-aa97-d4fbfdf99523"],
 Cell[CellGroupData[{
-Cell[23333, 594, 53824, 995, 1560, "Input",ExpressionUUID->"52c05445-7435-40c2-b24b-c1cb01714234",
+Cell[23333, 594, 54969, 1019, 1387, "Input",ExpressionUUID->"52c05445-7435-40c2-b24b-c1cb01714234",
  CellID->4362360],
-Cell[77160, 1591, 22919, 449, 570, "Output",ExpressionUUID->"9b858130-4108-4eb0-816c-2f77b289be71",
- CellID->267046894]
+Cell[78305, 1615, 22414, 443, 523, "Output",ExpressionUUID->"a54d3e57-a3e4-4d53-ac1b-5cd01dd6b030",
+ CellID->138648862]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[100128, 2046, 91, 0, 169, "ManipulateCaptionSection",ExpressionUUID->"b762ad2e-e201-4921-96d1-3933d98ed9ef"],
-Cell[100222, 2048, 3527, 51, 83, "ManipulateCaption",ExpressionUUID->"41295ab6-6c2d-47cd-a9e7-b4fd7acc62e7",
+Cell[100768, 2064, 91, 0, 175, "ManipulateCaptionSection",ExpressionUUID->"b762ad2e-e201-4921-96d1-3933d98ed9ef"],
+Cell[100862, 2066, 3527, 51, 71, "ManipulateCaption",ExpressionUUID->"41295ab6-6c2d-47cd-a9e7-b4fd7acc62e7",
  CellID->122698497],
-Cell[103752, 2101, 5777, 111, 100, "ManipulateCaption",ExpressionUUID->"7ab29910-2f05-49f5-9608-beb61fceed1b",
+Cell[104392, 2119, 5777, 111, 87, "ManipulateCaption",ExpressionUUID->"7ab29910-2f05-49f5-9608-beb61fceed1b",
  CellID->358850319],
-Cell[109532, 2214, 1103, 25, 23, "ManipulateCaption",ExpressionUUID->"2649cd94-6442-4fbf-9f78-dd56661eefbe",
+Cell[110172, 2232, 1103, 25, 23, "ManipulateCaption",ExpressionUUID->"2649cd94-6442-4fbf-9f78-dd56661eefbe",
  CellID->158561147]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[110672, 2244, 83, 0, 172, "ThumbnailSection",ExpressionUUID->"edf34201-b433-4987-b56b-5c96493f6c26"],
-Cell[110758, 2246, 22910, 449, 570, "Output",ExpressionUUID->"daadd042-daa7-468b-ab01-80fb71bae4cb",
- CellID->37517754]
+Cell[111312, 2262, 83, 0, 175, "ThumbnailSection",ExpressionUUID->"edf34201-b433-4987-b56b-5c96493f6c26"],
+Cell[111398, 2264, 22389, 443, 297, "Output",ExpressionUUID->"0dec85ef-dbde-443a-8843-b6bfb8041aa4",
+ CellID->213010605]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[133705, 2700, 83, 0, 142, "SnapshotsSection",ExpressionUUID->"4df878e8-63e6-4a3f-a6d4-05045caa3c3c"],
-Cell[133791, 2702, 22911, 449, 570, "Output",ExpressionUUID->"40b15d77-3785-454f-8cfa-c8aa6f9f57a6",
- CellID->217918645],
-Cell[156705, 3153, 22911, 449, 570, "Output",ExpressionUUID->"18f1910e-668d-48f1-a067-14cc3883504c",
- CellID->350317682],
-Cell[179619, 3604, 22910, 449, 570, "Output",ExpressionUUID->"41ab6eb3-34de-4e32-adca-80b06001979f",
- CellID->63313918]
+Cell[133824, 2712, 83, 0, 145, "SnapshotsSection",ExpressionUUID->"4df878e8-63e6-4a3f-a6d4-05045caa3c3c"],
+Cell[133910, 2714, 22340, 442, 36, "Output",ExpressionUUID->"70bc69c3-79db-4bf6-897b-4b921d88e7e3",
+ CellID->238866645],
+Cell[156253, 3158, 22340, 442, 36, "Output",ExpressionUUID->"7b63c1f2-decf-4f1f-853f-e9c4b001ddb9",
+ CellID->774587578],
+Cell[178596, 3602, 22339, 442, 36, "Output",ExpressionUUID->"47523019-02ec-496d-9040-aef87a2c9c25",
+ CellID->40072489]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[202566, 4058, 81, 0, 339, "DetailsSection",ExpressionUUID->"bf710492-43c0-4133-871b-fcd23df8a156"],
-Cell[202650, 4060, 18464, 496, 436, "DetailNotes",ExpressionUUID->"407e304f-59d1-435a-be14-23617d0b4bef",
+Cell[200972, 4049, 81, 0, 346, "DetailsSection",ExpressionUUID->"bf710492-43c0-4133-871b-fcd23df8a156"],
+Cell[201056, 4051, 18464, 496, 379, "DetailNotes",ExpressionUUID->"407e304f-59d1-435a-be14-23617d0b4bef",
  CellID->173520083],
-Cell[221117, 4558, 471, 8, 22, "DetailNotes",ExpressionUUID->"c34a9d21-1d22-4c48-95be-21626729b5b1",
+Cell[219523, 4549, 471, 8, 23, "DetailNotes",ExpressionUUID->"c34a9d21-1d22-4c48-95be-21626729b5b1",
  CellID->970192432],
-Cell[221591, 4568, 405, 7, 22, "DetailNotes",ExpressionUUID->"6664294c-0b15-44ff-b96f-5438171df8b1",
+Cell[219997, 4559, 405, 7, 23, "DetailNotes",ExpressionUUID->"6664294c-0b15-44ff-b96f-5438171df8b1",
  CellID->63735350],
-Cell[221999, 4577, 227, 4, 22, "DetailNotes",ExpressionUUID->"2678eae8-b582-494f-b748-fffaaf1d998a",
+Cell[220405, 4568, 227, 4, 23, "DetailNotes",ExpressionUUID->"2678eae8-b582-494f-b748-fffaaf1d998a",
  CellID->196083],
-Cell[222229, 4583, 774, 17, 22, "DetailNotes",ExpressionUUID->"82978e3e-3f3a-470b-8451-8fdba0fe1e18",
+Cell[220635, 4574, 774, 17, 23, "DetailNotes",ExpressionUUID->"82978e3e-3f3a-470b-8451-8fdba0fe1e18",
  CellID->628761791],
-Cell[223006, 4602, 998, 20, 23, "DetailNotes",ExpressionUUID->"f7304316-8570-4dea-837e-1638b0df7cb8",
+Cell[221412, 4593, 998, 20, 23, "DetailNotes",ExpressionUUID->"f7304316-8570-4dea-837e-1638b0df7cb8",
  CellID->829222586]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[224041, 4627, 92, 0, 126, "ControlSuggestionsSection",ExpressionUUID->"f9a10d66-f88e-4de0-97d1-1ab26069a1c8"],
-Cell[224136, 4629, 491, 11, 22, "ControlSuggestions",ExpressionUUID->"6a2a2f58-3742-499b-9083-7b6ae937c196",
+Cell[222447, 4618, 92, 0, 129, "ControlSuggestionsSection",ExpressionUUID->"f9a10d66-f88e-4de0-97d1-1ab26069a1c8"],
+Cell[222542, 4620, 491, 11, 24, "ControlSuggestions",ExpressionUUID->"6a2a2f58-3742-499b-9083-7b6ae937c196",
  CellTags->"ResizeImages"],
-Cell[224630, 4642, 800, 19, 22, "ControlSuggestions",ExpressionUUID->"44546183-eb18-4269-b578-0c768646a451",
+Cell[223036, 4633, 800, 19, 24, "ControlSuggestions",ExpressionUUID->"44546183-eb18-4269-b578-0c768646a451",
  CellTags->"RotateAndZoomIn3D"],
-Cell[225433, 4663, 457, 13, 22, "ControlSuggestions",ExpressionUUID->"553824dc-3133-4f20-a9b0-30c88e989023",
+Cell[223839, 4654, 457, 13, 24, "ControlSuggestions",ExpressionUUID->"553824dc-3133-4f20-a9b0-30c88e989023",
  CellTags->"DragLocators"],
-Cell[225893, 4678, 761, 19, 22, "ControlSuggestions",ExpressionUUID->"bf4db054-e848-4543-819a-f669dc485899",
+Cell[224299, 4669, 761, 19, 24, "ControlSuggestions",ExpressionUUID->"bf4db054-e848-4543-819a-f669dc485899",
  CellTags->"CreateAndDeleteLocators"],
-Cell[226657, 4699, 1023, 24, 22, "ControlSuggestions",ExpressionUUID->"a9c92061-710a-4e0d-a888-824f288ef048",
+Cell[225063, 4690, 1023, 24, 24, "ControlSuggestions",ExpressionUUID->"a9c92061-710a-4e0d-a888-824f288ef048",
  CellTags->"SliderZoom"],
-Cell[227683, 4725, 491, 12, 22, "ControlSuggestions",ExpressionUUID->"803ab642-d51d-4537-94d1-ba100ea8cc73",
+Cell[226089, 4716, 491, 12, 24, "ControlSuggestions",ExpressionUUID->"803ab642-d51d-4537-94d1-ba100ea8cc73",
  CellTags->"GamepadControls"],
-Cell[228177, 4739, 1650, 35, 22, "ControlSuggestions",ExpressionUUID->"1e31e425-cf8b-4e0a-90a7-a32d37de92d3",
+Cell[226583, 4730, 1650, 35, 24, "ControlSuggestions",ExpressionUUID->"1e31e425-cf8b-4e0a-90a7-a32d37de92d3",
  CellTags->"AutomaticAnimation"],
-Cell[229830, 4776, 1030, 24, 22, "ControlSuggestions",ExpressionUUID->"6c5c6497-0568-4d06-b4df-7eee6ea9cc93",
+Cell[228236, 4767, 1030, 24, 24, "ControlSuggestions",ExpressionUUID->"6c5c6497-0568-4d06-b4df-7eee6ea9cc93",
  CellTags->"BookmarkAnimation"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[230897, 4805, 85, 0, 158, "SearchTermsSection",ExpressionUUID->"5e8d9fb2-6938-4705-b537-e48ec32c0dd2"],
-Cell[230985, 4807, 309, 5, 22, "SearchTerms",ExpressionUUID->"f11ccc11-822b-45c8-b4ec-619fcfc43ab4",
+Cell[229303, 4796, 85, 0, 160, "SearchTermsSection",ExpressionUUID->"5e8d9fb2-6938-4705-b537-e48ec32c0dd2"],
+Cell[229391, 4798, 309, 5, 23, "SearchTerms",ExpressionUUID->"f11ccc11-822b-45c8-b4ec-619fcfc43ab4",
  CellID->398932864],
-Cell[231297, 4814, 237, 4, 22, "SearchTerms",ExpressionUUID->"497e633d-be8f-4c16-9dec-07664f1dbe5f",
+Cell[229703, 4805, 237, 4, 23, "SearchTerms",ExpressionUUID->"497e633d-be8f-4c16-9dec-07664f1dbe5f",
  CellID->17254671],
-Cell[231537, 4820, 227, 4, 22, "SearchTerms",ExpressionUUID->"882c3ea5-d5cd-41c1-a111-4dc96474b139",
+Cell[229943, 4811, 227, 4, 23, "SearchTerms",ExpressionUUID->"882c3ea5-d5cd-41c1-a111-4dc96474b139",
  CellID->299960206],
-Cell[231767, 4826, 202, 3, 22, "SearchTerms",ExpressionUUID->"312d9f77-1baa-4687-a0ca-a13d2e457c65",
+Cell[230173, 4817, 202, 3, 23, "SearchTerms",ExpressionUUID->"312d9f77-1baa-4687-a0ca-a13d2e457c65",
  CellID->143386762],
-Cell[231972, 4831, 205, 3, 22, "SearchTerms",ExpressionUUID->"2052658c-c638-495d-80a9-26b28161b4f7",
+Cell[230378, 4822, 205, 3, 23, "SearchTerms",ExpressionUUID->"2052658c-c638-495d-80a9-26b28161b4f7",
  CellID->44014406],
-Cell[232180, 4836, 221, 3, 22, "SearchTerms",ExpressionUUID->"5eb57fd3-8858-4720-9d18-bd98c396fcf4",
+Cell[230586, 4827, 221, 3, 23, "SearchTerms",ExpressionUUID->"5eb57fd3-8858-4720-9d18-bd98c396fcf4",
  CellID->99752192],
-Cell[232404, 4841, 214, 3, 22, "SearchTerms",ExpressionUUID->"29b509f2-9bd2-4177-993b-098b0dce0c70",
+Cell[230810, 4832, 214, 3, 23, "SearchTerms",ExpressionUUID->"29b509f2-9bd2-4177-993b-098b0dce0c70",
  CellID->803288163],
-Cell[232621, 4846, 207, 3, 22, "SearchTerms",ExpressionUUID->"760c9969-c26f-47f5-9d99-adea274e0dd5",
+Cell[231027, 4837, 207, 3, 23, "SearchTerms",ExpressionUUID->"760c9969-c26f-47f5-9d99-adea274e0dd5",
  CellID->13637004],
-Cell[232831, 4851, 216, 3, 22, "SearchTerms",ExpressionUUID->"bb7b320a-3c64-4d1f-a986-a4d710ec76e4",
+Cell[231237, 4842, 216, 3, 23, "SearchTerms",ExpressionUUID->"bb7b320a-3c64-4d1f-a986-a4d710ec76e4",
  CellID->29034209],
-Cell[233050, 4856, 257, 4, 22, "SearchTerms",ExpressionUUID->"1655b868-5b3d-448c-9000-c8d26bae3a11",
+Cell[231456, 4847, 257, 4, 23, "SearchTerms",ExpressionUUID->"1655b868-5b3d-448c-9000-c8d26bae3a11",
  CellID->222060723],
-Cell[233310, 4862, 228, 3, 22, "SearchTerms",ExpressionUUID->"b92938f7-cef4-40e8-86a9-97b01600abe7",
+Cell[231716, 4853, 228, 3, 23, "SearchTerms",ExpressionUUID->"b92938f7-cef4-40e8-86a9-97b01600abe7",
  CellID->191601909],
-Cell[233541, 4867, 282, 4, 22, "SearchTerms",ExpressionUUID->"b73da0d0-f8bb-42dc-adbb-8039bf9b4ed8",
+Cell[231947, 4858, 282, 4, 23, "SearchTerms",ExpressionUUID->"b73da0d0-f8bb-42dc-adbb-8039bf9b4ed8",
  CellID->110185988],
-Cell[233826, 4873, 221, 3, 22, "SearchTerms",ExpressionUUID->"5f90d496-a48e-4764-a8fc-6dba1889fed0",
+Cell[232232, 4864, 221, 3, 23, "SearchTerms",ExpressionUUID->"5f90d496-a48e-4764-a8fc-6dba1889fed0",
  CellID->408378844],
-Cell[234050, 4878, 209, 3, 22, "SearchTerms",ExpressionUUID->"6228d398-2f55-4b48-b193-bb574d5da78b",
+Cell[232456, 4869, 209, 3, 23, "SearchTerms",ExpressionUUID->"6228d398-2f55-4b48-b193-bb574d5da78b",
  CellID->65623004],
-Cell[234262, 4883, 98, 1, 22, "SearchTerms",ExpressionUUID->"c6f1d4b8-e887-43f9-92c1-c6c55b23f55b",
+Cell[232668, 4874, 98, 1, 23, "SearchTerms",ExpressionUUID->"c6f1d4b8-e887-43f9-92c1-c6c55b23f55b",
  CellID->454604374]
 }, Open  ]],
-Cell[234375, 4887, 86, 0, 143, "RelatedLinksSection",ExpressionUUID->"8ecd4e0a-124d-4b4e-8ca0-5dc14703f160"],
+Cell[232781, 4878, 86, 0, 145, "RelatedLinksSection",ExpressionUUID->"8ecd4e0a-124d-4b4e-8ca0-5dc14703f160"],
 Cell[CellGroupData[{
-Cell[234486, 4891, 80, 0, 129, "AuthorSection",ExpressionUUID->"1f351461-426a-4ae8-8b86-8709693f9ab7"],
-Cell[234569, 4893, 606, 16, 22, "Author",ExpressionUUID->"35b5ad91-c747-4d8d-b81b-cbb882ca5aad",
+Cell[232892, 4882, 80, 0, 133, "AuthorSection",ExpressionUUID->"1f351461-426a-4ae8-8b86-8709693f9ab7"],
+Cell[232975, 4884, 606, 16, 23, "Author",ExpressionUUID->"35b5ad91-c747-4d8d-b81b-cbb882ca5aad",
  CellID->733757503],
-Cell[235178, 4911, 311, 4, 22, "Author",ExpressionUUID->"3a62001d-a86e-45b8-b9c3-32a6dcb81267",
+Cell[233584, 4902, 311, 4, 23, "Author",ExpressionUUID->"3a62001d-a86e-45b8-b9c3-32a6dcb81267",
  CellID->258532095]
 }, Open  ]]
 }, Open  ]]

@@ -116,6 +116,7 @@ h1 {
 	font-style: normal;
 	text-decoration: none;
 	text-transform: none;
+	text-align: left;
 }
 h2 {
 	font-family: 'Source Sans Pro', Verdana, sans-serif;
@@ -126,6 +127,7 @@ h2 {
 	font-style: normal;
 	text-decoration: none;
 	text-transform: none;
+	text-align: left;
 }
 h3 {
 	font-family: 'Source Sans Pro', Verdana, sans-serif;
@@ -135,6 +137,7 @@ h3 {
 	background-color: #FFFFFF;
 	font-style: normal;
 	text-decoration: none;
+	text-align: left;
 }
 h4 {
 	font-family: 'Source Sans Pro', Verdana, sans-serif;
@@ -144,6 +147,7 @@ h4 {
 	background-color: #FFFFFF;
 	font-style: normal;
 	text-decoration: none;
+	text-align: left;
 }
 h5 {
 	font-family: 'Source Sans Pro', Verdana, sans-serif;
@@ -153,6 +157,7 @@ h5 {
 	background-color: #FFFFFF;
 	font-style: normal;
 	text-decoration: none;
+	text-align: left;
 }
 h6 {
 	font-family: 'Source Sans Pro', Verdana, sans-serif;
@@ -162,6 +167,7 @@ h6 {
 	background-color: #FFFFFF;
 	font-style: normal;
 	text-decoration: none;
+	text-align: left;
 }
 a {
 	font-family: 'Source Sans Pro', Verdana, sans-serif;
@@ -240,13 +246,12 @@ img
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 300px;
   background-color:  #F7F7F7;
   position: fixed;
   height: 100%;
   overflow: auto;
 }
-
 /* Sidebar links */
 .sidebar a {
   display: block;
@@ -256,13 +261,11 @@ img
   text-align: center;
   text-decoration: none;
 }
-
 /* Active/current link */
 .sidebar a.active {
   background-color: #00BFFF;
   color: #000080;
 }
-
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
   background-color: #daecff;
@@ -290,38 +293,87 @@ div.content_f {
 	text-align: justify;
 	text-justify: inter-word;
 }
-/*On screens that are less than 1400px wide */
-@media screen and (max-width: 1400px) {
+/*On screens that are less than 1600px wide */
+@media screen and (max-width: 1600px) {
+ .sidebar {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color:  #F7F7F7;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
 
 div.content {
-	margin-left: 200px;
+	margin-left: 300px;
+	padding: 8px 8px;
+}
+div.content_f {
+	margin-left: 300px;
+	padding: 120px 8px;
+}
+}
+/*On screens that are less than 1300px wide */
+@media screen and (max-width: 1300px) {
+ .sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color:  #F7F7F7;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+div.content {
+	margin-left: 250px;
 	margin-right: 100%;
 	padding: 8px 8px;
 }
+div.content_f {
+	margin-left: 250px;
+	padding: 120px 8px;
+}
+/*On screens that are less than 1000px wide */
+@media screen and (max-width: 1000px) {
+ .sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:  #F7F7F7;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
 
+div.content {
+	margin-left: 200px;
+	padding: 8px 8px;
+}
 div.content_f {
 	margin-left: 200px;
 	padding: 120px 8px;
 }
 }
-
 /* On screens that are less than 600px wide */
 @media screen and (max-width: 600px) {
   .sidebar {
     width: 100%;
     height: auto;
     position: relative;
-  }
+}
   .sidebar a {
     text-align: center;
     float: none;
 	padding: 3px;
-  }
-  
-  div.content {margin-left: 0;
-  padding: 3px 3px;}
-  
-  div.content_f {margin-left: 0;
-  padding: 3px 3px;}
 }
-
+  div.content {
+	margin-left: 0;
+	padding: 3px 3px;
+} 
+  div.content_f {
+	margin-left: 0;
+	padding: 3px 3px;
+}
+}

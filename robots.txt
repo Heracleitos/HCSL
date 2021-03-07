@@ -1,4 +1,5 @@
 User-Agent: *
 Disallow: 
 
-Sitemap: https://helleniccomplexsystemslaboratory.github.io/HellenicComplexSystemsLaboratory/sitemap.xml
+Sitemap: 
+https://heracleitos.github.io/HCSL//sitemap.xml

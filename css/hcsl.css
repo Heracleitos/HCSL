@@ -271,22 +271,38 @@ img
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
-	margin-left: 200px;
+	margin-right: auto;
+	margin-left: auto;
 	padding: 8px 8px;
 	height: auto;
-	max-width: 960px; 
+	max-width: 960px;
 	text-align: justify;
 	text-justify: inter-word;
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content_f {
-	margin-left: 200px;
+	margin-right: auto;
+	margin-left: auto;
 	padding: 120px 8px;
 	height: auto;
 	max-width: 960px;
 	text-align: justify;
 	text-justify: inter-word;
+}
+/*On screens that are less than 1400px wide */
+@media screen and (max-width: 1400px) {
+
+div.content {
+	margin-left: 200px;
+	margin-right: 100%;
+	padding: 8px 8px;
+}
+
+div.content_f {
+	margin-left: 200px;
+	padding: 120px 8px;
+}
 }
 
 /* On screens that are less than 600px wide */

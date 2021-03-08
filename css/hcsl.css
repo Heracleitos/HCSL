@@ -1,4 +1,5 @@
-﻿.c1 {
+﻿
+.c1 {
 	font-family: 'Source Sans Pro', Verdana, sans-serif;
 	font-size: medium;
 	font-weight: normal;
@@ -257,7 +258,7 @@ img
   display: block;
   color: #000080;
   background-color: #F7F7F7;
-  padding: 8px;
+  padding: 16px;
   text-align: center;
   text-decoration: none;
 }
@@ -276,7 +277,7 @@ img
 div.content {
 	margin-right: auto;
 	margin-left: auto;
-	padding: 8px 8px;
+	padding: 16px 16px;
 	height: auto;
 	max-width: 960px;
 	text-align: justify;
@@ -287,7 +288,7 @@ div.content {
 div.content_f {
 	margin-right: auto;
 	margin-left: auto;
-	padding: 120px 8px;
+	padding: 120px 16px;
 	height: auto;
 	max-width: 960px;
 	text-align: justify;
@@ -307,11 +308,12 @@ div.content_f {
 
 div.content {
 	margin-left: 300px;
-	padding: 8px 8px;
+	padding: 16px 16px;
 }
 div.content_f {
 	margin-left: 300px;
-	padding: 120px 8px;
+	padding: 120px 16px;
+	font-size: larger;
 }
 }
 /*On screens that are less than 1300px wide */
@@ -329,11 +331,11 @@ div.content_f {
 div.content {
 	margin-left: 250px;
 	margin-right: 100%;
-	padding: 8px 8px;
+	padding: 16px 16px;
 }
 div.content_f {
 	margin-left: 250px;
-	padding: 120px 8px;
+	padding: 120px 16px;
 }
 /*On screens that are less than 1000px wide */
 @media screen and (max-width: 1000px) {
@@ -349,11 +351,11 @@ div.content_f {
 
 div.content {
 	margin-left: 200px;
-	padding: 8px 8px;
+	padding: 12px 12px;
 }
 div.content_f {
 	margin-left: 200px;
-	padding: 120px 8px;
+	padding: 120px 12px;
 }
 }
 /* On screens that are less than 600px wide */
@@ -366,14 +368,14 @@ div.content_f {
   .sidebar a {
     text-align: center;
     float: none;
-	padding: 3px;
+	padding: 4px;
 }
   div.content {
 	margin-left: 0;
-	padding: 3px 3px;
+	padding: 4px 4px;
 } 
   div.content_f {
 	margin-left: 0;
-	padding: 3px 3px;
+	padding: 4px 4px;
 }
 }

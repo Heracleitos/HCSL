@@ -247,7 +247,7 @@ img
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 350px;
+  width: 250px;
   background-color:  #F7F7F7;
   position: fixed;
   height: 100%;
@@ -275,7 +275,7 @@ img
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
-	margin-left: 350px;
+	margin-left: 250px;
 	padding: 48px 48px;
 	height: auto;
 	max-width: 960px;
@@ -283,39 +283,8 @@ div.content {
 	text-justify: inter-word;
 }
 
-/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-div.content_f {
-	margin-left: 350px;
-	padding: 120px 48px;
-	height: auto;
-	max-width: 960px;
-	text-align: justify;
-	text-justify: inter-word;
-}
-/*On screens that are less than 1600px wide */
-@media screen and (max-width: 1600px) {
- .sidebar {
-  margin: 0;
-  padding: 0;
-  width: 300px;
-  background-color:  #F7F7F7;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-
-div.content {
-	margin-left: 300px;
-	padding: 36px 36px;
-}
-div.content_f {
-	margin-left: 300px;
-	padding: 120px 36px;
-	font-size: larger;
-}
-}
-/*On screens that are less than 1400px wide */
-@media screen and (max-width: 1400px) {
+/*On screens that are less than 1250px wide */
+@media screen and (max-width: 1250px) {
  .sidebar {
   margin: 0;
   padding: 0;
@@ -328,32 +297,9 @@ div.content_f {
 
 div.content {
 	margin-left: 250px;
-	margin-right: 100%;
-	padding: 24px 24px;
-}
-div.content_f {
-	margin-left: 250px;
-	padding: 120px 16px;
-}
-/*On screens that are less than 1250px wide */
-@media screen and (max-width: 1250px) {
- .sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color:  #F7F7F7;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-
-div.content {
-	margin-left: 200px;
 	padding: 16px 16px;
-}
-div.content_f {
-	margin-left: 200px;
-	padding: 120px 16px;
+	text-align: justify;
+	text-justify: inter-word;	
 }
 }
 /* On screens that are less than 600px wide */
@@ -371,9 +317,7 @@ div.content_f {
   div.content {
 	margin-left: 0;
 	padding: 4px 4px;
+	text-align: justify;
+	text-justify: inter-word;
 } 
-  div.content_f {
-	margin-left: 0;
-	padding: 4px 4px;
-}
 }

@@ -247,7 +247,7 @@ img
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 300px;
+  width: 350px;
   background-color:  #F7F7F7;
   position: fixed;
   height: 100%;
@@ -275,9 +275,8 @@ img
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
-	margin-right: auto;
-	margin-left: auto;
-	padding: 16px 16px;
+	margin-left: 350px;
+	padding: 48px 48px;
 	height: auto;
 	max-width: 960px;
 	text-align: justify;
@@ -286,9 +285,8 @@ div.content {
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content_f {
-	margin-right: auto;
-	margin-left: auto;
-	padding: 120px 16px;
+	margin-left: 350px;
+	padding: 120px 48px;
 	height: auto;
 	max-width: 960px;
 	text-align: justify;
@@ -308,16 +306,16 @@ div.content_f {
 
 div.content {
 	margin-left: 300px;
-	padding: 16px 16px;
+	padding: 36px 36px;
 }
 div.content_f {
 	margin-left: 300px;
-	padding: 120px 16px;
+	padding: 120px 36px;
 	font-size: larger;
 }
 }
-/*On screens that are less than 1300px wide */
-@media screen and (max-width: 1300px) {
+/*On screens that are less than 1400px wide */
+@media screen and (max-width: 1400px) {
  .sidebar {
   margin: 0;
   padding: 0;
@@ -331,14 +329,14 @@ div.content_f {
 div.content {
 	margin-left: 250px;
 	margin-right: 100%;
-	padding: 16px 16px;
+	padding: 24px 24px;
 }
 div.content_f {
 	margin-left: 250px;
 	padding: 120px 16px;
 }
-/*On screens that are less than 1000px wide */
-@media screen and (max-width: 1000px) {
+/*On screens that are less than 1250px wide */
+@media screen and (max-width: 1250px) {
  .sidebar {
   margin: 0;
   padding: 0;
@@ -351,11 +349,11 @@ div.content_f {
 
 div.content {
 	margin-left: 200px;
-	padding: 12px 12px;
+	padding: 16px 16px;
 }
 div.content_f {
 	margin-left: 200px;
-	padding: 120px 12px;
+	padding: 120px 16px;
 }
 }
 /* On screens that are less than 600px wide */

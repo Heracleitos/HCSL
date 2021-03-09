@@ -258,7 +258,7 @@ img
   display: block;
   color: #000080;
   background-color: #F7F7F7;
-  padding: 16px;
+  padding: 4%;
   text-align: center;
   text-decoration: none;
 }
@@ -276,7 +276,7 @@ img
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
 	margin-left: 250px;
-	padding: 48px 48px;
+	padding: 2% 2%;
 	height: auto;
 	max-width: 960px;
 	text-align: justify;
@@ -297,7 +297,7 @@ div.content {
 
 div.content {
 	margin-left: 250px;
-	padding: 16px 16px;
+	padding: 2% 2%px;
 	text-align: justify;
 	text-justify: inter-word;	
 }
@@ -312,11 +312,11 @@ div.content {
   .sidebar a {
     text-align: center;
     float: none;
-	padding: 4px;
+	padding: 2%;
 }
   div.content {
 	margin-left: 0;
-	padding: 4px 4px;
+	padding: 2% 2%;
 	text-align: justify;
 	text-justify: inter-word;
 } 

@@ -345,20 +345,38 @@ div.lcontent {
 }
   div.content {
 	margin-left: 0px;
-	padding: 1% 2% 2% 2%;
+	padding: 0% 2% 1% 2%;
 	text-align: justify;
 	text-justify: inter-word;
 }
 div.icontent {
 	margin-left: 0px;
-	padding: 1% 2% 2% 2%;
+	padding: 0% 2% 1% 2%;
 	height: auto;
 	text-align: justify;
 	text-justify: inter-word; 
 }
-div.lcontent {
+}
+/* On screens that are less than 400px wide */
+@media screen and (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+  .sidebar a {
+    text-align: center;
+    float: none;
+	padding: 1%;
+}
+  div.content {
 	margin-left: 0px;
-	padding: 0% 2% 2% 2%;
+	padding: 0% 2% 1% 2%;
+	text-align: left;
+}
+div.icontent {
+	margin-left: 0px;
+	padding: 0% 2% 1% 2%;
 	height: auto;
 	text-align: left;
 }

@@ -276,7 +276,7 @@ img
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
 	margin-left: 250px;
-	padding: 2% 2% 2%;
+	padding: 2% 6% 2% 6%;
 	height: auto;
 	max-width: 960px;
 	text-align: justify;
@@ -284,19 +284,13 @@ div.content {
 }
 div.icontent {
 	margin-left: 250px;
-	padding: 8% 2%;
+	padding: 6% 6% 2% 6%;
 	height: auto;
 	max-width: 960px;
 	text-align: justify;
 	text-justify: inter-word;
 }
-div.lcontent {
-	margin-left: 250px;
-	padding: 0% 2%;
-	height: auto;
-	max-width: 960px;
-	text-align: left;
-}
+
 /*On screens that are less than 1250px wide */
 @media screen and (max-width: 1250px) {
  .sidebar {
@@ -311,24 +305,17 @@ div.lcontent {
 
 div.content {
 	margin-left: 250px;
-	padding: 2% 2% 2% 2%;
+	padding: 2% 4% 2% 4%;
 	text-align: justify;
 	text-justify: inter-word;	
 }
 div.icontent {
 	margin-left: 250px;
-	padding: 8% 2% 2% 2%;
+	padding: 6% 4% 2% 4%;
 	height: auto;
 	max-width: 960px;
 	text-align: justify;
 	text-justify: inter-word;
-}
-div.lcontent {
-	margin-left: 250px;
-	padding: 0% 2% 2% 2% 2%;
-	height: auto;
-	max-width: 960px;
-	text-align: left;
 }
 }
 /* On screens that are less than 600px wide */
@@ -345,13 +332,13 @@ div.lcontent {
 }
   div.content {
 	margin-left: 0px;
-	padding: 0px 2% 1% 2%;
+	padding: 0px 1% 1% 1%;
 	text-align: justify;
 	text-justify: inter-word;
 }
 div.icontent {
 	margin-left: 0px;
-	padding: 0px 2% 1% 2%;
+	padding: 0px 1% 1% 1%;
 	height: auto;
 	text-align: justify;
 	text-justify: inter-word; 

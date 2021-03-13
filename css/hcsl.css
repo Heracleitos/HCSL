@@ -275,7 +275,7 @@ img
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
-	margin-left: 250px;
+	margin-left: calc(250px + (100% - 1210px) / 4);
 	padding: 2% 4% 2% 4%;
 	height: auto;
 	max-width: 960px;
@@ -283,7 +283,7 @@ div.content {
 	text-justify: inter-word;
 }
 div.icontent {
-	margin-left: 250px;
+	margin-left: calc(250px + (100% - 1210px) / 4);;
 	padding: 6% 4% 2% 4%;
 	height: auto;
 	max-width: 960px;

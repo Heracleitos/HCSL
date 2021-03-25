@@ -108,6 +108,17 @@
 	font-style: italic;
 	background-color: #FFFFFF;
 }
+.c14 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: x-large;
+	font-weight: normal;
+	color: #000080;
+	background-color: #FFFFFF;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+	text-align: left;
+}
 h1 {
 	font-family: 'Source Sans Pro', Verdana, sans-serif;
 	font-size: x-large;
@@ -233,6 +244,7 @@ a.box:hover {
 	border: medium solid #3366FF;
 	font-family: 'Source Sans Pro', Verdana, sans-serif;
 }
+
 img 
 { 	max-width: 100%; 
 	height: auto; 
@@ -283,7 +295,7 @@ div.content {
 	text-justify: inter-word;
 }
 div.icontent {
-	margin-left: calc(250px + (100% - 1210px) / 4);;
+	margin-left: calc(250px + (100% - 1210px) / 4);
 	padding: 6% 4% 2% 4%;
 	height: auto;
 	max-width: 960px;

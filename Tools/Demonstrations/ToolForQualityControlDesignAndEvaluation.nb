@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    178575,       3965]
-NotebookOptionsPosition[    174405,       3874]
-NotebookOutlinePosition[    175486,       3907]
-CellTagsIndexPosition[    175351,       3900]
+NotebookDataLength[    164044,       3602]
+NotebookOptionsPosition[    159868,       3511]
+NotebookOutlinePosition[    160956,       3544]
+CellTagsIndexPosition[    160821,       3537]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -63,144 +63,64 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"pce", "[", 
    RowBox[{"em_", ",", "m_", ",", "s_", ",", "taae_"}], "]"}], ":=", 
-  RowBox[{
-   RowBox[{"NIntegrate", "[", 
+  RowBox[{"N", "[", 
+   RowBox[{
     RowBox[{
-     FractionBox[
-      SuperscriptBox["\[ExponentialE]", 
-       RowBox[{"-", 
-        FractionBox[
-         SuperscriptBox[
-          RowBox[{"(", 
-           RowBox[{
-            RowBox[{"-", "m"}], "+", "x"}], ")"}], "2"], 
-         RowBox[{"2", " ", 
-          SuperscriptBox["s", "2"]}]]}]], 
+     SuperscriptBox["2", 
+      RowBox[{"-", "1"}]], 
+     RowBox[{"(", 
       RowBox[{
-       SqrtBox[
-        RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-     RowBox[{"{", 
-      RowBox[{"x", ",", 
-       RowBox[{"-", "Infinity"}], ",", 
-       RowBox[{"em", 
-        RowBox[{"(", 
-         RowBox[{"1", "-", "taae"}], ")"}]}]}], "}"}]}], "]"}], "+", 
-   RowBox[{"NIntegrate", "[", 
-    RowBox[{
-     FractionBox[
-      SuperscriptBox["\[ExponentialE]", 
-       RowBox[{"-", 
+       RowBox[{"Erfc", "[", 
         FractionBox[
-         SuperscriptBox[
-          RowBox[{"(", 
-           RowBox[{
-            RowBox[{"-", "m"}], "+", "x"}], ")"}], "2"], 
-         RowBox[{"2", " ", 
-          SuperscriptBox["s", "2"]}]]}]], 
-      RowBox[{
-       SqrtBox[
-        RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-     RowBox[{"{", 
-      RowBox[{"x", ",", 
-       RowBox[{"em", 
-        RowBox[{"(", 
-         RowBox[{"1", "+", "taae"}], ")"}]}], ",", "Infinity"}], "}"}]}], 
-    "]"}]}]}], "\n", 
+         RowBox[{"m", "+", 
+          RowBox[{"em", " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", "taae"}], ")"}]}]}], 
+         RowBox[{
+          SqrtBox["2"], " ", "s"}]], "]"}], "+", 
+       RowBox[{"Erfc", "[", 
+        FractionBox[
+         RowBox[{
+          RowBox[{"-", "m"}], "+", 
+          RowBox[{"em", " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "+", "taae"}], ")"}]}]}], 
+         RowBox[{
+          SqrtBox["2"], " ", "s"}]], "]"}]}], ")"}]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"100", ",", "100"}], "}"}]}], "]"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"ped", "[", 
     RowBox[{
     "em_", ",", "m_", ",", "s_", ",", "d_", ",", "dm_", ",", "sd_", ",", 
      "c_"}], "]"}], ":=", 
-   RowBox[{"If", "[", 
+   RowBox[{"N", "[", 
     RowBox[{
-     RowBox[{"m", "<", "em"}], ",", 
      RowBox[{"1", "-", 
-      SuperscriptBox[
-       RowBox[{"(", 
-        RowBox[{"1", "-", 
-         RowBox[{"NIntegrate", "[", 
-          RowBox[{
+      RowBox[{
+       SuperscriptBox["2", 
+        RowBox[{"-", "c"}]], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", 
+           RowBox[{"Erf", "[", 
+            FractionBox[
+             RowBox[{"dm", "-", 
+              RowBox[{"d", " ", "s"}]}], 
+             RowBox[{
+              SqrtBox["2"], " ", "sd"}]], "]"}]}], "+", 
+          RowBox[{"Erf", "[", 
            FractionBox[
-            SuperscriptBox["\[ExponentialE]", 
-             RowBox[{"-", 
-              FractionBox[
-               SuperscriptBox[
-                RowBox[{"(", 
-                 RowBox[{"dm", "-", "m", "+", "x"}], ")"}], "2"], 
-               RowBox[{"2", " ", 
-                SuperscriptBox["sd", "2"]}]]}]], 
+            RowBox[{"dm", "+", 
+             RowBox[{"d", " ", "s"}]}], 
             RowBox[{
-             SqrtBox[
-              RowBox[{"2", " ", "\[Pi]"}]], " ", "sd"}]], ",", 
-           RowBox[{"{", 
-            RowBox[{"x", ",", 
-             RowBox[{"-", "Infinity"}], ",", 
-             RowBox[{"m", "-", 
-              RowBox[{"d", " ", "s"}]}]}], "}"}]}], "]"}], "-", 
-         RowBox[{"NIntegrate", "[", 
-          RowBox[{
-           FractionBox[
-            SuperscriptBox["\[ExponentialE]", 
-             RowBox[{"-", 
-              FractionBox[
-               SuperscriptBox[
-                RowBox[{"(", 
-                 RowBox[{"dm", "-", "m", "+", "x"}], ")"}], "2"], 
-               RowBox[{"2", " ", 
-                SuperscriptBox["sd", "2"]}]]}]], 
-            RowBox[{
-             SqrtBox[
-              RowBox[{"2", " ", "\[Pi]"}]], " ", "sd"}]], ",", 
-           RowBox[{"{", 
-            RowBox[{"x", ",", 
-             RowBox[{"m", "+", 
-              RowBox[{"d", " ", "s"}]}], ",", "Infinity"}], "}"}]}], "]"}]}], 
-        ")"}], "c"]}], ",", 
-     RowBox[{"1", "-", 
-      SuperscriptBox[
-       RowBox[{"(", 
-        RowBox[{"1", "-", 
-         RowBox[{"NIntegrate", "[", 
-          RowBox[{
-           FractionBox[
-            SuperscriptBox["\[ExponentialE]", 
-             RowBox[{"-", 
-              FractionBox[
-               SuperscriptBox[
-                RowBox[{"(", 
-                 RowBox[{
-                  RowBox[{"-", "dm"}], "-", "m", "+", "x"}], ")"}], "2"], 
-               RowBox[{"2", " ", 
-                SuperscriptBox["sd", "2"]}]]}]], 
-            RowBox[{
-             SqrtBox[
-              RowBox[{"2", " ", "\[Pi]"}]], " ", "sd"}]], ",", 
-           RowBox[{"{", 
-            RowBox[{"x", ",", 
-             RowBox[{"-", "Infinity"}], ",", 
-             RowBox[{"m", "-", 
-              RowBox[{"d", " ", "s"}]}]}], "}"}]}], "]"}], "-", 
-         RowBox[{"NIntegrate", "[", 
-          RowBox[{
-           FractionBox[
-            SuperscriptBox["\[ExponentialE]", 
-             RowBox[{"-", 
-              FractionBox[
-               SuperscriptBox[
-                RowBox[{"(", 
-                 RowBox[{
-                  RowBox[{"-", "dm"}], "-", "m", "+", "x"}], ")"}], "2"], 
-               RowBox[{"2", " ", 
-                SuperscriptBox["sd", "2"]}]]}]], 
-            RowBox[{
-             SqrtBox[
-              RowBox[{"2", " ", "\[Pi]"}]], " ", "sd"}]], ",", 
-           RowBox[{"{", 
-            RowBox[{"x", ",", 
-             RowBox[{"m", "+", 
-              RowBox[{"d", " ", "s"}]}], ",", "Infinity"}], "}"}]}], "]"}]}], 
-        ")"}], "c"]}]}], "]"}]}], "\[IndentingNewLine]"}], "\n", 
+             SqrtBox["2"], " ", "sd"}]], "]"}]}], ")"}], "c"]}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"100", ",", "100"}], "}"}]}], "]"}]}], 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{"qc", "[", 
    RowBox[{
@@ -218,49 +138,31 @@ Cell[BoxData[{
        RowBox[{"FindRoot", "[", 
         RowBox[{
          RowBox[{
-          RowBox[{
-           RowBox[{"NIntegrate", "[", 
-            RowBox[{
-             FractionBox[
-              SuperscriptBox["\[ExponentialE]", 
-               RowBox[{"-", 
-                FractionBox[
-                 SuperscriptBox[
+          RowBox[{"N", "[", 
+           RowBox[{
+            SuperscriptBox["2", 
+             RowBox[{"-", "1"}]], 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"Erfc", "[", 
+               FractionBox[
+                RowBox[{"m", "+", 
+                 RowBox[{"em", " ", 
                   RowBox[{"(", 
                    RowBox[{
-                    RowBox[{"-", "m"}], "+", "x"}], ")"}], "2"], 
-                 RowBox[{"2", " ", 
-                  SuperscriptBox["sd", "2"]}]]}]], 
-              RowBox[{
-               SqrtBox[
-                RowBox[{"2", " ", "\[Pi]"}]], " ", "sd"}]], ",", 
-             RowBox[{"{", 
-              RowBox[{"x", ",", 
-               RowBox[{"-", "Infinity"}], ",", 
-               RowBox[{"em", 
-                RowBox[{"(", 
-                 RowBox[{"1", "-", "taae"}], ")"}]}]}], "}"}]}], "]"}], "+", 
-           RowBox[{"NIntegrate", "[", 
-            RowBox[{
-             FractionBox[
-              SuperscriptBox["\[ExponentialE]", 
-               RowBox[{"-", 
-                FractionBox[
-                 SuperscriptBox[
+                    RowBox[{"-", "1"}], "+", "taae"}], ")"}]}]}], 
+                RowBox[{
+                 SqrtBox["2"], " ", "sd"}]], "]"}], "+", 
+              RowBox[{"Erfc", "[", 
+               FractionBox[
+                RowBox[{
+                 RowBox[{"-", "m"}], "+", 
+                 RowBox[{"em", " ", 
                   RowBox[{"(", 
-                   RowBox[{
-                    RowBox[{"-", "m"}], "+", "x"}], ")"}], "2"], 
-                 RowBox[{"2", " ", 
-                  SuperscriptBox["sd", "2"]}]]}]], 
-              RowBox[{
-               SqrtBox[
-                RowBox[{"2", " ", "\[Pi]"}]], " ", "sd"}]], ",", 
-             RowBox[{"{", 
-              RowBox[{"x", ",", 
-               RowBox[{"em", 
-                RowBox[{"(", 
-                 RowBox[{"1", "+", "taae"}], ")"}]}], ",", "Infinity"}], 
-              "}"}]}], "]"}]}], "\[Equal]", "a"}], ",", 
+                   RowBox[{"1", "+", "taae"}], ")"}]}]}], 
+                RowBox[{
+                 SqrtBox["2"], " ", "sd"}]], "]"}]}], ")"}]}], "]"}], 
+          "\[Equal]", "a"}], ",", 
          RowBox[{"{", 
           RowBox[{"sd", ",", "s", ",", 
            RowBox[{"20", "s"}], ",", "0", ",", 
@@ -268,57 +170,25 @@ Cell[BoxData[{
          RowBox[{"AccuracyGoal", "\[Rule]", "100"}], ",", 
          RowBox[{"PrecisionGoal", "\[Rule]", "100"}]}], "]"}]}]}], ";", 
      RowBox[{"dr", "=", 
-      RowBox[{"d", "/.", 
-       RowBox[{"FindRoot", "[", 
-        RowBox[{
+      RowBox[{"N", "[", 
+       RowBox[{
+        FractionBox[
          RowBox[{
-          SuperscriptBox[
-           RowBox[{"(", 
-            RowBox[{"1", "-", 
-             RowBox[{"NIntegrate", "[", 
-              RowBox[{
-               FractionBox[
-                SuperscriptBox["\[ExponentialE]", 
-                 RowBox[{"-", 
-                  FractionBox[
-                   SuperscriptBox[
-                    RowBox[{"(", 
-                    RowBox[{
-                    RowBox[{"-", "m"}], "+", "x"}], ")"}], "2"], 
-                   RowBox[{"2", " ", 
-                    SuperscriptBox["ra", "2"]}]]}]], 
-                RowBox[{
-                 SqrtBox[
-                  RowBox[{"2", " ", "\[Pi]"}]], " ", "ra"}]], ",", 
-               RowBox[{"{", 
-                RowBox[{"x", ",", 
-                 RowBox[{"-", "Infinity"}], ",", 
-                 RowBox[{"m", "-", 
-                  RowBox[{"d", " ", "s"}]}]}], "}"}]}], "]"}], "-", 
-             RowBox[{"NIntegrate", "[", 
-              RowBox[{
-               FractionBox[
-                SuperscriptBox["\[ExponentialE]", 
-                 RowBox[{"-", 
-                  FractionBox[
-                   SuperscriptBox[
-                    RowBox[{"(", 
-                    RowBox[{
-                    RowBox[{"-", "m"}], "+", "x"}], ")"}], "2"], 
-                   RowBox[{"2", " ", 
-                    SuperscriptBox["ra", "2"]}]]}]], 
-                RowBox[{
-                 SqrtBox[
-                  RowBox[{"2", " ", "\[Pi]"}]], " ", "ra"}]], ",", 
-               RowBox[{"{", 
-                RowBox[{"x", ",", 
-                 RowBox[{"m", "+", 
-                  RowBox[{"d", " ", "s"}]}], ",", "Infinity"}], "}"}]}], 
-              "]"}]}], ")"}], "c"], "\[Equal]", 
-          RowBox[{"1", "-", "minpred"}]}], ",", 
-         RowBox[{"{", 
-          RowBox[{"d", ",", "1", " ", ",", "20", " ", ",", "0", ",", "30"}], 
-          " ", "}"}]}], "]"}]}]}], ";", "\[IndentingNewLine]", 
+          SqrtBox["2"], " ", "ra", " ", 
+          RowBox[{"InverseErf", "[", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", 
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{"1", "-", "minpred"}], ")"}], 
+             FractionBox["1", "c"]], "+", 
+            RowBox[{
+             SqrtBox[
+              FractionBox["1", 
+               SuperscriptBox["ra", "2"]]], " ", "ra"}]}], "]"}]}], "s"], ",", 
+        RowBox[{"{", 
+         RowBox[{"100", ",", "100"}], "}"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
      RowBox[{"sa", "=", 
       RowBox[{"bias", "/.", 
        RowBox[{"If", "[", 
@@ -327,47 +197,29 @@ Cell[BoxData[{
          RowBox[{"FindRoot", "[", 
           RowBox[{
            RowBox[{
-            RowBox[{
-             RowBox[{"NIntegrate", "[", 
-              RowBox[{
-               FractionBox[
-                SuperscriptBox["\[ExponentialE]", 
-                 RowBox[{"-", 
-                  FractionBox[
-                   SuperscriptBox[
+            RowBox[{"N", "[", 
+             RowBox[{
+              SuperscriptBox["2", 
+               RowBox[{"-", "1"}]], " ", 
+              RowBox[{"(", 
+               RowBox[{"1", "+", 
+                RowBox[{"Erf", "[", 
+                 FractionBox[
+                  RowBox[{"bias", "-", "m", "+", 
+                   RowBox[{"em", " ", 
                     RowBox[{"(", 
-                    RowBox[{"bias", "-", "m", "+", "x"}], ")"}], "2"], 
-                   RowBox[{"2", " ", 
-                    SuperscriptBox["s", "2"]}]]}]], 
-                RowBox[{
-                 SqrtBox[
-                  RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-               RowBox[{"{", 
-                RowBox[{"x", ",", 
-                 RowBox[{"-", "Infinity"}], ",", 
-                 RowBox[{"em", 
-                  RowBox[{"(", 
-                   RowBox[{"1", "-", "taae"}], ")"}]}]}], "}"}]}], "]"}], "+", 
-             RowBox[{"NIntegrate", "[", 
-              RowBox[{
-               FractionBox[
-                SuperscriptBox["\[ExponentialE]", 
-                 RowBox[{"-", 
-                  FractionBox[
-                   SuperscriptBox[
+                    RowBox[{"1", "-", "taae"}], ")"}]}]}], 
+                  RowBox[{
+                   SqrtBox["2"], " ", "s"}]], "]"}], "+", 
+                RowBox[{"Erfc", "[", 
+                 FractionBox[
+                  RowBox[{"bias", "-", "m", "+", 
+                   RowBox[{"em", " ", 
                     RowBox[{"(", 
-                    RowBox[{"bias", "-", "m", "+", "x"}], ")"}], "2"], 
-                   RowBox[{"2", " ", 
-                    SuperscriptBox["s", "2"]}]]}]], 
-                RowBox[{
-                 SqrtBox[
-                  RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-               RowBox[{"{", 
-                RowBox[{"x", ",", 
-                 RowBox[{"em", 
-                  RowBox[{"(", 
-                   RowBox[{"1", "+", "taae"}], ")"}]}], ",", "Infinity"}], 
-                "}"}]}], "]"}]}], "\[Equal]", "a"}], ",", 
+                    RowBox[{"1", "+", "taae"}], ")"}]}]}], 
+                  RowBox[{
+                   SqrtBox["2"], " ", "s"}]], "]"}]}], ")"}]}], "]"}], 
+            "\[Equal]", "a"}], ",", 
            RowBox[{"{", 
             RowBox[{"bias", ",", 
              RowBox[{"1", "s"}], ",", 
@@ -378,160 +230,69 @@ Cell[BoxData[{
          RowBox[{"FindRoot", "[", 
           RowBox[{
            RowBox[{
-            RowBox[{
-             RowBox[{"NIntegrate", "[", 
-              RowBox[{
-               FractionBox[
-                SuperscriptBox["\[ExponentialE]", 
-                 RowBox[{"-", 
-                  FractionBox[
-                   SuperscriptBox[
+            RowBox[{"N", "[", 
+             RowBox[{
+              SuperscriptBox["2", 
+               RowBox[{"-", "1"}]], 
+              RowBox[{"(", 
+               RowBox[{"1", "+", 
+                RowBox[{"Erfc", "[", 
+                 FractionBox[
+                  RowBox[{"bias", "+", "m", "-", 
+                   RowBox[{"em", " ", 
                     RowBox[{"(", 
-                    RowBox[{
-                    RowBox[{"-", "bias"}], "-", "m", "+", "x"}], ")"}], "2"], 
-                   RowBox[{"2", " ", 
-                    SuperscriptBox["s", "2"]}]]}]], 
-                RowBox[{
-                 SqrtBox[
-                  RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-               RowBox[{"{", 
-                RowBox[{"x", ",", 
-                 RowBox[{"-", "Infinity"}], ",", 
-                 RowBox[{"em", 
-                  RowBox[{"(", 
-                   RowBox[{"1", "-", "taae"}], ")"}]}]}], "}"}]}], "]"}], "+", 
-             RowBox[{"NIntegrate", "[", 
-              RowBox[{
-               FractionBox[
-                SuperscriptBox["\[ExponentialE]", 
-                 RowBox[{"-", 
-                  FractionBox[
-                   SuperscriptBox[
+                    RowBox[{"1", "-", "taae"}], ")"}]}]}], 
+                  RowBox[{
+                   SqrtBox["2"], " ", "s"}]], "]"}], "+", 
+                RowBox[{"Erf", "[", 
+                 FractionBox[
+                  RowBox[{"bias", "+", "m", "-", 
+                   RowBox[{"em", " ", 
                     RowBox[{"(", 
-                    RowBox[{
-                    RowBox[{"-", "bias"}], "-", "m", "+", "x"}], ")"}], "2"], 
-                   RowBox[{"2", " ", 
-                    SuperscriptBox["s", "2"]}]]}]], 
-                RowBox[{
-                 SqrtBox[
-                  RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-               RowBox[{"{", 
-                RowBox[{"x", ",", 
-                 RowBox[{"em", 
-                  RowBox[{"(", 
-                   RowBox[{"1", "+", "taae"}], ")"}]}], ",", "Infinity"}], 
-                "}"}]}], "]"}]}], "\[Equal]", "a"}], ",", 
+                    RowBox[{"1", "+", "taae"}], ")"}]}]}], 
+                  RowBox[{
+                   SqrtBox["2"], " ", "s"}]], "]"}]}], ")"}]}], "]"}], 
+            "\[Equal]", "a"}], ",", 
            RowBox[{"{", 
             RowBox[{"bias", ",", 
              RowBox[{"1", "s"}], ",", 
              RowBox[{"20", " ", "s"}], ",", "0", ",", 
-             RowBox[{"30", " ", "s"}]}], "}"}]}], "]"}]}], "]"}]}]}], ";", 
-     "\[IndentingNewLine]", 
+             RowBox[{"30", " ", "s"}]}], "}"}], ",", 
+           RowBox[{"AccuracyGoal", "\[Rule]", "100"}], ",", 
+           RowBox[{"PrecisionGoal", "\[Rule]", "100"}]}], "]"}]}], "]"}]}]}], 
+     ";", "\[IndentingNewLine]", 
      RowBox[{"ds", "=", 
       RowBox[{"dd", "/.", 
-       RowBox[{"If", "[", 
+       RowBox[{"FindRoot", "[", 
         RowBox[{
-         RowBox[{"m", "<", "em"}], ",", 
-         RowBox[{"FindRoot", "[", 
-          RowBox[{
+         RowBox[{
+          RowBox[{"N", "[", 
            RowBox[{
+            SuperscriptBox["2", 
+             RowBox[{"-", "c"}]], " ", 
             SuperscriptBox[
              RowBox[{"(", 
-              RowBox[{"1", "-", 
-               RowBox[{"NIntegrate", "[", 
-                RowBox[{
-                 FractionBox[
-                  SuperscriptBox["\[ExponentialE]", 
-                   RowBox[{"-", 
-                    FractionBox[
-                    SuperscriptBox[
-                    RowBox[{"(", 
-                    RowBox[{
-                    RowBox[{"-", "m"}], "+", "sa", "+", "x"}], ")"}], "2"], 
-                    RowBox[{"2", " ", 
-                    SuperscriptBox["s", "2"]}]]}]], 
-                  RowBox[{
-                   SqrtBox[
-                    RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-                 RowBox[{"{", 
-                  RowBox[{"x", ",", 
-                   RowBox[{"-", "Infinity"}], ",", 
-                   RowBox[{"m", "-", 
-                    RowBox[{"dd", " ", "s"}]}]}], "}"}]}], "]"}], "-", 
-               RowBox[{"NIntegrate", "[", 
-                RowBox[{
-                 FractionBox[
-                  SuperscriptBox["\[ExponentialE]", 
-                   RowBox[{"-", 
-                    FractionBox[
-                    SuperscriptBox[
-                    RowBox[{"(", 
-                    RowBox[{
-                    RowBox[{"-", "m"}], "+", "sa", "+", "x"}], ")"}], "2"], 
-                    RowBox[{"2", " ", 
-                    SuperscriptBox["s", "2"]}]]}]], 
-                  RowBox[{
-                   SqrtBox[
-                    RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-                 RowBox[{"{", 
-                  RowBox[{"x", ",", 
-                   RowBox[{"m", "+", 
-                    RowBox[{"dd", " ", "s"}]}], ",", "Infinity"}], "}"}]}], 
-                "]"}]}], ")"}], "c"], "\[Equal]", 
-            RowBox[{"1", "-", "minpsed"}]}], ",", 
-           RowBox[{"{", 
-            RowBox[{"dd", ",", "1", ",", "20", ",", "0", ",", "30"}], "}"}]}],
-           "]"}], ",", 
-         RowBox[{"FindRoot", "[", 
-          RowBox[{
-           RowBox[{
-            SuperscriptBox[
-             RowBox[{"(", 
-              RowBox[{"1", "-", 
-               RowBox[{"NIntegrate", "[", 
-                RowBox[{
-                 FractionBox[
-                  SuperscriptBox["\[ExponentialE]", 
-                   RowBox[{"-", 
-                    FractionBox[
-                    SuperscriptBox[
-                    RowBox[{"(", 
-                    RowBox[{
-                    RowBox[{"-", "m"}], "-", "sa", "+", "x"}], ")"}], "2"], 
-                    RowBox[{"2", " ", 
-                    SuperscriptBox["s", "2"]}]]}]], 
-                  RowBox[{
-                   SqrtBox[
-                    RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-                 RowBox[{"{", 
-                  RowBox[{"x", ",", 
-                   RowBox[{"-", "Infinity"}], ",", 
-                   RowBox[{"m", "-", 
-                    RowBox[{"dd", " ", "s"}]}]}], "}"}]}], "]"}], "-", 
-               RowBox[{"NIntegrate", "[", 
-                RowBox[{
-                 FractionBox[
-                  SuperscriptBox["\[ExponentialE]", 
-                   RowBox[{"-", 
-                    FractionBox[
-                    SuperscriptBox[
-                    RowBox[{"(", 
-                    RowBox[{
-                    RowBox[{"-", "m"}], "-", "sa", "+", "x"}], ")"}], "2"], 
-                    RowBox[{"2", " ", 
-                    SuperscriptBox["s", "2"]}]]}]], 
-                  RowBox[{
-                   SqrtBox[
-                    RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-                 RowBox[{"{", 
-                  RowBox[{"x", ",", 
-                   RowBox[{"m", "+", 
-                    RowBox[{"dd", " ", "s"}]}], ",", "Infinity"}], "}"}]}], 
-                "]"}]}], ")"}], "c"], "\[Equal]", 
-            RowBox[{"1", "-", "minpsed"}]}], ",", 
-           RowBox[{"{", 
-            RowBox[{"dd", ",", "1", ",", "20", ",", "0", ",", "30"}], "}"}]}],
-           "]"}]}], "]"}]}]}], ";", "\[IndentingNewLine]", 
+              RowBox[{
+               RowBox[{"Erf", "[", 
+                FractionBox[
+                 RowBox[{
+                  RowBox[{"dd", " ", "s"}], "-", "sa"}], 
+                 RowBox[{
+                  SqrtBox["2"], " ", "s"}]], "]"}], "+", 
+               RowBox[{"Erf", "[", 
+                FractionBox[
+                 RowBox[{
+                  RowBox[{"dd", " ", "s"}], "+", "sa"}], 
+                 RowBox[{
+                  SqrtBox["2"], " ", "s"}]], "]"}]}], ")"}], "c"]}], "]"}], 
+          "\[Equal]", 
+          RowBox[{"1", "-", "minpsed"}]}], ",", 
+         RowBox[{"{", 
+          RowBox[{"dd", ",", "1", ",", "20", ",", "0", ",", "30"}], "}"}], 
+         ",", 
+         RowBox[{"AccuracyGoal", "\[Rule]", "100"}], ",", 
+         RowBox[{"PrecisionGoal", "\[Rule]", "100"}]}], "]"}]}]}], ";", 
+     "\[IndentingNewLine]", 
      RowBox[{"Min", "[", 
       RowBox[{"dr", ",", "ds"}], "]"}]}]}], "]"}]}]}], "Input",
  InitializationCell->True,
@@ -548,8 +309,23 @@ Cell[BoxData[{
    3.48993291281071*^9, 3.48993297655171*^9}, {3.48993306919871*^9, 
    3.48993308656571*^9}, {3.4899736502786045`*^9, 3.489973700727605*^9}, {
    3.490447447190764*^9, 3.490447480331813*^9}, {3.824276395223339*^9, 
-   3.824276400285407*^9}},
- CellLabel->"In[298]:=",
+   3.824276400285407*^9}, {3.82651214259802*^9, 3.826512150317314*^9}, {
+   3.8265122964574785`*^9, 3.8265123126780834`*^9}, {3.826512460576537*^9, 
+   3.8265124927862864`*^9}, {3.8265125739054193`*^9, 3.826512593036664*^9}, {
+   3.826512735322765*^9, 3.8265127505279665`*^9}, {3.826513142781173*^9, 
+   3.8265132024672775`*^9}, 3.8265139469987264`*^9, 3.8265141451525717`*^9, 
+   3.8265142244147463`*^9, 3.8265144819000845`*^9, 3.8265148237623806`*^9, 
+   3.8265149653101377`*^9, {3.8265152091232367`*^9, 3.8265152264118595`*^9}, {
+   3.8265153622676654`*^9, 3.8265154214352064`*^9}, {3.826515462644703*^9, 
+   3.8265154739114685`*^9}, {3.8265155386933975`*^9, 
+   3.8265155942192507`*^9}, {3.8265156652221365`*^9, 
+   3.8265158510265813`*^9}, {3.8265158822884254`*^9, 
+   3.8265159104653053`*^9}, {3.826515968067763*^9, 3.826515970114946*^9}, {
+   3.8265168276161833`*^9, 3.8265168655458455`*^9}, 3.8265175839936047`*^9, {
+   3.8265177610994635`*^9, 3.8265177983862333`*^9}, 3.8265339955307713`*^9, {
+   3.826534087502098*^9, 3.826534107513914*^9}, {3.826534139761107*^9, 
+   3.826534161553152*^9}, {3.8265346323488393`*^9, 3.826534636823462*^9}, 
+   3.8265974638894763`*^9, {3.8265979501123195`*^9, 3.8265980438227806`*^9}},
  CellID->6681815,ExpressionUUID->"c249c4ce-20c4-4c44-b6b4-915048027b05"],
 
 Cell[CellGroupData[{
@@ -578,50 +354,32 @@ Cell[BoxData[
             RowBox[{"FindRoot", "[", 
              RowBox[{
               RowBox[{
-               RowBox[{
-                RowBox[{"NIntegrate", "[", 
-                 RowBox[{
-                  FractionBox[
-                   SuperscriptBox["\[ExponentialE]", 
-                    RowBox[{"-", 
-                    FractionBox[
-                    SuperscriptBox[
+               RowBox[{"N", "[", 
+                RowBox[{
+                 SuperscriptBox["2", 
+                  RowBox[{"-", "1"}]], 
+                 RowBox[{"(", 
+                  RowBox[{"1", "+", 
+                   RowBox[{"Erf", "[", 
+                    RowBox[{
                     RowBox[{"(", 
                     RowBox[{
-                    RowBox[{"-", "m"}], "+", "x"}], ")"}], "2"], 
-                    RowBox[{"2", " ", 
-                    SuperscriptBox["sd", "2"]}]]}]], 
-                   RowBox[{
-                    SqrtBox[
-                    RowBox[{"2", " ", "\[Pi]"}]], " ", "sd"}]], ",", 
-                  RowBox[{"{", 
-                   RowBox[{"x", ",", 
-                    RowBox[{"-", "Infinity"}], ",", 
-                    RowBox[{"em", 
+                    RowBox[{"9", " ", "em"}], "-", 
+                    RowBox[{"10", " ", "m"}]}], ")"}], "/", 
                     RowBox[{"(", 
-                    RowBox[{"1", "-", "taae"}], ")"}]}]}], "}"}]}], "]"}], 
-                "+", 
-                RowBox[{"NIntegrate", "[", 
-                 RowBox[{
-                  FractionBox[
-                   SuperscriptBox["\[ExponentialE]", 
-                    RowBox[{"-", 
-                    FractionBox[
-                    SuperscriptBox[
+                    RowBox[{"10", " ", 
+                    RowBox[{"\[Sqrt]", "2"}], " ", "sd"}], ")"}]}], "]"}], 
+                   "+", 
+                   RowBox[{"Erfc", "[", 
+                    RowBox[{
                     RowBox[{"(", 
                     RowBox[{
-                    RowBox[{"-", "m"}], "+", "x"}], ")"}], "2"], 
-                    RowBox[{"2", " ", 
-                    SuperscriptBox["sd", "2"]}]]}]], 
-                   RowBox[{
-                    SqrtBox[
-                    RowBox[{"2", " ", "\[Pi]"}]], " ", "sd"}]], ",", 
-                  RowBox[{"{", 
-                   RowBox[{"x", ",", 
-                    RowBox[{"em", 
+                    RowBox[{"11", " ", "em"}], "-", 
+                    RowBox[{"10", " ", "m"}]}], ")"}], "/", 
                     RowBox[{"(", 
-                    RowBox[{"1", "+", "taae"}], ")"}]}], ",", "Infinity"}], 
-                   "}"}]}], "]"}]}], "\[Equal]", "a"}], ",", 
+                    RowBox[{"10", " ", 
+                    RowBox[{"\[Sqrt]", "2"}], " ", "sd"}], ")"}]}], "]"}]}], 
+                  ")"}]}], "]"}], "\[Equal]", "a"}], ",", 
               RowBox[{"{", 
                RowBox[{"sd", ",", "s", ",", 
                 RowBox[{"20", "s"}], ",", "0", ",", 
@@ -635,52 +393,33 @@ Cell[BoxData[
               RowBox[{"FindRoot", "[", 
                RowBox[{
                 RowBox[{
-                 RowBox[{
-                  RowBox[{"NIntegrate", "[", 
-                   RowBox[{
-                    FractionBox[
-                    SuperscriptBox["\[ExponentialE]", 
-                    RowBox[{"-", 
-                    FractionBox[
-                    SuperscriptBox[
-                    RowBox[{"(", 
-                    RowBox[{"bias", "-", "m", "+", "x"}], ")"}], "2"], 
-                    RowBox[{"2", " ", 
-                    SuperscriptBox["s", "2"]}]]}]], 
+                 RowBox[{"N", "[", 
+                  RowBox[{
+                   SuperscriptBox["2", 
+                    RowBox[{"-", "1"}]], 
+                   RowBox[{"(", 
+                    RowBox[{"1", "+", 
+                    RowBox[{"Erf", "[", 
                     RowBox[{
-                    SqrtBox[
-                    RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-                    RowBox[{"{", 
-                    RowBox[{"x", ",", 
-                    RowBox[{"-", "Infinity"}], ",", 
-                    RowBox[{"em", 
                     RowBox[{"(", 
-                    RowBox[{"1", "-", "taae"}], ")"}]}]}], "}"}], ",", 
-                    RowBox[{"AccuracyGoal", "\[Rule]", "100"}], ",", 
-                    RowBox[{"PrecisionGoal", "\[Rule]", "100"}]}], "]"}], "+", 
-                  RowBox[{"NIntegrate", "[", 
-                   RowBox[{
-                    FractionBox[
-                    SuperscriptBox["\[ExponentialE]", 
-                    RowBox[{"-", 
-                    FractionBox[
-                    SuperscriptBox[
-                    RowBox[{"(", 
-                    RowBox[{"bias", "-", "m", "+", "x"}], ")"}], "2"], 
-                    RowBox[{"2", " ", 
-                    SuperscriptBox["s", "2"]}]]}]], 
                     RowBox[{
-                    SqrtBox[
-                    RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-                    RowBox[{"{", 
-                    RowBox[{"x", ",", 
-                    RowBox[{"em", 
+                    RowBox[{"10", " ", "bias"}], "+", 
+                    RowBox[{"9", " ", "em"}], "-", 
+                    RowBox[{"10", " ", "m"}]}], ")"}], "/", 
                     RowBox[{"(", 
-                    RowBox[{"1", "+", "taae"}], ")"}]}], ",", "Infinity"}], 
-                    "}"}], ",", 
-                    RowBox[{"AccuracyGoal", "\[Rule]", "100"}], ",", 
-                    RowBox[{"PrecisionGoal", "\[Rule]", "100"}]}], "]"}]}], 
-                 "\[Equal]", "a"}], ",", 
+                    RowBox[{"10", " ", 
+                    RowBox[{"\[Sqrt]", "2"}], " ", "s"}], ")"}]}], "]"}], "+", 
+                    RowBox[{"Erfc", "[", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"10", " ", "bias"}], "+", 
+                    RowBox[{"11", " ", "em"}], "-", 
+                    RowBox[{"10", " ", "m"}]}], ")"}], "/", 
+                    RowBox[{"(", 
+                    RowBox[{"10", " ", 
+                    RowBox[{"\[Sqrt]", "2"}], " ", "s"}], ")"}]}], "]"}]}], 
+                    ")"}]}], "]"}], "\[Equal]", "a"}], ",", 
                 RowBox[{"{", 
                  RowBox[{"bias", ",", 
                   RowBox[{"1", "s"}], ",", 
@@ -691,54 +430,33 @@ Cell[BoxData[
               RowBox[{"FindRoot", "[", 
                RowBox[{
                 RowBox[{
-                 RowBox[{
-                  RowBox[{"NIntegrate", "[", 
-                   RowBox[{
-                    FractionBox[
-                    SuperscriptBox["\[ExponentialE]", 
-                    RowBox[{"-", 
-                    FractionBox[
-                    SuperscriptBox[
+                 RowBox[{"N", "[", 
+                  RowBox[{
+                   SuperscriptBox["2", 
+                    RowBox[{"-", "1"}]], 
+                   RowBox[{"(", 
+                    RowBox[{"1", "+", 
+                    RowBox[{"Erf", "[", 
+                    RowBox[{
                     RowBox[{"(", 
                     RowBox[{
-                    RowBox[{"-", "bias"}], "-", "m", "+", "x"}], ")"}], "2"], 
-                    RowBox[{"2", " ", 
-                    SuperscriptBox["s", "2"]}]]}]], 
-                    RowBox[{
-                    SqrtBox[
-                    RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-                    RowBox[{"{", 
-                    RowBox[{"x", ",", 
-                    RowBox[{"-", "Infinity"}], ",", 
-                    RowBox[{"em", 
+                    RowBox[{"10", " ", "bias"}], "-", 
+                    RowBox[{"11", " ", "em"}], "+", 
+                    RowBox[{"10", " ", "m"}]}], ")"}], "/", 
                     RowBox[{"(", 
-                    RowBox[{"1", "-", "taae"}], ")"}]}]}], "}"}], ",", 
-                    RowBox[{"AccuracyGoal", "\[Rule]", "100"}], ",", 
-                    RowBox[{"PrecisionGoal", "\[Rule]", "100"}]}], "]"}], "+", 
-                  RowBox[{"NIntegrate", "[", 
-                   RowBox[{
-                    FractionBox[
-                    SuperscriptBox["\[ExponentialE]", 
-                    RowBox[{"-", 
-                    FractionBox[
-                    SuperscriptBox[
+                    RowBox[{"10", " ", 
+                    RowBox[{"\[Sqrt]", "2"}], " ", "s"}], ")"}]}], "]"}], "+", 
+                    RowBox[{"Erfc", "[", 
+                    RowBox[{
                     RowBox[{"(", 
                     RowBox[{
-                    RowBox[{"-", "bias"}], "-", "m", "+", "x"}], ")"}], "2"], 
-                    RowBox[{"2", " ", 
-                    SuperscriptBox["s", "2"]}]]}]], 
-                    RowBox[{
-                    SqrtBox[
-                    RowBox[{"2", " ", "\[Pi]"}]], " ", "s"}]], ",", 
-                    RowBox[{"{", 
-                    RowBox[{"x", ",", 
-                    RowBox[{"em", 
+                    RowBox[{"10", " ", "bias"}], "-", 
+                    RowBox[{"9", " ", "em"}], "+", 
+                    RowBox[{"10", " ", "m"}]}], ")"}], "/", 
                     RowBox[{"(", 
-                    RowBox[{"1", "+", "taae"}], ")"}]}], ",", "Infinity"}], 
-                    "}"}], ",", 
-                    RowBox[{"AccuracyGoal", "\[Rule]", "100"}], ",", 
-                    RowBox[{"PrecisionGoal", "\[Rule]", "100"}]}], "]"}]}], 
-                 "\[Equal]", "a"}], ",", 
+                    RowBox[{"10", " ", 
+                    RowBox[{"\[Sqrt]", "2"}], " ", "s"}], ")"}]}], "]"}]}], 
+                    ")"}]}], "]"}], "\[Equal]", "a"}], ",", 
                 RowBox[{"{", 
                  RowBox[{"bias", ",", 
                   RowBox[{"1", "s"}], ",", 
@@ -1201,9 +919,12 @@ Demonstration.\>\"", ",", "Bold", ",", "Red", ",", " ", "Larger"}], "]"}],
     RowBox[{"{", "1", "}"}]}]}], "]"}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.824275812544165*^9, 3.8242758236315236`*^9}, {
-  3.8242764456312137`*^9, 3.8242764832762623`*^9}},
- CellLabel->
-  "In[302]:=",ExpressionUUID->"fd4a18a7-c711-41f4-b008-48d6076925ec"],
+   3.8242764456312137`*^9, 3.8242764832762623`*^9}, {3.826534853656203*^9, 
+   3.8265348938664837`*^9}, {3.8265350954030566`*^9, 3.826535133867645*^9}, {
+   3.826543563947692*^9, 3.8265435778018465`*^9}, {3.826595515812072*^9, 
+   3.826595528613099*^9}, {3.826595911471135*^9, 3.8265959265590057`*^9}, 
+   3.8265959571765933`*^9, {3.8265960588770523`*^9, 3.8265960732501745`*^9}},
+ CellLabel->"In[24]:=",ExpressionUUID->"fd4a18a7-c711-41f4-b008-48d6076925ec"],
 
 Cell[BoxData[
  TagBox[
@@ -1269,53 +990,33 @@ $CellContext`m$$, $CellContext`s$$, $CellContext`taae];
           Which[$CellContext`type$$ == 
            0, $CellContext`rc = ReplaceAll[$CellContext`sd, 
               FindRoot[
-              NIntegrate[
-                 E^(-((-$CellContext`m$$ + $CellContext`x)^2/(
-                    2 $CellContext`sd^2)))/(
-                  Sqrt[2 Pi] $CellContext`sd), {$CellContext`x, -
-                   Infinity, $CellContext`em$$ (1 - $CellContext`taae)}] + 
-                NIntegrate[
-                 E^(-((-$CellContext`m$$ + $CellContext`x)^2/(
-                    2 $CellContext`sd^2)))/(
-                  Sqrt[2 Pi] $CellContext`sd), {$CellContext`x, \
-$CellContext`em$$ (1 + $CellContext`taae), 
-                   Infinity}] == $CellContext`a$$, {$CellContext`sd, \
-$CellContext`s$$, 20 $CellContext`s$$, 0, 
+              N[2^(-1) (1 + 
+                  Erf[(9 $CellContext`em$$ - 10 $CellContext`m$$)/(10 
+                    Sqrt[2] $CellContext`sd)] + 
+                  Erfc[(11 $CellContext`em$$ - 10 $CellContext`m$$)/(10 
+                    Sqrt[2] $CellContext`sd)])] == $CellContext`a$$, \
+{$CellContext`sd, $CellContext`s$$, 20 $CellContext`s$$, 0, 
                 30 $CellContext`s$$}]]; $CellContext`sc = 
             ReplaceAll[$CellContext`bias, 
               If[$CellContext`m$$ < $CellContext`em$$, 
                FindRoot[
-               NIntegrate[
-                  E^(-(($CellContext`bias - $CellContext`m$$ + \
-$CellContext`x)^2/(2 $CellContext`s$$^2)))/(
-                   Sqrt[2 Pi] $CellContext`s$$), {$CellContext`x, -
-                    Infinity, $CellContext`em$$ (1 - $CellContext`taae)}, 
-                   AccuracyGoal -> 100, PrecisionGoal -> 100] + 
-                 NIntegrate[
-                  E^(-(($CellContext`bias - $CellContext`m$$ + \
-$CellContext`x)^2/(2 $CellContext`s$$^2)))/(
-                   Sqrt[2 Pi] $CellContext`s$$), {$CellContext`x, \
-$CellContext`em$$ (1 + $CellContext`taae), Infinity}, AccuracyGoal -> 100, 
-                   PrecisionGoal -> 
-                   100] == $CellContext`a$$, {$CellContext`bias, 
-                 1 $CellContext`s$$, 20 $CellContext`s$$, 0, 
+               N[2^(-1) (1 + 
+                   Erf[(10 $CellContext`bias + 9 $CellContext`em$$ - 
+                    10 $CellContext`m$$)/(10 Sqrt[2] $CellContext`s$$)] + 
+                   Erfc[(10 $CellContext`bias + 11 $CellContext`em$$ - 
+                    10 $CellContext`m$$)/(10 
+                    Sqrt[2] $CellContext`s$$)])] == $CellContext`a$$, \
+{$CellContext`bias, 1 $CellContext`s$$, 20 $CellContext`s$$, 0, 
                  30 $CellContext`s$$}, AccuracyGoal -> 100, PrecisionGoal -> 
                 100], 
                FindRoot[
-               NIntegrate[
-                  E^(-((-$CellContext`bias - $CellContext`m$$ + \
-$CellContext`x)^2/(2 $CellContext`s$$^2)))/(
-                   Sqrt[2 Pi] $CellContext`s$$), {$CellContext`x, -
-                    Infinity, $CellContext`em$$ (1 - $CellContext`taae)}, 
-                   AccuracyGoal -> 100, PrecisionGoal -> 100] + 
-                 NIntegrate[
-                  E^(-((-$CellContext`bias - $CellContext`m$$ + \
-$CellContext`x)^2/(2 $CellContext`s$$^2)))/(
-                   Sqrt[2 Pi] $CellContext`s$$), {$CellContext`x, \
-$CellContext`em$$ (1 + $CellContext`taae), Infinity}, AccuracyGoal -> 100, 
-                   PrecisionGoal -> 
-                   100] == $CellContext`a$$, {$CellContext`bias, 
-                 1 $CellContext`s$$, 20 $CellContext`s$$, 0, 
+               N[2^(-1) (1 + 
+                   Erf[(10 $CellContext`bias - 11 $CellContext`em$$ + 
+                    10 $CellContext`m$$)/(10 Sqrt[2] $CellContext`s$$)] + 
+                   Erfc[(10 $CellContext`bias - 9 $CellContext`em$$ + 
+                    10 $CellContext`m$$)/(10 
+                    Sqrt[2] $CellContext`s$$)])] == $CellContext`a$$, \
+{$CellContext`bias, 1 $CellContext`s$$, 20 $CellContext`s$$, 0, 
                  30 $CellContext`s$$}, AccuracyGoal -> 100, PrecisionGoal -> 
                 100]]]; $CellContext`d = $CellContext`qc[$CellContext`em$$, \
 $CellContext`m$$, $CellContext`s$$, $CellContext`taae, $CellContext`a$$, \
@@ -1476,8 +1177,8 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
-    Initialization:>({$CellContext`taae = 1/10, $CellContext`fn = 
-       9.866998938503407*^-10, $CellContext`pce[
+    Initialization:>({$CellContext`taae = 0.130001, $CellContext`fn = 
+       0.05495616967091827, $CellContext`pce[
          Pattern[$CellContext`em, 
           Blank[]], 
          Pattern[$CellContext`m, 
@@ -1486,22 +1187,15 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
           Blank[]], 
          Pattern[$CellContext`taae, 
           Blank[]]] := 
-       NIntegrate[
-         1/(E^((-$CellContext`m + $CellContext`x)^2/(2 $CellContext`s^2)) (
-           Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, -
-           Infinity, $CellContext`em (1 - $CellContext`taae)}] + 
-        NIntegrate[
-         1/(E^((-$CellContext`m + $CellContext`x)^2/(2 $CellContext`s^2)) (
-           Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, $CellContext`em (
-            1 + $CellContext`taae), Infinity}], 
-       TagSet[$CellContext`x, 
-        MessageName[$CellContext`x, "shdw"], 
-        "Symbol `1` appears in multiple contexts `2`; definitions in context \
-`3` may shadow or be shadowed by other definitions."], $CellContext`minfn = 
+       N[(Erfc[($CellContext`m + $CellContext`em (-1 + $CellContext`taae))/(
+            Sqrt[2] $CellContext`s)] + 
+          Erfc[(-$CellContext`m + $CellContext`em (1 + $CellContext`taae))/(
+            Sqrt[2] $CellContext`s)])/2], $CellContext`minfn = 
        1/100000000000000000000000000000000000000000000000000000000000000000000\
 00000000000000000000000000000000, $CellContext`rc = 
-       5.996664371158513, $CellContext`sc = 7.077672651683096, $CellContext`d = 
-       2.696459101872309, $CellContext`qc[
+       16.380618681995013`, $CellContext`sc = 
+       5.754636194319217, $CellContext`d = 
+       2.6637898476533097`, $CellContext`qc[
          Pattern[$CellContext`em, 
           Blank[]], 
          Pattern[$CellContext`m, 
@@ -1522,91 +1216,43 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
 $CellContext`ds, $CellContext`sd, $CellContext`d, $CellContext`dd, \
 $CellContext`bias}, $CellContext`ra = ReplaceAll[$CellContext`sd, 
             FindRoot[
-            NIntegrate[
-               1/(E^((-$CellContext`m + $CellContext`x)^2/(
-                  2 $CellContext`sd^2)) (
-                 Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, -
-                 Infinity, $CellContext`em (1 - $CellContext`taae)}] + 
-              NIntegrate[
-               1/(E^((-$CellContext`m + $CellContext`x)^2/(
-                  2 $CellContext`sd^2)) (
-                 Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, \
-$CellContext`em (1 + $CellContext`taae), 
-                 Infinity}] == $CellContext`a, {$CellContext`sd, \
-$CellContext`s, 20 $CellContext`s, 0, 30 $CellContext`s}, AccuracyGoal -> 100,
-              PrecisionGoal -> 100]]; $CellContext`dr = 
-          ReplaceAll[$CellContext`d, 
-            
-            FindRoot[(1 - NIntegrate[
-               1/(E^((-$CellContext`m + $CellContext`x)^2/(
-                  2 $CellContext`ra^2)) (
-                 Sqrt[2 Pi] $CellContext`ra)), {$CellContext`x, -
-                 Infinity, $CellContext`m - $CellContext`d $CellContext`s}] - 
-               NIntegrate[
-               1/(E^((-$CellContext`m + $CellContext`x)^2/(
-                  2 $CellContext`ra^2)) (
-                 Sqrt[2 Pi] $CellContext`ra)), {$CellContext`x, \
-$CellContext`m + $CellContext`d $CellContext`s, Infinity}])^$CellContext`c == 
-             1 - $CellContext`minpred, {$CellContext`d, 1, 20, 0, 
-              30}]]; $CellContext`sa = ReplaceAll[$CellContext`bias, 
+            N[(Erfc[($CellContext`m + $CellContext`em (-1 + \
+$CellContext`taae))/(Sqrt[2] $CellContext`sd)] + 
+                Erfc[(-$CellContext`m + $CellContext`em (
+                    1 + $CellContext`taae))/(Sqrt[2] $CellContext`sd)])/
+               2] == $CellContext`a, {$CellContext`sd, $CellContext`s, 
+              20 $CellContext`s, 0, 30 $CellContext`s}, AccuracyGoal -> 100, 
+             PrecisionGoal -> 100]]; $CellContext`dr = (
+            Sqrt[2] $CellContext`ra 
+            InverseErf[-1 + (1 - $CellContext`minpred)^(1/$CellContext`c) + 
+              Sqrt[1/$CellContext`ra^2] $CellContext`ra])/$CellContext`s; \
+$CellContext`sa = ReplaceAll[$CellContext`bias, 
             If[$CellContext`m < $CellContext`em, 
              FindRoot[
-             NIntegrate[
-                1/(E^(($CellContext`bias - $CellContext`m + \
-$CellContext`x)^2/(2 $CellContext`s^2)) (
-                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, -
-                  Infinity, $CellContext`em (1 - $CellContext`taae)}] + 
-               NIntegrate[
-                1/(E^(($CellContext`bias - $CellContext`m + \
-$CellContext`x)^2/(2 $CellContext`s^2)) (
-                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
-$CellContext`em (1 + $CellContext`taae), 
-                  Infinity}] == $CellContext`a, {$CellContext`bias, 
-               1 $CellContext`s, 20 $CellContext`s, 0, 30 $CellContext`s}, 
-              AccuracyGoal -> 100, PrecisionGoal -> 100], 
+             N[(1 + Erf[($CellContext`bias - $CellContext`m + $CellContext`em \
+(1 - $CellContext`taae))/(Sqrt[2] $CellContext`s)] + 
+                 Erfc[($CellContext`bias - $CellContext`m + $CellContext`em (
+                    1 + $CellContext`taae))/(Sqrt[2] $CellContext`s)])/
+                2] == $CellContext`a, {$CellContext`bias, 1 $CellContext`s, 
+               20 $CellContext`s, 0, 30 $CellContext`s}, AccuracyGoal -> 100, 
+              PrecisionGoal -> 100], 
              FindRoot[
-             NIntegrate[
-                1/(E^((-$CellContext`bias - $CellContext`m + \
-$CellContext`x)^2/(2 $CellContext`s^2)) (
-                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, -
-                  Infinity, $CellContext`em (1 - $CellContext`taae)}] + 
-               NIntegrate[
-                1/(E^((-$CellContext`bias - $CellContext`m + \
-$CellContext`x)^2/(2 $CellContext`s^2)) (
-                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
-$CellContext`em (1 + $CellContext`taae), 
-                  Infinity}] == $CellContext`a, {$CellContext`bias, 
-               1 $CellContext`s, 20 $CellContext`s, 0, 
-               30 $CellContext`s}]]]; $CellContext`ds = 
+             N[(1 + Erfc[($CellContext`bias + $CellContext`m - \
+$CellContext`em (1 - $CellContext`taae))/(Sqrt[2] $CellContext`s)] + 
+                 Erf[($CellContext`bias + $CellContext`m - $CellContext`em (
+                    1 + $CellContext`taae))/(Sqrt[2] $CellContext`s)])/
+                2] == $CellContext`a, {$CellContext`bias, 1 $CellContext`s, 
+               20 $CellContext`s, 0, 30 $CellContext`s}]]]; $CellContext`ds = 
           ReplaceAll[$CellContext`dd, 
-            If[$CellContext`m < $CellContext`em, 
-             
-             FindRoot[(1 - NIntegrate[
-                1/(E^((-$CellContext`m + $CellContext`sa + $CellContext`x)^2/(
-                   2 $CellContext`s^2)) (
-                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, -
-                  Infinity, $CellContext`m - $CellContext`dd $CellContext`s}] - 
-                NIntegrate[
-                1/(E^((-$CellContext`m + $CellContext`sa + $CellContext`x)^2/(
-                   2 $CellContext`s^2)) (
-                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
-$CellContext`m + $CellContext`dd $CellContext`s, Infinity}])^$CellContext`c == 
-              1 - $CellContext`minpsed, {$CellContext`dd, 1, 20, 0, 30}], 
-             
-             FindRoot[(1 - NIntegrate[
-                1/(E^((-$CellContext`m - $CellContext`sa + $CellContext`x)^2/(
-                   2 $CellContext`s^2)) (
-                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, -
-                  Infinity, $CellContext`m - $CellContext`dd $CellContext`s}] - 
-                NIntegrate[
-                1/(E^((-$CellContext`m - $CellContext`sa + $CellContext`x)^2/(
-                   2 $CellContext`s^2)) (
-                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
-$CellContext`m + $CellContext`dd $CellContext`s, Infinity}])^$CellContext`c == 
-              1 - $CellContext`minpsed, {$CellContext`dd, 1, 20, 0, 30}]]]; 
+            FindRoot[
+            N[(Erf[($CellContext`dd $CellContext`s - $CellContext`sa)/(
+                   Sqrt[2] $CellContext`s)] + 
+                 Erf[($CellContext`dd $CellContext`s + $CellContext`sa)/(
+                   Sqrt[2] $CellContext`s)])^$CellContext`c/2^$CellContext`c] == 
+             1 - $CellContext`minpsed, {$CellContext`dd, 1, 20, 0, 30}]]; 
          Min[$CellContext`dr, $CellContext`ds]], $CellContext`ds = 
-       2.740174905641295, $CellContext`pfr = 
-       0.007008100290262442, $CellContext`ped[
+       2.6637898476533097`, $CellContext`pfr = 
+       0.023001105803879485`, $CellContext`ped[
          Pattern[$CellContext`em, 
           Blank[]], 
          Pattern[$CellContext`m, 
@@ -1621,28 +1267,16 @@ $CellContext`m + $CellContext`dd $CellContext`s, Infinity}])^$CellContext`c ==
           Blank[]], 
          Pattern[$CellContext`c, 
           Blank[]]] := 
-       If[$CellContext`m < $CellContext`em, 
-         1 - (1 - NIntegrate[
-          1/(E^(($CellContext`dm - $CellContext`m + $CellContext`x)^2/(
-             2 $CellContext`sd^2)) (
-            Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, -
-            Infinity, $CellContext`m - $CellContext`d $CellContext`s}] - 
-          NIntegrate[
-          1/(E^(($CellContext`dm - $CellContext`m + $CellContext`x)^2/(
-             2 $CellContext`sd^2)) (
-            Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, $CellContext`m + \
-$CellContext`d $CellContext`s, Infinity}])^$CellContext`c, 
-         1 - (1 - NIntegrate[
-          1/(E^((-$CellContext`dm - $CellContext`m + $CellContext`x)^2/(
-             2 $CellContext`sd^2)) (
-            Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, -
-            Infinity, $CellContext`m - $CellContext`d $CellContext`s}] - 
-          NIntegrate[
-          1/(E^((-$CellContext`dm - $CellContext`m + $CellContext`x)^2/(
-             2 $CellContext`sd^2)) (
-            Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, $CellContext`m + \
-$CellContext`d $CellContext`s, Infinity}])^$CellContext`c], $CellContext`pred = 
-       0.5000000000000004, $CellContext`psed = 0.9784112730488612}; 
+       N[1 - (-Erf[($CellContext`dm - $CellContext`d $CellContext`s)/(
+              Sqrt[2] $CellContext`sd)] + 
+           Erf[($CellContext`dm + $CellContext`d $CellContext`s)/(
+             Sqrt[2] $CellContext`sd)])^$CellContext`c/
+         2^$CellContext`c], $CellContext`pred = 
+       0.8009924183789146, $CellContext`psed = 0.18319076512907706`, 
+       TagSet[$CellContext`x, 
+        MessageName[$CellContext`x, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."]}; 
      Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
@@ -1653,9 +1287,11 @@ $CellContext`d $CellContext`s, Infinity}])^$CellContext`c], $CellContext`pred =
   Manipulate`InterpretManipulate[1]]], "Output",
  CellChangeTimes->{
   3.8242760540517936`*^9, 3.824276498782628*^9, 3.824277442189329*^9, {
-   3.8243664693941307`*^9, 3.824366469653136*^9}},
- CellLabel->
-  "Out[302]=",ExpressionUUID->"226e12d2-16de-4317-acb6-8b10de16a88e"]
+   3.8243664693941307`*^9, 3.824366469653136*^9}, {3.8265436591481323`*^9, 
+   3.826543659431134*^9}, {3.826595535105288*^9, 3.8265955354792957`*^9}, 
+   3.8265960805832567`*^9, {3.8265975067690573`*^9, 3.8265975069620576`*^9}, 
+   3.8265977109656677`*^9},
+ CellLabel->"Out[24]=",ExpressionUUID->"ec3331e7-99d9-4878-abc7-2af641efdd38"]
 }, Open  ]]
 }, Open  ]],
 
@@ -3813,7 +3449,7 @@ Cell[TextData[{
  StyleBox["Tool for Quality Control Design and Evaluation",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.1.0\nHellenic Complex Systems Laboratory 2021\n\
+ StyleBox["\nVersion Number 1.2.0\nHellenic Complex Systems Laboratory 2021\n\
 First published at Wolfram Demonstrations Project at: \n",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
@@ -3867,41 +3503,42 @@ International Creative Commons License",
    3.8242911545732164`*^9}, 3.8242925404292994`*^9, {3.8242926286453743`*^9, 
    3.824292661660508*^9}, {3.8243536859842525`*^9, 3.8243536927688494`*^9}, 
    3.8243538389141397`*^9, {3.824359314925189*^9, 3.8243593445419054`*^9}, 
-   3.824359375631657*^9, 
-   3.8243594200277615`*^9},ExpressionUUID->"4705984f-cd8e-41cf-9fee-\
+   3.824359375631657*^9, 3.8243594200277615`*^9, {3.826597645318555*^9, 
+   3.8265976513462906`*^9}, {3.826597681359762*^9, 
+   3.826597685408854*^9}},ExpressionUUID->"4705984f-cd8e-41cf-9fee-\
 9e1730a4f3e8"]
 }, Open  ]]
 },
 CellGrouping->Manual,
-WindowSize->{1430.25, 738.75},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{1440., 748.5},
+WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
 FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"42856505-2f17-4616-9b1b-edd5492880a3"
+ExpressionUUID->"2e3282ad-3552-45c5-889e-903af6e5cb3d"
 ]
 (* End of Notebook Content *)
 
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "Snapshots"->{
-  Cell[76763, 1794, 177, 2, 53, "Section",ExpressionUUID->"610024c8-64c2-46d2-a85c-f00d5b3ca7b3",
-   CellTags->"Snapshots"]},
  "Details"->{
-  Cell[144161, 3136, 173, 2, 53, "Section",ExpressionUUID->"339e691f-a713-426e-a140-a2551d96afcc",
+  Cell[129526, 2772, 173, 2, 53, "Section",ExpressionUUID->"339e691f-a713-426e-a140-a2551d96afcc",
    CellTags->"Details"]},
  "Search Terms"->{
-  Cell[163699, 3660, 280, 7, 53, "Section",ExpressionUUID->"d296f033-59ec-4987-8fe5-bf0b31ec8f6b",
+  Cell[149064, 3296, 280, 7, 53, "Section",ExpressionUUID->"d296f033-59ec-4987-8fe5-bf0b31ec8f6b",
    CellTags->"Search Terms"],
-  Cell[169390, 3761, 227, 6, 53, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
-   CellTags->"Search Terms"]}
+  Cell[154755, 3397, 227, 6, 53, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
+   CellTags->"Search Terms"]},
+ "Snapshots"->{
+  Cell[62128, 1430, 177, 2, 53, "Section",ExpressionUUID->"610024c8-64c2-46d2-a85c-f00d5b3ca7b3",
+   CellTags->"Snapshots"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Snapshots", 174785, 3886},
- {"Details", 174925, 3889},
- {"Search Terms", 175069, 3892}
+ {"Details", 160253, 3523},
+ {"Search Terms", 160397, 3526},
+ {"Snapshots", 160672, 3531}
  }
 *)
 (*NotebookFileOutline
@@ -3912,60 +3549,60 @@ Cell[1185, 32, 370, 8, 79, "Author",ExpressionUUID->"77cc359d-7160-47c7-8f05-f6c
 Cell[1558, 42, 331, 6, 31, "Affiliation",ExpressionUUID->"a3978d91-f996-4336-a4dc-6ebdb9bc5afd"],
 Cell[CellGroupData[{
 Cell[1914, 52, 140, 3, 67, "Section",ExpressionUUID->"72bb38c7-0e19-42b5-9f61-8a679c44ccb8"],
-Cell[2057, 57, 18842, 495, 902, "Input",ExpressionUUID->"c249c4ce-20c4-4c44-b6b4-915048027b05",
+Cell[2057, 57, 10599, 271, 471, "Input",ExpressionUUID->"c249c4ce-20c4-4c44-b6b4-915048027b05",
  InitializationCell->True,
  CellID->6681815],
 Cell[CellGroupData[{
-Cell[20924, 556, 27789, 649, 1515, "Input",ExpressionUUID->"fd4a18a7-c711-41f4-b008-48d6076925ec",
+Cell[12681, 332, 25565, 594, 1179, "Input",ExpressionUUID->"fd4a18a7-c711-41f4-b008-48d6076925ec",
  InitializationCell->True],
-Cell[48716, 1207, 22733, 450, 531, "Output",ExpressionUUID->"226e12d2-16de-4317-acb6-8b10de16a88e"]
+Cell[38249, 928, 18565, 365, 531, "Output",ExpressionUUID->"ec3331e7-99d9-4878-abc7-2af641efdd38"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[71498, 1663, 158, 3, 67, "Section",ExpressionUUID->"20c3f844-488c-4c14-8ab7-9b472d3f07f2"],
+Cell[56863, 1299, 158, 3, 67, "Section",ExpressionUUID->"20c3f844-488c-4c14-8ab7-9b472d3f07f2"],
 Cell[CellGroupData[{
-Cell[71681, 1670, 1072, 18, 104, "Text",ExpressionUUID->"aebcd1c1-fc46-41cd-a322-812ef318f904",
+Cell[57046, 1306, 1072, 18, 104, "Text",ExpressionUUID->"aebcd1c1-fc46-41cd-a322-812ef318f904",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[72756, 1690, 3004, 73, 127, "Text",ExpressionUUID->"dcf2f6f7-fd13-481a-a4f4-a93f8f638f60",
+Cell[58121, 1326, 3004, 73, 127, "Text",ExpressionUUID->"dcf2f6f7-fd13-481a-a4f4-a93f8f638f60",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[75763, 1765, 951, 23, 35, "Text",ExpressionUUID->"bd1be425-943e-432c-a40a-ef693b87ede2",
+Cell[61128, 1401, 951, 23, 35, "Text",ExpressionUUID->"bd1be425-943e-432c-a40a-ef693b87ede2",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[76763, 1794, 177, 2, 53, "Section",ExpressionUUID->"610024c8-64c2-46d2-a85c-f00d5b3ca7b3",
+Cell[62128, 1430, 177, 2, 53, "Section",ExpressionUUID->"610024c8-64c2-46d2-a85c-f00d5b3ca7b3",
  CellTags->"Snapshots"],
-Cell[76943, 1798, 22391, 443, 530, "Output",ExpressionUUID->"ded6b6b5-08f7-4144-8e5e-ffdb2f099fb7",
+Cell[62308, 1434, 22391, 443, 530, "Output",ExpressionUUID->"ded6b6b5-08f7-4144-8e5e-ffdb2f099fb7",
  CellID->88248508],
-Cell[99337, 2243, 22392, 443, 531, "Output",ExpressionUUID->"824fd204-5367-4dd1-a79d-324742ba2c68",
+Cell[84702, 1879, 22392, 443, 531, "Output",ExpressionUUID->"824fd204-5367-4dd1-a79d-324742ba2c68",
  CellID->497874674],
-Cell[121732, 2688, 22392, 443, 531, "Output",ExpressionUUID->"dca0600e-bea4-499f-a5a4-22970b638dd4",
+Cell[107097, 2324, 22392, 443, 531, "Output",ExpressionUUID->"dca0600e-bea4-499f-a5a4-22970b638dd4",
  CellID->253439944]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[144161, 3136, 173, 2, 53, "Section",ExpressionUUID->"339e691f-a713-426e-a140-a2551d96afcc",
+Cell[129526, 2772, 173, 2, 53, "Section",ExpressionUUID->"339e691f-a713-426e-a140-a2551d96afcc",
  CellTags->"Details"],
-Cell[144337, 3140, 18457, 496, 438, "Text",ExpressionUUID->"e2c2bebf-522d-4a79-a588-c2b1b39e6815",
+Cell[129702, 2776, 18457, 496, 438, "Text",ExpressionUUID->"e2c2bebf-522d-4a79-a588-c2b1b39e6815",
  CellID->173520083],
-Cell[162797, 3638, 464, 8, 35, "Text",ExpressionUUID->"d1f23ea8-7c74-474b-b19c-55aac794d83e",
+Cell[148162, 3274, 464, 8, 35, "Text",ExpressionUUID->"d1f23ea8-7c74-474b-b19c-55aac794d83e",
  CellID->970192432],
-Cell[163264, 3648, 398, 7, 35, "Text",ExpressionUUID->"dd46353a-879a-4c01-8d49-5aedd35a0541",
+Cell[148629, 3284, 398, 7, 35, "Text",ExpressionUUID->"dd46353a-879a-4c01-8d49-5aedd35a0541",
  CellID->63735350]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[163699, 3660, 280, 7, 53, "Section",ExpressionUUID->"d296f033-59ec-4987-8fe5-bf0b31ec8f6b",
+Cell[149064, 3296, 280, 7, 53, "Section",ExpressionUUID->"d296f033-59ec-4987-8fe5-bf0b31ec8f6b",
  CellTags->"Search Terms"],
-Cell[163982, 3669, 5371, 87, 58, "Text",ExpressionUUID->"aa7477bb-35ec-4b82-a618-6420a0a36044"]
+Cell[149347, 3305, 5371, 87, 58, "Text",ExpressionUUID->"aa7477bb-35ec-4b82-a618-6420a0a36044"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[169390, 3761, 227, 6, 53, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
+Cell[154755, 3397, 227, 6, 53, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
  CellTags->"Search Terms"],
-Cell[169620, 3769, 654, 20, 334, "Text",ExpressionUUID->"0b665046-bfff-404e-a11f-8ae45ad9e6e3",
+Cell[154985, 3405, 654, 20, 334, "Text",ExpressionUUID->"0b665046-bfff-404e-a11f-8ae45ad9e6e3",
  CellID->398932864]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[170311, 3794, 995, 15, 43, "Section",ExpressionUUID->"50b45de7-8adc-4440-b41d-c9196189152e"],
-Cell[171309, 3811, 3080, 60, 122, "Text",ExpressionUUID->"4705984f-cd8e-41cf-9fee-9e1730a4f3e8"]
+Cell[155676, 3430, 995, 15, 43, "Section",ExpressionUUID->"50b45de7-8adc-4440-b41d-c9196189152e"],
+Cell[156674, 3447, 3178, 61, 122, "Text",ExpressionUUID->"4705984f-cd8e-41cf-9fee-9e1730a4f3e8"]
 }, Open  ]]
 }
 ]

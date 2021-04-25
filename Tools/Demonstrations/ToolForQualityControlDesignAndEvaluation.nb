@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    165889,       3637]
-NotebookOptionsPosition[    161720,       3546]
-NotebookOutlinePosition[    162801,       3579]
-CellTagsIndexPosition[    162666,       3572]
+NotebookDataLength[    172869,       3779]
+NotebookOptionsPosition[    168700,       3688]
+NotebookOutlinePosition[    169781,       3721]
+CellTagsIndexPosition[    169646,       3714]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -119,7 +119,7 @@ Cell[BoxData[{
              SqrtBox["2"], " ", "sd"}]], "]"}]}], ")"}], "c"]}]}], ",", 
      RowBox[{"{", 
       RowBox[{"100", ",", "100"}], "}"}]}], "]"}]}], 
-  "\[IndentingNewLine]"}], "\n", 
+  "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"qc", "[", 
    RowBox[{
@@ -332,7 +332,7 @@ Cell[BoxData[{
    3.827062662230364*^9, {3.8270629917931585`*^9, 3.8270630022941685`*^9}, {
    3.827063092340992*^9, 3.8270631575003133`*^9}, {3.827067123844051*^9, 
    3.8270671676466365`*^9}},
- CellLabel->"In[45]:=",
+ CellLabel->"In[21]:=",
  CellID->6681815,ExpressionUUID->"c249c4ce-20c4-4c44-b6b4-915048027b05"],
 
 Cell[CellGroupData[{
@@ -705,7 +705,7 @@ detection\>\"", ",",
              "]"}], ",", 
             RowBox[{"{", 
              RowBox[{"x", ",", "1", ",", 
-              RowBox[{"2", " ", "sc"}]}], "}"}], ",", 
+              RowBox[{"2", " ", "rc"}]}], "}"}], ",", 
             RowBox[{"AxesLabel", "\[Rule]", 
              RowBox[{"{", 
               RowBox[{"\"\<re\>\"", ",", "\"\<ped\>\""}], "}"}]}], ",", 
@@ -742,7 +742,7 @@ detection\>\"", ",",
              "]"}], ",", 
             RowBox[{"{", 
              RowBox[{"x", ",", "0", ",", 
-              RowBox[{"2", "rc"}]}], "}"}], ",", 
+              RowBox[{"2", "sc"}]}], "}"}], ",", 
             RowBox[{"AxesLabel", "\[Rule]", 
              RowBox[{"{", 
               RowBox[{"\"\<se\>\"", ",", "\"\<ped\>\""}], "}"}]}], ",", 
@@ -951,9 +951,9 @@ Demonstration.\>\"", ",", "Bold", ",", "Red", ",", " ", "Larger"}], "]"}],
    3.8270609612908773`*^9}, {3.827064872115718*^9, 3.8270648868379326`*^9}, {
    3.8270657957349825`*^9, 3.827065815284793*^9}, {3.8270661091401033`*^9, 
    3.827066221412675*^9}, 3.827067181667551*^9, 3.8270690715245347`*^9, {
-   3.8283233131167636`*^9, 
-   3.8283233160998764`*^9}},ExpressionUUID->"fd4a18a7-c711-41f4-b008-\
-48d6076925ec"],
+   3.8283233131167636`*^9, 3.8283233160998764`*^9}, {3.8283246572320266`*^9, 
+   3.8283246626392674`*^9}},
+ CellLabel->"In[25]:=",ExpressionUUID->"fd4a18a7-c711-41f4-b008-48d6076925ec"],
 
 Cell[BoxData[
  TagBox[
@@ -1125,7 +1125,7 @@ $CellContext`minpsed$$, $CellContext`minpred$$, $CellContext`c$$]; Plot[
               $CellContext`ped[$CellContext`em$$, $CellContext`m$$, \
 $CellContext`s$$, $CellContext`d, 0, $CellContext`x, $CellContext`c$$], 
               "pfg for the random error"], {$CellContext`x, 1, 
-              2 $CellContext`sc}, AxesLabel -> {"re", "ped"}, AspectRatio -> 
+              2 $CellContext`rc}, AxesLabel -> {"re", "ped"}, AspectRatio -> 
              1, PlotLabel -> "power function graph (pfg)", PlotStyle -> {
                ColorData["HTML", "Brown"]}, FillingStyle -> LightBrown, 
              Filling -> Bottom, ImageSize -> {500, 250}], $CellContext`type$$ == 
@@ -1135,8 +1135,8 @@ $CellContext`minpsed$$, $CellContext`minpred$$, $CellContext`c$$]; Plot[
              Tooltip[
               $CellContext`ped[$CellContext`em$$, $CellContext`m$$, \
 $CellContext`s$$, $CellContext`d, $CellContext`x, $CellContext`s$$, \
-$CellContext`c$$], "pfg for the random error"], {$CellContext`x, 0, 
-              2 $CellContext`rc}, AxesLabel -> {"se", "ped"}, AspectRatio -> 
+$CellContext`c$$], "pfg for the systematic error"], {$CellContext`x, 0, 
+              2 $CellContext`sc}, AxesLabel -> {"se", "ped"}, AspectRatio -> 
              1, PlotLabel -> "power function graph (pfg)", PlotStyle -> {
                ColorData["HTML", "Brown"]}, Filling -> Bottom, FillingStyle -> 
              LightBrown, ImageSize -> {500, 250}]], 
@@ -1207,8 +1207,8 @@ Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]],
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
-    Initialization:>({$CellContext`taae = 1, $CellContext`fn = 
-       0.999202115971112, $CellContext`pce[
+    Initialization:>({$CellContext`taae = 1/10, $CellContext`fn = 
+       9.86699893850415*^-10, $CellContext`pce[
          Pattern[$CellContext`em, 
           Blank[]], 
          Pattern[$CellContext`m, 
@@ -1252,7 +1252,7 @@ $CellContext`bias}, $CellContext`ra = ReplaceAll[$CellContext`sd,
                100, 100}] == $CellContext`a, {$CellContext`sd, $CellContext`s,
                20 $CellContext`s, 0, 30 $CellContext`s}, AccuracyGoal -> 100, 
              PrecisionGoal -> 100]]; $CellContext`dr = 
-          N[((Sqrt[2] $CellContext`ra) 
+          N[(Sqrt[2] $CellContext`ra 
              InverseErf[(1 - $CellContext`minpred)^(
                 1/$CellContext`c)])/$CellContext`s, {100, 
             100}]; $CellContext`sa = ReplaceAll[$CellContext`bias, 
@@ -1282,8 +1282,112 @@ $CellContext`em (1 - $CellContext`taae))/(Sqrt[2] $CellContext`s)] +
                2^$CellContext`c, {100, 100}] == 
              1 - $CellContext`minpsed, {$CellContext`dd, 1, 20, 0, 30}, 
              AccuracyGoal -> 100, PrecisionGoal -> 100]]; 
-         Min[$CellContext`dr, $CellContext`ds]], $CellContext`ds = 
-       2.740174905641295, $CellContext`pfr = 
+         Min[$CellContext`dr, $CellContext`ds]], $CellContext`qc[
+         Pattern[$CellContext`em, 
+          Blank[]], 
+         Pattern[$CellContext`m, 
+          Blank[]], 
+         Pattern[$CellContext`s, 
+          Blank[]], 
+         Pattern[$CellContext`taae, 
+          Blank[]], 
+         Pattern[$CellContext`a, 
+          Blank[]], 
+         Pattern[$CellContext`minpsed, 
+          Blank[]], 
+         Pattern[$CellContext`minpred, 
+          Blank[]], 
+         Pattern[$CellContext`c, 
+          Blank[]], 
+         Pattern[$CellContext`k, 
+          Blank[]]] := 
+       Module[{$CellContext`ra, $CellContext`dr, $CellContext`sa, \
+$CellContext`ds, $CellContext`sd, $CellContext`d, $CellContext`dd, \
+$CellContext`bias}, $CellContext`ra = ReplaceAll[$CellContext`sd, 
+            FindRoot[
+            NIntegrate[
+              1/(E^((-$CellContext`m + $CellContext`x)^2/(
+                 2 $CellContext`sd^2)) (
+                Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, \
+$CellContext`em (1 - $CellContext`taae), $CellContext`em (
+                 1 + $CellContext`taae)}] == 
+             1 - $CellContext`a, {$CellContext`sd, $CellContext`s, 
+              20 $CellContext`s, 0, 30 $CellContext`s}, AccuracyGoal -> 100, 
+             PrecisionGoal -> 100]]; $CellContext`dr = 
+          ReplaceAll[$CellContext`d, 
+            
+            FindRoot[(Binomial[$CellContext`c, $CellContext`k] 
+               NIntegrate[
+                 1/(E^((-$CellContext`m + $CellContext`x)^2/(
+                    2 $CellContext`ra^2)) (
+                   Sqrt[2 Pi] $CellContext`ra)), {$CellContext`x, \
+$CellContext`m - $CellContext`d $CellContext`s, $CellContext`m + \
+$CellContext`d $CellContext`s}]^($CellContext`c - $CellContext`k)) (1 - 
+                NIntegrate[
+                1/(E^((-$CellContext`m + $CellContext`x)^2/(
+                   2 $CellContext`ra^2)) (
+                  Sqrt[2 Pi] $CellContext`ra)), {$CellContext`x, \
+$CellContext`m - $CellContext`d $CellContext`s, $CellContext`m + \
+$CellContext`d $CellContext`s}])^$CellContext`k == $CellContext`minpred, \
+{$CellContext`d, 1, 20, 0, 30}]]; $CellContext`sa = 
+          ReplaceAll[$CellContext`bias, 
+            If[$CellContext`m < $CellContext`em, 
+             FindRoot[
+             NIntegrate[
+               1/(E^(($CellContext`bias - $CellContext`m + $CellContext`x)^2/(
+                  2 $CellContext`s^2)) (
+                 Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`em (1 - $CellContext`taae), $CellContext`em (
+                  1 + $CellContext`taae)}] == 
+              1 - $CellContext`a, {$CellContext`bias, 1 $CellContext`s, 
+               20 $CellContext`s, 0, 30 $CellContext`s}], 
+             FindRoot[
+             NIntegrate[
+               1/(E^((-$CellContext`bias - $CellContext`m + \
+$CellContext`x)^2/(2 $CellContext`s^2)) (
+                 Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`em (1 - $CellContext`taae), 
+                 Null, $CellContext`em (1 + $CellContext`taae)}] == 
+              1 - $CellContext`a, {$CellContext`bias, 1 $CellContext`s, 
+               20 $CellContext`s, 0, 30 $CellContext`s}]]]; $CellContext`ds = 
+          ReplaceAll[$CellContext`dd, 
+            If[$CellContext`m < $CellContext`em, 
+             
+             FindRoot[(Binomial[$CellContext`c, $CellContext`k] 
+                NIntegrate[
+                  1/(E^((-$CellContext`m + $CellContext`sa + \
+$CellContext`x)^2/(2 $CellContext`s^2)) (
+                    Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`m - $CellContext`dd $CellContext`s, $CellContext`m + \
+$CellContext`dd $CellContext`s}]^($CellContext`c - $CellContext`k)) (1 - 
+                 NIntegrate[
+                 1/(E^((-$CellContext`m + $CellContext`sa + \
+$CellContext`x)^2/(2 $CellContext`s^2)) (
+                   Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`m - $CellContext`dd $CellContext`s, $CellContext`m + \
+$CellContext`dd $CellContext`s}])^$CellContext`k == $CellContext`minpsed, \
+{$CellContext`dd, 1, 20, 0, 30}], 
+             
+             FindRoot[(Binomial[$CellContext`c, $CellContext`k] 
+                NIntegrate[
+                  1/(E^((-$CellContext`m - $CellContext`sa + \
+$CellContext`x)^2/(2 $CellContext`s^2)) (
+                    Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`m - $CellContext`dd $CellContext`s, $CellContext`m + \
+$CellContext`dd $CellContext`s}]^($CellContext`c - $CellContext`k)) (1 - 
+                 NIntegrate[
+                 1/(E^((-$CellContext`m - $CellContext`sa + \
+$CellContext`x)^2/(2 $CellContext`s^2)) (
+                   Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`m - $CellContext`dd $CellContext`s, $CellContext`m + \
+$CellContext`dd $CellContext`s}])^$CellContext`k == $CellContext`minpsed, \
+{$CellContext`dd, 1, 20, 0, 30}]]]; 
+         Min[$CellContext`dr, $CellContext`ds]], $CellContext`ra = 
+       5.996664371339231, $CellContext`ds = 2.6964591025562195`, 
+       TagSet[$CellContext`x, 
+        MessageName[$CellContext`x, "shdw"], 
+        "Symbol `1` appears in multiple contexts `2`; definitions in context \
+`3` may shadow or be shadowed by other definitions."], $CellContext`pfr = 
        0.007008100275029516, $CellContext`ped[
          Pattern[$CellContext`em, 
           Blank[]], 
@@ -1303,12 +1407,49 @@ $CellContext`em (1 - $CellContext`taae))/(Sqrt[2] $CellContext`s)] +
               Sqrt[2] $CellContext`sd)] + 
            Erf[($CellContext`dm + $CellContext`d $CellContext`s)/(
              Sqrt[2] $CellContext`sd)])^$CellContext`c/2^$CellContext`c, {100,
-          100}], $CellContext`pred = 0.4999999999999999, $CellContext`psed = 
-       0.9784112730099279, 
-       TagSet[$CellContext`x, 
-        MessageName[$CellContext`x, "shdw"], 
-        "Symbol `1` appears in multiple contexts `2`; definitions in context \
-`3` may shadow or be shadowed by other definitions."]}; 
+          100}], $CellContext`ped[
+         Pattern[$CellContext`em, 
+          Blank[]], 
+         Pattern[$CellContext`m, 
+          Blank[]], 
+         Pattern[$CellContext`s, 
+          Blank[]], 
+         Pattern[$CellContext`d, 
+          Blank[]], 
+         Pattern[$CellContext`dm, 
+          Blank[]], 
+         Pattern[$CellContext`sd, 
+          Blank[]], 
+         Pattern[$CellContext`c, 
+          Blank[]], 
+         Pattern[$CellContext`k, 
+          Blank[]]] := 
+       If[$CellContext`m < $CellContext`em, (
+          Binomial[$CellContext`c, $CellContext`k] 
+          NIntegrate[
+            1/(E^(($CellContext`dm - $CellContext`m + $CellContext`x)^2/(
+               2 $CellContext`sd^2)) (
+              Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, $CellContext`m - \
+$CellContext`d $CellContext`s, $CellContext`m + $CellContext`d \
+$CellContext`s}]^($CellContext`c - $CellContext`k)) (1 - NIntegrate[
+           1/(E^(($CellContext`dm - $CellContext`m + $CellContext`x)^2/(
+              2 $CellContext`sd^2)) (
+             Sqrt[
+              2 Pi] $CellContext`sd)), {$CellContext`x, $CellContext`m - \
+$CellContext`d $CellContext`s, $CellContext`m + $CellContext`d \
+$CellContext`s}])^$CellContext`k, (Binomial[$CellContext`c, $CellContext`k] 
+          NIntegrate[
+            1/(E^((-$CellContext`dm - $CellContext`m + $CellContext`x)^2/(
+               2 $CellContext`sd^2)) (
+              Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, $CellContext`m - \
+$CellContext`d $CellContext`s, $CellContext`m + $CellContext`d \
+$CellContext`s}]^($CellContext`c - $CellContext`k)) (1 - NIntegrate[
+           1/(E^((-$CellContext`dm - $CellContext`m + $CellContext`x)^2/(
+              2 $CellContext`sd^2)) (
+             Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, $CellContext`m - \
+$CellContext`d $CellContext`s, $CellContext`m + $CellContext`d \
+$CellContext`s}])^$CellContext`k], $CellContext`pred = 
+       0.4999999999999999, $CellContext`psed = 0.9784112730099279}; 
      Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
@@ -1324,8 +1465,9 @@ $CellContext`em (1 - $CellContext`taae))/(Sqrt[2] $CellContext`s)] +
    3.8265960805832567`*^9, {3.8265975067690573`*^9, 3.8265975069620576`*^9}, 
    3.8265977109656677`*^9, {3.8270413187193937`*^9, 3.8270413189273753`*^9}, {
    3.827066307198739*^9, 3.8270663074977417`*^9}, 3.8270671945914917`*^9, 
-   3.827069081558201*^9, 3.827069201830941*^9},
- CellLabel->"Out[49]=",ExpressionUUID->"e27ec1ee-c59f-454b-94ec-af9bfa56d18a"]
+   3.827069081558201*^9, 3.827069201830941*^9, {3.828324671480736*^9, 
+   3.8283246717347436`*^9}, 3.828324746455407*^9},
+ CellLabel->"Out[25]=",ExpressionUUID->"5b479b98-194e-4644-8136-786a89d3cbab"]
 }, Open  ]]
 }, Open  ]],
 
@@ -3557,23 +3699,23 @@ ExpressionUUID->"b175d31e-9ad9-4028-888a-95d6eec8cc5b"
 (*CellTagsOutline
 CellTagsIndex->{
  "Snapshots"->{
-  Cell[63880, 1464, 177, 2, 53, "Section",ExpressionUUID->"610024c8-64c2-46d2-a85c-f00d5b3ca7b3",
+  Cell[70860, 1606, 177, 2, 53, "Section",ExpressionUUID->"610024c8-64c2-46d2-a85c-f00d5b3ca7b3",
    CellTags->"Snapshots"]},
  "Details"->{
-  Cell[131278, 2806, 173, 2, 53, "Section",ExpressionUUID->"339e691f-a713-426e-a140-a2551d96afcc",
+  Cell[138258, 2948, 173, 2, 53, "Section",ExpressionUUID->"339e691f-a713-426e-a140-a2551d96afcc",
    CellTags->"Details"]},
  "Search Terms"->{
-  Cell[150816, 3330, 280, 7, 53, "Section",ExpressionUUID->"d296f033-59ec-4987-8fe5-bf0b31ec8f6b",
+  Cell[157796, 3472, 280, 7, 53, "Section",ExpressionUUID->"d296f033-59ec-4987-8fe5-bf0b31ec8f6b",
    CellTags->"Search Terms"],
-  Cell[156507, 3431, 227, 6, 53, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
+  Cell[163487, 3573, 227, 6, 53, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
    CellTags->"Search Terms"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Snapshots", 162100, 3558},
- {"Details", 162240, 3561},
- {"Search Terms", 162384, 3564}
+ {"Snapshots", 169080, 3700},
+ {"Details", 169220, 3703},
+ {"Search Terms", 169364, 3706}
  }
 *)
 (*NotebookFileOutline
@@ -3588,56 +3730,56 @@ Cell[2057, 57, 11020, 278, 495, "Input",ExpressionUUID->"c249c4ce-20c4-4c44-b6b4
  InitializationCell->True,
  CellID->6681815],
 Cell[CellGroupData[{
-Cell[13102, 339, 26460, 616, 1179, "Input",ExpressionUUID->"fd4a18a7-c711-41f4-b008-48d6076925ec",
+Cell[13102, 339, 26532, 616, 1179, "Input",ExpressionUUID->"fd4a18a7-c711-41f4-b008-48d6076925ec",
  InitializationCell->True],
-Cell[39565, 957, 19001, 370, 531, "Output",ExpressionUUID->"e27ec1ee-c59f-454b-94ec-af9bfa56d18a"]
+Cell[39637, 957, 25909, 512, 531, "Output",ExpressionUUID->"5b479b98-194e-4644-8136-786a89d3cbab"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[58615, 1333, 158, 3, 67, "Section",ExpressionUUID->"20c3f844-488c-4c14-8ab7-9b472d3f07f2"],
+Cell[65595, 1475, 158, 3, 67, "Section",ExpressionUUID->"20c3f844-488c-4c14-8ab7-9b472d3f07f2"],
 Cell[CellGroupData[{
-Cell[58798, 1340, 1072, 18, 104, "Text",ExpressionUUID->"aebcd1c1-fc46-41cd-a322-812ef318f904",
+Cell[65778, 1482, 1072, 18, 104, "Text",ExpressionUUID->"aebcd1c1-fc46-41cd-a322-812ef318f904",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[59873, 1360, 3004, 73, 127, "Text",ExpressionUUID->"dcf2f6f7-fd13-481a-a4f4-a93f8f638f60",
+Cell[66853, 1502, 3004, 73, 127, "Text",ExpressionUUID->"dcf2f6f7-fd13-481a-a4f4-a93f8f638f60",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[62880, 1435, 951, 23, 35, "Text",ExpressionUUID->"bd1be425-943e-432c-a40a-ef693b87ede2",
+Cell[69860, 1577, 951, 23, 35, "Text",ExpressionUUID->"bd1be425-943e-432c-a40a-ef693b87ede2",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[63880, 1464, 177, 2, 53, "Section",ExpressionUUID->"610024c8-64c2-46d2-a85c-f00d5b3ca7b3",
+Cell[70860, 1606, 177, 2, 53, "Section",ExpressionUUID->"610024c8-64c2-46d2-a85c-f00d5b3ca7b3",
  CellTags->"Snapshots"],
-Cell[64060, 1468, 22391, 443, 530, "Output",ExpressionUUID->"ded6b6b5-08f7-4144-8e5e-ffdb2f099fb7",
+Cell[71040, 1610, 22391, 443, 530, "Output",ExpressionUUID->"ded6b6b5-08f7-4144-8e5e-ffdb2f099fb7",
  CellID->88248508],
-Cell[86454, 1913, 22392, 443, 531, "Output",ExpressionUUID->"824fd204-5367-4dd1-a79d-324742ba2c68",
+Cell[93434, 2055, 22392, 443, 531, "Output",ExpressionUUID->"824fd204-5367-4dd1-a79d-324742ba2c68",
  CellID->497874674],
-Cell[108849, 2358, 22392, 443, 531, "Output",ExpressionUUID->"dca0600e-bea4-499f-a5a4-22970b638dd4",
+Cell[115829, 2500, 22392, 443, 531, "Output",ExpressionUUID->"dca0600e-bea4-499f-a5a4-22970b638dd4",
  CellID->253439944]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[131278, 2806, 173, 2, 53, "Section",ExpressionUUID->"339e691f-a713-426e-a140-a2551d96afcc",
+Cell[138258, 2948, 173, 2, 53, "Section",ExpressionUUID->"339e691f-a713-426e-a140-a2551d96afcc",
  CellTags->"Details"],
-Cell[131454, 2810, 18457, 496, 438, "Text",ExpressionUUID->"e2c2bebf-522d-4a79-a588-c2b1b39e6815",
+Cell[138434, 2952, 18457, 496, 438, "Text",ExpressionUUID->"e2c2bebf-522d-4a79-a588-c2b1b39e6815",
  CellID->173520083],
-Cell[149914, 3308, 464, 8, 35, "Text",ExpressionUUID->"d1f23ea8-7c74-474b-b19c-55aac794d83e",
+Cell[156894, 3450, 464, 8, 35, "Text",ExpressionUUID->"d1f23ea8-7c74-474b-b19c-55aac794d83e",
  CellID->970192432],
-Cell[150381, 3318, 398, 7, 35, "Text",ExpressionUUID->"dd46353a-879a-4c01-8d49-5aedd35a0541",
+Cell[157361, 3460, 398, 7, 35, "Text",ExpressionUUID->"dd46353a-879a-4c01-8d49-5aedd35a0541",
  CellID->63735350]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[150816, 3330, 280, 7, 53, "Section",ExpressionUUID->"d296f033-59ec-4987-8fe5-bf0b31ec8f6b",
+Cell[157796, 3472, 280, 7, 53, "Section",ExpressionUUID->"d296f033-59ec-4987-8fe5-bf0b31ec8f6b",
  CellTags->"Search Terms"],
-Cell[151099, 3339, 5371, 87, 58, "Text",ExpressionUUID->"aa7477bb-35ec-4b82-a618-6420a0a36044"]
+Cell[158079, 3481, 5371, 87, 58, "Text",ExpressionUUID->"aa7477bb-35ec-4b82-a618-6420a0a36044"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[156507, 3431, 227, 6, 53, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
+Cell[163487, 3573, 227, 6, 53, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
  CellTags->"Search Terms"],
-Cell[156737, 3439, 654, 20, 334, "Text",ExpressionUUID->"0b665046-bfff-404e-a11f-8ae45ad9e6e3",
+Cell[163717, 3581, 654, 20, 334, "Text",ExpressionUUID->"0b665046-bfff-404e-a11f-8ae45ad9e6e3",
  CellID->398932864]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[157428, 3464, 995, 15, 43, "Section",ExpressionUUID->"50b45de7-8adc-4440-b41d-c9196189152e"],
-Cell[158426, 3481, 3278, 62, 122, "Text",ExpressionUUID->"4705984f-cd8e-41cf-9fee-9e1730a4f3e8"]
+Cell[164408, 3606, 995, 15, 43, "Section",ExpressionUUID->"50b45de7-8adc-4440-b41d-c9196189152e"],
+Cell[165406, 3623, 3278, 62, 122, "Text",ExpressionUUID->"4705984f-cd8e-41cf-9fee-9e1730a4f3e8"]
 }, Open  ]]
 }
 ]

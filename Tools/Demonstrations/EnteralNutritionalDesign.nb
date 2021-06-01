@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1953762,      38734]
-NotebookOptionsPosition[   1947666,      38605]
-NotebookOutlinePosition[   1949213,      38646]
-CellTagsIndexPosition[   1949035,      38638]
+NotebookDataLength[   1953817,      38735]
+NotebookOptionsPosition[   1947732,      38606]
+NotebookOutlinePosition[   1949268,      38647]
+CellTagsIndexPosition[   1949090,      38639]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -21436,14 +21436,14 @@ Cell["\<\
 Enteral feeding refers to the delivery of nutrition directly into the \
 gastrointestinal tract, thereby providing part or all of a patient's caloric \
 and nutritional requirements. To design an enteral nutrition formula, the \
-respective quantities of up to six selected foods (a meat, a cereal, a \
-vegetable, a fruit and an oil) are calculated. It is desired that their \
-combination comply with user-defined specifications: total required calories \
-(10\[Dash]3000), fraction of protein calories (0.15\[Dash]0.40), fraction of \
-carbohydrate calories (0.15\[Dash]0.40) and maximum total water content of \
-the foods (1\[Dash]3000 ml). The specifications are set using the sliders. \
-The foods are selected using their respective menus. Each menu includes a \
-\"None\" option.\
+respective quantities of up to six selected foods (a meat, a cereal, a dairy \
+food, a vegetable, a fruit and an oil) are calculated. It is desired that \
+their combination comply with user-defined specifications: total required \
+calories (10\[Dash]3000), fraction of protein calories (0.15\[Dash]0.40), \
+fraction of carbohydrate calories (0.15\[Dash]0.40) and maximum total water \
+content of the foods (1\[Dash]3000 ml). The specifications are set using the \
+sliders. The foods are selected using their respective menus. Each menu \
+includes a \"None\" option.\
 \>", "Text",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellChangeTimes->{{3.716311492210724*^9, 3.716311605670556*^9}, {
@@ -21451,7 +21451,8 @@ The foods are selected using their respective menus. Each menu includes a \
    3.7163117424090776`*^9}, 3.716311777390913*^9, {3.716311846421235*^9, 
    3.7163118543486958`*^9}, {3.716312033590461*^9, 3.7163120393341503`*^9}, {
    3.716312492646429*^9, 3.7163125377301292`*^9}, {3.7165706003690147`*^9, 
-   3.716570616591042*^9}, 3.8243558904466114`*^9},
+   3.716570616591042*^9}, 3.8243558904466114`*^9, {3.8315379008910537`*^9, 
+   3.831537929729163*^9}},
  CellID->1514960032,ExpressionUUID->"e2aa56f4-9568-4d85-8062-8274480aee7e"]
 }, Closed]],
 
@@ -38603,9 +38604,9 @@ International Creative Commons License",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1440., 748.5},
-WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
-FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
+WindowSize->{1430.25, 743.625},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (May 11, 2021)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"4f16da65-dc07-4db4-8279-35ade2232df6"
 ]
@@ -38623,24 +38624,24 @@ CellTagsIndex->{
    CellGroupingRules->{"GroupTogetherGrouping", 10000.},
    CellTags->"Caption"]},
  "Snapshots"->{
-  Cell[1007547, 21459, 228, 3, 53, "Section",ExpressionUUID->"5f73f983-3b23-4912-a5ff-c65db1339ddf",
+  Cell[1007613, 21460, 228, 3, 53, "Section",ExpressionUUID->"5f73f983-3b23-4912-a5ff-c65db1339ddf",
    CellGroupingRules->{"GroupTogetherGrouping", 10001.},
    CellTags->"Snapshots"]},
  "Details"->{
-  Cell[1937280, 38374, 254, 4, 53, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
+  Cell[1937346, 38375, 254, 4, 53, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
    CellGroupingRules->{"GroupTogetherGrouping", 10002.},
    CellTags->"Details"],
-  Cell[1942677, 38499, 462, 6, 53, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
+  Cell[1942743, 38500, 462, 6, 53, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
    CellGroupingRules->{"GroupTogetherGrouping", 10001.},
    CellTags->"Details"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Initialization Code", 1948041, 38616},
- {"Caption", 1948245, 38620},
- {"Snapshots", 1948445, 38624},
- {"Details", 1948645, 38628}
+ {"Initialization Code", 1948096, 38617},
+ {"Caption", 1948300, 38621},
+ {"Snapshots", 1948500, 38625},
+ {"Details", 1948700, 38629}
  }
 *)
 (*NotebookFileOutline
@@ -38666,11 +38667,11 @@ Cell[682258, 15457, 529, 15, 44, "Input",ExpressionUUID->"97ac2ce1-73a9-4feb-939
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->428424795],
-Cell[682790, 15474, 4804, 129, 218, "Input",ExpressionUUID->"319ab3c9-3f8d-45ab-b7db-8effc017c3db",
+Cell[682790, 15474, 4804, 129, 216, "Input",ExpressionUUID->"319ab3c9-3f8d-45ab-b7db-8effc017c3db",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->121006622],
-Cell[687597, 15605, 7978, 170, 641, "Input",ExpressionUUID->"e45b0faf-41db-4ada-9de6-215cf6c9d2df",
+Cell[687597, 15605, 7978, 170, 635, "Input",ExpressionUUID->"e45b0faf-41db-4ada-9de6-215cf6c9d2df",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->241039647]
@@ -38680,60 +38681,60 @@ Cell[CellGroupData[{
 Cell[1005924, 21429, 230, 3, 67, "Section",ExpressionUUID->"f5b8cb73-1279-4b5f-809a-e5664028512f",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellTags->"Caption"],
-Cell[1006157, 21434, 1353, 20, 104, "Text",ExpressionUUID->"e2aa56f4-9568-4d85-8062-8274480aee7e",
+Cell[1006157, 21434, 1419, 21, 104, "Text",ExpressionUUID->"e2aa56f4-9568-4d85-8062-8274480aee7e",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->1514960032]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1007547, 21459, 228, 3, 53, "Section",ExpressionUUID->"5f73f983-3b23-4912-a5ff-c65db1339ddf",
+Cell[1007613, 21460, 228, 3, 53, "Section",ExpressionUUID->"5f73f983-3b23-4912-a5ff-c65db1339ddf",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellTags->"Snapshots"],
-Cell[1007778, 21464, 309969, 5636, 543, "Output",ExpressionUUID->"4ed1c939-f3f4-44d5-ac80-478b079a83a9",
+Cell[1007844, 21465, 309969, 5636, 543, "Output",ExpressionUUID->"4ed1c939-f3f4-44d5-ac80-478b079a83a9",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellID->49921369],
-Cell[1317750, 27102, 309684, 5631, 543, "Output",ExpressionUUID->"7d5bbc17-5969-491d-a03e-5c237b208b4e",
+Cell[1317816, 27103, 309684, 5631, 543, "Output",ExpressionUUID->"7d5bbc17-5969-491d-a03e-5c237b208b4e",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellID->163959666],
-Cell[1627437, 32735, 309806, 5634, 543, "Output",ExpressionUUID->"bcfeeb5c-31ac-4482-93c5-b0864ac99bff",
+Cell[1627503, 32736, 309806, 5634, 543, "Output",ExpressionUUID->"bcfeeb5c-31ac-4482-93c5-b0864ac99bff",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellID->31637300]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1937280, 38374, 254, 4, 53, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
+Cell[1937346, 38375, 254, 4, 53, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.},
  CellTags->"Details"],
-Cell[1937537, 38380, 879, 14, 58, "Text",ExpressionUUID->"29f113f1-d0d2-4374-8359-5ffa685235a7",
+Cell[1937603, 38381, 879, 14, 58, "Text",ExpressionUUID->"29f113f1-d0d2-4374-8359-5ffa685235a7",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.},
  CellID->350564258],
-Cell[1938419, 38396, 458, 8, 35, "Text",ExpressionUUID->"12867abe-4fd8-464e-a6e4-4063556d5d22",
+Cell[1938485, 38397, 458, 8, 35, "Text",ExpressionUUID->"12867abe-4fd8-464e-a6e4-4063556d5d22",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.},
  CellID->6734318],
-Cell[1938880, 38406, 415, 7, 35, "Text",ExpressionUUID->"3846b714-5d27-47dd-b2fc-0e7706cdf47a",
+Cell[1938946, 38407, 415, 7, 35, "Text",ExpressionUUID->"3846b714-5d27-47dd-b2fc-0e7706cdf47a",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.},
  CellID->209675595]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1939332, 38418, 284, 5, 53, "Section",ExpressionUUID->"528f32fd-ca58-48e1-bd77-be142369e5e6",
+Cell[1939398, 38419, 284, 5, 53, "Section",ExpressionUUID->"528f32fd-ca58-48e1-bd77-be142369e5e6",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->177442523],
-Cell[1939619, 38425, 1958, 45, 60, "Text",ExpressionUUID->"dbd0cf33-6e4e-4078-a484-d785a628a6ae",
+Cell[1939685, 38426, 1958, 45, 60, "Text",ExpressionUUID->"dbd0cf33-6e4e-4078-a484-d785a628a6ae",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->193751],
-Cell[1941580, 38472, 1060, 22, 60, "Text",ExpressionUUID->"a233ae34-9a9a-458e-a21e-7b7c027a371e",
+Cell[1941646, 38473, 1060, 22, 60, "Text",ExpressionUUID->"a233ae34-9a9a-458e-a21e-7b7c027a371e",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->398036316]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1942677, 38499, 462, 6, 53, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
+Cell[1942743, 38500, 462, 6, 53, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellTags->"Details"],
-Cell[1943142, 38507, 361, 13, 219, "Text",ExpressionUUID->"917b1c32-8846-4cb4-bc12-d0f470b12680",
+Cell[1943208, 38508, 361, 13, 219, "Text",ExpressionUUID->"917b1c32-8846-4cb4-bc12-d0f470b12680",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellID->320223495]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1943540, 38525, 995, 15, 43, "Section",ExpressionUUID->"5eda4602-8403-42aa-a086-3f7d462c6045"],
-Cell[1944538, 38542, 3100, 59, 107, "Text",ExpressionUUID->"6b0a6cda-d651-4486-99b0-725257a2db5e"]
+Cell[1943606, 38526, 995, 15, 43, "Section",ExpressionUUID->"5eda4602-8403-42aa-a086-3f7d462c6045"],
+Cell[1944604, 38543, 3100, 59, 109, "Text",ExpressionUUID->"6b0a6cda-d651-4486-99b0-725257a2db5e"]
 }, Open  ]]
 }, Open  ]]
 }

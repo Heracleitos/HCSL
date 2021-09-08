@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1143656,      21752]
-NotebookOptionsPosition[   1139186,      21654]
-NotebookOutlinePosition[   1140506,      21691]
-CellTagsIndexPosition[   1140360,      21684]
+NotebookDataLength[   1144168,      21760]
+NotebookOptionsPosition[   1139699,      21662]
+NotebookOutlinePosition[   1141019,      21699]
+CellTagsIndexPosition[   1140873,      21692]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -28,7 +28,7 @@ Cell["Nutrition Design", "Title",
    3.840096972423355*^9},ExpressionUUID->"716049c7-4e8f-43d6-90ae-\
 0628b12bece9"],
 
-Cell[TextData[StyleBox["A Software Tool for for NutritionDesign", "Subtitle",
+Cell[TextData[StyleBox["A Software Tool for for Nutrition Design", "Subtitle",
  FontSize->24]], "Title",
  Editable->False,
  Deployed->True,
@@ -39,8 +39,8 @@ Cell[TextData[StyleBox["A Software Tool for for NutritionDesign", "Subtitle",
    3.8043387957771072`*^9, 3.804338807636772*^9}, 3.806637846631281*^9, {
    3.806637885132716*^9, 3.8066379181196594`*^9}, {3.8066379544882393`*^9, 
    3.806637999223695*^9}, 3.8066381021359987`*^9, {3.8347466723645926`*^9, 
-   3.834746682703025*^9}, 3.8349708208138103`*^9, 
-   3.8400969767995844`*^9},ExpressionUUID->"bbb3751b-5648-49da-8046-\
+   3.834746682703025*^9}, 3.8349708208138103`*^9, 3.8400969767995844`*^9, 
+   3.840105444390877*^9},ExpressionUUID->"bbb3751b-5648-49da-8046-\
 79dd99a8cf4e"],
 
 Cell[TextData[{
@@ -16241,7 +16241,7 @@ $CellContext`mf], 400]}],
        ControlPlacement -> Left, AppearanceElements -> None, ContinuousAction -> 
         False, SynchronousInitialization -> False, Deployed -> True}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{1044., {355.13403309800196`, 360.86596690199804`}},
+     ImageSizeCache->{34.82959112129174, {6., 8.9692386102397}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -17451,8 +17451,9 @@ semi-skimmed milk", "AI", 1, 77.5, 4.9, 2.5, 14.2, 4.2, 1.08, 40, 199, 323,
          "19-652", 
           "Chicken wings marinated meat and skin barbecued weighed with bone",
            "MR", 0.65, 32.8, 17.8, 10.8, 2.7, 2.3, 3, 250, 230, 27, 18, 
-          130}, {"18-308", "Chicken breast casseroled meat and skin", "MCA", 
-          1, 65.8, 26.9, 8.5, 0, 0, 2.4, 60, 260, 10, 24, 200}, {
+          130}, {
+         "18-308", "Chicken breast casseroled meat and skin", "MCA", 1, 65.8, 
+          26.9, 8.5, 0, 0, 2.4, 60, 260, 10, 24, 200}, {
          "18-309", 
           "Chicken breast casseroled meat and skin weighed with bone", "MCA", 
           0.9, 59.2, 24.2, 7.6, 0, 0, 2.1, 55, 240, 9, 22, 180}, {
@@ -21351,18 +21352,18 @@ Cell["Description", "Section",
 Cell["\<\
 Enteral nutrition refers to the delivery of nutrition directly into the \
 gastrointestinal tract, thereby providing part or all of a patient's caloric \
-and nutritional requirements. To design either a nutrition formula for a \
-healthy person or an enteral nutrition formula of blended foods, the \
-respective quantities of up to seven selected foods (a meat or fish, a \
-cereal, a dairy food, a vegetable, a fruit , a fat or oil and another \
-miscellaneous food) are calculated. It is desired that their combination \
-comply with user-defined specifications: total required calories \
-(10\[Dash]5000), fraction of protein calories (0.00\[Dash]0.40), fraction of \
-carbohydrate calories (0.00\[Dash]0.60), maximum fraction of saturated fatty \
-acids calories (0.0-0.20), maximum total water (1\[Dash]3000 ml), sodium  \
-(1-3000 mg), potassium (1-6000 mg), calcium (1-4000 mg), magnesium (1-600 mg) \
-and phosphorus (1-5000 mg)  content of the foods . The specifications are set \
-using the sliders. The foods are selected using pairs of nested menus.\
+and nutritional requirements. For the design of an enteral nutrition formula \
+of blended foods for a patient, the respective quantities of up to seven \
+selected foods (a meat or fish, a cereal, a dairy food, a vegetable, a fruit \
+, a fat or oil and another miscellaneous food) are calculated. It is required \
+that their combination comply with user-defined specifications: total \
+required calories (10\[Dash]5000), fraction of protein calories \
+(0.00\[Dash]0.40), fraction of carbohydrate calories (0.00\[Dash]0.60), \
+maximum fraction of saturated fatty acids calories (0.0-0.20), maximum total \
+water (1\[Dash]3000 ml), sodium  (1-3000 mg), potassium (1-6000 mg), calcium \
+(1-4000 mg), magnesium (1-600 mg) and phosphorus (1-5000 mg)  content of the \
+foods . The specifications are set using the sliders. The foods are selected \
+using pairs of nested menus.\
 \>", "Text",
  Editable->False,
  Deployed->True,
@@ -21386,7 +21387,10 @@ using the sliders. The foods are selected using pairs of nested menus.\
    3.834970543725094*^9, 3.834970611444048*^9}, {3.8349708567261753`*^9, 
    3.834970901251952*^9}, {3.8350063660808845`*^9, 3.835006377484296*^9}, {
    3.835006556529128*^9, 3.8350065635865526`*^9}, {3.8400941857366104`*^9, 
-   3.8400941926893606`*^9}, {3.8400970004088774`*^9, 3.8400970831858983`*^9}},
+   3.8400941926893606`*^9}, {3.8400970004088774`*^9, 
+   3.8400970831858983`*^9}, {3.840104353823842*^9, 3.840104360549676*^9}, {
+   3.8401044026856275`*^9, 3.8401044291559677`*^9}, {3.8401044778747544`*^9, 
+   3.840104582681161*^9}, 3.8401047114519386`*^9, 3.8401049378623004`*^9},
  CellID->1514960032,ExpressionUUID->"e2aa56f4-9568-4d85-8062-8274480aee7e"]
 }, Closed]],
 
@@ -21401,8 +21405,7 @@ Cell["Details", "Section",
  CellTags->"Details",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132"],
 
 Cell["\<\
-This program shows a method for either nutrition design for a healthy person  \
-or enteral nutrition design [1] for a patient . It includes data of 2371 \
+This program shows a method of nutrition design . It includes data of 2371 \
 foods of the 2021 version of the Composition of Foods Integrated Dataset \
 (CoFID), published by Public Health England (PHE) [2]. Only the foods with \
 all the data needed by the program were included. The beverages and the \
@@ -21413,7 +21416,9 @@ specifications and the composition of the selected foods is solvable, then \
 the respective nutritional formula is designed and a table of the quantities \
 of the foods and their total protein, fat, saturated fatty acids, \
 carbohydrates, sugars, water, sodium , potassium , calcium, magnesium, and \
-phosphorus  content is generated.\
+phosphorus  content is generated. The program\[NonBreakingSpace]can be used \
+as an educational and clinical tool for the design of patient-specific \
+enteral nutrition formulae of blended foods [1].\
 \>", "Text",
  Editable->False,
  Deployed->True,
@@ -21452,7 +21457,10 @@ phosphorus  content is generated.\
    3.8347467941316805`*^9, 3.834746797898838*^9}, {3.8349703859694905`*^9, 
    3.8349704173138704`*^9}, {3.834970697191676*^9, 3.834970785462545*^9}, {
    3.836400097580683*^9, 3.8364001302157607`*^9}, {3.8400971453953447`*^9, 
-   3.840097206660446*^9}, {3.8400972394445205`*^9, 3.8400972449332128`*^9}},
+   3.840097206660446*^9}, {3.8400972394445205`*^9, 3.8400972449332128`*^9}, 
+   3.8401046412946854`*^9, {3.8401047396272373`*^9, 3.840104789465996*^9}, {
+   3.8401048382087817`*^9, 3.840104891615452*^9}, {3.840104961293717*^9, 
+   3.840104962029699*^9}, {3.8401053235313454`*^9, 3.84010532404333*^9}},
  CellID->350564258,ExpressionUUID->"29f113f1-d0d2-4374-8359-5ffa685235a7"]
 }, Closed]],
 
@@ -21664,94 +21672,94 @@ ExpressionUUID->"c4316845-c89e-4f9a-881b-ae76aa07d7e8"
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
+ "Initialization Code"->{
+  Cell[2464, 70, 314, 8, 67, "Section",ExpressionUUID->"445688b6-8642-4a6c-905c-30a92137211b",
+   CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+   CellTags->"Initialization Code"]},
  "Caption"->{
-  Cell[1123448, 21343, 265, 5, 67, "Section",ExpressionUUID->"f5b8cb73-1279-4b5f-809a-e5664028512f",
+  Cell[1123472, 21344, 265, 5, 67, "Section",ExpressionUUID->"f5b8cb73-1279-4b5f-809a-e5664028512f",
    CellGroupingRules->{"GroupTogetherGrouping", 10000.},
    CellTags->"Caption"]},
  "Details"->{
-  Cell[1126474, 21394, 289, 6, 53, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
+  Cell[1126674, 21398, 289, 6, 53, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
    CellGroupingRules->{"GroupTogetherGrouping", 10002.},
    CellTags->"Details"],
-  Cell[1134200, 21544, 547, 9, 53, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
+  Cell[1134713, 21552, 547, 9, 53, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
    CellGroupingRules->{"GroupTogetherGrouping", 10001.},
-   CellTags->"Details"]},
- "Initialization Code"->{
-  Cell[2441, 70, 314, 8, 67, "Section",ExpressionUUID->"445688b6-8642-4a6c-905c-30a92137211b",
-   CellGroupingRules->{"GroupTogetherGrouping", 10000.},
-   CellTags->"Initialization Code"]}
+   CellTags->"Details"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Caption", 1139556, 21666},
- {"Details", 1139754, 21670},
- {"Initialization Code", 1140147, 21677}
+ {"Initialization Code", 1140081, 21674},
+ {"Caption", 1140285, 21678},
+ {"Details", 1140483, 21682}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 248, 6, 98, "Title",ExpressionUUID->"716049c7-4e8f-43d6-90ae-0628b12bece9"],
-Cell[831, 30, 742, 13, 71, "Title",ExpressionUUID->"bbb3751b-5648-49da-8046-79dd99a8cf4e",
+Cell[831, 30, 765, 13, 71, "Title",ExpressionUUID->"bbb3751b-5648-49da-8046-79dd99a8cf4e",
  Evaluatable->False],
-Cell[1576, 45, 471, 11, 79, "Author",ExpressionUUID->"5033b5ff-e6b0-4f98-9381-cc2202976bf7"],
-Cell[2050, 58, 366, 8, 31, "Affiliation",ExpressionUUID->"91159234-a84a-4370-8406-2061eb268101"],
+Cell[1599, 45, 471, 11, 79, "Author",ExpressionUUID->"5033b5ff-e6b0-4f98-9381-cc2202976bf7"],
+Cell[2073, 58, 366, 8, 31, "Affiliation",ExpressionUUID->"91159234-a84a-4370-8406-2061eb268101"],
 Cell[CellGroupData[{
-Cell[2441, 70, 314, 8, 67, "Section",ExpressionUUID->"445688b6-8642-4a6c-905c-30a92137211b",
+Cell[2464, 70, 314, 8, 67, "Section",ExpressionUUID->"445688b6-8642-4a6c-905c-30a92137211b",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellTags->"Initialization Code"],
-Cell[2758, 80, 553, 13, 44, "Input",ExpressionUUID->"19122d74-9766-4ab3-8d4d-2c7f346dc0ef",
+Cell[2781, 80, 553, 13, 44, "Input",ExpressionUUID->"19122d74-9766-4ab3-8d4d-2c7f346dc0ef",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->612302119],
-Cell[3314, 95, 743379, 15015, 19, "Input",ExpressionUUID->"8b425c8a-5c94-4670-9675-eeafc9285fb7",
+Cell[3337, 95, 743379, 15015, 19, "Input",ExpressionUUID->"8b425c8a-5c94-4670-9675-eeafc9285fb7",
  Evaluatable->True,
  CellOpen->False,
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True],
-Cell[746696, 15112, 42226, 933, 2233, "Input",ExpressionUUID->"1272761c-54bd-4dc0-926b-0ad813024171",
+Cell[746719, 15112, 42226, 933, 2233, "Input",ExpressionUUID->"1272761c-54bd-4dc0-926b-0ad813024171",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True]
 }, Open  ]],
-Cell[788937, 16048, 334486, 5291, 735, "Output",ExpressionUUID->"886b9f1a-b75b-44b6-aae1-647f3d5ec992"],
+Cell[788960, 16048, 334487, 5292, 35, "Output",ExpressionUUID->"886b9f1a-b75b-44b6-aae1-647f3d5ec992"],
 Cell[CellGroupData[{
-Cell[1123448, 21343, 265, 5, 67, "Section",ExpressionUUID->"f5b8cb73-1279-4b5f-809a-e5664028512f",
+Cell[1123472, 21344, 265, 5, 67, "Section",ExpressionUUID->"f5b8cb73-1279-4b5f-809a-e5664028512f",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellTags->"Caption"],
-Cell[1123716, 21350, 2721, 39, 127, "Text",ExpressionUUID->"e2aa56f4-9568-4d85-8062-8274480aee7e",
+Cell[1123740, 21351, 2897, 42, 127, "Text",ExpressionUUID->"e2aa56f4-9568-4d85-8062-8274480aee7e",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->1514960032]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1126474, 21394, 289, 6, 53, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
+Cell[1126674, 21398, 289, 6, 53, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.},
  CellTags->"Details"],
-Cell[1126766, 21402, 3731, 53, 127, "Text",ExpressionUUID->"29f113f1-d0d2-4374-8359-5ffa685235a7",
+Cell[1126966, 21406, 4044, 57, 127, "Text",ExpressionUUID->"29f113f1-d0d2-4374-8359-5ffa685235a7",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.},
  CellID->350564258]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1130534, 21460, 319, 7, 53, "Section",ExpressionUUID->"528f32fd-ca58-48e1-bd77-be142369e5e6",
+Cell[1131047, 21468, 319, 7, 53, "Section",ExpressionUUID->"528f32fd-ca58-48e1-bd77-be142369e5e6",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->177442523],
-Cell[1130856, 21469, 2040, 47, 60, "Text",ExpressionUUID->"dbd0cf33-6e4e-4078-a484-d785a628a6ae",
+Cell[1131369, 21477, 2040, 47, 60, "Text",ExpressionUUID->"dbd0cf33-6e4e-4078-a484-d785a628a6ae",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->193751],
-Cell[1132899, 21518, 1264, 21, 60, "Text",ExpressionUUID->"a233ae34-9a9a-458e-a21e-7b7c027a371e",
+Cell[1133412, 21526, 1264, 21, 60, "Text",ExpressionUUID->"a233ae34-9a9a-458e-a21e-7b7c027a371e",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->398036316]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1134200, 21544, 547, 9, 53, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
+Cell[1134713, 21552, 547, 9, 53, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellTags->"Details"],
-Cell[1134750, 21555, 453, 17, 216, "Text",ExpressionUUID->"917b1c32-8846-4cb4-bc12-d0f470b12680",
+Cell[1135263, 21563, 453, 17, 216, "Text",ExpressionUUID->"917b1c32-8846-4cb4-bc12-d0f470b12680",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellID->320223495]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1135240, 21577, 1030, 17, 43, "Section",ExpressionUUID->"5eda4602-8403-42aa-a086-3f7d462c6045"],
-Cell[1136273, 21596, 2885, 54, 88, "Text",ExpressionUUID->"6b0a6cda-d651-4486-99b0-725257a2db5e"]
+Cell[1135753, 21585, 1030, 17, 43, "Section",ExpressionUUID->"5eda4602-8403-42aa-a086-3f7d462c6045"],
+Cell[1136786, 21604, 2885, 54, 88, "Text",ExpressionUUID->"6b0a6cda-d651-4486-99b0-725257a2db5e"]
 }, Open  ]]
 }, Open  ]]
 }

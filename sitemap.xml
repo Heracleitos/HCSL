@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://www.hcsl.com/</loc>
-      <lastmod>2021-10-11</lastmod>
+      <lastmod>2021-10-17</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/index.html</loc>
-      <lastmod>2021-04-25</lastmod>
+      <lastmod>2021-10-17</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Intro/index.html</loc>
-      <lastmod>2021-03-20</lastmod>
+      <lastmod>2021-10-17</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Notes/index.html</loc>
-      <lastmod>2021-03-20</lastmod>
+      <lastmod>2021-10-17</lastmod>
    </url>
     <url>
       <loc>https://www.hcsl.com/Publications/index.html</loc>
@@ -30,7 +30,7 @@
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Risk.html</loc>
-      <lastmod>2021-03-19</lastmod>
+      <lastmod>2021-10-17</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Diagnostic.html</loc>
@@ -38,7 +38,7 @@
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Clinical.html</loc>
-      <lastmod>2021-06-01</lastmod>
+      <lastmod>2021-10-17</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Networks.html</loc>
@@ -50,7 +50,7 @@
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Statistics.html</loc>
-      <lastmod>2021-03-19</lastmod>
+      <lastmod>2021-10-17</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Entropy.html</loc>
@@ -62,7 +62,7 @@
    </url>
    <url>
       <loc>https://www.hcsl.com/CLSI/index.html</loc>
-      <lastmod>2021-03-11</lastmod>
+      <lastmod>2021-10-17</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Tools/index.html</loc>
@@ -70,7 +70,7 @@
    </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Nutrition/index.html</loc>
-    <lastmod>2021-09-12</lastmod>
+    <lastmod>2021-10-17</lastmod>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Relation/index.html</loc>
@@ -90,6 +90,6 @@
    </url>
    <url>
       <loc>https://www.hcsl.com/Contact/index.html</loc>
-      <lastmod>2021-09-12</lastmod>
+      <lastmod>2021-10-17</lastmod>
    </url>
 </urlset>

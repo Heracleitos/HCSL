@@ -1,122 +1,381 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <link rel="canonical" href="https://www.hcsl.com/Intro/index.html" />
-    <title>An Introduction to Design and Optimization of Statistical Quality Control</title>
+    <link rel="canonical" href="https://www.hcsl.com/Publications/index.html" />
+    <title>HCSL Publications</title>
     <link href="../favicon.ico" rel="shortcut icon" title="HCSL shortcut" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <meta name="keywords" content="quality control, genetic algorithms, design, optimization, quality control simulator" />
-    <meta name="description" content="An introduction to the method of design and optimization of statistical quality control procedures, using genetic algorithms, ?? method invented by the Hellenic Complex Systems Laboratory." />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="keywords" content="genetic algorithms, quality control, risk, reliability, statistics of complexity, diagnostic accuracy, networks,  statistical tools, clinical tools, entropy" />
+    <meta name="Content-Type" content="The list of the HCSL publications." />
     <meta name="author" content="ath@hcsl.com" />
     <link href="../css/hcsl.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="sidebar">
         <p><img src="../Images/HCSLlogo.svg" alt="HCSL Logo" class="center" style="width:105px;height:105px" /></p>
         <p style="text-align:center"><span class="c6">Hellenic<br>Complex&nbsp;Systems<br>Laboratory</span></p>
         <a href="../index.html" class="hidden">Home</a>
-        <a href="../Notes/index.html" class="hidden"> A Note on the Reliability and Risk Based QC</a>
-        <a href="../Publications/index.html" class="hidden">HCSL Publications</a>
-        <a href="../Publications/Fellows.html" class="hidden">Other Publications</a>
-        <a href="../CLSI/index.html" class="hidden">CLSI Documents</a>
-        <a href="../Tools/index.html" class="hidden">HCSL Software </a>
-        <a href="../Links/index.html" class="hidden">Links</a>
-        <a href="../Glossary/index.html" class="hidden">Glossary</a>
-        <a href="../Contact/index.html" class="hidden">Contact Information</a>
+        <a href="GAsQC.html" class="hidden">GAs Based QC</a>
+        <a href="QC.html" class="hidden">QC Design</a>
+        <a href="Risk.html" class="hidden">QC, Reliability and Risk</a>
+        <a href="Diagnostic.html" class="hidden">Diagnostic Accuracy</a>
+        <a href="Clinical.html" class="hidden">Clinical Tools</a>
+        <a href="Networks.html" class="hidden">Networks</a>
+        <a href="Statistical.html" class="hidden">Statistical Tools</a>
+        <a href="Statistics.html" class="hidden">Statistics of Complexity</a>
+        <a href="Entropy.html" class="hidden">Entropy and GAs</a>
     </div>
     <div class="content">
-        <article>
-            <h1>
-                An Introduction to Design and Optimization of Statistical Quality Control
-            </h1>
-            <p class="c1">
-                Alternative <a href="../Glossary/index.html#Quality_Control"
-                               title="glossary: quality control">quality control</a> (QC)
-                procedures can be applied to a process to test statistically the null hypothesis, that the process conforms to the quality specifications and consequently is in control, against the alternative, that the process is out of control. When a true null hypothesis is rejected, a statistical type I error is committed. We have then a false rejection of a run of the process. The probability of a type I error is called probability of false rejection. When a false null hypothesis is accepted, a statistical type II error is committed. We fail then to detect a significant change in the <a href="../Glossary/index.html#Probability_Density_Function" title="glossary: probability density function">probability density function</a> of a quality characteristic of the process. The probability of rejection of a false null hypothesis equals the probability of detection of the nonconformity of the process to the quality specifications.
-            </p>
-            <p class="c1">
-                The QC procedure to be designed or optimized can be
-                formulated as :
-            </p>
-            <p>
-                <span class="c7"><em>Q</em></span><span class="c8"><em>1</em></span><span class="c1"><em>(</em></span><span class="c7"><em>n</em></span><span class="c8"><em>1</em></span><span class="c7"><em>,</em></span><span class="c11"><em> X</em></span><span class="c12"><em>1</em></span><span class="c1"><em>) </em></span><span class="c7"><em># Q</em></span><span class="c8"><em>2</em></span><span class="c1"><em>(</em></span><span class="c7"><em>n</em></span><span class="c8"><em>2</em></span><span class="c7"><em>,</em></span><span class="c11"><em> X</em></span><span class="c12"><em>2</em></span><span class="c1"><em>) </em></span><span class="c7"><em># ... # Q</em></span><span class="c8"><em>q</em></span><span class="c1"><em>(</em></span><span class="c7"><em>n</em></span><span class="c8"><em>q</em></span><span class="c7"><em>,</em></span><span class="c11"><em> X</em></span><span class="c12"><em>q</em></span><span class="c1"><em>)</em> (1)</span>
-            </p>
-            <p>
-                <span class="c1">where </span><span class="c7">Q</span><span class="c8">i</span><span class="c1">(</span><span class="c7">n</span><span class="c8">i</span><span class="c7"><em>,</em></span><span class="c11"> X</span><span class="c12">i</span><span class="c1">)</span><span class="c1"> denotes a statistical decision rule, </span><span class="c7">n</span><span class="c8">i</span>
-				<span class="c1">denotes the size of the sample</span><span class="c7">S</span><span class="c8">i</span><span class="c1"> the rule is applied to, and</span>
-                <span class="c11">X</span><span class="c12">i</span><span class="c1">
-                    denotes the vector of rule specific parameters, including the decision limits. Each symbol
-                </span><span class="c7"> # </span><span class="c1">
-                    denotes either the Boolean operator
-                </span><span class="c7"> AND </span><span class="c1">
-                    or the operator
-                </span><span class="c7"> OR</span>. <span class="c1">
-                    For
-                </span><span class="c7"> # </span><span class="c1">denoting</span>
-                <span class="c7"> AND</span><span class="c1">, and for </span><span class="c7">n</span><span class="c8">1</span><span class="c7">
-                    &lt; n
-                </span><span class="c8">2</span><span class="c7">
-                    &lt; ... &lt; n
-                </span><span class="c8">q</span><span class="c1">, that is for</span>
-                <span class="c7">S</span><span class="c8">1</span><span class="c7">
-                    &sub;</span>
-                <span class="c7">S</span><span class="c8">2</span><span class="c7"> &sub; ... &sub; S</span><span class="c8">q</span><span class="c1">
-                , procedure (1) denotes a </span><span class="c7">q</span><span class="c1">&#8209;sampling QC procedure.</span>
-            </p>
-            <p class="c1">
-                Each statistical decision rule is evaluated by calculating the respective statistic of the measured quality characteristic of the sample. Then, if the statistic is out of the interval between the decision limits, the decision rule is considered as true. Many statistics are used, including the following: a single value, the range, the mean, the standard deviation, the cumulative sum, the smoothed mean, and the smoothed standard deviation. Finally, the QC procedure is evaluated as a Boolean proposition. If it is true, then the null hypothesis is is considered as false, the process as out of control, and the run is rejected.
-            </p>
-            <p class="c1">
-                A QC procedure is optimum when it minimizes (or maximizes) a context specific objective function. The objective
-                function depends on the probabilities of detection of the nonconformity of the process to the quality specifications and of false rejection. These probabilities depend on the parameters of the QC procedure (1) and on the <a href="../Glossary/index.html#Probability_Density_Function" title="glossary: probability density function">probability density function</a> of the measured quality characteristic of the process.
-            </p>
-            <p class="c1">
-                The probabilities of detection of the nonconformity of the process to the quality specifications and of false rejection can be:
-            </p>
-            <p class="c1">
-                a. Estimated, using <a href="../Glossary/index.html#Simulation" title="glossary: simulation">
-                    simulation</a><sup>1</sup> (see <a href="../Publications/Fellows.html">Other publications by HCSL Fellows</a>).
-            </p>
-            <p class="c1">
-                b. Calculated, using <a href="../Glossary/index.html#Numerical_Methods" title="glossary: numerical methods">numerical methods</a><sup>2</sup> (see <a href="../Publications/QC.html">HCSL publications on statistical QC design</a>).
-            </p>
-            <p class="c1">
-                In general, we cannot use algebraic methods to optimize QC procedures. Usage of enumerative methods would be very tedious,
-                especially with multi-rule procedures, as the number of the points of the
-                parameter space to be searched grows exponentially with the number of the
-                parameters to be optimized. <a href="../Glossary/index.html#Optimization" title="glossary: optimization">Optimization</a> methods based on <a href="../Glossary/index.html#Genetic_Algorithms" title="glossary: genetic algorithms" >genetic algorithms</a> (GAs) offer an
-                appealing alternative as they are robust search algorithms, do not requiring
-                knowledge of the objective function and searching through large spaces quickly.
-                GAs have been derived from the processes of the molecular biology of the gene
-                and the evolution of life. Their operators, cross-over, mutation, and
-                reproduction, are isomorphic with the synonymous biological processes. GAs have
-                been used to solve a variety of complex optimization problems. Furthermore, the
-                complexity of the design process of novel QC procedures is obviously greater
-                than the complexity of the optimization of predefined ones. The classifier
-                systems and the genetic programming paradigm have shown us that GAs
-                can be used for tasks as complex as program induction.
-            </p>
-            <p class="c1">
-                In fact, since 1993 we have successfully used the GAs to optimize and to design novel QC procedures<sup>3</sup> (see <a href="../Publications/GAsQC.html">HCSL publications on the GAs based design and optimization of statistical QC</a>).
-            </p>
-            <p>
-                <a href="../Contact/index.html#Greek_Names" title="a note on the standardisation of the Greek names">
-                    Aristeidis T. Chatzimichail,
-                    M.D., Ph.D.
-                </a>,
-            </p>
-            <p class="c1">
-                <a href="mailto:ath@hcsl.com">ath@hcsl.com</a>
-            </p>
-            <h2>References</h2>
-            <p class="c1">
-                1. Hatjimihail AT. <span class="c7">A tool for the design and evaluation of alternative quality control procedures.</span> Clin Chem 1992;38:204-10.<br>
-                2. Hatjimihail AT. <span class="c7">Tool for quality control design and evaluation.</span> Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2010.<br>
-                3. Hatjimihail AT. <span class="c7">Genetic algorithms based design and optimization of statistical quality control procedures.</span> Clin Chem 1993;39:1972-8.
-            </p>
-        </article>
+        <h1>HCSL Publications</h1>
+        <h2>
+            A. Genetic Algorithms Based Design and Optimization of Statistical Quality
+            Control
+        </h2>
+        <h3>
+            1. Hatjimihail AT. Genetic algorithms based design and optimization of
+            statistical quality control procedures. Clin Chem 1993;39:1972-8.
+        </h3>
+        <p>
+            <a href="../Publications/GAsQC.html#GAsQC1">Abstract</a>
+        </p>
+        <p>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/8375083/" target="_blank">Abstract in PubMed</a>
+        </p>
+        <p>
+            <a href="https://academic.oup.com/clinchem/article-abstract/39/9/1972/5647272" target="_blank">
+                Full text in Clinical Chemistry
+            </a>
+        </p>
+        <h3>
+            2. Hatjimihail AT, Hatjimihail TT. Design of statistical quality control
+            procedures using genetic algorithms. Technical Report II. Drama: Hellenic Complex Systems Laboratory, 1994.
+        </h3>
+        <p>
+            <a href="../Publications/GAsQC.html#GAsQC2">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/hcsltr02.pdf" target="_blank">Technical Report</a>
+        </p>
+        <h3>
+            3. Hatjimihail AT, Hatjimihail TT. Design of statistical quality control
+            procedures using genetic algorithms. In LJ Eshelman (ed): Proceedings of the
+            Sixth International Conference on Genetic Algorithms. San Francisco: Morgan
+            Kauffman, 1995:551-7.
+        </h3>
+        <p>
+            <a href="../Publications/GAsQC.html#GAsQC3">Abstract</a>
+        </p>
+        <h2>B. Statistical Quality Control Design</h2>
+        <h3>
+            1. Hatjimihail AT. Tool for Quality Control Design and Evaluation. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2010.
+        </h3>
+        <p>
+            <a href="../Publications/QC.html#QC1">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/ToolForQualityControlDesignAndEvaluation/"
+               target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/ToolForQualityControlDesignAndEvaluation.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h3>
+            2. Hatjimihail AT. Calculation of the confidence bounds for the fraction
+            nonconforming of normal populations of measurements in clinical laboratory medicine. Technical Report IV (2nd ed.). Drama: Hellenic Complex Systems Laboratory, 2019.
+        </h3>
+        <p>
+            <a href="../Publications/QC.html#QC2">Abstract</a>
+        </p>
+        <p>
+            <a href="https://arxiv.org/abs/1506.00571" target="_blank">
+                Abstract
+                in arXiv.org
+            </a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/hcsltr04.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h2>C. Statistical Quality Control, Reliability, and Risk</h2>
+        <h3>
+            <span>
+                1. Hatjimihail AT. Estimation of the optimal
+                statistical quality control sampling time intervals using a residual risk
+                measure. PLoS ONE 2009 4(6): e5770.
+                DOI:10.1371/journal.pone.0005770
+            </span>
+        </h3>
+        <p>
+            <a href="../Publications/Risk.html#QCR1.html">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/19513124/" target="_blank">
+                Abstract in
+                PubMed
+            </a>
+        </p>
+        <p class="c1">
+            <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0005770"
+               title="Full Text in PLoS ONE" target="_blank">Full Text in PLoS ONE</a>
+        </p>
+        <h3>
+            2. Hatjimihail AT. Core laboratory QC [Letter to the editor]. CAP Today
+            2015;29(5):8.
+        </h3>
+        <p>
+            <a href="../Documents/letter.pdf">Full Text</a>
+        </p>
+        <h2>D. Diagnostic Accuracy</h2>
+        <h3>
+            1. Hatjimihail AT. Resource review: Whiting P. Quality
+            of diagnostic accuracy studies:The development, use, and evaluation of QUADAS.
+            Bristol: P E Whiting, 2006. Evidence-Based Medicine
+            2006:11;189.
+        </h3>
+        <p class="c1">
+            <a href="http://ebm.bmj.com/cgi/content/full/11/6/189" target="_blank">Full text in Evidence Based Medicine</a>
+        </p>
+        <h3>
+            2. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty
+            of Measurement. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2007.
+        </h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA2">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure/"
+               target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasurement.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h3>
+            3. Hatjimihail AT. Uncertainty of Measurement and Areas Over and Under the
+            ROC Curves. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2009.
+        </h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA3">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves/"
+               target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h3>
+            4. Hatjimihail AT. Uncertainty of Measurement and Diagnostic Accuracy Measures. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2009.
+        </h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA4">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures/"
+               target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h3>
+            5. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2015.
+        </h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA5">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/AnalysisOfDiagnosticAccuracyMeasures/"
+               target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/AnalysisOfDiagnosticAccuracyMeasures.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h3>
+            6. Chatzimichail T. Correlation of Positive and Negative Predictive Values.
+            Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
+        </h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA6">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/CorrelationOfPositiveAndNegativePredictiveValuesOfDiagnostic/"
+               target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/CorrelationOfPositiveAndNegativePredictiveValuesOfDiagnosticTests.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h3>
+            7. Chatzimichail T, Hatjimihail AT. Analysis of Diagnostic Accuracy
+            Measures for Two Combined Diagnostic Tests. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc.,
+            2018.
+        </h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA7">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic/"
+               target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnosticTests.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h3>8. Chatzimichail T, Hatjimihail AT. Relation of Diagnostic Accuracy Measures. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.</h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA8">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/RelationOfDiagnosticAccuracyMeasures/"
+               target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/RelationOfDiagnosticAccuracyMeasures.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h3>9. Chatzimichail T. Calculator for Diagnostic Accuracy Measures. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.</h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA9">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/CalculatorForDiagnosticAccuracyMeasures/"
+               target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/CalculatorForDiagnosticAccuracyMeasures.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h3>10. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.</h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA10">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/CalculationOfDiagnosticAccuracyMeasures/"
+               target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/CalculationOfDiagnosticAccuracyMeasures.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h3>11. Hatjimihail AT. The Area Over a Receiver Operating Characteristic (ROC) Curve as an Index of Diagnostic Inaccuracy. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.</h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA11">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex/"
+               target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h3>12. Chatzimichail T, Hatjimihail AT. A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty. Diagnostics 2020, 10(9), 610. DOI: 10.3390/diagnostics10090610</h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA12">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/32825135/" target="_blank">Abstract in PubMed</a>
+        </p>
+        <p class="c1">
+            <a href="https://www.mdpi.com/2075-4418/10/9/610"
+               target="_blank">Full text in Diagnostics</a>
+        </p>
+        <h3>13. Chatzimichail T, Hatjimihail AT. A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Diagnostics. 2021; 11(3):406. DOI: 10.3390/diagnostics11030406.</h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA13">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/33673466/" target="_blank">Abstract in PubMed</a>
+        </p>
+        <p class="c1">
+            <a href="https://www.mdpi.com/2075-4418/11/3/406"
+               target="_blank">Full text in Diagnostics</a>
+        </p>
+		<h3>14. Chatzimichail T. Relation: A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty [Poster presentation]. 14th International Diagnostic Error in Medicine Conference, Society to Improve Diagnosis in Medicine, Evanston, Il., 2021.</h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA14">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/Relation.pdf" title="Poster Presentation" target="_blank">Poster presentation</a>
+        </p>
+		<h3>15. Chatzimichail T. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures [Poster presentation]. 14th International Diagnostic Error in Medicine Conference, Society to Improve Diagnosis in Medicine, Evanston, Il., 2021.</h3>
+        <p class="c1">
+            <a href="../Publications/Diagnostic.html#DA15">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/Uncertainty.pdf" title="Poster Presentation" target="_blank">Poster presentation</a>
+        </p>
+        <h2>E. Clinical Tools</h2>
+        <h3>1. Chatzimichail T. Enteral Nutritional Design. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2017.</h3>
+        <p>
+            <a href="Clinical.html#CT1">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/EnteralNutritionalDesign/" title="Enteral Nutritional Design Demonstration" target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/EnteralNutritionalDesign.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h2>F. Networks</h2>
+        <h3>1. Chatzimichail C, Hatjimihail AT. Network of Musical Instruments for Rhythm Accompaniment. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.</h3>
+        <p>
+            <a href="../Publications/Networks.html#N1">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/NetworkOfMusicalInstrumentsForRhythmAccompaniment/" title="Network of Musical Instruments for Rhythm Accompaniment" target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/NetworkOfMusicalInstrumentsForRhythmAccompaniment.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h2>G. Statistical Tools</h2>
+        <h3>1. Chatzimichail T, Hatjimihail AT. Exact Confidence Intervals for a Single Proportion. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.</h3>
+        <p>
+            <a href="../Publications/Statistical.html#STl1">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/ExactConfidenceIntervalsForASingleProportion/"
+               target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/ExactConfidenceIntervalsForASingleProportion.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h3>2. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.</h3>
+        <p>
+            <a href="../Publications/Statistical.html#STl2">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://demonstrations.wolfram.com/InferencesAboutTheDifferenceBetweenTwoProportions/"
+               target="_blank">Demonstration</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/InferencesAbouttheDifferenceBetweenTwoProportions.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h2>H.Statistics of Complexity</h2>
+        <h3>
+            1. Hatjimihail AT. A nonlinear component of the analytical error
+            [Abstract]. Clin Chem 2000;46(S6):A69.
+        </h3>
+        <p class="c1">
+            <a href="../Publications/Statistics.html#St1">Abstract</a>
+        </p>
+        <h3>
+            2. Hatjimihail AT. A nonlinear component of the analytical error. Technical Report III. Drama: Hellenic Complex Systems Laboratory,
+            2001.
+        </h3>
+        <p class="c1">
+            <a href="../Publications/Statistics.html#St2">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="https://www.arxiv.org/abs/nlin.AO/0201049" target="_blank">Abstract in arXiv.org</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/hcsltr03.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
+        <h2>I. Entropy and Genetic Algorithms</h2>
+        <h3>
+            1. Hatjimihail AT. Entropy and genetic algorithms: Definition and some
+            graphs. Technical Report I. Drama: Hellenic Complex Systems Laboratory, 1993.
+        </h3>
+        <p class="c1">
+            <a href="../Publications/Entropy.html#En1">Abstract</a>
+        </p>
+        <p class="c1">
+            <a href="../Documents/hcsltr01.pdf" title="Technical Report" target="_blank">Technical Report</a>
+        </p>
     </div>
 </body>
 </html>

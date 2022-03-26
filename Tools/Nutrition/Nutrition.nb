@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1144435,      21764]
-NotebookOptionsPosition[   1139964,      21666]
-NotebookOutlinePosition[   1141285,      21703]
-CellTagsIndexPosition[   1141139,      21696]
+NotebookDataLength[   1144421,      21764]
+NotebookOptionsPosition[   1139947,      21666]
+NotebookOutlinePosition[   1141271,      21703]
+CellTagsIndexPosition[   1141125,      21696]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -16049,7 +16049,7 @@ Cell[BoxData[{
    3.840340735366078*^9, 
    3.8403407404414587`*^9}},ExpressionUUID->"1272761c-54bd-4dc0-926b-\
 0ad813024171"]
-}, Open  ]],
+}, Closed]],
 
 Cell[BoxData[
  TagBox[
@@ -16246,7 +16246,7 @@ $CellContext`mf], 400]}],
        ControlPlacement -> Left, AppearanceElements -> None, ContinuousAction -> 
         False, SynchronousInitialization -> False, Deployed -> True}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{434., {261.13403309800196`, 266.86596690199804`}},
+     ImageSizeCache->{1042., {355.13403309800196`, 360.86596690199804`}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -21209,9 +21209,9 @@ $CellContext`cal = {4, 9, 4}; $CellContext`pc = {4, 0, 0}; $CellContext`fc = {
           DeleteCases[{$CellContext`food}, "None"]; 
          If[$CellContext`fd != {}, $CellContext`fs = 
             Map[$CellContext`se[$CellContext`fo, #]& , $CellContext`fd]; \
-$CellContext`fg = Map[If[# != "", 
-               StringJoin[#, " (gr)"]]& , $CellContext`fd]; $CellContext`ftco = 
-            Map[Take[
+$CellContext`fg = 
+            Map[If[# != "", # <> 
+               " (gr)"]& , $CellContext`fd]; $CellContext`ftco = Map[Take[
                Part[#, 1], {6, 8}]& , $CellContext`fs]; $CellContext`fco = 
             0.01 Map[ToExpression[#]& , $CellContext`ftco]; $CellContext`ftcf = 
             Map[Part[#, 1, 4]& , $CellContext`fs]; $CellContext`fcf = 
@@ -21239,10 +21239,10 @@ $CellContext`fg = Map[If[# != "",
             Map[Part[#, 1, 15]& , $CellContext`fs]; $CellContext`fph = 
             0.01 Map[ToExpression[#]& , $CellContext`ftph]; $CellContext`fp = 
             Flatten[
+              
               Prepend[$CellContext`fg, {
-                StringJoin["Nutritional formula (", 
-                 ToString[$CellContext`tc], " cal)"]}]]; $CellContext`fn = 
-            Flatten[
+               "Nutritional formula (" <> ToString[$CellContext`tc] <> 
+                " cal)"}]]; $CellContext`fn = Flatten[
               
               Append[$CellContext`fp, {
                "", "Food ingredients", "Total proteins (gr)", 
@@ -21664,10 +21664,10 @@ International Creative Commons License",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1430.25, 743.625},
+WindowSize->{1430.25, 732.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 Magnification->1.,
-FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (May 11, 2021)",
+FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"c4316845-c89e-4f9a-881b-ae76aa07d7e8"
 ]
@@ -21681,23 +21681,23 @@ CellTagsIndex->{
    CellGroupingRules->{"GroupTogetherGrouping", 10000.},
    CellTags->"Initialization Code"]},
  "Caption"->{
-  Cell[1123631, 21348, 265, 5, 67, "Section",ExpressionUUID->"f5b8cb73-1279-4b5f-809a-e5664028512f",
+  Cell[1123614, 21348, 265, 5, 67, "Section",ExpressionUUID->"f5b8cb73-1279-4b5f-809a-e5664028512f",
    CellGroupingRules->{"GroupTogetherGrouping", 10000.},
    CellTags->"Caption"]},
  "Details"->{
-  Cell[1126833, 21402, 289, 6, 53, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
+  Cell[1126816, 21402, 289, 6, 53, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
    CellGroupingRules->{"GroupTogetherGrouping", 10002.},
    CellTags->"Details"],
-  Cell[1134872, 21556, 547, 9, 53, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
+  Cell[1134855, 21556, 547, 9, 53, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
    CellGroupingRules->{"GroupTogetherGrouping", 10001.},
    CellTags->"Details"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Initialization Code", 1140347, 21678},
- {"Caption", 1140551, 21682},
- {"Details", 1140749, 21686}
+ {"Initialization Code", 1140333, 21678},
+ {"Caption", 1140537, 21682},
+ {"Details", 1140735, 21686}
  }
 *)
 (*NotebookFileOutline
@@ -21724,46 +21724,46 @@ Cell[3461, 98, 743379, 15015, 19, "Input",ExpressionUUID->"8b425c8a-5c94-4670-96
 Cell[746843, 15115, 42263, 935, 2233, "Input",ExpressionUUID->"1272761c-54bd-4dc0-926b-0ad813024171",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True]
-}, Open  ]],
-Cell[789121, 16053, 334485, 5291, 547, "Output",ExpressionUUID->"886b9f1a-b75b-44b6-aae1-647f3d5ec992"],
+}, Closed]],
+Cell[789121, 16053, 334468, 5291, 734, "Output",ExpressionUUID->"886b9f1a-b75b-44b6-aae1-647f3d5ec992"],
 Cell[CellGroupData[{
-Cell[1123631, 21348, 265, 5, 67, "Section",ExpressionUUID->"f5b8cb73-1279-4b5f-809a-e5664028512f",
+Cell[1123614, 21348, 265, 5, 67, "Section",ExpressionUUID->"f5b8cb73-1279-4b5f-809a-e5664028512f",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellTags->"Caption"],
-Cell[1123899, 21355, 2897, 42, 127, "Text",ExpressionUUID->"e2aa56f4-9568-4d85-8062-8274480aee7e",
+Cell[1123882, 21355, 2897, 42, 127, "Text",ExpressionUUID->"e2aa56f4-9568-4d85-8062-8274480aee7e",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->1514960032]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1126833, 21402, 289, 6, 53, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
+Cell[1126816, 21402, 289, 6, 53, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.},
  CellTags->"Details"],
-Cell[1127125, 21410, 4044, 57, 127, "Text",ExpressionUUID->"29f113f1-d0d2-4374-8359-5ffa685235a7",
+Cell[1127108, 21410, 4044, 57, 127, "Text",ExpressionUUID->"29f113f1-d0d2-4374-8359-5ffa685235a7",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.},
  CellID->350564258]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1131206, 21472, 319, 7, 53, "Section",ExpressionUUID->"528f32fd-ca58-48e1-bd77-be142369e5e6",
+Cell[1131189, 21472, 319, 7, 53, "Section",ExpressionUUID->"528f32fd-ca58-48e1-bd77-be142369e5e6",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->177442523],
-Cell[1131528, 21481, 2040, 47, 60, "Text",ExpressionUUID->"dbd0cf33-6e4e-4078-a484-d785a628a6ae",
+Cell[1131511, 21481, 2040, 47, 60, "Text",ExpressionUUID->"dbd0cf33-6e4e-4078-a484-d785a628a6ae",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->193751],
-Cell[1133571, 21530, 1264, 21, 84, "Text",ExpressionUUID->"a233ae34-9a9a-458e-a21e-7b7c027a371e",
+Cell[1133554, 21530, 1264, 21, 84, "Text",ExpressionUUID->"a233ae34-9a9a-458e-a21e-7b7c027a371e",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->398036316]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1134872, 21556, 547, 9, 53, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
+Cell[1134855, 21556, 547, 9, 53, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellTags->"Details"],
-Cell[1135422, 21567, 503, 17, 219, "Text",ExpressionUUID->"917b1c32-8846-4cb4-bc12-d0f470b12680",
+Cell[1135405, 21567, 503, 17, 219, "Text",ExpressionUUID->"917b1c32-8846-4cb4-bc12-d0f470b12680",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellID->320223495]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1135962, 21589, 1030, 17, 43, "Section",ExpressionUUID->"5eda4602-8403-42aa-a086-3f7d462c6045"],
-Cell[1136995, 21608, 2941, 54, 88, "Text",ExpressionUUID->"6b0a6cda-d651-4486-99b0-725257a2db5e"]
+Cell[1135945, 21589, 1030, 17, 43, "Section",ExpressionUUID->"5eda4602-8403-42aa-a086-3f7d462c6045"],
+Cell[1136978, 21608, 2941, 54, 88, "Text",ExpressionUUID->"6b0a6cda-d651-4486-99b0-725257a2db5e"]
 }, Open  ]]
 }, Open  ]]
 }

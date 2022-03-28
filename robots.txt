@@ -1,5 +1,0 @@
-User-Agent: *
-Disallow: 
-
-Sitemap: 
-https://heracleitos.github.io/HCSL//sitemap.xml

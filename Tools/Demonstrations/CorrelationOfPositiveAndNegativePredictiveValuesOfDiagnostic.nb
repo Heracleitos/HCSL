@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     94270,       1870]
+NotebookDataLength[     94264,       1870]
 NotebookOptionsPosition[     86201,       1704]
-NotebookOutlinePosition[     87905,       1749]
-CellTagsIndexPosition[     87706,       1740]
+NotebookOutlinePosition[     87899,       1749]
+CellTagsIndexPosition[     87700,       1740]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1702,29 +1702,21 @@ International Creative Commons License",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1440., 748.5},
-WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
+WindowSize->{1430.25, 743.625},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"a077c816-0694-404b-bbce-5ca081f85c3f"
+ExpressionUUID->"8e2edc75-03fb-42bf-8d38-9edacb72ad5f"
 ]
 (* End of Notebook Content *)
 
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "Initialization Code"->{
-  Cell[1543, 51, 279, 6, 67, "Section",ExpressionUUID->"ad3c9659-3ad8-4ba3-9087-d9806da33c92",
-   CellGroupingRules->{"GroupTogetherGrouping", 10000.},
-   CellTags->"Initialization Code"]},
  "Caption"->{
   Cell[45386, 836, 230, 3, 67, "Section",ExpressionUUID->"dbc7384c-1a3c-4e0a-8f0c-e3166e1a8048",
    CellGroupingRules->{"GroupTogetherGrouping", 10000.},
    CellTags->"Caption"]},
- "Snapshots"->{
-  Cell[46943, 865, 228, 3, 53, "Section",ExpressionUUID->"109569d0-660c-45f9-9ae7-fa6df61ee0b0",
-   CellGroupingRules->{"GroupTogetherGrouping", 10001.},
-   CellTags->"Snapshots"]},
  "Details"->{
   Cell[67260, 1310, 254, 4, 53, "Section",ExpressionUUID->"e5d55978-9a68-43cb-b39d-f09853c08df0",
    CellGroupingRules->{"GroupTogetherGrouping", 10002.},
@@ -1732,18 +1724,26 @@ CellTagsIndex->{
   Cell[77771, 1528, 438, 6, 53, "Section",ExpressionUUID->"54344679-dd3a-40ec-afa8-1b3da96f3295",
    CellGroupingRules->{"GroupTogetherGrouping", 10000.},
    CellTags->"Details"]},
+ "Initialization Code"->{
+  Cell[1543, 51, 279, 6, 67, "Section",ExpressionUUID->"ad3c9659-3ad8-4ba3-9087-d9806da33c92",
+   CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+   CellTags->"Initialization Code"]},
  "Related Links"->{
   Cell[81343, 1602, 186, 3, 53, "Section",ExpressionUUID->"cc2052f8-db7c-4e94-9882-83256d7210fd",
-   CellTags->"Related Links"]}
+   CellTags->"Related Links"]},
+ "Snapshots"->{
+  Cell[46943, 865, 228, 3, 53, "Section",ExpressionUUID->"109569d0-660c-45f9-9ae7-fa6df61ee0b0",
+   CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+   CellTags->"Snapshots"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Initialization Code", 86576, 1715},
- {"Caption", 86780, 1719},
- {"Snapshots", 86976, 1723},
- {"Details", 87172, 1727},
- {"Related Links", 87553, 1734}
+ {"Caption", 86558, 1715},
+ {"Details", 86752, 1719},
+ {"Initialization Code", 87139, 1726},
+ {"Related Links", 87349, 1730},
+ {"Snapshots", 87495, 1733}
  }
 *)
 (*NotebookFileOutline

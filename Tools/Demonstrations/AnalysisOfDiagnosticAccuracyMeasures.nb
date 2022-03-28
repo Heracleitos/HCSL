@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    162182,       3593]
+NotebookDataLength[    162176,       3593]
 NotebookOptionsPosition[    157710,       3495]
-NotebookOutlinePosition[    158798,       3528]
-CellTagsIndexPosition[    158663,       3521]
+NotebookOutlinePosition[    158792,       3528]
+CellTagsIndexPosition[    158657,       3521]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3494,11 +3494,11 @@ NonCommercial - ShareAlike 4.0 International Creative Commons License.",
 }, Open  ]]
 },
 CellGrouping->Manual,
-WindowSize->{1440., 748.5},
-WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
+WindowSize->{1430.25, 743.625},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"fc26338e-1c26-4207-8f14-7c9c6175c32e"
+ExpressionUUID->"12af8214-a23b-4f81-a2ee-c0be4bcece1e"
 ]
 (* End of Notebook Content *)
 
@@ -3520,9 +3520,9 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Snapshots", 158097, 3507},
- {"Details", 158237, 3510},
- {"Search Terms", 158381, 3513}
+ {"Snapshots", 158091, 3507},
+ {"Details", 158231, 3510},
+ {"Search Terms", 158375, 3513}
  }
 *)
 (*NotebookFileOutline

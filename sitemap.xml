@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://www.hcsl.com/</loc>
-      <lastmod>2022-04-20</lastmod>
+      <lastmod>2022-04-23</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/index.html</loc>
@@ -68,7 +68,7 @@
       <loc>https://www.hcsl.com/Tools/index.html</loc>
       <lastmod>2022-04-20</lastmod>
    </url>
-  
+   <url>
     <loc>https://www.hcsl.com/Tools/Relation/index.html</loc>
     <lastmod>2022-04-20</lastmod>
   </url>
@@ -80,11 +80,10 @@
     <loc>https://www.hcsl.com/Tools/Quality/index.html</loc>
     <lastmod>2022-04-20</lastmod>
   </url>
-  <url><url>
+  <url>
     <loc>https://www.hcsl.com/Tools/Nutrition/index.html</loc>
     <lastmod>2022-04-20</lastmod>
   </url>
-  <url>
    <url>
       <loc>https://www.hcsl.com/Glossary/index.html</loc>
       <lastmod>2022-04-20</lastmod>
@@ -95,6 +94,6 @@
    </url>
    <url>
       <loc>https://www.hcsl.com/Contact/index.html</loc>
-      <lastmod>2022-04-20</lastmod>
+      <lastmod>2022-04-23</lastmod>
    </url>
 </urlset>

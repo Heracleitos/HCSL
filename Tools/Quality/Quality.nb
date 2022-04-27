@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    240707,       5132]
-NotebookOptionsPosition[    239163,       5097]
-NotebookOutlinePosition[    239642,       5115]
-CellTagsIndexPosition[    239599,       5112]
+NotebookDataLength[    241014,       5135]
+NotebookOptionsPosition[    239470,       5100]
+NotebookOutlinePosition[    239949,       5118]
+CellTagsIndexPosition[    239906,       5115]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3553,7 +3553,7 @@ $CellContext`bias}, $CellContext`ra = ReplaceAll[$CellContext`sd,
                  100, 100}] == $CellContext`a, {$CellContext`sd, \
 $CellContext`s, 20 $CellContext`s, 0, 30 $CellContext`s}, AccuracyGoal -> 100,
                 PrecisionGoal -> 100]]; $CellContext`dr = 
-            N[(Sqrt[2] $CellContext`ra 
+            N[((Sqrt[2] $CellContext`ra) 
                InverseErf[(1 - $CellContext`minpred)^(
                   1/$CellContext`c)])/$CellContext`s, {100, 
               100}]; $CellContext`sa = ReplaceAll[$CellContext`bias, 
@@ -3614,56 +3614,57 @@ $CellContext`em (1 - $CellContext`taae))/(Sqrt[2] $CellContext`s)] +
             Blank[]], 
            Pattern[$CellContext`l, 
             Blank[]]] := 
-         Text["\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)(" <> 
-           Switch[$CellContext`n, 1, 
-             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"\
-], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)", 2, 
-             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"\
-], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)", 3, 
-             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"\
-], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
-FontSlant->\"Italic\"], \"3\"],FontSlant->\"Italic\"]\)", 4, 
-             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"\
-], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
-FontSlant->\"Italic\"], \
+         Text[((((((("\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)(" <> 
+                  Switch[$CellContext`n, 1, 
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)", 2,
+                     "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)", 3, 
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)", 4, 
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)", 5, 
-             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"\
-], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
-FontSlant->\"Italic\"], \
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"5\"],FontSlant->\"Italic\"]\)", 6, 
-             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"\
-], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
-FontSlant->\"Italic\"], \
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"5\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"6\"],FontSlant->\"Italic\"]\)"] <> ";" <> ToString[
-             NumberForm[$CellContext`m, {3, 2}]] <> "," <> ToString[
-             NumberForm[$CellContext`s, {3, 2}]] <> "," <> ToString[
-             NumberForm[$CellContext`l, {3, 2}]] <> ")"], $CellContext`gpfrs[
+\"6\"],FontSlant->\"Italic\"]\)"]) <> ";") <> ToString[
+                  NumberForm[$CellContext`m, {3, 2}]]) <> ",") <> ToString[
+                NumberForm[$CellContext`s, {3, 2}]]) <> ",") <> ToString[
+              NumberForm[$CellContext`l, {3, 2}]]) <> ")"], $CellContext`gpfrs[
            Pattern[$CellContext`n, 
             Blank[]], 
            Pattern[$CellContext`m, 
@@ -3769,6 +3770,7 @@ $CellContext`n1$$ = 2, $CellContext`n2$$ = 2, $CellContext`p1$$ =
            Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
            Typeset`initDone$$, Typeset`skipInitDone$$}, 
          "Body" :> (
+          
           If[$CellContext`k1$$ > $CellContext`n1$$, $CellContext`k1$$ = \
 $CellContext`n1$$]; 
           If[$CellContext`k2$$ > $CellContext`n2$$, $CellContext`k2$$ = \
@@ -3944,7 +3946,6 @@ Italic\"], \"r\"],FontSlant->\"Italic\"]\)"}], {600}]], $CellContext`pedfr[
              Blank[]]] := 
           Block[{$CellContext`d}, $CellContext`d = \
 $CellContext`dl[$CellContext`p, $CellContext`n]; Switch[$CellContext`t, 1, 
-              
               If[$CellContext`k < $CellContext`n, $CellContext`sped[
                 0, $CellContext`s, $CellContext`d, $CellContext`k] + \
 $CellContext`sped[
@@ -4021,15 +4022,16 @@ $CellContext`p, {$CellContext`d, 1, 20, 0, 30},
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := 
-          Text["\!\(\*StyleBox[\"P\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"\
-(\",FontSlant->\"Italic\"]\)" <> ToString[$CellContext`n] <> "," <> 
-            ToString[$CellContext`k] <> 
-            Switch[$CellContext`t, 0, ",0,1;0,1,", 1, 
-              ",0,\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
-\";\",FontSlant->\"Italic\"]\)0,1,", 2, 
-              ",\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\),1;0,1,"] <> 
-            ToString[
-              NumberForm[$CellContext`l, {3, 2}]] <> ")"], $CellContext`dpss[
+          Text[(((((
+                 "\!\(\*StyleBox[\"P\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\"(\",FontSlant->\"Italic\"]\)" <> ToString[$CellContext`n]) <> ",") <> 
+               ToString[$CellContext`k]) <> 
+              Switch[$CellContext`t, 0, ",0,1;0,1,", 1, 
+                ",0,\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\";\",FontSlant->\"Italic\"]\)0,1,", 2, 
+                ",\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\),1;0,1,"]) <> 
+             ToString[
+               NumberForm[$CellContext`l, {3, 2}]]) <> ")"], $CellContext`dpss[
             Pattern[$CellContext`t, 
              Blank[]], 
             Pattern[$CellContext`n1, 
@@ -4166,12 +4168,12 @@ Italic\"], \
              Plot[{$CellContext`pedfr[$CellContext`t, $CellContext`m, 
                  1, $CellContext`n2, $CellContext`k2, \
 $CellContext`p2]/$CellContext`pedfr[$CellContext`t, $CellContext`m, 
+                
                 1, $CellContext`n1, $CellContext`k1, $CellContext`p1]}, \
 {$CellContext`m, 0, $CellContext`r}, PlotLabel -> 
               "ratio of probabilities for rejection", 
               AxesLabel -> {
                "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)", 
-                
                 "\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant->\"\
 Italic\"], \
 \"r2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"/\",FontSlant->\"Italic\"]\)\
@@ -4217,57 +4219,58 @@ Italic\"], \
              Blank[]], 
             Pattern[$CellContext`p, 
              Blank[]]] := 
-          Text["\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)(" <> 
-            Switch[$CellContext`n, 1, 
-              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
-\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)", 2, 
-              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
-\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)", 3, 
-              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
-\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
-FontSlant->\"Italic\"], \"3\"],FontSlant->\"Italic\"]\)", 4, 
-              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
-\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
-FontSlant->\"Italic\"], \
+          Text[((((((("\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)(" <> 
+                   Switch[$CellContext`n, 1, 
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)", 2,
+                     "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)", 3, 
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)", 4, 
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)", 5, 
-              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
-\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
-FontSlant->\"Italic\"], \
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"5\"],FontSlant->\"Italic\"]\)", 6, 
-              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
-\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
-FontSlant->\"Italic\"], \
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"5\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"6\"],FontSlant->\"Italic\"]\)"] <> ";" <> ToString[
-              NumberForm[$CellContext`m, {3, 2}]] <> "," <> ToString[
-              NumberForm[$CellContext`s, {3, 2}]] <> "," <> ToString[
-              NumberForm[
-               $CellContext`dl[$CellContext`p, $CellContext`n], {3, 2}]] <> 
+\"6\"],FontSlant->\"Italic\"]\)"]) <> ";") <> ToString[
+                   NumberForm[$CellContext`m, {3, 2}]]) <> ",") <> ToString[
+                 NumberForm[$CellContext`s, {3, 2}]]) <> ",") <> ToString[
+               NumberForm[
+                $CellContext`dl[$CellContext`p, $CellContext`n], {3, 2}]]) <> 
             ")"]}; Typeset`initDone$$ = True),
        SynchronousInitialization->True,
        UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
@@ -4557,15 +4560,17 @@ $CellContext`sped[$CellContext`m,
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := 
-          Text["\!\(\*StyleBox[\"P\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"\
-(\",FontSlant->\"Italic\"]\)" <> ToString[$CellContext`n] <> "," <> 
-            ToString[$CellContext`k] <> 
-            Switch[$CellContext`t, 0, ",0,1;0,1,", 1, 
-              ",0,\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
-\";\",FontSlant->\"Italic\"]\)0,1,", 2, 
-              ",\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\),1;0,1,"] <> 
-            ToString[
-              NumberForm[$CellContext`l, {3, 2}]] <> ")"], $CellContext`dpssl[
+          Text[(((((
+                 "\!\(\*StyleBox[\"P\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\"(\",FontSlant->\"Italic\"]\)" <> ToString[$CellContext`n]) <> ",") <> 
+               ToString[$CellContext`k]) <> 
+              Switch[$CellContext`t, 0, ",0,1;0,1,", 1, 
+                ",0,\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\";\",FontSlant->\"Italic\"]\)0,1,", 2, 
+                ",\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\),1;0,1,"]) <> 
+             ToString[
+               NumberForm[$CellContext`l, {3, 2}]]) <> 
+            ")"], $CellContext`dpssl[
             Pattern[$CellContext`t, 
              Blank[]], 
             Pattern[$CellContext`n1, 
@@ -4754,56 +4759,58 @@ Italic\"], \
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := 
-          Text["\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)(" <> 
-            Switch[$CellContext`n, 1, 
-              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
-\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)", 2, 
-              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
-\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)", 3, 
-              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
-\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
-FontSlant->\"Italic\"], \"3\"],FontSlant->\"Italic\"]\)", 4, 
-              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
-\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
-FontSlant->\"Italic\"], \
+          Text[((((((("\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)(" <> 
+                   Switch[$CellContext`n, 1, 
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)", 2,
+                     
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)", 3, 
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)", 4, 
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)", 5, 
-              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
-\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
-FontSlant->\"Italic\"], \
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"5\"],FontSlant->\"Italic\"]\)", 6, 
-              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
-\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
-x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
-FontSlant->\"Italic\"], \
+                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
+Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
+\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
+\"x\",FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"5\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"6\"],FontSlant->\"Italic\"]\)"] <> ";" <> ToString[
-              NumberForm[$CellContext`m, {3, 2}]] <> "," <> ToString[
-              NumberForm[$CellContext`s, {3, 2}]] <> "," <> ToString[
-              NumberForm[$CellContext`l, {3, 2}]] <> ")"]}; 
+\"6\"],FontSlant->\"Italic\"]\)"]) <> ";") <> ToString[
+                   NumberForm[$CellContext`m, {3, 2}]]) <> ",") <> ToString[
+                 NumberForm[$CellContext`s, {3, 2}]]) <> ",") <> ToString[
+               NumberForm[$CellContext`l, {3, 2}]]) <> ")"]}; 
         Typeset`initDone$$ = True),
        SynchronousInitialization->True,
        UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
@@ -5064,23 +5071,18 @@ Cell[TextData[{
   FontSlant->"Italic",
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox["\nVersion Number 1.0.0 \nHellenic Complex Systems Laboratory 2022\n\
-",
+This software is distributed under  an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox[ButtonBox["Statistical Quality Control Design ",
+ StyleBox[ButtonBox["Attribution - NonCommercial - ShareAlike 4.0 \
+International Creative Commons License",
   BaseStyle->"Hyperlink",
   ButtonData->{
-    URL["https://www.hcsl.com/Tools/SQC"], None},
-  ButtonNote->"https://www.hcsl.com/Tools/SQC"],
-  FontSize->10,
-  FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\[Copyright] 2022 by Rallou A. Chatzimichail, PhD; Aristides T. \
-Hatjimihail, MD, PhD is licensed under CC BY-NC-SA 4.0",
+    URL["https://creativecommons.org/licenses/by-nc-sa/4.0/"], None},
+  ButtonNote->"https://creativecommons.org/licenses/by-nc-sa/4.0/"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]]
 }], "Subsubsubsubsection",
- Editable->False,
- Deployed->True,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
    3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
    3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
@@ -5090,8 +5092,9 @@ Hatjimihail, MD, PhD is licensed under CC BY-NC-SA 4.0",
    3.8579548146715016`*^9}, {3.8579548776990466`*^9, 3.857954957657795*^9}, {
    3.858439619195712*^9, 3.8584396242757125`*^9}, {3.858470952699446*^9, 
    3.858470956204458*^9}, 3.859034366001465*^9, {3.8590345015582256`*^9, 
-   3.859034501559221*^9}, {3.8593713043744144`*^9, 
-   3.859371306756342*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
+   3.859034501559221*^9}, {3.8593713043744144`*^9, 3.859371306756342*^9}, 
+   3.8600285018206224`*^9, {3.8600291447242236`*^9, 
+   3.8600291539083023`*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
 f5d0251a90b2"]
 }, Open  ]]
 },
@@ -5128,11 +5131,11 @@ Cell[3394, 85, 71853, 1710, 24, "Input",ExpressionUUID->"63bc3ab4-71cf-4776-8857
 Cell[CellGroupData[{
 Cell[75272, 1799, 70017, 1382, 24, "Input",ExpressionUUID->"101cd957-340d-431e-91ec-e5cb76a39831",
  CellOpen->False],
-Cell[145292, 3183, 85416, 1659, 706, "Output",ExpressionUUID->"ee4624ad-023f-4525-be77-84952692287b"]
+Cell[145292, 3183, 85737, 1666, 706, "Output",ExpressionUUID->"ee4624ad-023f-4525-be77-84952692287b"]
 }, Open  ]],
-Cell[230723, 4845, 1748, 45, 89, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
-Cell[232474, 4892, 5068, 162, 80, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16"],
-Cell[237545, 5056, 1602, 38, 96, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
+Cell[231044, 4852, 1748, 45, 89, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
+Cell[232795, 4899, 5068, 162, 80, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16"],
+Cell[237866, 5063, 1588, 34, 96, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
 }, Open  ]]
 }
 ]

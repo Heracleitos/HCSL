@@ -32,13 +32,12 @@
                 An Introduction to Design and Optimization of Statistical Quality Control
             </h1>
             <p class="c1">
-                Alternative <a href="../Glossary/index.html#Quality_Control"
+                Alternative statistical <a href="../Glossary/index.html#Quality_Control"
                                title="glossary: quality control">quality control</a> (QC)
                 procedures can be applied to a process to test statistically the null hypothesis, that the process conforms to the quality specifications and consequently is in control, against the alternative, that the process is out of control. When a true null hypothesis is rejected, a statistical type I error is committed. We have then a false rejection of a run of the process. The probability of a type I error is called probability of false rejection. When a false null hypothesis is accepted, a statistical type II error is committed. We fail then to detect a significant change in the <a href="../Glossary/index.html#Probability_Density_Function" title="glossary: probability density function">probability density function</a> of a quality characteristic of the process. The probability of rejection of a false null hypothesis equals the probability of detection of the nonconformity of the process to the quality specifications.
             </p>
             <p class="c1">
-                The QC procedure to be designed or optimized can be
-                formulated as:
+                The statistical QC procedure to be designed or optimized can be formulated as:
             </p>
             <p>
                 <span class="c7"><em>Q</em></span><span class="c8"><em>1</em></span><span class="c1"><em>(</em></span><span class="c7"><em>n</em></span><span class="c8"><em>1</em></span><span class="c7"><em>,</em></span><span class="c11"><em> X</em></span><span class="c12"><em>1</em></span><span class="c1"><em>) </em></span><span class="c7"><em># Q</em></span><span class="c8"><em>2</em></span><span class="c1"><em>(</em></span><span class="c7"><em>n</em></span><span class="c8"><em>2</em></span><span class="c7"><em>,</em></span><span class="c11"><em> X</em></span><span class="c12"><em>2</em></span><span class="c1"><em>) </em></span><span class="c7"><em># ... # Q</em></span><span class="c8"><em>q</em></span><span class="c1"><em>(</em></span><span class="c7"><em>n</em></span><span class="c8"><em>q</em></span><span class="c7"><em>,</em></span><span class="c11"><em> X</em></span><span class="c12"><em>q</em></span><span class="c1"><em>)</em> (1)</span>
@@ -56,14 +55,14 @@
                 <span class="c7">S</span><span class="c8">1</span><span class="c7">
                     &sub;</span>
                 <span class="c7">S</span><span class="c8">2</span><span class="c7"> &sub; ... &sub; S</span><span class="c8">q</span><span class="c1">
-                , the procedure (1) denotes a </span><span class="c7">q</span><span class="c1">&#8209;sampling QC procedure.</span>
+                , the procedure (1) denotes a </span><span class="c7">q</span><span class="c1">&#8209;sampling statistical QC procedure.</span>
             </p>
             <p class="c1">
-                Each statistical decision rule is evaluated by calculating the respective statistic of the measured quality characteristic of the sample. Then, if the statistic is out of the interval between the decision limits, the decision rule is considered as true. Many statistics are used, including the following: a single value, the range, the mean, the standard deviation, the cumulative sum, the smoothed mean, and the smoothed standard deviation. Finally, the QC procedure is evaluated as a Boolean proposition. If it is true, then the null hypothesis is considered as false, the process as out of control, and the run is rejected.
+                Each statistical decision rule is evaluated by calculating the respective statistic of the measured quality characteristic of the sample. Then, if the statistic is out of the interval between the decision limits, the decision rule is considered as true. Many statistics are used, including the following: a single value, the range, the mean, the standard deviation, the cumulative sum, the smoothed mean, and the smoothed standard deviation. Finally, the statistical QC procedure is evaluated as a Boolean proposition. If it is true, then the null hypothesis is considered as false, the process as out of control, and the run is rejected.
             </p>
             <p class="c1">
-                A QC procedure is optimum when it minimizes (or maximizes) a context specific objective function. The objective
-                function depends on the probabilities of detection of the nonconformity of the process to the quality specifications and of false rejection. These probabilities depend on the parameters of the QC procedure (1) and on the <a href="../Glossary/index.html#Probability_Density_Function" title="glossary: probability density function">probability density function</a> of the measured quality characteristic of the process.
+                A statistical QC procedure is optimum when it minimizes (or maximizes) a context specific objective function. The objective
+                function depends on the probabilities of detection of the nonconformity of the process to the quality specifications and of false rejection. These probabilities depend on the parameters of the procedure (1) and on the <a href="../Glossary/index.html#Probability_Density_Function" title="glossary: probability density function">probability density function</a> of the measured quality characteristic of the process.
             </p>
             <p class="c1">
                 The probabilities of detection of the nonconformity of the process to the quality specifications and of false rejection can be:
@@ -76,28 +75,14 @@
                 b. Calculated, using <a href="../Glossary/index.html#Numerical_Methods" title="glossary: numerical methods">numerical methods</a><sup>2</sup> (see <a href="../Publications/QC.html">HCSL publications on statistical QC design</a>).
             </p>
             <p class="c1">
-                In general, we cannot use algebraic methods to optimize QC procedures. Usage of enumerative methods would be very tedious,
-                especially with multi-rule procedures, as the number of the points of the
-                parameter space to be searched grows exponentially with the number of the
-                parameters to be optimized. <a href="../Glossary/index.html#Optimization" title="glossary: optimization">Optimization</a> methods based on <a href="../Glossary/index.html#Genetic_Algorithms" title="glossary: genetic algorithms" >genetic algorithms</a> (GAs) offer an
-                appealing alternative as they are robust search algorithms, do not requiring
-                knowledge of the objective function and searching through large spaces quickly.
-                GAs have been derived from the processes of the molecular biology of the gene
-                and the evolution of life. Their operators, cross-over, mutation, and
-                reproduction, are isomorphic with the synonymous biological processes. GAs have
-                been used to solve a variety of complex optimization problems. Furthermore, the
-                complexity of the design process of novel QC procedures is obviously greater
-                than the complexity of the optimization of predefined ones. The classifier
-                systems and the genetic programming paradigm have shown us that GAs
-                can be used for tasks as complex as program induction.
+                In general, we cannot use algebraic methods to optimize statistical QC procedures. Usage of enumerative methods would be very tedious, especially with multi-rule procedures, as the number of the points of the parameter space to be searched grows exponentially with the number of the parameters to be optimized. <a href="../Glossary/index.html#Optimization" title="glossary: optimization">Optimization</a> methods based on <a href="../Glossary/index.html#Genetic_Algorithms" title="glossary: genetic algorithms" >genetic algorithms</a> (GAs) offer an appealing alternative as they are robust search algorithms, do not requiring knowledge of the objective function and searching through large spaces quickly. GAs have been derived from the processes of the molecular biology of the gene and the evolution of life. Their operators, cross-over, mutation, and reproduction, are isomorphic with the synonymous biological processes. GAs have been used to solve a variety of complex optimization problems. Furthermore, the complexity of the design process of novel QC procedures is obviously greater than the complexity of the optimization of predefined ones. The classifier systems and the genetic programming paradigm have shown us that GAs can be used for tasks as complex as program induction.
             </p>
             <p class="c1">
-                In fact, since 1993 we have successfully used the GAs to optimize and to design novel QC procedures<sup>3</sup> (see <a href="../Publications/GAsQC.html">HCSL publications on the GAs based design and optimization of statistical QC</a>).
+                In fact, since 1993 we have successfully used the GAs to optimize and to design novel statistical QC procedures<sup>3</sup> (see <a href="../Publications/GAsQC.html">HCSL publications on the GAs based design and optimization of statistical QC</a>).
             </p>
             <p>
                 <a href="../Contact/index.html#Greek_Names" title="a note on the standardisation of the Greek names">
-                    Aristeidis T. Chatzimichail,
-                    M.D., Ph.D.
+                    Aristeidis T. Chatzimichail, M.D., Ph.D.
                 </a>,
             </p>
             <p class="c1">

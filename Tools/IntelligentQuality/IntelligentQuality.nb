@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2895863,      57002]
-NotebookOptionsPosition[   2893900,      56960]
-NotebookOutlinePosition[   2894355,      56977]
-CellTagsIndexPosition[   2894312,      56974]
+NotebookDataLength[   2899427,      57054]
+NotebookOptionsPosition[   2897469,      57012]
+NotebookOutlinePosition[   2897918,      57029]
+CellTagsIndexPosition[   2897875,      57026]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -28881,7 +28881,7 @@ FontSlant->\\\"Italic\\\"]\)\>\"", ",",
             "\"\<\!\(\*StyleBox[\\\"p\\\",FontWeight->\\\"Plain\\\",FontSlant-\
 >\\\"Italic\\\"]\)\>\""}], "}"}]}]}], "]"}], ",", 
        RowBox[{"{", "600", "}"}]}], "]"}]}], "]"}]}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{"dpss", "[", 
    RowBox[{
@@ -29886,7 +29886,7 @@ StyleBox[\\\"c\\\",FontSlant->\\\"Italic\\\"]]\) detection\>\"", ",",
    3.8658292909225597`*^9},
  FontWeight->"Bold",
  CellLabel->
-  "In[322]:=",ExpressionUUID->"d5ff740b-4976-4cf1-9845-c2791265cf19"],
+  "In[1817]:=",ExpressionUUID->"d5ff740b-4976-4cf1-9845-c2791265cf19"],
 
 Cell[CellGroupData[{
 
@@ -29975,8 +29975,8 @@ Cell[BoxData[
         RowBox[{"{", "\[IndentingNewLine]", 
          RowBox[{
           RowBox[{
-          "\"\<nn vs a statistical QC function with equal pfr\>\"", "\[Rule]",
-            "\[IndentingNewLine]", 
+          "\"\<NN vs a SVS QC function with equal pfr\>\"", "\[Rule]", 
+           "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
              RowBox[{
@@ -30042,7 +30042,7 @@ Cell[BoxData[
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
-                RowBox[{"i", ",", "8", ",", "\"\<nn\>\""}], "}"}], ",", 
+                RowBox[{"i", ",", "6", ",", "\"\<NN\>\""}], "}"}], ",", 
                RowBox[{"{", "\[IndentingNewLine]", 
                 RowBox[{
                  RowBox[{
@@ -30141,8 +30141,7 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "]"}]}], ",", 
           "\[IndentingNewLine]", 
           RowBox[{
-          "\"\<nn vs statistical QC function\>\"", "\[Rule]", 
-           "\[IndentingNewLine]", 
+          "\"\<NN vs SVS QC function\>\"", "\[Rule]", "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
              RowBox[{
@@ -30215,7 +30214,7 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
-                RowBox[{"i1", ",", "8", ",", "\"\<nn\>\""}], "}"}], ",", 
+                RowBox[{"i1", ",", "6", ",", "\"\<NN\>\""}], "}"}], ",", 
                RowBox[{"{", "\[IndentingNewLine]", 
                 RowBox[{
                  RowBox[{
@@ -30311,8 +30310,8 @@ FontSlant->\\\"Italic\\\"], \
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<statistical QC function\>\"", ",", "Bold"}], "]"}],
-              ",", "\[IndentingNewLine]", 
+              RowBox[{"\"\<SVS QC function\>\"", ",", "Bold"}], "]"}], ",", 
+             "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
               RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], ",",
               "\[IndentingNewLine]", 
@@ -30357,7 +30356,7 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "]"}]}], ",", 
           "\[IndentingNewLine]", 
           RowBox[{
-          "\"\<nn vs nn QC function\>\"", "\[Rule]", "\[IndentingNewLine]", 
+          "\"\<NN vs NN QC function\>\"", "\[Rule]", "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
              RowBox[{
@@ -30435,7 +30434,7 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
-                RowBox[{"i1", ",", "4", ",", "\"\<nn\>\""}], "}"}], ",", 
+                RowBox[{"i1", ",", "6", ",", "\"\<NN\>\""}], "}"}], ",", 
                RowBox[{"{", "\[IndentingNewLine]", 
                 RowBox[{
                  RowBox[{
@@ -30540,7 +30539,7 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
-                RowBox[{"i2", ",", "8", ",", "\"\<nn\>\""}], "}"}], ",", 
+                RowBox[{"i2", ",", "8", ",", "\"\<NN\>\""}], "}"}], ",", 
                RowBox[{"{", 
                 RowBox[{
                  RowBox[{
@@ -30640,8 +30639,7 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "]"}]}], ",", 
           "\[IndentingNewLine]", 
           RowBox[{
-          "\"\<statistical vs statistical QC function\>\"", "->", 
-           "\[IndentingNewLine]", 
+          "\"\<SVS vs SVS QC function\>\"", "->", "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
              RowBox[{
@@ -30706,8 +30704,8 @@ FontSlant->\\\"Italic\\\"], \
                RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "}"}], ",", 
              "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<first statistical QC function\>\"", ",", "Bold"}], 
-              "]"}], ",", "\[IndentingNewLine]", 
+              RowBox[{"\"\<first SVS QC function\>\"", ",", "Bold"}], "]"}], 
+             ",", "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
               RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], ",",
               "\[IndentingNewLine]", 
@@ -30748,8 +30746,8 @@ FontSlant->\\\"Italic\\\"], \
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<second statistical QC function\>\"", ",", "Bold"}],
-               "]"}], ",", "\[IndentingNewLine]", 
+              RowBox[{"\"\<second SVS QC function\>\"", ",", "Bold"}], "]"}], 
+             ",", "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
               RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], ",",
               "\[IndentingNewLine]", 
@@ -30801,8 +30799,8 @@ FontSlant->\\\"Italic\\\"], \
         RowBox[{"{", "\[IndentingNewLine]", 
          RowBox[{
           RowBox[{
-          "\"\<nn vs a statistical QC function with equal pfr\>\"", "\[Rule]",
-            "\[IndentingNewLine]", 
+          "\"\<NN vs a SVS QC function with equal pfr\>\"", "\[Rule]", 
+           "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
              RowBox[{
@@ -30824,7 +30822,6 @@ FontSlant->\\\"Italic\\\"], \
                RowBox[{"{", 
                 RowBox[{
                 "mcr", ",", "3", ",", 
-                 
                  "\"\<\!\(\*SubscriptBox[\"\[Mu]\", \
 StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "0", ",", "6", 
                ",", "0.01", ",", 
@@ -30855,7 +30852,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7",
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
-                RowBox[{"i", ",", "8", ",", "\"\<nn\>\""}], "}"}], ",", 
+                RowBox[{"i", ",", "6", ",", "\"\<NN\>\""}], "}"}], ",", 
                RowBox[{"{", "\[IndentingNewLine]", 
                 RowBox[{
                  RowBox[{
@@ -30868,7 +30865,6 @@ FontSlant->\\\"Italic\\\"], \
 \\\"Italic\\\"]\)\>\""}], ",", "\[IndentingNewLine]", 
                  RowBox[{
                  "2", "\[Rule]", 
-                  
                   "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"N\\\",\
 FontSlant->\\\"Italic\\\"], \
 \\\"2\\\"],FontWeight->\\\"Plain\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontWeight->\\\
@@ -30877,6 +30873,7 @@ FontSlant->\\\"Italic\\\"], \
 \\\"Italic\\\"]\)\>\""}], ",", "\[IndentingNewLine]", 
                  RowBox[{
                  "3", "\[Rule]", 
+                  
                   "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"N\\\",\
 FontSlant->\\\"Italic\\\"], \
 \\\"3\\\"],FontWeight->\\\"Plain\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontWeight->\\\
@@ -30956,8 +30953,7 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "]"}]}], ",", 
           "\[IndentingNewLine]", 
           RowBox[{
-          "\"\<nn vs statistical QC function\>\"", "\[Rule]", 
-           "\[IndentingNewLine]", 
+          "\"\<NN vs SVS QC function\>\"", "\[Rule]", "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
              RowBox[{
@@ -31016,7 +31012,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7",
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
-                RowBox[{"i1", ",", "8", ",", "\"\<nn\>\""}], "}"}], ",", 
+                RowBox[{"i1", ",", "6", ",", "\"\<NN\>\""}], "}"}], ",", 
                RowBox[{"{", "\[IndentingNewLine]", 
                 RowBox[{
                  RowBox[{
@@ -31112,8 +31108,8 @@ FontSlant->\\\"Italic\\\"], \
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<statistical QC function\>\"", ",", "Bold"}], "]"}],
-              ",", "\[IndentingNewLine]", 
+              RowBox[{"\"\<SVS QC function\>\"", ",", "Bold"}], "]"}], ",", 
+             "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
               RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], ",",
               "\[IndentingNewLine]", 
@@ -31158,7 +31154,7 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "]"}]}], ",", 
           "\[IndentingNewLine]", 
           RowBox[{
-          "\"\<nn vs nn QC function\>\"", "\[Rule]", "\[IndentingNewLine]", 
+          "\"\<NN vs NN QC function\>\"", "\[Rule]", "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
              RowBox[{
@@ -31218,7 +31214,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7",
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
-                RowBox[{"i1", ",", "4", ",", "\"\<nn\>\""}], "}"}], ",", 
+                RowBox[{"i1", ",", "6", ",", "\"\<NN\>\""}], "}"}], ",", 
                RowBox[{"{", "\[IndentingNewLine]", 
                 RowBox[{
                  RowBox[{
@@ -31323,11 +31319,12 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
-                RowBox[{"i2", ",", "8", ",", "\"\<nn\>\""}], "}"}], ",", 
+                RowBox[{"i2", ",", "8", ",", "\"\<NN\>\""}], "}"}], ",", 
                RowBox[{"{", "\[IndentingNewLine]", 
                 RowBox[{
                  RowBox[{
                  "1", "\[Rule]", 
+                  
                   "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"N\\\",\
 FontSlant->\\\"Italic\\\"], \
 \\\"1\\\"],FontWeight->\\\"Plain\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontWeight->\\\
@@ -31423,8 +31420,7 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "]"}]}], ",", 
           "\[IndentingNewLine]", 
           RowBox[{
-          "\"\<statistical vs statistical QC function\>\"", "->", 
-           "\[IndentingNewLine]", 
+          "\"\<SVS vs SVS QC function\>\"", "->", "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
              RowBox[{
@@ -31475,8 +31471,8 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7",
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<first statistical QC function\>\"", ",", "Bold"}], 
-              "]"}], ",", "\[IndentingNewLine]", 
+              RowBox[{"\"\<first SVS QC function\>\"", ",", "Bold"}], "]"}], 
+             ",", "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
               RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], ",",
               "\[IndentingNewLine]", 
@@ -31517,8 +31513,8 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7",
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<second statistical QC function\>\"", ",", "Bold"}],
-               "]"}], ",", "\[IndentingNewLine]", 
+              RowBox[{"\"\<second SVS QC function\>\"", ",", "Bold"}], "]"}], 
+             ",", "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
               RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], ",",
               "\[IndentingNewLine]", 
@@ -31638,17 +31634,20 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7",
    3.8645164349655485`*^9}, {3.865823136176049*^9, 3.8658231813027205`*^9}, {
    3.8658232407364655`*^9, 3.865823324247931*^9}, {3.865824496331652*^9, 
    3.8658245042427607`*^9}, {3.865824558458846*^9, 3.865824558607876*^9}, {
-   3.865824643418391*^9, 3.8658246598193793`*^9}},
+   3.865824643418391*^9, 3.8658246598193793`*^9}, {3.8670649707132993`*^9, 
+   3.867064970927777*^9}, {3.867065028014097*^9, 3.8670650281840997`*^9}, 
+   3.8670653033125167`*^9, {3.8670653484367285`*^9, 3.8670654216928577`*^9}, 
+   3.867066049070212*^9},
  CellLabel->
-  "In[643]:=",ExpressionUUID->"2963d90a-7cde-4200-9bed-89dd56e54c73"],
+  "In[2139]:=",ExpressionUUID->"2963d90a-7cde-4200-9bed-89dd56e54c73"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"QC plots\"\>"->
-  TabViewBox[{{1,"\<\"nn vs a statistical QC function with equal pfr\"\>"->
+  TabViewBox[{{1,"\<\"NN vs a SVS QC function with equal pfr\"\>"->
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`f$$ = $CellContext`vf, $CellContext`i$$ = 
-      8, $CellContext`k$$ = $CellContext`n$$, $CellContext`n$$ = 
+      6, $CellContext`k$$ = $CellContext`n$$, $CellContext`n$$ = 
       4, $CellContext`t$$ = 2, Typeset`show$$ = True, 
       Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
       Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
@@ -31662,7 +31661,7 @@ Cell[BoxData[
         Hold[
          Style["neural network", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`i$$], 8, "nn"}, {
+         Hold[$CellContext`i$$], 6, "NN"}, {
         1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"\
 ], \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\
 \)\!\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
@@ -31709,7 +31708,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`f$$ = $CellContext`vf, $CellContext`i$$ = 
-          8, $CellContext`k$$ = $CellContext`n$$, $CellContext`n$$ = 
+          6, $CellContext`k$$ = $CellContext`n$$, $CellContext`n$$ = 
           4, $CellContext`t$$ = 2}, "ControllerVariables" :> {}, 
         "OtherVariables" :> {
          Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
@@ -31740,7 +31739,7 @@ $CellContext`i$$]]}, Center]),
           Delimiter, 
           Style["QC functions", Bold], 
           Style[
-          "neural network", Plain], {{$CellContext`i$$, 8, "nn"}, {
+          "neural network", Plain], {{$CellContext`i$$, 6, "NN"}, {
            1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"\
 Italic\"], \
 \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\!\
@@ -38402,9 +38401,9 @@ $CellContext`ilc = {
               ListLinePlot[{
                 Part[$CellContext`ilc, 1]}, 
                InterpolationOrder -> $CellContext`o, 
-               PlotLabel -> $CellContext`stn[$CellContext`n, $CellContext`k, \
+               PlotLabel -> ($CellContext`stn[$CellContext`n, $CellContext`k, \
 $CellContext`i, $CellContext`t] <> 
-                " - " <> $CellContext`sts[$CellContext`n, $CellContext`k, \
+                 " - ") <> $CellContext`sts[$CellContext`n, $CellContext`k, \
 $CellContext`i, $CellContext`t], 
                AxesLabel -> {
                 "\!\(\*StyleBox[\"\[Sigma]\",FontWeight->\"Plain\",FontSlant->\
@@ -38419,9 +38418,9 @@ StyleBox[\"p\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
               ListLinePlot[{
                 Part[$CellContext`ilc, 2]}, 
                InterpolationOrder -> $CellContext`o, 
-               PlotLabel -> $CellContext`stn[$CellContext`n, $CellContext`k, \
+               PlotLabel -> ($CellContext`stn[$CellContext`n, $CellContext`k, \
 $CellContext`i, $CellContext`t] <> 
-                " - " <> $CellContext`sts[$CellContext`n, $CellContext`k, \
+                 " - ") <> $CellContext`sts[$CellContext`n, $CellContext`k, \
 $CellContext`i, $CellContext`t], 
                AxesLabel -> {
                 "\!\(\*StyleBox[\"\[Mu]\",FontWeight->\"Plain\",FontSlant->\"\
@@ -38467,12 +38466,13 @@ $CellContext`lb)/$CellContext`la; $CellContext`ilc = {
              Pane[
               ListLinePlot[{
                 Part[$CellContext`ilc, 1]}, 
-               InterpolationOrder -> $CellContext`o, PlotLabel -> 
-               "(" <> $CellContext`stn[$CellContext`n, $CellContext`k, \
-$CellContext`i, $CellContext`t] <> 
-                " - " <> $CellContext`sts[$CellContext`n, $CellContext`k, \
-$CellContext`i, $CellContext`t] <> 
-                ") / " <> $CellContext`stn[$CellContext`n, $CellContext`k, \
+               InterpolationOrder -> $CellContext`o, 
+               PlotLabel -> ((((
+                    "(" <> $CellContext`stn[$CellContext`n, $CellContext`k, \
+$CellContext`i, $CellContext`t]) <> 
+                   " - ") <> $CellContext`sts[$CellContext`n, $CellContext`k, \
+$CellContext`i, $CellContext`t]) <> 
+                 ") / ") <> $CellContext`stn[$CellContext`n, $CellContext`k, \
 $CellContext`i, $CellContext`t], 
                AxesLabel -> {
                 "\!\(\*StyleBox[\"\[Sigma]\",FontWeight->\"Plain\",FontSlant->\
@@ -38489,12 +38489,13 @@ StyleBox[\"p\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
              Pane[
               ListLinePlot[{
                 Part[$CellContext`ilc, 2]}, 
-               InterpolationOrder -> $CellContext`o, PlotLabel -> 
-               "(" <> $CellContext`stn[$CellContext`n, $CellContext`k, \
-$CellContext`i, $CellContext`t] <> 
-                " - " <> $CellContext`sts[$CellContext`n, $CellContext`k, \
-$CellContext`i, $CellContext`t] <> 
-                ") / " <> $CellContext`stn[$CellContext`n, $CellContext`k, \
+               InterpolationOrder -> $CellContext`o, 
+               PlotLabel -> ((((
+                    "(" <> $CellContext`stn[$CellContext`n, $CellContext`k, \
+$CellContext`i, $CellContext`t]) <> 
+                   " - ") <> $CellContext`sts[$CellContext`n, $CellContext`k, \
+$CellContext`i, $CellContext`t]) <> 
+                 ") / ") <> $CellContext`stn[$CellContext`n, $CellContext`k, \
 $CellContext`i, $CellContext`t], 
                AxesLabel -> {
                 "\!\(\*StyleBox[\"\[Mu]\",FontWeight->\"Plain\",FontSlant->\"\
@@ -38544,9 +38545,9 @@ $CellContext`ilc = {
               ListLinePlot[{
                 Part[$CellContext`ilc, 1]}, 
                InterpolationOrder -> $CellContext`o, 
-               PlotLabel -> $CellContext`stn[$CellContext`n, $CellContext`k, \
+               PlotLabel -> ($CellContext`stn[$CellContext`n, $CellContext`k, \
 $CellContext`i, $CellContext`t] <> 
-                " / " <> $CellContext`sts[$CellContext`n, $CellContext`k, \
+                 " / ") <> $CellContext`sts[$CellContext`n, $CellContext`k, \
 $CellContext`i, $CellContext`t], 
                AxesLabel -> {
                 "\!\(\*StyleBox[\"\[Sigma]\",FontWeight->\"Plain\",FontSlant->\
@@ -38561,9 +38562,9 @@ StyleBox[\"p\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
               ListLinePlot[{
                 Part[$CellContext`ilc, 2]}, 
                InterpolationOrder -> $CellContext`o, 
-               PlotLabel -> $CellContext`sts[$CellContext`n, $CellContext`k, \
+               PlotLabel -> ($CellContext`sts[$CellContext`n, $CellContext`k, \
 $CellContext`i, $CellContext`t] <> 
-                " / " <> $CellContext`stn[$CellContext`n, $CellContext`k, \
+                 " / ") <> $CellContext`stn[$CellContext`n, $CellContext`k, \
 $CellContext`i, $CellContext`t], 
                AxesLabel -> {
                 "\!\(\*StyleBox[\"\[Mu]\",FontWeight->\"Plain\",FontSlant->\"\
@@ -38950,22 +38951,22 @@ FontSlant->\"Italic\"], \
             Blank[]], 
            Pattern[$CellContext`n, 
             Blank[]]] := 
-         Text["\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)" <> 
-           Switch[$CellContext`n, 1, 
-             "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+         Text[((("\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)" <> 
+              Switch[$CellContext`n, 1, 
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\)", 2, 
-             "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"2\"]\)", 
-             3, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"2\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"3\"]\)", 
-             4, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+                3, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"],\
+ \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"2\"]\),\
+\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"3\"]\)", 4, 
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"2\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"3\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"4\"]\)"] <> 
-           ";" <> ToString[
-             NumberForm[
-              $CellContext`dl[$CellContext`p, $CellContext`n], 2]] <> 
+\"3\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"]\)"]) <> ";") <> ToString[
+              NumberForm[
+               $CellContext`dl[$CellContext`p, $CellContext`n], 2]]) <> 
            ")"], $CellContext`dl[0.0038475, 4] = 
          3.3010416179745785517817925175532777790472245113431301174384299321513\
 480733488481193656703787625495390503145811643577234606006340584492158286907161\
@@ -39035,6 +39036,14 @@ $CellContext`dl[0.1014825, 4] =
              8, FE`i$$7], {$CellContext`d, 1, 20, 0, 30}, 
             AccuracyGoal -> $CellContext`ag, PrecisionGoal -> $CellContext`pg,
              WorkingPrecision -> $CellContext`wp]], $CellContext`dl[
+           $CellContext`pfr[8, 6], 4] = ReplaceAll[$CellContext`d, 
+           FindRoot[
+           N[1 - (-Erf[(-$CellContext`d + 0)/(Sqrt[2] 1)] + 
+                Erf[($CellContext`d + 0)/(Sqrt[2] 1)])^4/
+              2^4, {$CellContext`ag, $CellContext`pg}] == $CellContext`pfr[
+             8, FE`i$$375], {$CellContext`d, 1, 20, 0, 30}, 
+            AccuracyGoal -> $CellContext`ag, PrecisionGoal -> $CellContext`pg,
+             WorkingPrecision -> $CellContext`wp]], $CellContext`dl[
            $CellContext`pfr[8, 8], 4] = ReplaceAll[$CellContext`d, 
            FindRoot[
            N[1 - (-Erf[(-$CellContext`d + 0)/(Sqrt[2] 1)] + 
@@ -39063,6 +39072,25 @@ $CellContext`qd[0, 1, $CellContext`p, $CellContext`c]), $CellContext`ag =
             Blank[]], 
            Pattern[$CellContext`s, 
             Blank[]], 
+           Pattern[$CellContext`p, 
+            Blank[]], 
+           Pattern[$CellContext`c, 
+            Blank[]]] := ReplaceAll[$CellContext`d, 
+           Quiet[
+            FindRoot[
+            N[1 - (-Erf[(-$CellContext`d + $CellContext`m)/(
+                    Sqrt[2] $CellContext`s)] + 
+                 Erf[($CellContext`d + $CellContext`m)/(
+                   Sqrt[2] $CellContext`s)])^$CellContext`c/
+               2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
+$CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
+             AccuracyGoal -> $CellContext`ag, 
+             PrecisionGoal -> $CellContext`pg, 
+             WorkingPrecision -> $CellContext`wp]]], $CellContext`qd[
+           Pattern[$CellContext`m, 
+            Blank[]], 
+           Pattern[$CellContext`s, 
+            Blank[]], 
            Pattern[$CellContext`se, 
             Blank[]], 
            Pattern[$CellContext`re, 
@@ -39074,28 +39102,9 @@ $CellContext`qd[0, 1, $CellContext`p, $CellContext`c]), $CellContext`ag =
            Quiet[
             FindRoot[
             N[1 - (-Erf[((-$CellContext`d) $CellContext`s + $CellContext`m + \
-$CellContext`se)/(Sqrt[2] $CellContext`re $CellContext`s)] + 
+$CellContext`se)/((Sqrt[2] $CellContext`re) $CellContext`s)] + 
                  Erf[($CellContext`d $CellContext`s + $CellContext`m + \
-$CellContext`se)/(Sqrt[2] $CellContext`re $CellContext`s)])^$CellContext`c/
-               2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
-$CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
-             AccuracyGoal -> $CellContext`ag, 
-             PrecisionGoal -> $CellContext`pg, 
-             WorkingPrecision -> $CellContext`wp]]], $CellContext`qd[
-           Pattern[$CellContext`m, 
-            Blank[]], 
-           Pattern[$CellContext`s, 
-            Blank[]], 
-           Pattern[$CellContext`p, 
-            Blank[]], 
-           Pattern[$CellContext`c, 
-            Blank[]]] := ReplaceAll[$CellContext`d, 
-           Quiet[
-            FindRoot[
-            N[1 - (-Erf[(-$CellContext`d + $CellContext`m)/(
-                    Sqrt[2] $CellContext`s)] + 
-                 Erf[($CellContext`d + $CellContext`m)/(
-                   Sqrt[2] $CellContext`s)])^$CellContext`c/
+$CellContext`se)/((Sqrt[2] $CellContext`re) $CellContext`s)])^$CellContext`c/
                2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
 $CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
              AccuracyGoal -> $CellContext`ag, 
@@ -39218,12 +39227,11 @@ $CellContext`ped[$CellContext`m,
       UntrackedVariables:>{Typeset`size$$}], "Manipulate",
      Deployed->True,
      StripOnInput->False],
-    Manipulate`InterpretManipulate[1]]}, {
-   2,"\<\"nn vs statistical QC function\"\>"->
+    Manipulate`InterpretManipulate[1]]}, {2,"\<\"NN vs SVS QC function\"\>"->
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`f$$ = $CellContext`vf, $CellContext`i1$$ =
-       8, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
+       6, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
 $CellContext`n2$$, $CellContext`n1$$ = 4, $CellContext`n2$$ = 
       4, $CellContext`p2$$ = 0.01, $CellContext`t$$ = 2, Typeset`show$$ = 
       True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
@@ -39239,7 +39247,7 @@ $CellContext`n2$$, $CellContext`n1$$ = 4, $CellContext`n2$$ =
         Hold[
          Style["neural network", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`i1$$], 8, "nn"}, {
+         Hold[$CellContext`i1$$], 6, "NN"}, {
         1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"\
 ], \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\
 \)\!\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
@@ -39282,8 +39290,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
          Hold[$CellContext`k1$$], $CellContext`n1$$, "k"}, 1, 
         Dynamic[$CellContext`n1$$], 1}, {
         Hold[
-         Style["statistical QC function", Bold]], 
-        Manipulate`Dump`ThisIsNotAControl}, {
+         Style["SVS QC function", Bold]], Manipulate`Dump`ThisIsNotAControl}, {
         Hold[
          Style["size of QC sample", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
@@ -39303,7 +39310,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`f$$ = $CellContext`vf, $CellContext`i1$$ = 
-          8, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
+          6, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
 $CellContext`n2$$, $CellContext`n1$$ = 4, $CellContext`n2$$ = 
           4, $CellContext`p2$$ = 0.01, $CellContext`t$$ = 2}, 
         "ControllerVariables" :> {}, 
@@ -39343,11 +39350,11 @@ $CellContext`i1$$, $CellContext`n2$$, $CellContext`k2$$, $CellContext`p2$$]]},
           Delimiter, 
           Style["neural network QC function", Bold], 
           Style[
-          "neural network", Plain], {{$CellContext`i1$$, 8, "nn"}, {
-           1 -> 
-            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"]\
-, \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\
-\!\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
+          "neural network", Plain], {{$CellContext`i1$$, 6, "NN"}, {
+           1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"\
+Italic\"], \
+\"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\!\
+\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
 StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)", 2 -> 
             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"]\
 , \"2\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\
@@ -39386,7 +39393,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"},
            Plain], {{$CellContext`k1$$, $CellContext`n1$$, "k"}, 1, 
            Dynamic[$CellContext`n1$$], 1, ImageSize -> Tiny, Appearance -> 
            "Labeled"}, Delimiter, 
-          Style["statistical QC function", Bold], 
+          Style["SVS QC function", Bold], 
           Style[
           "size of QC sample", Plain], {{$CellContext`n2$$, 4, "n"}, 1, 4, 1, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
@@ -41336,6 +41343,14 @@ $CellContext`dl[
              8, FE`i$$7], {$CellContext`d, 1, 20, 0, 30}, 
             AccuracyGoal -> $CellContext`ag, PrecisionGoal -> $CellContext`pg,
              WorkingPrecision -> $CellContext`wp]], $CellContext`dl[
+           $CellContext`pfr[8, 6], 4] = ReplaceAll[$CellContext`d, 
+           FindRoot[
+           N[1 - (-Erf[(-$CellContext`d + 0)/(Sqrt[2] 1)] + 
+                Erf[($CellContext`d + 0)/(Sqrt[2] 1)])^4/
+              2^4, {$CellContext`ag, $CellContext`pg}] == $CellContext`pfr[
+             8, FE`i$$375], {$CellContext`d, 1, 20, 0, 30}, 
+            AccuracyGoal -> $CellContext`ag, PrecisionGoal -> $CellContext`pg,
+             WorkingPrecision -> $CellContext`wp]], $CellContext`dl[
            $CellContext`pfr[8, 8], 4] = ReplaceAll[$CellContext`d, 
            FindRoot[
            N[1 - (-Erf[(-$CellContext`d + 0)/(Sqrt[2] 1)] + 
@@ -41390,6 +41405,25 @@ $CellContext`qd[0, 1, $CellContext`p, $CellContext`c]), $CellContext`pfr[
             Blank[]], 
            Pattern[$CellContext`s, 
             Blank[]], 
+           Pattern[$CellContext`p, 
+            Blank[]], 
+           Pattern[$CellContext`c, 
+            Blank[]]] := ReplaceAll[$CellContext`d, 
+           Quiet[
+            FindRoot[
+            N[1 - (-Erf[(-$CellContext`d + $CellContext`m)/(
+                    Sqrt[2] $CellContext`s)] + 
+                 Erf[($CellContext`d + $CellContext`m)/(
+                   Sqrt[2] $CellContext`s)])^$CellContext`c/
+               2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
+$CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
+             AccuracyGoal -> $CellContext`ag, 
+             PrecisionGoal -> $CellContext`pg, 
+             WorkingPrecision -> $CellContext`wp]]], $CellContext`qd[
+           Pattern[$CellContext`m, 
+            Blank[]], 
+           Pattern[$CellContext`s, 
+            Blank[]], 
            Pattern[$CellContext`se, 
             Blank[]], 
            Pattern[$CellContext`re, 
@@ -41401,28 +41435,9 @@ $CellContext`qd[0, 1, $CellContext`p, $CellContext`c]), $CellContext`pfr[
            Quiet[
             FindRoot[
             N[1 - (-Erf[((-$CellContext`d) $CellContext`s + $CellContext`m + \
-$CellContext`se)/(Sqrt[2] $CellContext`re $CellContext`s)] + 
+$CellContext`se)/((Sqrt[2] $CellContext`re) $CellContext`s)] + 
                  Erf[($CellContext`d $CellContext`s + $CellContext`m + \
-$CellContext`se)/(Sqrt[2] $CellContext`re $CellContext`s)])^$CellContext`c/
-               2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
-$CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
-             AccuracyGoal -> $CellContext`ag, 
-             PrecisionGoal -> $CellContext`pg, 
-             WorkingPrecision -> $CellContext`wp]]], $CellContext`qd[
-           Pattern[$CellContext`m, 
-            Blank[]], 
-           Pattern[$CellContext`s, 
-            Blank[]], 
-           Pattern[$CellContext`p, 
-            Blank[]], 
-           Pattern[$CellContext`c, 
-            Blank[]]] := ReplaceAll[$CellContext`d, 
-           Quiet[
-            FindRoot[
-            N[1 - (-Erf[(-$CellContext`d + $CellContext`m)/(
-                    Sqrt[2] $CellContext`s)] + 
-                 Erf[($CellContext`d + $CellContext`m)/(
-                   Sqrt[2] $CellContext`s)])^$CellContext`c/
+$CellContext`se)/((Sqrt[2] $CellContext`re) $CellContext`s)])^$CellContext`c/
                2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
 $CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
              AccuracyGoal -> $CellContext`ag, 
@@ -42942,23 +42957,25 @@ $CellContext`fsts[
            Pattern[$CellContext`t, 
             Blank[]]] := Text[
            
-           Switch[$CellContext`t, 0, 
-            "\!\(\*StyleBox[SubscriptBox[\"P\", \"S\"],FontSlant->\"Italic\"]\
-\)" <> "(" <> ToString[$CellContext`n] <> "," <> ToString[$CellContext`k] <> 
-            ",0,1;" <> ToString[
-              NumberForm[
-               $CellContext`dl[$CellContext`p, $CellContext`n], 2]] <> ")", 1,
-             
-            "\!\(\*StyleBox[SubscriptBox[\"P\", \"S\"],FontSlant->\"Italic\"]\
-\)" <> "(" <> ToString[$CellContext`n] <> "," <> ToString[$CellContext`k] <> 
-            ",0,\[Sigma];" <> ToString[
-              NumberForm[
-               $CellContext`dl[$CellContext`p, $CellContext`n], 2]] <> ")", 2,
-             "\!\(\*StyleBox[SubscriptBox[\"P\", \
-\"S\"],FontSlant->\"Italic\"]\)" <> "(" <> ToString[$CellContext`n] <> "," <> 
-            ToString[$CellContext`k] <> ",\[Mu],1;" <> ToString[
-              NumberForm[
-               $CellContext`dl[$CellContext`p, $CellContext`n], 2]] <> 
+           Switch[$CellContext`t, 
+            0, ((((((
+                  "\!\(\*StyleBox[SubscriptBox[\"P\", \
+\"S\"],FontSlant->\"Italic\"]\)" <> "(") <> ToString[$CellContext`n]) <> ",") <> 
+               ToString[$CellContext`k]) <> ",0,1;") <> ToString[
+               NumberForm[
+                $CellContext`dl[$CellContext`p, $CellContext`n], 2]]) <> ")", 
+            1, ((((((
+                  "\!\(\*StyleBox[SubscriptBox[\"P\", \
+\"S\"],FontSlant->\"Italic\"]\)" <> "(") <> ToString[$CellContext`n]) <> ",") <> 
+               ToString[$CellContext`k]) <> ",0,\[Sigma];") <> ToString[
+               NumberForm[
+                $CellContext`dl[$CellContext`p, $CellContext`n], 2]]) <> ")", 
+            2, ((((((
+                  "\!\(\*StyleBox[SubscriptBox[\"P\", \
+\"S\"],FontSlant->\"Italic\"]\)" <> "(") <> ToString[$CellContext`n]) <> ",") <> 
+               ToString[$CellContext`k]) <> ",\[Mu],1;") <> ToString[
+               NumberForm[
+                $CellContext`dl[$CellContext`p, $CellContext`n], 2]]) <> 
             ")"]], $CellContext`dfpns[
            Pattern[$CellContext`t, 
             Blank[]], 
@@ -43056,6 +43073,7 @@ StyleBox[\"p\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
             Plot[{($CellContext`qcn[$CellContext`t, $CellContext`n1, \
 $CellContext`k1, $CellContext`i1, $CellContext`r][$CellContext`m] - \
 $CellContext`pedfr[$CellContext`t, $CellContext`m, 
+                
                 1, $CellContext`n2, $CellContext`k2, \
 $CellContext`p2])/$CellContext`qcn[$CellContext`t, $CellContext`n1, \
 $CellContext`k1, $CellContext`i1, $CellContext`r][$CellContext`m]}, \
@@ -43479,22 +43497,22 @@ FontSlant->\"Italic\"], \
             Blank[]], 
            Pattern[$CellContext`n, 
             Blank[]]] := 
-         Text["\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)" <> 
-           Switch[$CellContext`n, 1, 
-             "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+         Text[((("\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)" <> 
+              Switch[$CellContext`n, 1, 
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\)", 2, 
-             "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"2\"]\)", 
-             3, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"2\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"3\"]\)", 
-             4, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+                3, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"],\
+ \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"2\"]\),\
+\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"3\"]\)", 4, 
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"2\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"3\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"4\"]\)"] <> 
-           ";" <> ToString[
-             NumberForm[
-              $CellContext`dl[$CellContext`p, $CellContext`n], 2]] <> 
+\"3\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"]\)"]) <> ";") <> ToString[
+              NumberForm[
+               $CellContext`dl[$CellContext`p, $CellContext`n], 2]]) <> 
            ")"], $CellContext`sqcn[
            Pattern[$CellContext`t, 
             Blank[]], 
@@ -43516,11 +43534,11 @@ $CellContext`i]], $CellContext`t], {
       UntrackedVariables:>{Typeset`size$$}], "Manipulate",
      Deployed->True,
      StripOnInput->False],
-    Manipulate`InterpretManipulate[1]]}, {3,"\<\"nn vs nn QC function\"\>"->
+    Manipulate`InterpretManipulate[1]]}, {3,"\<\"NN vs NN QC function\"\>"->
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`f$$ = $CellContext`vf, $CellContext`i1$$ =
-       4, $CellContext`i2$$ = 
+       6, $CellContext`i2$$ = 
       8, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
 $CellContext`n2$$, $CellContext`n1$$ = 4, $CellContext`n2$$ = 
       4, $CellContext`t$$ = 2, Typeset`show$$ = True, 
@@ -43537,7 +43555,7 @@ $CellContext`n2$$, $CellContext`n1$$ = 4, $CellContext`n2$$ =
         Hold[
          Style["neural network", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`i1$$], 4, "nn"}, {
+         Hold[$CellContext`i1$$], 6, "NN"}, {
         1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"\
 ], \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\
 \)\!\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
@@ -43585,7 +43603,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
         Hold[
          Style["neural network", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`i2$$], 8, "nn"}, {
+         Hold[$CellContext`i2$$], 8, "NN"}, {
         1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"\
 ], \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\
 \)\!\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
@@ -43632,7 +43650,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`f$$ = $CellContext`vf, $CellContext`i1$$ = 
-          4, $CellContext`i2$$ = 
+          6, $CellContext`i2$$ = 
           8, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
 $CellContext`n2$$, $CellContext`n1$$ = 4, $CellContext`n2$$ = 
           4, $CellContext`t$$ = 2}, "ControllerVariables" :> {}, 
@@ -43672,13 +43690,12 @@ $CellContext`i1$$, $CellContext`n2$$, $CellContext`k2$$, $CellContext`i2$$]]},
           Delimiter, 
           Style["first neural network QC funtion", Bold], 
           Style[
-          "neural network", Plain], {{$CellContext`i1$$, 4, "nn"}, {
+          "neural network", Plain], {{$CellContext`i1$$, 6, "NN"}, {
            1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"\
 Italic\"], \
 \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\!\
 \(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
 StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)", 2 -> 
-            
             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"]\
 , \"2\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\
 \!\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
@@ -43718,7 +43735,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"},
            "Labeled"}, Delimiter, 
           Style["second neural network QC function", Bold], 
           Style[
-          "neural network", Plain], {{$CellContext`i2$$, 8, "nn"}, {
+          "neural network", Plain], {{$CellContext`i2$$, 8, "NN"}, {
            1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"\
 Italic\"], \
 \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\!\
@@ -47085,9 +47102,9 @@ $CellContext`ilc = {
               ListLinePlot[{
                 Part[$CellContext`ilc, 1]}, 
                InterpolationOrder -> $CellContext`o, 
-               PlotLabel -> $CellContext`stn[$CellContext`n1, \
+               PlotLabel -> ($CellContext`stn[$CellContext`n1, \
 $CellContext`k1, $CellContext`i1, $CellContext`t] <> 
-                " - " <> $CellContext`stn[$CellContext`n2, $CellContext`k2, \
+                 " - ") <> $CellContext`stn[$CellContext`n2, $CellContext`k2, \
 $CellContext`i2, $CellContext`t], 
                AxesLabel -> {
                 "\!\(\*StyleBox[\"\[Sigma]\",FontWeight->\"Plain\",FontSlant->\
@@ -47102,9 +47119,9 @@ StyleBox[\"p\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
               ListLinePlot[{
                 Part[$CellContext`ilc, 2]}, 
                InterpolationOrder -> $CellContext`o, 
-               PlotLabel -> $CellContext`stn[$CellContext`n1, \
+               PlotLabel -> ($CellContext`stn[$CellContext`n1, \
 $CellContext`k1, $CellContext`i1, $CellContext`t] <> 
-                " - " <> $CellContext`stn[$CellContext`n2, $CellContext`k2, \
+                 " - ") <> $CellContext`stn[$CellContext`n2, $CellContext`k2, \
 $CellContext`i2, $CellContext`t], 
                AxesLabel -> {
                 "\!\(\*StyleBox[\"\[Mu]\",FontWeight->\"Plain\",FontSlant->\"\
@@ -47156,13 +47173,14 @@ $CellContext`lb)/$CellContext`la; $CellContext`ilc = {
              Pane[
               ListLinePlot[{
                 Part[$CellContext`ilc, 1]}, 
-               InterpolationOrder -> $CellContext`o, PlotLabel -> 
-               "(" <> $CellContext`stn[$CellContext`n1, $CellContext`k1, \
-$CellContext`i1, $CellContext`t] <> 
-                " - " <> $CellContext`stn[$CellContext`n2, $CellContext`k2, \
-$CellContext`i2, $CellContext`t] <> 
-                ") / " <> $CellContext`stn[$CellContext`n1, $CellContext`k1, \
-$CellContext`i1, $CellContext`t], 
+               InterpolationOrder -> $CellContext`o, 
+               PlotLabel -> ((((
+                    "(" <> $CellContext`stn[$CellContext`n1, $CellContext`k1, \
+$CellContext`i1, $CellContext`t]) <> 
+                   " - ") <> $CellContext`stn[$CellContext`n2, \
+$CellContext`k2, $CellContext`i2, $CellContext`t]) <> 
+                 ") / ") <> $CellContext`stn[$CellContext`n1, \
+$CellContext`k1, $CellContext`i1, $CellContext`t], 
                AxesLabel -> {
                 "\!\(\*StyleBox[\"\[Sigma]\",FontWeight->\"Plain\",FontSlant->\
 \"Italic\"]\)", 
@@ -47178,13 +47196,14 @@ StyleBox[\"p\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
              Pane[
               ListLinePlot[{
                 Part[$CellContext`ilc, 2]}, 
-               InterpolationOrder -> $CellContext`o, PlotLabel -> 
-               "(" <> $CellContext`stn[$CellContext`n1, $CellContext`k1, \
-$CellContext`i1, $CellContext`t] <> 
-                " - " <> $CellContext`stn[$CellContext`n2, $CellContext`k2, \
-$CellContext`i2, $CellContext`t] <> 
-                ") / " <> $CellContext`stn[$CellContext`n1, $CellContext`k1, \
-$CellContext`i1, $CellContext`t], 
+               InterpolationOrder -> $CellContext`o, 
+               PlotLabel -> ((((
+                    "(" <> $CellContext`stn[$CellContext`n1, $CellContext`k1, \
+$CellContext`i1, $CellContext`t]) <> 
+                   " - ") <> $CellContext`stn[$CellContext`n2, \
+$CellContext`k2, $CellContext`i2, $CellContext`t]) <> 
+                 ") / ") <> $CellContext`stn[$CellContext`n1, \
+$CellContext`k1, $CellContext`i1, $CellContext`t], 
                AxesLabel -> {
                 "\!\(\*StyleBox[\"\[Mu]\",FontWeight->\"Plain\"]\)", 
                  "(\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontWeight->\"\
@@ -47238,9 +47257,9 @@ $CellContext`ilc = {
               ListLinePlot[{
                 Part[$CellContext`ilc, 1]}, 
                InterpolationOrder -> $CellContext`o, 
-               PlotLabel -> $CellContext`stn[$CellContext`n1, \
+               PlotLabel -> ($CellContext`stn[$CellContext`n1, \
 $CellContext`k1, $CellContext`i1, $CellContext`t] <> 
-                " / " <> $CellContext`stn[$CellContext`n2, $CellContext`k2, \
+                 " / ") <> $CellContext`stn[$CellContext`n2, $CellContext`k2, \
 $CellContext`i2, $CellContext`t], 
                AxesLabel -> {
                 "\!\(\*StyleBox[\"\[Sigma]\",FontWeight->\"Plain\",FontSlant->\
@@ -47255,9 +47274,9 @@ StyleBox[\"p\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
               ListLinePlot[{
                 Part[$CellContext`ilc, 2]}, 
                InterpolationOrder -> $CellContext`o, 
-               PlotLabel -> $CellContext`stn[$CellContext`n1, \
+               PlotLabel -> ($CellContext`stn[$CellContext`n1, \
 $CellContext`k1, $CellContext`i1, $CellContext`t] <> 
-                " / " <> $CellContext`stn[$CellContext`n2, $CellContext`k2, \
+                 " / ") <> $CellContext`stn[$CellContext`n2, $CellContext`k2, \
 $CellContext`i2, $CellContext`t], 
                AxesLabel -> {
                 "\!\(\*StyleBox[\"\[Mu]\",FontWeight->\"Plain\",FontSlant->\"\
@@ -47658,8 +47677,7 @@ $CellContext`i]], $CellContext`t], {
       UntrackedVariables:>{Typeset`size$$}], "Manipulate",
      Deployed->True,
      StripOnInput->False],
-    Manipulate`InterpretManipulate[1]]}, {
-   4,"\<\"statistical vs statistical QC function\"\>"->
+    Manipulate`InterpretManipulate[1]]}, {4,"\<\"SVS vs SVS QC function\"\>"->
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`f$$ = $CellContext`vf, $CellContext`k1$$ \
@@ -47674,7 +47692,7 @@ $CellContext`i]], $CellContext`t], {
          "relative difference", $CellContext`rf -> "ratio"}}, {{
          Hold[$CellContext`t$$], 2, "vs"}, {1 -> "\[Sigma]", 2 -> "\[Mu]"}}, {
         Hold[
-         Style["first statistical QC function", Bold]], 
+         Style["first SVS QC function", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {
         Hold[
          Style["size of QC sample", Plain]], 
@@ -47690,7 +47708,7 @@ $CellContext`i]], $CellContext`t], {
         Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`p1$$], 0.01, "pfr"}, 1.*^-6, 0.1, 1.*^-6}, {
         Hold[
-         Style["second statistical QC function", Bold]], 
+         Style["second SVS QC function", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {
         Hold[
          Style["size of QC sample", Plain]], 
@@ -47749,7 +47767,7 @@ $CellContext`p1$$, $CellContext`n2$$, $CellContext`k2$$, $CellContext`p2$$]]},
            ControlPlacement -> Left}, {{$CellContext`t$$, 2, "vs"}, {
            1 -> "\[Sigma]", 2 -> "\[Mu]"}, ControlPlacement -> Left}, 
           Delimiter, 
-          Style["first statistical QC function", Bold], 
+          Style["first SVS QC function", Bold], 
           Style[
           "size of QC sample", Plain], {{$CellContext`n1$$, 4, "n"}, 1, 4, 1, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
@@ -47762,7 +47780,7 @@ $CellContext`p1$$, $CellContext`n2$$, $CellContext`k2$$, $CellContext`p2$$]]},
           "probability for for false rejection", 
            Plain], {{$CellContext`p1$$, 0.01, "pfr"}, 1.*^-6, 0.1, 1.*^-6, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
-          Style["second statistical QC function", Bold], 
+          Style["second SVS QC function", Bold], 
           Style[
           "size of QC sample", Plain], {{$CellContext`n2$$, 4, "n"}, 1, 4, 1, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
@@ -47847,6 +47865,7 @@ Italic\"]\)"}], {600}]], $CellContext`pedfr[
             Blank[]]] := 
          Block[{$CellContext`d}, $CellContext`d = \
 $CellContext`dl[$CellContext`p, $CellContext`n]; Switch[$CellContext`t, 1, 
+             
              If[$CellContext`k < $CellContext`n, $CellContext`ped[
                0, $CellContext`s, $CellContext`d, $CellContext`k] + \
 $CellContext`ped[
@@ -47899,9 +47918,10 @@ $CellContext`dl[0.01038125, 4] =
 147837377593240622557474436961312840631638639973639118631673134228967025623142\
 087664472065302824427383908037085033741333939967045954142638457099`200., \
 $CellContext`dl[0.0147863, 4] = 
-         2.9012096720135225617610295477572515479296532503911088815973739335219\
-991441935462890093323585417381937265781582089335756704997736276987284123053528\
-1929563675022810344198924881338347665947698693584051861785245228698`200., \
+         2.\
+901209672013522561761029547757251547929653250391108881597373933521999144193546\
+289009332358541738193726578158208933575670499773627698728412305352819295636750\
+22810344198924881338347665947698693584051861785245228698`200., \
 $CellContext`dl[0.02, 4] = 
          2.8045975762403724079546880763173710610776688854758332479301174915140\
 346558616283906704017804626704343272185620931724841548907954472218411756324701\
@@ -47933,6 +47953,14 @@ $CellContext`dl[
                 Erf[($CellContext`d + 0)/(Sqrt[2] 1)])^4/
               2^4, {$CellContext`ag, $CellContext`pg}] == $CellContext`pfr[
              8, FE`i$$7], {$CellContext`d, 1, 20, 0, 30}, 
+            AccuracyGoal -> $CellContext`ag, PrecisionGoal -> $CellContext`pg,
+             WorkingPrecision -> $CellContext`wp]], $CellContext`dl[
+           $CellContext`pfr[8, 6], 4] = ReplaceAll[$CellContext`d, 
+           FindRoot[
+           N[1 - (-Erf[(-$CellContext`d + 0)/(Sqrt[2] 1)] + 
+                Erf[($CellContext`d + 0)/(Sqrt[2] 1)])^4/
+              2^4, {$CellContext`ag, $CellContext`pg}] == $CellContext`pfr[
+             8, FE`i$$375], {$CellContext`d, 1, 20, 0, 30}, 
             AccuracyGoal -> $CellContext`ag, PrecisionGoal -> $CellContext`pg,
              WorkingPrecision -> $CellContext`wp]], $CellContext`dl[
            $CellContext`pfr[8, 8], 4] = ReplaceAll[$CellContext`d, 
@@ -47989,6 +48017,25 @@ $CellContext`qd[0, 1, $CellContext`p, $CellContext`c]), $CellContext`pfr[
             Blank[]], 
            Pattern[$CellContext`s, 
             Blank[]], 
+           Pattern[$CellContext`p, 
+            Blank[]], 
+           Pattern[$CellContext`c, 
+            Blank[]]] := ReplaceAll[$CellContext`d, 
+           Quiet[
+            FindRoot[
+            N[1 - (-Erf[(-$CellContext`d + $CellContext`m)/(
+                    Sqrt[2] $CellContext`s)] + 
+                 Erf[($CellContext`d + $CellContext`m)/(
+                   Sqrt[2] $CellContext`s)])^$CellContext`c/
+               2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
+$CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
+             AccuracyGoal -> $CellContext`ag, 
+             PrecisionGoal -> $CellContext`pg, 
+             WorkingPrecision -> $CellContext`wp]]], $CellContext`qd[
+           Pattern[$CellContext`m, 
+            Blank[]], 
+           Pattern[$CellContext`s, 
+            Blank[]], 
            Pattern[$CellContext`se, 
             Blank[]], 
            Pattern[$CellContext`re, 
@@ -48000,28 +48047,9 @@ $CellContext`qd[0, 1, $CellContext`p, $CellContext`c]), $CellContext`pfr[
            Quiet[
             FindRoot[
             N[1 - (-Erf[((-$CellContext`d) $CellContext`s + $CellContext`m + \
-$CellContext`se)/(Sqrt[2] $CellContext`re $CellContext`s)] + 
+$CellContext`se)/((Sqrt[2] $CellContext`re) $CellContext`s)] + 
                  Erf[($CellContext`d $CellContext`s + $CellContext`m + \
-$CellContext`se)/(Sqrt[2] $CellContext`re $CellContext`s)])^$CellContext`c/
-               2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
-$CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
-             AccuracyGoal -> $CellContext`ag, 
-             PrecisionGoal -> $CellContext`pg, 
-             WorkingPrecision -> $CellContext`wp]]], $CellContext`qd[
-           Pattern[$CellContext`m, 
-            Blank[]], 
-           Pattern[$CellContext`s, 
-            Blank[]], 
-           Pattern[$CellContext`p, 
-            Blank[]], 
-           Pattern[$CellContext`c, 
-            Blank[]]] := ReplaceAll[$CellContext`d, 
-           Quiet[
-            FindRoot[
-            N[1 - (-Erf[(-$CellContext`d + $CellContext`m)/(
-                    Sqrt[2] $CellContext`s)] + 
-                 Erf[($CellContext`d + $CellContext`m)/(
-                   Sqrt[2] $CellContext`s)])^$CellContext`c/
+$CellContext`se)/((Sqrt[2] $CellContext`re) $CellContext`s)])^$CellContext`c/
                2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
 $CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
              AccuracyGoal -> $CellContext`ag, 
@@ -48041,8 +48069,7 @@ $CellContext`p, {$CellContext`d, 1, 20, 0, 30},
             Blank[]], 
            Pattern[$CellContext`c, 
             Blank[]]] := 
-         N[1 - (-
-              Erf[($CellContext`dm - $CellContext`d $CellContext`s)/(
+         N[1 - (-Erf[($CellContext`dm - $CellContext`d $CellContext`s)/(
                 Sqrt[2] $CellContext`sd)] + 
              Erf[($CellContext`dm + $CellContext`d $CellContext`s)/(
                Sqrt[2] $CellContext`sd)])^$CellContext`c/2^$CellContext`c, {
@@ -48101,22 +48128,25 @@ $CellContext`ped[$CellContext`m,
            Pattern[$CellContext`t, 
             Blank[]]] := Text[
            
-           Switch[$CellContext`t, 0, 
-            "\!\(\*StyleBox[SubscriptBox[\"P\", \"S\"],FontSlant->\"Italic\"]\
-\)" <> "(" <> ToString[$CellContext`n] <> "," <> ToString[$CellContext`k] <> 
-            ",0,1;" <> ToString[
-              NumberForm[
-               $CellContext`dl[$CellContext`p, $CellContext`n], 2]] <> ")", 1,
-             "\!\(\*StyleBox[SubscriptBox[\"P\", \
-\"S\"],FontSlant->\"Italic\"]\)" <> "(" <> ToString[$CellContext`n] <> "," <> 
-            ToString[$CellContext`k] <> ",0,\[Sigma];" <> ToString[
-              NumberForm[
-               $CellContext`dl[$CellContext`p, $CellContext`n], 2]] <> ")", 2,
-             "\!\(\*StyleBox[SubscriptBox[\"P\", \
-\"S\"],FontSlant->\"Italic\"]\)" <> "(" <> ToString[$CellContext`n] <> "," <> 
-            ToString[$CellContext`k] <> ",\[Mu],1;" <> ToString[
-              NumberForm[
-               $CellContext`dl[$CellContext`p, $CellContext`n], 2]] <> 
+           Switch[$CellContext`t, 
+            0, ((((((
+                  "\!\(\*StyleBox[SubscriptBox[\"P\", \
+\"S\"],FontSlant->\"Italic\"]\)" <> "(") <> ToString[$CellContext`n]) <> ",") <> 
+               ToString[$CellContext`k]) <> ",0,1;") <> ToString[
+               NumberForm[
+                $CellContext`dl[$CellContext`p, $CellContext`n], 2]]) <> ")", 
+            1, ((((((
+                  "\!\(\*StyleBox[SubscriptBox[\"P\", \
+\"S\"],FontSlant->\"Italic\"]\)" <> "(") <> ToString[$CellContext`n]) <> ",") <> 
+               ToString[$CellContext`k]) <> ",0,\[Sigma];") <> ToString[
+               NumberForm[
+                $CellContext`dl[$CellContext`p, $CellContext`n], 2]]) <> ")", 
+            2, ((((((
+                  "\!\(\*StyleBox[SubscriptBox[\"P\", \
+\"S\"],FontSlant->\"Italic\"]\)" <> "(") <> ToString[$CellContext`n]) <> ",") <> 
+               ToString[$CellContext`k]) <> ",\[Mu],1;") <> ToString[
+               NumberForm[
+                $CellContext`dl[$CellContext`p, $CellContext`n], 2]]) <> 
             ")"]], $CellContext`dpss[
            Pattern[$CellContext`t, 
             Blank[]], 
@@ -48139,7 +48169,6 @@ $CellContext`ped[$CellContext`m,
             Plot[{$CellContext`pedfr[$CellContext`t, 
                 0, $CellContext`s, $CellContext`n1, $CellContext`k1, \
 $CellContext`p1] - $CellContext`pedfr[$CellContext`t, 
-               
                0, $CellContext`s, $CellContext`n2, $CellContext`k2, \
 $CellContext`p2]}, {$CellContext`s, 1, 1 + $CellContext`r}, 
              PlotLabel -> (PlotLabel -> 
@@ -48392,22 +48421,22 @@ $CellContext`p2], 6]],
             Blank[]], 
            Pattern[$CellContext`n, 
             Blank[]]] := 
-         Text["\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)" <> 
-           Switch[$CellContext`n, 1, 
-             "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+         Text[((("\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)" <> 
+              Switch[$CellContext`n, 1, 
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\)", 2, 
-             "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"2\"]\)", 
-             3, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"2\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"3\"]\)", 
-             4, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+                3, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"],\
+ \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"2\"]\),\
+\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"3\"]\)", 4, 
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"2\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"3\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"4\"]\)"] <> 
-           ";" <> ToString[
-             NumberForm[
-              $CellContext`dl[$CellContext`p, $CellContext`n], 2]] <> ")"]}; 
+\"3\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"]\)"]) <> ";") <> ToString[
+              NumberForm[
+               $CellContext`dl[$CellContext`p, $CellContext`n], 2]]) <> ")"]}; 
        Typeset`initDone$$ = True),
       SynchronousInitialization->True,
       UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
@@ -48415,14 +48444,14 @@ $CellContext`p2], 6]],
       UntrackedVariables:>{Typeset`size$$}], "Manipulate",
      Deployed->True,
      StripOnInput->False],
-    Manipulate`InterpretManipulate[1]]}}, 3,
+    Manipulate`InterpretManipulate[1]]}}, 1,
    ImageSize->All]}, {2,"\<\"QC calculators\"\>"->
-  TabViewBox[{{1,"\<\"nn vs a statistical QC function with equal pfr\"\>"->
+  TabViewBox[{{1,"\<\"NN vs a SVS QC function with equal pfr\"\>"->
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`i$$ = 
       6, $CellContext`k$$ = $CellContext`n$$, $CellContext`mcr$$ = 
-      3, $CellContext`n$$ = 3, $CellContext`scr$$ = 4, Typeset`show$$ = True, 
+      3, $CellContext`n$$ = 4, $CellContext`scr$$ = 4, Typeset`show$$ = True, 
       Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
       Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
       "\"untitled\"", Typeset`specs$$ = {{
@@ -48444,7 +48473,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 0, 6, 0.01}, {
         Hold[
          Style["neural network", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`i$$], 8, "nn"}, {
+         Hold[$CellContext`i$$], 6, "NN"}, {
         1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"\
 ], \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\
 \)\!\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
@@ -48486,12 +48515,12 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
          Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`k$$], $CellContext`n$$, "k"}, 1, 
         Dynamic[$CellContext`n$$], 1}}, Typeset`size$$ = {
-      483., {108.400390625, 114.599609375}}, Typeset`update$$ = 0, 
+      512., {108.400390625, 114.599609375}}, Typeset`update$$ = 0, 
       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`i$$ = 
-          8, $CellContext`k$$ = $CellContext`n$$, $CellContext`mcr$$ = 
+          6, $CellContext`k$$ = $CellContext`n$$, $CellContext`mcr$$ = 
           3, $CellContext`n$$ = 4, $CellContext`scr$$ = 4}, 
         "ControllerVariables" :> {}, 
         "OtherVariables" :> {
@@ -48514,7 +48543,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 1, 7, 0.01, ImageSize -> Tiny,
            Appearance -> "Labeled"}, Delimiter, 
           Style["QC functions", Bold], 
           Style[
-          "neural network", Plain], {{$CellContext`i$$, 8, "nn"}, {
+          "neural network", Plain], {{$CellContext`i$$, 6, "NN"}, {
            1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"\
 Italic\"], \
 \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\!\
@@ -48559,7 +48588,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"},
            "Labeled"}, Delimiter}, 
         "Options" :> {TrackedSymbols -> True, ControlPlacement -> Left}, 
         "DefaultOptions" :> {}],
-       ImageSizeCache->{729., {139.13403309800196`, 144.86596690199804`}},
+       ImageSizeCache->{758., {139.13403309800196`, 144.86596690199804`}},
        SingleEvaluation->True],
       Deinitialization:>None,
       DynamicModuleValues:>{},
@@ -48939,22 +48968,22 @@ FontSlant->\"Italic\"], \
             Blank[]], 
            Pattern[$CellContext`n, 
             Blank[]]] := 
-         Text["\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)" <> 
-           Switch[$CellContext`n, 1, 
-             "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+         Text[((("\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)" <> 
+              Switch[$CellContext`n, 1, 
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\)", 2, 
-             "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"2\"]\)", 
-             3, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"2\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"3\"]\)", 
-             4, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+                3, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"],\
+ \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"2\"]\),\
+\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"3\"]\)", 4, 
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"2\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"3\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"4\"]\)"] <> 
-           ";" <> ToString[
-             NumberForm[
-              $CellContext`dl[$CellContext`p, $CellContext`n], 2]] <> 
+\"3\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"]\)"]) <> ";") <> ToString[
+              NumberForm[
+               $CellContext`dl[$CellContext`p, $CellContext`n], 2]]) <> 
            ")"], $CellContext`dl[0.0038475, 4] = 
          3.3010416179745785517817925175532777790472245113431301174384299321513\
 480733488481193656703787625495390503145811643577234606006340584492158286907161\
@@ -49024,6 +49053,14 @@ $CellContext`dl[
              8, FE`i$$7], {$CellContext`d, 1, 20, 0, 30}, 
             AccuracyGoal -> $CellContext`ag, PrecisionGoal -> $CellContext`pg,
              WorkingPrecision -> $CellContext`wp]], $CellContext`dl[
+           $CellContext`pfr[8, 6], 4] = ReplaceAll[$CellContext`d, 
+           FindRoot[
+           N[1 - (-Erf[(-$CellContext`d + 0)/(Sqrt[2] 1)] + 
+                Erf[($CellContext`d + 0)/(Sqrt[2] 1)])^4/
+              2^4, {$CellContext`ag, $CellContext`pg}] == $CellContext`pfr[
+             8, FE`i$$375], {$CellContext`d, 1, 20, 0, 30}, 
+            AccuracyGoal -> $CellContext`ag, PrecisionGoal -> $CellContext`pg,
+             WorkingPrecision -> $CellContext`wp]], $CellContext`dl[
            $CellContext`pfr[8, 8], 4] = ReplaceAll[$CellContext`d, 
            FindRoot[
            N[1 - (-Erf[(-$CellContext`d + 0)/(Sqrt[2] 1)] + 
@@ -49052,6 +49089,25 @@ $CellContext`qd[0, 1, $CellContext`p, $CellContext`c]), $CellContext`ag =
             Blank[]], 
            Pattern[$CellContext`s, 
             Blank[]], 
+           Pattern[$CellContext`p, 
+            Blank[]], 
+           Pattern[$CellContext`c, 
+            Blank[]]] := ReplaceAll[$CellContext`d, 
+           Quiet[
+            FindRoot[
+            N[1 - (-Erf[(-$CellContext`d + $CellContext`m)/(
+                    Sqrt[2] $CellContext`s)] + 
+                 Erf[($CellContext`d + $CellContext`m)/(
+                   Sqrt[2] $CellContext`s)])^$CellContext`c/
+               2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
+$CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
+             AccuracyGoal -> $CellContext`ag, 
+             PrecisionGoal -> $CellContext`pg, 
+             WorkingPrecision -> $CellContext`wp]]], $CellContext`qd[
+           Pattern[$CellContext`m, 
+            Blank[]], 
+           Pattern[$CellContext`s, 
+            Blank[]], 
            Pattern[$CellContext`se, 
             Blank[]], 
            Pattern[$CellContext`re, 
@@ -49063,28 +49119,9 @@ $CellContext`qd[0, 1, $CellContext`p, $CellContext`c]), $CellContext`ag =
            Quiet[
             FindRoot[
             N[1 - (-Erf[((-$CellContext`d) $CellContext`s + $CellContext`m + \
-$CellContext`se)/(Sqrt[2] $CellContext`re $CellContext`s)] + 
+$CellContext`se)/((Sqrt[2] $CellContext`re) $CellContext`s)] + 
                  Erf[($CellContext`d $CellContext`s + $CellContext`m + \
-$CellContext`se)/(Sqrt[2] $CellContext`re $CellContext`s)])^$CellContext`c/
-               2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
-$CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
-             AccuracyGoal -> $CellContext`ag, 
-             PrecisionGoal -> $CellContext`pg, 
-             WorkingPrecision -> $CellContext`wp]]], $CellContext`qd[
-           Pattern[$CellContext`m, 
-            Blank[]], 
-           Pattern[$CellContext`s, 
-            Blank[]], 
-           Pattern[$CellContext`p, 
-            Blank[]], 
-           Pattern[$CellContext`c, 
-            Blank[]]] := ReplaceAll[$CellContext`d, 
-           Quiet[
-            FindRoot[
-            N[1 - (-Erf[(-$CellContext`d + $CellContext`m)/(
-                    Sqrt[2] $CellContext`s)] + 
-                 Erf[($CellContext`d + $CellContext`m)/(
-                   Sqrt[2] $CellContext`s)])^$CellContext`c/
+$CellContext`se)/((Sqrt[2] $CellContext`re) $CellContext`s)])^$CellContext`c/
                2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
 $CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
              AccuracyGoal -> $CellContext`ag, 
@@ -50942,7 +50979,6 @@ $CellContext`ped[$CellContext`m,
             Blank[]], 
            Pattern[$CellContext`n, 
             Blank[]]] := Switch[$CellContext`t, 1, 
-           
            If[$CellContext`k < $CellContext`n, $CellContext`ped[
              0, $CellContext`s, $CellContext`d, $CellContext`k] + \
 $CellContext`ped[
@@ -50968,12 +51004,11 @@ $CellContext`ped[$CellContext`m,
       UntrackedVariables:>{Typeset`size$$}], "Manipulate",
      Deployed->True,
      StripOnInput->False],
-    Manipulate`InterpretManipulate[1]]}, {
-   2,"\<\"nn vs statistical QC function\"\>"->
+    Manipulate`InterpretManipulate[1]]}, {2,"\<\"NN vs SVS QC function\"\>"->
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`i1$$ = 
-      8, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
+      6, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
 $CellContext`n2$$, $CellContext`mcr$$ = 3, $CellContext`n1$$ = 
       4, $CellContext`n2$$ = 4, $CellContext`p2$$ = 0.01, $CellContext`scr$$ =
        4, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
@@ -50998,7 +51033,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 0, 6, 0.01}, {
         Hold[
          Style["neural network", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`i1$$], 8, "nn"}, {
+         Hold[$CellContext`i1$$], 6, "NN"}, {
         1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"\
 ], \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\
 \)\!\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
@@ -51041,8 +51076,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
          Hold[$CellContext`k1$$], $CellContext`n1$$, "k"}, 1, 
         Dynamic[$CellContext`n1$$], 1}, {
         Hold[
-         Style["statistical QC function", Bold]], 
-        Manipulate`Dump`ThisIsNotAControl}, {
+         Style["SVS QC function", Bold]], Manipulate`Dump`ThisIsNotAControl}, {
         Hold[
          Style["size of QC sample", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
@@ -51062,7 +51096,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`i1$$ = 
-          8, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
+          6, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
 $CellContext`n2$$, $CellContext`mcr$$ = 3, $CellContext`n1$$ = 
           4, $CellContext`n2$$ = 4, $CellContext`p2$$ = 
           0.01, $CellContext`scr$$ = 4}, "ControllerVariables" :> {}, 
@@ -51084,17 +51118,16 @@ $CellContext`mcr$$, $CellContext`scr$$]]), "Specifications" :> {
             "\!\(\*SubscriptBox[\"\[Mu]\", StyleBox[\"c\",FontSlant->\"Italic\
 \"]]\)"}, 0, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
           "standardized critical standard deviation", {{$CellContext`scr$$, 4,
-             
-            "\!\(\*SubscriptBox[\"\[Sigma]\", \
+             "\!\(\*SubscriptBox[\"\[Sigma]\", \
 StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 1, 7, 0.01, ImageSize -> Tiny, 
            Appearance -> "Labeled"}, Delimiter, 
           Style["neural network QC function", Bold], 
           Style[
-          "neural network", Plain], {{$CellContext`i1$$, 8, "nn"}, {
-           1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"\
-Italic\"], \
-\"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\!\
-\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
+          "neural network", Plain], {{$CellContext`i1$$, 6, "NN"}, {
+           1 -> 
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"]\
+, \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\
+\!\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
 StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)", 2 -> 
             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"]\
 , \"2\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\
@@ -51133,7 +51166,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"},
            Plain], {{$CellContext`k1$$, $CellContext`n1$$, "k"}, 1, 
            Dynamic[$CellContext`n1$$], 1, ImageSize -> Tiny, Appearance -> 
            "Labeled"}, Delimiter, 
-          Style["statistical QC function", Bold], 
+          Style["SVS QC function", Bold], 
           Style[
           "size of QC sample", Plain], {{$CellContext`n2$$, 4, "n"}, 1, 4, 1, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
@@ -51201,7 +51234,6 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"},
             Transpose[{{
               "critical mean \!\(\*SubscriptBox[\"\[Mu]\", \
 StyleBox[\"c\",FontSlant->\"Italic\"]]\)", 
-               
                "critical standard deviation \!\(\*SubscriptBox[\"\[Sigma]\", \
 StyleBox[\"c\",FontSlant->\"Italic\"]]\)", "QC function", "decision limit", 
                "size \!\(\*StyleBox[\"n\",FontSlant->\"Italic\"]\) of QC \
@@ -51531,22 +51563,22 @@ FontSlant->\"Italic\"], \
             Blank[]], 
            Pattern[$CellContext`n, 
             Blank[]]] := 
-         Text["\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)" <> 
-           Switch[$CellContext`n, 1, 
-             "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+         Text[((("\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)" <> 
+              Switch[$CellContext`n, 1, 
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\)", 2, 
-             "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"2\"]\)", 
-             3, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"2\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"3\"]\)", 
-             4, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+                3, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"],\
+ \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"2\"]\),\
+\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"3\"]\)", 4, 
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"2\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"3\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"4\"]\)"] <> 
-           ";" <> ToString[
-             NumberForm[
-              $CellContext`dl[$CellContext`p, $CellContext`n], 2]] <> 
+\"3\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"]\)"]) <> ";") <> ToString[
+              NumberForm[
+               $CellContext`dl[$CellContext`p, $CellContext`n], 2]]) <> 
            ")"], $CellContext`dl[0.0038475, 4] = 
          3.3010416179745785517817925175532777790472245113431301174384299321513\
 480733488481193656703787625495390503145811643577234606006340584492158286907161\
@@ -51616,6 +51648,14 @@ $CellContext`dl[
              8, FE`i$$7], {$CellContext`d, 1, 20, 0, 30}, 
             AccuracyGoal -> $CellContext`ag, PrecisionGoal -> $CellContext`pg,
              WorkingPrecision -> $CellContext`wp]], $CellContext`dl[
+           $CellContext`pfr[8, 6], 4] = ReplaceAll[$CellContext`d, 
+           FindRoot[
+           N[1 - (-Erf[(-$CellContext`d + 0)/(Sqrt[2] 1)] + 
+                Erf[($CellContext`d + 0)/(Sqrt[2] 1)])^4/
+              2^4, {$CellContext`ag, $CellContext`pg}] == $CellContext`pfr[
+             8, FE`i$$375], {$CellContext`d, 1, 20, 0, 30}, 
+            AccuracyGoal -> $CellContext`ag, PrecisionGoal -> $CellContext`pg,
+             WorkingPrecision -> $CellContext`wp]], $CellContext`dl[
            $CellContext`pfr[8, 8], 4] = ReplaceAll[$CellContext`d, 
            FindRoot[
            N[1 - (-Erf[(-$CellContext`d + 0)/(Sqrt[2] 1)] + 
@@ -51644,6 +51684,25 @@ $CellContext`qd[0, 1, $CellContext`p, $CellContext`c]), $CellContext`ag =
             Blank[]], 
            Pattern[$CellContext`s, 
             Blank[]], 
+           Pattern[$CellContext`p, 
+            Blank[]], 
+           Pattern[$CellContext`c, 
+            Blank[]]] := ReplaceAll[$CellContext`d, 
+           Quiet[
+            FindRoot[
+            N[1 - (-Erf[(-$CellContext`d + $CellContext`m)/(
+                    Sqrt[2] $CellContext`s)] + 
+                 Erf[($CellContext`d + $CellContext`m)/(
+                   Sqrt[2] $CellContext`s)])^$CellContext`c/
+               2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
+$CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
+             AccuracyGoal -> $CellContext`ag, 
+             PrecisionGoal -> $CellContext`pg, 
+             WorkingPrecision -> $CellContext`wp]]], $CellContext`qd[
+           Pattern[$CellContext`m, 
+            Blank[]], 
+           Pattern[$CellContext`s, 
+            Blank[]], 
            Pattern[$CellContext`se, 
             Blank[]], 
            Pattern[$CellContext`re, 
@@ -51655,28 +51714,9 @@ $CellContext`qd[0, 1, $CellContext`p, $CellContext`c]), $CellContext`ag =
            Quiet[
             FindRoot[
             N[1 - (-Erf[((-$CellContext`d) $CellContext`s + $CellContext`m + \
-$CellContext`se)/(Sqrt[2] $CellContext`re $CellContext`s)] + 
+$CellContext`se)/((Sqrt[2] $CellContext`re) $CellContext`s)] + 
                  Erf[($CellContext`d $CellContext`s + $CellContext`m + \
-$CellContext`se)/(Sqrt[2] $CellContext`re $CellContext`s)])^$CellContext`c/
-               2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
-$CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
-             AccuracyGoal -> $CellContext`ag, 
-             PrecisionGoal -> $CellContext`pg, 
-             WorkingPrecision -> $CellContext`wp]]], $CellContext`qd[
-           Pattern[$CellContext`m, 
-            Blank[]], 
-           Pattern[$CellContext`s, 
-            Blank[]], 
-           Pattern[$CellContext`p, 
-            Blank[]], 
-           Pattern[$CellContext`c, 
-            Blank[]]] := ReplaceAll[$CellContext`d, 
-           Quiet[
-            FindRoot[
-            N[1 - (-Erf[(-$CellContext`d + $CellContext`m)/(
-                    Sqrt[2] $CellContext`s)] + 
-                 Erf[($CellContext`d + $CellContext`m)/(
-                   Sqrt[2] $CellContext`s)])^$CellContext`c/
+$CellContext`se)/((Sqrt[2] $CellContext`re) $CellContext`s)])^$CellContext`c/
                2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
 $CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
              AccuracyGoal -> $CellContext`ag, 
@@ -53560,10 +53600,10 @@ $CellContext`ped[$CellContext`m,
       UntrackedVariables:>{Typeset`size$$}], "Manipulate",
      Deployed->True,
      StripOnInput->False],
-    Manipulate`InterpretManipulate[1]]}, {3,"\<\"nn vs nn QC function\"\>"->
+    Manipulate`InterpretManipulate[1]]}, {3,"\<\"NN vs NN QC function\"\>"->
    TagBox[
     StyleBox[
-     DynamicModuleBox[{$CellContext`i1$$ = 4, $CellContext`i2$$ = 
+     DynamicModuleBox[{$CellContext`i1$$ = 6, $CellContext`i2$$ = 
       8, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
 $CellContext`n2$$, $CellContext`mcr$$ = 3, $CellContext`n1$$ = 
       4, $CellContext`n2$$ = 4, $CellContext`scr$$ = 4, Typeset`show$$ = True,
@@ -53589,7 +53629,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 0, 6, 0.01}, {
         Hold[
          Style["neural network", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`i1$$], 4, "nn"}, {
+         Hold[$CellContext`i1$$], 6, "NN"}, {
         1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"\
 ], \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\
 \)\!\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
@@ -53637,7 +53677,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
         Hold[
          Style["neural network", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`i2$$], 8, "nn"}, {
+         Hold[$CellContext`i2$$], 8, "NN"}, {
         1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"\
 ], \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\
 \)\!\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
@@ -53683,7 +53723,8 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
-        "Variables" :> {$CellContext`i1$$ = 4, $CellContext`i2$$ = 
+        "Variables" :> {$CellContext`i1$$ = 6, $CellContext`i2$$ = 
+          
           8, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
 $CellContext`n2$$, $CellContext`mcr$$ = 3, $CellContext`n1$$ = 
           4, $CellContext`n2$$ = 4, $CellContext`scr$$ = 4}, 
@@ -53711,7 +53752,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 1, 7, 0.01, ImageSize -> Tiny,
            Appearance -> "Labeled"}, Delimiter, 
           Style["first neural network QC function", Bold], 
           Style[
-          "neural network", Plain], {{$CellContext`i1$$, 4, "nn"}, {
+          "neural network", Plain], {{$CellContext`i1$$, 6, "NN"}, {
            1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"\
 Italic\"], \
 \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\!\
@@ -53756,7 +53797,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"},
            "Labeled"}, Delimiter, 
           Style["second neural network QC function", Bold], 
           Style[
-          "neural network", Plain], {{$CellContext`i2$$, 8, "nn"}, {
+          "neural network", Plain], {{$CellContext`i2$$, 8, "NN"}, {
            1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"\
 Italic\"], \
 \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\!\
@@ -55955,8 +55996,7 @@ Miu/MuK/jBK5Eg==
       UntrackedVariables:>{Typeset`size$$}], "Manipulate",
      Deployed->True,
      StripOnInput->False],
-    Manipulate`InterpretManipulate[1]]}, {
-   4,"\<\"statistical vs statistical QC function\"\>"->
+    Manipulate`InterpretManipulate[1]]}, {4,"\<\"SVS vs SVS QC function\"\>"->
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`k1$$ = $CellContext`n1$$, \
@@ -55980,7 +56020,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 0, 6, 0.01}, {
          "\!\(\*SubscriptBox[\"\[Sigma]\", StyleBox[\"c\",FontSlant->\"Italic\
 \"]]\)"}, 1, 7, 0.01}, {
         Hold[
-         Style["first statistical QC function", Bold]], 
+         Style["first SVS QC function", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {
         Hold[
          Style["size of QC sample", Plain]], 
@@ -55996,7 +56036,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 0, 6, 0.01}, {
         Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`p1$$], 0.01, "pfr"}, 1.*^-6, 0.1, 1.*^-6}, {
         Hold[
-         Style["second statistical QC function", Bold]], 
+         Style["second SVS QC function", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {
         Hold[
          Style["size of QC sample", Plain]], 
@@ -56042,7 +56082,7 @@ $CellContext`mcr$$, $CellContext`scr$$]]), "Specifications" :> {
              "\!\(\*SubscriptBox[\"\[Sigma]\", \
 StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 1, 7, 0.01, ImageSize -> Tiny, 
            Appearance -> "Labeled"}, Delimiter, 
-          Style["first statistical QC function", Bold], 
+          Style["first SVS QC function", Bold], 
           Style[
           "size of QC sample", Plain], {{$CellContext`n1$$, 4, "n"}, 1, 4, 1, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
@@ -56055,7 +56095,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 1, 7, 0.01, ImageSize -> Tiny,
           "probability for for false rejection", 
            Plain], {{$CellContext`p1$$, 0.01, "pfr"}, 1.*^-6, 0.1, 1.*^-6, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
-          Style["second statistical QC function", Bold], 
+          Style["second SVS QC function", Bold], 
           Style[
           "size of QC sample", Plain], {{$CellContext`n2$$, 4, "n"}, 1, 4, 1, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
@@ -56182,22 +56222,22 @@ $CellContext`p2], 6]],
             Blank[]], 
            Pattern[$CellContext`n, 
             Blank[]]] := 
-         Text["\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)" <> 
-           Switch[$CellContext`n, 1, 
-             "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+         Text[((("\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)" <> 
+              Switch[$CellContext`n, 1, 
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\)", 2, 
-             "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"2\"]\)", 
-             3, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"2\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"3\"]\)", 
-             4, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+                3, "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"],\
+ \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"2\"]\),\
+\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"3\"]\)", 4, 
+                "(\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"1\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"2\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"3\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \"4\"]\)"] <> 
-           ";" <> ToString[
-             NumberForm[
-              $CellContext`dl[$CellContext`p, $CellContext`n], 2]] <> 
+\"3\"]\),\!\(\*SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"]\)"]) <> ";") <> ToString[
+              NumberForm[
+               $CellContext`dl[$CellContext`p, $CellContext`n], 2]]) <> 
            ")"], $CellContext`dl[0.0038475, 4] = 
          3.3010416179745785517817925175532777790472245113431301174384299321513\
 480733488481193656703787625495390503145811643577234606006340584492158286907161\
@@ -56267,6 +56307,14 @@ $CellContext`dl[
              8, FE`i$$7], {$CellContext`d, 1, 20, 0, 30}, 
             AccuracyGoal -> $CellContext`ag, PrecisionGoal -> $CellContext`pg,
              WorkingPrecision -> $CellContext`wp]], $CellContext`dl[
+           $CellContext`pfr[8, 6], 4] = ReplaceAll[$CellContext`d, 
+           FindRoot[
+           N[1 - (-Erf[(-$CellContext`d + 0)/(Sqrt[2] 1)] + 
+                Erf[($CellContext`d + 0)/(Sqrt[2] 1)])^4/
+              2^4, {$CellContext`ag, $CellContext`pg}] == $CellContext`pfr[
+             8, FE`i$$375], {$CellContext`d, 1, 20, 0, 30}, 
+            AccuracyGoal -> $CellContext`ag, PrecisionGoal -> $CellContext`pg,
+             WorkingPrecision -> $CellContext`wp]], $CellContext`dl[
            $CellContext`pfr[8, 8], 4] = ReplaceAll[$CellContext`d, 
            FindRoot[
            N[1 - (-Erf[(-$CellContext`d + 0)/(Sqrt[2] 1)] + 
@@ -56321,6 +56369,25 @@ $CellContext`qd[0, 1, $CellContext`p, $CellContext`c]), $CellContext`pfr[
             Blank[]], 
            Pattern[$CellContext`s, 
             Blank[]], 
+           Pattern[$CellContext`p, 
+            Blank[]], 
+           Pattern[$CellContext`c, 
+            Blank[]]] := ReplaceAll[$CellContext`d, 
+           Quiet[
+            FindRoot[
+            N[1 - (-Erf[(-$CellContext`d + $CellContext`m)/(
+                    Sqrt[2] $CellContext`s)] + 
+                 Erf[($CellContext`d + $CellContext`m)/(
+                   Sqrt[2] $CellContext`s)])^$CellContext`c/
+               2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
+$CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
+             AccuracyGoal -> $CellContext`ag, 
+             PrecisionGoal -> $CellContext`pg, 
+             WorkingPrecision -> $CellContext`wp]]], $CellContext`qd[
+           Pattern[$CellContext`m, 
+            Blank[]], 
+           Pattern[$CellContext`s, 
+            Blank[]], 
            Pattern[$CellContext`se, 
             Blank[]], 
            Pattern[$CellContext`re, 
@@ -56332,28 +56399,9 @@ $CellContext`qd[0, 1, $CellContext`p, $CellContext`c]), $CellContext`pfr[
            Quiet[
             FindRoot[
             N[1 - (-Erf[((-$CellContext`d) $CellContext`s + $CellContext`m + \
-$CellContext`se)/(Sqrt[2] $CellContext`re $CellContext`s)] + 
+$CellContext`se)/((Sqrt[2] $CellContext`re) $CellContext`s)] + 
                  Erf[($CellContext`d $CellContext`s + $CellContext`m + \
-$CellContext`se)/(Sqrt[2] $CellContext`re $CellContext`s)])^$CellContext`c/
-               2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
-$CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
-             AccuracyGoal -> $CellContext`ag, 
-             PrecisionGoal -> $CellContext`pg, 
-             WorkingPrecision -> $CellContext`wp]]], $CellContext`qd[
-           Pattern[$CellContext`m, 
-            Blank[]], 
-           Pattern[$CellContext`s, 
-            Blank[]], 
-           Pattern[$CellContext`p, 
-            Blank[]], 
-           Pattern[$CellContext`c, 
-            Blank[]]] := ReplaceAll[$CellContext`d, 
-           Quiet[
-            FindRoot[
-            N[1 - (-Erf[(-$CellContext`d + $CellContext`m)/(
-                    Sqrt[2] $CellContext`s)] + 
-                 Erf[($CellContext`d + $CellContext`m)/(
-                   Sqrt[2] $CellContext`s)])^$CellContext`c/
+$CellContext`se)/((Sqrt[2] $CellContext`re) $CellContext`s)])^$CellContext`c/
                2^$CellContext`c, {$CellContext`ag, $CellContext`pg}] == \
 $CellContext`p, {$CellContext`d, 1, 20, 0, 30}, 
              AccuracyGoal -> $CellContext`ag, 
@@ -56375,6 +56423,7 @@ $CellContext`p, {$CellContext`d, 1, 20, 0, 30},
 $CellContext`dl[$CellContext`p, $CellContext`n]; Switch[$CellContext`t, 1, 
              
              If[$CellContext`k < $CellContext`n, $CellContext`ped[
+               
                0, $CellContext`s, $CellContext`d, $CellContext`k] + \
 $CellContext`ped[
                0, 1, $CellContext`d, $CellContext`n - $CellContext`k] - \
@@ -56463,9 +56512,10 @@ $CellContext`ped[$CellContext`m,
       UntrackedVariables:>{Typeset`size$$}], "Manipulate",
      Deployed->True,
      StripOnInput->False],
-    Manipulate`InterpretManipulate[1]]}}, 3,
+    Manipulate`InterpretManipulate[1]]}}, 1,
    ImageSize->All]}}, 1,
   ImageSize->Automatic]], "Output",
+ Editable->False,
  Deployed->True,
  CellChangeTimes->{3.8644680488617215`*^9, 3.8645139989626417`*^9, 
   3.8645141499002686`*^9, 3.864514347278339*^9, 3.8645158007521048`*^9, 
@@ -56476,9 +56526,10 @@ $CellContext`ped[$CellContext`m,
   3.864521209771961*^9, 3.8645217537045107`*^9, 3.8645217881054964`*^9, 
   3.86582336988678*^9, 3.8658241229539485`*^9, 3.8658243774503574`*^9, 
   3.8658245088932915`*^9, 3.8658246707377357`*^9, 3.865829314739064*^9, 
-  3.8660249948002825`*^9},
+  3.8660249948002825`*^9, 3.8670651258001437`*^9, 3.867065442285731*^9, 
+  3.867065909962515*^9, 3.867066061734812*^9},
  CellLabel->
-  "Out[643]=",ExpressionUUID->"d01faa51-4e70-4e56-9732-86670c547f28"]
+  "Out[2139]=",ExpressionUUID->"b3fe511a-b7b8-41bc-83b1-226a091b03df"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -56486,8 +56537,8 @@ Cell[CellGroupData[{
 Cell[TextData[{
  StyleBox["Abbreviations\n",
   FontSize->10],
- StyleBox["QC: Quality Control\nnn: neural network\npfr: probability for \
-false rejection", "SubsubitemParagraph",
+ StyleBox["QC: Quality Control\nNN: neural network\nSVS: statistical single \
+value\npfr: probability for false rejection", "SubsubitemParagraph",
   FontSize->10]
 }], "Subsubsubsubsection",
  Editable->False,
@@ -56500,8 +56551,9 @@ false rejection", "SubsubitemParagraph",
    3.8582502888105564`*^9}, {3.8582503867465563`*^9, 
    3.8582504258265567`*^9}, {3.858251385690557*^9, 3.858251386139557*^9}, {
    3.8582957495379477`*^9, 3.8582957674019475`*^9}, {3.8584407769972825`*^9, 
-   3.8584407873482833`*^9}, 
-   3.8645202133990307`*^9},ExpressionUUID->"fbda40a9-40bf-4947-92cc-\
+   3.8584407873482833`*^9}, 3.8645202133990307`*^9, 3.867064970933346*^9, {
+   3.8670650522143335`*^9, 
+   3.8670650725686073`*^9}},ExpressionUUID->"fbda40a9-40bf-4947-92cc-\
 ff8cde674aa6"],
 
 Cell[TextData[{
@@ -56555,8 +56607,7 @@ training set distributed as  \[ScriptCapitalN](0,1) and \[ScriptCapitalN](\
   FontSize->10,
   FontColor->GrayLevel[0],ExpressionUUID->
   "6d0945ba-996d-4785-9137-6edcc7ec8504"],
- StyleBox[": statistical QC function  applied on a tuple ", 
-  "SubsubitemParagraph",
+ StyleBox[": SVS QC function  applied on a tuple ", "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
  StyleBox["x", "SubsubitemParagraph",
@@ -56605,8 +56656,7 @@ training set distributed as  \[ScriptCapitalN](0,1) and \[ScriptCapitalN](\
   FontSize->10,
   FontColor->GrayLevel[0],ExpressionUUID->
   "f97fb31c-533b-432d-ad9e-589199f4ea9c"],
- StyleBox[": statistical QC function with decision limit ", 
-  "SubsubitemParagraph",
+ StyleBox[": SVS QC function with decision limit ", "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
  StyleBox["l", "SubsubitemParagraph",
@@ -56733,7 +56783,7 @@ training set distributed as  \[ScriptCapitalN](0,1) and \[ScriptCapitalN](\
   FontSize->10,
   FontColor->GrayLevel[0],ExpressionUUID->
   "48256552-f18a-41ce-8023-f989cba5ea40"],
- StyleBox[": probability for rejection of the statistical QC function ", 
+ StyleBox[": probability for rejection of the SVS QC function ", 
   "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
@@ -56811,7 +56861,7 @@ training set distributed as  \[ScriptCapitalN](0,1) and \[ScriptCapitalN](\
   FontSize->10,
   FontColor->GrayLevel[0],ExpressionUUID->
   "a0b0832a-1d03-4083-aecc-31b2602f7a26"],
- StyleBox[": probability for rejection of the statistical QC function  ", 
+ StyleBox[": probability for rejection of the SVS QC function  ", 
   "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
@@ -56915,7 +56965,8 @@ training set distributed as  \[ScriptCapitalN](0,1) and \[ScriptCapitalN](\
    3.864445190318489*^9}, {3.8644452528960805`*^9, 3.864445357429579*^9}, {
    3.8644455898950405`*^9, 3.864445598325739*^9}, {3.864445995093952*^9, 
    3.8644459982854395`*^9}, 3.8645202133990307`*^9, {3.866025045269184*^9, 
-   3.8660250717405443`*^9}},ExpressionUUID->"ff0377bd-0a72-4003-894e-\
+   3.8660250717405443`*^9}, {3.8670650281941032`*^9, 
+   3.867065028220105*^9}},ExpressionUUID->"ff0377bd-0a72-4003-894e-\
 1a3baab58b16"],
 
 Cell[TextData[{
@@ -56927,7 +56978,7 @@ Cell[TextData[{
   FontSize->10,
   FontSlant->"Italic",
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.1.0 \nHellenic Complex Systems Laboratory 2022\n\
+ StyleBox["\nVersion Number 1.1.1\nHellenic Complex Systems Laboratory 2022\n\
 This software is distributed under  an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
@@ -56953,13 +57004,14 @@ International Creative Commons License",
    3.8070767128593364`*^9, 3.8070767130363336`*^9}, {3.857308171862177*^9, 
    3.8573081718631754`*^9}, {3.8579548122475023`*^9, 
    3.8579548146715016`*^9}, {3.8579548776990466`*^9, 3.857954957657795*^9}, 
-   3.8644365688467765`*^9, 3.8645202133990307`*^9, 
-   3.866025004723446*^9},ExpressionUUID->"de371ce7-e914-4864-910f-\
+   3.8644365688467765`*^9, 3.8645202133990307`*^9, 3.866025004723446*^9, 
+   3.867065046905641*^9, 3.867065100368475*^9, {3.867066504233463*^9, 
+   3.867066506552652*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
 f5d0251a90b2"]
 }, Open  ]]
 },
-WindowSize->{1440., 742.5},
-WindowMargins->{{Automatic, -4.875}, {-4.875, Automatic}},
+WindowSize->{1429.875, 732.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"TryRealOnly" -> False|>,
 FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (February 4, 2022)",
 StyleDefinitions->"Default.nb",
@@ -56976,32 +57028,32 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 1304371, 29868, 19, "Input",ExpressionUUID->"d5ff740b-4976-4cf1-9845-c2791265cf19",
+Cell[558, 20, 1304372, 29868, 19, "Input",ExpressionUUID->"d5ff740b-4976-4cf1-9845-c2791265cf19",
  CellOpen->False,
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[1304954, 29892, 920, 20, 86, "Title",ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-6b83082cf940",
+Cell[1304955, 29892, 920, 20, 86, "Title",ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-6b83082cf940",
  Evaluatable->False,
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[1305877, 29914, 1052, 18, 106, "Title",ExpressionUUID->"771d281b-3709-4a85-8858-f4a7c81c5ee6",
+Cell[1305878, 29914, 1052, 18, 106, "Title",ExpressionUUID->"771d281b-3709-4a85-8858-f4a7c81c5ee6",
  Evaluatable->False,
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[1306932, 29934, 689, 15, 129, "Author",ExpressionUUID->"48efdfee-c390-4c7d-aeb4-cdbc08fe34f9",
+Cell[1306933, 29934, 689, 15, 129, "Author",ExpressionUUID->"48efdfee-c390-4c7d-aeb4-cdbc08fe34f9",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[1307624, 29951, 447, 10, 31, "Affiliation",ExpressionUUID->"a7902d72-4370-4f53-90c8-0f08bcc41750",
+Cell[1307625, 29951, 447, 10, 31, "Affiliation",ExpressionUUID->"a7902d72-4370-4f53-90c8-0f08bcc41750",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1308108, 29966, 86071, 1676, 19, "Input",ExpressionUUID->"2963d90a-7cde-4200-9bed-89dd56e54c73",
+Cell[1308109, 29966, 86113, 1675, 19, "Input",ExpressionUUID->"2963d90a-7cde-4200-9bed-89dd56e54c73",
  CellOpen->False],
-Cell[1394182, 31644, 1483510, 24836, 509, "Output",ExpressionUUID->"d01faa51-4e70-4e56-9732-86670c547f28"]
+Cell[1394225, 31643, 1486822, 24888, 510, "Output",ExpressionUUID->"b3fe511a-b7b8-41bc-83b1-226a091b03df"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2877729, 56485, 926, 19, 67, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6",
+Cell[2881084, 56536, 1033, 20, 81, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[2878658, 56506, 13694, 412, 135, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16",
+Cell[2882120, 56558, 13708, 411, 135, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[2892355, 56920, 1529, 37, 81, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2",
+Cell[2895831, 56971, 1622, 38, 81, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]]
 }

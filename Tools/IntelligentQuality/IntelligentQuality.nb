@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2899427,      57054]
-NotebookOptionsPosition[   2897469,      57012]
-NotebookOutlinePosition[   2897918,      57029]
-CellTagsIndexPosition[   2897875,      57026]
+NotebookDataLength[   2899545,      57056]
+NotebookOptionsPosition[   2897587,      57014]
+NotebookOutlinePosition[   2898036,      57031]
+CellTagsIndexPosition[   2897993,      57028]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -56537,8 +56537,9 @@ Cell[CellGroupData[{
 Cell[TextData[{
  StyleBox["Abbreviations\n",
   FontSize->10],
- StyleBox["QC: Quality Control\nNN: neural network\nSVS: statistical single \
-value\npfr: probability for false rejection", "SubsubitemParagraph",
+ StyleBox["QC: quality qontrol\nNN: neural network\nSVS: single value  \
+statistical (QC function)\npfr: probability for false rejection", 
+  "SubsubitemParagraph",
   FontSize->10]
 }], "Subsubsubsubsection",
  Editable->False,
@@ -56552,8 +56553,9 @@ value\npfr: probability for false rejection", "SubsubitemParagraph",
    3.8582504258265567`*^9}, {3.858251385690557*^9, 3.858251386139557*^9}, {
    3.8582957495379477`*^9, 3.8582957674019475`*^9}, {3.8584407769972825`*^9, 
    3.8584407873482833`*^9}, 3.8645202133990307`*^9, 3.867064970933346*^9, {
-   3.8670650522143335`*^9, 
-   3.8670650725686073`*^9}},ExpressionUUID->"fbda40a9-40bf-4947-92cc-\
+   3.8670650522143335`*^9, 3.8670650725686073`*^9}, {3.8671100928807497`*^9, 
+   3.867110114105332*^9}, {3.867110151848253*^9, 
+   3.8671101545287232`*^9}},ExpressionUUID->"fbda40a9-40bf-4947-92cc-\
 ff8cde674aa6"],
 
 Cell[TextData[{
@@ -57049,11 +57051,11 @@ Cell[1308109, 29966, 86113, 1675, 19, "Input",ExpressionUUID->"2963d90a-7cde-420
 Cell[1394225, 31643, 1486822, 24888, 510, "Output",ExpressionUUID->"b3fe511a-b7b8-41bc-83b1-226a091b03df"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2881084, 56536, 1033, 20, 81, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6",
+Cell[2881084, 56536, 1151, 22, 81, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[2882120, 56558, 13708, 411, 135, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16",
+Cell[2882238, 56560, 13708, 411, 135, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[2895831, 56971, 1622, 38, 81, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2",
+Cell[2895949, 56973, 1622, 38, 81, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]]
 }

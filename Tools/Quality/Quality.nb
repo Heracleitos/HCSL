@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    241068,       5136]
-NotebookOptionsPosition[    239524,       5101]
-NotebookOutlinePosition[    240003,       5119]
-CellTagsIndexPosition[    239960,       5116]
+NotebookDataLength[    242182,       5152]
+NotebookOptionsPosition[    240672,       5118]
+NotebookOutlinePosition[    241118,       5135]
+CellTagsIndexPosition[    241075,       5132]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -746,7 +746,7 @@ Cell[BoxData[{
               RowBox[{"t", ",", "n2", ",", "k2", ",", 
                RowBox[{"dl", "[", 
                 RowBox[{"p2", ",", "n2"}], "]"}]}], "]"}]}], "}"}], ",", 
-           "Right"}], "]"}]}], ",", 
+           "Bottom"}], "]"}]}], ",", 
         RowBox[{"PlotLabel", "\[Rule]", "\"\<probability for rejection\>\""}],
          ",", " ", 
         RowBox[{"AxesLabel", "\[Rule]", 
@@ -784,7 +784,7 @@ Italic\"], \"r\"],FontSlant->\"Italic\"]\)\>\""}], "}"}]}]}], "]"}], ",",
               RowBox[{"t", ",", "n2", ",", "k2", ",", 
                RowBox[{"dl", "[", 
                 RowBox[{"p2", ",", "n2"}], "]"}]}], "]"}]}], "}"}], ",", 
-           "Right"}], "]"}]}], ",", 
+           "Bottom"}], "]"}]}], ",", 
         RowBox[{"PlotLabel", "\[Rule]", "\"\<probability for rejection\>\""}],
          ",", " ", 
         RowBox[{"AxesLabel", "\[Rule]", 
@@ -1093,7 +1093,7 @@ Italic\"], \"r\"],FontSlant->\"Italic\"]\)\>\""}], "}"}]}], ",",
               RowBox[{"t", ",", "n1", ",", "k1", ",", "l1"}], "]"}], ",", 
              RowBox[{"fstsl", "[", 
               RowBox[{"t", ",", "n2", ",", "k2", ",", "l2"}], "]"}]}], "}"}], 
-           ",", "Right"}], "]"}]}]}], "]"}], ",", 
+           ",", "Bottom"}], "]"}]}]}], "]"}], ",", 
       RowBox[{"{", "600", "}"}]}], "]"}], ",", "2", ",", 
     RowBox[{"Pane", "[", 
      RowBox[{
@@ -1127,7 +1127,7 @@ Italic\"], \"r\"],FontSlant->\"Italic\"]\)\>\""}], "}"}]}], ",",
               RowBox[{"t", ",", "n1", ",", "k1", ",", "l1"}], "]"}], ",", 
              RowBox[{"fstsl", "[", 
               RowBox[{"t", ",", "n2", ",", "k2", ",", "l2"}], "]"}]}], "}"}], 
-           ",", "Right"}], "]"}]}]}], "]"}], ",", 
+           ",", "Bottom"}], "]"}]}]}], "]"}], ",", 
       RowBox[{"{", "600", "}"}]}], "]"}]}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"dpssl", "[", 
@@ -1353,11 +1353,11 @@ FontSlant->\"Italic\"]\)\>\"", ",",
      RowBox[{"ToString", "[", "k", "]"}], ",", 
      RowBox[{"Switch", "[", 
       RowBox[{
-      "t", ",", "0", ",", "\"\<,0,1;0,1,\>\"", ",", "1", ",", 
-       "\"\<,0,\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\";\
-\",FontSlant->\"Italic\"]\)0,1,\>\"", ",", "2", ",", 
-       "\"\<,\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\),1;0,1,\>\""}], 
-      "]"}], ",", " ", 
+      "t", ",", "0", ",", "\"\<,0.00,1.00;0.00,1.00,\>\"", ",", "1", ",", 
+       "\"\<,0.00,\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\";\",FontSlant->\"Italic\"]\)0.00,1.00,\>\"", ",", "2", ",", 
+       "\"\<,\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\),1.00;0.00,1.00,\>\"\
+"}], "]"}], ",", " ", 
      RowBox[{"ToString", "[", 
       RowBox[{"NumberForm", "[", 
        RowBox[{"l", ",", 
@@ -1533,7 +1533,7 @@ FontSlant->\"Italic\"], \
          RowBox[{"{", 
           RowBox[{
            RowBox[{"strs", "[", 
-            RowBox[{"n1", ",", "0", ",", "1", ",", "p1"}], "]"}], ",", 
+            RowBox[{"n1", ",", "0.00", ",", "1.00", ",", "p1"}], "]"}], ",", 
            RowBox[{"ToString", "[", 
             RowBox[{"NumberForm", "[", 
              RowBox[{
@@ -1549,7 +1549,7 @@ FontSlant->\"Italic\"], \
          RowBox[{"{", 
           RowBox[{
            RowBox[{"strs", "[", 
-            RowBox[{"n2", ",", "0", ",", "1", ",", "p2"}], "]"}], ",", 
+            RowBox[{"n2", ",", "0.00", ",", "1.00", ",", "p2"}], "]"}], ",", 
            RowBox[{"ToString", "[", 
             RowBox[{"NumberForm", "[", 
              RowBox[{
@@ -1596,7 +1596,7 @@ FontSlant->\"Italic\"], \
          RowBox[{"{", 
           RowBox[{
            RowBox[{"strsl", "[", 
-            RowBox[{"n1", ",", "0", ",", "1", ",", "l1"}], "]"}], ",", 
+            RowBox[{"n1", ",", "0.00", ",", "1.00", ",", "l1"}], "]"}], ",", 
            RowBox[{"ToString", "[", 
             RowBox[{"NumberForm", "[", 
              RowBox[{"l1", ",", 
@@ -1606,13 +1606,14 @@ FontSlant->\"Italic\"], \
             RowBox[{"NumberForm", "[", 
              RowBox[{
               RowBox[{"sped", "[", 
-               RowBox[{"0", ",", "1", ",", "l1", ",", "n1"}], "]"}], ",", 
+               RowBox[{"0.00", ",", "1.00", ",", "l1", ",", "n1"}], "]"}], 
+              ",", 
               RowBox[{"{", 
                RowBox[{"7", ",", "6"}], "}"}]}], "]"}], "]"}]}], "}"}], ",", 
          RowBox[{"{", 
           RowBox[{
            RowBox[{"strsl", "[", 
-            RowBox[{"n2", ",", "0", ",", "1", ",", "l2"}], "]"}], ",", 
+            RowBox[{"n2", ",", "0.00", ",", "1.00", ",", "l2"}], "]"}], ",", 
            RowBox[{"ToString", "[", 
             RowBox[{"NumberForm", "[", 
              RowBox[{"l2", ",", 
@@ -1622,7 +1623,8 @@ FontSlant->\"Italic\"], \
             RowBox[{"NumberForm", "[", 
              RowBox[{
               RowBox[{"sped", "[", 
-               RowBox[{"0", ",", "1", ",", "l2", ",", "n2"}], "]"}], ",", 
+               RowBox[{"0.00", ",", "1.00", ",", "l2", ",", "n2"}], "]"}], 
+              ",", 
               RowBox[{"{", 
                RowBox[{"7", ",", "6"}], "}"}]}], "]"}], "]"}]}], "}"}]}], 
         "}"}], "]"}], ",", 
@@ -1792,8 +1794,11 @@ FontSlant->\"Italic\"], \
    3.8593031236373553`*^9}, {3.8593031936439*^9, 3.859303278909243*^9}, {
    3.859340184849507*^9, 3.859340188465786*^9}, 3.8593875136016464`*^9, {
    3.8593875488357835`*^9, 3.859387602434449*^9}, {3.859387641489335*^9, 
-   3.859387645882893*^9}, {3.859387705266218*^9, 3.8593880105290513`*^9}},
- CellLabel->"In[66]:=",
+   3.859387645882893*^9}, {3.859387705266218*^9, 3.8593880105290513`*^9}, {
+   3.8704177045511827`*^9, 3.870417747118965*^9}, {3.870417825236739*^9, 
+   3.870417852051896*^9}, {3.8704182248566165`*^9, 3.870418246363896*^9}, {
+   3.8704183248407574`*^9, 3.8704183282495513`*^9}},
+ CellLabel->"In[224]:=",
  CellID->6681815,ExpressionUUID->"63bc3ab4-71cf-4776-8857-5bee813b6ed1"],
 
 Cell[CellGroupData[{
@@ -1972,13 +1977,13 @@ Cell[BoxData[
                   RowBox[{"pfr", "=", 
                    RowBox[{"ped", "[", 
                     RowBox[{
-                    "em", ",", "m", ",", "s", ",", "d", ",", "0", ",", "s", 
+                    "em", ",", "m", ",", "s", ",", "d", ",", "0.0", ",", "s", 
                     ",", "c"}], "]"}]}], ";", "\[IndentingNewLine]", 
                   RowBox[{"pred", "=", 
                    RowBox[{"ped", "[", 
                     RowBox[{
-                    "em", ",", "m", ",", "s", ",", "d", ",", "0", ",", "rc", 
-                    ",", "c"}], "]"}]}], ";", "\[IndentingNewLine]", 
+                    "em", ",", "m", ",", "s", ",", "d", ",", "0.0", ",", "rc",
+                     ",", "c"}], "]"}]}], ";", "\[IndentingNewLine]", 
                   RowBox[{"psed", " ", "=", 
                    RowBox[{"ped", "[", 
                     RowBox[{
@@ -2026,19 +2031,19 @@ Cell[BoxData[
                     RowBox[{
                     RowBox[{"Style", "[", 
                     RowBox[{
-                    "\"\<quality control rule \>\"", ",", "Bold", ",", 
-                    "Blue"}], "]"}], ",", 
+                    "\"\<statistical single-value QC rule \>\"", ",", "Bold", 
+                    ",", "Blue"}], "]"}], ",", 
                     RowBox[{"Style", "[", 
                     RowBox[{
                     RowBox[{"strsl", "[", 
-                    RowBox[{"c", ",", "0", ",", "1", ",", "d"}], "]"}], ",", 
+                    RowBox[{"c", ",", "m", ",", "s", ",", "d"}], "]"}], ",", 
                     "Bold", ",", "Blue"}], "]"}]}], "}"}], ",", 
                     RowBox[{"{", 
                     RowBox[{
                     RowBox[{"Style", "[", 
                     RowBox[{
-                    "\"\<lower quality control decision limit \>\"", ",", 
-                    "Bold", ",", "Red"}], "]"}], ",", 
+                    "\"\<lower decision limit \>\"", ",", "Bold", ",", 
+                    "Red"}], "]"}], ",", 
                     RowBox[{"Style", "[", 
                     RowBox[{
                     RowBox[{"NumberForm", "[", 
@@ -2052,8 +2057,8 @@ Cell[BoxData[
                     RowBox[{
                     RowBox[{"Style", "[", 
                     RowBox[{
-                    "\"\<upper quality control decision limit \>\"", ",", 
-                    "Bold", ",", "Red"}], "]"}], ",", 
+                    "\"\<upper decision limit \>\"", ",", "Bold", ",", 
+                    "Red"}], "]"}], ",", 
                     RowBox[{"Style", "[", 
                     RowBox[{
                     RowBox[{"NumberForm", "[", 
@@ -2527,11 +2532,11 @@ units) \>\"", ",", "Bold"}], "]"}], ",", "\[IndentingNewLine]",
             RowBox[{
              RowBox[{"{", 
               RowBox[{
-              "em", ",", "100", ",", 
+              "em", ",", "100.00", ",", 
                "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\"m\",FontSlant->\"\
 Italic\"], \
 StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}], 
-             ",", "0.01", ",", "1000", ",", 
+             ",", "0.01", ",", "1000.00", ",", 
              RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
              RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
            ",", "\[IndentingNewLine]", "Delimiter", ",", 
@@ -2541,9 +2546,9 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
             RowBox[{
              RowBox[{"{", 
               RowBox[{
-              "m", ",", "99", ",", 
+              "m", ",", "99.00", ",", 
                "\"\<\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)\>\""}], 
-              "}"}], ",", "0.01", ",", "1000", ",", 
+              "}"}], ",", "0.01", ",", "1000.00", ",", 
              RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
              RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
            ",", "\[IndentingNewLine]", "Delimiter", ",", 
@@ -2553,9 +2558,9 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
             RowBox[{
              RowBox[{"{", 
               RowBox[{
-              "s", ",", "1.5", ",", 
+              "s", ",", "1.50", ",", 
                "\"\<\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\>\""}], 
-              "}"}], ",", "0.01", ",", "1000", ",", 
+              "}"}], ",", "0.01", ",", "1000.00", ",", 
              RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
              RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
            ",", "\[IndentingNewLine]", "Delimiter", ",", 
@@ -2569,9 +2574,9 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
             RowBox[{
              RowBox[{"{", 
               RowBox[{
-              "ptaae", ",", "10", ",", 
+              "ptaae", ",", "10.00", ",", 
                "\"\<\!\(\*StyleBox[\"t\",FontSlant->\"Italic\"]\)\>\""}], 
-              "}"}], ",", "0.01", ",", "200", ",", "1", ",", 
+              "}"}], ",", "0.01", ",", "200.00", ",", "1", ",", 
              RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
              RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
            ",", "\[IndentingNewLine]", "Delimiter", ",", 
@@ -2581,7 +2586,7 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
             RowBox[{
              RowBox[{"{", 
               RowBox[{
-              "a", ",", "0.1", ",", 
+              "a", ",", "0.10", ",", 
                "\"\<\!\(\*StyleBox[SubscriptBox[\"f\", \
 \"max\"],FontSlant->\"Italic\"]\)\>\""}], "}"}], ",", "0.01", ",", "0.99", 
              ",", ".01", ",", 
@@ -2594,7 +2599,7 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
            RowBox[{"{", 
             RowBox[{
              RowBox[{"{", 
-              RowBox[{"minpred", ",", "0.9", ",", "\"\<\>\""}], "}"}], ",", 
+              RowBox[{"minpred", ",", "0.90", ",", "\"\<\>\""}], "}"}], ",", 
              "0.01", ",", "0.99", ",", ".01", ",", 
              RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
              RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
@@ -2605,7 +2610,7 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
            RowBox[{"{", 
             RowBox[{
              RowBox[{"{", 
-              RowBox[{"minpsed", ",", "0.9", ",", "\"\<\>\""}], "}"}], ",", 
+              RowBox[{"minpsed", ",", "0.90", ",", "\"\<\>\""}], "}"}], ",", 
              "0.01", ",", "0.99", ",", ".01", ",", 
              RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
              RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
@@ -2715,8 +2720,9 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
                 "\[IndentingNewLine]", "Delimiter", ",", 
                 "\[IndentingNewLine]", 
                 RowBox[{"Style", "[", 
-                 RowBox[{"\"\<first statistical QC rule\>\"", ",", "Bold"}], 
-                 "]"}], ",", "\[IndentingNewLine]", 
+                 RowBox[{
+                 "\"\<first statistical single-value QC rule\>\"", ",", 
+                  "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
                 RowBox[{"Style", "[", 
                  RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], 
                 ",", "\[IndentingNewLine]", 
@@ -2764,8 +2770,9 @@ sample\>\"", ",", "Plain"}], "]"}], ",", "\[IndentingNewLine]",
                  "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
                 "\[IndentingNewLine]", 
                 RowBox[{"Style", "[", 
-                 RowBox[{"\"\<second statistical QC rule\>\"", ",", "Bold"}], 
-                 "]"}], ",", "\[IndentingNewLine]", 
+                 RowBox[{
+                 "\"\<second statistical statistical single-value QC \
+rule\>\"", ",", "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
                 RowBox[{"Style", "[", 
                  RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], 
                 ",", "\[IndentingNewLine]", 
@@ -2901,8 +2908,9 @@ sample\>\"", ",", "Plain"}], "]"}], ",", "\[IndentingNewLine]",
                 "\[IndentingNewLine]", "Delimiter", ",", 
                 "\[IndentingNewLine]", 
                 RowBox[{"Style", "[", 
-                 RowBox[{"\"\<first statistical QC rule\>\"", ",", "Bold"}], 
-                 "]"}], ",", "\[IndentingNewLine]", 
+                 RowBox[{
+                 "\"\<first statistical single-value QC rule\>\"", ",", 
+                  "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
                 RowBox[{"Style", "[", 
                  RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], 
                 ",", "\[IndentingNewLine]", 
@@ -2940,16 +2948,17 @@ sample\>\"", ",", "Plain"}], "]"}], ",", "\[IndentingNewLine]",
                  RowBox[{
                   RowBox[{"{", 
                    RowBox[{
-                   "l1", ",", "2.5", ",", 
+                   "l1", ",", "2.50", ",", 
                     "\"\<\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)\>\""}],
-                    "}"}], ",", "1", ",", "4", ",", "0.1", ",", 
+                    "}"}], ",", "1.00", ",", "4.00", ",", "0.01", ",", 
                   RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
                   RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
                  "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
                 "\[IndentingNewLine]", 
                 RowBox[{"Style", "[", 
-                 RowBox[{"\"\<second statistical QC rule\>\"", ",", "Bold"}], 
-                 "]"}], ",", "\[IndentingNewLine]", 
+                 RowBox[{
+                 "\"\<second statistical single-value QC rule\>\"", ",", 
+                  "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
                 RowBox[{"Style", "[", 
                  RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], 
                 ",", "\[IndentingNewLine]", 
@@ -2987,9 +2996,9 @@ sample\>\"", ",", "Plain"}], "]"}], ",", "\[IndentingNewLine]",
                  RowBox[{
                   RowBox[{"{", 
                    RowBox[{
-                   "l2", ",", "3.0", ",", 
+                   "l2", ",", "3.00", ",", 
                     "\"\<\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)\>\""}],
-                    "}"}], ",", "1", ",", "4", ",", "0.1", ",", 
+                    "}"}], ",", "1.00", ",", "4.00", ",", "0.01", ",", 
                   RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
                   RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
                  "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
@@ -3179,8 +3188,16 @@ sample\>\"", ",", "Plain"}], "]"}], ",", "\[IndentingNewLine]",
    3.8593416808266463`*^9}, {3.859371203190737*^9, 3.859371203596736*^9}, 
    3.8593859917368727`*^9, {3.8593860488522406`*^9, 3.8593860849354734`*^9}, {
    3.859386956417405*^9, 3.859386964959955*^9}, {3.8593870138490424`*^9, 
-   3.859387020464113*^9}},
- CellLabel->"In[97]:=",ExpressionUUID->"101cd957-340d-431e-91ec-e5cb76a39831"],
+   3.859387020464113*^9}, {3.870407828974451*^9, 3.870407874407177*^9}, {
+   3.870407909182409*^9, 3.870407963829544*^9}, {3.870409200075056*^9, 
+   3.8704092092437534`*^9}, {3.870409337289903*^9, 3.870409389779831*^9}, {
+   3.870409522366568*^9, 3.8704095235460944`*^9}, {3.87041174668771*^9, 
+   3.8704117484597397`*^9}, {3.8704119566119423`*^9, 
+   3.8704119570516663`*^9}, {3.870412317849368*^9, 3.870412323224395*^9}, {
+   3.8704185351394787`*^9, 3.8704186289072065`*^9}, {3.8704186818506737`*^9, 
+   3.870418731714813*^9}},
+ CellLabel->
+  "In[255]:=",ExpressionUUID->"101cd957-340d-431e-91ec-e5cb76a39831"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"statistical quality control\"\>"->
@@ -3188,9 +3205,9 @@ Cell[BoxData[
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`a$$ = 0.1, $CellContext`c$$ = 
-      4, $CellContext`em$$ = 100, $CellContext`m$$ = 
-      99, $CellContext`minpred$$ = 0.9, $CellContext`minpsed$$ = 
-      0.9, $CellContext`ptaae$$ = 10, $CellContext`s$$ = 
+      4, $CellContext`em$$ = 100., $CellContext`m$$ = 
+      99., $CellContext`minpred$$ = 0.9, $CellContext`minpsed$$ = 
+      0.9, $CellContext`ptaae$$ = 10., $CellContext`s$$ = 
       1.5, $CellContext`type$$ = 0, Typeset`show$$ = True, 
       Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
       Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
@@ -3206,23 +3223,23 @@ vs \!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}}, {
          "parameters of the control measurements (in measurement units) ", 
           Bold]], Manipulate`Dump`ThisIsNotAControl}, {
         Hold["assigned mean"], Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`em$$], 100, 
+         Hold[$CellContext`em$$], 100., 
          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"m\",FontSlant->\"Italic\"], \
 StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)"}, 0.01, 
-        1000}, {
+        1000.}, {
         Hold["observed mean"], Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`m$$], 99, 
-         "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}, 0.01, 1000}, {
+         Hold[$CellContext`m$$], 99., 
+         "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}, 0.01, 1000.}, {
         Hold["standard deviation"], Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`s$$], 1.5, 
-         "\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)"}, 0.01, 1000}, {
+         "\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)"}, 0.01, 1000.}, {
         Hold[
          Style["quality specifications", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {
         Hold["total allowable analytical error (%)"], 
         Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`ptaae$$], 10, 
-         "\!\(\*StyleBox[\"t\",FontSlant->\"Italic\"]\)"}, 0.01, 200, 1}, {
+         Hold[$CellContext`ptaae$$], 10., 
+         "\!\(\*StyleBox[\"t\",FontSlant->\"Italic\"]\)"}, 0.01, 200., 1}, {
         Hold["maximum fraction nonconforming"], 
         Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`a$$], 0.1, 
@@ -3239,15 +3256,15 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)"}, 0.01,
         Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`c$$], 4, 
          "\!\(\*StyleBox[\"c\",FontSlant->\"Italic\"]\)"}, 1, 6, 1}}, 
-      Typeset`size$$ = {585., {177.04918495750513`, 184.50069846118328`}}, 
+      Typeset`size$$ = {450., {136.19168056672828`, 141.92361437072435`}}, 
       Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
       False}, 
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`a$$ = 0.1, $CellContext`c$$ = 
-          4, $CellContext`em$$ = 100, $CellContext`m$$ = 
-          99, $CellContext`minpred$$ = 0.9, $CellContext`minpsed$$ = 
-          0.9, $CellContext`ptaae$$ = 10, $CellContext`s$$ = 
+          4, $CellContext`em$$ = 100., $CellContext`m$$ = 
+          99., $CellContext`minpred$$ = 0.9, $CellContext`minpsed$$ = 
+          0.9, $CellContext`ptaae$$ = 10., $CellContext`s$$ = 
           1.5, $CellContext`type$$ = 0}, "ControllerVariables" :> {}, 
         "OtherVariables" :> {
          Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
@@ -3297,10 +3314,10 @@ $CellContext`m$$, $CellContext`s$$, $CellContext`taae, $CellContext`a$$, \
 $CellContext`minpsed$$, $CellContext`minpred$$, $CellContext`c$$]; \
 $CellContext`pfr = $CellContext`ped[$CellContext`em$$, $CellContext`m$$, \
 $CellContext`s$$, $CellContext`d, 
-                0, $CellContext`s$$, $CellContext`c$$]; $CellContext`pred = \
+                0., $CellContext`s$$, $CellContext`c$$]; $CellContext`pred = \
 $CellContext`ped[$CellContext`em$$, $CellContext`m$$, $CellContext`s$$, \
 $CellContext`d, 
-                0, $CellContext`rc, $CellContext`c$$]; $CellContext`psed = \
+                0., $CellContext`rc, $CellContext`c$$]; $CellContext`psed = \
 $CellContext`ped[$CellContext`em$$, $CellContext`m$$, $CellContext`s$$, \
 $CellContext`d, $CellContext`sc, $CellContext`s$$, $CellContext`c$$]; Pane[
                Text[
@@ -3313,16 +3330,16 @@ $CellContext`d, $CellContext`sc, $CellContext`s$$, $CellContext`c$$]; Pane[
                   "critical systematic error ", 
                    NumberForm[$CellContext`sc $CellContext`s$$, {6, 2}]}, {
                    Style["\nquality control parameters", Bold, Larger]}, {
-                   Style["quality control rule ", Bold, Blue], 
+                   Style["statistical single-value QC rule ", Bold, Blue], 
                    Style[
-                    $CellContext`strsl[$CellContext`c$$, 0, 
-                    1, $CellContext`d], Bold, Blue]}, {
-                   Style["lower quality control decision limit ", Bold, Red], 
+                    $CellContext`strsl[$CellContext`c$$, $CellContext`m$$, \
+$CellContext`s$$, $CellContext`d], Bold, Blue]}, {
+                   Style["lower decision limit ", Bold, Red], 
                    Style[
                     
                     NumberForm[$CellContext`m$$ - $CellContext`d \
 $CellContext`s$$, {6, 2}], Bold, Red]}, {
-                   Style["upper quality control decision limit ", Bold, Red], 
+                   Style["upper decision limit ", Bold, Red], 
                    Style[
                     
                     NumberForm[$CellContext`m$$ + $CellContext`d \
@@ -3471,19 +3488,19 @@ $CellContext`s$$, $CellContext`d, $CellContext`pfr]}, Center]],
 \) vs \!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}}, Delimiter, 
           Style[
           "parameters of the control measurements (in measurement units) ", 
-           Bold], "assigned mean", {{$CellContext`em$$, 100, 
+           Bold], "assigned mean", {{$CellContext`em$$, 100., 
             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"m\",FontSlant->\"Italic\"]\
 , StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)"}, 0.01, 
-           1000, ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
-          "observed mean", {{$CellContext`m$$, 99, 
-            "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}, 0.01, 1000, 
+           1000., ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
+          "observed mean", {{$CellContext`m$$, 99., 
+            "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}, 0.01, 1000., 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
           "standard deviation", {{$CellContext`s$$, 1.5, 
-            "\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)"}, 0.01, 1000, 
+            "\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)"}, 0.01, 1000., 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
           Style["quality specifications", Bold], 
-          "total allowable analytical error (%)", {{$CellContext`ptaae$$, 10, 
-            "\!\(\*StyleBox[\"t\",FontSlant->\"Italic\"]\)"}, 0.01, 200, 1, 
+          "total allowable analytical error (%)", {{$CellContext`ptaae$$, 10.,
+             "\!\(\*StyleBox[\"t\",FontSlant->\"Italic\"]\)"}, 0.01, 200., 1, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
           "maximum fraction nonconforming", {{$CellContext`a$$, 0.1, 
             "\!\(\*StyleBox[SubscriptBox[\"f\", \
@@ -3504,11 +3521,11 @@ $CellContext`s$$, $CellContext`d, $CellContext`pfr]}, Center]],
          ControlPlacement -> Left, SynchronousUpdating -> False, 
           TrackedSymbols -> True, AutorunSequencing -> {1}}, 
         "DefaultOptions" :> {}],
-       ImageSizeCache->{966., {281.77424324816093`, 289.22575675183907`}},
+       ImageSizeCache->{744., {203.13403309800196`, 208.86596690199804`}},
        SingleEvaluation->True],
       Deinitialization:>None,
       DynamicModuleValues:>{},
-      Initialization:>({$CellContext`taae = 1/10, $CellContext`fn = 
+      Initialization:>({$CellContext`taae = 0.1, $CellContext`fn = 
          9.86699893850415*^-10, $CellContext`pce[
            Pattern[$CellContext`em, 
             Blank[]], 
@@ -3524,9 +3541,9 @@ $CellContext`s$$, $CellContext`d, $CellContext`pfr]}, Center]],
               Sqrt[2] $CellContext`s)])/2, {100, 100}], $CellContext`minfn = 
          1/1000000000000000000000000000000000000000000000000000000000000000000\
 0000000000000000000000000000000000, $CellContext`rc = 
-         5.996664371339213, $CellContext`sc = 
+         5.996664371339215, $CellContext`sc = 
          7.077672651683099, $CellContext`d = 
-         3.1028858815067197`, $CellContext`qc[
+         3.102885881506721, $CellContext`qc[
            Pattern[$CellContext`em, 
             Blank[]], 
            Pattern[$CellContext`m, 
@@ -3554,7 +3571,7 @@ $CellContext`bias}, $CellContext`ra = ReplaceAll[$CellContext`sd,
                  100, 100}] == $CellContext`a, {$CellContext`sd, \
 $CellContext`s, 20 $CellContext`s, 0, 30 $CellContext`s}, AccuracyGoal -> 100,
                 PrecisionGoal -> 100]]; $CellContext`dr = 
-            N[((Sqrt[2] $CellContext`ra) 
+            N[(Sqrt[2] $CellContext`ra 
                InverseErf[(1 - $CellContext`minpred)^(
                   1/$CellContext`c)])/$CellContext`s, {100, 
               100}]; $CellContext`sa = ReplaceAll[$CellContext`bias, 
@@ -3615,57 +3632,56 @@ $CellContext`em (1 - $CellContext`taae))/(Sqrt[2] $CellContext`s)] +
             Blank[]], 
            Pattern[$CellContext`l, 
             Blank[]]] := 
-         Text[((((((("\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)(" <> 
-                  Switch[$CellContext`n, 1, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)", 2,
-                     "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)", 3, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \
-\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"3\"],FontSlant->\"Italic\"]\)", 4, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \
-\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+         Text["\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)(" <> 
+           Switch[$CellContext`n, 1, 
+             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"\
+], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)", 2, 
+             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"\
+], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)", 3, 
+             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"\
+], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \"3\"],FontSlant->\"Italic\"]\)", 4, 
+             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"\
+], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)", 5, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \
-\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"\
+], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"5\"],FontSlant->\"Italic\"]\)", 6, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \
-\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"\
+], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"5\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"6\"],FontSlant->\"Italic\"]\)"]) <> ";") <> ToString[
-                  NumberForm[$CellContext`m, {3, 2}]]) <> ",") <> ToString[
-                NumberForm[$CellContext`s, {3, 2}]]) <> ",") <> ToString[
-              NumberForm[$CellContext`l, {3, 2}]]) <> ")"], $CellContext`gpfrs[
+\"6\"],FontSlant->\"Italic\"]\)"] <> ";" <> ToString[
+             NumberForm[$CellContext`m, {3, 2}]] <> "," <> ToString[
+             NumberForm[$CellContext`s, {3, 2}]] <> "," <> ToString[
+             NumberForm[$CellContext`l, {3, 2}]] <> ")"], $CellContext`gpfrs[
            Pattern[$CellContext`n, 
             Blank[]], 
            Pattern[$CellContext`m, 
@@ -3700,10 +3716,10 @@ $CellContext`s, $CellContext`l],
    TabViewBox[{{1,"\<\"defining pfr\"\>"->
     TagBox[
      StyleBox[
-      DynamicModuleBox[{$CellContext`f$$ = $CellContext`df, $CellContext`k1$$ \
-= $CellContext`n1$$, $CellContext`k2$$ = $CellContext`n2$$, $CellContext`n1$$ \
-= 2, $CellContext`n2$$ = 2, $CellContext`p1$$ = 0.01, $CellContext`p2$$ = 
-       0.02, $CellContext`r$$ = 6, $CellContext`t$$ = 1, Typeset`show$$ = 
+      DynamicModuleBox[{$CellContext`f$$ = $CellContext`vf, $CellContext`k1$$ \
+= 2, $CellContext`k2$$ = 2, $CellContext`n1$$ = 2, $CellContext`n2$$ = 
+       2, $CellContext`p1$$ = 0.01, $CellContext`p2$$ = 
+       0.02, $CellContext`r$$ = 6, $CellContext`t$$ = 2, Typeset`show$$ = 
        True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
        Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
        "\"untitled\"", Typeset`specs$$ = {{{
@@ -3715,7 +3731,7 @@ $CellContext`s, $CellContext`l],
           Hold[$CellContext`r$$], 6, "plot range"}, 1, 10, 0.1}, {
          Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
          Hold[
-          Style["first statistical QC rule", Bold]], 
+          Style["first statistical single-value QC rule", Bold]], 
          Manipulate`Dump`ThisIsNotAControl}, {
          Hold[
           Style["size of QC sample", Plain]], 
@@ -3726,7 +3742,7 @@ $CellContext`s, $CellContext`l],
           Style[
           "number of out of control measurements per QC sample", Plain]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
-          Hold[$CellContext`k1$$], $CellContext`n1$$, 
+          Hold[$CellContext`k1$$], 2, 
           "\!\(\*StyleBox[\"k\",FontSlant->\"Italic\"]\)"}, 1, 
          Dynamic[$CellContext`n1$$], 1}, {
          Hold[
@@ -3736,8 +3752,8 @@ $CellContext`s, $CellContext`l],
           "\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant->\"Italic\"], \
 \"fr\"],FontSlant->\"Italic\"]\)"}, 1.*^-6, 0.1, 1.*^-6}, {
          Hold[
-          Style["second statistical QC rule", Bold]], 
-         Manipulate`Dump`ThisIsNotAControl}, {
+          Style["second statistical statistical single-value QC rule", Bold]],
+          Manipulate`Dump`ThisIsNotAControl}, {
          Hold[
           Style["size of QC sample", Plain]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
@@ -3747,7 +3763,7 @@ $CellContext`s, $CellContext`l],
           Style[
           "number of out of control measurements per QC sample", Plain]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
-          Hold[$CellContext`k2$$], $CellContext`n2$$, 
+          Hold[$CellContext`k2$$], 2, 
           "\!\(\*StyleBox[\"k\",FontSlant->\"Italic\"]\)"}, 1, 
          Dynamic[$CellContext`n2$$], 1}, {
          Hold[
@@ -3756,8 +3772,8 @@ $CellContext`s, $CellContext`l],
           Hold[$CellContext`p2$$], 0.02, 
           "\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant->\"Italic\"], \
 \"fr\"],FontSlant->\"Italic\"]\)"}, 1.*^-6, 0.1, 1.*^-6}}, Typeset`size$$ = {
-       632., {208.65424324816092`, 216.10575675183907`}}, Typeset`update$$ = 
-       0, Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+       486., {192.23403309800193`, 197.965966901998}}, Typeset`update$$ = 0, 
+       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`f$$ = $CellContext`vf, \
@@ -3771,7 +3787,6 @@ $CellContext`n1$$ = 2, $CellContext`n2$$ = 2, $CellContext`p1$$ =
            Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
            Typeset`initDone$$, Typeset`skipInitDone$$}, 
          "Body" :> (
-          
           If[$CellContext`k1$$ > $CellContext`n1$$, $CellContext`k1$$ = \
 $CellContext`n1$$]; 
           If[$CellContext`k2$$ > $CellContext`n2$$, $CellContext`k2$$ = \
@@ -3804,7 +3819,7 @@ $CellContext`p1$$, $CellContext`n2$$, $CellContext`k2$$, $CellContext`p2$$]]},
             Left}, {{$CellContext`r$$, 6, "plot range"}, 1, 10, 0.1, 
             ImageSize -> Tiny, Appearance -> "Labeled", ControlPlacement -> 
             Left}, "", Delimiter, 
-           Style["first statistical QC rule", Bold], 
+           Style["first statistical single-value QC rule", Bold], 
            Style[
            "size of QC sample", 
             Plain], {{$CellContext`n1$$, 2, 
@@ -3822,7 +3837,7 @@ $CellContext`p1$$, $CellContext`n2$$, $CellContext`k2$$, $CellContext`p2$$]]},
              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant->\"Italic\"\
 ], \"fr\"],FontSlant->\"Italic\"]\)"}, 1.*^-6, 0.1, 1.*^-6, ImageSize -> Tiny,
              Appearance -> "Labeled"}, Delimiter, 
-           Style["second statistical QC rule", Bold], 
+           Style["second statistical statistical single-value QC rule", Bold], 
            Style[
            "size of QC sample", 
             Plain], {{$CellContext`n2$$, 2, 
@@ -3842,7 +3857,7 @@ $CellContext`p1$$, $CellContext`n2$$, $CellContext`k2$$, $CellContext`p2$$]]},
              Appearance -> "Labeled"}, Delimiter}, 
          "Options" :> {TrackedSymbols -> True, ControlPlacement -> Left}, 
          "DefaultOptions" :> {}],
-        ImageSizeCache->{1014., {258.77424324816093`, 266.22575675183907`}},
+        ImageSizeCache->{783., {223.13403309800196`, 228.86596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -3909,8 +3924,8 @@ $CellContext`k1,
                   $CellContext`dl[$CellContext`p1, $CellContext`n1]], 
                  $CellContext`fstsl[$CellContext`t, $CellContext`n2, \
 $CellContext`k2, 
-                  $CellContext`dl[$CellContext`p2, $CellContext`n2]]}, Right],
-               PlotLabel -> "probability for rejection", 
+                  $CellContext`dl[$CellContext`p2, $CellContext`n2]]}, 
+                Bottom], PlotLabel -> "probability for rejection", 
               AxesLabel -> {
                "\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)", 
                 "\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant->\"\
@@ -3927,8 +3942,8 @@ $CellContext`k1,
                   $CellContext`dl[$CellContext`p1, $CellContext`n1]], 
                  $CellContext`fstsl[$CellContext`t, $CellContext`n2, \
 $CellContext`k2, 
-                  $CellContext`dl[$CellContext`p2, $CellContext`n2]]}, Right],
-               PlotLabel -> "probability for rejection", 
+                  $CellContext`dl[$CellContext`p2, $CellContext`n2]]}, 
+                Bottom], PlotLabel -> "probability for rejection", 
               AxesLabel -> {
                "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)", 
                 "\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant->\"\
@@ -3947,6 +3962,7 @@ Italic\"], \"r\"],FontSlant->\"Italic\"]\)"}], {600}]], $CellContext`pedfr[
              Blank[]]] := 
           Block[{$CellContext`d}, $CellContext`d = \
 $CellContext`dl[$CellContext`p, $CellContext`n]; Switch[$CellContext`t, 1, 
+              
               If[$CellContext`k < $CellContext`n, $CellContext`sped[
                 0, $CellContext`s, $CellContext`d, $CellContext`k] + \
 $CellContext`sped[
@@ -3966,7 +3982,7 @@ $CellContext`sped[$CellContext`m,
                 0, 1, $CellContext`d, $CellContext`n - $CellContext`k], 
                $CellContext`sped[$CellContext`m, 
                 1, $CellContext`d, $CellContext`n]]]], $CellContext`d = 
-          3.1028858815067197`, $CellContext`dl[0.01, 2] = 
+          3.102885881506721, $CellContext`dl[0.01, 2] = 
           2.806225314687993200311057162303775751509436328650633247174690519152\
 970769142809967286816588955290951019774204121675607901538235774021182328241058\
 44654844262690872198797348966710938093078602219297454994837219002574`200., \
@@ -4023,16 +4039,15 @@ $CellContext`p, {$CellContext`d, 1, 20, 0, 30},
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := 
-          Text[(((((
-                 "\!\(\*StyleBox[\"P\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
-\"(\",FontSlant->\"Italic\"]\)" <> ToString[$CellContext`n]) <> ",") <> 
-               ToString[$CellContext`k]) <> 
-              Switch[$CellContext`t, 0, ",0,1;0,1,", 1, 
-                ",0,\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\";\",FontSlant->\"Italic\"]\)0,1,", 2, 
-                ",\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\),1;0,1,"]) <> 
-             ToString[
-               NumberForm[$CellContext`l, {3, 2}]]) <> ")"], $CellContext`dpss[
+          Text["\!\(\*StyleBox[\"P\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"\
+(\",FontSlant->\"Italic\"]\)" <> ToString[$CellContext`n] <> "," <> 
+            ToString[$CellContext`k] <> 
+            Switch[$CellContext`t, 0, ",0.00,1.00;0.00,1.00,", 1, 
+              ",0.00,\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\";\",FontSlant->\"Italic\"]\)0.00,1.00,", 2, 
+              ",\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\),1.00;0.00,1.00,\
+"] <> ToString[
+              NumberForm[$CellContext`l, {3, 2}]] <> ")"], $CellContext`dpss[
             Pattern[$CellContext`t, 
              Blank[]], 
             Pattern[$CellContext`n1, 
@@ -4169,7 +4184,6 @@ Italic\"], \
              Plot[{$CellContext`pedfr[$CellContext`t, $CellContext`m, 
                  1, $CellContext`n2, $CellContext`k2, \
 $CellContext`p2]/$CellContext`pedfr[$CellContext`t, $CellContext`m, 
-                
                 1, $CellContext`n1, $CellContext`k1, $CellContext`p1]}, \
 {$CellContext`m, 0, $CellContext`r}, PlotLabel -> 
               "ratio of probabilities for rejection", 
@@ -4197,13 +4211,13 @@ Italic\"], \
              Transpose[{{
                "QC rule", "decision limit", 
                 "probability for false rejection"}, {
-                $CellContext`strs[$CellContext`n1, 0, 1, $CellContext`p1], 
+                $CellContext`strs[$CellContext`n1, 0., 1., $CellContext`p1], 
                 ToString[
                  NumberForm[
                   $CellContext`dl[$CellContext`p1, $CellContext`n1], {3, 2}]], 
                 ToString[
                  NumberForm[$CellContext`p1, {7, 6}]]}, {
-                $CellContext`strs[$CellContext`n2, 0, 1, $CellContext`p2], 
+                $CellContext`strs[$CellContext`n2, 0., 1., $CellContext`p2], 
                 ToString[
                  NumberForm[
                   $CellContext`dl[$CellContext`p2, $CellContext`n2], {3, 2}]], 
@@ -4220,58 +4234,57 @@ Italic\"], \
              Blank[]], 
             Pattern[$CellContext`p, 
              Blank[]]] := 
-          Text[((((((("\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)(" <> 
-                   Switch[$CellContext`n, 1, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)", 2,
-                     "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)", 3, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \
-\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"3\"],FontSlant->\"Italic\"]\)", 4, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \
-\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+          Text["\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)(" <> 
+            Switch[$CellContext`n, 1, 
+              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
+\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)", 2, 
+              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
+\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)", 3, 
+              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
+\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \"3\"],FontSlant->\"Italic\"]\)", 4, 
+              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
+\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)", 5, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \
-\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
+\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"5\"],FontSlant->\"Italic\"]\)", 6, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \
-\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
+\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"5\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"6\"],FontSlant->\"Italic\"]\)"]) <> ";") <> ToString[
-                   NumberForm[$CellContext`m, {3, 2}]]) <> ",") <> ToString[
-                 NumberForm[$CellContext`s, {3, 2}]]) <> ",") <> ToString[
-               NumberForm[
-                $CellContext`dl[$CellContext`p, $CellContext`n], {3, 2}]]) <> 
+\"6\"],FontSlant->\"Italic\"]\)"] <> ";" <> ToString[
+              NumberForm[$CellContext`m, {3, 2}]] <> "," <> ToString[
+              NumberForm[$CellContext`s, {3, 2}]] <> "," <> ToString[
+              NumberForm[
+               $CellContext`dl[$CellContext`p, $CellContext`n], {3, 2}]] <> 
             ")"]}; Typeset`initDone$$ = True),
        SynchronousInitialization->True,
        UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
@@ -4283,10 +4296,10 @@ Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
     2,"\<\"defining decision limit\"\>"->
     TagBox[
      StyleBox[
-      DynamicModuleBox[{$CellContext`f$$ = $CellContext`vf, $CellContext`k1$$ \
-= $CellContext`n1$$, $CellContext`k2$$ = $CellContext`n2$$, $CellContext`l1$$ \
-= 2.5, $CellContext`l2$$ = 3., $CellContext`n1$$ = 2, $CellContext`n2$$ = 
-       2, $CellContext`r$$ = 6, $CellContext`t$$ = 2, Typeset`show$$ = True, 
+      DynamicModuleBox[{$CellContext`f$$ = $CellContext`df, $CellContext`k1$$ \
+= 2, $CellContext`k2$$ = 2, $CellContext`l1$$ = 2.5, $CellContext`l2$$ = 
+       3., $CellContext`n1$$ = 2, $CellContext`n2$$ = 2, $CellContext`r$$ = 
+       6, $CellContext`t$$ = 1, Typeset`show$$ = True, 
        Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
        Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
        "\"untitled\"", Typeset`specs$$ = {{{
@@ -4299,7 +4312,7 @@ Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
           Hold[$CellContext`r$$], 6, "plot range"}, 1, 10, 0.1}, {
          Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
          Hold[
-          Style["first statistical QC rule", Bold]], 
+          Style["first statistical single-value QC rule", Bold]], 
          Manipulate`Dump`ThisIsNotAControl}, {
          Hold[
           Style["size of QC sample", Plain]], 
@@ -4310,16 +4323,16 @@ Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
           Style[
           "number of out of control measurements per QC sample", Plain]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
-          Hold[$CellContext`k1$$], $CellContext`n1$$, 
+          Hold[$CellContext`k1$$], 2, 
           "\!\(\*StyleBox[\"k\",FontSlant->\"Italic\"]\)"}, 1, 
          Dynamic[$CellContext`n1$$], 1}, {
          Hold[
           Style["decision limit", Plain]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`l1$$], 2.5, 
-          "\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)"}, 1, 4, 0.1}, {
+          "\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)"}, 1., 4., 0.01}, {
          Hold[
-          Style["second statistical QC rule", Bold]], 
+          Style["second statistical single-value QC rule", Bold]], 
          Manipulate`Dump`ThisIsNotAControl}, {
          Hold[
           Style["size of QC sample", Plain]], 
@@ -4330,15 +4343,15 @@ Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
           Style[
           "number of out of control measurements per QC sample", Plain]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
-          Hold[$CellContext`k2$$], $CellContext`n2$$, 
+          Hold[$CellContext`k2$$], 2, 
           "\!\(\*StyleBox[\"k\",FontSlant->\"Italic\"]\)"}, 1, 
          Dynamic[$CellContext`n2$$], 1}, {
          Hold[
           Style["decision limit", Plain]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
           Hold[$CellContext`l2$$], 3., 
-          "\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)"}, 1, 4, 0.1}}, 
-       Typeset`size$$ = {668., {209.15424324816092`, 216.60575675183907`}}, 
+          "\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)"}, 1., 4., 0.01}}, 
+       Typeset`size$$ = {486., {157.23403309800193`, 162.965966901998}}, 
        Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
        False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
@@ -4386,7 +4399,7 @@ $CellContext`l1$$, $CellContext`n2$$, $CellContext`k2$$, $CellContext`l2$$]]},
             ControlPlacement -> Left}, {{$CellContext`r$$, 6, "plot range"}, 
             1, 10, 0.1, ImageSize -> Tiny, Appearance -> "Labeled", 
             ControlPlacement -> Left}, "", Delimiter, 
-           Style["first statistical QC rule", Bold], 
+           Style["first statistical single-value QC rule", Bold], 
            Style[
            "size of QC sample", 
             Plain], {{$CellContext`n1$$, 2, 
@@ -4401,9 +4414,9 @@ $CellContext`l1$$, $CellContext`n2$$, $CellContext`k2$$, $CellContext`l2$$]]},
            Style[
            "decision limit", 
             Plain], {{$CellContext`l1$$, 2.5, 
-             "\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)"}, 1, 4, 0.1, 
+             "\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)"}, 1., 4., 0.01, 
             ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
-           Style["second statistical QC rule", Bold], 
+           Style["second statistical single-value QC rule", Bold], 
            Style[
            "size of QC sample", 
             Plain], {{$CellContext`n2$$, 2, 
@@ -4418,11 +4431,11 @@ $CellContext`l1$$, $CellContext`n2$$, $CellContext`k2$$, $CellContext`l2$$]]},
            Style[
            "decision limit", 
             Plain], {{$CellContext`l2$$, 3., 
-             "\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)"}, 1, 4, 0.1, 
+             "\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)"}, 1., 4., 0.01, 
             ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter}, 
          "Options" :> {TrackedSymbols -> True, ControlPlacement -> Left}, 
          "DefaultOptions" :> {}],
-        ImageSizeCache->{1049., {258.77424324816093`, 266.22575675183907`}},
+        ImageSizeCache->{783., {188.13403309800196`, 193.86596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -4491,7 +4504,7 @@ Italic\"], \"r\"],FontSlant->\"Italic\"]\)"}, PlotLegends -> Placed[{
                  $CellContext`fstsl[$CellContext`t, $CellContext`n1, \
 $CellContext`k1, $CellContext`l1], 
                  $CellContext`fstsl[$CellContext`t, $CellContext`n2, \
-$CellContext`k2, $CellContext`l2]}, Right]], {600}], 2, 
+$CellContext`k2, $CellContext`l2]}, Bottom]], {600}], 2, 
             Pane[
              Plot[{
                $CellContext`pedfrl[$CellContext`t, $CellContext`m, 
@@ -4506,7 +4519,7 @@ Italic\"], \"r\"],FontSlant->\"Italic\"]\)"}, PlotLegends -> Placed[{
                  $CellContext`fstsl[$CellContext`t, $CellContext`n1, \
 $CellContext`k1, $CellContext`l1], 
                  $CellContext`fstsl[$CellContext`t, $CellContext`n2, \
-$CellContext`k2, $CellContext`l2]}, Right]], {600}]], $CellContext`pedfrl[
+$CellContext`k2, $CellContext`l2]}, Bottom]], {600}]], $CellContext`pedfrl[
             Pattern[$CellContext`t, 
              Blank[]], 
             Pattern[$CellContext`m, 
@@ -4552,7 +4565,7 @@ $CellContext`sped[$CellContext`m,
               Erf[($CellContext`d + $CellContext`m)/(
                 Sqrt[2] $CellContext`s)])^$CellContext`c/
             2^$CellContext`c], $CellContext`d = 
-          3.1028858815067197`, $CellContext`fstsl[
+          3.102885881506721, $CellContext`fstsl[
             Pattern[$CellContext`t, 
              Blank[]], 
             Pattern[$CellContext`n, 
@@ -4561,17 +4574,15 @@ $CellContext`sped[$CellContext`m,
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := 
-          Text[(((((
-                 "\!\(\*StyleBox[\"P\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
-\"(\",FontSlant->\"Italic\"]\)" <> ToString[$CellContext`n]) <> ",") <> 
-               ToString[$CellContext`k]) <> 
-              Switch[$CellContext`t, 0, ",0,1;0,1,", 1, 
-                ",0,\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\!\(\*\
-StyleBox[\";\",FontSlant->\"Italic\"]\)0,1,", 2, 
-                ",\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\),1;0,1,"]) <> 
-             ToString[
-               NumberForm[$CellContext`l, {3, 2}]]) <> 
-            ")"], $CellContext`dpssl[
+          Text["\!\(\*StyleBox[\"P\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"\
+(\",FontSlant->\"Italic\"]\)" <> ToString[$CellContext`n] <> "," <> 
+            ToString[$CellContext`k] <> 
+            Switch[$CellContext`t, 0, ",0.00,1.00;0.00,1.00,", 1, 
+              ",0.00,\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\";\",FontSlant->\"Italic\"]\)0.00,1.00,", 2, 
+              ",\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\),1.00;0.00,1.00,\
+"] <> ToString[
+              NumberForm[$CellContext`l, {3, 2}]] <> ")"], $CellContext`dpssl[
             Pattern[$CellContext`t, 
              Blank[]], 
             Pattern[$CellContext`n1, 
@@ -4637,6 +4648,7 @@ Italic\"], \
             Pane[
              
              Plot[{($CellContext`pedfrl[$CellContext`t, 
+                  
                   0, $CellContext`s, $CellContext`n2, $CellContext`k2, \
 $CellContext`l2] - $CellContext`pedfrl[$CellContext`t, 
                  0, $CellContext`s, $CellContext`n1, $CellContext`k1, \
@@ -4735,22 +4747,22 @@ Italic\"], \
              Transpose[{{
                "QC rule", "decision limit", 
                 "probability for false rejection"}, {
-                $CellContext`strsl[$CellContext`n1, 0, 1, $CellContext`l1], 
+                $CellContext`strsl[$CellContext`n1, 0., 1., $CellContext`l1], 
                 ToString[
                  NumberForm[$CellContext`l1, {3, 2}]], 
                 ToString[
                  NumberForm[
-                  $CellContext`sped[0, 1, $CellContext`l1, $CellContext`n1], {
-                  7, 6}]]}, {
-                $CellContext`strsl[$CellContext`n2, 0, 1, $CellContext`l2], 
+                  $CellContext`sped[
+                  0., 1., $CellContext`l1, $CellContext`n1], {7, 6}]]}, {
+                $CellContext`strsl[$CellContext`n2, 0., 1., $CellContext`l2], 
                 ToString[
                  NumberForm[$CellContext`l2, {3, 2}]], 
                 ToString[
                  NumberForm[
-                  $CellContext`sped[0, 1, $CellContext`l2, $CellContext`n2], {
-                  7, 6}]]}}], Frame -> All, FrameStyle -> 
-             Blend[{Blue, Cyan}, 0.35], Spacings -> {1, 1}, 
-             ItemSize -> {All, Automatic}], 
+                  $CellContext`sped[
+                  0., 1., $CellContext`l2, $CellContext`n2], {7, 6}]]}}], 
+             Frame -> All, FrameStyle -> Blend[{Blue, Cyan}, 0.35], 
+             Spacings -> {1, 1}, ItemSize -> {All, Automatic}], 
             BaseStyle -> {Medium}], $CellContext`strsl[
             Pattern[$CellContext`n, 
              Blank[]], 
@@ -4760,58 +4772,56 @@ Italic\"], \
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := 
-          Text[((((((("\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)(" <> 
-                   Switch[$CellContext`n, 1, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)", 2,
-                     
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)", 3, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \
-\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"3\"],FontSlant->\"Italic\"]\)", 4, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \
-\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+          Text["\!\(\*StyleBox[\"S\",FontSlant->\"Italic\"]\)(" <> 
+            Switch[$CellContext`n, 1, 
+              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
+\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)", 2, 
+              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
+\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)", 3, 
+              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
+\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \"3\"],FontSlant->\"Italic\"]\)", 4, 
+              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
+\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)", 5, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \
-\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
+\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"5\"],FontSlant->\"Italic\"]\)", 6, 
-                    "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"\
-Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
-\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\
-\"x\",FontSlant->\"Italic\"], \
-\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\
+\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*\
+StyleBox[\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"\
+x\",FontSlant->\"Italic\"], \"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\
+\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
 \"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
 \"5\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
 \(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
-\"6\"],FontSlant->\"Italic\"]\)"]) <> ";") <> ToString[
-                   NumberForm[$CellContext`m, {3, 2}]]) <> ",") <> ToString[
-                 NumberForm[$CellContext`s, {3, 2}]]) <> ",") <> ToString[
-               NumberForm[$CellContext`l, {3, 2}]]) <> ")"]}; 
+\"6\"],FontSlant->\"Italic\"]\)"] <> ";" <> ToString[
+              NumberForm[$CellContext`m, {3, 2}]] <> "," <> ToString[
+              NumberForm[$CellContext`s, {3, 2}]] <> "," <> ToString[
+              NumberForm[$CellContext`l, {3, 2}]] <> ")"]}; 
         Typeset`initDone$$ = True),
        SynchronousInitialization->True,
        UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
@@ -4822,7 +4832,6 @@ Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
      Manipulate`InterpretManipulate[1]]}}, 1,
     ImageSize->All]}}, 1,
    ImageSize->Automatic]}}, 1]], "Output",
- Editable->False,
  Deployed->True,
  CellChangeTimes->{
   3.858871175501511*^9, 3.858871829392168*^9, 3.8588720262340994`*^9, 
@@ -4847,8 +4856,13 @@ Italic\"], StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\
    3.8593036688774834`*^9, 3.8593039075072145`*^9, 3.859304205565425*^9, 
    3.8593401964652057`*^9, 3.859342891384987*^9, 3.8593712423441668`*^9, 
    3.859386986840485*^9, 3.8593870482322903`*^9, 3.8593871243552017`*^9, 
-   3.8593880177219687`*^9},
- CellLabel->"Out[97]=",ExpressionUUID->"ee4624ad-023f-4525-be77-84952692287b"]
+   3.8593880177219687`*^9, 3.870407973369671*^9, 3.8704092237206*^9, 
+   3.8704094022689767`*^9, 3.8704117113584976`*^9, 3.870411769380848*^9, 
+   3.8704122114777145`*^9, 3.870417617258525*^9, 3.870417787009637*^9, 
+   3.87041786228106*^9, 3.8704183330381584`*^9, 3.8704187400987806`*^9, 
+   3.8704187866811824`*^9, 3.8704188316644263`*^9},
+ CellLabel->
+  "Out[255]=",ExpressionUUID->"2014d025-c012-468a-b22a-afd4cf3cf4e9"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -4915,7 +4929,8 @@ Cell[TextData[{
   FontSize->10,
   FontColor->GrayLevel[0],ExpressionUUID->
   "f97fb31c-533b-432d-ad9e-589199f4ea9c"],
- StyleBox[": statistical QC rule with decision limit ", "SubsubitemParagraph",
+ StyleBox[": statistical single-value  QC rule with decision limit ", 
+  "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
  StyleBox["m", "SubsubitemParagraph",
@@ -4972,13 +4987,13 @@ Cell[TextData[{
   FormBox[
    RowBox[{"P", "(", 
     RowBox[{"n", ",", "k", ",", "m", ",", 
-     RowBox[{"s", ";", "0"}], ",", "1", ",", "l"}], ")"}], TraditionalForm]], 
-  "SubsubitemParagraph",
+     RowBox[{"s", ";", "0.00"}], ",", "1.00", ",", "l"}], ")"}], 
+   TraditionalForm]], "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0],ExpressionUUID->
   "a0b0832a-1d03-4083-aecc-31b2602f7a26"],
- StyleBox[": probability for rejection of the statistical QC rule  ", 
-  "SubsubitemParagraph",
+ StyleBox[": probability for rejection of the statistical single-value QC \
+rule  ", "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
  Cell[BoxData[
@@ -4987,7 +5002,7 @@ Cell[TextData[{
     RowBox[{
      RowBox[{
       StyleBox["x",
-       FontWeight->"Bold"], ";", "0"}], ",", "1", ",", "l"}], ")"}], 
+       FontWeight->"Bold"], ";", "0.00"}], ",", "1.00", ",", "l"}], ")"}], 
    TraditionalForm]], "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0],ExpressionUUID->
@@ -5041,25 +5056,25 @@ Cell[TextData[{
   FontSize->10,
   FontSlant->"Italic",
   FontColor->GrayLevel[0]],
- StyleBox["as \[ScriptCapitalN](0,1)", "SubsubitemParagraph",
+ StyleBox["as \[ScriptCapitalN](0.00,1.00)", "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]]
 }], "Subsubsubsubsection",
  Editable->False,
  Deployed->True,
  CellChangeTimes->CompressedData["
-1:eJwdzltIUwEAxvFpeJmLZc6MCZZHvIDKYN5ALfHkJUoNZ7lNORZsLX2wddGa
-itUQc6UPuRDaHC4JoZCaU5lzCNMpK1fqxB4SER3EeqiDLDRTDO185+Hj9/C9
-/AnFnSpVMIfDSWUGA5uXd4w1NNnh/rULfR+2j/Uzmp26UDgsOrjaR9FkbO0r
-Cm62lN2Ck78r6+Gh0RGkcdJkGvEvBBrkgqKwaZqMDghL4efvsiqY0pQngzxh
-jhcWaopZN3JGW+IYXet0GzTf1kafxT/yLB7uuIkkeCrwRwxr3zwhoS1by8oR
-uEth5+KWDL62nK+D763vrsPdpA0FbO5VNEJDofgudN57cB/qe9UPoXBlqQf6
-4rr0cPaT0ggdhgQLfD7usUL+W+8E/DZVPQMDBOWGV26EfoEK9UlRPGN47nQm
-zNQvlMOuS2kSKPV7q2FE9oAc/hx5SsG8huN18Jrfq4K+5OUmaGl+2QYfz9va
-YVSkRgt5PTrWHyLrEOtanxWe21JNQr6gfBYeFa1+hGM3B+ehXhy0CNNbx77C
-fI3pCHoaLJEE45D9kTQR/SYBBYe5ng4olxToYNZ+5Ry0K7kLsJh3cQ9Ksw5Y
-9zKCbUpGf8aSHVJmiVM2Q5ODFSUu2N354m+4iyZPXzAdQkcjn8tlVCdLT8D2
-/dwY2H9Gy/ofGMlURQ==
+1:eJwdzl1IUwEAxfFpZK7FsraKBaY3Uh+U0fwKzcKbZlQmznJbci3YWvpg60Nr
+JlZjmKt8yMWgzdEcIVhS12WsOYLpjJUr3cKgQkIHsR7qIouZTQztnvtw+D2c
+lz+hvlinTebxeHnsYGz+2KLtNEMaA7+WYOR5fF0fq8NnSoFD0pWTFoohdzY8
+pOB8+/HzcPR3bRNctXmT9D6GzCX+rYdWlahiwxhDimOSKvj+u7IO5rSWKqFA
+UhyG5fpKzrniF+3prP5vTAd0XDCIM/AP38mEiwEiC26L/ZHBhse3SOguMnDy
+RIEq2DW9oIT99IFG+Mz15AxcyppTw7ZedQu0lssuQd/lq1eguVd3DUpmQj0w
+kt5thhPvNDbote6m4d2XQRcUDoZfwS+v68dhjKACsOZsygeo1m2RZrKmlowV
+wALzVDXsPporh4pouB5uLHqkgj+Hb1OwtHlTIzwVDWthJPtjK6TbHnTAm5Pu
+Trg1TW+Agh4T5w+pa4Bz1uKCZQvaUSgUVU/AtYqvb+HIOeckNMuSpmHe9ZFP
+cL/evgaDzXQawTrguaHYg367iIJD/KARquQHTbBwufYN9Gj4U7BScCQBFYUr
+nIn8ZLeGNZof8kDKIfcpxxnSeeKwH97ruv831c+QOw7ZV6G3Rcjns+qyFZth
+53LJdti3y8AZych5uu8zQ8b3WmgoFc/Ey1idxlAC/gfEUWZc
   "],ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16"],
 
 Cell[TextData[{
@@ -5071,7 +5086,7 @@ Cell[TextData[{
   FontSize->10,
   FontSlant->"Italic",
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.0.0 \nHellenic Complex Systems Laboratory 2022\n\
+ StyleBox["\nVersion Number 1.0.1 \nHellenic Complex Systems Laboratory 2022\n\
 This software is distributed under  an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
@@ -5084,6 +5099,8 @@ International Creative Commons License",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]]
 }], "Subsubsubsubsection",
+ Editable->False,
+ Deployed->True,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
    3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
    3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
@@ -5094,18 +5111,17 @@ International Creative Commons License",
    3.858439619195712*^9, 3.8584396242757125`*^9}, {3.858470952699446*^9, 
    3.858470956204458*^9}, 3.859034366001465*^9, {3.8590345015582256`*^9, 
    3.859034501559221*^9}, {3.8593713043744144`*^9, 3.859371306756342*^9}, 
-   3.8600285018206224`*^9, {3.8600291447242236`*^9, 
-   3.8600291539083023`*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
+   3.8600285018206224`*^9, {3.8600291447242236`*^9, 3.8600291539083023`*^9}, 
+   3.870408066606884*^9},ExpressionUUID->"de371ce7-e914-4864-910f-\
 f5d0251a90b2"]
 }, Open  ]]
 },
 WindowSize->{1429.875, 732.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"TryRealOnly" -> False|>,
-Magnification:>1.3 Inherited,
-FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"2b66b8cd-d418-4165-9617-e3a870dff39e"
+ExpressionUUID->"6abae351-8ec8-4c44-a519-d965561d4f65"
 ]
 (* End of Notebook Content *)
 
@@ -5119,24 +5135,24 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 921, 17, 112, "Title",ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-6b83082cf940",
+Cell[580, 22, 921, 17, 86, "Title",ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-6b83082cf940",
  Evaluatable->False],
-Cell[1504, 41, 903, 16, 137, "Title",ExpressionUUID->"771d281b-3709-4a85-8858-f4a7c81c5ee6",
+Cell[1504, 41, 903, 16, 106, "Title",ExpressionUUID->"771d281b-3709-4a85-8858-f4a7c81c5ee6",
  Evaluatable->False],
-Cell[2410, 59, 666, 15, 169, "Author",ExpressionUUID->"48efdfee-c390-4c7d-aeb4-cdbc08fe34f9"],
-Cell[3079, 76, 366, 8, 40, "Affiliation",ExpressionUUID->"a7902d72-4370-4f53-90c8-0f08bcc41750"],
-Cell[3448, 86, 71853, 1710, 24, "Input",ExpressionUUID->"63bc3ab4-71cf-4776-8857-5bee813b6ed1",
+Cell[2410, 59, 666, 15, 129, "Author",ExpressionUUID->"48efdfee-c390-4c7d-aeb4-cdbc08fe34f9"],
+Cell[3079, 76, 366, 8, 31, "Affiliation",ExpressionUUID->"a7902d72-4370-4f53-90c8-0f08bcc41750"],
+Cell[3448, 86, 72153, 1715, 19, "Input",ExpressionUUID->"63bc3ab4-71cf-4776-8857-5bee813b6ed1",
  CellOpen->False,
  InitializationCell->True,
  CellID->6681815],
 Cell[CellGroupData[{
-Cell[75326, 1800, 70017, 1382, 24, "Input",ExpressionUUID->"101cd957-340d-431e-91ec-e5cb76a39831",
+Cell[75626, 1805, 70672, 1394, 19, "Input",ExpressionUUID->"101cd957-340d-431e-91ec-e5cb76a39831",
  CellOpen->False],
-Cell[145346, 3184, 85737, 1666, 706, "Output",ExpressionUUID->"ee4624ad-023f-4525-be77-84952692287b"]
+Cell[146301, 3201, 85797, 1663, 528, "Output",ExpressionUUID->"2014d025-c012-468a-b22a-afd4cf3cf4e9"]
 }, Open  ]],
-Cell[231098, 4853, 1748, 45, 89, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
-Cell[232849, 4900, 5068, 162, 80, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16"],
-Cell[237920, 5064, 1588, 34, 96, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
+Cell[232113, 4867, 1748, 45, 69, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
+Cell[233864, 4914, 5144, 163, 62, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16"],
+Cell[239011, 5079, 1645, 36, 75, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
 }, Open  ]]
 }
 ]

@@ -10,14 +10,84 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2899545,      57056]
-NotebookOptionsPosition[   2897587,      57014]
-NotebookOutlinePosition[   2898036,      57031]
-CellTagsIndexPosition[   2897993,      57028]
+NotebookDataLength[   2901071,      57066]
+NotebookOptionsPosition[   2899140,      57024]
+NotebookOutlinePosition[   2899587,      57041]
+CellTagsIndexPosition[   2899544,      57038]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+ StyleBox["Intelligent Quality",
+  FontSize->36,
+  FontSlant->"Italic"],
+ StyleBox[" ",
+  FontSize->36]
+}], "Title",
+ Editable->False,
+ Evaluatable->False,
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.779939682019757*^9, 3.7799397638024316`*^9}, {
+   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.7871438970939355`*^9, 
+   3.7871439406473484`*^9}, {3.8023000419716*^9, 3.8023000641656756`*^9}, {
+   3.8043387957771072`*^9, 3.804338807636772*^9}, 3.806637846631281*^9, {
+   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.8066379544882393`*^9, 
+   3.806637999223695*^9}, 3.8066380980786543`*^9, {3.857953992694501*^9, 
+   3.857953998821499*^9}, {3.857954033982502*^9, 3.8579540416065025`*^9}, {
+   3.8579542293985014`*^9, 3.857954232166503*^9}, 3.864325807297393*^9, 
+   3.864520197936945*^9},ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-\
+6b83082cf940"],
+
+Cell[TextData[StyleBox["A Software Tool for Exploring  the Application of \
+Convolution Neural Networks  on Quality Control Samples of Very Small Size\n\
+", "Subtitle",
+ FontSize->24]], "Title",
+ Editable->False,
+ Evaluatable->False,
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.779939682019757*^9, 3.7799397638024316`*^9}, {
+   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.7871438970939355`*^9, 
+   3.7871439406473484`*^9}, {3.8023000419716*^9, 3.8023000641656756`*^9}, {
+   3.8043387957771072`*^9, 3.804338807636772*^9}, 3.806637846631281*^9, {
+   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.8066379544882393`*^9, 
+   3.806637999223695*^9}, 3.8066381021359987`*^9, {3.857954082043501*^9, 
+   3.8579541304695*^9}, {3.857954160814501*^9, 3.857954209198502*^9}, {
+   3.8579542578385005`*^9, 3.857954258494503*^9}, {3.857959008083858*^9, 
+   3.857959009915859*^9}, {3.864436523192639*^9, 3.864436536974848*^9}, 
+   3.864520197936945*^9},ExpressionUUID->"771d281b-3709-4a85-8858-\
+f4a7c81c5ee6"],
+
+Cell[TextData[{
+ "Rallou Chatzimichail, PhD \n",
+ StyleBox["rallou@hcsl.com", "Affiliation"],
+ "\nAristides T. Hatjimihail, MD, PhD\n",
+ StyleBox[" ath@hcsl.com\n ", "Affiliation"]
+}], "Author",
+ Editable->False,
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{
+  3.779939770766173*^9, {3.7799398045208244`*^9, 3.7799398637488203`*^9}, {
+   3.780026882968507*^9, 3.7800269771474247`*^9}, 3.7804577481605635`*^9, {
+   3.857954268390501*^9, 3.857954275782502*^9}, {3.8579567041528177`*^9, 
+   3.85795670672882*^9}, {3.8582956642919564`*^9, 3.8582956869059477`*^9}, 
+   3.864520197936945*^9},ExpressionUUID->"48efdfee-c390-4c7d-aeb4-\
+cdbc08fe34f9"],
+
+Cell["\<\
+Hellenic Complex Systems Laboratory, Kostis Palamas 21, 66131 Drama, Greece.\
+\>", "Affiliation",
+ Editable->False,
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.779939871863575*^9, 3.77994000946682*^9}, {
+   3.7799400566027045`*^9, 3.7799400570186176`*^9}, 3.780026865496773*^9, 
+   3.790605454904579*^9, 
+   3.864520197936945*^9},ExpressionUUID->"a7902d72-4370-4f53-90c8-\
+0f08bcc41750"]
+}, Open  ]],
+
 Cell[BoxData[{
  RowBox[{
   RowBox[{"minfn", "=", 
@@ -1321,8 +1391,7 @@ Cell[BoxData[{
      RowBox[{"{", 
       RowBox[{"0.7717339326558154`", ",", "0.7852760815797442`"}], "}"}], ",", 
      RowBox[{"{", 
-      RowBox[{"0.7839829219365163`", ",", "0.8196956801206245`"}], "}"}], ",",
-      
+      RowBox[{"0.7839829219365163`", ",", "0.8196956801206245`"}], "}"}], ",", 
      RowBox[{"{", 
       RowBox[{"0.7953223684195887`", ",", "0.8506179012117084`"}], "}"}], ",", 
      RowBox[{"{", 
@@ -7171,7 +7240,8 @@ Cell[BoxData[{
      RowBox[{"{", 
       RowBox[{"0.9670102318871359`", ",", "0.9999999744816096`"}], "}"}], ",", 
      RowBox[{"{", 
-      RowBox[{"0.9684290818558271`", ",", "0.9999999899362165`"}], "}"}], ",", 
+      RowBox[{"0.9684290818558271`", ",", "0.9999999899362165`"}], "}"}], ",",
+      
      RowBox[{"{", 
       RowBox[{"0.9697688748177734`", ",", "0.9999999961396863`"}], "}"}], ",", 
      RowBox[{"{", 
@@ -11046,8 +11116,7 @@ Cell[BoxData[{
      RowBox[{"{", 
       RowBox[{"0.9421921605224888`", ",", "0.9908876351230478`"}], "}"}], ",", 
      RowBox[{"{", 
-      RowBox[{"0.9465223118684689`", ",", "0.9943093632436777`"}], "}"}], ",",
-      
+      RowBox[{"0.9465223118684689`", ",", "0.9943093632436777`"}], "}"}], ",", 
      RowBox[{"{", 
       RowBox[{"0.9504673269890396`", ",", "0.9965508362094689`"}], "}"}], ",", 
      RowBox[{"{", 
@@ -15313,8 +15382,7 @@ Cell[BoxData[{
      RowBox[{"{", 
       RowBox[{"0.7638912262611041`", ",", "0.9360834565192793`"}], "}"}], ",", 
      RowBox[{"{", 
-      RowBox[{"0.7721961337180887`", ",", "0.9507365825631481`"}], "}"}], ",",
-      
+      RowBox[{"0.7721961337180887`", ",", "0.9507365825631481`"}], "}"}], ",", 
      RowBox[{"{", 
       RowBox[{"0.7800941343592968`", ",", "0.9626114585460218`"}], "}"}], ",", 
      RowBox[{"{", 
@@ -29032,7 +29100,6 @@ FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
           RowBox[{
           "\"\<\!\(\*StyleBox[\\\"\[Mu]\\\",FontWeight->\\\"Plain\\\",\
 FontSlant->\\\"Italic\\\"]\)\>\"", ",", 
-           
            "\"\<(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"p\\\",FontWeight->\\\
 \"Plain\\\",FontSlant->\\\"Italic\\\"], \
 \\\"S1\\\"],FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*\
@@ -29831,7 +29898,6 @@ StyleBox[\\\"c\\\",FontSlant->\\\"Italic\\\"]]\) detection\>\"", ",",
     RowBox[{"BaseStyle", "\[Rule]", 
      RowBox[{"{", "Medium", "}"}]}]}], "]"}]}]}], "Input",
  Editable->False,
- Deployed->True,
  CellOpen->False,
  InitializationCell->True,
  CellChangeTimes->{
@@ -29886,81 +29952,7 @@ StyleBox[\\\"c\\\",FontSlant->\\\"Italic\\\"]]\) detection\>\"", ",",
    3.8658292909225597`*^9},
  FontWeight->"Bold",
  CellLabel->
-  "In[1817]:=",ExpressionUUID->"d5ff740b-4976-4cf1-9845-c2791265cf19"],
-
-Cell[CellGroupData[{
-
-Cell[TextData[{
- StyleBox["Intelligent Quality",
-  FontSize->36,
-  FontSlant->"Italic"],
- StyleBox[" ",
-  FontSize->36]
-}], "Title",
- Editable->False,
- Deployed->True,
- Evaluatable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
- CellChangeTimes->{{3.779939682019757*^9, 3.7799397638024316`*^9}, {
-   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.7871438970939355`*^9, 
-   3.7871439406473484`*^9}, {3.8023000419716*^9, 3.8023000641656756`*^9}, {
-   3.8043387957771072`*^9, 3.804338807636772*^9}, 3.806637846631281*^9, {
-   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.8066379544882393`*^9, 
-   3.806637999223695*^9}, 3.8066380980786543`*^9, {3.857953992694501*^9, 
-   3.857953998821499*^9}, {3.857954033982502*^9, 3.8579540416065025`*^9}, {
-   3.8579542293985014`*^9, 3.857954232166503*^9}, 3.864325807297393*^9, 
-   3.864520197936945*^9},ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-\
-6b83082cf940"],
-
-Cell[TextData[StyleBox["A Software Tool for Exploring  the Application of \
-Convolution Neural Networks  on Quality Control Samples of Very Small Size\n\
-", "Subtitle",
- FontSize->24]], "Title",
- Editable->False,
- Deployed->True,
- Evaluatable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
- CellChangeTimes->{{3.779939682019757*^9, 3.7799397638024316`*^9}, {
-   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.7871438970939355`*^9, 
-   3.7871439406473484`*^9}, {3.8023000419716*^9, 3.8023000641656756`*^9}, {
-   3.8043387957771072`*^9, 3.804338807636772*^9}, 3.806637846631281*^9, {
-   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.8066379544882393`*^9, 
-   3.806637999223695*^9}, 3.8066381021359987`*^9, {3.857954082043501*^9, 
-   3.8579541304695*^9}, {3.857954160814501*^9, 3.857954209198502*^9}, {
-   3.8579542578385005`*^9, 3.857954258494503*^9}, {3.857959008083858*^9, 
-   3.857959009915859*^9}, {3.864436523192639*^9, 3.864436536974848*^9}, 
-   3.864520197936945*^9},ExpressionUUID->"771d281b-3709-4a85-8858-\
-f4a7c81c5ee6"],
-
-Cell[TextData[{
- "Rallou Chatzimichail, PhD \n",
- StyleBox["rallou@hcsl.com", "Affiliation"],
- "\nAristides T. Hatjimihail, MD, PhD\n",
- StyleBox[" ath@hcsl.com\n ", "Affiliation"]
-}], "Author",
- Editable->False,
- Deployed->True,
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
- CellChangeTimes->{
-  3.779939770766173*^9, {3.7799398045208244`*^9, 3.7799398637488203`*^9}, {
-   3.780026882968507*^9, 3.7800269771474247`*^9}, 3.7804577481605635`*^9, {
-   3.857954268390501*^9, 3.857954275782502*^9}, {3.8579567041528177`*^9, 
-   3.85795670672882*^9}, {3.8582956642919564`*^9, 3.8582956869059477`*^9}, 
-   3.864520197936945*^9},ExpressionUUID->"48efdfee-c390-4c7d-aeb4-\
-cdbc08fe34f9"],
-
-Cell["\<\
-Hellenic Complex Systems Laboratory, Kostis Palamas 21, 66131 Drama, Greece.\
-\>", "Affiliation",
- Editable->False,
- Deployed->True,
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
- CellChangeTimes->{{3.779939871863575*^9, 3.77994000946682*^9}, {
-   3.7799400566027045`*^9, 3.7799400570186176`*^9}, 3.780026865496773*^9, 
-   3.790605454904579*^9, 
-   3.864520197936945*^9},ExpressionUUID->"a7902d72-4370-4f53-90c8-\
-0f08bcc41750"]
-}, Open  ]],
+  "In[967]:=",ExpressionUUID->"d5ff740b-4976-4cf1-9845-c2791265cf19"],
 
 Cell[CellGroupData[{
 
@@ -29975,7 +29967,7 @@ Cell[BoxData[
         RowBox[{"{", "\[IndentingNewLine]", 
          RowBox[{
           RowBox[{
-          "\"\<NN vs a SVS QC function with equal pfr\>\"", "\[Rule]", 
+          "\"\<NN vs a SSV QC function with equal pfr\>\"", "\[Rule]", 
            "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
@@ -30141,7 +30133,7 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "]"}]}], ",", 
           "\[IndentingNewLine]", 
           RowBox[{
-          "\"\<NN vs SVS QC function\>\"", "\[Rule]", "\[IndentingNewLine]", 
+          "\"\<NN vs SSV QC function\>\"", "\[Rule]", "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
              RowBox[{
@@ -30310,7 +30302,7 @@ FontSlant->\\\"Italic\\\"], \
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<SVS QC function\>\"", ",", "Bold"}], "]"}], ",", 
+              RowBox[{"\"\<SSV QC function\>\"", ",", "Bold"}], "]"}], ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
               RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], ",",
@@ -30639,7 +30631,7 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "]"}]}], ",", 
           "\[IndentingNewLine]", 
           RowBox[{
-          "\"\<SVS vs SVS QC function\>\"", "->", "\[IndentingNewLine]", 
+          "\"\<SSV vs SSV QC function\>\"", "->", "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
              RowBox[{
@@ -30704,7 +30696,7 @@ FontSlant->\\\"Italic\\\"], \
                RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "}"}], ",", 
              "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<first SVS QC function\>\"", ",", "Bold"}], "]"}], 
+              RowBox[{"\"\<first SSV QC function\>\"", ",", "Bold"}], "]"}], 
              ",", "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
               RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], ",",
@@ -30746,7 +30738,7 @@ FontSlant->\\\"Italic\\\"], \
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<second SVS QC function\>\"", ",", "Bold"}], "]"}], 
+              RowBox[{"\"\<second SSV QC function\>\"", ",", "Bold"}], "]"}], 
              ",", "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
               RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], ",",
@@ -30799,7 +30791,7 @@ FontSlant->\\\"Italic\\\"], \
         RowBox[{"{", "\[IndentingNewLine]", 
          RowBox[{
           RowBox[{
-          "\"\<NN vs a SVS QC function with equal pfr\>\"", "\[Rule]", 
+          "\"\<NN vs a SSV QC function with equal pfr\>\"", "\[Rule]", 
            "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
@@ -30873,7 +30865,6 @@ FontSlant->\\\"Italic\\\"], \
 \\\"Italic\\\"]\)\>\""}], ",", "\[IndentingNewLine]", 
                  RowBox[{
                  "3", "\[Rule]", 
-                  
                   "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"N\\\",\
 FontSlant->\\\"Italic\\\"], \
 \\\"3\\\"],FontWeight->\\\"Plain\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontWeight->\\\
@@ -30953,7 +30944,7 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "]"}]}], ",", 
           "\[IndentingNewLine]", 
           RowBox[{
-          "\"\<NN vs SVS QC function\>\"", "\[Rule]", "\[IndentingNewLine]", 
+          "\"\<NN vs SSV QC function\>\"", "\[Rule]", "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
              RowBox[{
@@ -31108,7 +31099,7 @@ FontSlant->\\\"Italic\\\"], \
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<SVS QC function\>\"", ",", "Bold"}], "]"}], ",", 
+              RowBox[{"\"\<SSV QC function\>\"", ",", "Bold"}], "]"}], ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
               RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], ",",
@@ -31324,7 +31315,6 @@ FontSlant->\\\"Italic\\\"], \
                 RowBox[{
                  RowBox[{
                  "1", "\[Rule]", 
-                  
                   "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"N\\\",\
 FontSlant->\\\"Italic\\\"], \
 \\\"1\\\"],FontWeight->\\\"Plain\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontWeight->\\\
@@ -31420,7 +31410,7 @@ FontSlant->\\\"Italic\\\"], \
              RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "]"}]}], ",", 
           "\[IndentingNewLine]", 
           RowBox[{
-          "\"\<SVS vs SVS QC function\>\"", "->", "\[IndentingNewLine]", 
+          "\"\<SSV vs SSV QC function\>\"", "->", "\[IndentingNewLine]", 
            RowBox[{"Manipulate", "[", 
             RowBox[{
              RowBox[{
@@ -31471,7 +31461,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7",
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<first SVS QC function\>\"", ",", "Bold"}], "]"}], 
+              RowBox[{"\"\<first SSV QC function\>\"", ",", "Bold"}], "]"}], 
              ",", "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
               RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], ",",
@@ -31513,7 +31503,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7",
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
              "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
-              RowBox[{"\"\<second SVS QC function\>\"", ",", "Bold"}], "]"}], 
+              RowBox[{"\"\<second SSV QC function\>\"", ",", "Bold"}], "]"}], 
              ",", "\[IndentingNewLine]", 
              RowBox[{"Style", "[", 
               RowBox[{"\"\<size of QC sample\>\"", ",", "Plain"}], "]"}], ",",
@@ -31563,7 +31553,6 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7",
    RowBox[{"ImageSize", "\[Rule]", "Automatic"}]}], "\[IndentingNewLine]", 
   "]"}]], "Input",
  Editable->False,
- Deployed->True,
  CellOpen->False,
  CellChangeTimes->{{3.864347326588585*^9, 3.864347430987009*^9}, {
    3.8643474742465515`*^9, 3.8643475052669134`*^9}, {3.8643475484061675`*^9, 
@@ -31637,21 +31626,20 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7",
    3.865824643418391*^9, 3.8658246598193793`*^9}, {3.8670649707132993`*^9, 
    3.867064970927777*^9}, {3.867065028014097*^9, 3.8670650281840997`*^9}, 
    3.8670653033125167`*^9, {3.8670653484367285`*^9, 3.8670654216928577`*^9}, 
-   3.867066049070212*^9},
+   3.867066049070212*^9, {3.87042161306981*^9, 3.8704216132897654`*^9}},
  CellLabel->
-  "In[2139]:=",ExpressionUUID->"2963d90a-7cde-4200-9bed-89dd56e54c73"],
+  "In[1288]:=",ExpressionUUID->"2963d90a-7cde-4200-9bed-89dd56e54c73"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"QC plots\"\>"->
-  TabViewBox[{{1,"\<\"NN vs a SVS QC function with equal pfr\"\>"->
+  TabViewBox[{{1,"\<\"NN vs a SSV QC function with equal pfr\"\>"->
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`f$$ = $CellContext`vf, $CellContext`i$$ = 
-      6, $CellContext`k$$ = $CellContext`n$$, $CellContext`n$$ = 
-      4, $CellContext`t$$ = 2, Typeset`show$$ = True, 
-      Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-      Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-      "\"untitled\"", Typeset`specs$$ = {{{
+      6, $CellContext`k$$ = 4, $CellContext`n$$ = 4, $CellContext`t$$ = 2, 
+      Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+      Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ =
+       1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
          Hold[$CellContext`f$$], $CellContext`vf, "type"}, {$CellContext`vf -> 
          "probabilities", $CellContext`df -> "difference", $CellContext`rdf -> 
          "relative difference", $CellContext`rf -> "ratio"}}, {{
@@ -31701,7 +31689,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k$$], $CellContext`n$$, "k"}, 1, 
+         Hold[$CellContext`k$$], 4, "k"}, 1, 
         Dynamic[$CellContext`n$$], 1}}, Typeset`size$$ = {
       476., {163.73403309800193`, 169.465966901998}}, Typeset`update$$ = 0, 
       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
@@ -38991,6 +38979,10 @@ $CellContext`dl[0.00722875, 2] =
          2.9094260335386834325788173214308816328705527277615885940647101755062\
 865020186044496221209393879948506210351755140943104263364834015898710655768749\
 7055387368085666924691331471466224051808927400644733762699947426137`200., \
+$CellContext`dl[0.00923375, 3] = 
+         2.9588953649951318257776442600025480714707828338065626356704990081308\
+757885403990814193656535485704403984718157852173782444737800779289782056506456\
+3009526708415551540139319777662530665274085365320368118064777614593`200., \
 $CellContext`dl[0.01, 4] = 
          3.0222020267152734241444216324600189638863800444317252106844810770035\
 110150291883113191527649849080283105207854412769454246721085256037194034772697\
@@ -39003,6 +38995,10 @@ $CellContext`dl[0.0147863, 4] =
          2.9012096720135225617610295477572515479296532503911088815973739335219\
 991441935462890093323585417381937265781582089335756704997736276987284123053528\
 1929563675022810344198924881338347665947698693584051861785245228698`200., \
+$CellContext`dl[0.01620375, 2] = 
+         2.6464162834646802143899434545808422363347940847301265032414951802000\
+862783806389721286149951142729456428019483178354676653179918858760680028072519\
+7525086820246572545424915305560912929955606551259400451712622923911`200., \
 $CellContext`dl[0.02, 4] = 
          2.8045975762403724079546880763173710610776688854758332479301174915140\
 346558616283906704017804626704343272185620931724841548907954472218411756324701\
@@ -39016,10 +39012,10 @@ $CellContext`dl[0.04015875, 4] =
 578968659284816276783396735695407187309395089767053721482641959932189847632709\
 0368325578280972925930340790030222597893716366494427237472758295092`200., \
 $CellContext`dl[0.1014825, 4] = 
-         2.\
-220311914229519076572782793433997487899545126406461193665796693370315311757123\
-262992102243069333044135725485853085436469055606647881671641213715451887945369\
-0068712153572514650241889185780616745674728212793786476`200., $CellContext`dl[
+         2.2203119142295190765727827934339974878995451264064611936657966933703\
+153117571232629921022430693330441357254858530854364690556066478816716412137154\
+518879453690068712153572514650241889185780616745674728212793786476`200., \
+$CellContext`dl[
            $CellContext`pfr[8, 3], 4] = ReplaceAll[$CellContext`d, 
            FindRoot[
            N[1 - (-Erf[(-$CellContext`d + 0)/(Sqrt[2] 1)] + 
@@ -39227,16 +39223,15 @@ $CellContext`ped[$CellContext`m,
       UntrackedVariables:>{Typeset`size$$}], "Manipulate",
      Deployed->True,
      StripOnInput->False],
-    Manipulate`InterpretManipulate[1]]}, {2,"\<\"NN vs SVS QC function\"\>"->
+    Manipulate`InterpretManipulate[1]]}, {2,"\<\"NN vs SSV QC function\"\>"->
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`f$$ = $CellContext`vf, $CellContext`i1$$ =
-       6, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
-$CellContext`n2$$, $CellContext`n1$$ = 4, $CellContext`n2$$ = 
-      4, $CellContext`p2$$ = 0.01, $CellContext`t$$ = 2, Typeset`show$$ = 
-      True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-      Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-      "\"untitled\"", Typeset`specs$$ = {{{
+       6, $CellContext`k1$$ = 4, $CellContext`k2$$ = 4, $CellContext`n1$$ = 
+      4, $CellContext`n2$$ = 4, $CellContext`p2$$ = 0.01, $CellContext`t$$ = 
+      2, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+      Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ =
+       1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
          Hold[$CellContext`f$$], $CellContext`vf, "type"}, {$CellContext`vf -> 
          "probabilities", $CellContext`df -> "difference", $CellContext`rdf -> 
          "relative difference", $CellContext`rf -> "ratio"}}, {{
@@ -39287,10 +39282,10 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k1$$], $CellContext`n1$$, "k"}, 1, 
+         Hold[$CellContext`k1$$], 4, "k"}, 1, 
         Dynamic[$CellContext`n1$$], 1}, {
         Hold[
-         Style["SVS QC function", Bold]], Manipulate`Dump`ThisIsNotAControl}, {
+         Style["SSV QC function", Bold]], Manipulate`Dump`ThisIsNotAControl}, {
         Hold[
          Style["size of QC sample", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
@@ -39298,7 +39293,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k2$$], $CellContext`n2$$, "k"}, 1, 
+         Hold[$CellContext`k2$$], 4, "k"}, 1, 
         Dynamic[$CellContext`n2$$], 1}, {
         Hold[
          Style["probability for for false rejection", Plain]], 
@@ -39393,7 +39388,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"},
            Plain], {{$CellContext`k1$$, $CellContext`n1$$, "k"}, 1, 
            Dynamic[$CellContext`n1$$], 1, ImageSize -> Tiny, Appearance -> 
            "Labeled"}, Delimiter, 
-          Style["SVS QC function", Bold], 
+          Style["SSV QC function", Bold], 
           Style[
           "size of QC sample", Plain], {{$CellContext`n2$$, 4, "n"}, 1, 4, 1, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
@@ -41298,6 +41293,10 @@ $CellContext`dl[0.00722875, 2] =
          2.9094260335386834325788173214308816328705527277615885940647101755062\
 865020186044496221209393879948506210351755140943104263364834015898710655768749\
 7055387368085666924691331471466224051808927400644733762699947426137`200., \
+$CellContext`dl[0.00923375, 3] = 
+         2.9588953649951318257776442600025480714707828338065626356704990081308\
+757885403990814193656535485704403984718157852173782444737800779289782056506456\
+3009526708415551540139319777662530665274085365320368118064777614593`200., \
 $CellContext`dl[0.01, 4] = 
          3.0222020267152734241444216324600189638863800444317252106844810770035\
 110150291883113191527649849080283105207854412769454246721085256037194034772697\
@@ -41310,6 +41309,10 @@ $CellContext`dl[0.0147863, 4] =
          2.9012096720135225617610295477572515479296532503911088815973739335219\
 991441935462890093323585417381937265781582089335756704997736276987284123053528\
 1929563675022810344198924881338347665947698693584051861785245228698`200., \
+$CellContext`dl[0.01620375, 2] = 
+         2.6464162834646802143899434545808422363347940847301265032414951802000\
+862783806389721286149951142729456428019483178354676653179918858760680028072519\
+7525086820246572545424915305560912929955606551259400451712622923911`200., \
 $CellContext`dl[0.02, 4] = 
          2.8045975762403724079546880763173710610776688854758332479301174915140\
 346558616283906704017804626704343272185620931724841548907954472218411756324701\
@@ -43073,7 +43076,6 @@ StyleBox[\"p\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
             Plot[{($CellContext`qcn[$CellContext`t, $CellContext`n1, \
 $CellContext`k1, $CellContext`i1, $CellContext`r][$CellContext`m] - \
 $CellContext`pedfr[$CellContext`t, $CellContext`m, 
-                
                 1, $CellContext`n2, $CellContext`k2, \
 $CellContext`p2])/$CellContext`qcn[$CellContext`t, $CellContext`n1, \
 $CellContext`k1, $CellContext`i1, $CellContext`r][$CellContext`m]}, \
@@ -43538,13 +43540,11 @@ $CellContext`i]], $CellContext`t], {
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`f$$ = $CellContext`vf, $CellContext`i1$$ =
-       6, $CellContext`i2$$ = 
-      8, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
-$CellContext`n2$$, $CellContext`n1$$ = 4, $CellContext`n2$$ = 
-      4, $CellContext`t$$ = 2, Typeset`show$$ = True, 
-      Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-      Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-      "\"untitled\"", Typeset`specs$$ = {{{
+       6, $CellContext`i2$$ = 8, $CellContext`k1$$ = 4, $CellContext`k2$$ = 
+      4, $CellContext`n1$$ = 4, $CellContext`n2$$ = 4, $CellContext`t$$ = 2, 
+      Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+      Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ =
+       1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
          Hold[$CellContext`f$$], $CellContext`vf, "type"}, {$CellContext`vf -> 
          "probabilities", $CellContext`df -> "difference", $CellContext`rdf -> 
          "relative difference", $CellContext`rf -> "ratio"}}, {{
@@ -43595,7 +43595,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k1$$], $CellContext`n1$$, "k"}, 1, 
+         Hold[$CellContext`k1$$], 4, "k"}, 1, 
         Dynamic[$CellContext`n1$$], 1}, {
         Hold[
          Style["second neural network QC function", Bold]], 
@@ -43643,7 +43643,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k2$$], $CellContext`n2$$, "k"}, 1, 
+         Hold[$CellContext`k2$$], 4, "k"}, 1, 
         Dynamic[$CellContext`n2$$], 1}}, Typeset`size$$ = {
       476., {150.73403309800196`, 156.46596690199803`}}, Typeset`update$$ = 0,
        Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
@@ -47677,12 +47677,12 @@ $CellContext`i]], $CellContext`t], {
       UntrackedVariables:>{Typeset`size$$}], "Manipulate",
      Deployed->True,
      StripOnInput->False],
-    Manipulate`InterpretManipulate[1]]}, {4,"\<\"SVS vs SVS QC function\"\>"->
+    Manipulate`InterpretManipulate[1]]}, {4,"\<\"SSV vs SSV QC function\"\>"->
    TagBox[
     StyleBox[
-     DynamicModuleBox[{$CellContext`f$$ = $CellContext`vf, $CellContext`k1$$ \
-= $CellContext`n1$$, $CellContext`k2$$ = $CellContext`n2$$, $CellContext`n1$$ \
-= 4, $CellContext`n2$$ = 4, $CellContext`p1$$ = 0.01, $CellContext`p2$$ = 
+     DynamicModuleBox[{$CellContext`f$$ = $CellContext`vf, $CellContext`k1$$ =
+       4, $CellContext`k2$$ = 4, $CellContext`n1$$ = 4, $CellContext`n2$$ = 
+      4, $CellContext`p1$$ = 0.01, $CellContext`p2$$ = 
       0.005, $CellContext`t$$ = 2, Typeset`show$$ = True, 
       Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
       Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
@@ -47692,7 +47692,7 @@ $CellContext`i]], $CellContext`t], {
          "relative difference", $CellContext`rf -> "ratio"}}, {{
          Hold[$CellContext`t$$], 2, "vs"}, {1 -> "\[Sigma]", 2 -> "\[Mu]"}}, {
         Hold[
-         Style["first SVS QC function", Bold]], 
+         Style["first SSV QC function", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {
         Hold[
          Style["size of QC sample", Plain]], 
@@ -47701,14 +47701,14 @@ $CellContext`i]], $CellContext`t], {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k1$$], $CellContext`n1$$, "k"}, 1, 
+         Hold[$CellContext`k1$$], 4, "k"}, 1, 
         Dynamic[$CellContext`n1$$], 1}, {
         Hold[
          Style["probability for for false rejection", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`p1$$], 0.01, "pfr"}, 1.*^-6, 0.1, 1.*^-6}, {
         Hold[
-         Style["second SVS QC function", Bold]], 
+         Style["second SSV QC function", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {
         Hold[
          Style["size of QC sample", Plain]], 
@@ -47717,7 +47717,7 @@ $CellContext`i]], $CellContext`t], {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k2$$], $CellContext`n2$$, "k"}, 1, 
+         Hold[$CellContext`k2$$], 4, "k"}, 1, 
         Dynamic[$CellContext`n2$$], 1}, {
         Hold[
          Style["probability for for false rejection", Plain]], 
@@ -47767,7 +47767,7 @@ $CellContext`p1$$, $CellContext`n2$$, $CellContext`k2$$, $CellContext`p2$$]]},
            ControlPlacement -> Left}, {{$CellContext`t$$, 2, "vs"}, {
            1 -> "\[Sigma]", 2 -> "\[Mu]"}, ControlPlacement -> Left}, 
           Delimiter, 
-          Style["first SVS QC function", Bold], 
+          Style["first SSV QC function", Bold], 
           Style[
           "size of QC sample", Plain], {{$CellContext`n1$$, 4, "n"}, 1, 4, 1, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
@@ -47780,7 +47780,7 @@ $CellContext`p1$$, $CellContext`n2$$, $CellContext`k2$$, $CellContext`p2$$]]},
           "probability for for false rejection", 
            Plain], {{$CellContext`p1$$, 0.01, "pfr"}, 1.*^-6, 0.1, 1.*^-6, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
-          Style["second SVS QC function", Bold], 
+          Style["second SSV QC function", Bold], 
           Style[
           "size of QC sample", Plain], {{$CellContext`n2$$, 4, "n"}, 1, 4, 1, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
@@ -47909,6 +47909,10 @@ $CellContext`dl[0.00722875, 2] =
          2.9094260335386834325788173214308816328705527277615885940647101755062\
 865020186044496221209393879948506210351755140943104263364834015898710655768749\
 7055387368085666924691331471466224051808927400644733762699947426137`200., \
+$CellContext`dl[0.00923375, 3] = 
+         2.9588953649951318257776442600025480714707828338065626356704990081308\
+757885403990814193656535485704403984718157852173782444737800779289782056506456\
+3009526708415551540139319777662530665274085365320368118064777614593`200., \
 $CellContext`dl[0.01, 4] = 
          3.0222020267152734241444216324600189638863800444317252106844810770035\
 110150291883113191527649849080283105207854412769454246721085256037194034772697\
@@ -47918,10 +47922,14 @@ $CellContext`dl[0.01038125, 4] =
 147837377593240622557474436961312840631638639973639118631673134228967025623142\
 087664472065302824427383908037085033741333939967045954142638457099`200., \
 $CellContext`dl[0.0147863, 4] = 
+         2.9012096720135225617610295477572515479296532503911088815973739335219\
+991441935462890093323585417381937265781582089335756704997736276987284123053528\
+1929563675022810344198924881338347665947698693584051861785245228698`200., \
+$CellContext`dl[0.01620375, 2] = 
          2.\
-901209672013522561761029547757251547929653250391108881597373933521999144193546\
-289009332358541738193726578158208933575670499773627698728412305352819295636750\
-22810344198924881338347665947698693584051861785245228698`200., \
+646416283464680214389943454580842236334794084730126503241495180200086278380638\
+972128614995114272945642801948317835467665317991885876068002807251975250868202\
+46572545424915305560912929955606551259400451712622923911`200., \
 $CellContext`dl[0.02, 4] = 
          2.8045975762403724079546880763173710610776688854758332479301174915140\
 346558616283906704017804626704343272185620931724841548907954472218411756324701\
@@ -48446,15 +48454,14 @@ $CellContext`p2], 6]],
      StripOnInput->False],
     Manipulate`InterpretManipulate[1]]}}, 1,
    ImageSize->All]}, {2,"\<\"QC calculators\"\>"->
-  TabViewBox[{{1,"\<\"NN vs a SVS QC function with equal pfr\"\>"->
+  TabViewBox[{{1,"\<\"NN vs a SSV QC function with equal pfr\"\>"->
    TagBox[
     StyleBox[
-     DynamicModuleBox[{$CellContext`i$$ = 
-      6, $CellContext`k$$ = $CellContext`n$$, $CellContext`mcr$$ = 
-      3, $CellContext`n$$ = 4, $CellContext`scr$$ = 4, Typeset`show$$ = True, 
-      Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-      Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-      "\"untitled\"", Typeset`specs$$ = {{
+     DynamicModuleBox[{$CellContext`i$$ = 6, $CellContext`k$$ = 
+      4, $CellContext`mcr$$ = 3, $CellContext`n$$ = 4, $CellContext`scr$$ = 4,
+       Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+      Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ =
+       1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
         Hold[
          Style["parameters of the measurement process ", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {
@@ -48513,10 +48520,10 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k$$], $CellContext`n$$, "k"}, 1, 
-        Dynamic[$CellContext`n$$], 1}}, Typeset`size$$ = {
-      512., {108.400390625, 114.599609375}}, Typeset`update$$ = 0, 
-      Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+         Hold[$CellContext`k$$], 4, "k"}, 1, 
+        Dynamic[$CellContext`n$$], 1}}, Typeset`size$$ = Automatic, 
+      Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+      False}, 
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`i$$ = 
@@ -48588,7 +48595,6 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"},
            "Labeled"}, Delimiter}, 
         "Options" :> {TrackedSymbols -> True, ControlPlacement -> Left}, 
         "DefaultOptions" :> {}],
-       ImageSizeCache->{758., {139.13403309800196`, 144.86596690199804`}},
        SingleEvaluation->True],
       Deinitialization:>None,
       DynamicModuleValues:>{},
@@ -49008,6 +49014,10 @@ $CellContext`dl[0.00722875, 2] =
          2.9094260335386834325788173214308816328705527277615885940647101755062\
 865020186044496221209393879948506210351755140943104263364834015898710655768749\
 7055387368085666924691331471466224051808927400644733762699947426137`200., \
+$CellContext`dl[0.00923375, 3] = 
+         2.9588953649951318257776442600025480714707828338065626356704990081308\
+757885403990814193656535485704403984718157852173782444737800779289782056506456\
+3009526708415551540139319777662530665274085365320368118064777614593`200., \
 $CellContext`dl[0.01, 4] = 
          3.0222020267152734241444216324600189638863800444317252106844810770035\
 110150291883113191527649849080283105207854412769454246721085256037194034772697\
@@ -49020,6 +49030,10 @@ $CellContext`dl[0.0147863, 4] =
          2.9012096720135225617610295477572515479296532503911088815973739335219\
 991441935462890093323585417381937265781582089335756704997736276987284123053528\
 1929563675022810344198924881338347665947698693584051861785245228698`200., \
+$CellContext`dl[0.01620375, 2] = 
+         2.6464162834646802143899434545808422363347940847301265032414951802000\
+862783806389721286149951142729456428019483178354676653179918858760680028072519\
+7525086820246572545424915305560912929955606551259400451712622923911`200., \
 $CellContext`dl[0.02, 4] = 
          2.8045975762403724079546880763173710610776688854758332479301174915140\
 346558616283906704017804626704343272185620931724841548907954472218411756324701\
@@ -50979,6 +50993,7 @@ $CellContext`ped[$CellContext`m,
             Blank[]], 
            Pattern[$CellContext`n, 
             Blank[]]] := Switch[$CellContext`t, 1, 
+           
            If[$CellContext`k < $CellContext`n, $CellContext`ped[
              0, $CellContext`s, $CellContext`d, $CellContext`k] + \
 $CellContext`ped[
@@ -51004,12 +51019,11 @@ $CellContext`ped[$CellContext`m,
       UntrackedVariables:>{Typeset`size$$}], "Manipulate",
      Deployed->True,
      StripOnInput->False],
-    Manipulate`InterpretManipulate[1]]}, {2,"\<\"NN vs SVS QC function\"\>"->
+    Manipulate`InterpretManipulate[1]]}, {2,"\<\"NN vs SSV QC function\"\>"->
    TagBox[
     StyleBox[
-     DynamicModuleBox[{$CellContext`i1$$ = 
-      6, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
-$CellContext`n2$$, $CellContext`mcr$$ = 3, $CellContext`n1$$ = 
+     DynamicModuleBox[{$CellContext`i1$$ = 6, $CellContext`k1$$ = 
+      4, $CellContext`k2$$ = 4, $CellContext`mcr$$ = 3, $CellContext`n1$$ = 
       4, $CellContext`n2$$ = 4, $CellContext`p2$$ = 0.01, $CellContext`scr$$ =
        4, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
       Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ =
@@ -51073,10 +51087,10 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k1$$], $CellContext`n1$$, "k"}, 1, 
+         Hold[$CellContext`k1$$], 4, "k"}, 1, 
         Dynamic[$CellContext`n1$$], 1}, {
         Hold[
-         Style["SVS QC function", Bold]], Manipulate`Dump`ThisIsNotAControl}, {
+         Style["SSV QC function", Bold]], Manipulate`Dump`ThisIsNotAControl}, {
         Hold[
          Style["size of QC sample", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
@@ -51084,15 +51098,14 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k2$$], $CellContext`n2$$, "k"}, 1, 
+         Hold[$CellContext`k2$$], 4, "k"}, 1, 
         Dynamic[$CellContext`n2$$], 1}, {
         Hold[
          Style["probability for for false rejection", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`p2$$], 0.01, "pfr"}, 1.*^-6, 0.1, 1.*^-6}}, 
-      Typeset`size$$ = {512., {108.400390625, 114.599609375}}, 
-      Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
-      False}, 
+      Typeset`size$$ = Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
+      Typeset`skipInitDone$$ = False}, 
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`i1$$ = 
@@ -51124,10 +51137,10 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 1, 7, 0.01, ImageSize -> Tiny,
           Style["neural network QC function", Bold], 
           Style[
           "neural network", Plain], {{$CellContext`i1$$, 6, "NN"}, {
-           1 -> 
-            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"]\
-, \"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\
-\!\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
+           1 -> "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"\
+Italic\"], \
+\"1\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\!\
+\(\*StyleBox[\"x\",FontWeight->\"Bold\",FontSlant->\"Italic\"]\)\!\(\*\
 StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)", 2 -> 
             "\!\(\*StyleBox[SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"]\
 , \"2\"],FontWeight->\"Plain\"]\)\!\(\*StyleBox[\"(\",FontWeight->\"Plain\"]\)\
@@ -51166,7 +51179,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"},
            Plain], {{$CellContext`k1$$, $CellContext`n1$$, "k"}, 1, 
            Dynamic[$CellContext`n1$$], 1, ImageSize -> Tiny, Appearance -> 
            "Labeled"}, Delimiter, 
-          Style["SVS QC function", Bold], 
+          Style["SSV QC function", Bold], 
           Style[
           "size of QC sample", Plain], {{$CellContext`n2$$, 4, "n"}, 1, 4, 1, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
@@ -51181,7 +51194,6 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"},
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter}, 
         "Options" :> {TrackedSymbols -> True, ControlPlacement -> Left}, 
         "DefaultOptions" :> {}],
-       ImageSizeCache->{758., {196.13403309800196`, 201.86596690199804`}},
        SingleEvaluation->True],
       Deinitialization:>None,
       DynamicModuleValues:>{},
@@ -51603,6 +51615,10 @@ $CellContext`dl[0.00722875, 2] =
          2.9094260335386834325788173214308816328705527277615885940647101755062\
 865020186044496221209393879948506210351755140943104263364834015898710655768749\
 7055387368085666924691331471466224051808927400644733762699947426137`200., \
+$CellContext`dl[0.00923375, 3] = 
+         2.9588953649951318257776442600025480714707828338065626356704990081308\
+757885403990814193656535485704403984718157852173782444737800779289782056506456\
+3009526708415551540139319777662530665274085365320368118064777614593`200., \
 $CellContext`dl[0.01, 4] = 
          3.0222020267152734241444216324600189638863800444317252106844810770035\
 110150291883113191527649849080283105207854412769454246721085256037194034772697\
@@ -51615,6 +51631,10 @@ $CellContext`dl[0.0147863, 4] =
          2.9012096720135225617610295477572515479296532503911088815973739335219\
 991441935462890093323585417381937265781582089335756704997736276987284123053528\
 1929563675022810344198924881338347665947698693584051861785245228698`200., \
+$CellContext`dl[0.01620375, 2] = 
+         2.6464162834646802143899434545808422363347940847301265032414951802000\
+862783806389721286149951142729456428019483178354676653179918858760680028072519\
+7525086820246572545424915305560912929955606551259400451712622923911`200., \
 $CellContext`dl[0.02, 4] = 
          2.8045975762403724079546880763173710610776688854758332479301174915140\
 346558616283906704017804626704343272185620931724841548907954472218411756324701\
@@ -53604,12 +53624,11 @@ $CellContext`ped[$CellContext`m,
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`i1$$ = 6, $CellContext`i2$$ = 
-      8, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
-$CellContext`n2$$, $CellContext`mcr$$ = 3, $CellContext`n1$$ = 
-      4, $CellContext`n2$$ = 4, $CellContext`scr$$ = 4, Typeset`show$$ = True,
-       Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-      Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-      "\"untitled\"", Typeset`specs$$ = {{
+      8, $CellContext`k1$$ = 4, $CellContext`k2$$ = 4, $CellContext`mcr$$ = 
+      3, $CellContext`n1$$ = 4, $CellContext`n2$$ = 4, $CellContext`scr$$ = 4,
+       Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+      Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ =
+       1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
         Hold[
          Style["parameters of the measurement process ", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {
@@ -53669,7 +53688,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k1$$], $CellContext`n1$$, "k"}, 1, 
+         Hold[$CellContext`k1$$], 4, "k"}, 1, 
         Dynamic[$CellContext`n1$$], 1}, {
         Hold[
          Style["second neural network QC function", Bold]], 
@@ -53717,14 +53736,13 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k2$$], $CellContext`n2$$, "k"}, 1, 
-        Dynamic[$CellContext`n2$$], 1}}, Typeset`size$$ = {
-      499., {95.400390625, 101.599609375}}, Typeset`update$$ = 0, 
-      Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+         Hold[$CellContext`k2$$], 4, "k"}, 1, 
+        Dynamic[$CellContext`n2$$], 1}}, Typeset`size$$ = Automatic, 
+      Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+      False}, 
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`i1$$ = 6, $CellContext`i2$$ = 
-          
           8, $CellContext`k1$$ = $CellContext`n1$$, $CellContext`k2$$ = \
 $CellContext`n2$$, $CellContext`mcr$$ = 3, $CellContext`n1$$ = 
           4, $CellContext`n2$$ = 4, $CellContext`scr$$ = 4}, 
@@ -53842,7 +53860,6 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"},
            "Labeled"}, Delimiter}, 
         "Options" :> {TrackedSymbols -> True, ControlPlacement -> Left}, 
         "DefaultOptions" :> {}],
-       ImageSizeCache->{745., {200.13403309800196`, 205.86596690199804`}},
        SingleEvaluation->True],
       Deinitialization:>None,
       DynamicModuleValues:>{},
@@ -55996,16 +56013,16 @@ Miu/MuK/jBK5Eg==
       UntrackedVariables:>{Typeset`size$$}], "Manipulate",
      Deployed->True,
      StripOnInput->False],
-    Manipulate`InterpretManipulate[1]]}, {4,"\<\"SVS vs SVS QC function\"\>"->
+    Manipulate`InterpretManipulate[1]]}, {4,"\<\"SSV vs SSV QC function\"\>"->
    TagBox[
     StyleBox[
-     DynamicModuleBox[{$CellContext`k1$$ = $CellContext`n1$$, \
-$CellContext`k2$$ = $CellContext`n2$$, $CellContext`mcr$$ = 
-      3, $CellContext`n1$$ = 4, $CellContext`n2$$ = 4, $CellContext`p1$$ = 
-      0.01, $CellContext`p2$$ = 0.005, $CellContext`scr$$ = 4, 
-      Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
-      Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ =
-       1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+     DynamicModuleBox[{$CellContext`k1$$ = 4, $CellContext`k2$$ = 
+      4, $CellContext`mcr$$ = 3, $CellContext`n1$$ = 4, $CellContext`n2$$ = 
+      4, $CellContext`p1$$ = 0.01, $CellContext`p2$$ = 
+      0.005, $CellContext`scr$$ = 4, Typeset`show$$ = True, 
+      Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+      Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+      "\"untitled\"", Typeset`specs$$ = {{
         Hold[
          Style["parameters of the measurement process ", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {
@@ -56020,7 +56037,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 0, 6, 0.01}, {
          "\!\(\*SubscriptBox[\"\[Sigma]\", StyleBox[\"c\",FontSlant->\"Italic\
 \"]]\)"}, 1, 7, 0.01}, {
         Hold[
-         Style["first SVS QC function", Bold]], 
+         Style["first SSV QC function", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {
         Hold[
          Style["size of QC sample", Plain]], 
@@ -56029,14 +56046,14 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 0, 6, 0.01}, {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k1$$], $CellContext`n1$$, "k"}, 1, 
+         Hold[$CellContext`k1$$], 4, "k"}, 1, 
         Dynamic[$CellContext`n1$$], 1}, {
         Hold[
          Style["probability for for false rejection", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`p1$$], 0.01, "pfr"}, 1.*^-6, 0.1, 1.*^-6}, {
         Hold[
-         Style["second SVS QC function", Bold]], 
+         Style["second SSV QC function", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {
         Hold[
          Style["size of QC sample", Plain]], 
@@ -56045,15 +56062,14 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 0, 6, 0.01}, {
         Hold[
          Style["number of out of control measurements per QC sample", Plain]],
          Manipulate`Dump`ThisIsNotAControl}, {{
-         Hold[$CellContext`k2$$], $CellContext`n2$$, "k"}, 1, 
+         Hold[$CellContext`k2$$], 4, "k"}, 1, 
         Dynamic[$CellContext`n2$$], 1}, {
         Hold[
          Style["probability for for false rejection", Plain]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`p2$$], 0.005, "pfr"}, 1.*^-6, 0.1, 1.*^-6}}, 
-      Typeset`size$$ = {526., {108.400390625, 114.599609375}}, 
-      Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
-      False}, 
+      Typeset`size$$ = Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
+      Typeset`skipInitDone$$ = False}, 
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`k1$$ = $CellContext`n1$$, \
@@ -56082,7 +56098,7 @@ $CellContext`mcr$$, $CellContext`scr$$]]), "Specifications" :> {
              "\!\(\*SubscriptBox[\"\[Sigma]\", \
 StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 1, 7, 0.01, ImageSize -> Tiny, 
            Appearance -> "Labeled"}, Delimiter, 
-          Style["first SVS QC function", Bold], 
+          Style["first SSV QC function", Bold], 
           Style[
           "size of QC sample", Plain], {{$CellContext`n1$$, 4, "n"}, 1, 4, 1, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
@@ -56095,7 +56111,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 1, 7, 0.01, ImageSize -> Tiny,
           "probability for for false rejection", 
            Plain], {{$CellContext`p1$$, 0.01, "pfr"}, 1.*^-6, 0.1, 1.*^-6, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
-          Style["second SVS QC function", Bold], 
+          Style["second SSV QC function", Bold], 
           Style[
           "size of QC sample", Plain], {{$CellContext`n2$$, 4, "n"}, 1, 4, 1, 
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
@@ -56110,7 +56126,6 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)"}, 1, 7, 0.01, ImageSize -> Tiny,
            ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter}, 
         "Options" :> {TrackedSymbols -> True, ControlPlacement -> Left}, 
         "DefaultOptions" :> {}],
-       ImageSizeCache->{772., {191.13403309800196`, 196.86596690199804`}},
        SingleEvaluation->True],
       Deinitialization:>None,
       DynamicModuleValues:>{},
@@ -56262,6 +56277,10 @@ $CellContext`dl[0.00722875, 2] =
          2.9094260335386834325788173214308816328705527277615885940647101755062\
 865020186044496221209393879948506210351755140943104263364834015898710655768749\
 7055387368085666924691331471466224051808927400644733762699947426137`200., \
+$CellContext`dl[0.00923375, 3] = 
+         2.9588953649951318257776442600025480714707828338065626356704990081308\
+757885403990814193656535485704403984718157852173782444737800779289782056506456\
+3009526708415551540139319777662530665274085365320368118064777614593`200., \
 $CellContext`dl[0.01, 4] = 
          3.0222020267152734241444216324600189638863800444317252106844810770035\
 110150291883113191527649849080283105207854412769454246721085256037194034772697\
@@ -56274,6 +56293,10 @@ $CellContext`dl[0.0147863, 4] =
          2.9012096720135225617610295477572515479296532503911088815973739335219\
 991441935462890093323585417381937265781582089335756704997736276987284123053528\
 1929563675022810344198924881338347665947698693584051861785245228698`200., \
+$CellContext`dl[0.01620375, 2] = 
+         2.6464162834646802143899434545808422363347940847301265032414951802000\
+862783806389721286149951142729456428019483178354676653179918858760680028072519\
+7525086820246572545424915305560912929955606551259400451712622923911`200., \
 $CellContext`dl[0.02, 4] = 
          2.8045975762403724079546880763173710610776688854758332479301174915140\
 346558616283906704017804626704343272185620931724841548907954472218411756324701\
@@ -56423,7 +56446,6 @@ $CellContext`p, {$CellContext`d, 1, 20, 0, 30},
 $CellContext`dl[$CellContext`p, $CellContext`n]; Switch[$CellContext`t, 1, 
              
              If[$CellContext`k < $CellContext`n, $CellContext`ped[
-               
                0, $CellContext`s, $CellContext`d, $CellContext`k] + \
 $CellContext`ped[
                0, 1, $CellContext`d, $CellContext`n - $CellContext`k] - \
@@ -56515,21 +56537,9 @@ $CellContext`ped[$CellContext`m,
     Manipulate`InterpretManipulate[1]]}}, 1,
    ImageSize->All]}}, 1,
   ImageSize->Automatic]], "Output",
- Editable->False,
- Deployed->True,
- CellChangeTimes->{3.8644680488617215`*^9, 3.8645139989626417`*^9, 
-  3.8645141499002686`*^9, 3.864514347278339*^9, 3.8645158007521048`*^9, 
-  3.864516297262686*^9, 3.864516478291686*^9, 3.8645172494681177`*^9, 
-  3.8645181873218713`*^9, 3.8645182646846676`*^9, 3.864518432027629*^9, 
-  3.8645185074881597`*^9, 3.864518597601295*^9, 3.864519220403678*^9, 
-  3.8645196022248273`*^9, 3.864519862876678*^9, 3.8645209823420353`*^9, 
-  3.864521209771961*^9, 3.8645217537045107`*^9, 3.8645217881054964`*^9, 
-  3.86582336988678*^9, 3.8658241229539485`*^9, 3.8658243774503574`*^9, 
-  3.8658245088932915`*^9, 3.8658246707377357`*^9, 3.865829314739064*^9, 
-  3.8660249948002825`*^9, 3.8670651258001437`*^9, 3.867065442285731*^9, 
-  3.867065909962515*^9, 3.867066061734812*^9},
+ CellChangeTimes->{3.870423245316474*^9, 3.8704232786032305`*^9},
  CellLabel->
-  "Out[2139]=",ExpressionUUID->"b3fe511a-b7b8-41bc-83b1-226a091b03df"]
+  "Out[1288]=",ExpressionUUID->"b0d14e5f-3e12-4993-864a-8f2a2a557bd6"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -56537,13 +56547,12 @@ Cell[CellGroupData[{
 Cell[TextData[{
  StyleBox["Abbreviations\n",
   FontSize->10],
- StyleBox["QC: quality qontrol\nNN: neural network\nSVS: single value  \
-statistical (QC function)\npfr: probability for false rejection", 
+ StyleBox["QC: quality control\nNN: neural network\nSSV: statistical \
+single-value  (QC function)\npfr: probability for false rejection", 
   "SubsubitemParagraph",
   FontSize->10]
 }], "Subsubsubsubsection",
  Editable->False,
- Deployed->True,
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
    3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
@@ -56554,8 +56563,9 @@ statistical (QC function)\npfr: probability for false rejection",
    3.8582957495379477`*^9, 3.8582957674019475`*^9}, {3.8584407769972825`*^9, 
    3.8584407873482833`*^9}, 3.8645202133990307`*^9, 3.867064970933346*^9, {
    3.8670650522143335`*^9, 3.8670650725686073`*^9}, {3.8671100928807497`*^9, 
-   3.867110114105332*^9}, {3.867110151848253*^9, 
-   3.8671101545287232`*^9}},ExpressionUUID->"fbda40a9-40bf-4947-92cc-\
+   3.867110114105332*^9}, {3.867110151848253*^9, 3.8671101545287232`*^9}, {
+   3.870421613311757*^9, 3.8704216351175804`*^9}, 
+   3.870422566511467*^9},ExpressionUUID->"fbda40a9-40bf-4947-92cc-\
 ff8cde674aa6"],
 
 Cell[TextData[{
@@ -56609,7 +56619,7 @@ training set distributed as  \[ScriptCapitalN](0,1) and \[ScriptCapitalN](\
   FontSize->10,
   FontColor->GrayLevel[0],ExpressionUUID->
   "6d0945ba-996d-4785-9137-6edcc7ec8504"],
- StyleBox[": SVS QC function  applied on a tuple ", "SubsubitemParagraph",
+ StyleBox[": SSV QC function  applied on a tuple ", "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
  StyleBox["x", "SubsubitemParagraph",
@@ -56658,7 +56668,7 @@ training set distributed as  \[ScriptCapitalN](0,1) and \[ScriptCapitalN](\
   FontSize->10,
   FontColor->GrayLevel[0],ExpressionUUID->
   "f97fb31c-533b-432d-ad9e-589199f4ea9c"],
- StyleBox[": SVS QC function with decision limit ", "SubsubitemParagraph",
+ StyleBox[": SSV QC function with decision limit ", "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
  StyleBox["l", "SubsubitemParagraph",
@@ -56785,7 +56795,7 @@ training set distributed as  \[ScriptCapitalN](0,1) and \[ScriptCapitalN](\
   FontSize->10,
   FontColor->GrayLevel[0],ExpressionUUID->
   "48256552-f18a-41ce-8023-f989cba5ea40"],
- StyleBox[": probability for rejection of the SVS QC function ", 
+ StyleBox[": probability for rejection of the SSV QC function ", 
   "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
@@ -56863,7 +56873,7 @@ training set distributed as  \[ScriptCapitalN](0,1) and \[ScriptCapitalN](\
   FontSize->10,
   FontColor->GrayLevel[0],ExpressionUUID->
   "a0b0832a-1d03-4083-aecc-31b2602f7a26"],
- StyleBox[": probability for rejection of the SVS QC function  ", 
+ StyleBox[": probability for rejection of the SSV QC function  ", 
   "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
@@ -56932,7 +56942,6 @@ training set distributed as  \[ScriptCapitalN](0,1) and \[ScriptCapitalN](\
   FontColor->GrayLevel[0]]
 }], "Subsubsubsubsection",
  Editable->False,
- Deployed->True,
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
    3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
@@ -56967,8 +56976,9 @@ training set distributed as  \[ScriptCapitalN](0,1) and \[ScriptCapitalN](\
    3.864445190318489*^9}, {3.8644452528960805`*^9, 3.864445357429579*^9}, {
    3.8644455898950405`*^9, 3.864445598325739*^9}, {3.864445995093952*^9, 
    3.8644459982854395`*^9}, 3.8645202133990307`*^9, {3.866025045269184*^9, 
-   3.8660250717405443`*^9}, {3.8670650281941032`*^9, 
-   3.867065028220105*^9}},ExpressionUUID->"ff0377bd-0a72-4003-894e-\
+   3.8660250717405443`*^9}, {3.8670650281941032`*^9, 3.867065028220105*^9}, {
+   3.87042161332176*^9, 
+   3.870421613353755*^9}},ExpressionUUID->"ff0377bd-0a72-4003-894e-\
 1a3baab58b16"],
 
 Cell[TextData[{
@@ -56980,7 +56990,7 @@ Cell[TextData[{
   FontSize->10,
   FontSlant->"Italic",
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.1.1\nHellenic Complex Systems Laboratory 2022\n\
+ StyleBox["\nVersion Number 1.1.2\nHellenic Complex Systems Laboratory 2022\n\
 This software is distributed under  an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
@@ -56997,7 +57007,6 @@ International Creative Commons License",
   FontColor->RGBColor[0., 0., 0.]]
 }], "Subsubsubsubsection",
  Editable->False,
- Deployed->True,
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
    3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
@@ -57008,16 +57017,17 @@ International Creative Commons License",
    3.8579548146715016`*^9}, {3.8579548776990466`*^9, 3.857954957657795*^9}, 
    3.8644365688467765`*^9, 3.8645202133990307`*^9, 3.866025004723446*^9, 
    3.867065046905641*^9, 3.867065100368475*^9, {3.867066504233463*^9, 
-   3.867066506552652*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
+   3.867066506552652*^9}, 
+   3.87042169155886*^9},ExpressionUUID->"de371ce7-e914-4864-910f-\
 f5d0251a90b2"]
 }, Open  ]]
 },
-WindowSize->{1429.875, 732.75},
+WindowSize->{1429.875, 737.625},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"TryRealOnly" -> False|>,
-FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (February 4, 2022)",
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"52c46951-3cb8-417b-b283-092933be26af"
+ExpressionUUID->"9d434579-5d80-4ae9-965f-a468c3ee6ff0"
 ]
 (* End of Notebook Content *)
 
@@ -57030,32 +57040,32 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 1304372, 29868, 19, "Input",ExpressionUUID->"d5ff740b-4976-4cf1-9845-c2791265cf19",
+Cell[CellGroupData[{
+Cell[580, 22, 903, 19, 86, "Title",ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-6b83082cf940",
+ Evaluatable->False,
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[1486, 43, 1035, 17, 106, "Title",ExpressionUUID->"771d281b-3709-4a85-8858-f4a7c81c5ee6",
+ Evaluatable->False,
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[2524, 62, 672, 14, 129, "Author",ExpressionUUID->"48efdfee-c390-4c7d-aeb4-cdbc08fe34f9",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[3199, 78, 430, 9, 31, "Affiliation",ExpressionUUID->"a7902d72-4370-4f53-90c8-0f08bcc41750",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
+}, Open  ]],
+Cell[3644, 90, 1304330, 29864, 19, "Input",ExpressionUUID->"d5ff740b-4976-4cf1-9845-c2791265cf19",
  CellOpen->False,
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[1304955, 29892, 920, 20, 86, "Title",ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-6b83082cf940",
- Evaluatable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[1305878, 29914, 1052, 18, 106, "Title",ExpressionUUID->"771d281b-3709-4a85-8858-f4a7c81c5ee6",
- Evaluatable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[1306933, 29934, 689, 15, 129, "Author",ExpressionUUID->"48efdfee-c390-4c7d-aeb4-cdbc08fe34f9",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[1307625, 29951, 447, 10, 31, "Affiliation",ExpressionUUID->"a7902d72-4370-4f53-90c8-0f08bcc41750",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1308109, 29966, 86113, 1675, 19, "Input",ExpressionUUID->"2963d90a-7cde-4200-9bed-89dd56e54c73",
+Cell[1307999, 29958, 86105, 1672, 19, "Input",ExpressionUUID->"2963d90a-7cde-4200-9bed-89dd56e54c73",
  CellOpen->False],
-Cell[1394225, 31643, 1486822, 24888, 510, "Output",ExpressionUUID->"b3fe511a-b7b8-41bc-83b1-226a091b03df"]
+Cell[1394107, 31632, 1488396, 24909, 510, "Output",ExpressionUUID->"b0d14e5f-3e12-4993-864a-8f2a2a557bd6"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2881084, 56536, 1151, 22, 81, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6",
+Cell[2882540, 56546, 1208, 22, 81, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[2882238, 56560, 13708, 411, 135, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16",
+Cell[2883751, 56570, 13740, 411, 135, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[2895949, 56973, 1622, 38, 81, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2",
+Cell[2897494, 56983, 1630, 38, 81, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]]
 }

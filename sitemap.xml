@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://www.hcsl.com/</loc>
-      <lastmod>2022-09-10</lastmod>
+      <lastmod>2022-09-11</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/index.html</loc>
@@ -70,31 +70,35 @@
    </url>
    <url>
       <loc>https://www.hcsl.com/Tools/index.html</loc>
-      <lastmod>2022-09-09</lastmod>
+      <lastmod>2022-09-13</lastmod>
    </url>
    <url>
     <loc>https://www.hcsl.com/Tools/Relation/index.html</loc>
-    <lastmod>2022-09-09</lastmod>
+    <lastmod>2022-09-13</lastmod>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Uncertainty/index.html</loc>
-    <lastmod>2022-09-09</lastmod>
+    <lastmod>2022-09-13</lastmod>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Nutrition/index.html</loc>
-    <lastmod>2022-09-09</lastmod>
+    <lastmod>2022-09-13</lastmod>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Quality/index.html</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2022-09-13</lastmod>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/QualityControl/index.html</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2022-09-13</lastmod>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/IntelligentQuality/index.html</loc>
-    <lastmod>2022-09-09</lastmod>
+    <lastmod>2022-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hcsl.com/Tools/IntelligentQualityControl/index.html</loc>
+    <lastmod>2022-09-13</lastmod>
   </url>
    <url>
       <loc>https://www.hcsl.com/Glossary/index.html</loc>
@@ -106,6 +110,6 @@
    </url>
    <url>
       <loc>https://www.hcsl.com/Contact/index.html</loc>
-      <lastmod>2022-09-10</lastmod>
+      <lastmod>2022-09-13</lastmod>
    </url>
 </urlset>

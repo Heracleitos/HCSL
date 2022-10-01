@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    310754,       6844]
-NotebookOptionsPosition[    309259,       6811]
-NotebookOutlinePosition[    309705,       6828]
-CellTagsIndexPosition[    309662,       6825]
+NotebookDataLength[    304903,       6737]
+NotebookOptionsPosition[    303408,       6704]
+NotebookOutlinePosition[    303854,       6721]
+CellTagsIndexPosition[    303811,       6718]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -678,13 +678,6 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
 Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
-         RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
-       RowBox[{"ToString", "[", 
-        RowBox[{"Style", "[", 
          RowBox[{
           RowBox[{"NumberForm", "[", 
            RowBox[{"l", ",", 
@@ -723,13 +716,6 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
 Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
-         RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
-       RowBox[{"ToString", "[", 
-        RowBox[{"Style", "[", 
          RowBox[{
           RowBox[{"NumberForm", "[", 
            RowBox[{"l", ",", 
@@ -759,13 +745,6 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\
 \"STIX Two \
 Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
 \"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
-       RowBox[{"ToString", "[", 
-        RowBox[{"Style", "[", 
-         RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
@@ -950,13 +929,6 @@ StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
 Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
-         RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
-       RowBox[{"ToString", "[", 
-        RowBox[{"Style", "[", 
          RowBox[{
           RowBox[{"NumberForm", "[", 
            RowBox[{"l", ",", 
@@ -994,13 +966,6 @@ StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
 Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
-         RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
-       RowBox[{"ToString", "[", 
-        RowBox[{"Style", "[", 
          RowBox[{
           RowBox[{"NumberForm", "[", 
            RowBox[{"l", ",", 
@@ -1027,13 +992,6 @@ StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
 \"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"STIX Two \
 Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
 \"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
-       RowBox[{"ToString", "[", 
-        RowBox[{"Style", "[", 
-         RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
@@ -1141,12 +1099,6 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
          RowBox[{"s", ",", 
           RowBox[{"{", 
            RowBox[{"4", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], "]"}],
-      ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
-     RowBox[{"ToString", "[", 
-      RowBox[{"Style", "[", 
-       RowBox[{"n", ",", 
         RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], "]"}],
       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
 Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
@@ -2150,9 +2102,9 @@ Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}],
    3.873421292692614*^9}, {3.8734246228503804`*^9, 3.8734246440683804`*^9}, {
    3.873425364701107*^9, 3.8734253650280952`*^9}, {3.8734648534899516`*^9, 
    3.8734648893829536`*^9}, {3.873465002982524*^9, 3.8734650035495157`*^9}, 
-   3.873465235924547*^9},
+   3.873465235924547*^9, {3.8736318065185304`*^9, 3.873631866226533*^9}},
  CellLabel->
-  "In[330]:=",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7"],
+  "In[112]:=",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7"],
 
 Cell[CellGroupData[{
 
@@ -3279,7 +3231,7 @@ detection\>\""}], "}"}], ",", "0.10", ",", "0.99", ",", "0.01", ",",
    3.871719748232316*^9, 3.8734644259025497`*^9, {3.8734644847535496`*^9, 
    3.873464553334571*^9}, 3.8734646177535734`*^9},
  CellLabel->
-  "In[386]:=",ExpressionUUID->"97f3bdbf-7701-4e4d-bd86-f125126b4a7a"],
+  "In[167]:=",ExpressionUUID->"97f3bdbf-7701-4e4d-bd86-f125126b4a7a"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"design\"\>"->
@@ -3918,9 +3870,6 @@ FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)" <> ToString[
              Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
            "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
              Style[
               NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
               "STIX Two Text"]] <> ")"], 1, 
@@ -3944,9 +3893,6 @@ FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)" <> ToString[
              Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
            "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
              Style[
               NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
               "STIX Two Text"]] <> ")"], 2, 
@@ -3967,9 +3913,6 @@ Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)" <> ToString[
              Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
            "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
@@ -4004,9 +3947,6 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
             Style[
              NumberForm[$CellContext`s, {4, 2}], FontFamily -> 
              "STIX Two Text"]] <> 
-          "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-            Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)" <> ToString[
             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
@@ -4138,31 +4078,6 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
             Style[
              NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
              "STIX Two Text"]] <> ")"], $CellContext`mgpfrs[
-          Pattern[$CellContext`n, 
-           Blank[]], 
-          Pattern[$CellContext`k, 
-           Blank[]], 
-          Pattern[$CellContext`l, 
-           Blank[]]] := Text[
-          Grid[
-           
-           Transpose[{{
-             "QC rule", "decision limit", "probability for false rejection"}, {
-              If[$CellContext`k == 0, 
-               $CellContext`strml[0, $CellContext`n, $CellContext`l], 
-               $CellContext`strvl[
-               0, $CellContext`n, $CellContext`k, $CellContext`l]], 
-              ToString[
-               NumberForm[$CellContext`l, {3, 2}]], 
-              ToString[
-               NumberForm[
-                If[$CellContext`k == 0, 
-                 $CellContext`pm[$CellContext`n, 0, 1, $CellContext`l], 
-                 $CellContext`pv[$CellContext`n, $CellContext`k, 0, 
-                  1, $CellContext`l]], {7, 6}]]}}], Frame -> All, FrameStyle -> 
-           Blend[{Blue, Cyan}, 0.35], Spacings -> {1, 1}, 
-           ItemSize -> {All, Automatic}], 
-          BaseStyle -> {Medium}], $CellContext`mgpfrs[
           Pattern[$CellContext`m, 
            Blank[]], 
           Pattern[$CellContext`s, 
@@ -4227,7 +4142,7 @@ $CellContext`n, $CellContext`k, $CellContext`l]],
 \",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"vs\",FontSlant->\"Italic\"]\)"}, {
          1 -> "\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)", 2 -> 
           "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}}}, 
-       Typeset`size$$ = {520., {114.63403309800196`, 120.36596690199804`}}, 
+       Typeset`size$$ = {517., {114.63403309800196`, 120.36596690199804`}}, 
        Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
        False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
@@ -4260,7 +4175,7 @@ $CellContext`p$$], "Specifications" :> {
              "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}}, Delimiter}, 
          "Options" :> {TrackedSymbols -> True, ControlPlacement -> Top}, 
          "DefaultOptions" :> {}],
-        ImageSizeCache->{567., {211.13403309800196`, 216.86596690199804`}},
+        ImageSizeCache->{564., {211.13403309800196`, 216.86596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -4559,9 +4474,6 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[
                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
                 "STIX Two Text"]] <> ")"], 1, 
@@ -4581,9 +4493,6 @@ Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
@@ -4609,9 +4518,6 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[
                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
                 "STIX Two Text"]] <> ")"]]}; Typeset`initDone$$ = True),
@@ -4626,7 +4532,7 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
     TagBox[
      StyleBox[
       DynamicModuleBox[{$CellContext`e$$ = 2, $CellContext`l$$ = 
-       2.5, $CellContext`n$$ = 2, Typeset`show$$ = True, 
+       2.5, $CellContext`n$$ = 6, Typeset`show$$ = True, 
        Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
        Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
        "\"untitled\"", Typeset`specs$$ = {{
@@ -4648,7 +4554,7 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
 \",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"vs\",FontSlant->\"Italic\"]\)"}, {
          1 -> "\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)", 2 -> 
           "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}}}, 
-       Typeset`size$$ = {520., {114.63403309800196`, 120.36596690199804`}}, 
+       Typeset`size$$ = {517., {114.63403309800196`, 120.36596690199804`}}, 
        Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
        False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
@@ -4681,7 +4587,7 @@ $CellContext`l$$], "Specifications" :> {
              "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}}, Delimiter}, 
          "Options" :> {TrackedSymbols -> True, ControlPlacement -> Top}, 
          "DefaultOptions" :> {}],
-        ImageSizeCache->{567., {211.13403309800196`, 216.86596690199804`}},
+        ImageSizeCache->{564., {211.13403309800196`, 216.86596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -4906,7 +4812,6 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
                Style[$CellContext`k, FontFamily -> "STIX Two Text"]] <> 
-             
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
                Style[
@@ -4938,9 +4843,6 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[
                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
                 "STIX Two Text"]] <> ")"], 1, 
@@ -4963,9 +4865,6 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[
                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
                 "STIX Two Text"]] <> ")"], 2, 
@@ -4985,9 +4884,6 @@ Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
@@ -5322,9 +5218,6 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[
                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
                 "STIX Two Text"]] <> ")"], 1, 
@@ -5347,9 +5240,6 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[
                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
                 "STIX Two Text"]] <> ")"], 2, 
@@ -5369,9 +5259,6 @@ Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
@@ -5462,11 +5349,10 @@ $CellContext`p]]], {10, 6}], {$CellContext`k,
     TagBox[
      StyleBox[
       DynamicModuleBox[{$CellContext`l$$ = 2.5, $CellContext`mc$$ = 
-       3., $CellContext`n$$ = 2, $CellContext`sc$$ = 7.077672651683099, 
-       Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
-       Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, 
-       Typeset`animvar$$ = 1, Typeset`name$$ = "\"untitled\"", 
-       Typeset`specs$$ = {{
+       3., $CellContext`n$$ = 2, $CellContext`sc$$ = 4., Typeset`show$$ = 
+       True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+       Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+       "\"untitled\"", Typeset`specs$$ = {{
          Hold[
           Style["size of QC sample", Bold]], 
          Manipulate`Dump`ThisIsNotAControl}, {{
@@ -5687,9 +5573,6 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[
                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
                 "STIX Two Text"]] <> ")"], 1, 
@@ -5710,9 +5593,7 @@ Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
+             
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
                Style[
@@ -5734,9 +5615,6 @@ Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
@@ -5813,8 +5691,7 @@ $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])^$CellContext`k
              Gamma[1 + $CellContext`n] 
              Hypergeometric2F1[
               1, $CellContext`k - $CellContext`n, 1 + $CellContext`k, 1 + 
-               2/(
-                Erf[($CellContext`m - $CellContext`\[Mu] - $CellContext`l \
+               2/(Erf[($CellContext`m - $CellContext`\[Mu] - $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)] - 
                 Erf[($CellContext`m - $CellContext`\[Mu] + $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])])/
@@ -6068,6 +5945,7 @@ Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
+             
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
                Style[$CellContext`k, FontFamily -> "STIX Two Text"]] <> 
@@ -6232,9 +6110,6 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[
                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
                 "STIX Two Text"]] <> ")"], 1, 
@@ -6257,9 +6132,6 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[
                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
                 "STIX Two Text"]] <> ")"], 2, 
@@ -6279,9 +6151,6 @@ Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
 Math\",FontWeight->\"Normal\"]\)" <> ToString[
-               Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)" <> ToString[
                Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
              "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
 \"Normal\"]\)" <> ToString[
@@ -6428,8 +6297,8 @@ $CellContext`psed]], {10, 6}], {$CellContext`k, 1, $CellContext`n}]]]};
        UntrackedVariables:>{Typeset`size$$}], "Manipulate",
       Deployed->True,
       StripOnInput->False],
-     Manipulate`InterpretManipulate[1]]}}, 1,
-    ImageSize->All]}}, 2]}}, 2,
+     Manipulate`InterpretManipulate[1]]}}, 3,
+    ImageSize->All]}}, 1]}}, 2,
   ImageSize->Automatic]], "Output",
  Editable->False,
  Deployed->True,
@@ -6444,9 +6313,10 @@ $CellContext`psed]], {10, 6}], {$CellContext`k, 1, $CellContext`n}]]]};
    3.8734244733103795`*^9, 3.87342457540438*^9, {3.8734246939933796`*^9, 
    3.8734247075663805`*^9}, 3.8734247615163813`*^9, 3.8734253831490955`*^9, 
    3.873463936924502*^9, 3.8734646975649524`*^9, 3.8734648960009546`*^9, 
-   3.8734650142925453`*^9, 3.8734652521015463`*^9, 3.873465538103036*^9},
+   3.8734650142925453`*^9, 3.8734652521015463`*^9, 3.873465538103036*^9, 
+   3.8736317761925354`*^9, 3.8736318755305257`*^9},
  CellLabel->
-  "Out[386]=",ExpressionUUID->"fd795924-80b8-47a7-b687-0da77d0dedfc"]
+  "Out[167]=",ExpressionUUID->"a1fda9b1-fc19-43f0-9f8e-e657fba9e2e4"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -6515,12 +6385,21 @@ Cell[TextData[{
     RowBox[{
      RowBox[{
       StyleBox["x",
-       FontWeight->"Bold"], ";", " ", "m"}], ",", "s", ",", "n", ",", "k", 
-     ",", "l"}], ")"}], TraditionalForm]], "SubsubitemParagraph",
+       FontWeight->"Bold"], ";", " ", 
+      SubscriptBox["m", "0"]}], ",", 
+     SubscriptBox["s", "0"], ",", "n", ",", "k", ",", "l"}], ")"}], 
+   TraditionalForm]], "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0],ExpressionUUID->
   "b478f9cd-b01e-4589-9479-c78e2b664359"],
- StyleBox[": statistical QC rule applied on a tuple ", "SubsubitemParagraph",
+ StyleBox[": statistical QC rule applied on a", "SubsubitemParagraph",
+  FontSize->10,
+  FontColor->GrayLevel[0]],
+ StyleBox["n-", "SubsubitemParagraph",
+  FontSize->10,
+  FontSlant->"Italic",
+  FontColor->GrayLevel[0]],
+ StyleBox["tuple ", "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
  StyleBox["x ", "SubsubitemParagraph",
@@ -6529,20 +6408,16 @@ Cell[TextData[{
   FontWeight->"Bold",
   FontSlant->"Oblique",
   FontColor->GrayLevel[0]],
- StyleBox[" of ", "SubsubitemParagraph",
+ StyleBox[" of control measurements, with decision limits ", 
+  "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
- StyleBox["n ", "SubsubitemParagraph",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["m", "0"], TraditionalForm]],
   FontSize->10,
-  FontSlant->"Italic",
-  FontColor->GrayLevel[0]],
- StyleBox["control measurements, with decision limits ", "SubsubitemParagraph",
-  FontSize->10,
-  FontColor->GrayLevel[0]],
- StyleBox["m", "SubsubitemParagraph",
-  FontSize->10,
-  FontSlant->"Italic",
-  FontColor->GrayLevel[0]],
+  FontColor->GrayLevel[0],ExpressionUUID->
+  "8a048c92-1cc6-4590-ba37-0491f23cec49"],
  StyleBox["\[PlusMinus]", "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
@@ -6553,7 +6428,13 @@ Cell[TextData[{
  StyleBox[" ", "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
- StyleBox["s ", "SubsubitemParagraph",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["s", "0"], TraditionalForm]],
+  FontSize->10,
+  FontColor->GrayLevel[0],ExpressionUUID->
+  "66c3d310-05b8-4b5a-ad0b-df741340a0af"],
+ StyleBox[" ", "SubsubitemParagraph",
   FontSize->10,
   FontSlant->"Italic",
   FontColor->GrayLevel[0]],
@@ -6574,12 +6455,21 @@ Cell[TextData[{
     RowBox[{
      RowBox[{
       StyleBox["x",
-       FontWeight->"Bold"], ";", " ", "m"}], ",", "s", ",", "n", ",", "n", 
-     ",", "l"}], ")"}], TraditionalForm]], "SubsubitemParagraph",
+       FontWeight->"Bold"], ";", " ", 
+      SubscriptBox["m", "0"]}], ",", 
+     SubscriptBox["s", "0"], ",", "n", ",", "n", ",", "l"}], ")"}], 
+   TraditionalForm]], "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0],ExpressionUUID->
   "2482f4fb-3323-4ccf-90a9-0568ad0182b8"],
- StyleBox[": statistical QC rule applied on a tuple ", "SubsubitemParagraph",
+ StyleBox[": statistical QC rule applied on a", "SubsubitemParagraph",
+  FontSize->10,
+  FontColor->GrayLevel[0]],
+ StyleBox["n-", "SubsubitemParagraph",
+  FontSize->10,
+  FontSlant->"Italic",
+  FontColor->GrayLevel[0]],
+ StyleBox["tuple ", "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
  StyleBox["x ", "SubsubitemParagraph",
@@ -6588,20 +6478,16 @@ Cell[TextData[{
   FontWeight->"Bold",
   FontSlant->"Oblique",
   FontColor->GrayLevel[0]],
- StyleBox[" of ", "SubsubitemParagraph",
+ StyleBox[" of control measurements, with decision limits ", 
+  "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
- StyleBox["n ", "SubsubitemParagraph",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["m", "0"], TraditionalForm]],
   FontSize->10,
-  FontSlant->"Italic",
-  FontColor->GrayLevel[0]],
- StyleBox["control measurements, with decision limits ", "SubsubitemParagraph",
-  FontSize->10,
-  FontColor->GrayLevel[0]],
- StyleBox["m", "SubsubitemParagraph",
-  FontSize->10,
-  FontSlant->"Italic",
-  FontColor->GrayLevel[0]],
+  FontColor->GrayLevel[0],ExpressionUUID->
+  "8ca1fae7-a9f1-431f-9aff-077f2794b08c"],
  StyleBox["\[PlusMinus]", "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
@@ -6612,7 +6498,13 @@ Cell[TextData[{
  StyleBox[" ", "SubsubitemParagraph",
   FontSize->10,
   FontColor->GrayLevel[0]],
- StyleBox["s ", "SubsubitemParagraph",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["s", "0"], TraditionalForm]],
+  FontSize->10,
+  FontColor->GrayLevel[0],ExpressionUUID->
+  "c545b97a-9732-4e5c-a551-e7f9c72e0548"],
+ StyleBox[" ", "SubsubitemParagraph",
   FontSize->10,
   FontSlant->"Italic",
   FontColor->GrayLevel[0]],
@@ -6746,23 +6638,23 @@ Cell[TextData[{
  Editable->False,
  Deployed->True,
  CellChangeTimes->CompressedData["
-1:eJxNzm0s1AEAx/EjeZ4UeWgjV5yJ3Tznef6dh1WYO9wdHerkcZ4JmcpMVLai
-tDxEZoosz/O0tvO0KydPo5bJMKKmf1IeOmn0/92rXvz2efF786ULkziR8jQa
-zZ0a3Fi4sFUeTBJ54m87cLFp81AFZbWoUBE2MvcCSgUkcSLkiQAuZF2Mgj0/
-/aPhfnmvXKaIJMzpfw/DMr4WS6mPJLQ39L3gyDKPA03TnHhQTd9+Arpnesic
-t2/LMqAcmCOzYXVCrvZJ/C13jOCWmG4Cj29sW8GQ2lsE7LTLlUnTEnvB/LF1
-HnzW7BoKX7U2hMEdk3khTC8WxsMyd6tkKEq5lgpLihMzoP7UeBFcNCgogYNv
-I8phb9mpZni3Q9IKNeonuuDH10H9cIMuEEO/cMV3UJh4lGlEqezYZwNtSkZ9
-YMF5czbkrkwEQVW7Kj5ca7ktgE4x6qEwcGUiEi4yJtNgc/rDbHhzuDMHHtPM
-zIVqRYUyV5mtdTJnS1uhy3pkD9TQ8hmEB6yZN7D9as0wLLGSG4MW19unoXNm
-5QGUxDRr0inrum9wjdFfqSWAjSqSPMhnuxVC213/IdgdoTIKPdS8pZBruydT
-ai3fGUG5Yj3eDQXVbBGvnyRqfD0H4L38B7+VB0hC91zlPuyN11BRoUxkcI/A
-nF1HHVhhmCtTe/PHEmOGJMZizFZgMiPujCklJ4NmAz9/WHOA8WJvV+g0N+AJ
-a9f9/GBgHIsDjYK5fLiV0XYZjrDar8AXi8JYGGL3KAsS1eXqUZS8iD+6cJZ9
-1gBWBTcZQoXxSTOYypCzhB1DenbwpekvmfHOXi5QL0viC582aAbALgs6D359
-vBwG1xWeJ8DlGWkKfH/gmwOnXJbqYfQl40aoI6/a/r/hpvmsBEqmpb4HzI6V
-Mrc/kcTu/SRbuCzv5gD56UYeUOSpJIGni6dH4KrCyBcppYNb2Hf4D727D1k=
-
+1:eJxNzm0s1AEAx/EjeZ4U4drIFWeim+c8z7/zsApD3B0d6uRxHipCpjITla0o
+lodcZkqZZ/NU23nalZOn9TAmw4ia/l3KQyeN/r971YvfPi9+b74MQUpQtCKN
+RiOowdW50+vloSSRK/62Cecb1/ZUUApFBcqwnrV9toRPEofCHvHhXOaZGNj9
+MyAW7pT3KGSISMKC8XcvLOPpsFV6SUJ3le4Nhxe5QdAs1ZkLNegO49Ajw1Pu
+rENrpiFl/wyZBYVJObqH8TffNobrYoYpPLi6YQ3Dam4SsMM+Ry5NR+wN80al
+XPikyS0cNrQ8j4CbprMCmFYkSIRlHtaXoOjy1SuwuCg5HdLfjRXCecP8Yjjw
+Jqoc9pQdaYJ32iUtUKtuvBNOvgrpg6sMvhj6Ryq/hYLk/SxjSlWnXltoWzzi
+C/NPWQRCztJ4CFS3r+LBleZbfOgcpxkOg5fGo+E8cyIVNqU9yII3hjqy4QHt
+jByoUVggd5nVUit3uqQFukqju6GWju8A3GVPvYZtF6uHYLG1wii0vNb2Hrpk
+VO5CSVyTNoOytus6xwT9lTp8WK8myYW8QPcCaLcVMAi7otRGoKeGjwxy7Lbl
+ymwUO6Iol2zGuiBfGCji9pFEtZ9XP7ybd/+3aj9J6J+s3IE9iVpqapTJTM4+
+mL3lpAcrjHLk6q79WGBOkcRonPkSvMRMOGZGGZROs4WfP644wkSxjxt0nun3
+gjVSf38YnMAOgsahHB5cT289D4fZbRfgs3lBPAyzf5gJCWG5ZgwlN+qPPpwO
+PGEIq0IbjaDS2IQ5vMJUsILtgwb28IXZL7mJLt6u0CBT4gcfP9c+CzstGVz4
+tXQxAkqVnibBxSnZZfhh1y8bvnNdqIOx50zqoZ6ietv/RprlsZMoWVZ0T5gV
+L2NtfCKJrXspdnBR0d0R8tKMPaHIS0UCjxa9H4bLSsNfZJSO7hHf4cvjDcvh
+M1TfZOlP+A8OEBmy
   "],ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
 
 Cell[TextData[{
@@ -6774,7 +6666,7 @@ Cell[TextData[{
   FontSize->10,
   FontSlant->"Italic",
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.1.1 \nHellenic Complex Systems Laboratory 2022\n\
+ StyleBox["\nVersion Number 1.1.2\nHellenic Complex Systems Laboratory 2022\n\
 This software is distributed under  an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
@@ -6804,8 +6696,9 @@ International Creative Commons License",
    3.859034501559221*^9}, {3.8593713043744144`*^9, 3.859371306756342*^9}, 
    3.8600285018206224`*^9, {3.8600291447242236`*^9, 3.8600291539083023`*^9}, {
    3.871552531901478*^9, 3.8715525388450155`*^9}, 3.873417748050085*^9, 
-   3.8734186747941403`*^9, {3.873465675337014*^9, 
-   3.8734656756960077`*^9}},ExpressionUUID->"71f72317-5649-4980-8240-\
+   3.8734186747941403`*^9, {3.873465675337014*^9, 3.8734656756960077`*^9}, {
+   3.873632232539281*^9, 
+   3.8736322342652807`*^9}},ExpressionUUID->"71f72317-5649-4980-8240-\
 da8b685956ea"]
 }, Open  ]]
 },
@@ -6814,7 +6707,7 @@ WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"TryRealOnly" -> False|>,
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"2f5eb8ff-a8c4-4d76-b003-848a4ae30643"
+ExpressionUUID->"75500afe-c81d-414d-9266-095ab36230fd"
 ]
 (* End of Notebook Content *)
 
@@ -6834,17 +6727,17 @@ Cell[1656, 43, 970, 17, 106, "Title",ExpressionUUID->"df09ce5c-3c35-4b13-b788-d0
  Evaluatable->False],
 Cell[2629, 62, 666, 15, 129, "Author",ExpressionUUID->"1fecc034-e33b-435c-bd5f-cef2fcedb170"],
 Cell[3298, 79, 366, 8, 31, "Affiliation",ExpressionUUID->"5e07383d-ee3c-439e-8a63-33928e6bac79"],
-Cell[3667, 89, 83143, 2065, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
+Cell[3667, 89, 81089, 2017, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
  CellOpen->False,
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[86835, 2158, 54760, 1123, 19, "Input",ExpressionUUID->"97f3bdbf-7701-4e4d-bd86-f125126b4a7a",
+Cell[84781, 2110, 54760, 1123, 19, "Input",ExpressionUUID->"97f3bdbf-7701-4e4d-bd86-f125126b4a7a",
  CellOpen->False],
-Cell[141598, 3283, 155629, 3165, 592, "Output",ExpressionUUID->"fd795924-80b8-47a7-b687-0da77d0dedfc"]
+Cell[139544, 3235, 151179, 3083, 616, "Output",ExpressionUUID->"a1fda9b1-fc19-43f0-9f8e-e657fba9e2e4"]
 }, Open  ]],
-Cell[297242, 6451, 1113, 21, 53, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
-Cell[298358, 6474, 9034, 291, 132, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
-Cell[307395, 6767, 1848, 41, 75, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
+Cell[290738, 6321, 1113, 21, 53, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
+Cell[291854, 6344, 9636, 313, 132, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
+Cell[301493, 6659, 1899, 42, 75, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
 }, Open  ]]
 }
 ]

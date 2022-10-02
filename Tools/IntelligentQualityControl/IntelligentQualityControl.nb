@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    538223,      11541]
-NotebookOptionsPosition[    536722,      11508]
-NotebookOutlinePosition[    537168,      11525]
-CellTagsIndexPosition[    537125,      11522]
+NotebookDataLength[    538396,      11542]
+NotebookOptionsPosition[    536895,      11509]
+NotebookOutlinePosition[    537341,      11526]
+CellTagsIndexPosition[    537298,      11523]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -42,8 +42,9 @@ Cell[TextData[StyleBox["Intelligent Quality Control",
    3.8718971409649773`*^9}},ExpressionUUID->"29168691-58a1-4939-9745-\
 ba2bc9524479"],
 
-Cell[TextData[StyleBox["A Software Tool for  Quality Control Evaluation\n", \
-"Subtitle",
+Cell[TextData[StyleBox["A Software Tool for Exploring the Application of \
+Convolutional Neural Networks to Quality Control Samples of Very Small Size\n\
+", "Subtitle",
  FontSize->24]], "Title",
  Editable->False,
  Deployed->True,
@@ -58,8 +59,9 @@ Cell[TextData[StyleBox["A Software Tool for  Quality Control Evaluation\n", \
    3.8579542578385005`*^9, 3.857954258494503*^9}, {3.857959008083858*^9, 
    3.857959009915859*^9}, {3.858440632196454*^9, 3.858440667404454*^9}, {
    3.871421947960973*^9, 3.8714219540896263`*^9}, 3.871663811988495*^9, {
-   3.871897168877154*^9, 
-   3.8718971778061934`*^9}},ExpressionUUID->"df09ce5c-3c35-4b13-b788-\
+   3.871897168877154*^9, 3.8718971778061934`*^9}, 3.873706389747707*^9, {
+   3.8737067150629606`*^9, 
+   3.8737067161220307`*^9}},ExpressionUUID->"df09ce5c-3c35-4b13-b788-\
 d004dc50aa9a"],
 
 Cell[TextData[{
@@ -11473,7 +11475,7 @@ Cell[TextData[{
   FontSize->10,
   FontSlant->"Italic",
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.0.3 \nHellenic Complex Systems Laboratory 2022\n\
+ StyleBox["\nVersion Number 1.0.4 \nHellenic Complex Systems Laboratory 2022\n\
 This software is distributed under  an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
@@ -11501,9 +11503,8 @@ International Creative Commons License",
    3.8600285018206224`*^9, {3.8600291447242236`*^9, 3.8600291539083023`*^9}, {
    3.871552531901478*^9, 3.8715525388450155`*^9}, 3.8716638120215077`*^9, {
    3.87201834253643*^9, 3.872018352016431*^9}, 3.8734580263382187`*^9, {
-   3.873501162418352*^9, 3.8735011630823526`*^9}, 
-   3.873626435696471*^9},ExpressionUUID->"71f72317-5649-4980-8240-\
-da8b685956ea"]
+   3.873501162418352*^9, 3.8735011630823526`*^9}, 3.873626435696471*^9, 
+   3.8737064138396*^9},ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
 }, Open  ]]
 },
 WindowSize->{1429.875, 732.75},
@@ -11511,7 +11512,7 @@ WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"TryRealOnly" -> False|>,
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"ef38099a-8d24-4235-b457-b48eb56540d7"
+ExpressionUUID->"6ce5f5e6-f1d3-4f3e-82b5-5314c4779b22"
 ]
 (* End of Notebook Content *)
 
@@ -11527,21 +11528,21 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 1159, 20, 86, "Title",ExpressionUUID->"29168691-58a1-4939-9745-ba2bc9524479",
  Evaluatable->False],
-Cell[1742, 44, 1022, 18, 106, "Title",ExpressionUUID->"df09ce5c-3c35-4b13-b788-d004dc50aa9a",
+Cell[1742, 44, 1177, 20, 106, "Title",ExpressionUUID->"df09ce5c-3c35-4b13-b788-d004dc50aa9a",
  Evaluatable->False],
-Cell[2767, 64, 688, 15, 129, "Author",ExpressionUUID->"1fecc034-e33b-435c-bd5f-cef2fcedb170"],
-Cell[3458, 81, 392, 9, 31, "Affiliation",ExpressionUUID->"5e07383d-ee3c-439e-8a63-33928e6bac79"],
-Cell[3853, 92, 223853, 5747, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
+Cell[2922, 66, 688, 15, 129, "Author",ExpressionUUID->"1fecc034-e33b-435c-bd5f-cef2fcedb170"],
+Cell[3613, 83, 392, 9, 31, "Affiliation",ExpressionUUID->"5e07383d-ee3c-439e-8a63-33928e6bac79"],
+Cell[4008, 94, 223853, 5747, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
  CellOpen->False,
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[227731, 5843, 13575, 266, 19, "Input",ExpressionUUID->"3eec0729-eb31-4485-988c-8c4dc5c88586",
+Cell[227886, 5845, 13575, 266, 19, "Input",ExpressionUUID->"3eec0729-eb31-4485-988c-8c4dc5c88586",
  CellOpen->False],
-Cell[241309, 6111, 276732, 4812, 436, "Output",ExpressionUUID->"f0bac9c8-85c7-4d46-8d47-64731970b1cb"]
+Cell[241464, 6113, 276732, 4812, 413, "Output",ExpressionUUID->"f0bac9c8-85c7-4d46-8d47-64731970b1cb"]
 }, Open  ]],
-Cell[518056, 10926, 1371, 24, 95, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
-Cell[519430, 10952, 15419, 512, 172, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
-Cell[534852, 11466, 1854, 39, 75, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
+Cell[518211, 10928, 1371, 24, 95, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
+Cell[519585, 10954, 15419, 512, 172, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
+Cell[535007, 11468, 1872, 38, 75, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
 }, Open  ]]
 }
 ]

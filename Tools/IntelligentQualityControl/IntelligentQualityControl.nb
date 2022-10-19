@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    538396,      11542]
-NotebookOptionsPosition[    536895,      11509]
-NotebookOutlinePosition[    537341,      11526]
-CellTagsIndexPosition[    537298,      11523]
+NotebookDataLength[    555151,      11749]
+NotebookOptionsPosition[    553644,      11716]
+NotebookOutlinePosition[    554096,      11733]
+CellTagsIndexPosition[    554053,      11730]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -4592,37 +4592,31 @@ Cell[BoxData[{
      RowBox[{"StringJoin", "[", 
       RowBox[{
       "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
-STIX Two Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], \
-StyleBox[\\\"S\\\",FontSize->9]],FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], StyleBox[\\\
+\"S\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"k", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -4630,44 +4624,37 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
       RowBox[{
       "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
-STIX Two Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], \
-StyleBox[\\\"S\\\",FontSize->9]],FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], StyleBox[\\\
+\"S\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\"0\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\
+\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\
+\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\
+\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"k", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -4675,44 +4662,37 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
       RowBox[{
       "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
-STIX Two Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], \
-StyleBox[\\\"S\\\",FontSize->9]],FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], StyleBox[\\\
+\"S\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\
+\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\
+\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\
+\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"k", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -4720,8 +4700,8 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\n", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"pstrml", "[", 
    RowBox[{"e_", ",", "n_", ",", "l_"}], "]"}], ":=", 
@@ -4730,37 +4710,30 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
       RowBox[{
-      "\"\<\!\(\*SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], StyleBox[\\\"M\
-\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontSize->9,FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"]]\)\!\
-\(\*StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+      "\"\<\!\(\*SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+StyleBox[\\\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
+Plain\\\",FontSlant->\\\"Italic\\\"]]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -4768,37 +4741,31 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
       RowBox[{
       "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
-STIX Two Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], \
-StyleBox[\\\"M\\\",FontSize->9]],FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], StyleBox[\\\
+\"M\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\"0\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\
+\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\
+\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\
+\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -4806,37 +4773,31 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
       RowBox[{
       "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
-STIX Two Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], \
-StyleBox[\\\"M\\\",FontSize->9]],FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], StyleBox[\\\
+\"M\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\
+\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\
+\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\
+\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -4844,8 +4805,102 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\n", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pstrpn", "[", 
+   RowBox[{"e_", ",", "n_", ",", "i_"}], "]"}], ":=", 
+  RowBox[{"Switch", "[", 
+   RowBox[{"e", ",", "0", ",", 
+    RowBox[{"Text", "[", 
+     RowBox[{
+     "\"\<\\!\\(\\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], \
+\\\"N\\\"],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\
+\"Oblique\\\"]\\)\\!\\(\\*StyleBox[\\\"(\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*StyleBox[\\\"m\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\\)\\!\\(\\*\
+StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\
+\\(\\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\\)\\!\\(\\*StyleBox[\\\";\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*StyleBox[\\\"0\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*StyleBox[\\\"\
+,\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*\
+StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\
+\\(\\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\
+\\)\>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Style", "[", 
+        RowBox[{"n", ",", 
+         RowBox[{"FontFamily", "\[Rule]", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+      "<>", "\"\<\\!\\(\\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\\)\>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Style", "[", 
+        RowBox[{"i", ",", 
+         RowBox[{"FontFamily", "\[Rule]", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+      "<>", "\"\<;\>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Style", "[", 
+        RowBox[{"n", ",", 
+         RowBox[{"FontFamily", "\[Rule]", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+      "<>", "\"\<)\>\""}], "]"}], ",", "1", ",", 
+    RowBox[{"Text", "[", 
+     RowBox[{
+     "\"\<\\!\\(\\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], StyleBox[\\\
+\"N\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\\)\\!\\(\\*StyleBox[\\\"(\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*StyleBox[\\\"0\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*StyleBox[\\\"\
+,\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*\
+StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\\)\\!\\(\\*StyleBox[\\\";\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*StyleBox[\\\"0\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*StyleBox[\\\"\
+,\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*\
+StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\
+\\(\\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\
+\\)\>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Style", "[", 
+        RowBox[{"n", ",", 
+         RowBox[{"FontFamily", "\[Rule]", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+      "<>", "\"\<\\!\\(\\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\\)\>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Style", "[", 
+        RowBox[{"i", ",", 
+         RowBox[{"FontFamily", "\[Rule]", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+      "<>", "\"\<)\>\""}], "]"}], ",", "2", ",", 
+    RowBox[{"Text", "[", 
+     RowBox[{
+     "\"\<\\!\\(\\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], StyleBox[\\\
+\"N\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\\)\\!\\(\\*StyleBox[\\\"(\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*StyleBox[\\\"m\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\
+\"]\\)\\!\\(\\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\\)\\!\\(\\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*StyleBox[\\\";\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*StyleBox[\\\"0\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*StyleBox[\\\"\
+,\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\\(\\*\
+StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\\)\\!\
+\\(\\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\
+\\)\>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Style", "[", 
+        RowBox[{"n", ",", 
+         RowBox[{"FontFamily", "\[Rule]", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+      "<>", "\"\<\\!\\(\\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\\)\>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Style", "[", 
+        RowBox[{"i", ",", 
+         RowBox[{"FontFamily", "\[Rule]", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+      "<>", "\"\<)\>\""}], "]"}]}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"strvl", "[", 
    RowBox[{"e_", ",", "n_", ",", "k_", ",", "l_"}], "]"}], ":=", 
@@ -4854,37 +4909,32 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
       RowBox[{
-      "\"\<\!\(\*SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], StyleBox[\\\"S\
-\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontSize->9,FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"]]\)\!\
-\(\*StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\
-\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\" \\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\
-\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\>\"", ",", 
+      "\"\<\!\(\*SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+StyleBox[\\\"S\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
+Plain\\\",FontSlant->\\\"Italic\\\"]]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\" \
+\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
+\"m\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"\
+Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\
+\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"k", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -4892,43 +4942,38 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
       RowBox[{
       "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"\
-STIX Two Math\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"S\\\",FontFamily->\\\"STIX Two Math\\\",FontSize->9,FontWeight->\
-\\\"Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\
-\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\" \\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\
-\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\>\"", ",", 
+Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+StyleBox[\\\"S\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
+Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
+>\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
+\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\"]\)\!\(\*StyleBox[\\\" \
+\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
+\"0\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\
+\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*\
+StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"k", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -4936,41 +4981,38 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
       RowBox[{
       "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"\
-STIX Two Math\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"S\\\",FontFamily->\\\"STIX Two Math\\\",FontSize->9,FontWeight->\
-\\\"Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\
-\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\" \\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\
-\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+StyleBox[\\\"S\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
+Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
+>\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
+\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\"]\)\!\(\*StyleBox[\\\" \
+\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
+\"m\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"\
+Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"k", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -4978,8 +5020,8 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\n", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"strml", "[", 
    RowBox[{"e_", ",", "n_", ",", "l_"}], "]"}], ":=", 
@@ -4989,29 +5031,26 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
      RowBox[{"StringJoin", "[", 
       RowBox[{
       "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"\
-STIX Two Math\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"M\\\",FontFamily->\\\"STIX Two Math\\\",FontSize->9,FontWeight->\
-\\\"Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\
-\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\" \\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\
-\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\>\"", ",", 
+Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+StyleBox[\\\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
+Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
+>\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
+\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\"]\)\!\(\*StyleBox[\\\" \
+\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
+\"m\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"\
+Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\
+\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -5019,36 +5058,32 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
       RowBox[{
       "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"\
-STIX Two Math\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"M\\\",FontFamily->\\\"STIX Two Math\\\",FontSize->9,FontWeight->\
-\\\"Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\
-\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\" \\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\
-\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\>\"", ",", 
+Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+StyleBox[\\\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
+Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
+>\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
+\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\"]\)\!\(\*StyleBox[\\\" \
+\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
+\"0\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\
+\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*\
+StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -5056,34 +5091,32 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
       RowBox[{
       "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"\
-STIX Two Math\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"M\\\",FontFamily->\\\"STIX Two Math\\\",FontSize->9,FontWeight->\
-\\\"Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\
-\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\" \\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\
-\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+StyleBox[\\\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
+Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
+>\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
+\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\"]\)\!\(\*StyleBox[\\\" \
+\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
+\"m\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"\
+Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -5091,8 +5124,8 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\n", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"strn", "[", 
    RowBox[{"e_", ",", "n_", ",", "i_"}], "]"}], ":=", 
@@ -5101,115 +5134,103 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
       RowBox[{
-      "\"\<\!\(\*SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], StyleBox[\\\"N\
-\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontSize->9,FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"]]\)\!\
-\(\*StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\
-\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\" \\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\
-\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\>\"", ",", 
+      "\"\<\!\(\*SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+StyleBox[\\\"N\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
+Plain\\\",FontSlant->\\\"Italic\\\"]]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\" \
+\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
+\"m\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"\
+Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\
+\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"i", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
       RowBox[{
       "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"\
-STIX Two Math\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"N\\\",FontFamily->\\\"STIX Two Math\\\",FontSize->9,FontWeight->\
-\\\"Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\
-\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\" \\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\
-\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\>\"", ",", 
+Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+StyleBox[\\\"N\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
+Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
+>\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
+\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\"]\)\!\(\*StyleBox[\\\" \
+\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
+\"0\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\
+\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*\
+StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
+FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"i", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
       RowBox[{
       "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"\
-STIX Two Math\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"N\\\",FontFamily->\\\"STIX Two Math\\\",FontSize->9,FontWeight->\
-\\\"Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\
-\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\" \\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\
-\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+StyleBox[\\\"N\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
+Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
+>\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
+\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\"]\)\!\(\*StyleBox[\\\" \
+\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
+\"m\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"\
+Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"i", ",", 
-          RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-        "]"}], ",", "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\n", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+       "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"strvl", "[", 
    RowBox[{"m_", ",", "s_", ",", "n_", ",", "k_", ",", "l_"}], "]"}], ":=", 
   RowBox[{"Text", "@", 
    RowBox[{"StringJoin", "[", 
     RowBox[{
-    "\"\<\!\(\*SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], StyleBox[\\\"S\
-\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontSize->9,FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"]]\)\!\
-\(\*StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\
-\\\";\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+    "\"\<\!\(\*SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+StyleBox[\\\"S\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
+Plain\\\",FontSlant->\\\"Italic\\\"]]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"\
+", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{
@@ -5217,9 +5238,9 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
          RowBox[{"m", ",", 
           RowBox[{"{", 
            RowBox[{"4", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], "]"}],
-      ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{
@@ -5227,21 +5248,21 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
          RowBox[{"s", ",", 
           RowBox[{"{", 
            RowBox[{"4", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], "]"}],
-      ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{"n", ",", 
-        RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], "]"}],
-      ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{"k", ",", 
-        RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], "]"}],
-      ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{
@@ -5249,25 +5270,24 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
          RowBox[{"l", ",", 
           RowBox[{"{", 
            RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], "]"}],
-      ",", "\"\<)\>\""}], "]"}]}]}], "\n", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+     "\"\<)\>\""}], "]"}]}]}], "\n", 
  RowBox[{
   RowBox[{"strml", "[", 
    RowBox[{"m_", ",", "s_", ",", "n_", ",", "l_"}], "]"}], ":=", 
   RowBox[{"Text", "@", 
    RowBox[{"StringJoin", "[", 
     RowBox[{
-    "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"STIX \
-Two Math\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"M\\\",FontFamily->\\\"STIX Two Math\\\",FontSize->9,FontWeight->\
-\\\"Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\"(\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\
-\\\";\\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\" \\\",FontFamily->\\\"STIX Two Math\\\",FontWeight->\\\"Normal\
-\\\"]\)\>\"", ",", 
+    "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"Arial\
+\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+StyleBox[\\\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
+Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
+>\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
+\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\"]\)\!\(\*StyleBox[\\\" \
+\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{
@@ -5275,9 +5295,9 @@ Math\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\
          RowBox[{"m", ",", 
           RowBox[{"{", 
            RowBox[{"4", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], "]"}],
-      ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{
@@ -5285,15 +5305,15 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
          RowBox[{"s", ",", 
           RowBox[{"{", 
            RowBox[{"4", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], "]"}],
-      ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{"n", ",", 
-        RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], "]"}],
-      ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{
@@ -5301,8 +5321,8 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
          RowBox[{"l", ",", 
           RowBox[{"{", 
            RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], "]"}],
-      ",", "\"\<)\>\""}], "]"}]}]}], "\n", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+     "\"\<)\>\""}], "]"}]}]}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"strn", "[", 
@@ -5310,16 +5330,14 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
    RowBox[{"Text", "@", 
     RowBox[{"StringJoin", "[", 
      RowBox[{
-     "\"\<\!\(\*SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"STIX Two Math\
-\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"N\\\",FontFamily->\\\"STIX Two Math\\\",FontSize->9,FontWeight->\
-\\\"Plain\\\",FontSlant->\\\"Italic\\\"]]\)\!\(\*StyleBox[\\\"(\\\",\
-FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\
-\"STIX Two \
-Math\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\
-\\\";\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+     "\"\<\!\(\*SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+StyleBox[\\\"N\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
+Plain\\\",FontSlant->\\\"Italic\\\"]]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"\
+", ",", 
       RowBox[{"ToString", "[", 
        RowBox[{"Style", "[", 
         RowBox[{
@@ -5327,10 +5345,9 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
           RowBox[{"m", ",", 
            RowBox[{"{", 
             RowBox[{"4", ",", "2"}], "}"}]}], "]"}], ",", 
-         RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-       "]"}], ",", 
-      "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+         RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+      "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\>\"", ",", 
       RowBox[{"ToString", "[", 
        RowBox[{"Style", "[", 
         RowBox[{
@@ -5338,22 +5355,20 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
           RowBox[{"s", ",", 
            RowBox[{"{", 
             RowBox[{"4", ",", "2"}], "}"}]}], "]"}], ",", 
-         RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-       "]"}], ",", 
-      "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+         RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+      "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\>\"", ",", 
       RowBox[{"ToString", "[", 
        RowBox[{"Style", "[", 
         RowBox[{"n", ",", 
-         RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-       "]"}], ",", 
-      "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+         RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+      "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\>\"", ",", 
       RowBox[{"ToString", "[", 
        RowBox[{"Style", "[", 
         RowBox[{"i", ",", 
-         RowBox[{"FontFamily", "->", "\"\<STIX Two Text\>\""}]}], "]"}], 
-       "]"}], ",", "\"\<)\>\""}], "]"}]}]}], "\n"}], "\[IndentingNewLine]", 
+         RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
+      "\"\<)\>\""}], "]"}]}]}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"pstrvp", "[", 
    RowBox[{"e_", ",", "n_", ",", "k_", ",", "p_"}], "]"}], ":=", 
@@ -5430,11 +5445,10 @@ Math\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
       RowBox[{"AxesLabel", "\[Rule]", 
        RowBox[{"{", 
         RowBox[{
-        "\"\<\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", ",", 
-         "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], 
-        "}"}]}], ",", 
+        "\"\<\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", ",", 
+         "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
       RowBox[{"PlotLabel", "\[Rule]", "\"\<probability for rejection\>\""}], 
       ",", 
       RowBox[{"PlotLegends", "->", 
@@ -5500,11 +5514,10 @@ Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}],
       RowBox[{"AxesLabel", "\[Rule]", 
        RowBox[{"{", 
         RowBox[{
-        "\"\<\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", ",", 
-         "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"STIX Two \
-Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], 
-        "}"}]}], ",", 
+        "\"\<\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", ",", 
+         "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
       RowBox[{"PlotLabel", "\[Rule]", "\"\<probability for rejection\>\""}], 
       ",", 
       RowBox[{"PlotLegends", "->", 
@@ -5838,8 +5851,12 @@ Math\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}],
    3.872021783493414*^9, 3.8734560726018124`*^9, {3.873456277786393*^9, 
    3.8734562798173933`*^9}, 3.8734573508350177`*^9, 3.8736084741643696`*^9, {
    3.8736088111373873`*^9, 3.873608818761793*^9}, 3.873609293566084*^9, 
-   3.8736094103188534`*^9},
- CellLabel->"In[1]:=",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7"],
+   3.8736094103188534`*^9, {3.8751863160033493`*^9, 3.8751863465746965`*^9}, {
+   3.8751866758664455`*^9, 3.8751866771164103`*^9}, {3.8751867929191523`*^9, 
+   3.8751868392049885`*^9}, {3.8751869545506916`*^9, 3.8751869759507356`*^9}, 
+   3.8751872621807184`*^9, 3.875200508424874*^9, 3.875200658140705*^9},
+ CellLabel->
+  "In[187]:=",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7"],
 
 Cell[CellGroupData[{
 
@@ -6109,14 +6126,15 @@ Cell[BoxData[
    3.8736273264459934`*^9}, {3.8736273781833124`*^9, 3.873627412214672*^9}, {
    3.8736274652466993`*^9, 3.8736274706223564`*^9}, {3.873705838836088*^9, 
    3.873705846011211*^9}, {3.873705876137455*^9, 3.8737058921372957`*^9}},
- CellLabel->"In[94]:=",ExpressionUUID->"3eec0729-eb31-4485-988c-8c4dc5c88586"],
+ CellLabel->
+  "In[280]:=",ExpressionUUID->"3eec0729-eb31-4485-988c-8c4dc5c88586"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"QC plots\"\>"->
   TagBox[
    StyleBox[
-    DynamicModuleBox[{$CellContext`i$$ = 6, $CellContext`n$$ = 
-     4, $CellContext`t$$ = 2, Typeset`show$$ = True, 
+    DynamicModuleBox[{$CellContext`i$$ = 4, $CellContext`n$$ = 
+     4, $CellContext`t$$ = 1, Typeset`show$$ = True, 
      Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
      Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
      "\"untitled\"", Typeset`specs$$ = {{
@@ -6260,11 +6278,11 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"},
              1, $CellContext`n, $CellContext`i][$CellContext`s]]], \
 {$CellContext`s, 1, 7}, PlotRange -> {{1, 7}, {0, 1}}, AxesOrigin -> {1, 0}, 
            AxesLabel -> {
-            "\!\(\*StyleBox[\"s\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)", 
-             "\!\(\*StyleBox[\"p\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\",FontSlant->\"Oblique\"]\)"}, PlotLabel -> 
-           "probability for rejection", PlotLegends -> Prepend[
+            "\!\(\*StyleBox[\"s\",FontFamily->\"Arial\",FontWeight->\"Normal\"\
+,FontSlant->\"Oblique\"]\)", 
+             "\!\(\*StyleBox[\"p\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\",FontSlant->\"Oblique\"]\)"}, PlotLabel -> "probability for rejection", 
+           PlotLegends -> Prepend[
              Append[
               Table[
                $CellContext`pstrvp[1, $CellContext`n, $CellContext`k, 
@@ -6290,11 +6308,11 @@ Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)",
              2, $CellContext`n, $CellContext`i][$CellContext`m]]], \
 {$CellContext`m, 0, 6}, PlotRange -> {{0, 6}, {0, 1}}, AxesOrigin -> {0, 0}, 
            AxesLabel -> {
-            "\!\(\*StyleBox[\"m\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)", 
-             "\!\(\*StyleBox[\"p\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\",FontSlant->\"Oblique\"]\)"}, PlotLabel -> 
-           "probability for rejection", PlotLegends -> Prepend[
+            "\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",FontWeight->\"Normal\"\
+,FontSlant->\"Oblique\"]\)", 
+             "\!\(\*StyleBox[\"p\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\",FontSlant->\"Oblique\"]\)"}, PlotLabel -> "probability for rejection", 
+           PlotLegends -> Prepend[
              Append[
               Table[
                $CellContext`pstrvp[2, $CellContext`n, $CellContext`k, 
@@ -8187,81 +8205,74 @@ $CellContext`p]], $CellContext`pstrvl[
           Pattern[$CellContext`l, 
            Blank[]]] := Switch[$CellContext`e, 0, 
           Text[
-          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
-StyleBox[\"S\",FontSize->9]],FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`k, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
+StyleBox[\";\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
+\"0\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
              Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-              "STIX Two Text"]] <> ")"], 1, 
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+           ")"], 1, 
           Text[
-          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
-StyleBox[\"S\",FontSize->9]],FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`k, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
              Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-              "STIX Two Text"]] <> ")"], 2, 
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+           ")"], 2, 
           Text[
-          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
-StyleBox[\"S\",FontSize->9]],FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\";\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`k, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\";\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
              Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-              "STIX Two Text"]] <> ")"]], $CellContext`pstrmp[
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+           ")"]], $CellContext`pstrmp[
           Pattern[$CellContext`e, 
            Blank[]], 
           Pattern[$CellContext`n, 
@@ -8277,142 +8288,126 @@ $CellContext`pstrml[
           Pattern[$CellContext`l, 
            Blank[]]] := Switch[$CellContext`e, 0, 
           Text[
-          "\!\(\*SubscriptBox[StyleBox[\"P\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
-StyleBox[\"M\",FontFamily->\"STIX Two \
-Math\",FontSize->9,FontWeight->\"Plain\",FontSlant->\"Italic\"]]\)\!\(\*\
-StyleBox[\"(\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+          "\!\(\*SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",FontWeight-\
+>\"Plain\",FontSlant->\"Italic\"], \
+StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
+FontSlant->\"Italic\"]]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
+StyleBox[\";\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
+\"0\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
              Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-              "STIX Two Text"]] <> ")"], 1, 
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+           ")"], 1, 
           Text[
-          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
-StyleBox[\"M\",FontSize->9]],FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+StyleBox[\"M\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
              Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-              "STIX Two Text"]] <> ")"], 2, 
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+           ")"], 2, 
           Text[
-          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
-StyleBox[\"M\",FontSize->9]],FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\";\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+StyleBox[\"M\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\";\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
              Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-              "STIX Two Text"]] <> ")"]], $CellContext`pstrpn[
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+           ")"]], $CellContext`pstrpn[
           Pattern[$CellContext`e, 
            Blank[]], 
           Pattern[$CellContext`n, 
            Blank[]], 
           Pattern[$CellContext`i, 
            Blank[]]] := Switch[$CellContext`e, 0, 
-          
-          Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-STIX Two Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
-\"N\"],FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-                Style[$CellContext`n, FontFamily -> "STIX Two Text"]]) <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)") <> ToString[
-              Style[$CellContext`i, FontFamily -> "STIX Two Text"]]) <> ")"], 
-          1, 
-          
-          Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-STIX Two Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
-StyleBox[\"N\",FontSize->9]],FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-                Style[$CellContext`n, FontFamily -> "STIX Two Text"]]) <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)") <> ToString[
-              Style[$CellContext`i, FontFamily -> "STIX Two Text"]]) <> ")"], 
-          2, 
-          
-          Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-STIX Two Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
-StyleBox[\"N\",FontSize->9]],FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\";\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-                Style[$CellContext`n, FontFamily -> "STIX Two Text"]]) <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two Math\",FontWeight->\
-\"Normal\"]\)") <> ToString[
-              Style[$CellContext`i, FontFamily -> "STIX Two Text"]]) <> 
+          Text[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+\"N\"],FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\
+\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*\
+StyleBox[\"m\",FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"\
+Oblique\"]\)\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)\!\(\*StyleBox[\"s\",FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant-\
+>\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily->\"Arial\",FontWeight->\"\
+Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*\
+StyleBox[\"1\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
+\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`i, FontFamily -> "Arial"]] <> ";" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> ")"], 1, 
+          Text[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+StyleBox[\"N\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`i, FontFamily -> "Arial"]] <> ")"], 2, 
+          Text[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+StyleBox[\"N\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\";\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`i, FontFamily -> "Arial"]] <> 
            ")"]], $CellContext`gpfrn[
           Pattern[$CellContext`n, 
            Blank[]], 
@@ -8435,8 +8430,8 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
    Manipulate`InterpretManipulate[1]]}, {2,"\<\"QC calculator\"\>"->
   TagBox[
    StyleBox[
-    DynamicModuleBox[{$CellContext`i$$ = 6, $CellContext`mc$$ = 
-     3., $CellContext`n$$ = 4, $CellContext`sc$$ = 4., Typeset`show$$ = True, 
+    DynamicModuleBox[{$CellContext`i$$ = 16, $CellContext`mc$$ = 
+     3., $CellContext`n$$ = 3, $CellContext`sc$$ = 4., Typeset`show$$ = True, 
      Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
      Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
      "\"untitled\"", Typeset`specs$$ = {{
@@ -8484,7 +8479,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"}}, {
        Manipulate`Dump`ThisIsNotAControl}, {{
         Hold[$CellContext`mc$$], 3., "systematic error"}, 0., 6., 0.01}, {{
         Hold[$CellContext`sc$$], 4., "random error"}, 1., 7., 0.01}}, 
-     Typeset`size$$ = {327., {108.14208972058259`, 114.85791027941741`}}, 
+     Typeset`size$$ = {332., {95.14208972058259, 101.85791027941741`}}, 
      Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
      False}, 
      DynamicBox[Manipulate`ManipulateBoxes[
@@ -8547,7 +8542,7 @@ StyleBox[\")\",FontWeight->\"Plain\",FontSlant->\"Italic\"]\)"},
           Appearance -> "Labeled", ImageSize -> "Tiny"}, Delimiter}, 
        "Options" :> {TrackedSymbols -> True, ControlPlacement -> Left}, 
        "DefaultOptions" :> {}],
-      ImageSizeCache->{704., {139.13403309800196`, 144.86596690199804`}},
+      ImageSizeCache->{709., {126.13403309800196`, 131.86596690199804`}},
       SingleEvaluation->True],
      Deinitialization:>None,
      DynamicModuleValues:>{},
@@ -8615,7 +8610,255 @@ $CellContext`s,
                    $CellContext`pfrn[$CellContext`n, $CellContext`i]]]], {10, 
                 6}]}}]], Frame -> All, FrameStyle -> 
            Blend[{Blue, Cyan}, 0.35], Spacings -> {1, 1}, ItemSize -> 
-           Automatic]], $CellContext`strn[
+           Automatic]], $CellContext`strn[1, 1] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"1\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\")\",FontSlant->\"Italic\"]\)", $CellContext`strn[1, 2] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"2\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\")\",FontSlant->\"Italic\"]\)", $CellContext`strn[1, 3] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"3\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\")\",FontSlant->\"Italic\"]\)", $CellContext`strn[1, 4] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"4\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\")\",FontSlant->\"Italic\"]\)", $CellContext`strn[1, 6] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"6\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\")\",FontSlant->\"Italic\"]\)", $CellContext`strn[1, 8] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"8\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\")\",FontSlant->\"Italic\"]\)", $CellContext`strn[1, 12] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"12\"]\)(\
+\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\")\",FontSlant->\"Italic\"]\)", $CellContext`strn[1, 16] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"16\"]\)(\
+\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\")\",FontSlant->\"Italic\"]\)", $CellContext`strn[2, 1] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"1\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[2, 2] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"2\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[2, 3] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"3\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[2, 4] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"4\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[2, 6] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"6\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[2, 8] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"8\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[2, 12] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"12\"]\)(\
+\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[2, 16] = 
+        "\!\(\*SubscriptBox[\(N\), \
+\(16\)]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[3, 1] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"1\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[3, 2] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"2\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[3, 3] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"3\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[3, 4] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"4\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[3, 6] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"6\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[3, 8] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"8\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[3, 12] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"12\"]\)(\
+\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[3, 16] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"16\"]\)(\
+\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[4, 1] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"1\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[4, 2] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"2\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[4, 3] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"3\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[4, 4] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"4\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[4, 6] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"6\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[4, 8] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
+\"8\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[4, 12] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"12\"]\)(\
+\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[4, 16] = 
+        "\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"16\"]\)(\
+\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+StyleBox[\"1\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\
+\",\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[SubscriptBox[StyleBox[\"x\",\
+FontSlant->\"Italic\"], \
+\"2\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"3\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\",\",FontSlant->\"Italic\"]\)\!\
+\(\*StyleBox[SubscriptBox[StyleBox[\"x\",FontSlant->\"Italic\"], \
+\"4\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\")\",FontSlant->\"Italic\"]\)",\
+ $CellContext`strn[
           Pattern[$CellContext`e, 
            Blank[]], 
           Pattern[$CellContext`n, 
@@ -8623,68 +8866,59 @@ $CellContext`s,
           Pattern[$CellContext`i, 
            Blank[]]] := Switch[$CellContext`e, 0, 
           Text[
-          "\!\(\*SubscriptBox[StyleBox[\"R\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
-StyleBox[\"N\",FontFamily->\"STIX Two \
-Math\",FontSize->9,FontWeight->\"Plain\",FontSlant->\"Italic\"]]\)\!\(\*\
-StyleBox[\"(\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
-\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`i, FontFamily -> "STIX Two Text"]] <> ")"], 1, 
+          "\!\(\*SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",FontWeight-\
+>\"Plain\",FontSlant->\"Italic\"], \
+StyleBox[\"N\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
+FontSlant->\"Italic\"]]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
+FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
+>\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
+\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
+StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
+\"s\",FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\
+\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> 
+           ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`i, FontFamily -> "Arial"]] <> ")"], 1, 
           Text[
-          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
-StyleBox[\"N\",FontFamily->\"STIX Two \
-Math\",FontSize->9,FontWeight->\"Plain\",FontSlant->\"Italic\"]],FontFamily->\
-\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
-\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`i, FontFamily -> "STIX Two Text"]] <> ")"], 2, 
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+StyleBox[\"N\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
+FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
+FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
+>\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
+\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
+StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`i, FontFamily -> "Arial"]] <> ")"], 2, 
           Text[
-          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
-StyleBox[\"N\",FontFamily->\"STIX Two \
-Math\",FontSize->9,FontWeight->\"Plain\",FontSlant->\"Italic\"]],FontFamily->\
-\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
-\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`i, FontFamily -> "STIX Two Text"]] <> 
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+StyleBox[\"N\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
+FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
+FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
+>\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
+\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
+StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
+\"1\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`i, FontFamily -> "Arial"]] <> 
            ")"]], $CellContext`strn[
           Pattern[$CellContext`m, 
            Blank[]], 
@@ -8694,28 +8928,25 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
            Blank[]], 
           Pattern[$CellContext`i, 
            Blank[]]] := 
-        Text["\!\(\*SubscriptBox[StyleBox[\"R\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
-StyleBox[\"N\",FontFamily->\"STIX Two \
-Math\",FontSize->9,FontWeight->\"Plain\",FontSlant->\"Italic\"]]\)\!\(\*\
-StyleBox[\"(\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)" <> ToString[
+        Text["\!\(\*SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+StyleBox[\"N\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
+FontSlant->\"Italic\"]]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
+FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
+>\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
             Style[
-             NumberForm[$CellContext`m, {4, 2}], FontFamily -> 
-             "STIX Two Text"]] <> 
-          "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+             NumberForm[$CellContext`m, {4, 2}], FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
             Style[
-             NumberForm[$CellContext`s, {4, 2}], FontFamily -> 
-             "STIX Two Text"]] <> 
-          "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-            Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-          "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-            Style[$CellContext`i, FontFamily -> "STIX Two Text"]] <> 
+             NumberForm[$CellContext`s, {4, 2}], FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+            Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+            Style[$CellContext`i, FontFamily -> "Arial"]] <> 
           ")"], $CellContext`tv[
           Pattern[$CellContext`n, 
            Blank[]], 
@@ -8751,83 +8982,74 @@ $CellContext`p]], $CellContext`k = 1, $CellContext`strvl[
           Pattern[$CellContext`l, 
            Blank[]]] := Switch[$CellContext`e, 0, 
           Text[
-          "\!\(\*SubscriptBox[StyleBox[\"R\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
-StyleBox[\"S\",FontFamily->\"STIX Two \
-Math\",FontSize->9,FontWeight->\"Plain\",FontSlant->\"Italic\"]]\)\!\(\*\
-StyleBox[\"(\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
-\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`k, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+          "\!\(\*SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",FontWeight-\
+>\"Plain\",FontSlant->\"Italic\"], \
+StyleBox[\"S\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
+FontSlant->\"Italic\"]]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
+FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
+>\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
+\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
+StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
+\"s\",FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\
+\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> 
+           ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
              Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-              "STIX Two Text"]] <> ")"], 1, 
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+           ")"], 1, 
           Text[
-          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
-StyleBox[\"S\",FontFamily->\"STIX Two \
-Math\",FontSize->9,FontWeight->\"Plain\",FontSlant->\"Italic\"]],FontFamily->\
-\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
-\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`k, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+StyleBox[\"S\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
+FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
+FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
+>\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
+\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
+StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
              Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-              "STIX Two Text"]] <> ")"], 2, 
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+           ")"], 2, 
           Text[
-          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
-StyleBox[\"S\",FontFamily->\"STIX Two \
-Math\",FontSize->9,FontWeight->\"Plain\",FontSlant->\"Italic\"]],FontFamily->\
-\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
-\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`k, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+StyleBox[\"S\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
+FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
+FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
+>\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
+\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
+StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
+\"1\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
              Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-              "STIX Two Text"]] <> ")"]], $CellContext`strvl[
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+           ")"]], $CellContext`strvl[
           Pattern[$CellContext`m, 
            Blank[]], 
           Pattern[$CellContext`s, 
@@ -8838,33 +9060,30 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
            Blank[]], 
           Pattern[$CellContext`l, 
            Blank[]]] := 
-        Text["\!\(\*SubscriptBox[StyleBox[\"R\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
-StyleBox[\"S\",FontFamily->\"STIX Two \
-Math\",FontSize->9,FontWeight->\"Plain\",FontSlant->\"Italic\"]]\)\!\(\*\
-StyleBox[\"(\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)" <> ToString[
+        Text["\!\(\*SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+StyleBox[\"S\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
+FontSlant->\"Italic\"]]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
+FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
+>\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
             Style[
-             NumberForm[$CellContext`m, {4, 2}], FontFamily -> 
-             "STIX Two Text"]] <> 
-          "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+             NumberForm[$CellContext`m, {4, 2}], FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
             Style[
-             NumberForm[$CellContext`s, {4, 2}], FontFamily -> 
-             "STIX Two Text"]] <> 
-          "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-            Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-          "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-            Style[$CellContext`k, FontFamily -> "STIX Two Text"]] <> 
-          "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+             NumberForm[$CellContext`s, {4, 2}], FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+            Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+            Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
             Style[
-             NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-             "STIX Two Text"]] <> ")"], $CellContext`lpfrv[
+             NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+          ")"], $CellContext`lpfrv[
           Pattern[$CellContext`n, 
            Blank[]], 
           Pattern[$CellContext`k, 
@@ -8948,76 +9167,66 @@ $CellContext`strml[
           Pattern[$CellContext`l, 
            Blank[]]] := Switch[$CellContext`e, 0, 
           Text[
-          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
-StyleBox[\"M\",FontFamily->\"STIX Two \
-Math\",FontSize->9,FontWeight->\"Plain\",FontSlant->\"Italic\"]],FontFamily->\
-\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
-\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
+FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
+FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
+>\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
+\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
+StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
+\"s\",FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\
+\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> 
+           ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
              Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-              "STIX Two Text"]] <> ")"], 1, 
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+           ")"], 1, 
           Text[
-          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
-StyleBox[\"M\",FontFamily->\"STIX Two \
-Math\",FontSize->9,FontWeight->\"Plain\",FontSlant->\"Italic\"]],FontFamily->\
-\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
-\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
+FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
+FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
+>\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
+\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
+StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
              Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-              "STIX Two Text"]] <> ")"], 2, 
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+           ")"], 2, 
           Text[
-          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
-StyleBox[\"M\",FontFamily->\"STIX Two \
-Math\",FontSize->9,FontWeight->\"Plain\",FontSlant->\"Italic\"]],FontFamily->\
-\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
-\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\",\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-             Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-           "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
+FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
+FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
+>\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
+\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
+StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
+\"1\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
+FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
              Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-              "STIX Two Text"]] <> ")"]], $CellContext`strml[
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+           ")"]], $CellContext`strml[
           Pattern[$CellContext`m, 
            Blank[]], 
           Pattern[$CellContext`s, 
@@ -9026,33 +9235,29 @@ Math\",FontWeight->\"Normal\"]\)" <> ToString[
            Blank[]], 
           Pattern[$CellContext`l, 
            Blank[]]] := 
-        Text["\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"STIX \
-Two Math\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
-StyleBox[\"M\",FontFamily->\"STIX Two \
-Math\",FontSize->9,FontWeight->\"Plain\",FontSlant->\"Italic\"]],FontFamily->\
-\"STIX Two \
-Math\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",\
-FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",\
-FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
-\",FontFamily->\"STIX Two Math\",FontWeight->\"Normal\"]\)" <> ToString[
+        Text["\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\"\
+,FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
+FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
+FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
+FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
+>\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
+\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
             Style[
-             NumberForm[$CellContext`m, {4, 2}], FontFamily -> 
-             "STIX Two Text"]] <> 
-          "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+             NumberForm[$CellContext`m, {4, 2}], FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
             Style[
-             NumberForm[$CellContext`s, {4, 2}], FontFamily -> 
-             "STIX Two Text"]] <> 
-          "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
-            Style[$CellContext`n, FontFamily -> "STIX Two Text"]] <> 
-          "\!\(\*StyleBox[\",\",FontFamily->\"STIX Two \
-Math\",FontWeight->\"Normal\"]\)" <> ToString[
+             NumberForm[$CellContext`s, {4, 2}], FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+            Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
             Style[
-             NumberForm[$CellContext`l, {3, 2}], FontFamily -> 
-             "STIX Two Text"]] <> ")"], $CellContext`lpfrm[
+             NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+          ")"], $CellContext`lpfrm[
           Pattern[$CellContext`n, 
            Blank[]], 
           Pattern[$CellContext`p, 
@@ -10922,8 +11127,10 @@ $CellContext`p]]], {10, 6}], {$CellContext`k, 1, $CellContext`n}]]]};
    3.8734581086974306`*^9, 3.873609078392354*^9, {3.8736093028945165`*^9, 
    3.8736093149705496`*^9}, 3.8736094185688505`*^9, 3.873627342297866*^9, 
    3.8736274189716797`*^9, 3.8736274901622844`*^9, 3.873705902098675*^9, 
-   3.87370594352929*^9},
- CellLabel->"Out[94]=",ExpressionUUID->"f0bac9c8-85c7-4d46-8d47-64731970b1cb"]
+   3.87370594352929*^9, 3.8751863601377306`*^9, 3.875186861834558*^9, 
+   3.8751872752522087`*^9, 3.875200665341449*^9},
+ CellLabel->
+  "Out[280]=",ExpressionUUID->"0e0e6535-829e-4146-9a80-3e5aad77ae17"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -11507,12 +11714,12 @@ International Creative Commons License",
    3.8737064138396*^9},ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
 }, Open  ]]
 },
-WindowSize->{1429.875, 732.75},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{1440., 742.5},
+WindowMargins->{{Automatic, -4.875}, {-4.875, Automatic}},
 TaggingRules-><|"TryRealOnly" -> False|>,
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"6ce5f5e6-f1d3-4f3e-82b5-5314c4779b22"
+ExpressionUUID->"3d959dde-a146-4fe8-97d7-b9954a41b5f7"
 ]
 (* End of Notebook Content *)
 
@@ -11532,17 +11739,17 @@ Cell[1742, 44, 1177, 20, 106, "Title",ExpressionUUID->"df09ce5c-3c35-4b13-b788-d
  Evaluatable->False],
 Cell[2922, 66, 688, 15, 129, "Author",ExpressionUUID->"1fecc034-e33b-435c-bd5f-cef2fcedb170"],
 Cell[3613, 83, 392, 9, 31, "Affiliation",ExpressionUUID->"5e07383d-ee3c-439e-8a63-33928e6bac79"],
-Cell[4008, 94, 223853, 5747, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
+Cell[4008, 94, 226898, 5764, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
  CellOpen->False,
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[227886, 5845, 13575, 266, 19, "Input",ExpressionUUID->"3eec0729-eb31-4485-988c-8c4dc5c88586",
+Cell[230931, 5862, 13579, 267, 19, "Input",ExpressionUUID->"3eec0729-eb31-4485-988c-8c4dc5c88586",
  CellOpen->False],
-Cell[241464, 6113, 276732, 4812, 413, "Output",ExpressionUUID->"f0bac9c8-85c7-4d46-8d47-64731970b1cb"]
+Cell[244513, 6131, 290432, 5001, 413, "Output",ExpressionUUID->"0e0e6535-829e-4146-9a80-3e5aad77ae17"]
 }, Open  ]],
-Cell[518211, 10928, 1371, 24, 95, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
-Cell[519585, 10954, 15419, 512, 172, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
-Cell[535007, 11468, 1872, 38, 75, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
+Cell[534960, 11135, 1371, 24, 95, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
+Cell[536334, 11161, 15419, 512, 172, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
+Cell[551756, 11675, 1872, 38, 75, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
 }, Open  ]]
 }
 ]

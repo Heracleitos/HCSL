@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://www.hcsl.com/</loc>
-      <lastmod>2023-01-26</lastmod>
+      <lastmod>2023-02-13</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/index.html</loc>
-      <lastmod>2023-01-26</lastmod>
+      <lastmod>2023-02-13</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Intro/index.html</loc>
-      <lastmod>2022-06-24</lastmod>
+      <lastmod>2023-02-13</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Notes/index.html</loc>
-      <lastmod>2022-06-24</lastmod>
+      <lastmod>2023-02-13</lastmod>
    </url>
     <url>
       <loc>https://www.hcsl.com/Publications/index.html</loc>
@@ -62,15 +62,15 @@
    </url>
    <url>
       <loc>https://www.hcsl.com/Publications/Fellows.html</loc>
-      <lastmod>2022-04-20</lastmod>
+      <lastmod>2023-02-13</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/CLSI/index.html</loc>
-      <lastmod>2022-04-20</lastmod>
+      <lastmod>2023-02-13</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Tools/index.html</loc>
-      <lastmod>2022-10-02</lastmod>
+      <lastmod>2023-02-13</lastmod>
    </url>
    <url>
     <loc>https://www.hcsl.com/Tools/Relation/index.html</loc>
@@ -102,14 +102,17 @@
   </url>
    <url>
       <loc>https://www.hcsl.com/Glossary/index.html</loc>
-      <lastmod>2022-06-15</lastmod>
+      <lastmod>2023-02-13</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Links/index.html</loc>
-      <lastmod>2022-06-15</lastmod>
+      <lastmod>2023-02-13</lastmod>
    </url>
    <url>
       <loc>https://www.hcsl.com/Contact/index.html</loc>
-      <lastmod>2023-01-26</lastmod>
+      <lastmod>2023-02-13</lastmod>
+	   <url>
+      <loc>https://www.hcsl.com/About/index.html</loc>
+      <lastmod>2023-02-13</lastmod>
    </url>
 </urlset>

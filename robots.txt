@@ -1,5 +1,6 @@
+User-agent: SiteCheckerBotCrawler
+Allow: /
 User-Agent: *
-Disallow: 
-
+Allow: /
 Sitemap: 
 https://heracleitos.github.io/HCSL//sitemap.xml

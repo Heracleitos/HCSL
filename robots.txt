@@ -3,4 +3,4 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 Sitemap: 
-https://heracleitos.github.io/HCSL//sitemap.xml
+https://heracleitos.github.io/HCSL/sitemap.xml

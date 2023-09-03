@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3314544,      58673]
-NotebookOptionsPosition[   3312622,      58625]
-NotebookOutlinePosition[   3313264,      58650]
-CellTagsIndexPosition[   3313189,      58645]
+NotebookDataLength[   3317179,      58720]
+NotebookOptionsPosition[   3315050,      58669]
+NotebookOutlinePosition[   3315784,      58696]
+CellTagsIndexPosition[   3315709,      58691]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -58562,8 +58562,7 @@ Cell[TextData[{
  StyleBox["\n",
   FontSize->12],
  StyleBox["PDF: probability density function\nKDE: kernel density estimator\n\
-NHANES: National Health and Nutrition Examination Survey, Centers for Disease \
-Control and Prevention, USA ",
+P(disease): probability  for disease",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]]
 }], "Subsubsubsubsection",
@@ -58580,8 +58579,53 @@ Control and Prevention, USA ",
    3.8945129324325924`*^9, 3.8945129577291107`*^9}, {3.8945543659519515`*^9, 
    3.8945543691153607`*^9}, {3.901955899113204*^9, 3.9019559738798094`*^9}, {
    3.902531843710097*^9, 3.902531850086418*^9}, {3.9025318811811*^9, 
-   3.9025319224086685`*^9}},ExpressionUUID->"6e02de44-2a78-4951-bf85-\
+   3.9025319224086685`*^9}, {3.902716530215951*^9, 3.9027165637866945`*^9}, {
+   3.90271663972305*^9, 3.902716699554519*^9}, {3.9027171433235493`*^9, 
+   3.9027171443513002`*^9}, {3.9027174864246845`*^9, 3.90271752688246*^9}, {
+   3.902717595818288*^9, 3.902717614267066*^9}, 3.9027176881877904`*^9, {
+   3.9027177568968434`*^9, 
+   3.902717757441906*^9}},ExpressionUUID->"6e02de44-2a78-4951-bf85-\
 66e2850280f4"],
+
+Cell[TextData[{
+ StyleBox["Datasets\n",
+  FontSize->10],
+ StyleBox["The datasets have been obtained from the database of the National \
+Health and Nutrition Examination Survey, Centers for Disease Control and \
+Prevention, USA. \nThey are editable.",
+  FontSize->10,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["\n",
+  FontSize->12],
+ StyleBox["d1: First measurand (fasting plasma glucose, mg/dl) in diseased \
+(diabetics)\nnd1: First measurand (fasting plasma glucose, mg/dl) in \
+nondiseased (nondiabetics)\nd2: Second measurand (glycated hemoglobin A1c, %) \
+in diseased (diabetics)\nnd2: Second measurand (glycated hemoglobin A1c, %) \
+in nondiseased (nondiabetics)",
+  FontSize->10,
+  FontColor->RGBColor[0., 0., 0.]]
+}], "Subsubsubsubsection",
+ Editable->False,
+ Deployed->True,
+ CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
+   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+   3.8066664862909436`*^9, 3.806666502895442*^9}, 3.8070765097138042`*^9, {
+   3.8070767128593364`*^9, 3.8070767130363336`*^9}, {3.857308171862177*^9, 
+   3.8573081718631754`*^9}, {3.8893553003409805`*^9, 
+   3.8893553256636953`*^9}, {3.8945014796489444`*^9, 3.894501480656904*^9}, {
+   3.8945024043949556`*^9, 3.894502404400076*^9}, 3.894502523405162*^9, {
+   3.8945129324325924`*^9, 3.8945129577291107`*^9}, {3.8945543659519515`*^9, 
+   3.8945543691153607`*^9}, {3.901955899113204*^9, 3.9019559738798094`*^9}, {
+   3.902531843710097*^9, 3.902531850086418*^9}, {3.9025318811811*^9, 
+   3.9025319224086685`*^9}, {3.902716530215951*^9, 3.9027165637866945`*^9}, {
+   3.90271663972305*^9, 3.902716699554519*^9}, {3.902716772204008*^9, 
+   3.902716849141235*^9}, {3.9027168820517225`*^9, 3.902717038350786*^9}, 
+   3.902717097282736*^9, {3.902717175474763*^9, 3.902717207227453*^9}, {
+   3.9027172521570125`*^9, 3.902717257491188*^9}, {3.9027175642264833`*^9, 
+   3.902717584105423*^9}, {3.9027176944665565`*^9, 3.9027177385145965`*^9}, 
+   3.9027177701681337`*^9},ExpressionUUID->"080f2dde-0454-4d27-acdf-\
+0021c42cb41f"],
 
 Cell[TextData[{
  StyleBox["About",
@@ -58589,8 +58633,7 @@ Cell[TextData[{
  StyleBox["\n",
   FontSize->12],
  StyleBox["Bayesian Diagnosis\nVersion Number 1.0\nHellenic Complex Systems \
-Laboratory 2023\nThe datasets have been obtained from the NHANES database. \
-They are editable.\nThis software is distributed under an ",
+Laboratory 2023\nThis software is distributed under an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Attribution - NonCommercial - ShareAlike 4.0 \
@@ -58618,14 +58661,17 @@ International Creative Commons License",
    3.8945129324325924`*^9, 3.8945129577291107`*^9}, {3.8945543659519515`*^9, 
    3.8945543691153607`*^9}, {3.9025314313414316`*^9, 
    3.9025314351601505`*^9}, {3.902531468543082*^9, 3.902531471420502*^9}, {
-   3.902531804785098*^9, 
-   3.9025318393529997`*^9}},ExpressionUUID->"46404344-e892-42af-ba46-\
+   3.902531804785098*^9, 3.9025318393529997`*^9}, {3.902716376988284*^9, 
+   3.902716409105589*^9}, 3.9027165187999363`*^9, {3.9027167813793097`*^9, 
+   3.9027167837456055`*^9}},ExpressionUUID->"46404344-e892-42af-ba46-\
 c1dc4ff25d19"]
 }, Open  ]]
 },
 WindowSize->{1430.25, 732.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 DockedCells->{},
+SpellingDictionaries->{"CorrectWords"->{
+ "Palamas", "Kostis", "glycated", "nondiseased"}},
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"2634fa2d-310d-4c0a-83ef-168316d85548"
@@ -58644,7 +58690,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Datasets", 3312991, 58637}
+ {"Datasets", 3315511, 58683}
  }
 *)
 (*NotebookFileOutline
@@ -58672,8 +58718,9 @@ Cell[372815, 5026, 646469, 13934, 19, "Input",ExpressionUUID->"1b5538c7-505f-482
 Cell[1019287, 18962, 2290284, 39592, 758, "Output",ExpressionUUID->"39a23089-fac0-4f1c-9033-a474dc801fea"]
 }, Open  ]]
 }, Open  ]],
-Cell[3309598, 58558, 1285, 25, 67, "Subsubsubsubsection",ExpressionUUID->"6e02de44-2a78-4951-bf85-66e2850280f4"],
-Cell[3310886, 58585, 1720, 37, 89, "Subsubsubsubsection",ExpressionUUID->"46404344-e892-42af-ba46-c1dc4ff25d19"]
+Cell[3309598, 58558, 1541, 29, 67, "Subsubsubsubsection",ExpressionUUID->"6e02de44-2a78-4951-bf85-66e2850280f4"],
+Cell[3311142, 58589, 2125, 38, 103, "Subsubsubsubsection",ExpressionUUID->"080f2dde-0454-4d27-acdf-0021c42cb41f"],
+Cell[3313270, 58629, 1764, 37, 75, "Subsubsubsubsection",ExpressionUUID->"46404344-e892-42af-ba46-c1dc4ff25d19"]
 }, Open  ]]
 }
 ]
